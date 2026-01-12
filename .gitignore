@@ -1,0 +1,44 @@
+# JSON files
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+debug_llm/
+grok_images_essay/
+# Environment variables
+.env
