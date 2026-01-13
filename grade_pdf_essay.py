@@ -14,7 +14,8 @@
 #
 # Env (.env):
 #   Grok_API=...
-#   Google_cloud_key=...
+#   AZURE_ENDPOINT=...
+#   AZURE_KEY=...
 #
 # Usage:
 #   python3 grade_pdf_essay.py --pdf Essay.pdf --output-json essay_result.json --output-pdf essay_annotated.pdf
@@ -27,11 +28,13 @@ import os
 import re
 import time
 from typing import Any, Dict, List, Tuple, Optional
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import requests
 from dotenv import load_dotenv
-from google.api_core.client_options import ClientOptions
-from google.cloud import vision
+from azure.ai.formrecognizer import DocumentAnalysisClient
+from azure.core.credentials import AzureKeyCredential
+from azure.core.exceptions import HttpResponseError
 import fitz  # PyMuPDF
 from docx import Document
 from PIL import Image, ImageDraw, ImageFont
@@ -54,6 +57,33 @@ def clean_json_from_llm(text: str) -> str:
     return text.strip()
 
 
+def _scrub_ocr_mentions(value: Any) -> Any:
+    """
+    Remove/replace OCR/legibility/scanning references from strings, recursively.
+    """
+    patterns = [
+        r"\bocr\b",
+        r"scann\w*",
+        r"legibil\w*",
+        r"handwriting",
+        r"illegible",
+        r"blurred",
+        r"smudge\w*",
+    ]
+    if isinstance(value, str):
+        cleaned = value
+        for pat in patterns:
+            cleaned = re.sub(pat, "content", cleaned, flags=re.IGNORECASE)
+        # strip extra spaces created by substitutions
+        cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
+        return cleaned
+    if isinstance(value, list):
+        return [_scrub_ocr_mentions(v) for v in value]
+    if isinstance(value, dict):
+        return {k: _scrub_ocr_mentions(v) for k, v in value.items()}
+    return value
+
+
 def _load_docx_text(path: str) -> str:
     doc = Document(path)
     parts: List[str] = []
@@ -64,22 +94,24 @@ def _load_docx_text(path: str) -> str:
     return "\n".join(parts)
 
 
-def load_environment() -> Tuple[str, vision.ImageAnnotatorClient]:
+def load_environment() -> Tuple[str, DocumentAnalysisClient]:
     load_dotenv()
     grok_key = os.getenv("Grok_API")
-    google_key = os.getenv("Google_cloud_key")
+    azure_endpoint = os.getenv("AZURE_ENDPOINT")
+    azure_key = os.getenv("AZURE_KEY")
     missing = []
     if not grok_key:
         missing.append("Grok_API")
-    if not google_key:
-        missing.append("Google_cloud_key")
+    if not azure_endpoint:
+        missing.append("AZURE_ENDPOINT")
+    if not azure_key:
+        missing.append("AZURE_KEY")
     if missing:
         raise EnvironmentError(
             f"Missing environment variable(s): {', '.join(missing)}. Please set them in your .env file."
         )
-    client_options = ClientOptions(api_key=google_key)
-    vision_client = vision.ImageAnnotatorClient(client_options=client_options)
-    return grok_key, vision_client
+    doc_client = DocumentAnalysisClient(endpoint=azure_endpoint, credential=AzureKeyCredential(azure_key))
+    return grok_key, doc_client
 
 
 def validate_input_paths(pdf_path: str, output_json_path: str, output_pdf_path: str) -> None:
@@ -163,7 +195,6 @@ def parse_json_with_repair(
             grok_api_key,
             messages=[{"role": "system", "content": "Return valid JSON only."}, fix_prompt],
             temperature=0.0,
-            max_tokens=8000,
         )
         repaired = data["choices"][0]["message"]["content"]
         repaired_clean = clean_json_from_llm(repaired)
@@ -191,51 +222,97 @@ def parse_json_with_repair(
 
 def pdf_to_page_images_for_grok(
     pdf_path: str,
-    max_pages: int = 25,
+    max_pages: Optional[int] = None,
     max_dim: int = 800,
-    base64_cap: int = 14000,
+    base64_cap: Optional[int] = None,
     output_dir: str = "grok_images_essay",
+    max_total_base64_chars: int = 240_000,
 ) -> List[Dict[str, Any]]:
+    """
+    Render PDF pages to JPEG and encode them for Grok.
+    Automatically downsizes/lowers quality until the combined base64 payload
+    stays under `max_total_base64_chars` to avoid Grok API size/context errors.
+    """
+
     os.makedirs(output_dir, exist_ok=True)
     doc = fitz.open(pdf_path)
+    try:
+        total_pages = doc.page_count if max_pages is None else min(doc.page_count, max_pages)
+        pil_pages: List[Image.Image] = []
+        for idx in range(total_pages):
+            pix = doc[idx].get_pixmap(dpi=200)
+            pil_pages.append(Image.open(io.BytesIO(pix.tobytes("png"))))
+    finally:
+        doc.close()
 
-    page_images: List[Dict[str, Any]] = []
-    for idx in range(min(doc.page_count, max_pages)):
-        page = doc[idx]
-        pix = page.get_pixmap(dpi=200)
-        img_bytes = pix.tobytes("png")
-        pil_img = Image.open(io.BytesIO(img_bytes))
+    # Start from the requested max_dim, then progressively reduce size/quality if needed.
+    dim_candidates_base = [800, 640, 560, 512, 448, 384, 360, 320]
+    dim_candidates = [max_dim] + [d for d in dim_candidates_base if d < max_dim]
+    dim_candidates = [d for i, d in enumerate(dim_candidates) if d not in dim_candidates[:i]]
+    quality_candidates = [65, 55, 45, 40, 35]
 
-        resized = pil_img.copy()
-        resized.thumbnail((max_dim, max_dim))
+    def _encode_pages(dim: int, quality: int, save_files: bool) -> Tuple[List[Dict[str, Any]], int]:
+        encoded_pages: List[Dict[str, Any]] = []
+        total_chars = 0
+        for idx, pil_img in enumerate(pil_pages):
+            img = pil_img.copy()
+            img.thumbnail((dim, dim))
 
-        if resized.mode in ("RGBA", "LA", "P"):
-            rgb = Image.new("RGB", resized.size, (255, 255, 255))
-            if resized.mode == "P":
-                resized = resized.convert("RGBA")
-            rgb.paste(resized, mask=resized.split()[-1] if resized.mode in ("RGBA", "LA") else None)
-            resized = rgb
-        elif resized.mode != "RGB":
-            resized = resized.convert("RGB")
+            if img.mode in ("RGBA", "LA", "P"):
+                rgb = Image.new("RGB", img.size, (255, 255, 255))
+                if img.mode == "P":
+                    img = img.convert("RGBA")
+                rgb.paste(img, mask=img.split()[-1] if img.mode in ("RGBA", "LA") else None)
+                img = rgb
+            elif img.mode != "RGB":
+                img = img.convert("RGB")
 
-        buffer = io.BytesIO()
-        resized.save(buffer, format="JPEG", quality=65, optimize=True)
+            buffer = io.BytesIO()
+            img.save(buffer, format="JPEG", quality=quality, optimize=True)
 
-        file_path = os.path.join(output_dir, f"page_{idx+1:03d}.jpg")
-        resized.save(file_path, format="JPEG", quality=65, optimize=True)
+            encoded = base64.b64encode(buffer.getvalue()).decode("utf-8")
+            truncated = False
+            if base64_cap is not None and len(encoded) > base64_cap:
+                encoded = encoded[:base64_cap]
+                truncated = True
 
-        encoded = base64.b64encode(buffer.getvalue()).decode("utf-8")
-        truncated = False
-        if len(encoded) > base64_cap:
-            encoded = encoded[:base64_cap]
-            truncated = True
+            total_chars += len(encoded)
+            file_path = None
+            if save_files:
+                file_path = os.path.join(output_dir, f"page_{idx+1:03d}.jpg")
+                with open(file_path, "wb") as f:
+                    f.write(buffer.getvalue())
 
-        page_images.append(
-            {"page": idx + 1, "image_base64": encoded, "file_path": file_path, "truncated": truncated}
+            encoded_pages.append(
+                {"page": idx + 1, "image_base64": encoded, "file_path": file_path, "truncated": truncated}
+            )
+        return encoded_pages, total_chars
+
+    chosen: Optional[Tuple[List[Dict[str, Any]], int, int, int]] = None
+    for dim in dim_candidates:
+        for quality in quality_candidates:
+            pages_tmp, total_chars = _encode_pages(dim, quality, save_files=False)
+            chosen = (pages_tmp, total_chars, dim, quality)
+            if max_total_base64_chars and total_chars > max_total_base64_chars:
+                continue
+            final_pages, final_total = _encode_pages(dim, quality, save_files=True)
+            print(
+                f"Saved {len(final_pages)} page images to '{output_dir}/' "
+                f"(dim={dim}, quality={quality}, total_base64_chars={final_total})"
+            )
+            return final_pages
+
+    # Fallback to the smallest attempted settings if nothing met the budget.
+    if chosen:
+        pages_tmp, total_chars, dim, quality = chosen
+        final_pages, final_total = _encode_pages(dim, quality, save_files=True)
+        print(
+            f"Saved {len(final_pages)} page images to '{output_dir}/' "
+            f"(dim={dim}, quality={quality}, total_base64_chars={final_total}) [fallback]"
         )
+        return final_pages
 
-    print(f"Saved {len(page_images)} page images to '{output_dir}/'")
-    return page_images
+    return []
 
 
 def get_report_page_size(
@@ -260,7 +337,7 @@ def get_report_page_size(
 
 
 # -----------------------------
-# OCR (Google Vision)
+# OCR (Azure Document Intelligence)
 # -----------------------------
 
 def _bbox_to_tuples(bbox) -> List[Tuple[int, int]]:
@@ -276,69 +353,166 @@ def _paragraph_text(paragraph) -> str:
 
 
 def _is_noise_text(text: str, bbox: List[Tuple[int, int]], page_w: int, page_h: int) -> bool:
-    if not text or not bbox:
+    if not text:
         return True
     if len(text.strip()) <= 2:
         return True
+    # If Azure doesn't provide a polygon, keep the text (we can't judge size)
+    if not bbox:
+        return False
     xs = [p[0] for p in bbox]
     ys = [p[1] for p in bbox]
     if not xs or not ys:
-        return True
+        return False
     w = max(xs) - min(xs)
     h = max(ys) - min(ys)
-    if w < 10 or h < 10:
-        return True
+    if page_w and page_h:
+        rel_w = w / max(1e-6, page_w)
+        rel_h = h / max(1e-6, page_h)
+        if rel_w < 0.002 or rel_h < 0.002:
+            return True
+    else:
+        if w < 2 or h < 2:
+            return True
     return False
 
 
-def run_ocr_on_pdf(vision_client: vision.ImageAnnotatorClient, pdf_path: str) -> Dict[str, Any]:
+def run_ocr_on_pdf(
+    doc_client: DocumentAnalysisClient,
+    pdf_path: str,
+    *,
+    workers: int = 3,
+    debug_pages_dir: Optional[str] = None,
+) -> Dict[str, Any]:
+    """
+    Run Azure OCR page by page to avoid document size limits.
+    Each page is rendered to JPEG, optionally resized/compressed on retry if Azure rejects size.
+    Runs pages in parallel (workers>1). Saves per-page debug JSON with bboxes if debug_pages_dir is provided.
+    """
+    def _analyze_image_bytes(img_bytes: bytes) -> Any:
+        poller = doc_client.begin_analyze_document("prebuilt-read", document=img_bytes)
+        return poller.result()
+
+    def _encode_page_img(pil_img: Image.Image, scale: float, quality: int) -> bytes:
+        img = pil_img.copy()
+        if scale != 1.0:
+            new_size = (max(1, int(img.width * scale)), max(1, int(img.height * scale)))
+            img = img.resize(new_size, Image.LANCZOS)
+        if img.mode != "RGB":
+            img = img.convert("RGB")
+        buf = io.BytesIO()
+        img.save(buf, format="JPEG", quality=quality, optimize=True)
+        return buf.getvalue()
+
     doc = fitz.open(pdf_path)
+    try:
+        pil_pages: List[Tuple[int, Image.Image]] = []
+        for idx in range(doc.page_count):
+            page = doc[idx]
+            pix = page.get_pixmap(dpi=180)
+            pil_pages.append((idx + 1, Image.open(io.BytesIO(pix.tobytes("png")))))
+    finally:
+        doc.close()
+
+    if debug_pages_dir:
+        os.makedirs(debug_pages_dir, exist_ok=True)
+
+    def _process_page(page_number: int, pil_img: Image.Image) -> Dict[str, Any]:
+        result = None
+        attempts = [(1.0, 75), (0.85, 70), (0.7, 60)]
+        last_err: Optional[Exception] = None
+        for scale, quality in attempts:
+            try:
+                img_bytes = _encode_page_img(pil_img, scale=scale, quality=quality)
+                result = _analyze_image_bytes(img_bytes)
+                used = {"scale": scale, "quality": quality}
+                break
+            except HttpResponseError as e:
+                last_err = e
+                if "InvalidContentLength" in str(e):
+                    continue
+                raise
+        if result is None:
+            raise RuntimeError(f"OCR failed on page {page_number}: {last_err}")
+
+        page_w = float(result.pages[0].width or 0.0) if result.pages else float(pil_img.width)
+        page_h = float(result.pages[0].height or 0.0) if result.pages else float(pil_img.height)
+        page_lines: List[Dict[str, Any]] = []
+
+        for p in result.pages:
+            page_words = list(p.words or [])
+            for line in p.lines or []:
+                text = (line.content or "").strip()
+                line_bbox = []
+                if line.polygon:
+                    line_bbox = [(int(pt.x), int(pt.y)) for pt in line.polygon]
+                if _is_noise_text(text, line_bbox, page_w, page_h):
+                    continue
+
+                matched_words = []
+                if not line.spans:
+                    page_lines.append({"text": text, "bbox": line_bbox, "words": []})
+                    continue
+
+                for word in page_words:
+                    wsp = getattr(word, "span", None)
+                    if not wsp:
+                        continue
+                    for lsp in line.spans:
+                        l_start = lsp.offset
+                        l_end = l_start + lsp.length
+                        w_start = wsp.offset
+                        w_end = w_start + wsp.length
+                        if w_start >= l_start and w_end <= l_end:
+                            w_bbox = []
+                            if word.polygon:
+                                w_bbox = [(int(pt.x), int(pt.y)) for pt in word.polygon]
+                            if _is_noise_text(word.content, w_bbox, page_w, page_h):
+                                continue
+                            matched_words.append({"text": word.content, "bbox": w_bbox})
+                            break
+                    else:
+                        continue
+                    break
+                else:
+                    for word in page_words:
+                        w_bbox = [(int(pt.x), int(pt.y)) for pt in word.polygon] if word.polygon else []
+                        if _is_noise_text(word.content, w_bbox, page_w, page_h):
+                            continue
+                        matched_words.append({"text": word.content, "bbox": w_bbox})
+
+                if matched_words:
+                    page_lines.append({"text": text, "bbox": line_bbox, "words": matched_words})
+
+        page_text = " ".join([(ln.content or "").strip() for ln in (p.lines or []) if (ln.content or "").strip()])
+        debug_payload = {
+            "page_number": page_number,
+            "page_width": page_w,
+            "page_height": page_h,
+            "lines": page_lines,
+            "ocr_full_text_page": page_text,
+            "attempt": used if result else {},
+        }
+
+        return debug_payload
+
     pages_output: List[Dict[str, Any]] = []
     full_text_parts: List[str] = []
 
-    for idx in range(doc.page_count):
-        page = doc[idx]
-        pix = page.get_pixmap(dpi=200)
-        img_bytes = pix.tobytes("png")
-        pil_img = Image.open(io.BytesIO(img_bytes))
+    worker_count = max(1, int(workers or 1))
+    with ThreadPoolExecutor(max_workers=worker_count) as ex:
+        futures = {ex.submit(_process_page, num, img): num for num, img in pil_pages}
+        for future in as_completed(futures):
+            page_number = futures[future]
+            data = future.result()
+            pages_output.append({"page_number": data["page_number"], "lines": data["lines"]})
+            full_text_parts.append(data["ocr_full_text_page"])
+            if debug_pages_dir:
+                out_path = os.path.join(debug_pages_dir, f"page_{page_number:03d}.json")
+                with open(out_path, "w", encoding="utf-8") as f:
+                    json.dump(data, f, ensure_ascii=False, indent=2)
 
-        page_w, page_h = pil_img.size
-        buffer = io.BytesIO()
-        pil_img.save(buffer, format="PNG")
-        vision_image = vision.Image(content=buffer.getvalue())
-
-        response = vision_client.document_text_detection(image=vision_image)
-        if response.error.message:
-            raise RuntimeError(f"OCR failed on page {idx+1}: {response.error.message}")
-
-        page_lines: List[Dict[str, Any]] = []
-        annotation = response.full_text_annotation
-
-        if annotation:
-            full_text_parts.append((annotation.text or "").strip())
-            for apage in annotation.pages:
-                for block in apage.blocks:
-                    for paragraph in block.paragraphs:
-                        text = _paragraph_text(paragraph)
-                        para_bbox = _bbox_to_tuples(paragraph.bounding_box)
-                        if _is_noise_text(text, para_bbox, page_w, page_h):
-                            continue
-
-                        word_entries: List[Dict[str, Any]] = []
-                        for word in paragraph.words:
-                            w_text = "".join(symbol.text for symbol in word.symbols).strip()
-                            if not w_text:
-                                continue
-                            w_bbox = _bbox_to_tuples(word.bounding_box)
-                            if _is_noise_text(w_text, w_bbox, page_w, page_h):
-                                continue
-                            word_entries.append({"text": w_text, "bbox": w_bbox})
-
-                        if word_entries:
-                            page_lines.append({"text": text, "bbox": para_bbox, "words": word_entries})
-
-        pages_output.append({"page_number": idx + 1, "lines": page_lines})
-
+    pages_output.sort(key=lambda x: x.get("page_number", 0))
     return {"pages": pages_output, "full_text": "\n".join([t for t in full_text_parts if t]).strip()}
 
 
@@ -367,14 +541,16 @@ def _grok_chat(
     messages: List[Dict[str, str]],
     model: str = "grok-4-fast-reasoning",
     temperature: float = 0.15,
-    max_tokens: int = 8000,
+    max_tokens: Optional[int] = None,
     timeout: int = 180,
     max_retries: int = 3,
     backoff_base: float = 1.6,
     backoff_max: float = 20.0,
 ) -> Dict[str, Any]:
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {grok_api_key}"}
-    payload = {"model": model, "messages": messages, "temperature": temperature, "max_tokens": max_tokens}
+    payload = {"model": model, "messages": messages, "temperature": temperature}
+    if max_tokens is not None:
+        payload["max_tokens"] = max_tokens
     last_err: Optional[Exception] = None
 
     for attempt in range(max_retries + 1):
@@ -435,7 +611,8 @@ def call_grok_for_essay_structure_paragraphs_only(
             "You are an expert CSS English Essay examiner.\n"
             "Essay may include headings or section markers. Do not invent headings; only report if visible.\n"
             "First part is Outline, then Intro/Body/Conclusion as paragraph blocks.\n"
-            "Primary truth = page images. OCR is only helper.\n"
+            "Primary truth = page images. OCR is only helper; ignore OCR errors and never mention them.\n"
+            "When returning the topic/title, use the exact wording written in the answer—no rephrasing or additions.\n"
             "Return JSON only."
         ),
     }
@@ -445,8 +622,8 @@ def call_grok_for_essay_structure_paragraphs_only(
     for p in ocr_data.get("pages", []):
         lines = []
         for line in p.get("lines", []):
-            lines.append((line.get("text") or "")[:180])
-        sanitized_pages.append({"page_number": p.get("page_number"), "lines_preview": lines[:18]})
+            lines.append((line.get("text") or ""))
+        sanitized_pages.append({"page_number": p.get("page_number"), "lines_preview": lines})
 
     user_payload = {
         "task": (
@@ -458,9 +635,12 @@ def call_grok_for_essay_structure_paragraphs_only(
             "Outline is typically a numbered/roman list or bullet plan early (often page 1).",
             "If outline is missing or weak, say so strongly.",
             "role_guess is best-effort: outline, intro, body, conclusion, mixed.",
+            "Ignore OCR errors; do not mention OCR quality, legibility, scanning, handwriting, blurring, or smudging anywhere.",
+            "Topic must be verbatim as written in the essay; never expand or paraphrase.",
+            "If parts are unreadable, say 'content unclear' without blaming OCR/scan/handwriting.",
         ],
         "ocr_pages_preview": sanitized_pages,
-        "ocr_full_text": (ocr_data.get("full_text") or "")[:6000],
+        "ocr_full_text": (ocr_data.get("full_text") or ""),
         "page_images": page_images,
         "output_schema": {
             "topic": "string",
@@ -480,10 +660,10 @@ def call_grok_for_essay_structure_paragraphs_only(
         grok_api_key,
         messages=[system, {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}],
         temperature=0.1,
-        max_tokens=4500,
     )
     content = data["choices"][0]["message"]["content"]
-    return json.loads(clean_json_from_llm(content))
+    parsed = json.loads(clean_json_from_llm(content))
+    return _scrub_ocr_mentions(parsed)
 
 
 def call_grok_for_essay_grading_strict_range(
@@ -606,14 +786,17 @@ def call_grok_for_essay_grading_strict_range(
         "5) Headings or section markers may appear; do NOT assume they are absent.\n"
         "   Judge structure based on outline quality, paragraph flow, and any visible headings.\n"
         "6) total_awarded_range must be consistent with the sum of all ranges and kept conservative.\n"
+        "7) Ignore OCR errors completely; do NOT mention OCR quality, misreads, legibility, handwriting, blurring, smudging, or scanning issues in any field.\n"
+        "8) Topic must be verbatim from the essay as written; do not rephrase, shorten, or expand it.\n"
+        "9) Do NOT call the essay garbage, OCR output, or scanning errors. Evaluate the submission as-is; if writing is incoherent, critique clarity/relevance/logic instead of blaming OCR.\n"
         "Return JSON only matching schema."
     )
 
     payload = {
-        "essay_rubric_text": (essay_rubric_text or "")[:6000],
-        "report_format_text": (report_format_text or "")[:4000],
+        "essay_rubric_text": (essay_rubric_text or ""),
+        "report_format_text": (report_format_text or ""),
         "structure_detected": structure,
-        "ocr_full_text": (ocr_data.get("full_text") or "")[:12000],
+        "ocr_full_text": (ocr_data.get("full_text") or ""),
         "page_images": page_images,
         "output_schema": schema_hint,
     }
@@ -636,7 +819,6 @@ def call_grok_for_essay_grading_strict_range(
             grok_api_key,
             messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
             temperature=0.12,
-            max_tokens=7500,
         )
         content = data["choices"][0]["message"]["content"]
         parsed = parse_json_with_repair(grok_api_key, content, debug_tag="essay_grading")
@@ -648,11 +830,11 @@ def call_grok_for_essay_grading_strict_range(
 
 
 
-def _compact_ocr_page(page: Dict[str, Any], max_lines: int = 16, max_words: int = 16) -> Dict[str, Any]:
+def _compact_ocr_page(page: Dict[str, Any]) -> Dict[str, Any]:
     lines = []
-    for line in page.get("lines", [])[:max_lines]:
-        line_text = (line.get("text") or "")[:220]
-        words = [w.get("text", "") for w in (line.get("words") or [])][:max_words]
+    for line in page.get("lines", []):
+        line_text = (line.get("text") or "")
+        words = [w.get("text", "") for w in (line.get("words") or [])]
         lines.append({"text": line_text, "words": words})
     return {"page_number": page.get("page_number"), "lines": lines}
 
@@ -691,7 +873,7 @@ def call_grok_for_essay_annotations(
         "role": "system",
         "content": (
             "You generate pinpoint annotations for handwritten CSS essays.\n"
-            "Primary truth = page images; OCR is helper.\n"
+            "Primary truth = page images; OCR is helper. Ignore OCR errors and never mention them.\n"
             "Return JSON only."
         ),
     }
@@ -725,6 +907,7 @@ def call_grok_for_essay_annotations(
         "  organization_coherence, conclusion_quality, relevance_focus.\n"
         "- Headings or section markers may appear. Do not assume they are absent.\n"
         "- Also create page_suggestions: 2-4 short bullets for this page only.\n"
+        "- Ignore OCR errors; never mention OCR quality, legibility, handwriting, blurring, smudging, or scanning issues anywhere.\n"
         "Return JSON only matching the schema."
     )
 
@@ -742,11 +925,11 @@ def call_grok_for_essay_annotations(
     grading_summary = {
         "overall_rating": grading.get("overall_rating"),
         "total_awarded_range": grading.get("total_awarded_range"),
-        "criteria": grading.get("criteria", [])[:4],
+        "criteria": grading.get("criteria", []),
     }
     structure_summary = {
         "outline": structure.get("outline"),
-        "paragraph_map": structure.get("paragraph_map", [])[:6],
+        "paragraph_map": structure.get("paragraph_map", []),
     }
 
     for page in ocr_pages:
@@ -757,11 +940,11 @@ def call_grok_for_essay_annotations(
             continue
 
         payload = {
-            "annotations_rubric_text": (annotations_rubric_text or "")[:3000],
+            "annotations_rubric_text": (annotations_rubric_text or ""),
             "grading_summary": grading_summary,
             "structure_detected": structure_summary,
             "ocr_page": _compact_ocr_page(page),
-            "ocr_full_text": (ocr_data.get("full_text") or "")[:4000],
+            "ocr_full_text": (ocr_data.get("full_text") or ""),
             "page_image": image_by_page.get(page_num),
             "output_schema": schema_hint,
         }
@@ -771,7 +954,6 @@ def call_grok_for_essay_annotations(
                 grok_api_key,
                 messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
                 temperature=0.12,
-                max_tokens=1400,
                 timeout=200,
                 max_retries=4,
             )
@@ -912,8 +1094,15 @@ def render_essay_report_pages_range(
             return False, None
         draw.text((margin, y), "Essay Evaluation Report", font=title_font, fill=(0, 0, 0))
         y += int(110 * scale)
-        draw.text((margin, y), f"Topic: {topic}", font=header_font, fill=(0, 0, 0))
-        y += int(70 * scale)
+
+        # Wrap topic to keep it on-page
+        topic_lines = _wrap_text(draw, f"Topic: {topic}", header_font, W - 2 * margin)
+        for ln in topic_lines:
+            if not ensure_space(int(70 * scale)):
+                return False, None
+            draw.text((margin, y), ln, font=header_font, fill=(0, 0, 0))
+            y += int(70 * scale)
+
         draw.text((margin, y), f"Total Marks (Range): {total_range}/100", font=header_font, fill=(0, 0, 0))
         y += int(70 * scale)
 
@@ -999,7 +1188,7 @@ def render_essay_report_pages_range(
                 bullets = ["(Not provided)"]
             tmp_img = Image.new("RGB", (10, 10), "white")
             tmp_draw = ImageDraw.Draw(tmp_img)
-            for b in bullets[:12]:
+            for b in bullets:
                 wrapped = _wrap_text(tmp_draw, str(b), small_font, W - 2 * margin - int(40 * scale))
                 for j, ln in enumerate(wrapped):
                     if not ensure_space(int(55 * scale)):
@@ -1093,25 +1282,56 @@ def main():
     parser.add_argument("--essay-rubric-docx", default="CSS English Essay Evaluation Rubric Based on FPSC Examiners.docx")
     parser.add_argument("--annotations-rubric-docx", default="ANNOTATIONS RUBRIC FOR ESSAY.docx")
     parser.add_argument("--report-format-docx", default="Report Format.docx")
+    parser.add_argument("--ocr-workers", type=int, default=3, help="Parallel Azure OCR workers (pages in flight)")
+    parser.add_argument(
+        "--debug-ocr-pages-dir",
+        default="debug_llm/ocr_pages",
+        help="Directory to save per-page OCR debug JSON with bounding boxes (set empty to disable)",
+    )
+    parser.add_argument(
+        "--debug-structure-json",
+        default="debug_llm/structure_raw.json",
+        help="Optional path to save raw structure result",
+    )
+    parser.add_argument(
+        "--debug-ocr-json",
+        default="debug_llm/ocr_full.json",
+        help="Optional path to save full OCR output for debugging",
+    )
     args = parser.parse_args()
 
     validate_input_paths(args.pdf, args.output_json, args.output_pdf)
 
-    grok_key, vision_client = load_environment()
+    grok_key, doc_client = load_environment()
 
     essay_rubric_text = load_essay_rubric_text(args.essay_rubric_docx)
     annotations_rubric_text = load_annotations_rubric_text(args.annotations_rubric_docx)
     report_format_text = load_report_format_text(args.report_format_docx)
 
-    print("Running OCR (Google Vision)...")
-    ocr_data = run_ocr_on_pdf(vision_client, args.pdf)
+    print("Running OCR (Azure Document Intelligence)...")
+    ocr_data = run_ocr_on_pdf(
+        doc_client,
+        args.pdf,
+        workers=args.ocr_workers,
+        debug_pages_dir=args.debug_ocr_pages_dir or None,
+    )
     print("OCR done.")
+    if args.debug_ocr_json:
+        os.makedirs(os.path.dirname(args.debug_ocr_json), exist_ok=True)
+        with open(args.debug_ocr_json, "w", encoding="utf-8") as f:
+            f.write(ocr_data.get("full_text", ""))
+        print(f"OCR full text saved to {args.debug_ocr_json}")
 
-    page_images = pdf_to_page_images_for_grok(args.pdf, max_pages=25)
+    page_images = pdf_to_page_images_for_grok(args.pdf)
 
     print("Calling Grok for structure detection (outline first)...")
     structure = call_grok_for_essay_structure_paragraphs_only(grok_key, ocr_data, page_images)
     print("Structure detected.")
+    if args.debug_structure_json:
+        os.makedirs(os.path.dirname(args.debug_structure_json), exist_ok=True)
+        with open(args.debug_structure_json, "w", encoding="utf-8") as f:
+            json.dump(structure, f, ensure_ascii=False, indent=2)
+        print(f"Structure saved to {args.debug_structure_json}")
 
     print("Calling Grok for STRICT range grading...")
     grading = call_grok_for_essay_grading_strict_range(
