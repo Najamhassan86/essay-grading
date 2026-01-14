@@ -1,0 +1,716 @@
+{
+  "page_number": 20,
+  "page_width": 1488.0,
+  "page_height": 2105.0,
+  "lines": [
+    {
+      "text": "not remains",
+      "bbox": [
+        [
+          271,
+          297
+        ],
+        [
+          630,
+          297
+        ],
+        [
+          630,
+          339
+        ],
+        [
+          271,
+          340
+        ]
+      ],
+      "words": [
+        {
+          "text": "not",
+          "bbox": [
+            [
+              278,
+              298
+            ],
+            [
+              363,
+              300
+            ],
+            [
+              363,
+              340
+            ],
+            [
+              279,
+              341
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "a distant dream.",
+      "bbox": [
+        [
+          636,
+          296
+        ],
+        [
+          1185,
+          295
+        ],
+        [
+          1185,
+          338
+        ],
+        [
+          636,
+          339
+        ]
+      ],
+      "words": [
+        {
+          "text": "distant",
+          "bbox": [
+            [
+              837,
+              297
+            ],
+            [
+              1002,
+              296
+            ],
+            [
+              1003,
+              337
+            ],
+            [
+              838,
+              337
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "By institutionalizing global cooperation",
+      "bbox": [
+        [
+          280,
+          348
+        ],
+        [
+          1293,
+          348
+        ],
+        [
+          1293,
+          392
+        ],
+        [
+          280,
+          393
+        ]
+      ],
+      "words": [
+        {
+          "text": "institutionalizing",
+          "bbox": [
+            [
+              441,
+              349
+            ],
+            [
+              824,
+              349
+            ],
+            [
+              824,
+              393
+            ],
+            [
+              440,
+              394
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "through unbiased global institutions,",
+      "bbox": [
+        [
+          287,
+          402
+        ],
+        [
+          1234,
+          403
+        ],
+        [
+          1234,
+          447
+        ],
+        [
+          287,
+          446
+        ]
+      ],
+      "words": [
+        {
+          "text": "through",
+          "bbox": [
+            [
+              295,
+              404
+            ],
+            [
+              445,
+              403
+            ],
+            [
+              444,
+              444
+            ],
+            [
+              294,
+              445
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "adopting preventing diplomacy and",
+      "bbox": [
+        [
+          290,
+          453
+        ],
+        [
+          1234,
+          454
+        ],
+        [
+          1234,
+          500
+        ],
+        [
+          290,
+          499
+        ]
+      ],
+      "words": [
+        {
+          "text": "adopting",
+          "bbox": [
+            [
+              293,
+              453
+            ],
+            [
+              488,
+              457
+            ],
+            [
+              487,
+              499
+            ],
+            [
+              292,
+              500
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "prioritizing soft power engagement,",
+      "bbox": [
+        [
+          284,
+          510
+        ],
+        [
+          1287,
+          511
+        ],
+        [
+          1287,
+          556
+        ],
+        [
+          284,
+          554
+        ]
+      ],
+      "words": [
+        {
+          "text": "prioritizing",
+          "bbox": [
+            [
+              286,
+              510
+            ],
+            [
+              537,
+              511
+            ],
+            [
+              537,
+              550
+            ],
+            [
+              286,
+              555
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the world can peacefully transition",
+      "bbox": [
+        [
+          302,
+          560
+        ],
+        [
+          1308,
+          561
+        ],
+        [
+          1308,
+          606
+        ],
+        [
+          302,
+          601
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              305,
+              561
+            ],
+            [
+              370,
+              562
+            ],
+            [
+              368,
+              599
+            ],
+            [
+              304,
+              598
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "toward multipolarity. As Ronald",
+      "bbox": [
+        [
+          293,
+          611
+        ],
+        [
+          1173,
+          611
+        ],
+        [
+          1173,
+          659
+        ],
+        [
+          293,
+          657
+        ]
+      ],
+      "words": [
+        {
+          "text": "toward",
+          "bbox": [
+            [
+              295,
+              612
+            ],
+            [
+              449,
+              615
+            ],
+            [
+              448,
+              657
+            ],
+            [
+              294,
+              655
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Reagan remarked, \"Peace is not the",
+      "bbox": [
+        [
+          282,
+          667
+        ],
+        [
+          1296,
+          670
+        ],
+        [
+          1296,
+          714
+        ],
+        [
+          282,
+          711
+        ]
+      ],
+      "words": [
+        {
+          "text": "Reagan",
+          "bbox": [
+            [
+              285,
+              669
+            ],
+            [
+              425,
+              668
+            ],
+            [
+              423,
+              711
+            ],
+            [
+              284,
+              712
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "absence",
+      "bbox": [
+        [
+          286,
+          726
+        ],
+        [
+          460,
+          730
+        ],
+        [
+          459,
+          764
+        ],
+        [
+          285,
+          761
+        ]
+      ],
+      "words": [
+        {
+          "text": "absence",
+          "bbox": [
+            [
+              288,
+              727
+            ],
+            [
+              451,
+              731
+            ],
+            [
+              450,
+              764
+            ],
+            [
+              287,
+              762
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of conflicts, but the",
+      "bbox": [
+        [
+          475,
+          723
+        ],
+        [
+          1197,
+          723
+        ],
+        [
+          1197,
+          765
+        ],
+        [
+          475,
+          766
+        ]
+      ],
+      "words": [
+        {
+          "text": "conflicts,",
+          "bbox": [
+            [
+              703,
+              725
+            ],
+            [
+              929,
+              723
+            ],
+            [
+              927,
+              764
+            ],
+            [
+              701,
+              764
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ability",
+      "bbox": [
+        [
+          305,
+          782
+        ],
+        [
+          570,
+          776
+        ],
+        [
+          570,
+          812
+        ],
+        [
+          306,
+          816
+        ]
+      ],
+      "words": [
+        {
+          "text": "ability",
+          "bbox": [
+            [
+              307,
+              782
+            ],
+            [
+              468,
+              779
+            ],
+            [
+              468,
+              815
+            ],
+            [
+              307,
+              816
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "to handle conflicts by",
+      "bbox": [
+        [
+          578,
+          776
+        ],
+        [
+          1240,
+          781
+        ],
+        [
+          1240,
+          820
+        ],
+        [
+          578,
+          814
+        ]
+      ],
+      "words": [
+        {
+          "text": "handle",
+          "bbox": [
+            [
+              704,
+              777
+            ],
+            [
+              855,
+              778
+            ],
+            [
+              854,
+              818
+            ],
+            [
+              703,
+              816
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "peaceful means.\"",
+      "bbox": [
+        [
+          278,
+          835
+        ],
+        [
+          708,
+          832
+        ],
+        [
+          709,
+          870
+        ],
+        [
+          279,
+          872
+        ]
+      ],
+      "words": [
+        {
+          "text": "peaceful",
+          "bbox": [
+            [
+              280,
+              837
+            ],
+            [
+              462,
+              835
+            ],
+            [
+              462,
+              872
+            ],
+            [
+              281,
+              872
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Scanned with",
+      "bbox": [
+        [
+          1281,
+          2014
+        ],
+        [
+          1414,
+          2014
+        ],
+        [
+          1414,
+          2035
+        ],
+        [
+          1281,
+          2035
+        ]
+      ],
+      "words": [
+        {
+          "text": "Scanned",
+          "bbox": [
+            [
+              1284,
+              2015
+            ],
+            [
+              1365,
+              2015
+            ],
+            [
+              1365,
+              2035
+            ],
+            [
+              1285,
+              2035
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CS CamScanner",
+      "bbox": [
+        [
+          1258,
+          2042
+        ],
+        [
+          1441,
+          2044
+        ],
+        [
+          1441,
+          2068
+        ],
+        [
+          1258,
+          2066
+        ]
+      ],
+      "words": [
+        {
+          "text": "CamScanner",
+          "bbox": [
+            [
+              1294,
+              2043
+            ],
+            [
+              1441,
+              2044
+            ],
+            [
+              1441,
+              2068
+            ],
+            [
+              1294,
+              2066
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "ocr_full_text_page": "not remains a distant dream. By institutionalizing global cooperation through unbiased global institutions, adopting preventing diplomacy and prioritizing soft power engagement, the world can peacefully transition toward multipolarity. As Ronald Reagan remarked, \"Peace is not the absence of conflicts, but the ability to handle conflicts by peaceful means.\" 7 1 Scanned with CS CamScanner",
+  "attempt": {
+    "scale": 1.0,
+    "quality": 75
+  }
+}

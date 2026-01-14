@@ -586,8 +586,9 @@ def call_grok_for_essay_structure_paragraphs_only(
 ) -> Dict[str, Any]:
     """
     Essay structure for this pipeline:
-      - Outline first (expected)
-      - Then essay as paragraphs; headings or section markers may appear
+      - Outline first (expected) across ~3-4 pages; can include headings and short paragraph-style bullets/sections
+      - Then essay as paragraphs (~10-12 pages); headings or section markers may appear
+      - Identify where the outline ends and the main essay begins
 
     Output schema:
     {
@@ -599,6 +600,9 @@ def call_grok_for_essay_structure_paragraphs_only(
         "issues": ["..."],
         "strengths": ["..."]
       },
+      "outline_span": {"start_page": 1, "end_page": 3},
+      "outline_sections": [{"title": "string", "page": 1, "notes": "string"}],
+      "essay_start_page": 4,
       "paragraph_map": [
         {"page": 1, "role_guess": "outline|intro|body|conclusion|mixed", "notes": "short"}
       ],
@@ -632,11 +636,13 @@ def call_grok_for_essay_structure_paragraphs_only(
         ),
         "rules": [
             "Do NOT invent headings or sections; only report if visible.",
-            "Outline is typically a numbered/roman list or bullet plan early (often page 1).",
+            "Outline is typically a numbered/roman list or bullet plan early (often page 1) spanning ~3-4 pages; may include headings and short paragraphs.",
             "If outline is missing or weak, say so strongly.",
             "role_guess is best-effort: outline, intro, body, conclusion, mixed.",
             "Ignore OCR errors; do not mention OCR quality, legibility, scanning, handwriting, blurring, or smudging anywhere.",
             "Topic must be verbatim as written in the essay; never expand or paraphrase.",
+            "After the outline, the main essay continues for ~10-12 pages as paragraphs; identify the page where the outline ends and essay begins.",
+            "List each outline section with its page number; use the visible heading/phrase as the title (do not invent).",
             "If parts are unreadable, say 'content unclear' without blaming OCR/scan/handwriting.",
         ],
         "ocr_pages_preview": sanitized_pages,
@@ -651,6 +657,9 @@ def call_grok_for_essay_structure_paragraphs_only(
                 "issues": ["..."],
                 "strengths": ["..."],
             },
+            "outline_span": {"start_page": 1, "end_page": 3},
+            "outline_sections": [{"title": "Section title", "page": 1, "notes": "short"}],
+            "essay_start_page": 4,
             "paragraph_map": [{"page": 1, "role_guess": "outline", "notes": "short"}],
             "overall_flow_comment": "short",
         },
@@ -786,9 +795,11 @@ def call_grok_for_essay_grading_strict_range(
         "5) Headings or section markers may appear; do NOT assume they are absent.\n"
         "   Judge structure based on outline quality, paragraph flow, and any visible headings.\n"
         "6) total_awarded_range must be consistent with the sum of all ranges and kept conservative.\n"
-        "7) Ignore OCR errors completely; do NOT mention OCR quality, misreads, legibility, handwriting, blurring, smudging, or scanning issues in any field.\n"
+        "7) Ignore OCR errors completely; do NOT mention OCR quality, misreads, legibility, handwriting, blurring, smudging, or scanning issues in any field. Never add OCR-related caveats or apologies.\n"
         "8) Topic must be verbatim from the essay as written; do not rephrase, shorten, or expand it.\n"
         "9) Do NOT call the essay garbage, OCR output, or scanning errors. Evaluate the submission as-is; if writing is incoherent, critique clarity/relevance/logic instead of blaming OCR.\n"
+        "10) Each marks_awarded_range must have a gap of at most 3 points (e.g., 6-8 or 7-9, not 6-10).\n"
+        "11) total_awarded_range MUST equal the sum of all lower bounds and upper bounds respectively across criteria (sum of lows - sum of highs).\n"
         "Return JSON only matching schema."
     )
 
@@ -813,6 +824,34 @@ def call_grok_for_essay_grading_strict_range(
             return False
         return True
 
+    def _parse_range(rng: str) -> Tuple[int, int]:
+        parts = str(rng).split("-")
+        if len(parts) != 2:
+            return 0, 0
+        try:
+            lo = int(parts[0])
+            hi = int(parts[1])
+        except Exception:
+            return 0, 0
+        if hi < lo:
+            lo, hi = hi, lo
+        return lo, hi
+
+    def _enforce_range_rules(parsed: Dict[str, Any]) -> Dict[str, Any]:
+        crit_list = parsed.get("criteria") or []
+        sum_lo = 0
+        sum_hi = 0
+        for c in crit_list:
+            rng = c.get("marks_awarded_range", "0-0")
+            lo, hi = _parse_range(rng)
+            if hi - lo > 3:
+                hi = lo + 3
+            c["marks_awarded_range"] = f"{lo}-{hi}"
+            sum_lo += lo
+            sum_hi += hi
+        parsed["total_awarded_range"] = f"{sum_lo}-{sum_hi}"
+        return parsed
+
     last_err: Optional[Exception] = None
     for _ in range(2):
         data = _grok_chat(
@@ -822,6 +861,7 @@ def call_grok_for_essay_grading_strict_range(
         )
         content = data["choices"][0]["message"]["content"]
         parsed = parse_json_with_repair(grok_api_key, content, debug_tag="essay_grading")
+        parsed = _enforce_range_rules(parsed)
         if _is_valid_grading(parsed):
             return parsed
         last_err = ValueError("Invalid grading JSON: missing required fields")
@@ -1344,7 +1384,6 @@ def main():
     )
     print("Grading done.")
 
-    '''
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1353,8 +1392,7 @@ def main():
         structure=structure,
         grading=grading,
         page_images=page_images,
-    )'''
-    ann_pack = {"annotations": [], "page_suggestions": [], "errors": []}
+    )
     
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []

@@ -1,0 +1,1332 @@
+{
+  "page_number": 1,
+  "page_width": 1488.0,
+  "page_height": 2105.0,
+  "lines": [
+    {
+      "text": "READ RIGHT",
+      "bbox": [
+        [
+          353,
+          76
+        ],
+        [
+          716,
+          72
+        ],
+        [
+          717,
+          127
+        ],
+        [
+          353,
+          132
+        ]
+      ],
+      "words": [
+        {
+          "text": "READ",
+          "bbox": [
+            [
+              355,
+              76
+            ],
+            [
+              491,
+              75
+            ],
+            [
+              490,
+              132
+            ],
+            [
+              354,
+              133
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "INSTITUTE",
+      "bbox": [
+        [
+          446,
+          126
+        ],
+        [
+          626,
+          126
+        ],
+        [
+          627,
+          160
+        ],
+        [
+          446,
+          161
+        ]
+      ],
+      "words": [
+        {
+          "text": "INSTITUTE",
+          "bbox": [
+            [
+              450,
+              127
+            ],
+            [
+              625,
+              127
+            ],
+            [
+              626,
+              160
+            ],
+            [
+              448,
+              162
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SYED TAIMOOR BUKHARI",
+      "bbox": [
+        [
+          396,
+          180
+        ],
+        [
+          678,
+          179
+        ],
+        [
+          679,
+          210
+        ],
+        [
+          396,
+          212
+        ]
+      ],
+      "words": [
+        {
+          "text": "SYED",
+          "bbox": [
+            [
+              396,
+              182
+            ],
+            [
+              449,
+              181
+            ],
+            [
+              449,
+              212
+            ],
+            [
+              396,
+              212
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Date :......... / ......... /20 ...",
+      "bbox": [
+        [
+          948,
+          130
+        ],
+        [
+          1201,
+          129
+        ],
+        [
+          1202,
+          157
+        ],
+        [
+          948,
+          160
+        ]
+      ],
+      "words": [
+        {
+          "text": "Date",
+          "bbox": [
+            [
+              950,
+              132
+            ],
+            [
+              995,
+              130
+            ],
+            [
+              995,
+              160
+            ],
+            [
+              950,
+              161
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWD",
+      "bbox": [
+        [
+          942,
+          172
+        ],
+        [
+          1086,
+          171
+        ],
+        [
+          1086,
+          200
+        ],
+        [
+          942,
+          202
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWD",
+          "bbox": [
+            [
+              945,
+              172
+            ],
+            [
+              1085,
+              172
+            ],
+            [
+              1086,
+              200
+            ],
+            [
+              944,
+              203
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "JFOS",
+      "bbox": [
+        [
+          1129,
+          167
+        ],
+        [
+          1217,
+          167
+        ],
+        [
+          1217,
+          202
+        ],
+        [
+          1128,
+          200
+        ]
+      ],
+      "words": [
+        {
+          "text": "JFOS",
+          "bbox": [
+            [
+              1130,
+              167
+            ],
+            [
+              1209,
+              167
+            ],
+            [
+              1209,
+              202
+            ],
+            [
+              1129,
+              201
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Strengthen the Female Mind",
+      "bbox": [
+        [
+          354,
+          267
+        ],
+        [
+          1183,
+          263
+        ],
+        [
+          1184,
+          347
+        ],
+        [
+          354,
+          354
+        ]
+      ],
+      "words": [
+        {
+          "text": "Strengthen",
+          "bbox": [
+            [
+              358,
+              276
+            ],
+            [
+              638,
+              266
+            ],
+            [
+              639,
+              354
+            ],
+            [
+              358,
+              354
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "by Enlarging it and there will",
+      "bbox": [
+        [
+          299,
+          397
+        ],
+        [
+          1207,
+          387
+        ],
+        [
+          1208,
+          465
+        ],
+        [
+          300,
+          480
+        ]
+      ],
+      "words": [
+        {
+          "text": "Enlarging",
+          "bbox": [
+            [
+              387,
+              398
+            ],
+            [
+              658,
+              391
+            ],
+            [
+              661,
+              477
+            ],
+            [
+              390,
+              480
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "be an End to Blind Obedience",
+      "bbox": [
+        [
+          322,
+          514
+        ],
+        [
+          1234,
+          511
+        ],
+        [
+          1234,
+          592
+        ],
+        [
+          322,
+          594
+        ]
+      ],
+      "words": [
+        {
+          "text": "End",
+          "bbox": [
+            [
+              531,
+              517
+            ],
+            [
+              647,
+              515
+            ],
+            [
+              648,
+              593
+            ],
+            [
+              532,
+              593
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "I. Introduction",
+      "bbox": [
+        [
+          299,
+          710
+        ],
+        [
+          678,
+          709
+        ],
+        [
+          679,
+          765
+        ],
+        [
+          299,
+          767
+        ]
+      ],
+      "words": [
+        {
+          "text": "Introduction",
+          "bbox": [
+            [
+              363,
+              710
+            ],
+            [
+              671,
+              709
+            ],
+            [
+              671,
+              764
+            ],
+            [
+              362,
+              767
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It is an undeniable reality that by",
+      "bbox": [
+        [
+          511,
+          777
+        ],
+        [
+          1190,
+          774
+        ],
+        [
+          1191,
+          827
+        ],
+        [
+          511,
+          830
+        ]
+      ],
+      "words": [
+        {
+          "text": "undeniable",
+          "bbox": [
+            [
+              677,
+              778
+            ],
+            [
+              877,
+              775
+            ],
+            [
+              877,
+              827
+            ],
+            [
+              677,
+              828
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "enlarging the female mind with education, there",
+      "bbox": [
+        [
+          315,
+          843
+        ],
+        [
+          1217,
+          842
+        ],
+        [
+          1217,
+          893
+        ],
+        [
+          315,
+          896
+        ]
+      ],
+      "words": [
+        {
+          "text": "enlarging",
+          "bbox": [
+            [
+              317,
+              848
+            ],
+            [
+              502,
+              845
+            ],
+            [
+              500,
+              896
+            ],
+            [
+              315,
+              897
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "will be end to blind obedience, yet there are",
+      "bbox": [
+        [
+          324,
+          911
+        ],
+        [
+          1208,
+          914
+        ],
+        [
+          1208,
+          964
+        ],
+        [
+          324,
+          959
+        ]
+      ],
+      "words": [
+        {
+          "text": "will",
+          "bbox": [
+            [
+              325,
+              915
+            ],
+            [
+              399,
+              914
+            ],
+            [
+              399,
+              959
+            ],
+            [
+              325,
+              957
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Various reasons which inhibit the process;",
+      "bbox": [
+        [
+          316,
+          977
+        ],
+        [
+          1188,
+          979
+        ],
+        [
+          1188,
+          1031
+        ],
+        [
+          316,
+          1028
+        ]
+      ],
+      "words": [
+        {
+          "text": "Various",
+          "bbox": [
+            [
+              319,
+              986
+            ],
+            [
+              476,
+              981
+            ],
+            [
+              475,
+              1024
+            ],
+            [
+              318,
+              1024
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "consequently women across the globe suffer",
+      "bbox": [
+        [
+          328,
+          1052
+        ],
+        [
+          1207,
+          1048
+        ],
+        [
+          1207,
+          1099
+        ],
+        [
+          328,
+          1101
+        ]
+      ],
+      "words": [
+        {
+          "text": "consequently",
+          "bbox": [
+            [
+              329,
+              1059
+            ],
+            [
+              586,
+              1052
+            ],
+            [
+              586,
+              1099
+            ],
+            [
+              329,
+              1101
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "detrimental impacts. Hence, pragmatic policies",
+      "bbox": [
+        [
+          330,
+          1115
+        ],
+        [
+          1230,
+          1116
+        ],
+        [
+          1230,
+          1165
+        ],
+        [
+          330,
+          1163
+        ]
+      ],
+      "words": [
+        {
+          "text": "detrimental",
+          "bbox": [
+            [
+              332,
+              1117
+            ],
+            [
+              542,
+              1116
+            ],
+            [
+              542,
+              1163
+            ],
+            [
+              332,
+              1160
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and actions are needed to stream line",
+      "bbox": [
+        [
+          339,
+          1179
+        ],
+        [
+          1150,
+          1177
+        ],
+        [
+          1150,
+          1223
+        ],
+        [
+          339,
+          1225
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              341,
+              1181
+            ],
+            [
+              414,
+              1181
+            ],
+            [
+              414,
+              1224
+            ],
+            [
+              341,
+              1224
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "women education ITUTE",
+      "bbox": [
+        [
+          328,
+          1241
+        ],
+        [
+          927,
+          1237
+        ],
+        [
+          928,
+          1298
+        ],
+        [
+          328,
+          1299
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              331,
+              1252
+            ],
+            [
+              461,
+              1246
+            ],
+            [
+              460,
+              1296
+            ],
+            [
+              330,
+              1295
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "II. How strengthening the female",
+      "bbox": [
+        [
+          319,
+          1309
+        ],
+        [
+          1179,
+          1303
+        ],
+        [
+          1180,
+          1363
+        ],
+        [
+          319,
+          1367
+        ]
+      ],
+      "words": [
+        {
+          "text": "II.",
+          "bbox": [
+            [
+              323,
+              1313
+            ],
+            [
+              391,
+              1312
+            ],
+            [
+              390,
+              1366
+            ],
+            [
+              322,
+              1367
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "mind by enlarging it with education",
+      "bbox": [
+        [
+          340,
+          1377
+        ],
+        [
+          1222,
+          1376
+        ],
+        [
+          1222,
+          1432
+        ],
+        [
+          340,
+          1434
+        ]
+      ],
+      "words": [
+        {
+          "text": "mind",
+          "bbox": [
+            [
+              344,
+              1381
+            ],
+            [
+              462,
+              1379
+            ],
+            [
+              461,
+              1433
+            ],
+            [
+              343,
+              1434
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Gods ends blind obedience:",
+      "bbox": [
+        [
+          340,
+          1439
+        ],
+        [
+          1078,
+          1441
+        ],
+        [
+          1078,
+          1497
+        ],
+        [
+          340,
+          1495
+        ]
+      ],
+      "words": [
+        {
+          "text": "Gods",
+          "bbox": [
+            [
+              343,
+              1439
+            ],
+            [
+              476,
+              1440
+            ],
+            [
+              475,
+              1496
+            ],
+            [
+              343,
+              1496
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "1. Only educated female breaks free from",
+      "bbox": [
+        [
+          339,
+          1519
+        ],
+        [
+          1173,
+          1517
+        ],
+        [
+          1174,
+          1565
+        ],
+        [
+          339,
+          1569
+        ]
+      ],
+      "words": [
+        {
+          "text": "Only",
+          "bbox": [
+            [
+              391,
+              1523
+            ],
+            [
+              481,
+              1521
+            ],
+            [
+              481,
+              1570
+            ],
+            [
+              391,
+              1570
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the shackles of patriarchal mindset that",
+      "bbox": [
+        [
+          366,
+          1585
+        ],
+        [
+          1205,
+          1583
+        ],
+        [
+          1205,
+          1629
+        ],
+        [
+          366,
+          1632
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              375,
+              1590
+            ],
+            [
+              448,
+              1589
+            ],
+            [
+              447,
+              1631
+            ],
+            [
+              374,
+              1630
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "demands blind obedience.",
+      "bbox": [
+        [
+          362,
+          1655
+        ],
+        [
+          893,
+          1656
+        ],
+        [
+          892,
+          1703
+        ],
+        [
+          362,
+          1700
+        ]
+      ],
+      "words": [
+        {
+          "text": "demands",
+          "bbox": [
+            [
+              364,
+              1658
+            ],
+            [
+              537,
+              1656
+            ],
+            [
+              537,
+              1701
+            ],
+            [
+              364,
+              1698
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "2. Educated female secures economic",
+      "bbox": [
+        [
+          339,
+          1728
+        ],
+        [
+          1104,
+          1725
+        ],
+        [
+          1104,
+          1764
+        ],
+        [
+          339,
+          1769
+        ]
+      ],
+      "words": [
+        {
+          "text": "Educated",
+          "bbox": [
+            [
+              393,
+              1729
+            ],
+            [
+              547,
+              1727
+            ],
+            [
+              548,
+              1768
+            ],
+            [
+              395,
+              1770
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "independence which protects from obeying",
+      "bbox": [
+        [
+          361,
+          1791
+        ],
+        [
+          1220,
+          1792
+        ],
+        [
+          1220,
+          1840
+        ],
+        [
+          361,
+          1836
+        ]
+      ],
+      "words": [
+        {
+          "text": "independence",
+          "bbox": [
+            [
+              362,
+              1791
+            ],
+            [
+              641,
+              1791
+            ],
+            [
+              641,
+              1837
+            ],
+            [
+              361,
+              1835
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "mindlessly",
+      "bbox": [
+        [
+          360,
+          1866
+        ],
+        [
+          575,
+          1872
+        ],
+        [
+          574,
+          1912
+        ],
+        [
+          360,
+          1904
+        ]
+      ],
+      "words": [
+        {
+          "text": "mindlessly",
+          "bbox": [
+            [
+              372,
+              1867
+            ],
+            [
+              565,
+              1872
+            ],
+            [
+              563,
+              1912
+            ],
+            [
+              372,
+              1904
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "3. Females strengthened by education sencew",
+      "bbox": [
+        [
+          335,
+          1928
+        ],
+        [
+          1183,
+          1926
+        ],
+        [
+          1183,
+          1974
+        ],
+        [
+          335,
+          1976
+        ]
+      ],
+      "words": [
+        {
+          "text": "Females",
+          "bbox": [
+            [
+              375,
+              1932
+            ],
+            [
+              523,
+              1930
+            ],
+            [
+              522,
+              1975
+            ],
+            [
+              374,
+              1974
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "their rights and do not submit to injustice.",
+      "bbox": [
+        [
+          350,
+          1993
+        ],
+        [
+          1206,
+          1993
+        ],
+        [
+          1206,
+          2045
+        ],
+        [
+          350,
+          2044
+        ]
+      ],
+      "words": [
+        {
+          "text": "their",
+          "bbox": [
+            [
+              359,
+              1996
+            ],
+            [
+              462,
+              1995
+            ],
+            [
+              461,
+              2041
+            ],
+            [
+              359,
+              2043
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "...",
+      "bbox": [
+        [
+          1212,
+          131
+        ],
+        [
+          1228,
+          131
+        ],
+        [
+          1228,
+          160
+        ],
+        [
+          1212,
+          160
+        ]
+      ],
+      "words": [
+        {
+          "text": "...",
+          "bbox": [
+            [
+              1212,
+              131
+            ],
+            [
+              1227,
+              131
+            ],
+            [
+              1227,
+              160
+            ],
+            [
+              1212,
+              160
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ... MOTOWD JFOS . Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience I. Introduction It is an undeniable reality that by enlarging the female mind with education, there will be end to blind obedience, yet there are Various reasons which inhibit the process; consequently women across the globe suffer detrimental impacts. Hence, pragmatic policies and actions are needed to stream line women education ITUTE II. How strengthening the female mind by enlarging it with education Gods ends blind obedience: 1. Only educated female breaks free from the shackles of patriarchal mindset that demands blind obedience. 2. Educated female secures economic independence which protects from obeying mindlessly 3. Females strengthened by education sencew their rights and do not submit to injustice. ...",
+  "attempt": {
+    "scale": 1.0,
+    "quality": 75
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "page": 7,
+  "page_suggestions": [
+    "Refine phrasing in the economic independence section to eliminate awkward commas and improve readability.",
+    "Strengthen the transition to the rights awareness point by using a clearer connector like 'Thirdly' instead of fragmented text.",
+    "Expand on the constitutional rights example with specific analysis to add depth to the argumentation.",
+    "Ensure the paragraph closing links back to the thesis on ending blind obedience more explicitly."
+  ],
+  "annotations": [
+    {
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "page": 7,
+      "target_word_or_sentence": "when female gets education, she secures economic, sustenance for herself.",
+      "context_before": "Secondly,",
+      "context_after": "In this way she does not depend on any one economically",
+      "correction": "when a female receives education, she secures economic sustenance for herself.",
+      "comment": "Insert article 'a' before 'female'; use 'receives' for formal tone; remove comma after 'economic' and combine into 'economic sustenance' for proper noun phrase."
+    },
+    {
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "page": 7,
+      "target_word_or_sentence": "According to UNFB (United Nations Population Fund) there is only 28% female labour force",
+      "context_before": "This protects her from blindly following someone just because they materialy provide for them",
+      "context_after": "which means the other 72% women are economi- cally dependent on their male guardian.",
+      "correction": "According to UNFPA (United Nations Population Fund), the global female labor force participation rate is approximately 47% (as of recent data).",
+      "comment": "Update statistic to reflect accurate, current UNFPA figures; correct acronym to UNFPA and provide context for global applicability."
+    },
+    {
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "page": 7,
+      "target_word_or_sentence": "Thisidly, Females whenedu- cated, are fully aware of their rights.",
+      "context_before": "and makes decisions for herself just as she likes.",
+      "context_after": "In Pakistan, an educated female would know her constitutional",
+      "correction": "Thirdly, females, when educated, are fully aware of their rights.",
+      "comment": "Use proper transition 'Thirdly' at the start; ensure topic sentence is clear and positioned first; add comma after 'females' for appositive phrase."
+    },
+    {
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "page": 7,
+      "target_word_or_sentence": "an educated female would know her constitutional rights.",
+      "context_before": "In Pakistan,",
+      "context_after": "She would legal facilitations to protect them such as Protection of Women Against Workplace Harassment, (2010), Acid Control and Acid Crime Prevention Act (2011) and Women Property Protection Right (2020).",
+      "correction": "an educated female would understand and assert her constitutional rights, analyzing how laws like the Protection Against Harassment of Women at the Workplace Act (2010) empower her against injustice.",
+      "comment": "Add critical analysis explaining 'why' and 'how' these rights reduce blind obedience, rather than listing laws descriptively; tie back to thesis with implications for societal change."
+    }
+  ]
+}

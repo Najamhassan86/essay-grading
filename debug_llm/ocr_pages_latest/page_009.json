@@ -1,0 +1,1376 @@
+{
+  "page_number": 9,
+  "page_width": 1488.0,
+  "page_height": 2105.0,
+  "lines": [
+    {
+      "text": "READ RIGHT",
+      "bbox": [
+        [
+          343,
+          23
+        ],
+        [
+          727,
+          15
+        ],
+        [
+          728,
+          71
+        ],
+        [
+          343,
+          78
+        ]
+      ],
+      "words": [
+        {
+          "text": "READ",
+          "bbox": [
+            [
+              343,
+              24
+            ],
+            [
+              485,
+              21
+            ],
+            [
+              485,
+              77
+            ],
+            [
+              343,
+              78
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "INSTITUTE",
+      "bbox": [
+        [
+          439,
+          71
+        ],
+        [
+          631,
+          70
+        ],
+        [
+          632,
+          105
+        ],
+        [
+          439,
+          106
+        ]
+      ],
+      "words": [
+        {
+          "text": "INSTITUTE",
+          "bbox": [
+            [
+              442,
+              71
+            ],
+            [
+              627,
+              71
+            ],
+            [
+              627,
+              105
+            ],
+            [
+              442,
+              107
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SYED TAIMOOR BUKHARI",
+      "bbox": [
+        [
+          384,
+          124
+        ],
+        [
+          684,
+          124
+        ],
+        [
+          684,
+          154
+        ],
+        [
+          384,
+          155
+        ]
+      ],
+      "words": [
+        {
+          "text": "SYED",
+          "bbox": [
+            [
+              386,
+              127
+            ],
+            [
+              439,
+              126
+            ],
+            [
+              440,
+              156
+            ],
+            [
+              387,
+              156
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Date://20",
+      "bbox": [
+        [
+          967,
+          70
+        ],
+        [
+          1240,
+          70
+        ],
+        [
+          1240,
+          100
+        ],
+        [
+          967,
+          101
+        ]
+      ],
+      "words": [
+        {
+          "text": "Date://20",
+          "bbox": [
+            [
+              974,
+              71
+            ],
+            [
+              1222,
+              70
+            ],
+            [
+              1222,
+              101
+            ],
+            [
+              972,
+              102
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWOTD",
+      "bbox": [
+        [
+          965,
+          113
+        ],
+        [
+          1166,
+          115
+        ],
+        [
+          1166,
+          145
+        ],
+        [
+          965,
+          143
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWOTD",
+          "bbox": [
+            [
+              967,
+              114
+            ],
+            [
+              1165,
+              115
+            ],
+            [
+              1165,
+              146
+            ],
+            [
+              965,
+              143
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "IFOSO",
+      "bbox": [
+        [
+          1168,
+          116
+        ],
+        [
+          1275,
+          116
+        ],
+        [
+          1275,
+          143
+        ],
+        [
+          1168,
+          144
+        ]
+      ],
+      "words": [
+        {
+          "text": "IFOSO",
+          "bbox": [
+            [
+              1168,
+              116
+            ],
+            [
+              1256,
+              116
+            ],
+            [
+              1255,
+              144
+            ],
+            [
+              1168,
+              144
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(3)",
+      "bbox": [
+        [
+          1298,
+          116
+        ],
+        [
+          1334,
+          116
+        ],
+        [
+          1334,
+          149
+        ],
+        [
+          1296,
+          148
+        ]
+      ],
+      "words": [
+        {
+          "text": "(3)",
+          "bbox": [
+            [
+              1296,
+              116
+            ],
+            [
+              1331,
+              116
+            ],
+            [
+              1331,
+              149
+            ],
+            [
+              1296,
+              148
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Fifthly, educated women ensure",
+      "bbox": [
+        [
+          474,
+          241
+        ],
+        [
+          1227,
+          244
+        ],
+        [
+          1226,
+          300
+        ],
+        [
+          473,
+          298
+        ]
+      ],
+      "words": [
+        {
+          "text": "Fifthly,",
+          "bbox": [
+            [
+              476,
+              243
+            ],
+            [
+              630,
+              242
+            ],
+            [
+              630,
+              298
+            ],
+            [
+              476,
+              299
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "that they participate fully in",
+      "bbox": [
+        [
+          299,
+          310
+        ],
+        [
+          1149,
+          307
+        ],
+        [
+          1149,
+          363
+        ],
+        [
+          299,
+          368
+        ]
+      ],
+      "words": [
+        {
+          "text": "that",
+          "bbox": [
+            [
+              300,
+              315
+            ],
+            [
+              416,
+              313
+            ],
+            [
+              415,
+              368
+            ],
+            [
+              300,
+              368
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the political process. Unfortunately,",
+      "bbox": [
+        [
+          299,
+          380
+        ],
+        [
+          1274,
+          379
+        ],
+        [
+          1274,
+          435
+        ],
+        [
+          299,
+          438
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              318,
+              386
+            ],
+            [
+              406,
+              384
+            ],
+            [
+              404,
+              437
+            ],
+            [
+              316,
+              436
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "according to United Nations report",
+      "bbox": [
+        [
+          310,
+          450
+        ],
+        [
+          1297,
+          445
+        ],
+        [
+          1298,
+          505
+        ],
+        [
+          310,
+          510
+        ]
+      ],
+      "words": [
+        {
+          "text": "according",
+          "bbox": [
+            [
+              312,
+              465
+            ],
+            [
+              541,
+              454
+            ],
+            [
+              540,
+              510
+            ],
+            [
+              311,
+              510
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "women make 230% of world",
+      "bbox": [
+        [
+          290,
+          526
+        ],
+        [
+          1160,
+          516
+        ],
+        [
+          1161,
+          575
+        ],
+        [
+          291,
+          583
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              291,
+              536
+            ],
+            [
+              473,
+              528
+            ],
+            [
+              473,
+              582
+            ],
+            [
+              291,
+              578
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "parliaments. Yet, there are women,",
+      "bbox": [
+        [
+          309,
+          591
+        ],
+        [
+          1261,
+          587
+        ],
+        [
+          1261,
+          644
+        ],
+        [
+          309,
+          651
+        ]
+      ],
+      "words": [
+        {
+          "text": "parliaments.",
+          "bbox": [
+            [
+              312,
+              597
+            ],
+            [
+              734,
+              588
+            ],
+            [
+              734,
+              648
+            ],
+            [
+              312,
+              652
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "although handful, that participate",
+      "bbox": [
+        [
+          315,
+          662
+        ],
+        [
+          1225,
+          661
+        ],
+        [
+          1225,
+          717
+        ],
+        [
+          315,
+          719
+        ]
+      ],
+      "words": [
+        {
+          "text": "although",
+          "bbox": [
+            [
+              318,
+              670
+            ],
+            [
+              551,
+              664
+            ],
+            [
+              551,
+              718
+            ],
+            [
+              317,
+              716
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "in the political process and become",
+      "bbox": [
+        [
+          312,
+          734
+        ],
+        [
+          1187,
+          734
+        ],
+        [
+          1188,
+          788
+        ],
+        [
+          312,
+          789
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              370,
+              735
+            ],
+            [
+              441,
+              735
+            ],
+            [
+              440,
+              788
+            ],
+            [
+              370,
+              786
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "part of the decision making",
+      "bbox": [
+        [
+          315,
+          808
+        ],
+        [
+          1189,
+          803
+        ],
+        [
+          1189,
+          855
+        ],
+        [
+          315,
+          859
+        ]
+      ],
+      "words": [
+        {
+          "text": "part",
+          "bbox": [
+            [
+              318,
+              810
+            ],
+            [
+              448,
+              808
+            ],
+            [
+              448,
+              859
+            ],
+            [
+              317,
+              858
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "bodies and make laws and",
+      "bbox": [
+        [
+          310,
+          876
+        ],
+        [
+          1192,
+          869
+        ],
+        [
+          1193,
+          918
+        ],
+        [
+          310,
+          929
+        ]
+      ],
+      "words": [
+        {
+          "text": "bodies",
+          "bbox": [
+            [
+              312,
+              879
+            ],
+            [
+              502,
+              875
+            ],
+            [
+              502,
+              927
+            ],
+            [
+              312,
+              930
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "plass amendment to protect women",
+      "bbox": [
+        [
+          332,
+          945
+        ],
+        [
+          1218,
+          938
+        ],
+        [
+          1218,
+          985
+        ],
+        [
+          332,
+          995
+        ]
+      ],
+      "words": [
+        {
+          "text": "plass",
+          "bbox": [
+            [
+              334,
+              950
+            ],
+            [
+              446,
+              947
+            ],
+            [
+              446,
+              995
+            ],
+            [
+              334,
+              996
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and accelerated their education journey",
+      "bbox": [
+        [
+          303,
+          1006
+        ],
+        [
+          1251,
+          1005
+        ],
+        [
+          1251,
+          1058
+        ],
+        [
+          303,
+          1059
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              304,
+              1010
+            ],
+            [
+              389,
+              1009
+            ],
+            [
+              388,
+              1059
+            ],
+            [
+              304,
+              1058
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "so they do not have to",
+      "bbox": [
+        [
+          307,
+          1077
+        ],
+        [
+          1116,
+          1074
+        ],
+        [
+          1116,
+          1126
+        ],
+        [
+          307,
+          1129
+        ]
+      ],
+      "words": [
+        {
+          "text": "they",
+          "bbox": [
+            [
+              411,
+              1081
+            ],
+            [
+              533,
+              1078
+            ],
+            [
+              533,
+              1129
+            ],
+            [
+              410,
+              1129
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "blindly comply to anybody",
+      "bbox": [
+        [
+          318,
+          1149
+        ],
+        [
+          1136,
+          1147
+        ],
+        [
+          1136,
+          1199
+        ],
+        [
+          318,
+          1201
+        ]
+      ],
+      "words": [
+        {
+          "text": "blindly",
+          "bbox": [
+            [
+              334,
+              1150
+            ],
+            [
+              513,
+              1149
+            ],
+            [
+              513,
+              1201
+            ],
+            [
+              334,
+              1201
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and themselves uplift themselves.",
+      "bbox": [
+        [
+          326,
+          1216
+        ],
+        [
+          1200,
+          1207
+        ],
+        [
+          1201,
+          1263
+        ],
+        [
+          326,
+          1268
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              326,
+              1224
+            ],
+            [
+              405,
+              1222
+            ],
+            [
+              405,
+              1267
+            ],
+            [
+              326,
+              1266
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Despite the need and significance",
+      "bbox": [
+        [
+          534,
+          1346
+        ],
+        [
+          1263,
+          1339
+        ],
+        [
+          1264,
+          1395
+        ],
+        [
+          534,
+          1402
+        ]
+      ],
+      "words": [
+        {
+          "text": "Despite",
+          "bbox": [
+            [
+              536,
+              1352
+            ],
+            [
+              697,
+              1347
+            ],
+            [
+              697,
+              1397
+            ],
+            [
+              536,
+              1402
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of female education, there are some",
+      "bbox": [
+        [
+          297,
+          1423
+        ],
+        [
+          1211,
+          1412
+        ],
+        [
+          1212,
+          1465
+        ],
+        [
+          298,
+          1483
+        ]
+      ],
+      "words": [
+        {
+          "text": "female",
+          "bbox": [
+            [
+              361,
+              1425
+            ],
+            [
+              522,
+              1420
+            ],
+            [
+              522,
+              1475
+            ],
+            [
+              362,
+              1482
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "mounting impediments that paralyze",
+      "bbox": [
+        [
+          300,
+          1490
+        ],
+        [
+          1256,
+          1484
+        ],
+        [
+          1257,
+          1541
+        ],
+        [
+          300,
+          1548
+        ]
+      ],
+      "words": [
+        {
+          "text": "mounting",
+          "bbox": [
+            [
+              300,
+              1499
+            ],
+            [
+              518,
+              1491
+            ],
+            [
+              518,
+              1545
+            ],
+            [
+              300,
+              1548
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the process of women education.",
+      "bbox": [
+        [
+          286,
+          1564
+        ],
+        [
+          1243,
+          1556
+        ],
+        [
+          1244,
+          1614
+        ],
+        [
+          286,
+          1619
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              296,
+              1569
+            ],
+            [
+              390,
+              1568
+            ],
+            [
+              389,
+              1619
+            ],
+            [
+              295,
+              1619
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Firstly, there are societal",
+      "bbox": [
+        [
+          529,
+          1698
+        ],
+        [
+          1211,
+          1698
+        ],
+        [
+          1211,
+          1758
+        ],
+        [
+          529,
+          1761
+        ]
+      ],
+      "words": [
+        {
+          "text": "Firstly,",
+          "bbox": [
+            [
+              533,
+              1698
+            ],
+            [
+              699,
+              1703
+            ],
+            [
+              699,
+              1761
+            ],
+            [
+              531,
+              1760
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "barriers and menace of povertythat",
+      "bbox": [
+        [
+          306,
+          1775
+        ],
+        [
+          1244,
+          1776
+        ],
+        [
+          1244,
+          1831
+        ],
+        [
+          306,
+          1830
+        ]
+      ],
+      "words": [
+        {
+          "text": "barriers",
+          "bbox": [
+            [
+              322,
+              1776
+            ],
+            [
+              525,
+              1780
+            ],
+            [
+              525,
+              1830
+            ],
+            [
+              321,
+              1830
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "hinders worven education. Unfortunately",
+      "bbox": [
+        [
+          295,
+          1844
+        ],
+        [
+          1253,
+          1844
+        ],
+        [
+          1253,
+          1899
+        ],
+        [
+          295,
+          1897
+        ]
+      ],
+      "words": [
+        {
+          "text": "hinders",
+          "bbox": [
+            [
+              312,
+              1847
+            ],
+            [
+              489,
+              1847
+            ],
+            [
+              487,
+              1897
+            ],
+            [
+              311,
+              1894
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "there is a culture of \"boy's educa-",
+      "bbox": [
+        [
+          302,
+          1911
+        ],
+        [
+          1278,
+          1912
+        ],
+        [
+          1278,
+          1972
+        ],
+        [
+          302,
+          1971
+        ]
+      ],
+      "words": [
+        {
+          "text": "there",
+          "bbox": [
+            [
+              313,
+              1918
+            ],
+            [
+              451,
+              1915
+            ],
+            [
+              450,
+              1970
+            ],
+            [
+              312,
+              1969
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "tion over girl's be cause he",
+      "bbox": [
+        [
+          319,
+          1985
+        ],
+        [
+          1239,
+          1983
+        ],
+        [
+          1240,
+          2041
+        ],
+        [
+          319,
+          2045
+        ]
+      ],
+      "words": [
+        {
+          "text": "tion",
+          "bbox": [
+            [
+              322,
+              1988
+            ],
+            [
+              425,
+              1987
+            ],
+            [
+              424,
+              2045
+            ],
+            [
+              321,
+              2045
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date://20 MOTOWOTD IFOSO (3) : Fifthly, educated women ensure that they participate fully in the political process. Unfortunately, according to United Nations report women make 230% of world parliaments. Yet, there are women, although handful, that participate in the political process and become part of the decision making bodies and make laws and plass amendment to protect women and accelerated their education journey so they do not have to blindly comply to anybody and themselves uplift themselves. Despite the need and significance of female education, there are some mounting impediments that paralyze the process of women education. Firstly, there are societal barriers and menace of povertythat hinders worven education. Unfortunately there is a culture of \"boy's educa- tion over girl's be cause he",
+  "attempt": {
+    "scale": 1.0,
+    "quality": 75
+  }
+}

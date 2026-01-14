@@ -1,0 +1,1464 @@
+{
+  "page_number": 3,
+  "page_width": 1488.0,
+  "page_height": 2105.0,
+  "lines": [
+    {
+      "text": "READ RIGHT",
+      "bbox": [
+        [
+          329,
+          30
+        ],
+        [
+          705,
+          28
+        ],
+        [
+          706,
+          87
+        ],
+        [
+          329,
+          89
+        ]
+      ],
+      "words": [
+        {
+          "text": "READ",
+          "bbox": [
+            [
+              330,
+              31
+            ],
+            [
+              472,
+              31
+            ],
+            [
+              472,
+              89
+            ],
+            [
+              330,
+              89
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "INSTITUTE",
+      "bbox": [
+        [
+          426,
+          84
+        ],
+        [
+          612,
+          84
+        ],
+        [
+          612,
+          121
+        ],
+        [
+          426,
+          122
+        ]
+      ],
+      "words": [
+        {
+          "text": "INSTITUTE",
+          "bbox": [
+            [
+              427,
+              84
+            ],
+            [
+              611,
+              84
+            ],
+            [
+              610,
+              121
+            ],
+            [
+              427,
+              123
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "SYED TAIMOOR BUKHARI",
+      "bbox": [
+        [
+          373,
+          141
+        ],
+        [
+          665,
+          142
+        ],
+        [
+          665,
+          173
+        ],
+        [
+          373,
+          172
+        ]
+      ],
+      "words": [
+        {
+          "text": "SYED",
+          "bbox": [
+            [
+              375,
+              143
+            ],
+            [
+              428,
+              142
+            ],
+            [
+              428,
+              173
+            ],
+            [
+              376,
+              173
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Date :................. /20 .......",
+      "bbox": [
+        [
+          937,
+          87
+        ],
+        [
+          1224,
+          87
+        ],
+        [
+          1224,
+          119
+        ],
+        [
+          937,
+          120
+        ]
+      ],
+      "words": [
+        {
+          "text": "Date",
+          "bbox": [
+            [
+              939,
+              88
+            ],
+            [
+              984,
+              88
+            ],
+            [
+              984,
+              121
+            ],
+            [
+              940,
+              121
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWOTOFOS",
+      "bbox": [
+        [
+          935,
+          131
+        ],
+        [
+          1211,
+          130
+        ],
+        [
+          1211,
+          163
+        ],
+        [
+          935,
+          165
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWOTOFOS",
+          "bbox": [
+            [
+              936,
+              133
+            ],
+            [
+              1203,
+              131
+            ],
+            [
+              1202,
+              164
+            ],
+            [
+              935,
+              165
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5. Massive digital in present age of online learning.",
+      "bbox": [
+        [
+          310,
+          193
+        ],
+        [
+          1248,
+          193
+        ],
+        [
+          1248,
+          252
+        ],
+        [
+          310,
+          251
+        ]
+      ],
+      "words": [
+        {
+          "text": "Massive",
+          "bbox": [
+            [
+              348,
+              199
+            ],
+            [
+              493,
+              197
+            ],
+            [
+              492,
+              249
+            ],
+            [
+              347,
+              249
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Case in Point: patobul digital divide 68%, for",
+      "bbox": [
+        [
+          345,
+          257
+        ],
+        [
+          1223,
+          266
+        ],
+        [
+          1223,
+          321
+        ],
+        [
+          345,
+          316
+        ]
+      ],
+      "words": [
+        {
+          "text": "Case",
+          "bbox": [
+            [
+              347,
+              258
+            ],
+            [
+              437,
+              259
+            ],
+            [
+              437,
+              318
+            ],
+            [
+              347,
+              317
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "women 51%",
+      "bbox": [
+        [
+          665,
+          336
+        ],
+        [
+          908,
+          335
+        ],
+        [
+          908,
+          376
+        ],
+        [
+          665,
+          377
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              667,
+              338
+            ],
+            [
+              805,
+              336
+            ],
+            [
+              805,
+              377
+            ],
+            [
+              667,
+              377
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(3) Pakistan female digital divide",
+      "bbox": [
+        [
+          637,
+          406
+        ],
+        [
+          1237,
+          401
+        ],
+        [
+          1238,
+          456
+        ],
+        [
+          637,
+          458
+        ]
+      ],
+      "words": [
+        {
+          "text": "(3)",
+          "bbox": [
+            [
+              638,
+              409
+            ],
+            [
+              664,
+              409
+            ],
+            [
+              663,
+              458
+            ],
+            [
+              637,
+              458
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "24% whereas mode's is 43%",
+      "bbox": [
+        [
+          655,
+          476
+        ],
+        [
+          1244,
+          475
+        ],
+        [
+          1245,
+          530
+        ],
+        [
+          655,
+          531
+        ]
+      ],
+      "words": [
+        {
+          "text": "24%",
+          "bbox": [
+            [
+              656,
+              484
+            ],
+            [
+              737,
+              481
+            ],
+            [
+              737,
+              526
+            ],
+            [
+              655,
+              527
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "6. Formales lack of security outside the four",
+      "bbox": [
+        [
+          320,
+          550
+        ],
+        [
+          1209,
+          543
+        ],
+        [
+          1210,
+          598
+        ],
+        [
+          320,
+          602
+        ]
+      ],
+      "words": [
+        {
+          "text": "Formales",
+          "bbox": [
+            [
+              355,
+              553
+            ],
+            [
+              503,
+              554
+            ],
+            [
+              503,
+              602
+            ],
+            [
+              355,
+              602
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "walls of their home.",
+      "bbox": [
+        [
+          319,
+          621
+        ],
+        [
+          751,
+          619
+        ],
+        [
+          752,
+          666
+        ],
+        [
+          319,
+          671
+        ]
+      ],
+      "words": [
+        {
+          "text": "walls",
+          "bbox": [
+            [
+              320,
+              626
+            ],
+            [
+              435,
+              621
+            ],
+            [
+              435,
+              671
+            ],
+            [
+              319,
+              672
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Case in Point: (1) 1/3 women globally have",
+      "bbox": [
+        [
+          323,
+          687
+        ],
+        [
+          1179,
+          687
+        ],
+        [
+          1179,
+          742
+        ],
+        [
+          323,
+          743
+        ]
+      ],
+      "words": [
+        {
+          "text": "Case",
+          "bbox": [
+            [
+              326,
+              687
+            ],
+            [
+              419,
+              688
+            ],
+            [
+              418,
+              743
+            ],
+            [
+              325,
+              742
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "suffered semal harassment(UN)",
+      "bbox": [
+        [
+          667,
+          760
+        ],
+        [
+          1263,
+          752
+        ],
+        [
+          1264,
+          800
+        ],
+        [
+          668,
+          810
+        ]
+      ],
+      "words": [
+        {
+          "text": "suffered",
+          "bbox": [
+            [
+              669,
+              761
+            ],
+            [
+              811,
+              759
+            ],
+            [
+              814,
+              808
+            ],
+            [
+              674,
+              811
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(2) In Pakistan, 28% femalesage(14-49)",
+      "bbox": [
+        [
+          625,
+          830
+        ],
+        [
+          1316,
+          826
+        ],
+        [
+          1316,
+          875
+        ],
+        [
+          625,
+          879
+        ]
+      ],
+      "words": [
+        {
+          "text": "(2)",
+          "bbox": [
+            [
+              625,
+              830
+            ],
+            [
+              681,
+              830
+            ],
+            [
+              683,
+              880
+            ],
+            [
+              628,
+              880
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "have suffered from physicalviolence",
+      "bbox": [
+        [
+          647,
+          900
+        ],
+        [
+          1261,
+          892
+        ],
+        [
+          1262,
+          940
+        ],
+        [
+          647,
+          946
+        ]
+      ],
+      "words": [
+        {
+          "text": "have",
+          "bbox": [
+            [
+              656,
+              902
+            ],
+            [
+              740,
+              900
+            ],
+            [
+              739,
+              946
+            ],
+            [
+              655,
+              946
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and 6% from sexual violence",
+      "bbox": [
+        [
+          640,
+          966
+        ],
+        [
+          1226,
+          965
+        ],
+        [
+          1226,
+          1007
+        ],
+        [
+          641,
+          1008
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              642,
+              967
+            ],
+            [
+              709,
+              967
+            ],
+            [
+              710,
+              1008
+            ],
+            [
+              643,
+              1008
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "IV. Measures required to eliminate",
+      "bbox": [
+        [
+          280,
+          1024
+        ],
+        [
+          1254,
+          1019
+        ],
+        [
+          1255,
+          1080
+        ],
+        [
+          280,
+          1084
+        ]
+      ],
+      "words": [
+        {
+          "text": "IV.",
+          "bbox": [
+            [
+              292,
+              1025
+            ],
+            [
+              370,
+              1025
+            ],
+            [
+              368,
+              1081
+            ],
+            [
+              290,
+              1079
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "these impediment in way of",
+      "bbox": [
+        [
+          340,
+          1089
+        ],
+        [
+          1148,
+          1091
+        ],
+        [
+          1147,
+          1152
+        ],
+        [
+          340,
+          1147
+        ]
+      ],
+      "words": [
+        {
+          "text": "these",
+          "bbox": [
+            [
+              350,
+              1094
+            ],
+            [
+              488,
+              1091
+            ],
+            [
+              489,
+              1147
+            ],
+            [
+              350,
+              1146
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "women education.",
+      "bbox": [
+        [
+          327,
+          1158
+        ],
+        [
+          854,
+          1155
+        ],
+        [
+          854,
+          1212
+        ],
+        [
+          327,
+          1214
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              329,
+              1166
+            ],
+            [
+              518,
+              1159
+            ],
+            [
+              517,
+              1213
+            ],
+            [
+              328,
+              1211
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "1. Ensure \"altidunal\" change rather than",
+      "bbox": [
+        [
+          340,
+          1233
+        ],
+        [
+          1174,
+          1229
+        ],
+        [
+          1174,
+          1278
+        ],
+        [
+          340,
+          1285
+        ]
+      ],
+      "words": [
+        {
+          "text": "Ensure",
+          "bbox": [
+            [
+              394,
+              1239
+            ],
+            [
+              501,
+              1235
+            ],
+            [
+              502,
+              1284
+            ],
+            [
+              394,
+              1285
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "more Laws TAIMOOR BUKHARI",
+      "bbox": [
+        [
+          349,
+          1312
+        ],
+        [
+          965,
+          1317
+        ],
+        [
+          965,
+          1353
+        ],
+        [
+          349,
+          1349
+        ]
+      ],
+      "words": [
+        {
+          "text": "more",
+          "bbox": [
+            [
+              360,
+              1312
+            ],
+            [
+              448,
+              1313
+            ],
+            [
+              448,
+              1351
+            ],
+            [
+              361,
+              1351
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "2. Women skill development paired with formal",
+      "bbox": [
+        [
+          339,
+          1374
+        ],
+        [
+          1229,
+          1370
+        ],
+        [
+          1229,
+          1416
+        ],
+        [
+          339,
+          1419
+        ]
+      ],
+      "words": [
+        {
+          "text": "Women",
+          "bbox": [
+            [
+              377,
+              1378
+            ],
+            [
+              503,
+              1375
+            ],
+            [
+              503,
+              1419
+            ],
+            [
+              377,
+              1419
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "education so they can sponsor their",
+      "bbox": [
+        [
+          366,
+          1441
+        ],
+        [
+          1159,
+          1433
+        ],
+        [
+          1160,
+          1480
+        ],
+        [
+          366,
+          1486
+        ]
+      ],
+      "words": [
+        {
+          "text": "education",
+          "bbox": [
+            [
+              369,
+              1445
+            ],
+            [
+              569,
+              1442
+            ],
+            [
+              568,
+              1486
+            ],
+            [
+              368,
+              1484
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "own education",
+      "bbox": [
+        [
+          367,
+          1511
+        ],
+        [
+          667,
+          1508
+        ],
+        [
+          667,
+          1548
+        ],
+        [
+          367,
+          1550
+        ]
+      ],
+      "words": [
+        {
+          "text": "own",
+          "bbox": [
+            [
+              369,
+              1516
+            ],
+            [
+              447,
+              1512
+            ],
+            [
+              448,
+              1550
+            ],
+            [
+              370,
+              1550
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "3. Establish complete ban on marriage before",
+      "bbox": [
+        [
+          331,
+          1581
+        ],
+        [
+          1222,
+          1568
+        ],
+        [
+          1223,
+          1620
+        ],
+        [
+          331,
+          1632
+        ]
+      ],
+      "words": [
+        {
+          "text": "Establish",
+          "bbox": [
+            [
+              372,
+              1585
+            ],
+            [
+              541,
+              1580
+            ],
+            [
+              542,
+              1627
+            ],
+            [
+              372,
+              1631
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "18 for females.",
+      "bbox": [
+        [
+          365,
+          1651
+        ],
+        [
+          688,
+          1647
+        ],
+        [
+          688,
+          1695
+        ],
+        [
+          365,
+          1698
+        ]
+      ],
+      "words": [
+        {
+          "text": "for",
+          "bbox": [
+            [
+              429,
+              1652
+            ],
+            [
+              498,
+              1650
+            ],
+            [
+              498,
+              1698
+            ],
+            [
+              429,
+              1698
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "4. mitigate digital divide so that women",
+      "bbox": [
+        [
+          325,
+          1716
+        ],
+        [
+          1222,
+          1709
+        ],
+        [
+          1223,
+          1759
+        ],
+        [
+          325,
+          1768
+        ]
+      ],
+      "words": [
+        {
+          "text": "mitigate",
+          "bbox": [
+            [
+              368,
+              1722
+            ],
+            [
+              549,
+              1716
+            ],
+            [
+              549,
+              1767
+            ],
+            [
+              367,
+              1768
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "from for flung areas can educate",
+      "bbox": [
+        [
+          363,
+          1788
+        ],
+        [
+          1175,
+          1782
+        ],
+        [
+          1176,
+          1832
+        ],
+        [
+          363,
+          1839
+        ]
+      ],
+      "words": [
+        {
+          "text": "from",
+          "bbox": [
+            [
+              366,
+              1788
+            ],
+            [
+              486,
+              1789
+            ],
+            [
+              484,
+              1839
+            ],
+            [
+              364,
+              1839
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "themselves.",
+      "bbox": [
+        [
+          311,
+          1857
+        ],
+        [
+          562,
+          1859
+        ],
+        [
+          562,
+          1899
+        ],
+        [
+          311,
+          1896
+        ]
+      ],
+      "words": [
+        {
+          "text": "themselves.",
+          "bbox": [
+            [
+              323,
+              1858
+            ],
+            [
+              562,
+              1861
+            ],
+            [
+              561,
+              1900
+            ],
+            [
+              323,
+              1897
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5. Enforce women protection laws completely.",
+      "bbox": [
+        [
+          323,
+          1925
+        ],
+        [
+          1226,
+          1923
+        ],
+        [
+          1226,
+          1973
+        ],
+        [
+          323,
+          1976
+        ]
+      ],
+      "words": [
+        {
+          "text": "Enforce",
+          "bbox": [
+            [
+              378,
+              1930
+            ],
+            [
+              522,
+              1927
+            ],
+            [
+              520,
+              1976
+            ],
+            [
+              376,
+              1976
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Case in Point: (1) SDG (5) Gender Equality",
+      "bbox": [
+        [
+          352,
+          1982
+        ],
+        [
+          1210,
+          1983
+        ],
+        [
+          1210,
+          2042
+        ],
+        [
+          351,
+          2042
+        ]
+      ],
+      "words": [
+        {
+          "text": "Case",
+          "bbox": [
+            [
+              355,
+              1983
+            ],
+            [
+              445,
+              1984
+            ],
+            [
+              444,
+              2043
+            ],
+            [
+              354,
+              2043
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(2) SDG (4) Equal Education Rights",
+      "bbox": [
+        [
+          668,
+          2046
+        ],
+        [
+          1297,
+          2048
+        ],
+        [
+          1296,
+          2092
+        ],
+        [
+          668,
+          2088
+        ]
+      ],
+      "words": [
+        {
+          "text": "(2)",
+          "bbox": [
+            [
+              669,
+              2050
+            ],
+            [
+              718,
+              2049
+            ],
+            [
+              719,
+              2088
+            ],
+            [
+              670,
+              2089
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :................. /20 ....... MOTOWOTOFOS 5. Massive digital in present age of online learning. Case in Point: patobul digital divide 68%, for women 51% 1 (3) Pakistan female digital divide 24% whereas mode's is 43% 6. Formales lack of security outside the four walls of their home. Case in Point: (1) 1/3 women globally have 1 suffered semal harassment(UN) (2) In Pakistan, 28% femalesage(14-49) have suffered from physicalviolence and 6% from sexual violence IV. Measures required to eliminate these impediment in way of women education. 1. Ensure \"altidunal\" change rather than BY more Laws TAIMOOR BUKHARI 2. Women skill development paired with formal education so they can sponsor their own education 3. Establish complete ban on marriage before 18 for females. 4. mitigate digital divide so that women from for flung areas can educate themselves. 5. Enforce women protection laws completely. Case in Point: (1) SDG (5) Gender Equality (2) SDG (4) Equal Education Rights",
+  "attempt": {
+    "scale": 1.0,
+    "quality": 75
+  }
+}
