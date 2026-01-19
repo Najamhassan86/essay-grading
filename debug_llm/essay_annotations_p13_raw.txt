@@ -1,42 +1,43 @@
 {
   "page": 13,
   "page_suggestions": [
-    "Strengthen factual verification for BRICS initiatives to ensure accuracy in describing de-dollarization efforts.",
-    "Revise repetitive references to 'financial security dilemma' for more varied and concise expression.",
-    "Correct grammatical errors and awkward phrasing to enhance readability in economic contestation discussion."
+    "Improve grammatical accuracy by correcting spelling and punctuation errors to enhance readability.",
+    "Deepen factual verification for quotes and examples like BRICS initiatives to strengthen argumentation.",
+    "Reduce repetitive phrasing around 'financial security dilemma' to improve flow and conciseness.",
+    "Enhance analytical depth by explaining implications of de-dollarization beyond surface-level description."
   ],
   "annotations": [
     {
       "page": 13,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "The multipolar world challenger the hegemony of the - US dollar",
-      "correction": "The multipolar world challenges the hegemony of the US dollar",
-      "comment": "Fix subject-verb agreement error ('challenger' to 'challenges') and remove unnecessary hyphenation for formal clarity."
+      "anchor_quote": "Multipolarity fuels financial pluralism thereupon heighteningfinancial security - dilemma.",
+      "correction": "Multipolarity fuels financial pluralism, thereupon heightening the financial security dilemma.",
+      "comment": "Fix run-on sentence structure, add missing spaces and articles for formal academic clarity; avoid informal dashes."
     },
     {
       "page": 13,
       "type": "factual_accuracy",
       "rubric_point": "Factual Accuracy",
-      "anchor_quote": "The efforts of BRICS to develop alternative payment systems such as BRICS pay",
-      "correction": "The efforts of BRICS to develop alternative payment systems such as BRICS Bridge",
-      "comment": "Verify and update to accurate terminology; 'BRICS Pay' appears speculative—use verified sources like official BRICS reports for precise naming."
+      "anchor_quote": "The efforts of BRICS to develop alternative payment systems such as BRICS pay and barter . trade system underscores its struggles toward de-dollarization.",
+      "correction": "",
+      "comment": "Verify BRICS initiatives; 'BRICS Pay' is not an official system—use accurate terms like proposed BRICS payment mechanisms; ensure examples are current and sourced."
     },
     {
       "page": 13,
       "type": "repetitiveness",
       "rubric_point": "Repetitiveness",
-      "anchor_quote": "heighteningfinancial security - dilemma. The multipolar world challenger the hegemony",
-      "correction": "Combine into one instance: heightening the financial security dilemma by challenging the hegemony",
-      "comment": "Avoid repeating 'financial security dilemma' closely; consolidate to prevent redundancy and improve progression of ideas."
+      "anchor_quote": "Such initiatives have triggered a financial security dilemma in the United States which further escalates great Power competition.",
+      "correction": "",
+      "comment": "Avoid repeating 'financial security dilemma' from prior sentence; consolidate ideas to prevent redundancy and maintain progression in discussion."
     },
     {
       "page": 13,
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "anchor_quote": "As the emerging powers are dumping the US- Led SWIFT Payment system and cartographing alternatives",
-      "correction": "As the emerging powers are abandoning the US-led SWIFT payment system and charting alternatives",
-      "comment": "Correct spelling ('cartographing' to 'charting'), capitalization ('Led' to 'led'), and word choice ('dumping' to 'abandoning') for precise academic tone."
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "As the emerging powers are dumping the US- Led SWIFT Payment system and cartographing alternatives the world is slowly paring the way towards multipolarity which",
+      "correction": "",
+      "comment": "Elaborate on 'why' de-dollarization escalates competition with evidence or counterarguments; move beyond description to analyze implications for global stability."
     }
   ]
 }

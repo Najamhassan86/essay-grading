@@ -63,33 +63,6 @@ def clean_json_from_llm(text: str) -> str:
     return text.strip()
 
 
-def _scrub_ocr_mentions(value: Any) -> Any:
-    """
-    Remove/replace OCR/legibility/scanning references from strings, recursively.
-    """
-    patterns = [
-        r"\bocr\b",
-        r"scann\w*",
-        r"legibil\w*",
-        r"handwriting",
-        r"illegible",
-        r"blurred",
-        r"smudge\w*",
-    ]
-    if isinstance(value, str):
-        cleaned = value
-        for pat in patterns:
-            cleaned = re.sub(pat, "content", cleaned, flags=re.IGNORECASE)
-        # strip extra spaces created by substitutions
-        cleaned = re.sub(r"\s{2,}", " ", cleaned).strip()
-        return cleaned
-    if isinstance(value, list):
-        return [_scrub_ocr_mentions(v) for v in value]
-    if isinstance(value, dict):
-        return {k: _scrub_ocr_mentions(v) for k, v in value.items()}
-    return value
-
-
 def _load_docx_text(path: str) -> str:
     doc = Document(path)
     parts: List[str] = []
@@ -323,19 +296,26 @@ def pdf_to_page_images_for_grok(
 
 def get_report_page_size(
     pdf_path: str,
-    dpi: int = 200,
+    dpi: int = 220,
     margin_ratio: float = 0.40,
     min_height: int = 3500,
     fallback: Tuple[int, int] = (2977, 4211),
 ) -> Tuple[int, int]:
+    """
+    Match report page size to the annotated canvas:
+    annotated pages use left=50% and right=40% of the PDF width, at 220 DPI.
+    """
     doc = fitz.open(pdf_path)
     try:
         if doc.page_count == 0:
             return fallback
         pix = doc[0].get_pixmap(dpi=dpi)
         orig_w, orig_h = pix.width, pix.height
-        margin = int(orig_w * margin_ratio)
-        return (orig_w + 2 * margin, max(orig_h, min_height))
+
+        # Match annotate_pdf_essay_pages canvas: total width = orig_w * 1.9, height = orig_h
+        report_w = int(orig_w * 1.9)
+        report_h = max(orig_h, min_height)
+        return (report_w, report_h)
     except Exception:
         return fallback
     finally:
@@ -345,18 +325,6 @@ def get_report_page_size(
 # -----------------------------
 # OCR (Azure Document Intelligence)
 # -----------------------------
-
-def _bbox_to_tuples(bbox) -> List[Tuple[int, int]]:
-    return [(v.x, v.y) for v in bbox.vertices]
-
-
-def _paragraph_text(paragraph) -> str:
-    words = []
-    for word in paragraph.words:
-        symbols = "".join(symbol.text for symbol in word.symbols)
-        words.append(symbols)
-    return " ".join(words).strip()
-
 
 def _is_noise_text(text: str, bbox: List[Tuple[int, int]], page_w: int, page_h: int) -> bool:
     if not text:
@@ -388,6 +356,7 @@ def run_ocr_on_pdf(
     pdf_path: str,
     *,
     workers: int = 3,
+    render_dpi: int = 220,
     debug_pages_dir: Optional[str] = None,
 ) -> Dict[str, Any]:
     """
@@ -415,7 +384,7 @@ def run_ocr_on_pdf(
         pil_pages: List[Tuple[int, Image.Image]] = []
         for idx in range(doc.page_count):
             page = doc[idx]
-            pix = page.get_pixmap(dpi=180)
+            pix = page.get_pixmap(dpi=render_dpi)
             pil_pages.append((idx + 1, Image.open(io.BytesIO(pix.tobytes("png")))))
     finally:
         doc.close()
@@ -441,9 +410,11 @@ def run_ocr_on_pdf(
         if result is None:
             raise RuntimeError(f"OCR failed on page {page_number}: {last_err}")
 
-        page_w = float(result.pages[0].width or 0.0) if result.pages else float(pil_img.width)
-        page_h = float(result.pages[0].height or 0.0) if result.pages else float(pil_img.height)
+        first_page = result.pages[0] if result.pages else None
+        page_w = float(getattr(first_page, "width", 0.0) or 0.0) if first_page else float(pil_img.width)
+        page_h = float(getattr(first_page, "height", 0.0) or 0.0) if first_page else float(pil_img.height)
         page_lines: List[Dict[str, Any]] = []
+        page_text_parts: List[str] = []
 
         for p in result.pages:
             page_words = list(p.words or [])
@@ -490,7 +461,13 @@ def run_ocr_on_pdf(
                 if matched_words:
                     page_lines.append({"text": text, "bbox": line_bbox, "words": matched_words})
 
-        page_text = " ".join([(ln.content or "").strip() for ln in (p.lines or []) if (ln.content or "").strip()])
+            # collect full page text in order
+            for ln in (p.lines or []):
+                t = (ln.content or "").strip()
+                if t:
+                    page_text_parts.append(t)
+
+        page_text = " ".join(page_text_parts)
         debug_payload = {
             "page_number": page_number,
             "page_width": page_w,
@@ -551,7 +528,7 @@ def load_report_format_text(path: str) -> str:
 def _grok_chat(
     grok_api_key: str,
     messages: List[Dict[str, str]],
-    model: str = "grok-4-fast-reasoning",
+    model: str = "grok-4-1-fast-reasoning",
     temperature: float = 0.15,
     max_tokens: Optional[int] = None,
     timeout: int = 180,
@@ -684,7 +661,7 @@ def call_grok_for_essay_structure_paragraphs_only(
     )
     content = data["choices"][0]["message"]["content"]
     parsed = json.loads(clean_json_from_llm(content))
-    return _scrub_ocr_mentions(parsed)
+    return parsed
 
 
 def call_grok_for_essay_grading_strict_range(
@@ -706,9 +683,8 @@ def call_grok_for_essay_grading_strict_range(
         "role": "system",
         "content": (
             "You are a strict CSS English Essay examiner (FPSC style). "
-            "You MUST be extremely strict. Even exceptional essays rarely exceed about 38-40/100. "
-            "Do NOT treat this as a hard cap; just be conservative. "
-            "Return VALID JSON only; no markdown."
+            "Be conservative: strong essays seldom exceed ~38-40/100 (guideline, not a hard cap). "
+            "Return VALID JSON only; no markdown or commentary."
         ),
     }
 
@@ -789,30 +765,17 @@ def call_grok_for_essay_grading_strict_range(
     }
 
     instructions = (
-        "Grade the essay STRICTLY per the provided CSS English Essay rubric.\n"
-        "CRITICAL RULES:\n"
-        "1) DO NOT output exact marks. Output ranges like \"6-8\".\n"
-        "2) Be VERY strict: even the best essay should rarely exceed ~38-40/100.\n"
-        "   This is a guideline, not a hard cap.\n"
-        "3) Follow these criteria allocations exactly:\n"
-        "   - Outline & Topic Interpretation = 40\n"
-        "   - Introduction = 15\n"
-        "   - Relevance & Focus = 5\n"
-        "   - Content Depth & Originality = 10\n"
-        "   - Argumentation & Critical Analysis = 10\n"
-        "   - Organization/Coherence/Transitions = 5\n"
-        "   - Expression/Grammar/Vocabulary/Style = 10\n"
-        "   - Conclusion & Overall Impression = 5\n"
-        "4) Overall rating MUST be one of: Excellent, Good, Average, Weak.\n"
-        "5) Headings or section markers may appear; do NOT assume they are absent.\n"
-        "   Judge structure based on outline quality, paragraph flow, and any visible headings.\n"
-        "6) total_awarded_range must be consistent with the sum of all ranges and kept conservative.\n"
-        "7) Ignore OCR errors completely; do NOT mention OCR quality, misreads, legibility, handwriting, blurring, smudging, or scanning issues in any field. Never add OCR-related caveats or apologies.\n"
-        "8) Topic must be verbatim from the essay as written; do not rephrase, shorten, or expand it.\n"
-        "9) Do NOT call the essay garbage, OCR output, or scanning errors. Evaluate the submission as-is; if writing is incoherent, critique clarity/relevance/logic instead of blaming OCR.\n"
-        "10) Each marks_awarded_range must have a gap of at most 3 points (e.g., 6-8 or 7-9, not 6-10).\n"
-        "11) total_awarded_range MUST equal the sum of all lower bounds and upper bounds respectively across criteria (sum of lows - sum of highs).\n"
-        "Return JSON only matching schema."
+        "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
+        "Rules:\n"
+        "- Output only mark ranges per criterion (e.g., \"6-8\"); width ≤ 3 points.\n"
+        "- Keep totals conservative; strong essays rarely exceed ~38-40/100.\n"
+        "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
+        "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
+        "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
+        "- Do not mention OCR/scan/legibility/handwriting; critique clarity/relevance/logic instead.\n"
+        "- Headings/section markers may exist; judge what is visible, do not invent.\n"
+        "- If unsure, choose the lower bound and never leave fields blank.\n"
+        "- Return JSON only matching the provided schema."
     )
 
     payload = {
@@ -1471,7 +1434,7 @@ def main():
         page_images=page_images,
     )
     print("Grading done.")
-
+    '''
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1481,6 +1444,8 @@ def main():
         grading=grading,
         page_images=page_images,
     )
+    '''
+    ann_pack = {"annotations": [], "page_suggestions": [], "errors": []}  # Skip annotations for now
     
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []

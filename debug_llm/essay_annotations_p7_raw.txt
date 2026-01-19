@@ -1,1 +1,43 @@
-{"page":7,"page_suggestions":["Strengthen factual accuracy by verifying historical attributions and concepts like the Thucydides Trap.","Improve grammar and sentence structure to eliminate incomplete phrases and subject-verb errors.","Enhance argumentation depth by explaining key ideas like strategic uncertainty beyond surface-level mentions.","Refine paragraph flow with smoother transitions between historical context and main arguments."],"annotations":[{"page":7,"type":"factual_accuracy","rubric_point":"Factual Accuracy","anchor_quote":"As Ronald Reagan notes in his book \"An American Life\" \"Multipolarity intensifies the Thucydides Trap because several rising powers challenge several established ones simultaneously:\"","correction":"The Thucydides Trap was popularized by Graham Allison in 'Destined for War' (2017); Ronald Reagan's 'An American Life' (1990) is an autobiography that does not discuss this concept.","comment":"Misattributing the Thucydides Trap to Reagan introduces a verifiable factual error, weakening the essay's credibility and requiring cross-verification with reliable sources."},{"page":7,"type":"grammar_language","rubric_point":"Grammar & Language","anchor_quote":"Meanwhile, the emergence of Russia and its anti-western doctrine have instigated the return of hard power, escalating the risks of miscalculations and mistrust.","correction":"Change 'have instigated' to 'has instigated' to correct subject-verb agreement, as 'emergence' is singular.","comment":"Subject-verb disagreement disrupts formal academic tone and clarity; ensure consistent grammatical structure for professional expression."},{"page":7,"type":"grammar_language","rubric_point":"Grammar & Language","anchor_quote":"As the world transitions toward multipolarity, the rise of great powers a Thucydides Trap to already established powers.","correction":"Insert 'poses' or 'creates' after 'powers' to complete the sentence: e.g., 'the rise of great powers poses a Thucydides Trap to already established powers.'","comment":"Incomplete sentence fragments hinder readability and logical progression; revise for full, properly structured sentences in formal writing."},{"page":7,"type":"argumentation_depth","rubric_point":"Overall Argumentation & Critical Depth","anchor_quote":"One of the most significant features of multipolarity is that it strengthens strategic uncertainty among great powers.","correction":"N/A","comment":"The claim on strategic uncertainty lacks explanation of 'why' or 'how' it leads to war, remaining descriptive; add critical analysis, such as cause-effect links or counterarguments, for deeper insight."}]}
+{
+  "page": 7,
+  "page_suggestions": [
+    "Verify and correct misattributed quotes to strengthen factual credibility.",
+    "Smooth fragmented sentences and improve transitions for better paragraph flow.",
+    "Add analytical depth to claims about strategic uncertainty with specific examples.",
+    "Eliminate abrupt shifts to maintain coherent progression of ideas."
+  ],
+  "annotations": [
+    {
+      "page": 7,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "As Ronald Reagan notes in his book \"An American Life\" \"Multipolarity intensifies the Thucydides Trap because several rising powers challenge several established ones simultaneously:\"",
+      "correction": "The Thucydides Trap was coined by Graham Allison in 2011; Reagan's 1990 autobiography does not reference it.",
+      "comment": "Misattribution of a modern concept to Reagan undermines the essay's reliability and requires verification from credible sources."
+    },
+    {
+      "page": 7,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "it is now crucial to underline the potential faultlines that can fuel war.",
+      "correction": "fault lines",
+      "comment": "Spelling error in 'faultlines' (should be two words); ensures formal academic precision and clarity."
+    },
+    {
+      "page": 7,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Having highlighted the term multipolarity, it is now crucial to underline the potential faultlines that can fuel war. due to multipolarity",
+      "correction": "Integrate 'due to multipolarity' into the previous sentence for smoother connection.",
+      "comment": "Fragmented structure with misplaced phrase disrupts unity; add transitions to link ideas logically from definition to analysis."
+    },
+    {
+      "page": 7,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "This accelerates geopolitical contestation among great powers.",
+      "correction": "N/A",
+      "comment": "Claim lacks explanation of 'how' or evidence (e.g., specific rivalries); develop with cause-effect analysis for deeper critical engagement."
+    }
+  ]
+}

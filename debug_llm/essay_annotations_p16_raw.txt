@@ -1,10 +1,10 @@
 {
   "page": 16,
   "page_suggestions": [
-    "Correct spelling errors in diplomatic terms and quotes to enhance clarity.",
-    "Break run-on sentences for better readability and logical progression.",
-    "Strengthen examples with deeper analysis of their implications for multipolarity.",
-    "Ensure consistent formatting for quotes and section transitions."
+    "Strengthen transitions between preventive diplomacy and soft power sections for better flow.",
+    "Provide more specific examples of soft power to enhance argumentation depth.",
+    "Correct spelling errors to improve overall readability and academic tone.",
+    "Ensure factual accuracy in historical references like JCPOA negotiations."
   ],
   "annotations": [
     {
@@ -13,31 +13,39 @@
       "rubric_point": "Grammar & Language",
       "anchor_quote": "through Track I and Track IL diplomacy reduce misperceptions",
       "correction": "through Track I and Track II diplomacy reduces misperceptions",
-      "comment": "Misspelling of 'Track II' and subject-verb agreement error; formal writing requires precise terminology and grammatical accuracy."
+      "comment": "Spelling error in 'Track IL' should be 'Track II'; subject-verb agreement issue as 'engagement' is singular."
     },
     {
       "page": 16,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "by institutionalizing backcharmel diplomacy in Oman. his helped both nations",
-      "correction": "by institutionalizing backchannel diplomacy in Oman. This helped both nations",
-      "comment": "Spelling error in 'backchannel' and capitalization error in 'his'; correct for formal academic tone and readability."
+      "anchor_quote": "in Oman. his helped both nations to address their concerns",
+      "correction": "in Oman. This helped both nations to address their concerns",
+      "comment": "Capitalization and spelling error: 'his' should be 'This' to start a new sentence properly."
     },
     {
       "page": 16,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "Thirdly prioritizing soft Dower engagement to reduce hostility among rival powers",
-      "correction": "Thirdly, prioritizing soft power engagement to reduce hostility among rival powers",
-      "comment": "Spelling error in 'power' and missing comma after 'Thirdly'; punctuation and spelling must be consistent in formal essays."
+      "anchor_quote": "Thirdly prioritizing soft Dower engagement to reduce hostility",
+      "correction": "Thirdly, prioritizing soft power engagement to reduce hostility",
+      "comment": "Spelling error in 'Dower' should be 'power'; add comma after 'Thirdly' for proper introductory adverb usage."
     },
     {
       "page": 16,
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "anchor_quote": "Soft power remains the cornerstore of peaceful coexistence As quoted by Joseph Nye",
-      "correction": "Soft power remains the cornerstone of peaceful coexistence. As quoted by Joseph Nye",
-      "comment": "Spelling error in 'cornerstone' and missing period; proper punctuation prevents run-on sentences and improves structure."
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "by institutionalizing backcharmel diplomacy in Oman. his helped",
+      "correction": "by institutionalizing backchannel diplomacy in Oman. This helped",
+      "comment": "Spelling error in 'backcharmel' should be 'backchannel'; the 2015 JCPOA negotiations via Oman backchannels are factually correct but need precise terminology."
+    },
+    {
+      "page": 16,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Soft power remains the cornerstore of peaceful coexistence As quoted",
+      "correction": "Soft power remains the cornerstone of peaceful coexistence. As quoted",
+      "comment": "Superficial treatment of soft power; lacks critical analysis of 'why' it reduces hostility in multipolarity—expand on implications and limitations beyond the quote."
     }
   ]
 }

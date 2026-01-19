@@ -1,43 +1,42 @@
 {
   "page": 11,
   "page_suggestions": [
-    "Strengthen paragraph flow by adding transitions between ideas on hard power and proxy conflicts.",
-    "Enhance argumentation depth with critical evaluation of how proxy wars escalate to global risks.",
-    "Correct grammatical errors and incomplete sentences to improve readability.",
-    "Ensure factual examples like Iran's Axis of Resistance are analyzed for implications rather than listed descriptively."
+    "Expand on the proxy conflict example with specific outcomes or implications to add depth.",
+    "Improve sentence structure to eliminate fragments and enhance readability.",
+    "Strengthen links between multipolarity and global consequences with evidence."
   ],
   "annotations": [
     {
       "page": 11,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "Hence, a multipolar world is more prone to war as it accelerates balkanization : and institutionalizes the return of hard power.",
-      "correction": "Remove unnecessary colon after 'balkanization' and ensure consistent punctuation.",
-      "comment": "The sentence is grammatically awkward due to the misplaced colon and fragmented phrasing, which distracts from clarity in formal writing."
-    },
-    {
-      "page": 11,
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "anchor_quote": "Multipolarity accelerates and indirect . proxy conflicts . warfare. In a multipolar world, states use proxies and intelligence - - led operations",
-      "correction": "Rephrase for smooth progression: 'Multipolarity accelerates indirect proxy conflicts and warfare. In a multipolar world, states use proxies and intelligence-led operations.'",
-      "comment": "The topic sentence is fragmented with abrupt breaks and missing words, disrupting idea progression and lacking clear links to evidence."
-    },
-    {
-      "page": 11,
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "anchor_quote": "Iran uses its \"Axis of Resistance\" (Houthis, Hamas and Hezbollah) to exert its influence in Yemen, Palestine and Lebanon and create a deterrence trap for Israel.",
-      "correction": "No correction needed, but expand with analysis.",
-      "comment": "The example is descriptively listed without critical analysis of 'why' or 'how' it ties to multipolarity fueling war, resulting in shallow argumentation."
+      "anchor_quote": "thereby igniting a way that will not only have regional repercussions but also global consequences.",
+      "correction": "thereby igniting a war that will not only have regional repercussions but also global consequences.",
+      "comment": "Replace 'way' with 'war' to correct the apparent typographical error and ensure precise, formal language suitable for academic writing."
     },
     {
       "page": 11,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "thereby igniting a way that will not only have regional repercussions but also global consequences.",
-      "correction": "Change 'igniting a way' to 'igniting a war'.",
-      "comment": "Typographical or phrasing error creates confusion; formal academic writing requires precise word choice to maintain clarity and professionalism."
+      "anchor_quote": "This highlights that how a multipolar world opens channels of covert and intelligence.",
+      "correction": "This highlights how a multipolar world opens channels of covert and intelligence.",
+      "comment": "Remove 'that' after 'highlights' to fix redundant structure and improve grammatical clarity in formal expression."
+    },
+    {
+      "page": 11,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Multipolarity accelerates and indirect . proxy conflicts . warfare. In a multipolar world,",
+      "correction": "Multipolarity accelerates indirect proxy conflicts and warfare. In a multipolar world,",
+      "comment": "Revise fragmented phrasing into a complete sentence to ensure smooth idea progression and logical unity within the paragraph."
+    },
+    {
+      "page": 11,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Iran uses its \"Axis of Resistance\" (Houthis, Hamas and Hezbollah) to exert its influence in Yemen, Palestine and Lebanon",
+      "correction": "",
+      "comment": "Provide critical analysis of how this example illustrates multipolarity's role in escalation, including counterarguments or implications, rather than mere description."
     }
   ]
 }

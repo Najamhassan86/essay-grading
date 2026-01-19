@@ -1,42 +1,43 @@
 {
   "page": 2,
   "page_suggestions": [
-    "Expand outline points with brief explanations to show logical progression.",
-    "Balance coverage by linking each point to the thesis on multipolarity's risks.",
-    "Use consistent formatting for sub-bullets to improve visual clarity."
+    "Ensure consistent numbering for outline subpoints to improve logical flow.",
+    "Balance subpoint length and detail to avoid fragmentation.",
+    "Incorporate counterarguments in outline headings for deeper analysis.",
+    "Refine phrasing in subpoints for clarity and precision."
   ],
   "annotations": [
     {
       "page": 2,
       "type": "outline_quality",
-      "rubric_point": "Outline Quality",
-      "anchor_quote": "(C), Multipolarity promotes alliances and counter alliances and instigates bloc politics .. · US-led and China-led blocs",
-      "correction": "Revise to: '(c) Multipolarity promotes alliances and counter-alliances, instigating bloc politics, e.g., US-led and China-led blocs.'",
-      "comment": "This point lacks analytical depth; add a sub-point on how bloc politics leads to escalation, ensuring balanced coverage of risks without generic listing."
+      "rubric_point": "Logical Structure & Arrangement",
+      "anchor_quote": "Multipolarity promotes alliances and counter alliances and instigates bloc politics .. · US-led and China-led blocs",
+      "correction": "Multipolarity fosters alliances and counter-alliances, leading to bloc politics. Examples: US-led and China-led blocs.",
+      "comment": "Subpoint phrasing is wordy and lacks hierarchy; streamline for clear progression and balanced coverage."
     },
     {
       "page": 2,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "· Middle pour powers asserting regional 2 influence .",
-      "correction": "· Middle powers asserting regional influence.",
-      "comment": "Correct spelling of 'pour' to 'powers' and remove extraneous '2'; ensure precise terminology for formal academic tone."
+      "anchor_quote": "Nationalist militarism surges due to the rise of middle powers .. · Middle pour powers asserting regional 2 influence .",
+      "correction": "Nationalist militarism surges due to the rise of middle powers. · Middle powers asserting regional influence.",
+      "comment": "Spelling error in 'pour' disrupts clarity; correct to maintain formal academic tone and precision."
     },
     {
       "page": 2,
       "type": "organization_coherence",
-      "rubric_point": "Organization, Coherence & Transitions",
-      "anchor_quote": "(d). Multipolarity undermines consensus building promoting institutional paralysis. · UN paralysis over Syria and Yemen",
-      "correction": "Restructure to: '(d) Multipolarity undermines consensus-building, promoting institutional paralysis (e.g., UN paralysis over Syria and Yemen).'",
-      "comment": "Improve coherence by using consistent punctuation and linking examples directly to the main point; avoid abrupt shifts to maintain logical flow in the outline."
+      "rubric_point": "Logical Structure & Arrangement",
+      "anchor_quote": "(f). Multipolarity accelerates proxy conflicts and indirect warfare, · Proxy warfare in the Middle East (9). Nationalist militarism surges",
+      "correction": "(f). Multipolarity accelerates proxy conflicts and indirect warfare. · Proxy warfare in the Middle East. (g). Nationalist militarism surges",
+      "comment": "Inconsistent numbering (e.g., (9) instead of (g)) creates discontinuity; fix for coherent outline structure."
     },
     {
       "page": 2,
-      "type": "relevance_focus",
-      "rubric_point": "Relevance & Focus",
-      "anchor_quote": "(e). Multipolarity exacerbates the return of hard power. · Russian invasion of Ukraine",
-      "correction": "No direct correction needed; tie example explicitly to multipolarity.",
-      "comment": "Ensure example directly addresses how multipolarity worsens hard power return; avoid superficial references that drift from the core topic of war risks."
+      "type": "repetitiveness",
+      "rubric_point": "Repetitive sub-points under different headings",
+      "anchor_quote": "Multipolarity undermines consensus building promoting institutional paralysis. · UN paralysis over Syria and Yemen (e). Multipolarity exacerbates the return",
+      "correction": "Multipolarity undermines consensus-building, leading to institutional paralysis. · Example: UN paralysis over Syria and Yemen.",
+      "comment": "Repetitive use of 'Multipolarity' in each subpoint wastes space; vary phrasing to show progression without redundancy."
     }
   ]
 }

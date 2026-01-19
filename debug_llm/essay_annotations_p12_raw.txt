@@ -1,10 +1,10 @@
 {
   "page": 12,
   "page_suggestions": [
-    "Expand on specific examples of middle powers' rearmament to add depth to the nationalist militarism argument.",
-    "Improve transitions between sections on militarism and economic contestation for better coherence.",
-    "Correct spelling and grammatical errors to enhance professional tone.",
-    "Provide more analysis on how economic warfare links back to multipolarity's war-fueling risks."
+    "Correct spelling errors to enhance readability and professionalism.",
+    "Deepen analysis of economic contestation with specific examples.",
+    "Ensure accurate historical references to support claims.",
+    "Avoid repetitive phrasing on supply chain disruptions."
   ],
   "annotations": [
     {
@@ -13,15 +13,7 @@
       "rubric_point": "Grammar & Language",
       "anchor_quote": "nationalist militarism emerges as such states contect for regional autonomy With the rise",
       "correction": "nationalist militarism emerges as such states contest for regional autonomy. With the rise",
-      "comment": "Correct 'contect' to 'contest' and add period after 'autonomy' to fix spelling error and improve sentence structure for clarity in formal writing."
-    },
-    {
-      "page": 12,
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "anchor_quote": "These nations Leverage their geostrategic locations and natural resource reserves to exert",
-      "correction": "These nations leverage their geostrategic locations and natural resource reserves to exert",
-      "comment": "Lowercase 'Leverage' as it is not starting a sentence; ensure consistent capitalization to maintain formal academic style."
+      "comment": "Spelling error 'contect' should be 'contest'; add period for proper sentence structure to maintain formal academic tone."
     },
     {
       "page": 12,
@@ -29,23 +21,31 @@
       "rubric_point": "Factual Accuracy",
       "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg.",
       "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era.",
-      "comment": "Correct 'erg.' to 'era' for historical accuracy; verify and expand on pre-WWII parallels with specific evidence to strengthen verifiability."
+      "comment": "Abbreviation 'erg.' is unclear and likely meant 'era'; ensure precise historical terminology for verifiable accuracy."
+    },
+    {
+      "page": 12,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Such economic ware using tools of tariffs and export controls disrupt global supply",
+      "correction": "Such economic warfare, using tools of tariffs and export controls, disrupts global supply",
+      "comment": "Spelling error 'ware' should be 'warfare'; add commas for clarity and subject-verb agreement to improve sentence structure."
+    },
+    {
+      "page": 12,
+      "type": "repetitiveness",
+      "rubric_point": "Repetitiveness",
+      "anchor_quote": "disrupting global supply chains. As the great powers prioritize national interests over global, they tend to instigate economic warfare. Such economic ware using tools of tariffs and export controls disrupt global supply chains",
+      "correction": "disrupting global supply chains. As great powers prioritize national interests, they instigate economic warfare through tariffs and export controls,",
+      "comment": "Repeated mention of 'disrupt global supply chains' wastes space; consolidate to avoid redundancy and improve progression."
     },
     {
       "page": 12,
       "type": "argumentation_depth",
       "rubric_point": "Overall Argumentation & Critical Depth",
-      "anchor_quote": "Such economic ware using tools of tariffs and export controls disrupt global supply chains",
-      "correction": "Such economic war, using tools of tariffs and export controls, disrupts global supply chains",
-      "comment": "Correct 'ware' to 'war' and add commas for grammar; deepen analysis by explaining cause-effect links between tariffs, supply chains, and broader war risks in multipolarity."
-    },
-    {
-      "page": 12,
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg. Multipolarity escalates",
-      "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era. Similarly, multipolarity escalates",
-      "comment": "Add a transition like 'Similarly' to connect nationalism to economic contestation; ensure logical progression from militarism to economic impacts for smoother idea flow."
+      "anchor_quote": "Multipolarity escalates economic contestation thereby disrupting global supply chains. As the great powers prioritize national interests over global,",
+      "correction": "Multipolarity escalates economic contestation, thereby disrupting global supply chains. As great powers prioritize national interests over global cooperation,",
+      "comment": "Claim lacks critical analysis of 'why' or 'how' this leads to war; add evidence or implications for deeper engagement beyond description."
     }
   ]
 }

@@ -1,26 +1,26 @@
 {
   "page_number": 17,
-  "page_width": 1488.0,
-  "page_height": 2105.0,
+  "page_width": 1819.0,
+  "page_height": 2573.0,
   "lines": [
     {
       "text": "educational and technological",
       "bbox": [
         [
-          289,
-          140
+          354,
+          170
         ],
         [
-          1082,
-          146
+          1324,
+          180
         ],
         [
-          1081,
-          198
+          1323,
+          242
         ],
         [
-          289,
-          189
+          353,
+          230
         ]
       ],
       "words": [
@@ -28,20 +28,20 @@
           "text": "educational",
           "bbox": [
             [
-              292,
-              140
+              356,
+              171
             ],
             [
-              552,
-              141
+              680,
+              172
             ],
             [
-              551,
-              192
+              679,
+              234
             ],
             [
-              291,
-              190
+              355,
+              232
             ]
           ]
         }
@@ -51,20 +51,20 @@
       "text": "exchanger builds trust among",
       "bbox": [
         [
-          295,
-          198
+          361,
+          243
         ],
         [
-          1112,
-          204
+          1358,
+          250
         ],
         [
-          1112,
-          254
+          1357,
+          310
         ],
         [
-          294,
-          247
+          361,
+          302
         ]
       ],
       "words": [
@@ -72,20 +72,20 @@
           "text": "exchanger",
           "bbox": [
             [
-              297,
-              204
+              364,
+              250
             ],
             [
-              530,
-              199
+              646,
+              243
             ],
             [
-              529,
-              248
+              646,
+              303
             ],
             [
-              296,
-              248
+              364,
+              303
             ]
           ]
         }
@@ -95,20 +95,20 @@
       "text": "nations",
       "bbox": [
         [
-          287,
-          260
+          350,
+          318
         ],
         [
-          440,
-          262
+          537,
+          320
         ],
         [
-          439,
-          302
+          536,
+          369
         ],
         [
-          286,
-          299
+          350,
+          366
         ]
       ],
       "words": [
@@ -116,20 +116,20 @@
           "text": "nations",
           "bbox": [
             [
-              294,
-              261
+              359,
+              319
             ],
             [
-              438,
-              263
+              534,
+              322
             ],
             [
-              436,
-              303
+              533,
+              369
             ],
             [
-              293,
-              300
+              358,
+              368
             ]
           ]
         }
@@ -139,20 +139,20 @@
       "text": "and decreases zero-sum",
       "bbox": [
         [
-          460,
-          266
+          548,
+          321
         ],
         [
-          1178,
-          269
+          1441,
+          326
         ],
         [
-          1178,
-          306
+          1441,
+          375
         ],
         [
-          460,
-          304
+          548,
+          372
         ]
       ],
       "words": [
@@ -160,20 +160,20 @@
           "text": "and",
           "bbox": [
             [
-              572,
-              267
+              698,
+              321
             ],
             [
-              649,
-              266
+              797,
+              321
             ],
             [
-              648,
-              306
+              797,
+              375
             ],
             [
-              570,
-              305
+              698,
+              374
             ]
           ]
         }
@@ -183,20 +183,20 @@
       "text": "thinking. When people to people ties",
       "bbox": [
         [
-          294,
-          312
+          359,
+          382
         ],
         [
-          1210,
-          313
+          1479,
+          383
         ],
         [
-          1210,
-          362
+          1479,
+          442
         ],
         [
-          294,
-          361
+          359,
+          441
         ]
       ],
       "words": [
@@ -204,20 +204,20 @@
           "text": "thinking.",
           "bbox": [
             [
-              297,
-              313
+              363,
+              383
             ],
             [
-              489,
-              318
+              597,
+              388
             ],
             [
-              488,
-              361
+              595,
+              441
             ],
             [
-              296,
-              356
+              361,
+              436
             ]
           ]
         }
@@ -227,20 +227,20 @@
       "text": "remain open and stakes are",
       "bbox": [
         [
-          276,
-          378
+          338,
+          463
         ],
         [
-          1130,
-          368
+          1380,
+          451
         ],
         [
-          1130,
-          412
+          1381,
+          503
         ],
         [
-          276,
-          419
+          338,
+          512
         ]
       ],
       "words": [
@@ -248,64 +248,64 @@
           "text": "remain",
           "bbox": [
             [
-              279,
-              378
+              341,
+              464
             ],
             [
-              430,
-              379
+              529,
+              464
             ],
             [
-              428,
-              419
+              528,
+              511
             ],
             [
-              278,
-              417
+              340,
+              509
             ]
           ]
         }
       ]
     },
     {
-      "text": "shared, it becomes difficult for",
+      "text": "shared , it becomes difficult for",
       "bbox": [
         [
-          291,
-          429
+          357,
+          525
         ],
         [
-          1203,
-          413
+          1471,
+          505
         ],
         [
-          1204,
-          460
+          1472,
+          562
         ],
         [
-          291,
-          476
+          357,
+          581
         ]
       ],
       "words": [
         {
-          "text": "shared,",
+          "text": "shared",
           "bbox": [
             [
-              294,
-              430
+              361,
+              525
             ],
             [
-              497,
-              431
+              534,
+              527
             ],
             [
-              497,
-              473
+              533,
+              579
             ],
             [
-              293,
-              476
+              359,
+              581
             ]
           ]
         }
@@ -315,20 +315,20 @@
       "text": "governments to mobilize mass",
       "bbox": [
         [
-          299,
-          491
+          365,
+          601
         ],
         [
-          1167,
-          475
+          1427,
+          580
         ],
         [
-          1168,
-          515
+          1428,
+          629
         ],
         [
-          299,
-          531
+          365,
+          650
         ]
       ],
       "words": [
@@ -336,20 +336,20 @@
           "text": "governments",
           "bbox": [
             [
-              307,
-              492
+              375,
+              602
             ],
             [
-              613,
-              486
+              751,
+              594
             ],
             [
-              613,
-              527
+              751,
+              644
             ],
             [
-              306,
-              531
+              374,
+              650
             ]
           ]
         }
@@ -359,20 +359,20 @@
       "text": "support for war. The Ping Pong",
       "bbox": [
         [
-          295,
-          544
+          360,
+          666
         ],
         [
-          1125,
-          529
+          1375,
+          647
         ],
         [
-          1126,
-          571
+          1376,
+          697
         ],
         [
-          295,
-          583
+          360,
+          713
         ]
       ],
       "words": [
@@ -380,20 +380,20 @@
           "text": "support",
           "bbox": [
             [
-              298,
-              547
+              364,
+              668
             ],
             [
-              455,
-              543
+              555,
+              663
             ],
             [
-              454,
-              583
+              554,
+              712
             ],
             [
-              297,
-              583
+              362,
+              713
             ]
           ]
         }
@@ -403,20 +403,20 @@
       "text": "Diplomacy (1971) between the US",
       "bbox": [
         [
-          286,
-          597
+          350,
+          730
         ],
         [
-          1134,
-          581
+          1386,
+          711
         ],
         [
-          1135,
-          625
+          1387,
+          764
         ],
         [
-          286,
-          642
+          350,
+          785
         ]
       ],
       "words": [
@@ -424,20 +424,20 @@
           "text": "Diplomacy",
           "bbox": [
             [
-              288,
-              598
+              352,
+              730
             ],
             [
-              514,
-              595
+              628,
+              727
             ],
             [
-              515,
-              640
+              628,
+              783
             ],
             [
-              288,
-              642
+              352,
+              785
             ]
           ]
         }
@@ -447,20 +447,20 @@
       "text": "and China softened the relations",
       "bbox": [
         [
-          287,
-          653
+          351,
+          799
         ],
         [
-          1145,
-          634
+          1399,
+          776
         ],
         [
-          1146,
-          677
+          1400,
+          828
         ],
         [
-          287,
-          694
+          351,
+          848
         ]
       ],
       "words": [
@@ -468,20 +468,20 @@
           "text": "and",
           "bbox": [
             [
-              289,
-              653
+              353,
+              799
             ],
             [
-              366,
-              652
+              446,
+              798
             ],
             [
-              366,
-              694
+              446,
+              848
             ],
             [
-              289,
-              694
+              353,
+              848
             ]
           ]
         }
@@ -491,20 +491,20 @@
       "text": "and reduced Cold War hostility",
       "bbox": [
         [
-          311,
-          706
+          380,
+          864
         ],
         [
-          1131,
-          690
+          1359,
+          843
         ],
         [
-          1132,
-          729
+          1360,
+          891
         ],
         [
-          311,
-          747
+          380,
+          913
         ]
       ],
       "words": [
@@ -512,20 +512,20 @@
           "text": "and",
           "bbox": [
             [
-              313,
-              708
+              383,
+              866
             ],
             [
-              390,
-              706
+              481,
+              863
             ],
             [
-              390,
-              747
+              481,
+              912
             ],
             [
-              313,
-              748
+              383,
+              914
             ]
           ]
         }
@@ -535,20 +535,20 @@
       "text": "ultimately leading to normalization",
       "bbox": [
         [
-          278,
-          762
+          339,
+          932
         ],
         [
-          1172,
-          743
+          1433,
+          908
         ],
         [
-          1173,
-          782
+          1434,
+          956
         ],
         [
-          278,
-          804
+          339,
+          982
         ]
       ],
       "words": [
@@ -556,20 +556,20 @@
           "text": "ultimately",
           "bbox": [
             [
-              280,
-              763
+              342,
+              932
             ],
             [
-              513,
-              757
+              626,
+              925
             ],
             [
-              512,
-              798
+              626,
+              976
             ],
             [
-              280,
-              805
+              341,
+              983
             ]
           ]
         }
@@ -579,20 +579,20 @@
       "text": "of diplomatic ties. Henceforth, by",
       "bbox": [
         [
-          295,
-          807
+          361,
+          987
         ],
         [
-          1202,
-          789
+          1470,
+          965
         ],
         [
-          1203,
-          836
+          1472,
+          1022
         ],
         [
-          295,
-          852
+          361,
+          1042
         ]
       ],
       "words": [
@@ -600,20 +600,20 @@
           "text": "diplomatic",
           "bbox": [
             [
-              443,
-              810
+              542,
+              990
             ],
             [
-              649,
-              808
+              789,
+              987
             ],
             [
-              649,
-              846
+              790,
+              1034
             ],
             [
-              442,
-              849
+              543,
+              1039
             ]
           ]
         }
@@ -623,20 +623,20 @@
       "text": "undertaking sovereignty and national",
       "bbox": [
         [
-          294,
-          861
+          357,
+          1052
         ],
         [
-          1205,
-          846
+          1473,
+          1034
         ],
         [
-          1206,
-          889
+          1474,
+          1087
         ],
         [
-          294,
-          905
+          357,
+          1106
         ]
       ],
       "words": [
@@ -644,43 +644,43 @@
           "text": "undertaking",
           "bbox": [
             [
-              295,
-              862
+              359,
+              1053
             ],
             [
-              544,
-              862
+              667,
+              1055
             ],
             [
-              544,
-              902
+              668,
+              1102
             ],
             [
-              295,
-              906
+              359,
+              1106
             ]
           ]
         }
       ]
     },
     {
-      "text": "interests of states, peaceful",
+      "text": "interests of states , peaceful",
       "bbox": [
         [
-          276,
-          916
+          338,
+          1121
         ],
         [
-          1105,
-          905
+          1348,
+          1107
         ],
         [
-          1105,
-          945
+          1349,
+          1156
         ],
         [
-          276,
-          958
+          338,
+          1171
         ]
       ],
       "words": [
@@ -688,20 +688,20 @@
           "text": "interests",
           "bbox": [
             [
-              276,
-              917
+              339,
+              1122
             ],
             [
-              463,
-              917
+              565,
+              1121
             ],
             [
-              464,
-              956
+              565,
+              1169
             ],
             [
-              276,
-              959
+              339,
+              1171
             ]
           ]
         }
@@ -711,20 +711,20 @@
       "text": "multipolar world can sustain:",
       "bbox": [
         [
-          279,
-          970
+          339,
+          1186
         ],
         [
-          1058,
-          964
+          1292,
+          1179
         ],
         [
-          1058,
-          1000
+          1293,
+          1223
         ],
         [
-          279,
-          1011
+          339,
+          1236
         ]
       ],
       "words": [
@@ -732,20 +732,20 @@
           "text": "multipolar",
           "bbox": [
             [
-              302,
-              972
+              373,
+              1188
             ],
             [
-              503,
-              968
+              618,
+              1183
             ],
             [
-              503,
-              1008
+              618,
+              1232
             ],
             [
-              301,
-              1012
+              372,
+              1237
             ]
           ]
         }
@@ -755,20 +755,20 @@
       "text": "Next, managing great",
       "bbox": [
         [
-          565,
-          1072
+          692,
+          1310
         ],
         [
-          1223,
-          1064
+          1493,
+          1302
         ],
         [
-          1223,
-          1104
+          1494,
+          1350
         ],
         [
-          565,
-          1115
+          692,
+          1362
         ]
       ],
       "words": [
@@ -776,43 +776,43 @@
           "text": "Next,",
           "bbox": [
             [
-              569,
-              1072
+              696,
+              1311
             ],
             [
-              735,
-              1071
+              899,
+              1309
             ],
             [
-              734,
-              1112
+              898,
+              1360
             ],
             [
-              567,
-              1116
+              694,
+              1363
             ]
           ]
         }
       ]
     },
     {
-      "text": "Power",
+      "text": "Power competition through controlled",
       "bbox": [
         [
-          280,
-          1135
+          342,
+          1386
         ],
         [
-          407,
-          1132
+          1527,
+          1369
         ],
         [
-          408,
-          1167
+          1528,
+          1413
         ],
         [
-          280,
-          1170
+          342,
+          1429
         ]
       ],
       "words": [
@@ -820,64 +820,20 @@
           "text": "Power",
           "bbox": [
             [
-              286,
-              1135
+              350,
+              1389
             ],
             [
-              403,
-              1132
+              491,
+              1386
             ],
             [
-              403,
-              1168
+              490,
+              1427
             ],
             [
-              286,
-              1170
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "competition through controlled",
-      "bbox": [
-        [
-          427,
-          1128
-        ],
-        [
-          1249,
-          1116
-        ],
-        [
-          1250,
-          1157
-        ],
-        [
-          427,
-          1167
-        ]
-      ],
-      "words": [
-        {
-          "text": "competition",
-          "bbox": [
-            [
-              514,
-              1131
-            ],
-            [
-              748,
-              1127
-            ],
-            [
-              747,
-              1163
-            ],
-            [
-              513,
-              1166
+              350,
+              1429
             ]
           ]
         }
@@ -887,20 +843,20 @@
       "text": "rivalry and crisis management",
       "bbox": [
         [
-          280,
-          1182
+          344,
+          1445
         ],
         [
-          1147,
-          1176
+          1400,
+          1438
         ],
         [
-          1148,
-          1213
+          1401,
+          1483
         ],
         [
-          280,
-          1221
+          344,
+          1493
         ]
       ],
       "words": [
@@ -908,20 +864,20 @@
           "text": "rivalry",
           "bbox": [
             [
-              281,
-              1184
+              344,
+              1448
             ],
             [
-              416,
-              1182
+              510,
+              1445
             ],
             [
-              416,
-              1221
+              510,
+              1493
             ],
             [
-              281,
-              1222
+              344,
+              1494
             ]
           ]
         }
@@ -931,20 +887,20 @@
       "text": "protocols. As the US. China and",
       "bbox": [
         [
-          277,
-          1234
+          339,
+          1508
         ],
         [
-          1187,
-          1228
+          1451,
+          1501
         ],
         [
-          1187,
-          1269
+          1451,
+          1551
         ],
         [
-          277,
-          1277
+          339,
+          1562
         ]
       ],
       "words": [
@@ -952,20 +908,20 @@
           "text": "protocols.",
           "bbox": [
             [
-              280,
-              1235
+              341,
+              1509
             ],
             [
-              487,
-              1233
+              594,
+              1507
             ],
             [
-              487,
-              1275
+              595,
+              1558
             ],
             [
-              279,
-              1278
+              341,
+              1563
             ]
           ]
         }
@@ -975,20 +931,20 @@
       "text": "US-Russia rivalries intensify the",
       "bbox": [
         [
-          285,
-          1286
+          349,
+          1572
         ],
         [
-          1205,
-          1278
+          1472,
+          1562
         ],
         [
-          1205,
-          1322
+          1473,
+          1616
         ],
         [
-          285,
-          1329
+          349,
+          1624
         ]
       ],
       "words": [
@@ -996,20 +952,20 @@
           "text": "US-Russia",
           "bbox": [
             [
-              287,
-              1286
+              352,
+              1572
             ],
             [
-              496,
-              1286
+              607,
+              1572
             ],
             [
-              495,
-              1329
+              606,
+              1624
             ],
             [
-              286,
-              1329
+              351,
+              1624
             ]
           ]
         }
@@ -1019,20 +975,20 @@
       "text": "risks of miscalculation grow.",
       "bbox": [
         [
-          270,
-          1342
+          331,
+          1640
         ],
         [
-          1102,
-          1340
+          1334,
+          1638
         ],
         [
-          1102,
-          1380
+          1334,
+          1686
         ],
         [
-          270,
-          1383
+          331,
+          1690
         ]
       ],
       "words": [
@@ -1040,20 +996,20 @@
           "text": "risks",
           "bbox": [
             [
-              273,
-              1344
+              334,
+              1644
             ],
             [
-              359,
-              1343
+              438,
+              1642
             ],
             [
-              359,
-              1384
+              437,
+              1691
             ],
             [
-              272,
-              1384
+              333,
+              1691
             ]
           ]
         }
@@ -1063,20 +1019,20 @@
       "text": "Establishing crisis hotlines military-",
       "bbox": [
         [
-          282,
-          1394
+          345,
+          1705
         ],
         [
-          1247,
-          1394
+          1528,
+          1705
         ],
         [
-          1247,
-          1439
+          1528,
+          1759
         ],
         [
-          282,
-          1441
+          345,
+          1762
         ]
       ],
       "words": [
@@ -1084,20 +1040,20 @@
           "text": "Establishing",
           "bbox": [
             [
-              285,
-              1394
+              349,
+              1705
             ],
             [
-              544,
-              1396
+              664,
+              1707
             ],
             [
-              543,
-              1439
+              662,
+              1759
             ],
             [
-              284,
-              1442
+              347,
+              1763
             ]
           ]
         }
@@ -1107,20 +1063,20 @@
       "text": "to-military communication, state-",
       "bbox": [
         [
-          288,
-          1452
+          353,
+          1774
         ],
         [
-          1211,
-          1450
+          1481,
+          1772
         ],
         [
-          1211,
-          1491
+          1481,
+          1822
         ],
         [
-          288,
-          1495
+          353,
+          1827
         ]
       ],
       "words": [
@@ -1128,20 +1084,20 @@
           "text": "to-military",
           "bbox": [
             [
-              291,
-              1452
+              356,
+              1775
             ],
             [
-              547,
-              1452
+              667,
+              1775
             ],
             [
-              546,
-              1494
+              666,
+              1826
             ],
             [
-              290,
-              1496
+              355,
+              1828
             ]
           ]
         }
@@ -1151,20 +1107,20 @@
       "text": "level diplomatic dialogues and",
       "bbox": [
         [
-          280,
-          1508
+          342,
+          1843
         ],
         [
-          1120,
-          1504
+          1367,
+          1839
         ],
         [
-          1120,
-          1546
+          1368,
+          1890
         ],
         [
-          280,
-          1551
+          342,
+          1896
         ]
       ],
       "words": [
@@ -1172,20 +1128,20 @@
           "text": "level",
           "bbox": [
             [
-              281,
-              1509
+              343,
+              1844
             ],
             [
-              398,
-              1509
+              485,
+              1844
             ],
             [
-              398,
-              1551
+              485,
+              1896
             ],
             [
-              281,
-              1551
+              343,
+              1896
             ]
           ]
         }
@@ -1195,20 +1151,20 @@
       "text": "rules-based negotiations can",
       "bbox": [
         [
-          272,
-          1563
+          334,
+          1911
         ],
         [
-          1131,
-          1563
+          1378,
+          1911
         ],
         [
-          1131,
-          1606
+          1378,
+          1964
         ],
         [
-          272,
-          1608
+          334,
+          1966
         ]
       ],
       "words": [
@@ -1216,43 +1172,43 @@
           "text": "rules-based",
           "bbox": [
             [
-              274,
-              1563
+              336,
+              1911
             ],
             [
-              528,
-              1564
+              652,
+              1912
             ],
             [
-              528,
-              1607
+              652,
+              1964
             ],
             [
-              274,
-              1609
+              336,
+              1967
             ]
           ]
         }
       ]
     },
     {
-      "text": "contain great power",
+      "text": "contain great power friction and",
       "bbox": [
         [
-          279,
-          1621
+          341,
+          1981
         ],
         [
-          886,
-          1619
+          1533,
+          1973
         ],
         [
-          887,
-          1662
+          1533,
+          2026
         ],
         [
-          279,
-          1664
+          341,
+          2032
         ]
       ],
       "words": [
@@ -1260,64 +1216,20 @@
           "text": "contain",
           "bbox": [
             [
-              281,
-              1622
+              343,
+              1984
             ],
             [
-              435,
-              1623
+              528,
+              1983
             ],
             [
-              435,
-              1662
+              529,
+              2031
             ],
             [
-              281,
-              1665
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "friction and",
-      "bbox": [
-        [
-          888,
-          1618
-        ],
-        [
-          1252,
-          1617
-        ],
-        [
-          1252,
-          1657
-        ],
-        [
-          888,
-          1659
-        ]
-      ],
-      "words": [
-        {
-          "text": "friction",
-          "bbox": [
-            [
-              977,
-              1619
-            ],
-            [
-              1112,
-              1618
-            ],
-            [
-              1112,
-              1658
-            ],
-            [
-              977,
-              1658
+              344,
+              2032
             ]
           ]
         }
@@ -1327,20 +1239,20 @@
       "text": "Prevent escalation. The US-China",
       "bbox": [
         [
-          285,
-          1672
+          349,
+          2043
         ],
         [
-          1160,
-          1671
+          1419,
+          2043
         ],
         [
-          1160,
-          1716
+          1419,
+          2097
         ],
         [
-          285,
-          1716
+          349,
+          2098
         ]
       ],
       "words": [
@@ -1348,20 +1260,20 @@
           "text": "Prevent",
           "bbox": [
             [
-              288,
-              1672
+              353,
+              2044
             ],
             [
-              438,
-              1674
+              535,
+              2046
             ],
             [
-              437,
-              1716
+              534,
+              2097
             ],
             [
-              287,
-              1714
+              351,
+              2095
             ]
           ]
         }
@@ -1371,20 +1283,20 @@
       "text": "military hotline restored in 2024",
       "bbox": [
         [
-          267,
-          1731
+          327,
+          2119
         ],
         [
-          1161,
-          1730
+          1419,
+          2118
         ],
         [
-          1162,
-          1771
+          1419,
+          2164
         ],
         [
-          267,
-          1774
+          327,
+          2166
         ]
       ],
       "words": [
@@ -1392,20 +1304,20 @@
           "text": "military",
           "bbox": [
             [
-              286,
-              1734
+              347,
+              2120
             ],
             [
-              442,
-              1732
+              534,
+              2119
             ],
             [
-              442,
-              1774
+              535,
+              2166
             ],
             [
-              285,
-              1775
+              348,
+              2167
             ]
           ]
         }
@@ -1415,20 +1327,20 @@
       "text": "after years of communication",
       "bbox": [
         [
-          293,
-          1790
+          360,
+          2186
         ],
         [
-          1157,
-          1790
+          1403,
+          2187
         ],
         [
-          1157,
-          1828
+          1403,
+          2236
         ],
         [
-          293,
-          1828
+          360,
+          2235
         ]
       ],
       "words": [
@@ -1436,20 +1348,20 @@
           "text": "after",
           "bbox": [
             [
-              295,
-              1790
+              363,
+              2187
             ],
             [
-              393,
-              1791
+              484,
+              2187
             ],
             [
-              393,
-              1829
+              483,
+              2236
             ],
             [
-              296,
-              1829
+              362,
+              2236
             ]
           ]
         }
@@ -1459,20 +1371,20 @@
       "text": "freeze helped prevent naval",
       "bbox": [
         [
-          319,
-          1841
+          390,
+          2250
         ],
         [
-          1147,
-          1841
+          1402,
+          2250
         ],
         [
-          1147,
-          1883
+          1402,
+          2302
         ],
         [
-          319,
-          1884
+          390,
+          2303
         ]
       ],
       "words": [
@@ -1480,20 +1392,20 @@
           "text": "freeze",
           "bbox": [
             [
-              323,
-              1841
+              394,
+              2250
             ],
             [
-              441,
-              1843
+              540,
+              2252
             ],
             [
-              440,
-              1885
+              538,
+              2304
             ],
             [
-              321,
-              1885
+              392,
+              2304
             ]
           ]
         }
@@ -1503,20 +1415,20 @@
       "text": "Scanned with",
       "bbox": [
         [
-          1282,
-          2014
+          1567,
+          2461
         ],
         [
-          1414,
-          2014
+          1729,
+          2461
         ],
         [
-          1414,
-          2035
+          1728,
+          2488
         ],
         [
-          1282,
-          2035
+          1567,
+          2487
         ]
       ],
       "words": [
@@ -1524,43 +1436,43 @@
           "text": "Scanned",
           "bbox": [
             [
-              1284,
-              2015
+              1570,
+              2463
             ],
             [
-              1365,
-              2014
+              1668,
+              2462
             ],
             [
-              1365,
-              2035
+              1668,
+              2488
             ],
             [
-              1284,
-              2035
+              1571,
+              2488
             ]
           ]
         }
       ]
     },
     {
-      "text": "CamScanner",
+      "text": "CS CamScanner",
       "bbox": [
         [
-          1287,
-          2040
+          1538,
+          2496
         ],
         [
-          1442,
-          2040
+          1762,
+          2497
         ],
         [
-          1442,
-          2071
+          1761,
+          2529
         ],
         [
-          1287,
-          2070
+          1538,
+          2525
         ]
       ],
       "words": [
@@ -1568,27 +1480,27 @@
           "text": "CamScanner",
           "bbox": [
             [
-              1293,
-              2040
+              1581,
+              2497
             ],
             [
-              1442,
-              2041
+              1760,
+              2498
             ],
             [
-              1441,
-              2072
+              1760,
+              2529
             ],
             [
-              1293,
-              2071
+              1581,
+              2525
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "educational and technological exchanger builds trust among nations and decreases zero-sum thinking. When people to people ties remain open and stakes are shared, it becomes difficult for governments to mobilize mass support for war. The Ping Pong Diplomacy (1971) between the US and China softened the relations and reduced Cold War hostility ultimately leading to normalization of diplomatic ties. Henceforth, by undertaking sovereignty and national interests of states, peaceful multipolar world can sustain: Next, managing great Power competition through controlled rivalry and crisis management protocols. As the US. China and US-Russia rivalries intensify the risks of miscalculation grow. Establishing crisis hotlines military- to-military communication, state- level diplomatic dialogues and rules-based negotiations can contain great power friction and Prevent escalation. The US-China military hotline restored in 2024 after years of communication freeze helped prevent naval Scanned with CamScanner",
+  "ocr_full_text_page": "educational and technological exchanger builds trust among nations and decreases zero-sum thinking. When people to people ties remain open and stakes are shared , it becomes difficult for governments to mobilize mass support for war. The Ping Pong Diplomacy (1971) between the US and China softened the relations and reduced Cold War hostility ultimately leading to normalization of diplomatic ties. Henceforth, by undertaking sovereignty and national interests of states , peaceful multipolar world can sustain: Next, managing great Power competition through controlled rivalry and crisis management protocols. As the US. China and US-Russia rivalries intensify the risks of miscalculation grow. Establishing crisis hotlines military- to-military communication, state- level diplomatic dialogues and rules-based negotiations can contain great power friction and Prevent escalation. The US-China military hotline restored in 2024 after years of communication freeze helped prevent naval Scanned with CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

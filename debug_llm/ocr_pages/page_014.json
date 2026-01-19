@@ -1,69 +1,25 @@
 {
   "page_number": 14,
-  "page_width": 1488.0,
-  "page_height": 2105.0,
+  "page_width": 1819.0,
+  "page_height": 2573.0,
   "lines": [
     {
-      "text": "can potentially fuel wat Consequently",
+      "text": "can",
       "bbox": [
         [
-          269,
-          188
+          332,
+          249
         ],
         [
-          1204,
-          179
+          437,
+          246
         ],
         [
-          1204,
-          225
+          437,
+          287
         ],
         [
-          269,
-          240
-        ]
-      ],
-      "words": [
-        {
-          "text": "can",
-          "bbox": [
-            [
-              271,
-              200
-            ],
-            [
-              345,
-              195
-            ],
-            [
-              344,
-              239
-            ],
-            [
-              271,
-              241
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "it can be remarked that multipolarly",
-      "bbox": [
-        [
-          298,
-          241
-        ],
-        [
-          1224,
-          234
-        ],
-        [
-          1224,
-          276
-        ],
-        [
-          298,
+          332,
           286
         ]
       ],
@@ -72,20 +28,108 @@
           "text": "can",
           "bbox": [
             [
-              406,
-              244
+              338,
+              247
             ],
             [
-              473,
-              242
+              411,
+              246
             ],
             [
-              473,
-              283
+              411,
+              287
             ],
             [
-              405,
-              284
+              339,
+              288
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "potentially fuel wat Consequently",
+      "bbox": [
+        [
+          503,
+          226
+        ],
+        [
+          1469,
+          219
+        ],
+        [
+          1470,
+          280
+        ],
+        [
+          503,
+          292
+        ]
+      ],
+      "words": [
+        {
+          "text": "potentially",
+          "bbox": [
+            [
+              542,
+              233
+            ],
+            [
+              805,
+              223
+            ],
+            [
+              806,
+              282
+            ],
+            [
+              543,
+              292
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "it can be remarked that multipolarity",
+      "bbox": [
+        [
+          365,
+          298
+        ],
+        [
+          1494,
+          288
+        ],
+        [
+          1494,
+          334
+        ],
+        [
+          366,
+          347
+        ]
+      ],
+      "words": [
+        {
+          "text": "can",
+          "bbox": [
+            [
+              497,
+              299
+            ],
+            [
+              573,
+              298
+            ],
+            [
+              574,
+              344
+            ],
+            [
+              498,
+              346
             ]
           ]
         }
@@ -95,20 +139,20 @@
       "text": "by fostering financial pluralism",
       "bbox": [
         [
-          270,
-          292
+          329,
+          357
         ],
         [
-          1062,
-          284
+          1298,
+          348
         ],
         [
-          1063,
-          331
+          1299,
+          404
         ],
         [
-          270,
-          337
+          329,
+          411
         ]
       ],
       "words": [
@@ -116,43 +160,43 @@
           "text": "fostering",
           "bbox": [
             [
-              408,
-              291
+              496,
+              356
             ],
             [
-              551,
-              290
+              669,
+              354
             ],
             [
-              551,
-              337
+              668,
+              411
             ],
             [
-              408,
-              336
+              495,
+              410
             ]
           ]
         }
       ]
     },
     {
-      "text": "fuels financial security dilemma",
+      "text": "fuels financial security dilemma.",
       "bbox": [
         [
-          279,
-          343
+          339,
+          419
         ],
         [
-          1047,
-          337
+          1286,
+          411
         ],
         [
-          1047,
-          384
+          1286,
+          468
         ],
         [
-          279,
-          389
+          339,
+          475
         ]
       ],
       "words": [
@@ -160,43 +204,43 @@
           "text": "fuels",
           "bbox": [
             [
-              281,
-              344
+              342,
+              420
             ],
             [
-              374,
-              344
+              455,
+              421
             ],
             [
-              374,
-              388
+              454,
+              474
             ],
             [
-              281,
-              386
+              341,
+              472
             ]
           ]
         }
       ]
     },
     {
-      "text": "Multipolarity intensifies",
+      "text": "Multipolarity Intensifies",
       "bbox": [
         [
-          519,
-          442
+          635,
+          540
         ],
         [
-          1054,
-          436
+          1281,
+          534
         ],
         [
-          1054,
-          483
+          1282,
+          591
         ],
         [
-          519,
-          489
+          635,
+          597
         ]
       ],
       "words": [
@@ -204,20 +248,20 @@
           "text": "Multipolarity",
           "bbox": [
             [
-              521,
-              442
+              638,
+              541
             ],
             [
-              783,
-              443
+              957,
+              542
             ],
             [
-              784,
-              487
+              957,
+              596
             ],
             [
-              521,
-              489
+              637,
+              597
             ]
           ]
         }
@@ -227,20 +271,20 @@
       "text": "ideological",
       "bbox": [
         [
-          270,
-          495
+          331,
+          609
         ],
         [
-          477,
-          495
+          583,
+          609
         ],
         [
-          477,
-          545
+          584,
+          664
         ],
         [
-          270,
-          546
+          331,
+          664
         ]
       ],
       "words": [
@@ -248,43 +292,43 @@
           "text": "ideological",
           "bbox": [
             [
-              271,
-              495
+              331,
+              610
             ],
             [
-              477,
-              498
+              583,
+              613
             ],
             [
-              478,
-              542
+              581,
+              662
             ],
             [
-              270,
-              547
+              331,
+              665
             ]
           ]
         }
       ]
     },
     {
-      "text": "and normative competition",
+      "text": "and normative competition.",
       "bbox": [
         [
-          479,
-          503
+          583,
+          607
         ],
         [
-          1200,
-          497
+          1470,
+          601
         ],
         [
-          1200,
-          534
+          1471,
+          654
         ],
         [
-          479,
-          540
+          584,
+          659
         ]
       ],
       "words": [
@@ -292,20 +336,20 @@
           "text": "and",
           "bbox": [
             [
-              592,
-              502
+              720,
+              610
             ],
             [
-              662,
-              502
+              812,
+              611
             ],
             [
-              662,
-              540
+              813,
+              659
             ],
             [
-              593,
-              540
+              721,
+              659
             ]
           ]
         }
@@ -315,20 +359,20 @@
       "text": "As witnessed in the Cold War,",
       "bbox": [
         [
-          273,
-          548
+          333,
+          669
         ],
         [
-          1102,
-          546
+          1346,
+          667
         ],
         [
-          1103,
-          587
+          1347,
+          718
         ],
         [
-          273,
-          591
+          333,
+          723
         ]
       ],
       "words": [
@@ -336,20 +380,20 @@
           "text": "witnessed",
           "bbox": [
             [
-              427,
-              551
+              521,
+              673
             ],
             [
-              611,
-              552
+              745,
+              675
             ],
             [
-              610,
-              590
+              745,
+              721
             ],
             [
-              426,
-              592
+              520,
+              723
             ]
           ]
         }
@@ -359,20 +403,20 @@
       "text": "the United States and the USSR",
       "bbox": [
         [
-          277,
-          603
+          340,
+          738
         ],
         [
-          1114,
-          599
+          1362,
+          733
         ],
         [
-          1114,
-          637
+          1362,
+          779
         ],
         [
-          277,
-          643
+          340,
+          785
         ]
       ],
       "words": [
@@ -380,20 +424,20 @@
           "text": "the",
           "bbox": [
             [
-              280,
-              603
+              342,
+              738
+            ],
+            [
+              417,
+              738
+            ],
+            [
+              417,
+              785
             ],
             [
               342,
-              603
-            ],
-            [
-              341,
-              643
-            ],
-            [
-              279,
-              643
+              785
             ]
           ]
         }
@@ -403,20 +447,20 @@
       "text": "were largely dragged into war",
       "bbox": [
         [
-          282,
-          659
+          345,
+          805
         ],
         [
-          1087,
-          650
+          1329,
+          795
         ],
         [
-          1088,
-          688
+          1329,
+          841
         ],
         [
-          282,
-          697
+          345,
+          851
         ]
       ],
       "words": [
@@ -424,20 +468,20 @@
           "text": "were",
           "bbox": [
             [
-              283,
-              662
+              347,
+              809
             ],
             [
-              377,
-              660
+              460,
+              806
             ],
             [
-              376,
-              697
+              459,
+              851
             ],
             [
-              282,
-              697
+              345,
+              851
             ]
           ]
         }
@@ -447,20 +491,20 @@
       "text": "due to their ideological differences",
       "bbox": [
         [
-          272,
-          707
+          333,
+          864
         ],
         [
-          1144,
-          703
+          1397,
+          859
         ],
         [
-          1144,
-          742
+          1397,
+          907
         ],
         [
-          272,
-          746
+          333,
+          911
         ]
       ],
       "words": [
@@ -468,20 +512,20 @@
           "text": "due",
           "bbox": [
             [
-              279,
-              708
+              341,
+              865
             ],
             [
-              347,
-              709
+              420,
+              866
             ],
             [
-              348,
-              745
+              420,
+              911
             ],
             [
-              279,
-              745
+              341,
+              911
             ]
           ]
         }
@@ -491,20 +535,20 @@
       "text": "As it is remarked by Samuel P.",
       "bbox": [
         [
-          280,
-          756
+          342,
+          924
         ],
         [
-          1133,
-          753
+          1383,
+          921
         ],
         [
-          1133,
-          795
+          1384,
+          972
         ],
         [
-          280,
-          798
+          342,
+          975
         ]
       ],
       "words": [
@@ -512,20 +556,20 @@
           "text": "remarked",
           "bbox": [
             [
-              572,
-              759
+              702,
+              929
             ],
             [
-              780,
-              759
+              954,
+              928
             ],
             [
-              780,
-              797
+              954,
+              975
             ],
             [
-              571,
-              798
+              702,
+              975
             ]
           ]
         }
@@ -535,20 +579,20 @@
       "text": "Huntington. \"The most destructive",
       "bbox": [
         [
-          279,
-          812
+          341,
+          993
         ],
         [
-          1067,
-          805
+          1304,
+          985
         ],
         [
-          1067,
-          846
+          1305,
+          1035
         ],
         [
-          279,
-          855
+          341,
+          1045
         ]
       ],
       "words": [
@@ -556,20 +600,20 @@
           "text": "Huntington.",
           "bbox": [
             [
-              281,
-              813
+              344,
+              994
             ],
             [
-              530,
-              812
+              646,
+              993
             ],
             [
-              529,
-              851
+              645,
+              1040
             ],
             [
-              281,
-              856
+              343,
+              1046
             ]
           ]
         }
@@ -579,20 +623,20 @@
       "text": "conflicte in history grose from",
       "bbox": [
         [
-          283,
-          862
+          345,
+          1054
         ],
         [
-          1039,
-          859
+          1269,
+          1052
         ],
         [
-          1039,
-          900
+          1269,
+          1100
         ],
         [
-          283,
-          902
+          345,
+          1102
         ]
       ],
       "words": [
@@ -600,20 +644,20 @@
           "text": "conflicte",
           "bbox": [
             [
-              285,
-              864
+              347,
+              1056
             ],
             [
-              446,
-              863
+              539,
+              1055
             ],
             [
-              445,
-              902
+              540,
+              1101
             ],
             [
-              284,
-              902
+              347,
+              1102
             ]
           ]
         }
@@ -623,20 +667,20 @@
       "text": "ideological confrontations.\" This demonstrates",
       "bbox": [
         [
-          292,
-          913
+          357,
+          1117
         ],
         [
-          1212,
-          912
+          1482,
+          1115
         ],
         [
-          1212,
-          954
+          1482,
+          1166
         ],
         [
-          292,
-          956
+          357,
+          1169
         ]
       ],
       "words": [
@@ -644,20 +688,20 @@
           "text": "ideological",
           "bbox": [
             [
-              293,
-              917
+              357,
+              1121
             ],
             [
-              488,
-              914
+              594,
+              1118
             ],
             [
-              487,
-              955
+              594,
+              1167
             ],
             [
-              292,
-              957
+              357,
+              1169
             ]
           ]
         }
@@ -667,20 +711,20 @@
       "text": "that the emergence of",
       "bbox": [
         [
-          297,
-          964
+          364,
+          1180
         ],
         [
-          1003,
-          964
+          1227,
+          1180
         ],
         [
-          1003,
-          1007
+          1227,
+          1230
         ],
         [
-          297,
-          1008
+          364,
+          1232
         ]
       ],
       "words": [
@@ -688,43 +732,43 @@
           "text": "that",
           "bbox": [
             [
-              300,
-              965
+              365,
+              1181
             ],
             [
-              389,
-              966
+              474,
+              1182
             ],
             [
-              389,
-              1008
+              474,
+              1232
             ],
             [
-              299,
-              1009
+              364,
+              1233
             ]
           ]
         }
       ]
     },
     {
-      "text": "authoritarianism as a counterweight",
+      "text": "authoritarianism",
       "bbox": [
         [
-          311,
-          1021
+          378,
+          1246
         ],
         [
-          1167,
-          1021
+          837,
+          1245
         ],
         [
-          1167,
-          1062
+          837,
+          1296
         ],
         [
-          311,
-          1061
+          378,
+          1297
         ]
       ],
       "words": [
@@ -732,20 +776,64 @@
           "text": "authoritarianism",
           "bbox": [
             [
-              312,
-              1021
+              380,
+              1250
             ],
             [
-              655,
-              1023
+              813,
+              1249
             ],
             [
-              656,
-              1060
+              813,
+              1296
             ],
             [
-              313,
-              1062
+              381,
+              1298
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "as a counterweight",
+      "bbox": [
+        [
+          842,
+          1249
+        ],
+        [
+          1430,
+          1252
+        ],
+        [
+          1430,
+          1296
+        ],
+        [
+          842,
+          1293
+        ]
+      ],
+      "words": [
+        {
+          "text": "counterweight",
+          "bbox": [
+            [
+              1157,
+              1252
+            ],
+            [
+              1430,
+              1252
+            ],
+            [
+              1429,
+              1297
+            ],
+            [
+              1157,
+              1294
             ]
           ]
         }
@@ -755,20 +843,20 @@
       "text": "to liberalism has potentially",
       "bbox": [
         [
-          286,
-          1072
+          348,
+          1310
         ],
         [
-          1068,
-          1072
+          1295,
+          1310
         ],
         [
-          1068,
-          1114
+          1295,
+          1361
         ],
         [
-          286,
-          1114
+          348,
+          1361
         ]
       ],
       "words": [
@@ -776,20 +864,20 @@
           "text": "liberalism",
           "bbox": [
             [
-              411,
-              1073
+              500,
+              1312
             ],
             [
-              602,
-              1072
+              739,
+              1311
             ],
             [
-              602,
-              1113
+              739,
+              1360
             ],
             [
-              411,
-              1114
+              500,
+              1362
             ]
           ]
         }
@@ -799,20 +887,20 @@
       "text": "intensified ideological competitive",
       "bbox": [
         [
-          285,
-          1125
+          346,
+          1375
         ],
         [
-          1099,
-          1125
+          1343,
+          1376
         ],
         [
-          1099,
-          1171
+          1343,
+          1431
         ],
         [
-          285,
-          1170
+          346,
+          1431
         ]
       ],
       "words": [
@@ -820,20 +908,20 @@
           "text": "intensified",
           "bbox": [
             [
-              286,
-              1127
+              347,
+              1377
             ],
             [
-              498,
-              1125
+              605,
+              1376
             ],
             [
-              497,
-              1168
+              605,
+              1427
             ],
             [
-              285,
-              1171
+              347,
+              1432
             ]
           ]
         }
@@ -843,20 +931,20 @@
       "text": "Liberalism led by the United",
       "bbox": [
         [
-          290,
-          1179
+          356,
+          1441
         ],
         [
-          1112,
-          1178
+          1361,
+          1440
         ],
         [
-          1112,
-          1217
+          1361,
+          1488
         ],
         [
-          290,
-          1220
+          356,
+          1491
         ]
       ],
       "words": [
@@ -864,20 +952,20 @@
           "text": "Liberalism",
           "bbox": [
             [
-              292,
-              1179
+              358,
+              1441
             ],
             [
-              497,
-              1181
+              609,
+              1443
             ],
             [
-              497,
-              1219
+              609,
+              1490
             ],
             [
-              293,
-              1221
+              358,
+              1492
             ]
           ]
         }
@@ -887,20 +975,20 @@
       "text": "States and authorianism",
       "bbox": [
         [
-          310,
-          1233
+          379,
+          1508
         ],
         [
-          998,
-          1231
+          1222,
+          1505
         ],
         [
-          998,
-          1272
+          1222,
+          1555
         ],
         [
-          310,
-          1275
+          379,
+          1558
         ]
       ],
       "words": [
@@ -908,20 +996,20 @@
           "text": "States",
           "bbox": [
             [
-              318,
-              1234
+              388,
+              1509
             ],
             [
-              458,
-              1234
+              557,
+              1509
             ],
             [
-              457,
-              1274
+              557,
+              1557
             ],
             [
-              317,
-              1275
+              388,
+              1558
             ]
           ]
         }
@@ -931,20 +1019,20 @@
       "text": "propagated by China has",
       "bbox": [
         [
-          277,
-          1287
+          339,
+          1573
         ],
         [
-          1001,
-          1285
+          1222,
+          1571
         ],
         [
-          1001,
-          1327
+          1222,
+          1622
         ],
         [
-          277,
-          1331
+          339,
+          1627
         ]
       ],
       "words": [
@@ -952,20 +1040,20 @@
           "text": "propagated",
           "bbox": [
             [
-              294,
-              1290
+              360,
+              1577
             ],
             [
-              519,
-              1286
+              639,
+              1572
             ],
             [
-              519,
-              1326
+              639,
+              1621
             ],
             [
-              294,
-              1332
+              360,
+              1627
             ]
           ]
         }
@@ -975,20 +1063,20 @@
       "text": "initiated fragmentation and",
       "bbox": [
         [
-          275,
-          1339
+          336,
+          1637
         ],
         [
-          1043,
-          1336
+          1269,
+          1633
         ],
         [
-          1043,
-          1379
+          1269,
+          1686
         ],
         [
-          275,
-          1384
+          336,
+          1692
         ]
       ],
       "words": [
@@ -996,20 +1084,20 @@
           "text": "initiated",
           "bbox": [
             [
-              275,
-              1343
+              337,
+              1643
             ],
             [
-              458,
-              1340
+              558,
+              1638
             ],
             [
-              458,
-              1380
+              558,
+              1686
             ],
             [
-              275,
-              1385
+              337,
+              1692
             ]
           ]
         }
@@ -1019,20 +1107,20 @@
       "text": "bifurcation of the world into",
       "bbox": [
         [
-          277,
-          1390
+          338,
+          1702
         ],
         [
-          1091,
-          1391
+          1333,
+          1702
         ],
         [
-          1091,
-          1435
+          1333,
+          1753
         ],
         [
-          277,
-          1434
+          338,
+          1753
         ]
       ],
       "words": [
@@ -1040,20 +1128,20 @@
           "text": "bifurcation",
           "bbox": [
             [
-              280,
-              1391
+              340,
+              1702
             ],
             [
-              514,
-              1392
+              623,
+              1704
             ],
             [
-              513,
-              1433
+              624,
+              1750
             ],
             [
-              279,
-              1435
+              341,
+              1754
             ]
           ]
         }
@@ -1063,20 +1151,20 @@
       "text": "two blues. These states use",
       "bbox": [
         [
-          300,
-          1446
+          366,
+          1768
         ],
         [
-          1043,
-          1446
+          1280,
+          1767
         ],
         [
-          1044,
-          1487
+          1280,
+          1818
         ],
         [
-          300,
-          1489
+          366,
+          1821
         ]
       ],
       "words": [
@@ -1084,20 +1172,20 @@
           "text": "two",
           "bbox": [
             [
-              301,
-              1447
-            ],
-            [
-              369,
-              1447
-            ],
-            [
               368,
-              1490
+              1769
             ],
             [
-              300,
-              1490
+              450,
+              1769
+            ],
+            [
+              449,
+              1822
+            ],
+            [
+              367,
+              1822
             ]
           ]
         }
@@ -1107,20 +1195,20 @@
       "text": "genstrategic",
       "bbox": [
         [
-          286,
-          1502
+          349,
+          1838
         ],
         [
-          562,
-          1502
+          684,
+          1838
         ],
         [
-          563,
-          1543
+          684,
+          1886
         ],
         [
-          287,
-          1545
+          349,
+          1887
         ]
       ],
       "words": [
@@ -1128,20 +1216,20 @@
           "text": "genstrategic",
           "bbox": [
             [
-              288,
-              1502
+              351,
+              1839
             ],
             [
-              560,
-              1503
+              680,
+              1840
             ],
             [
-              559,
-              1541
+              680,
+              1884
             ],
             [
-              289,
-              1546
+              353,
+              1888
             ]
           ]
         }
@@ -1151,20 +1239,20 @@
       "text": "and geoeconomic",
       "bbox": [
         [
-          572,
-          1500
+          699,
+          1834
         ],
         [
-          1103,
-          1503
+          1347,
+          1838
         ],
         [
-          1102,
-          1542
+          1347,
+          1884
         ],
         [
-          572,
-          1541
+          699,
+          1883
         ]
       ],
       "words": [
@@ -1172,20 +1260,20 @@
           "text": "and",
           "bbox": [
             [
-              689,
-              1502
+              842,
+              1836
             ],
             [
-              750,
-              1503
+              922,
+              1837
             ],
             [
-              750,
-              1542
+              920,
+              1884
             ],
             [
-              688,
-              1542
+              840,
+              1884
             ]
           ]
         }
@@ -1195,20 +1283,20 @@
       "text": "tools to expand their ideological",
       "bbox": [
         [
-          292,
-          1557
+          358,
+          1903
         ],
         [
-          1203,
-          1554
+          1471,
+          1900
         ],
         [
-          1203,
-          1592
+          1471,
+          1947
         ],
         [
-          292,
-          1596
+          358,
+          1951
         ]
       ],
       "words": [
@@ -1216,20 +1304,20 @@
           "text": "tools",
           "bbox": [
             [
-              294,
-              1558
+              360,
+              1903
             ],
             [
-              387,
-              1558
+              473,
+              1904
             ],
             [
-              388,
-              1596
+              475,
+              1951
             ],
             [
-              295,
-              1596
+              361,
+              1951
             ]
           ]
         }
@@ -1239,20 +1327,20 @@
       "text": "sphere of Influence. Hence forth,",
       "bbox": [
         [
-          284,
-          1610
+          347,
+          1968
         ],
         [
-          1090,
-          1605
+          1330,
+          1962
         ],
         [
-          1090,
-          1647
+          1331,
+          2013
         ],
         [
-          284,
-          1651
+          347,
+          2019
         ]
       ],
       "words": [
@@ -1260,20 +1348,20 @@
           "text": "sphere",
           "bbox": [
             [
-              287,
-              1612
+              350,
+              1970
             ],
             [
-              435,
-              1611
+              531,
+              1969
             ],
             [
-              435,
-              1651
+              531,
+              2018
             ],
             [
-              286,
-              1651
+              349,
+              2019
             ]
           ]
         }
@@ -1283,20 +1371,20 @@
       "text": "ideological competition remains",
       "bbox": [
         [
-          299,
-          1660
+          360,
+          2029
         ],
         [
-          1067,
-          1661
+          1304,
+          2031
         ],
         [
-          1067,
-          1705
+          1304,
+          2084
         ],
         [
-          299,
-          1704
+          360,
+          2083
         ]
       ],
       "words": [
@@ -1304,20 +1392,20 @@
           "text": "ideological",
           "bbox": [
             [
-              299,
-              1660
+              361,
+              2030
             ],
             [
-              529,
-              1664
+              648,
+              2034
             ],
             [
-              529,
-              1704
+              649,
+              2083
             ],
             [
-              299,
-              1705
+              361,
+              2084
             ]
           ]
         }
@@ -1327,20 +1415,20 @@
       "text": "at the core of conflict in",
       "bbox": [
         [
-          313,
-          1718
+          383,
+          2101
         ],
         [
-          1088,
-          1716
+          1331,
+          2097
         ],
         [
-          1088,
-          1754
+          1331,
+          2144
         ],
         [
-          313,
-          1757
+          383,
+          2147
         ]
       ],
       "words": [
@@ -1348,20 +1436,20 @@
           "text": "the",
           "bbox": [
             [
-              464,
-              1718
+              566,
+              2101
             ],
             [
-              535,
-              1718
+              652,
+              2100
             ],
             [
-              535,
-              1757
+              652,
+              2147
             ],
             [
-              464,
-              1757
+              566,
+              2147
             ]
           ]
         }
@@ -1371,20 +1459,20 @@
       "text": "the multipolar world.",
       "bbox": [
         [
-          309,
-          1773
+          378,
+          2168
         ],
         [
-          868,
-          1770
+          1080,
+          2163
         ],
         [
-          868,
-          1807
+          1081,
+          2209
         ],
         [
-          309,
-          1811
+          378,
+          2214
         ]
       ],
       "words": [
@@ -1392,64 +1480,64 @@
           "text": "the",
           "bbox": [
             [
-              311,
-              1777
+              380,
+              2172
             ],
             [
-              376,
-              1775
+              460,
+              2170
             ],
             [
-              376,
-              1811
+              459,
+              2213
             ],
             [
-              310,
-              1811
+              380,
+              2214
             ]
           ]
         }
       ]
     },
     {
-      "text": "aro",
+      "text": "rovi",
       "bbox": [
         [
-          856,
-          1821
+          1077,
+          2230
         ],
         [
-          919,
-          1824
+          1163,
+          2229
         ],
         [
-          920,
-          1855
+          1165,
+          2268
         ],
         [
-          856,
-          1859
+          1078,
+          2271
         ]
       ],
       "words": [
         {
-          "text": "aro",
+          "text": "rovi",
           "bbox": [
             [
-              856,
-              1821
+              1077,
+              2230
             ],
             [
-              917,
-              1821
+              1163,
+              2229
             ],
             [
-              917,
-              1859
+              1164,
+              2269
             ],
             [
-              856,
-              1859
+              1077,
+              2271
             ]
           ]
         }
@@ -1459,20 +1547,20 @@
       "text": "Scanned with",
       "bbox": [
         [
-          1281,
-          2014
+          1567,
+          2461
         ],
         [
-          1415,
-          2014
+          1729,
+          2461
         ],
         [
-          1414,
-          2035
+          1728,
+          2488
         ],
         [
-          1281,
-          2035
+          1567,
+          2488
         ]
       ],
       "words": [
@@ -1480,71 +1568,71 @@
           "text": "Scanned",
           "bbox": [
             [
-              1284,
-              2014
+              1570,
+              2462
             ],
             [
-              1365,
-              2014
+              1668,
+              2462
             ],
             [
-              1365,
-              2036
+              1668,
+              2488
             ],
             [
-              1285,
-              2035
+              1571,
+              2488
             ]
           ]
         }
       ]
     },
     {
-      "text": "CS CamScanner",
+      "text": "CS CamScanner\"",
       "bbox": [
         [
-          1258,
-          2042
+          1539,
+          2496
         ],
         [
-          1441,
-          2043
+          1765,
+          2498
         ],
         [
-          1441,
-          2068
+          1764,
+          2529
         ],
         [
-          1258,
-          2066
+          1538,
+          2525
         ]
       ],
       "words": [
         {
-          "text": "CamScanner",
+          "text": "CamScanner\"",
           "bbox": [
             [
-              1294,
-              2043
+              1581,
+              2497
             ],
             [
-              1440,
-              2044
+              1764,
+              2498
             ],
             [
-              1440,
-              2068
+              1765,
+              2529
             ],
             [
-              1294,
-              2066
+              1581,
+              2525
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "can potentially fuel wat Consequently it can be remarked that multipolarly by fostering financial pluralism fuels financial security dilemma Multipolarity intensifies ideological and normative competition As witnessed in the Cold War, the United States and the USSR were largely dragged into war due to their ideological differences As it is remarked by Samuel P. Huntington. \"The most destructive conflicte in history grose from ideological confrontations.\" This demonstrates that the emergence of authoritarianism as a counterweight to liberalism has potentially intensified ideological competitive Liberalism led by the United States and authorianism propagated by China has initiated fragmentation and bifurcation of the world into two blues. These states use genstrategic and geoeconomic tools to expand their ideological sphere of Influence. Hence forth, ideological competition remains at the core of conflict in the multipolar world. of aro Scanned with CS CamScanner",
+  "ocr_full_text_page": "can potentially fuel wat Consequently it can be remarked that multipolarity by fostering financial pluralism fuels financial security dilemma. Multipolarity Intensifies ideological and normative competition. As witnessed in the Cold War, the United States and the USSR were largely dragged into war due to their ideological differences As it is remarked by Samuel P. Huntington. \"The most destructive conflicte in history grose from ideological confrontations.\" This demonstrates that the emergence of authoritarianism as a counterweight to liberalism has potentially intensified ideological competitive Liberalism led by the United States and authorianism propagated by China has initiated fragmentation and bifurcation of the world into two blues. These states use genstrategic and geoeconomic tools to expand their ideological sphere of Influence. Hence forth, ideological competition remains at the core of conflict in the multipolar world. rovi Scanned with CS CamScanner\"",
   "attempt": {
     "scale": 1.0,
     "quality": 75

@@ -1,26 +1,26 @@
 {
   "page_number": 19,
-  "page_width": 1488.0,
-  "page_height": 2105.0,
+  "page_width": 1819.0,
+  "page_height": 2573.0,
   "lines": [
     {
       "text": "verification mechanisms. This shows how",
       "bbox": [
         [
-          264,
-          132
+          322,
+          162
         ],
         [
-          1252,
-          127
+          1529,
+          155
         ],
         [
-          1252,
-          167
+          1530,
+          205
         ],
         [
-          264,
-          176
+          322,
+          216
         ]
       ],
       "words": [
@@ -28,43 +28,43 @@
           "text": "verification",
           "bbox": [
             [
-              264,
-              137
+              323,
+              167
             ],
             [
-              499,
-              132
+              612,
+              161
             ],
             [
-              499,
-              174
+              612,
+              213
             ],
             [
-              264,
-              177
+              323,
+              217
             ]
           ]
         }
       ]
     },
     {
-      "text": "arms control can effectively reduce",
+      "text": "arms",
       "bbox": [
         [
-          271,
-          181
+          325,
+          233
         ],
         [
-          1249,
-          179
+          580,
+          223
         ],
         [
-          1249,
-          227
+          581,
+          270
         ],
         [
-          271,
-          228
+          326,
+          276
         ]
       ],
       "words": [
@@ -72,20 +72,64 @@
           "text": "arms",
           "bbox": [
             [
-              273,
-              192
+              338,
+              237
             ],
             [
-              388,
-              188
+              474,
+              230
             ],
             [
-              388,
+              475,
+              274
+            ],
+            [
+              339,
+              276
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "control can effectively reduce",
+      "bbox": [
+        [
+          580,
+          219
+        ],
+        [
+          1527,
+          220
+        ],
+        [
+          1527,
+          278
+        ],
+        [
+          580,
+          275
+        ]
+      ],
+      "words": [
+        {
+          "text": "control",
+          "bbox": [
+            [
+              596,
               226
             ],
             [
-              274,
-              228
+              785,
+              222
+            ],
+            [
+              785,
+              271
+            ],
+            [
+              595,
+              273
             ]
           ]
         }
@@ -95,20 +139,20 @@
       "text": "the risks of nuclear war in a",
       "bbox": [
         [
-          276,
-          232
+          337,
+          284
         ],
         [
-          1135,
-          235
+          1374,
+          287
         ],
         [
-          1134,
-          275
+          1374,
+          335
         ],
         [
-          276,
-          270
+          337,
+          330
         ]
       ],
       "words": [
@@ -116,20 +160,20 @@
           "text": "the",
           "bbox": [
             [
-              278,
-              235
+              339,
+              287
             ],
             [
-              350,
-              234
+              433,
+              286
             ],
             [
-              350,
-              272
+              433,
+              332
             ],
             [
-              278,
-              271
+              339,
+              332
             ]
           ]
         }
@@ -139,20 +183,20 @@
       "text": "multipolar world",
       "bbox": [
         [
-          243,
-          287
+          298,
+          349
         ],
         [
-          699,
-          288
+          855,
+          353
         ],
         [
-          698,
-          327
+          855,
+          399
         ],
         [
-          243,
-          325
+          298,
+          397
         ]
       ],
       "words": [
@@ -160,20 +204,20 @@
           "text": "multipolar",
           "bbox": [
             [
-              260,
-              287
+              318,
+              350
             ],
             [
-              487,
-              288
+              601,
+              352
             ],
             [
-              487,
-              327
+              601,
+              399
             ],
             [
-              261,
-              326
+              319,
+              398
             ]
           ]
         }
@@ -183,20 +227,20 @@
       "text": "In a nutshell, multipolarin",
       "bbox": [
         [
-          575,
-          393
+          702,
+          480
         ],
         [
-          1297,
-          394
+          1579,
+          481
         ],
         [
-          1297,
-          440
+          1579,
+          538
         ],
         [
-          575,
-          438
+          702,
+          535
         ]
       ],
       "words": [
@@ -204,20 +248,20 @@
           "text": "nutshell,",
           "bbox": [
             [
-              842,
-              394
+              1028,
+              481
             ],
             [
-              1050,
-              394
+              1283,
+              481
             ],
             [
-              1049,
-              440
+              1282,
+              538
             ],
             [
-              841,
-              438
+              1027,
+              536
             ]
           ]
         }
@@ -227,20 +271,20 @@
       "text": "has strengthened strategic uncertainty",
       "bbox": [
         [
-          259,
-          446
+          316,
+          545
         ],
         [
-          1272,
-          449
+          1557,
+          549
         ],
         [
-          1272,
-          495
+          1557,
+          606
         ],
         [
-          259,
-          490
+          316,
+          599
         ]
       ],
       "words": [
@@ -248,20 +292,20 @@
           "text": "has",
           "bbox": [
             [
-              262,
-              448
+              319,
+              548
             ],
             [
-              348,
-              448
+              424,
+              547
             ],
             [
-              347,
-              490
+              423,
+              598
             ],
             [
-              261,
-              490
+              318,
+              599
             ]
           ]
         }
@@ -271,20 +315,20 @@
       "text": "among great powers which holds",
       "bbox": [
         [
-          262,
-          506
+          321,
+          618
         ],
         [
-          1191,
-          504
+          1457,
+          617
         ],
         [
-          1192,
-          544
+          1458,
+          665
         ],
         [
-          262,
-          547
+          321,
+          668
         ]
       ],
       "words": [
@@ -292,20 +336,20 @@
           "text": "among",
           "bbox": [
             [
-              264,
-              509
+              324,
+              621
             ],
             [
-              415,
-              507
+              507,
+              619
             ],
             [
-              415,
-              545
+              506,
+              666
             ],
             [
-              263,
-              547
+              323,
+              668
             ]
           ]
         }
@@ -315,20 +359,20 @@
       "text": "the potential to fuel war. Furthermore,",
       "bbox": [
         [
-          259,
-          556
+          318,
+          681
         ],
         [
-          1328,
-          555
+          1622,
+          679
         ],
         [
-          1328,
-          601
+          1623,
+          734
         ],
         [
-          259,
-          602
+          318,
+          736
         ]
       ],
       "words": [
@@ -336,20 +380,20 @@
           "text": "the",
           "bbox": [
             [
-              263,
-              564
+              322,
+              690
             ],
             [
-              333,
-              562
+              408,
+              688
             ],
             [
-              331,
-              600
+              406,
+              734
             ],
             [
-              261,
-              601
+              320,
+              736
             ]
           ]
         }
@@ -359,20 +403,20 @@
       "text": "by intensifying security dilemma,",
       "bbox": [
         [
-          247,
-          611
+          302,
+          747
         ],
         [
-          1221,
-          611
+          1497,
+          747
         ],
         [
-          1221,
-          655
+          1497,
+          800
         ],
         [
-          247,
-          654
+          302,
+          800
         ]
       ],
       "words": [
@@ -380,20 +424,20 @@
           "text": "intensifying",
           "bbox": [
             [
-              425,
-              611
+              518,
+              748
             ],
             [
-              685,
-              611
+              833,
+              747
             ],
             [
-              684,
-              653
+              832,
+              798
             ],
             [
-              425,
-              654
+              517,
+              799
             ]
           ]
         }
@@ -403,20 +447,20 @@
       "text": "multipolarty has intensified arms",
       "bbox": [
         [
-          245,
-          667
+          300,
+          816
         ],
         [
-          1212,
-          665
+          1482,
+          813
         ],
         [
-          1213,
-          707
+          1483,
+          863
         ],
         [
-          245,
-          711
+          300,
+          869
         ]
       ],
       "words": [
@@ -424,43 +468,43 @@
           "text": "multipolarty",
           "bbox": [
             [
-              248,
-              670
+              304,
+              819
             ],
             [
-              571,
-              666
+              695,
+              815
             ],
             [
-              570,
-              708
+              694,
+              865
             ],
             [
-              247,
-              712
+              303,
+              870
             ]
           ]
         }
       ]
     },
     {
-      "text": "race contributing to regional and",
+      "text": "race contributing",
       "bbox": [
         [
-          252,
-          723
+          309,
+          885
         ],
         [
-          1176,
-          720
+          822,
+          882
         ],
         [
-          1176,
-          758
+          823,
+          930
         ],
         [
-          252,
-          764
+          309,
+          933
         ]
       ],
       "words": [
@@ -468,43 +512,87 @@
           "text": "race",
           "bbox": [
             [
-              260,
-              728
+              318,
+              894
             ],
             [
-              347,
-              726
+              423,
+              888
             ],
             [
-              346,
-              764
+              422,
+              933
             ],
             [
-              259,
-              765
+              317,
+              932
             ]
           ]
         }
       ]
     },
     {
-      "text": "global instability. Likewise, the",
+      "text": "to regional and",
       "bbox": [
         [
-          269,
-          777
+          828,
+          876
         ],
         [
-          1156,
-          772
+          1437,
+          883
         ],
         [
-          1157,
-          811
+          1436,
+          928
         ],
         [
-          269,
-          817
+          828,
+          923
+        ]
+      ],
+      "words": [
+        {
+          "text": "regional",
+          "bbox": [
+            [
+              1055,
+              882
+            ],
+            [
+              1271,
+              884
+            ],
+            [
+              1271,
+              928
+            ],
+            [
+              1055,
+              927
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "global instability. Likewise the",
+      "bbox": [
+        [
+          330,
+          950
+        ],
+        [
+          1412,
+          944
+        ],
+        [
+          1413,
+          990
+        ],
+        [
+          330,
+          998
         ]
       ],
       "words": [
@@ -512,20 +600,20 @@
           "text": "global",
           "bbox": [
             [
-              276,
-              780
+              332,
+              954
             ],
             [
-              404,
-              778
+              499,
+              951
             ],
             [
-              404,
-              816
+              498,
+              997
             ],
             [
-              276,
-              818
+              332,
+              998
             ]
           ]
         }
@@ -535,20 +623,20 @@
       "text": "emergence of geopolitical",
       "bbox": [
         [
-          283,
-          830
+          345,
+          1016
         ],
         [
-          1054,
-          825
+          1289,
+          1009
         ],
         [
-          1055,
-          867
+          1289,
+          1061
         ],
         [
-          283,
-          873
+          345,
+          1067
         ]
       ],
       "words": [
@@ -556,20 +644,20 @@
           "text": "emergence",
           "bbox": [
             [
-              290,
-              839
+              354,
+              1025
             ],
             [
-              568,
-              829
+              693,
+              1014
             ],
             [
-              568,
-              868
+              691,
+              1061
             ],
             [
-              290,
-              873
+              353,
+              1067
             ]
           ]
         }
@@ -579,20 +667,20 @@
       "text": "geoeconomic and financial blocs",
       "bbox": [
         [
-          261,
-          887
+          321,
+          1084
         ],
         [
-          1210,
-          878
+          1479,
+          1073
         ],
         [
-          1211,
-          915
+          1480,
+          1118
         ],
         [
-          261,
-          926
+          321,
+          1132
         ]
       ],
       "words": [
@@ -600,64 +688,64 @@
           "text": "geoeconomic",
           "bbox": [
             [
-              267,
-              894
+              330,
+              1092
             ],
             [
-              570,
-              884
+              694,
+              1081
             ],
             [
-              570,
-              922
+              693,
+              1127
             ],
             [
-              267,
-              926
+              329,
+              1132
             ]
           ]
         }
       ]
     },
     {
-      "text": "ha's",
+      "text": "bas",
       "bbox": [
         [
-          247,
-          935
+          302,
+          1144
         ],
         [
-          334,
-          936
+          403,
+          1143
         ],
         [
-          334,
-          978
+          403,
+          1195
         ],
         [
-          247,
-          979
+          302,
+          1199
         ]
       ],
       "words": [
         {
-          "text": "ha's",
+          "text": "bas",
           "bbox": [
             [
-              248,
-              935
+              302,
+              1144
             ],
             [
-              329,
-              935
+              401,
+              1143
             ],
             [
-              329,
-              979
+              403,
+              1196
             ],
             [
-              248,
-              979
+              304,
+              1198
             ]
           ]
         }
@@ -667,20 +755,20 @@
       "text": "set the stage for a war",
       "bbox": [
         [
-          446,
-          932
+          547,
+          1140
         ],
         [
-          1217,
-          931
+          1483,
+          1138
         ],
         [
-          1218,
-          968
+          1484,
+          1183
         ],
         [
-          446,
-          972
+          547,
+          1188
         ]
       ],
       "words": [
@@ -688,20 +776,20 @@
           "text": "set",
           "bbox": [
             [
-              453,
-              938
+              554,
+              1147
             ],
             [
-              521,
-              936
+              637,
+              1145
             ],
             [
-              522,
-              972
+              638,
+              1188
             ],
             [
-              454,
-              973
+              556,
+              1189
             ]
           ]
         }
@@ -711,20 +799,20 @@
       "text": "fuelled by multipolarity. Additionally,",
       "bbox": [
         [
-          268,
-          984
+          328,
+          1204
         ],
         [
-          1267,
-          979
+          1557,
+          1198
         ],
         [
-          1267,
-          1025
+          1557,
+          1254
         ],
         [
-          268,
-          1032
+          328,
+          1262
         ]
       ],
       "words": [
@@ -732,20 +820,20 @@
           "text": "fuelled",
           "bbox": [
             [
-              276,
-              985
+              337,
+              1204
             ],
             [
-              435,
-              986
+              529,
+              1205
             ],
             [
-              434,
-              1030
+              529,
+              1259
             ],
             [
-              275,
-              1033
+              337,
+              1263
             ]
           ]
         }
@@ -755,20 +843,20 @@
       "text": "multipolarity accelerates proxy conflicts",
       "bbox": [
         [
-          250,
-          1045
+          305,
+          1279
         ],
         [
-          1264,
-          1034
+          1545,
+          1264
         ],
         [
-          1264,
-          1076
+          1545,
+          1315
         ],
         [
-          250,
-          1088
+          306,
+          1330
         ]
       ],
       "words": [
@@ -776,43 +864,43 @@
           "text": "multipolarity",
           "bbox": [
             [
-              273,
-              1046
+              333,
+              1279
             ],
             [
-              540,
-              1043
+              656,
+              1275
             ],
             [
-              540,
-              1082
+              657,
+              1323
             ],
             [
-              273,
-              1089
+              334,
+              1331
             ]
           ]
         }
       ]
     },
     {
-      "text": "indirect warfare and intelligence.",
+      "text": "indirect",
       "bbox": [
         [
-          261,
-          1096
+          320,
+          1346
         ],
         [
-          1249,
-          1089
+          536,
+          1342
         ],
         [
-          1250,
-          1129
+          537,
+          1386
         ],
         [
-          261,
-          1138
+          321,
+          1391
         ]
       ],
       "words": [
@@ -820,20 +908,64 @@
           "text": "indirect",
           "bbox": [
             [
-              262,
-              1101
+              321,
+              1348
             ],
             [
-              438,
-              1097
+              531,
+              1343
             ],
             [
-              439,
-              1135
+              531,
+              1387
             ],
             [
-              264,
-              1138
+              323,
+              1392
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "warfare and intelligence.",
+      "bbox": [
+        [
+          548,
+          1335
+        ],
+        [
+          1511,
+          1331
+        ],
+        [
+          1512,
+          1379
+        ],
+        [
+          549,
+          1382
+        ]
+      ],
+      "words": [
+        {
+          "text": "warfare",
+          "bbox": [
+            [
+              663,
+              1335
+            ],
+            [
+              877,
+              1335
+            ],
+            [
+              878,
+              1382
+            ],
+            [
+              664,
+              1383
             ]
           ]
         }
@@ -843,20 +975,20 @@
       "text": "led operations. This compell rival",
       "bbox": [
         [
-          273,
-          1149
+          335,
+          1404
         ],
         [
-          1169,
-          1143
+          1427,
+          1398
         ],
         [
-          1170,
-          1184
+          1428,
+          1447
         ],
         [
-          273,
-          1194
+          335,
+          1460
         ]
       ],
       "words": [
@@ -864,20 +996,20 @@
           "text": "led",
           "bbox": [
             [
-              274,
-              1150
+              337,
+              1405
             ],
             [
-              345,
-              1149
+              424,
+              1404
             ],
             [
-              344,
-              1193
+              423,
+              1459
             ],
             [
-              273,
-              1195
+              336,
+              1461
             ]
           ]
         }
@@ -887,20 +1019,20 @@
       "text": "dates to take reactive actions,",
       "bbox": [
         [
-          257,
-          1203
+          314,
+          1470
         ],
         [
-          1178,
-          1197
+          1443,
+          1464
         ],
         [
-          1179,
-          1236
+          1444,
+          1509
         ],
         [
-          257,
-          1246
+          314,
+          1521
         ]
       ],
       "words": [
@@ -908,20 +1040,20 @@
           "text": "dates",
           "bbox": [
             [
-              259,
-              1208
+              322,
+              1477
             ],
             [
-              400,
-              1204
+              491,
+              1472
             ],
             [
-              401,
-              1243
+              493,
+              1519
             ],
             [
-              259,
-              1246
+              323,
+              1521
             ]
           ]
         }
@@ -931,20 +1063,20 @@
       "text": "thereby escalating tensions. Along",
       "bbox": [
         [
-          283,
-          1260
+          347,
+          1540
         ],
         [
-          1262,
-          1245
+          1544,
+          1522
         ],
         [
-          1263,
-          1287
+          1545,
+          1573
         ],
         [
-          283,
-          1302
+          347,
+          1592
         ]
       ],
       "words": [
@@ -952,20 +1084,20 @@
           "text": "thereby",
           "bbox": [
             [
-              296,
-              1260
+              363,
+              1541
             ],
             [
-              473,
-              1257
+              579,
+              1537
             ],
             [
-              472,
-              1297
+              578,
+              1586
             ],
             [
-              295,
-              1303
+              362,
+              1593
             ]
           ]
         }
@@ -975,20 +1107,20 @@
       "text": "with this, multipolarity has",
       "bbox": [
         [
-          271,
-          1313
+          334,
+          1605
         ],
         [
-          1113,
-          1301
+          1361,
+          1591
         ],
         [
-          1114,
-          1341
+          1362,
+          1639
         ],
         [
-          272,
-          1351
+          335,
+          1652
         ]
       ],
       "words": [
@@ -996,20 +1128,20 @@
           "text": "with",
           "bbox": [
             [
-              271,
-              1314
+              335,
+              1605
             ],
             [
-              370,
-              1313
+              454,
+              1605
             ],
             [
-              371,
-              1351
+              455,
+              1652
             ],
             [
-              273,
-              1351
+              336,
+              1652
             ]
           ]
         }
@@ -1019,20 +1151,20 @@
       "text": "mandated the return of hard",
       "bbox": [
         [
-          280,
-          1362
+          343,
+          1665
         ],
         [
-          1221,
-          1352
+          1492,
+          1651
         ],
         [
-          1221,
-          1395
+          1493,
+          1705
         ],
         [
-          280,
-          1406
+          343,
+          1718
         ]
       ],
       "words": [
@@ -1040,43 +1172,43 @@
           "text": "mandated",
           "bbox": [
             [
-              304,
-              1363
+              371,
+              1667
             ],
             [
-              552,
-              1363
+              673,
+              1666
             ],
             [
-              551,
-              1402
+              673,
+              1714
             ],
             [
-              303,
-              1406
+              371,
+              1718
             ]
           ]
         }
       ]
     },
     {
-      "text": "power as states use hard",
+      "text": "power as",
       "bbox": [
         [
-          282,
-          1426
+          344,
+          1750
         ],
         [
-          1129,
-          1410
+          791,
+          1736
         ],
         [
-          1130,
-          1450
+          792,
+          1777
         ],
         [
-          282,
-          1465
+          346,
+          1791
         ]
       ],
       "words": [
@@ -1084,20 +1216,64 @@
           "text": "power",
           "bbox": [
             [
-              283,
-              1434
+              346,
+              1752
             ],
             [
-              404,
-              1428
+              494,
+              1747
             ],
             [
-              405,
-              1461
+              495,
+              1786
             ],
             [
-              284,
-              1465
+              349,
+              1791
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "states use hard",
+      "bbox": [
+        [
+          797,
+          1726
+        ],
+        [
+          1384,
+          1720
+        ],
+        [
+          1384,
+          1772
+        ],
+        [
+          797,
+          1776
+        ]
+      ],
+      "words": [
+        {
+          "text": "states",
+          "bbox": [
+            [
+              806,
+              1726
+            ],
+            [
+              977,
+              1730
+            ],
+            [
+              976,
+              1776
+            ],
+            [
+              805,
+              1776
             ]
           ]
         }
@@ -1107,20 +1283,20 @@
       "text": "measures to expand their",
       "bbox": [
         [
-          276,
-          1476
+          337,
+          1804
         ],
         [
-          1107,
-          1467
+          1353,
+          1793
         ],
         [
-          1107,
-          1509
+          1354,
+          1844
         ],
         [
-          276,
-          1517
+          338,
+          1854
         ]
       ],
       "words": [
@@ -1128,20 +1304,20 @@
           "text": "measures",
           "bbox": [
             [
-              299,
-              1483
+              366,
+              1813
             ],
             [
-              500,
-              1475
+              610,
+              1804
             ],
             [
-              500,
-              1514
+              610,
+              1851
             ],
             [
-              299,
-              1516
+              365,
+              1854
             ]
           ]
         }
@@ -1151,20 +1327,20 @@
       "text": "sphere of influence. The ideological",
       "bbox": [
         [
-          268,
-          1528
+          324,
+          1868
         ],
         [
-          1285,
-          1522
+          1571,
+          1861
         ],
         [
-          1286,
-          1568
+          1572,
+          1918
         ],
         [
-          268,
-          1575
+          324,
+          1925
         ]
       ],
       "words": [
@@ -1172,20 +1348,20 @@
           "text": "sphere",
           "bbox": [
             [
-              268,
-              1536
+              324,
+              1878
             ],
             [
-              427,
-              1531
+              524,
+              1872
             ],
             [
-              428,
-              1573
+              524,
+              1922
             ],
             [
-              269,
-              1575
+              324,
+              1925
             ]
           ]
         }
@@ -1195,20 +1371,20 @@
       "text": "warfare remains at the core of",
       "bbox": [
         [
-          253,
-          1584
+          311,
+          1937
         ],
         [
-          1210,
-          1578
+          1480,
+          1929
         ],
         [
-          1211,
-          1623
+          1480,
+          1983
         ],
         [
-          253,
-          1628
+          311,
+          1989
         ]
       ],
       "words": [
@@ -1216,20 +1392,20 @@
           "text": "warfare",
           "bbox": [
             [
-              253,
-              1586
+              311,
+              1939
             ],
             [
-              425,
-              1587
+              526,
+              1940
             ],
             [
-              426,
-              1627
+              526,
+              1989
             ],
             [
-              254,
-              1626
+              311,
+              1989
             ]
           ]
         }
@@ -1239,20 +1415,20 @@
       "text": "multipolarity, compelling nations to",
       "bbox": [
         [
-          266,
-          1639
+          327,
+          2004
         ],
         [
-          1198,
-          1634
+          1464,
+          1998
         ],
         [
-          1199,
-          1680
+          1464,
+          2054
         ],
         [
-          266,
-          1684
+          327,
+          2059
         ]
       ],
       "words": [
@@ -1260,20 +1436,20 @@
           "text": "multipolarity,",
           "bbox": [
             [
-              285,
-              1640
+              350,
+              2005
             ],
             [
-              568,
-              1642
+              695,
+              2008
             ],
             [
-              569,
-              1684
+              696,
+              2059
             ],
             [
-              285,
-              1684
+              350,
+              2059
             ]
           ]
         }
@@ -1283,20 +1459,20 @@
       "text": "choose sides and foster bifurcation",
       "bbox": [
         [
-          263,
-          1696
+          322,
+          2073
         ],
         [
-          1258,
-          1692
+          1538,
+          2068
         ],
         [
-          1258,
-          1738
+          1538,
+          2124
         ],
         [
-          263,
-          1740
+          322,
+          2126
         ]
       ],
       "words": [
@@ -1304,20 +1480,20 @@
           "text": "choose",
           "bbox": [
             [
-              265,
-              1701
+              325,
+              2079
             ],
             [
-              401,
-              1700
+              490,
+              2078
             ],
             [
-              400,
-              1739
+              490,
+              2126
             ],
             [
-              265,
-              1739
+              324,
+              2125
             ]
           ]
         }
@@ -1327,20 +1503,20 @@
       "text": "of the world. Nonetheless, a",
       "bbox": [
         [
-          288,
-          1753
+          354,
+          2143
         ],
         [
-          1184,
-          1756
+          1448,
+          2146
         ],
         [
-          1184,
-          1798
+          1447,
+          2198
         ],
         [
-          288,
-          1795
+          353,
+          2194
         ]
       ],
       "words": [
@@ -1348,20 +1524,20 @@
           "text": "the",
           "bbox": [
             [
-              408,
-              1753
+              498,
+              2144
             ],
             [
-              492,
-              1753
+              601,
+              2144
             ],
             [
-              492,
-              1796
+              600,
+              2195
             ],
             [
-              407,
-              1795
+              497,
+              2194
             ]
           ]
         }
@@ -1371,20 +1547,20 @@
       "text": "peaceful multipolar world does",
       "bbox": [
         [
-          277,
-          1807
+          339,
+          2209
         ],
         [
-          1167,
-          1810
+          1429,
+          2213
         ],
         [
-          1167,
-          1853
+          1428,
+          2264
         ],
         [
-          277,
-          1850
+          338,
+          2261
         ]
       ],
       "words": [
@@ -1392,20 +1568,20 @@
           "text": "peaceful",
           "bbox": [
             [
-              279,
-              1808
+              341,
+              2210
             ],
             [
-              475,
-              1808
+              586,
+              2210
             ],
             [
-              475,
-              1852
+              585,
+              2263
             ],
             [
-              279,
-              1850
+              340,
+              2262
             ]
           ]
         }
@@ -1415,20 +1591,20 @@
       "text": "Scanned with",
       "bbox": [
         [
-          1282,
-          2014
+          1567,
+          2461
         ],
         [
-          1414,
-          2014
+          1728,
+          2461
         ],
         [
-          1414,
-          2035
+          1728,
+          2487
         ],
         [
-          1282,
-          2035
+          1567,
+          2487
         ]
       ],
       "words": [
@@ -1436,71 +1612,71 @@
           "text": "Scanned",
           "bbox": [
             [
-              1283,
-              2015
+              1570,
+              2463
             ],
             [
-              1365,
-              2014
+              1669,
+              2462
             ],
             [
-              1365,
-              2035
+              1669,
+              2488
             ],
             [
-              1284,
-              2036
+              1571,
+              2488
             ]
           ]
         }
       ]
     },
     {
-      "text": "CS CamScanner\"",
+      "text": "CS CamScanner",
       "bbox": [
         [
-          1258,
-          2039
+          1539,
+          2494
         ],
         [
-          1442,
-          2040
+          1760,
+          2494
         ],
         [
-          1442,
-          2072
+          1759,
+          2533
         ],
         [
-          1258,
-          2070
+          1538,
+          2530
         ]
       ],
       "words": [
         {
-          "text": "CamScanner\"",
+          "text": "CamScanner",
           "bbox": [
             [
-              1293,
-              2041
+              1580,
+              2495
             ],
             [
-              1442,
-              2041
+              1761,
+              2494
             ],
             [
-              1441,
-              2072
+              1760,
+              2532
             ],
             [
-              1294,
-              2068
+              1581,
+              2528
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "verification mechanisms. This shows how arms control can effectively reduce the risks of nuclear war in a multipolar world In a nutshell, multipolarin has strengthened strategic uncertainty among great powers which holds the potential to fuel war. Furthermore, by intensifying security dilemma, multipolarty has intensified arms race contributing to regional and global instability. Likewise, the emergence of geopolitical geoeconomic and financial blocs ha's set the stage for a war fuelled by multipolarity. Additionally, multipolarity accelerates proxy conflicts indirect warfare and intelligence. led operations. This compell rival dates to take reactive actions, thereby escalating tensions. Along with this, multipolarity has mandated the return of hard power as states use hard measures to expand their sphere of influence. The ideological warfare remains at the core of multipolarity, compelling nations to choose sides and foster bifurcation of the world. Nonetheless, a peaceful multipolar world does Scanned with CS CamScanner\"",
+  "ocr_full_text_page": "verification mechanisms. This shows how arms control can effectively reduce the risks of nuclear war in a multipolar world In a nutshell, multipolarin has strengthened strategic uncertainty among great powers which holds the potential to fuel war. Furthermore, by intensifying security dilemma, multipolarty has intensified arms race contributing to regional and global instability. Likewise the emergence of geopolitical geoeconomic and financial blocs bas set the stage for a war fuelled by multipolarity. Additionally, multipolarity accelerates proxy conflicts indirect warfare and intelligence. led operations. This compell rival dates to take reactive actions, thereby escalating tensions. Along with this, multipolarity has mandated the return of hard power as states use hard measures to expand their sphere of influence. The ideological warfare remains at the core of multipolarity, compelling nations to choose sides and foster bifurcation of the world. Nonetheless, a peaceful multipolar world does Scanned with CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

@@ -1,43 +1,43 @@
 {
   "page": 15,
   "page_suggestions": [
-    "Strengthen transitions between ideas to improve paragraph coherence.",
-    "Correct spelling and grammatical errors to enhance readability.",
-    "Verify factual accuracy of quotes and historical references.",
-    "Deepen analysis of preventive diplomacy with specific examples."
+    "Enhance factual accuracy in quotations and historical references to build credibility.",
+    "Improve spelling and grammar to ensure professional academic tone.",
+    "Deepen analysis of diplomatic strategies with specific examples and implications.",
+    "Streamline repetitive phrasing for clearer paragraph progression."
   ],
   "annotations": [
     {
       "page": 15,
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "anchor_quote": "now the task there les to chart a path forward that can ensure shared good.",
-      "correction": "now the task therefore is to chart a path forward that can ensure shared good.",
-      "comment": "Incomplete phrasing and spelling error in 'there les' disrupt sentence structure and clarity in formal writing."
-    },
-    {
-      "page": 15,
       "type": "factual_accuracy",
       "rubric_point": "Factual Accuracy",
-      "anchor_quote": "To quote Henry Cobat, \"The primary the fundamental,the essential purpose of the United Nations is to promote peace.\"",
-      "correction": "To quote Henry Cabot Lodge, 'The primary, the fundamental, the essential purpose of the United Nations is to promote peace.'",
-      "comment": "Misspelled name 'Henry Cobat' (should be Henry Cabot Lodge) and punctuation errors in the quote; verify attribution for accuracy."
+      "anchor_quote": "To quote Henry Cobat, \"The primary the fundamental,the essential purpose of the United Nations",
+      "correction": "Henry Cabot Lodge Jr.; remove redundant 'the primary the fundamental, the essential'",
+      "comment": "Misattribution of quote to incorrect name; verify sources for accurate quotations and avoid redundancy in phrasing to maintain verifiable facts."
     },
     {
       "page": 15,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "anchor_quote": "Secondly promoting preventive diplomar is crucial to resolve conflicts before they cascade into full-scale war",
-      "correction": "Secondly, promoting preventive diplomacy is crucial to resolve conflicts before they cascade into full-scale war.",
-      "comment": "Missing comma after 'Secondly' and spelling error in 'diplomar'; proper punctuation and spelling are essential for academic tone."
+      "anchor_quote": "promoting preventive diplomar is crucial to resolve conflicts before they cascade into full-scale war",
+      "correction": "diplomacy",
+      "comment": "Spelling error in 'diplomar' disrupts formal academic writing; correct for clarity and precision in sentence structure."
+    },
+    {
+      "page": 15,
+      "type": "repetitiveness",
+      "rubric_point": "Repetitiveness",
+      "anchor_quote": "United Nations an institution that emerged after the WWII in 1945 was established to prevent the possibility",
+      "correction": "Consolidate into one concise sentence without repeating 'United Nations' unnecessarily.",
+      "comment": "Repetitive reference to the United Nations and its purpose wastes space; rephrase to progress ideas without redundancy."
     },
     {
       "page": 15,
       "type": "paragraph_flow",
       "rubric_point": "Logical Flow of a Paragraph",
-      "anchor_quote": "Preventive diplomacy uses early- warning systems shuttle diplomacy mediation and confidence-building",
-      "correction": "Preventive diplomacy uses early-warning systems, shuttle diplomacy, mediation, and confidence-building measures.",
-      "comment": "List lacks parallel structure and transitions; add commas and connectors for smoother progression and unity."
+      "anchor_quote": "now the task there les to chart a path forward that can ensure shared good. Firstly it is crucial",
+      "correction": "therefore lies",
+      "comment": "Abrupt transition and spelling error in 'there les' weaken topic sentence linkage; use clear connectors for logical progression from problem to solutions."
     }
   ]
 }

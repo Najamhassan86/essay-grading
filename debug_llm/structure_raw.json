@@ -1,153 +1,162 @@
 {
-  "topic": "Multipolarity, Promoting Peace or Fueling War?",
+  "topic": "MULTIPOLARITY, PROMOTING PEACE OR FEULLING WARP",
   "outline": {
     "present": true,
     "pages": [
       1,
       2,
-      3
+      3,
+      4
     ],
-    "quality": "Strong",
-    "issues": [],
+    "quality": "Weak",
+    "issues": [
+      "Inconsistent subpoint lettering jumping between letters and numbers (a,b,C,d,e,f,9,h,1,j then a,0,C,d,6)",
+      "Short phrases rather than full plan",
+      "Outline ends abruptly on page 4 with partial conclusion snippet"
+    ],
     "strengths": [
-      "Well-organized with clear headings and subpoints",
-      "Logically progresses from problem (fueling war) to solution (promoting peace)",
-      "Balanced coverage of arguments"
+      "Visible main headings structure the essay",
+      "Covers key sections: introduction, term definition, war-fueling arguments, peace measures, conclusion"
     ]
   },
   "outline_span": {
     "start_page": 1,
-    "end_page": 3
+    "end_page": 4
   },
   "outline_sections": [
     {
+      "title": "OUTLINE",
+      "page": 1,
+      "notes": "Main outline marker"
+    },
+    {
       "title": "INTRODUCTION",
       "page": 1,
-      "notes": "Sets the stage with a quote from Kissinger on multipolarity's risks."
+      "notes": "Thesis preview"
+    },
+    {
+      "title": "UNDERSTANDING THE TERM MULTIPOLARITY",
+      "page": 1,
+      "notes": "Definition section"
     },
     {
       "title": "HOW MULTIPOLARITY FUELS WAR",
       "page": 1,
-      "notes": "Subpoints (a-f) on pages 1-2: strategic uncertainty, security dilemma, arms race, alliances, economic contestation, financial pluralism."
-    },
-    {
-      "title": "HOW MULTIPOLARITY FUELS WAR (continued)",
-      "page": 2,
-      "notes": "Subpoints (g-i): nationalist militarism, escalation of economic contestation, fueling financial pluralism."
+      "notes": "Primary argument with subpoints (a)-(j) across pages 1-2"
     },
     {
       "title": "STRATEGIC MEASURES TO PROMOTE PEACE",
       "page": 3,
-      "notes": "Subpoints (a-d): strengthening institutions, preventive diplomacy, soft power, managing competition."
+      "notes": "Counterarguments with subpoints (a)-(e) across pages 3-4"
     },
     {
       "title": "CONCLUSION",
-      "page": 3,
-      "notes": "Summarizes risks and calls for cooperative measures."
+      "page": 4,
+      "notes": "Summary outline"
     }
   ],
-  "essay_start_page": 4,
+  "essay_start_page": 5,
   "paragraph_map": [
     {
       "page": 1,
       "role_guess": "outline",
-      "notes": "Full outline structure with headings and subpoints on multipolarity's impacts and peace strategies."
+      "notes": "Topic, outline start, intro preview, term understanding, war fuels start"
     },
     {
       "page": 2,
       "role_guess": "outline",
-      "notes": "Continuation of outline, focusing on later subpoints under 'HOW MULTIPOLARITY FUELS WAR'."
+      "notes": "War fuels subpoints continuation"
     },
     {
       "page": 3,
       "role_guess": "outline",
-      "notes": "Completion of outline with peace measures and conclusion summary."
+      "notes": "Peace measures subpoints"
+    },
+    {
+      "page": 4,
+      "role_guess": "outline",
+      "notes": "Peace measures end, conclusion preview"
     },
     {
       "page": 5,
       "role_guess": "intro",
-      "notes": "Introduces the topic with Kissinger quote and thesis on multipolarity's dual potential."
-    },
-    {
-      "page": 5,
-      "role_guess": "body",
-      "notes": "Expands on outline point (a): strategic uncertainty among great powers."
+      "notes": "Kissinger quote, thesis restate, sources intro"
     },
     {
       "page": 6,
-      "role_guess": "body",
-      "notes": "Continues body: discusses historical context and current implications of multipolarity."
+      "role_guess": "intro",
+      "notes": "Multipolarity definition, historical context"
     },
     {
       "page": 7,
       "role_guess": "body",
-      "notes": "Addresses outline point (b): security dilemma and arms race."
+      "notes": "Strategic uncertainty, Thucydides Trap"
     },
     {
       "page": 8,
       "role_guess": "body",
-      "notes": "Covers outline point (c): alliances and bloc politics."
+      "notes": "Security dilemma, arms race, Indo-Pacific"
     },
     {
       "page": 9,
       "role_guess": "body",
-      "notes": "Explores outline point (d): undermining consensus in institutions."
+      "notes": "Bloc politics, alliances, institutional paralysis"
     },
     {
       "page": 10,
       "role_guess": "body",
-      "notes": "Discusses outline point (e): exacerbating return of hard power."
+      "notes": "Hard power return, Russia-Ukraine, Iran-Israel"
     },
     {
       "page": 11,
       "role_guess": "body",
-      "notes": "Continues body with examples of proxy conflicts and nationalism."
+      "notes": "Proxy conflicts, Middle East"
     },
     {
       "page": 12,
       "role_guess": "body",
-      "notes": "Addresses outline point (g): nationalist militarism."
+      "notes": "Nationalist militarism, middle powers, economic contestation"
     },
     {
       "page": 13,
       "role_guess": "body",
-      "notes": "Covers outline point (h): economic contestation and disruption."
+      "notes": "Financial pluralism, de-dollarization"
     },
     {
       "page": 14,
       "role_guess": "body",
-      "notes": "Explores outline point (i): financial pluralism and ideological competition."
+      "notes": "Ideological competition"
     },
     {
       "page": 15,
       "role_guess": "body",
-      "notes": "Transitions to peace measures, starting with outline point (a): strengthening institutions."
+      "notes": "Transition to peace measures, UN role"
     },
     {
       "page": 16,
       "role_guess": "body",
-      "notes": "Continues peace strategies: preventive diplomacy and soft power."
+      "notes": "Preventive diplomacy, soft power"
     },
     {
       "page": 17,
       "role_guess": "body",
-      "notes": "Addresses outline point (d): managing great power competition."
+      "notes": "Great power management, hotlines"
     },
     {
       "page": 18,
       "role_guess": "body",
-      "notes": "Further elaboration on peace through cooperation and examples."
+      "notes": "Nuclear risk reduction, New START"
     },
     {
       "page": 19,
       "role_guess": "conclusion",
-      "notes": "Summarizes key arguments, reiterating multipolarity's risks and the need for proactive measures."
+      "notes": "Nutshell summary of risks"
     },
     {
       "page": 20,
       "role_guess": "conclusion",
-      "notes": "Final thoughts on balancing multipolarity for global stability."
+      "notes": "Call for cooperation, Reagan quote"
     }
   ],
-  "overall_flow_comment": "The essay follows the outline sequentially, beginning with an engaging introduction, thoroughly exploring the negative impacts of multipolarity in the body with historical and contemporary examples, then shifting to constructive peace strategies, and concluding with a balanced call for cooperation. The structure is coherent, with smooth transitions between sections."
+  "overall_flow_comment": "Outline pages 1-4 provide structure; essay from page 5 expands points into full arguments before concluding on 19-20."
 }
