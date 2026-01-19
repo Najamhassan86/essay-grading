@@ -1,61 +1,43 @@
 {
   "page": 11,
   "page_suggestions": [
-    "Enhance factual accuracy by verifying global and national statistics on out-of-school girls and child marriages with credible sources like UNESCO or UNICEF.",
-    "Deepen argumentation by explaining the long-term societal and economic impacts of child marriages and inadequate government provisions beyond surface-level description.",
-    "Improve paragraph flow by adding transitional phrases to connect the discussion of child marriages to government shortcomings, ensuring logical progression.",
-    "Strengthen relevance by linking these impediments directly back to how they perpetuate blind obedience in women."
+    "Strengthen paragraph flow by adding transitions between ideas on hard power and proxy conflicts.",
+    "Enhance argumentation depth with critical evaluation of how proxy wars escalate to global risks.",
+    "Correct grammatical errors and incomplete sentences to improve readability.",
+    "Ensure factual examples like Iran's Axis of Resistance are analyzed for implications rather than listed descriptively."
   ],
   "annotations": [
     {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
       "page": 11,
-      "target_word_or_sentence": "In Pakistan 18% of the girls of the age 13-17 are married",
-      "context_before": "very common practice in South Asian region.",
-      "context_after": "very young and become \"Child brides\".",
-      "correction": "",
-      "comment": "Cross-verify this statistic with recent UNICEF or national census data, as rates of child marriage in Pakistan for this age group are reported around 18-21%, but precision is essential for credibility; update if outdated."
-    },
-    {
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 11,
-      "target_word_or_sentence": "there is a manace of child marriages",
-      "context_before": "Thirdly,",
-      "context_after": "and early marriages prevalent for females.",
-      "correction": "there is a menace of child marriages",
-      "comment": "Correct spelling of 'menace' to ensure formal academic tone; maintain consistent punctuation in listing impediments."
+      "anchor_quote": "Hence, a multipolar world is more prone to war as it accelerates balkanization : and institutionalizes the return of hard power.",
+      "correction": "Remove unnecessary colon after 'balkanization' and ensure consistent punctuation.",
+      "comment": "The sentence is grammatically awkward due to the misplaced colon and fragmented phrasing, which distracts from clarity in formal writing."
     },
     {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
       "page": 11,
-      "target_word_or_sentence": "This is a great social customs that destroys, a female, socially, sexually and health wise",
-      "context_before": "\"Child brides\".",
-      "context_after": "Here, it is a big obst acl which needs to be eradicated",
-      "correction": "",
-      "comment": "Expand on the 'why' and 'how' child marriages lead to blind obedience by analyzing psychological and economic dependencies; avoid listing impacts without critical evaluation or counterarguments."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 11,
-      "target_word_or_sentence": "there are 132 million Out of School girls worldwide. In Pakistan, there 14 million girls out of 26 million total OOSC",
-      "context_before": "Owing to which",
-      "context_after": "The government does not provide for the sanitation",
-      "correction": "",
-      "comment": "Confirm figures with UNESCO reports; global out-of-school girls are approximately 129 million (2023 data), and Pakistan's total OOSC is around 22.8 million with about 12 million girls—use latest verifiable numbers and cite sources."
-    },
-    {
       "type": "paragraph_flow",
       "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Multipolarity accelerates and indirect . proxy conflicts . warfare. In a multipolar world, states use proxies and intelligence - - led operations",
+      "correction": "Rephrase for smooth progression: 'Multipolarity accelerates indirect proxy conflicts and warfare. In a multipolar world, states use proxies and intelligence-led operations.'",
+      "comment": "The topic sentence is fragmented with abrupt breaks and missing words, disrupting idea progression and lacking clear links to evidence."
+    },
+    {
       "page": 11,
-      "target_word_or_sentence": "Fourthly, there is also lack of government provisions",
-      "context_before": "at all costs for the safety of women and their progress.",
-      "context_after": "to enable female education.",
-      "correction": "",
-      "comment": "Strengthen topic sentence by explicitly linking to the thesis on blind obedience; add a closing link to transition to next impediment, ensuring progression from social to institutional barriers."
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Iran uses its \"Axis of Resistance\" (Houthis, Hamas and Hezbollah) to exert its influence in Yemen, Palestine and Lebanon and create a deterrence trap for Israel.",
+      "correction": "No correction needed, but expand with analysis.",
+      "comment": "The example is descriptively listed without critical analysis of 'why' or 'how' it ties to multipolarity fueling war, resulting in shallow argumentation."
+    },
+    {
+      "page": 11,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "thereby igniting a way that will not only have regional repercussions but also global consequences.",
+      "correction": "Change 'igniting a way' to 'igniting a war'.",
+      "comment": "Typographical or phrasing error creates confusion; formal academic writing requires precise word choice to maintain clarity and professionalism."
     }
   ]
 }

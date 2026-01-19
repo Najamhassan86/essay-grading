@@ -40,9 +40,15 @@ from docx import Document
 from PIL import Image, ImageDraw, ImageFont
 
 try:
-    from backend.ocr.annotate_pdf_with_essay_rubric import annotate_pdf_essay_pages
-except Exception:
     from annotate_pdf_with_essay_rubric import annotate_pdf_essay_pages
+except (ImportError, ModuleNotFoundError):
+    try:
+        from backend.ocr.annotate_pdf_with_essay_rubric import annotate_pdf_essay_pages  # type: ignore
+    except (ImportError, ModuleNotFoundError):
+        raise ImportError(
+            "Cannot import 'annotate_pdf_essay_pages'. "
+            "Ensure 'annotate_pdf_with_essay_rubric.py' exists in the project or in backend/ocr/ directory."
+        )
 
 
 # -----------------------------
@@ -505,8 +511,14 @@ def run_ocr_on_pdf(
         for future in as_completed(futures):
             page_number = futures[future]
             data = future.result()
-            pages_output.append({"page_number": data["page_number"], "lines": data["lines"]})
-            full_text_parts.append(data["ocr_full_text_page"])
+            pages_output.append({
+                "page_number": data["page_number"],
+                "page_width": data.get("page_width"),
+                "page_height": data.get("page_height"),
+                "ocr_page_text": data.get("ocr_full_text_page", ""),
+                "lines": data["lines"],
+            })
+            full_text_parts.append(data.get("ocr_full_text_page", ""))
             if debug_pages_dir:
                 out_path = os.path.join(debug_pages_dir, f"page_{page_number:03d}.json")
                 with open(out_path, "w", encoding="utf-8") as f:
@@ -543,9 +555,9 @@ def _grok_chat(
     temperature: float = 0.15,
     max_tokens: Optional[int] = None,
     timeout: int = 180,
-    max_retries: int = 3,
-    backoff_base: float = 1.6,
-    backoff_max: float = 20.0,
+    max_retries: int = 10,
+    backoff_base: float = 2.0,
+    backoff_max: float = 60.0,
 ) -> Dict[str, Any]:
     headers = {"Content-Type": "application/json", "Authorization": f"Bearer {grok_api_key}"}
     payload = {"model": model, "messages": messages, "temperature": temperature}
@@ -870,13 +882,36 @@ def call_grok_for_essay_grading_strict_range(
 
 
 
+def _norm_ws(s: str) -> str:
+    """Normalize whitespace for substring matching."""
+    return re.sub(r"\s+", " ", (s or "").strip())
+
+
+def _anchor_is_valid(anchor: str, ocr_page_text: str) -> bool:
+    """Check if anchor is a valid substring of OCR page text."""
+    a = _norm_ws(anchor)
+    t = _norm_ws(ocr_page_text)
+    if not a or len(a.split()) < 5:
+        return False
+    # exact substring check (whitespace-normalized)
+    return a in t
+
+
 def _compact_ocr_page(page: Dict[str, Any]) -> Dict[str, Any]:
-    lines = []
+    # Keep stable per-page text blob (best for anchor_quote extraction)
+    page_text = (page.get("ocr_page_text") or "").strip()
+    
+    # Keep lines in order with exact line text
+    lines_out = []
     for line in page.get("lines", []):
-        line_text = (line.get("text") or "")
-        words = [w.get("text", "") for w in (line.get("words") or [])]
-        lines.append({"text": line_text, "words": words})
-    return {"page_number": page.get("page_number"), "lines": lines}
+        line_text = (line.get("text") or line.get("content") or "").strip()
+        lines_out.append({"text": line_text})
+    
+    return {
+        "page_number": page.get("page_number"),
+        "ocr_page_text": page_text,
+        "lines": lines_out,
+    }
 
 
 def _load_partial_annotations(path: str) -> Dict[str, Any]:
@@ -923,12 +958,10 @@ def call_grok_for_essay_annotations(
         "page_suggestions": ["..."],
         "annotations": [
             {
+                "page": 1,
                 "type": "grammar_language",
                 "rubric_point": "Grammar & Language",
-                "page": 1,
-                "target_word_or_sentence": "string",
-                "context_before": "string",
-                "context_after": "string",
+                "anchor_quote": "EXACT substring from OCR_PAGE_TEXT (6-22 words)",
                 "correction": "string",
                 "comment": "string",
             }
@@ -937,18 +970,25 @@ def call_grok_for_essay_annotations(
 
     instructions = (
         "Using the ANNOTATIONS RUBRIC, generate actionable annotations for ONE PAGE only.\n"
-        "Rules:\n"
-        "- Keep annotations SPECIFIC and LOCATABLE.\n"
+        "Rules (MUST FOLLOW):\n"
         "- Prefer 2-5 annotations per page.\n"
-        "- target_word_or_sentence must be a short snippet that likely appears in OCR.\n"
+        "- Every annotation MUST be LOCATABLE on the page.\n"
+        "\n"
+        "ANCHOR RULE (CRITICAL):\n"
+        "- You are given OCR_PAGE_TEXT below.\n"
+        "- anchor_quote MUST be an EXACT contiguous substring copied from OCR_PAGE_TEXT.\n"
+        "- Use 6 to 22 words for anchor_quote.\n"
+        "- Do NOT paraphrase. Do NOT correct spelling inside anchor_quote.\n"
+        "- If you cannot find a suitable quote in OCR_PAGE_TEXT, set anchor_quote to empty and SKIP that annotation.\n"
+        "\n"
         "- Use these types exactly:\n"
         "  outline_quality, introduction_quality, paragraph_flow, factual_accuracy,\n"
         "  grammar_language, repetitiveness, argumentation_depth,\n"
         "  organization_coherence, conclusion_quality, relevance_focus.\n"
-        "- Headings or section markers may appear. Do not assume they are absent.\n"
-        "- Also create page_suggestions: 2-4 short bullets for this page only.\n"
-        "- Ignore OCR errors; never mention OCR quality, legibility, handwriting, blurring, smudging, or scanning issues anywhere.\n"
-        "Return JSON only matching the schema."
+        "\n"
+        "- page_suggestions: 2-4 short bullets for this page only.\n"
+        "- Never mention OCR/scan/handwriting/legibility.\n"
+        "Return JSON only matching schema."
     )
 
     os.makedirs("debug_llm", exist_ok=True)
@@ -989,30 +1029,77 @@ def call_grok_for_essay_annotations(
             "output_schema": schema_hint,
         }
 
-        try:
-            data = _grok_chat(
-                grok_api_key,
-                messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
-                temperature=0.12,
-                timeout=200,
-                max_retries=4,
-            )
-            content = data["choices"][0]["message"]["content"]
-            parsed = parse_json_with_repair(grok_api_key, content, debug_tag=f"essay_annotations_p{page_num}")
-            if not isinstance(parsed, dict):
-                raise ValueError("Annotation JSON is not an object")
-            if not isinstance(parsed.get("annotations"), list):
-                raise ValueError("Annotation JSON missing annotations list")
-            if not isinstance(parsed.get("page_suggestions"), list):
-                raise ValueError("Annotation JSON missing page_suggestions list")
-        except Exception as e:
-            errors.append({"page": page_num, "error": str(e)})
+        ocr_page_text = (page.get("ocr_page_text") or "").strip()
+        if not ocr_page_text:
+            errors.append({"page": page_num, "error": "Missing ocr_page_text (fix run_ocr_on_pdf output)."})
             _save_partial_annotations(partial_path, {
                 "annotations": annotations,
                 "page_suggestions": page_suggestions,
                 "errors": errors,
                 "completed_pages": sorted(completed_pages),
             })
+            continue
+
+        max_page_attempts = 3
+        last_err = None
+        parsed = None
+        
+        for attempt in range(1, max_page_attempts + 1):
+            try:
+                data = _grok_chat(
+                    grok_api_key,
+                    messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
+                    temperature=0.12,
+                    timeout=200,
+                    max_retries=4,
+                )
+                content = data["choices"][0]["message"]["content"]
+                parsed = parse_json_with_repair(grok_api_key, content, debug_tag=f"essay_annotations_p{page_num}")
+                if not isinstance(parsed, dict):
+                    raise ValueError("Annotation JSON is not an object")
+                if not isinstance(parsed.get("annotations"), list):
+                    raise ValueError("Annotation JSON missing annotations list")
+                if not isinstance(parsed.get("page_suggestions"), list):
+                    raise ValueError("Annotation JSON missing page_suggestions list")
+                
+                # VALIDATE ANCHORS: ensure they exist in OCR text
+                ann = parsed.get("annotations") or []
+                valid_ann = []
+                invalid_count = 0
+                
+                for a in ann:
+                    if not isinstance(a, dict):
+                        continue
+                    aq = a.get("anchor_quote", "")
+                    
+                    # If anchor_quote is empty, keep annotation anyway (just note it)
+                    if not aq or not _anchor_is_valid(aq, ocr_page_text):
+                        invalid_count += 1
+                        # Still add it, but log that it's missing anchor
+                    
+                    valid_ann.append(a)
+                
+                # Log validation result for debugging
+                if invalid_count > 0:
+                    print(f"    [Page {page_num}] Warning: {invalid_count}/{len(ann)} annotations missing valid anchor_quote")
+                
+                parsed["annotations"] = valid_ann
+                break  # success - accept all annotations (anchor or not)
+                
+            except Exception as e:
+                last_err = e
+                if attempt == max_page_attempts:
+                    errors.append({"page": page_num, "error": str(e)})
+                    _save_partial_annotations(partial_path, {
+                        "annotations": annotations,
+                        "page_suggestions": page_suggestions,
+                        "errors": errors,
+                        "completed_pages": sorted(completed_pages),
+                    })
+                    parsed = None
+                continue
+        
+        if parsed is None:
             continue
 
         # Light cleanup per page to keep output consistent
@@ -1023,7 +1110,7 @@ def call_grok_for_essay_annotations(
                 continue
             if not isinstance(a.get("page"), int):
                 a["page"] = page_num
-            for k in ["type", "rubric_point", "target_word_or_sentence", "context_before", "context_after", "correction", "comment"]:
+            for k in ["type", "rubric_point", "anchor_quote", "target_word_or_sentence", "context_before", "context_after", "correction", "comment"]:
                 if k not in a:
                     a[k] = ""
             cleaned.append(a)
@@ -1176,10 +1263,10 @@ def render_essay_report_pages_range(
 
             tmp_img = Image.new("RGB", (10, 10), "white")
             tmp_draw = ImageDraw.Draw(tmp_img)
-            comment_lines = _wrap_text(tmp_draw, comments, cell_font, col_comments - int(20 * scale))
-            crit_lines = _wrap_text(tmp_draw, crit, cell_font, col_criterion - int(20 * scale))
+            comment_lines = _wrap_text(tmp_draw, comments, header_font, col_comments - int(20 * scale))
+            crit_lines = _wrap_text(tmp_draw, crit, header_font, col_criterion - int(20 * scale))
             lines_needed = max(len(comment_lines), len(crit_lines), 1)
-            row_h = max(row_h_base, int(lines_needed * 54 * scale))
+            row_h = max(row_h_base, int(lines_needed * 64 * scale))
 
             if not ensure_space(row_h + int(10 * scale)):
                 return False, None
@@ -1188,57 +1275,58 @@ def render_essay_report_pages_range(
             x = table_x
             yy = y + int(12 * scale)
             for ln in crit_lines:
-                draw.text((x + int(10 * scale), yy), ln, font=cell_font, fill=(0, 0, 0))
-                yy += int(50 * scale)
+                draw.text((x + int(10 * scale), yy), ln, font=header_font, fill=(0, 0, 0))
+                yy += int(60 * scale)
             x += col_criterion
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
-            draw.text((x + int(10 * scale), y + int(12 * scale)), alloc, font=cell_font, fill=(0, 0, 0))
+            draw.text((x + int(10 * scale), y + int(12 * scale)), alloc, font=header_font, fill=(0, 0, 0))
             x += col_alloc
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
-            draw.text((x + int(10 * scale), y + int(12 * scale)), award_range, font=cell_font, fill=(0, 0, 0))
+            draw.text((x + int(10 * scale), y + int(12 * scale)), award_range, font=header_font, fill=(0, 0, 0))
             x += col_award
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
-            draw.text((x + int(10 * scale), y + int(12 * scale)), rating, font=cell_font, fill=(0, 0, 0))
+            draw.text((x + int(10 * scale), y + int(12 * scale)), rating, font=header_font, fill=(0, 0, 0))
             x += col_rating
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
             yy = y + int(12 * scale)
             for ln in comment_lines:
-                draw.text((x + int(10 * scale), yy), ln, font=cell_font, fill=(0, 0, 0))
-                yy += int(50 * scale)
+                draw.text((x + int(10 * scale), yy), ln, font=header_font, fill=(0, 0, 0))
+                yy += int(60 * scale)
 
             y += row_h
 
-        if not ensure_space(int(120 * scale)):
+        if not ensure_space(int(140 * scale)):
             return False, None
-        y += int(20 * scale)
-        draw.text((margin, y), f"Overall Rating: {grading.get('overall_rating','')}", font=header_font, fill=(0, 0, 0))
-        y += int(90 * scale)
+        y += int(40 * scale)
+        draw.text((margin, y), f"Overall Rating: {grading.get('overall_rating','')}", font=title_font, fill=(0, 0, 0))
+        y += int(120 * scale)
 
         def draw_bullets(title: str, bullets: List[str]) -> bool:
             nonlocal y
-            if not ensure_space(int(90 * scale)):
+            if not ensure_space(int(120 * scale)):
                 return False
-            draw.text((margin, y), title, font=header_font, fill=(0, 0, 0))
-            y += int(60 * scale)
+            draw.text((margin, y), title, font=title_font, fill=(0, 0, 0))
+            y += int(90 * scale)
             if not bullets:
                 bullets = ["(Not provided)"]
             tmp_img = Image.new("RGB", (10, 10), "white")
             tmp_draw = ImageDraw.Draw(tmp_img)
             for b in bullets:
-                wrapped = _wrap_text(tmp_draw, str(b), small_font, W - 2 * margin - int(40 * scale))
+                wrapped = _wrap_text(tmp_draw, str(b), header_font, W - 2 * margin - int(50 * scale))
                 for j, ln in enumerate(wrapped):
-                    if not ensure_space(int(55 * scale)):
+                    if not ensure_space(int(75 * scale)):
                         return False
-                    prefix = "- " if j == 0 else "  "
-                    draw.text((margin + int(25 * scale), y), prefix + ln, font=small_font, fill=(0, 0, 0))
-                    y += int(50 * scale)
-                if not ensure_space(int(10 * scale)):
+                    prefix = "• " if j == 0 else "  "
+                    draw.text((margin + int(35 * scale), y), prefix + ln, font=header_font, fill=(0, 0, 0))
+                    y += int(70 * scale)
+                if not ensure_space(int(25 * scale)):
                     return False
-                y += int(10 * scale)
+                y += int(25 * scale)
+            y += int(30 * scale)
             return True
 
         if not draw_bullets("Reasons for Low Score", grading.get("reasons_for_low_score") or []):
@@ -1246,19 +1334,19 @@ def render_essay_report_pages_range(
         if not draw_bullets("Suggested Improvements for Higher Score (70+)", grading.get("suggested_improvements_for_higher_score_70_plus") or []):
             return False, None
 
-        if not ensure_space(int(140 * scale)):
+        if not ensure_space(int(160 * scale)):
             return False, None
-        draw.text((margin, y), "Overall Remarks:", font=header_font, fill=(0, 0, 0))
-        y += int(60 * scale)
+        draw.text((margin, y), "Overall Remarks:", font=title_font, fill=(0, 0, 0))
+        y += int(90 * scale)
         remarks = str(grading.get("overall_remarks", "") or "")
         tmp_img = Image.new("RGB", (10, 10), "white")
         tmp_draw = ImageDraw.Draw(tmp_img)
-        rlines = _wrap_text(tmp_draw, remarks, small_font, W - 2 * margin)
+        rlines = _wrap_text(tmp_draw, remarks, header_font, W - 2 * margin)
         for ln in rlines:
-            if not ensure_space(int(55 * scale)):
+            if not ensure_space(int(75 * scale)):
                 return False, None
-            draw.text((margin, y), ln, font=small_font, fill=(0, 0, 0))
-            y += int(50 * scale)
+            draw.text((margin, y), ln, font=header_font, fill=(0, 0, 0))
+            y += int(70 * scale)
 
         return True, img
 

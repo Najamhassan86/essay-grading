@@ -4,1195 +4,1283 @@
   "page_height": 2105.0,
   "lines": [
     {
-      "text": "4. Education makes females immune to evil",
+      "text": "(C), Multipolarity promotes alliances and",
       "bbox": [
         [
-          300,
-          212
+          331,
+          276
         ],
         [
-          1194,
-          206
+          1174,
+          274
         ],
         [
-          1195,
-          257
-        ],
-        [
-          300,
-          262
-        ]
-      ],
-      "words": [
-        {
-          "text": "Education",
-          "bbox": [
-            [
-              350,
-              216
-            ],
-            [
-              536,
-              212
-            ],
-            [
-              535,
-              262
-            ],
-            [
-              348,
-              261
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "social customs and irrational stereotypes",
-      "bbox": [
-        [
-          320,
-          278
-        ],
-        [
-          1104,
-          277
-        ],
-        [
-          1104,
-          331
-        ],
-        [
-          320,
+          1174,
           332
+        ],
+        [
+          331,
+          335
         ]
       ],
       "words": [
         {
-          "text": "social",
+          "text": "(C),",
           "bbox": [
             [
-              323,
-              283
+              333,
+              284
             ],
             [
-              430,
-              282
+              415,
+              281
             ],
             [
-              429,
-              328
+              413,
+              332
             ],
             [
-              322,
-              328
+              331,
+              336
             ]
           ]
         }
       ]
     },
     {
-      "text": "5. Educated females ensure their political",
+      "text": "counter alliances and instigates",
       "bbox": [
         [
-          299,
-          350
+          441,
+          330
         ],
         [
-          1159,
-          351
+          1095,
+          327
         ],
         [
-          1159,
-          400
+          1095,
+          379
         ],
         [
-          299,
-          399
+          441,
+          380
         ]
       ],
       "words": [
         {
-          "text": "Educated",
+          "text": "counter",
           "bbox": [
             [
-              352,
-              351
+              444,
+              340
             ],
             [
-              504,
-              351
+              587,
+              333
+            ],
+            [
+              586,
+              374
+            ],
+            [
+              443,
+              379
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "bloc politics ..",
+      "bbox": [
+        [
+          432,
+          385
+        ],
+        [
+          697,
+          382
+        ],
+        [
+          698,
+          424
+        ],
+        [
+          432,
+          426
+        ]
+      ],
+      "words": [
+        {
+          "text": "bloc",
+          "bbox": [
+            [
+              434,
+              387
             ],
             [
               503,
-              398
+              387
             ],
             [
-              351,
-              399
+              503,
+              426
+            ],
+            [
+              434,
+              424
             ]
           ]
         }
       ]
     },
     {
-      "text": "participation and protect other women",
+      "text": "· US-led and China-led blocs",
       "bbox": [
         [
-          343,
-          421
+          449,
+          432
         ],
         [
-          1177,
-          421
+          1103,
+          436
         ],
         [
-          1177,
-          467
+          1102,
+          489
         ],
         [
-          343,
-          467
+          449,
+          479
         ]
       ],
       "words": [
         {
-          "text": "participation",
+          "text": "US-led",
           "bbox": [
             [
-              352,
-              422
+              497,
+              436
             ],
             [
-              604,
-              422
-            ],
-            [
-              603,
-              468
-            ],
-            [
-              351,
-              467
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "from blind obedience.",
-      "bbox": [
-        [
-          322,
-          493
-        ],
-        [
-          814,
-          493
-        ],
-        [
-          814,
-          542
-        ],
-        [
-          322,
-          543
-        ]
-      ],
-      "words": [
-        {
-          "text": "from",
-          "bbox": [
-            [
-              325,
-              494
-            ],
-            [
-              412,
-              494
-            ],
-            [
-              411,
-              543
-            ],
-            [
-              324,
-              543
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "III. Impediments in the way of",
-      "bbox": [
-        [
-          297,
-          554
-        ],
-        [
-          1185,
-          547
-        ],
-        [
-          1185,
-          610
-        ],
-        [
-          297,
-          614
-        ]
-      ],
-      "words": [
-        {
-          "text": "III.",
-          "bbox": [
-            [
-              299,
-              558
-            ],
-            [
-              395,
-              557
-            ],
-            [
-              396,
-              614
-            ],
-            [
-              299,
-              614
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "enlarging female mind with",
-      "bbox": [
-        [
-          326,
-          626
-        ],
-        [
-          1118,
-          619
-        ],
-        [
-          1118,
-          681
-        ],
-        [
-          327,
-          682
-        ]
-      ],
-      "words": [
-        {
-          "text": "enlarging",
-          "bbox": [
-            [
-              328,
-              635
-            ],
-            [
-              578,
-              627
-            ],
-            [
-              577,
-              679
-            ],
-            [
-              327,
-              682
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "education",
-      "bbox": [
-        [
-          352,
-          694
-        ],
-        [
-          607,
-          696
-        ],
-        [
-          606,
-          746
-        ],
-        [
-          351,
-          743
-        ]
-      ],
-      "words": [
-        {
-          "text": "education",
-          "bbox": [
-            [
-              354,
-              696
-            ],
-            [
-              602,
-              699
-            ],
-            [
-              602,
-              746
-            ],
-            [
-              353,
-              745
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "1. Societal barriers and poverty",
-      "bbox": [
-        [
-          325,
-          771
-        ],
-        [
-          965,
-          772
-        ],
-        [
-          964,
-          813
-        ],
-        [
-          325,
-          811
-        ]
-      ],
-      "words": [
-        {
-          "text": "Societal",
-          "bbox": [
-            [
-              391,
-              771
-            ],
-            [
-              530,
-              771
-            ],
-            [
-              530,
-              811
-            ],
-            [
-              391,
-              810
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Case in point: (1) Prioritizing boy's education",
-      "bbox": [
-        [
-          384,
-          832
-        ],
-        [
-          1221,
-          836
-        ],
-        [
-          1221,
-          886
-        ],
-        [
-          384,
-          884
-        ]
-      ],
-      "words": [
-        {
-          "text": "Case",
-          "bbox": [
-            [
-              386,
-              833
-            ],
-            [
-              452,
-              833
-            ],
-            [
-              452,
-              884
-            ],
-            [
-              386,
-              883
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "over girl's",
-      "bbox": [
-        [
-          672,
-          910
-        ],
-        [
-          878,
-          908
-        ],
-        [
-          878,
-          950
-        ],
-        [
-          673,
-          951
-        ]
-      ],
-      "words": [
-        {
-          "text": "over",
-          "bbox": [
-            [
-              674,
-              914
-            ],
-            [
-              753,
-              911
-            ],
-            [
-              753,
-              951
-            ],
-            [
-              676,
-              948
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(2) Not having the means to support",
-      "bbox": [
-        [
-          637,
-          973
-        ],
-        [
-          1250,
-          971
-        ],
-        [
-          1251,
-          1016
-        ],
-        [
-          638,
-          1021
-        ]
-      ],
-      "words": [
-        {
-          "text": "(2)",
-          "bbox": [
-            [
-              638,
-              975
-            ],
-            [
-              683,
-              974
-            ],
-            [
-              684,
-              1021
+              641,
+              432
             ],
             [
               639,
-              1022
+              474
+            ],
+            [
+              496,
+              475
             ]
           ]
         }
       ]
     },
     {
-      "text": "education.",
+      "text": "(d). Multipolarity undermines consensus",
       "bbox": [
         [
-          684,
-          1038
+          312,
+          529
         ],
         [
-          876,
-          1038
+          1094,
+          548
         ],
         [
-          876,
-          1080
+          1092,
+          594
         ],
         [
-          684,
-          1080
+          312,
+          581
         ]
       ],
       "words": [
         {
-          "text": "education.",
+          "text": "(d).",
           "bbox": [
             [
-              685,
-              1039
+              313,
+              529
             ],
             [
-              873,
-              1040
+              396,
+              531
             ],
             [
-              872,
-              1080
+              396,
+              582
             ],
             [
-              686,
-              1081
+              312,
+              582
             ]
           ]
         }
       ]
     },
     {
-      "text": "2. Females economic dependence on others",
+      "text": "building promoting institutional",
       "bbox": [
         [
-          337,
-          1104
+          423,
+          589
         ],
         [
-          1170,
-          1108
+          1068,
+          601
         ],
         [
-          1170,
-          1154
+          1067,
+          644
         ],
         [
-          337,
-          1152
+          422,
+          629
         ]
       ],
       "words": [
         {
-          "text": "Females",
+          "text": "building",
           "bbox": [
             [
-              387,
-              1105
+              426,
+              589
             ],
             [
-              537,
-              1106
+              575,
+              590
             ],
             [
-              536,
-              1154
+              574,
+              634
             ],
             [
-              386,
-              1153
+              424,
+              630
             ]
           ]
         }
       ]
     },
     {
-      "text": "to provide for their education.",
+      "text": "paralysis.",
       "bbox": [
         [
-          363,
-          1168
+          444,
+          645
         ],
         [
-          962,
-          1168
+          608,
+          647
         ],
         [
-          962,
-          1214
+          607,
+          685
         ],
         [
-          363,
-          1214
+          444,
+          684
         ]
       ],
       "words": [
         {
-          "text": "provide",
+          "text": "paralysis.",
           "bbox": [
             [
-              420,
-              1170
+              447,
+              645
             ],
             [
-              547,
-              1168
+              607,
+              647
             ],
             [
-              547,
-              1215
+              606,
+              686
             ],
             [
-              419,
-              1215
+              445,
+              684
             ]
           ]
         }
       ]
     },
     {
-      "text": "Case in point: Patriarch head of the family",
+      "text": "· UN paralysis over Syria and",
       "bbox": [
         [
-          377,
-          1235
+          460,
+          693
         ],
         [
-          1260,
-          1237
+          1082,
+          706
         ],
         [
-          1260,
-          1292
+          1081,
+          744
         ],
         [
-          377,
-          1291
+          459,
+          734
         ]
       ],
       "words": [
         {
-          "text": "Case",
+          "text": "paralysis",
           "bbox": [
             [
-              387,
-              1236
+              622,
+              703
             ],
+            [
+              756,
+              708
+            ],
+            [
+              755,
+              742
+            ],
+            [
+              621,
+              738
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Yemen",
+      "bbox": [
+        [
+          508,
+          746
+        ],
+        [
+          635,
+          756
+        ],
+        [
+          632,
+          793
+        ],
+        [
+          508,
+          785
+        ]
+      ],
+      "words": [
+        {
+          "text": "Yemen",
+          "bbox": [
+            [
+              515,
+              747
+            ],
+            [
+              632,
+              757
+            ],
+            [
+              630,
+              793
+            ],
+            [
+              514,
+              786
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(e). Multipolarity exacerbates the",
+      "bbox": [
+        [
+          312,
+          847
+        ],
+        [
+          1059,
+          851
+        ],
+        [
+          1059,
+          894
+        ],
+        [
+          312,
+          891
+        ]
+      ],
+      "words": [
+        {
+          "text": "(e).",
+          "bbox": [
+            [
+              313,
+              847
+            ],
+            [
+              391,
+              849
+            ],
+            [
+              390,
+              893
+            ],
+            [
+              313,
+              893
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "return of hard power.",
+      "bbox": [
+        [
+          423,
+          903
+        ],
+        [
+          986,
+          901
+        ],
+        [
+          987,
+          939
+        ],
+        [
+          423,
+          943
+        ]
+      ],
+      "words": [
+        {
+          "text": "return",
+          "bbox": [
+            [
+              426,
+              906
+            ],
+            [
+              545,
+              904
+            ],
+            [
+              544,
+              942
+            ],
+            [
+              425,
+              944
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "· Russian invasion of Ukraine",
+      "bbox": [
+        [
+          466,
+          947
+        ],
+        [
+          1059,
+          949
+        ],
+        [
+          1058,
+          990
+        ],
+        [
+          466,
+          988
+        ]
+      ],
+      "words": [
+        {
+          "text": "Russian",
+          "bbox": [
+            [
+              502,
+              949
+            ],
+            [
+              631,
+              952
+            ],
+            [
+              630,
+              990
+            ],
+            [
+              501,
+              989
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(f). Multipolarity accelerates proxy",
+      "bbox": [
+        [
+          315,
+          1044
+        ],
+        [
+          1065,
+          1044
+        ],
+        [
+          1065,
+          1087
+        ],
+        [
+          315,
+          1090
+        ]
+      ],
+      "words": [
+        {
+          "text": "(f).",
+          "bbox": [
+            [
+              320,
+              1044
+            ],
+            [
+              385,
+              1045
+            ],
+            [
+              382,
+              1091
+            ],
+            [
+              317,
+              1091
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "conflicts and indirect warfare,",
+      "bbox": [
+        [
+          441,
+          1101
+        ],
+        [
+          1082,
+          1095
+        ],
+        [
+          1082,
+          1129
+        ],
+        [
+          441,
+          1137
+        ]
+      ],
+      "words": [
+        {
+          "text": "conflicts",
+          "bbox": [
+            [
+              442,
+              1102
+            ],
+            [
+              587,
+              1100
+            ],
+            [
+              587,
+              1136
+            ],
+            [
+              443,
+              1138
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "· Proxy warfare in the Middle East",
+      "bbox": [
+        [
+          455,
+          1143
+        ],
+        [
+          1169,
+          1136
+        ],
+        [
+          1169,
+          1175
+        ],
+        [
+          455,
+          1182
+        ]
+      ],
+      "words": [
+        {
+          "text": "Proxy",
+          "bbox": [
             [
               491,
-              1236
+              1144
+            ],
+            [
+              584,
+              1145
+            ],
+            [
+              583,
+              1182
             ],
             [
               490,
-              1290
-            ],
-            [
-              386,
-              1292
+              1182
             ]
           ]
         }
       ]
     },
     {
-      "text": "SYED TAIM decides and provides.",
+      "text": "(9). Nationalist militarism surges due",
       "bbox": [
         [
-          522,
-          1311
+          322,
+          1241
         ],
         [
-          1131,
-          1306
+          1136,
+          1236
         ],
         [
-          1132,
-          1352
+          1136,
+          1279
         ],
         [
-          522,
-          1359
+          322,
+          1287
         ]
       ],
       "words": [
         {
-          "text": "SYED",
+          "text": "(9).",
           "bbox": [
             [
-              524,
-              1317
+              324,
+              1241
             ],
             [
-              610,
-              1313
+              408,
+              1242
             ],
             [
-              609,
-              1358
+              407,
+              1285
             ],
             [
-              522,
-              1359
+              323,
+              1288
             ]
           ]
         }
       ]
     },
     {
-      "text": "3. Child marriages and early marriages",
+      "text": "to the rise of middle powers ..",
       "bbox": [
         [
-          329,
-          1371
+          447,
+          1290
         ],
         [
-          1121,
-          1371
+          1153,
+          1286
         ],
         [
-          1121,
-          1426
+          1153,
+          1322
         ],
         [
-          329,
-          1427
+          447,
+          1328
         ]
       ],
       "words": [
         {
-          "text": "Child",
+          "text": "the",
           "bbox": [
             [
-              370,
-              1377
+              537,
+              1291
             ],
             [
-              466,
+              598,
+              1291
+            ],
+            [
+              598,
+              1328
+            ],
+            [
+              536,
+              1328
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "· Middle pour",
+      "bbox": [
+        [
+          461,
+          1335
+        ],
+        [
+          705,
+          1332
+        ],
+        [
+          705,
+          1372
+        ],
+        [
+          461,
+          1375
+        ]
+      ],
+      "words": [
+        {
+          "text": "Middle",
+          "bbox": [
+            [
+              500,
+              1338
+            ],
+            [
+              607,
+              1338
+            ],
+            [
+              608,
               1374
             ],
             [
-              466,
-              1426
-            ],
-            [
-              370,
-              1428
+              500,
+              1373
             ]
           ]
         }
       ]
     },
     {
-      "text": "Case in point: (1) South Asian culture of\"Childbrides\"",
+      "text": "powers asserting regional",
       "bbox": [
         [
-          330,
-          1442
+          650,
+          1343
         ],
         [
-          1279,
-          1443
+          1122,
+          1337
         ],
         [
-          1279,
-          1497
+          1122,
+          1370
         ],
         [
-          330,
-          1496
+          650,
+          1376
         ]
       ],
       "words": [
         {
-          "text": "Case",
+          "text": "powers",
           "bbox": [
             [
-              339,
-              1443
+              660,
+              1344
             ],
             [
-              447,
-              1443
+              756,
+              1345
             ],
             [
-              446,
-              1497
+              756,
+              1376
             ],
             [
-              339,
-              1497
+              661,
+              1376
             ]
           ]
         }
       ]
     },
     {
-      "text": "(2) In Pakistan 18% girls in age 12-16",
+      "text": "influence .",
       "bbox": [
         [
-          672,
-          1514
+          473,
+          1382
         ],
         [
-          1246,
-          1513
+          661,
+          1386
         ],
         [
-          1246,
-          1555
+          660,
+          1424
         ],
         [
-          672,
-          1558
+          472,
+          1420
         ]
       ],
       "words": [
         {
-          "text": "(2)",
+          "text": "influence",
           "bbox": [
             [
-              673,
-              1518
+              504,
+              1384
             ],
             [
-              717,
-              1517
+              643,
+              1388
             ],
             [
-              718,
-              1557
+              642,
+              1424
             ],
             [
-              674,
-              1559
+              503,
+              1421
             ]
           ]
         }
       ]
     },
     {
-      "text": "get married",
+      "text": "(h). Multipolarity escalates economic",
       "bbox": [
         [
-          722,
-          1574
+          314,
+          1477
         ],
         [
-          944,
-          1569
+          1121,
+          1478
         ],
         [
-          945,
-          1618
+          1121,
+          1526
         ],
         [
-          722,
-          1624
+          314,
+          1525
         ]
       ],
       "words": [
         {
-          "text": "get",
+          "text": "(h).",
           "bbox": [
             [
-              723,
-              1574
+              317,
+              1477
             ],
             [
-              767,
-              1574
+              395,
+              1479
             ],
             [
-              766,
-              1624
+              394,
+              1525
             ],
             [
-              722,
-              1624
+              316,
+              1526
             ]
           ]
         }
       ]
     },
     {
-      "text": "4. Insufficient provisions by government to enable",
+      "text": "contestation disrupting global",
       "bbox": [
         [
-          315,
-          1649
+          440,
+          1536
         ],
         [
-          1237,
-          1645
+          1048,
+          1533
         ],
         [
-          1237,
-          1697
+          1048,
+          1567
         ],
         [
-          315,
-          1700
+          440,
+          1570
         ]
       ],
       "words": [
         {
-          "text": "Insufficient",
+          "text": "contestation",
           "bbox": [
             [
-              356,
-              1649
+              442,
+              1540
             ],
             [
-              566,
-              1650
+              657,
+              1535
             ],
             [
-              565,
-              1700
+              658,
+              1570
             ],
             [
-              355,
-              1696
+              442,
+              1569
             ]
           ]
         }
       ]
     },
     {
-      "text": "education of females",
+      "text": "supply chains",
       "bbox": [
         [
-          341,
-          1716
+          466,
+          1586
         ],
         [
-          745,
-          1716
+          736,
+          1585
         ],
         [
-          745,
-          1769
+          737,
+          1621
         ],
         [
-          341,
-          1769
+          466,
+          1621
         ]
       ],
       "words": [
         {
-          "text": "education",
+          "text": "supply",
           "bbox": [
             [
-              342,
-              1723
+              468,
+              1588
             ],
             [
-              520,
-              1717
+              577,
+              1587
             ],
             [
-              520,
-              1769
+              578,
+              1621
             ],
             [
-              341,
-              1762
+              468,
+              1620
             ]
           ]
         }
       ]
     },
     {
-      "text": "Case in point:(1) Appaling sanitation conditions",
+      "text": ". US-China technological decoupling",
       "bbox": [
         [
-          334,
-          1786
+          458,
+          1632
         ],
         [
-          1291,
-          1781
+          1152,
+          1633
         ],
         [
-          1292,
-          1835
+          1152,
+          1669
         ],
         [
-          334,
-          1842
+          458,
+          1668
         ]
       ],
       "words": [
         {
-          "text": "Case",
+          "text": "US-China",
           "bbox": [
             [
-              336,
-              1787
+              517,
+              1635
             ],
             [
-              443,
-              1787
+              688,
+              1634
             ],
             [
-              443,
-              1842
+              687,
+              1669
             ],
             [
-              336,
-              1842
+              517,
+              1666
             ]
           ]
         }
       ]
     },
     {
-      "text": "in government schools",
+      "text": "(i). Multipolarity fuels financial pluralism",
       "bbox": [
         [
-          718,
-          1855
+          324,
+          1727
         ],
         [
-          1098,
-          1855
+          1169,
+          1727
         ],
         [
-          1098,
-          1903
+          1170,
+          1773
         ],
         [
-          718,
-          1904
+          324,
+          1774
         ]
       ],
       "words": [
         {
-          "text": "government",
+          "text": "(i).",
           "bbox": [
             [
-              770,
-              1855
+              326,
+              1728
             ],
             [
-              952,
-              1856
+              398,
+              1728
             ],
             [
-              952,
-              1903
+              397,
+              1774
             ],
             [
-              769,
-              1905
+              325,
+              1775
             ]
           ]
         }
       ]
     },
     {
-      "text": "(2) No safe transport for female",
+      "text": "heightening financial security",
       "bbox": [
         [
-          693,
-          1930
+          427,
+          1779
         ],
         [
-          1249,
-          1927
+          1072,
+          1776
         ],
         [
-          1250,
-          1973
+          1072,
+          1815
         ],
         [
-          693,
-          1977
+          427,
+          1819
         ]
       ],
       "words": [
         {
-          "text": "(2)",
+          "text": "heightening",
           "bbox": [
             [
-              695,
-              1936
+              434,
+              1783
             ],
             [
-              735,
-              1934
+              639,
+              1778
             ],
             [
-              734,
-              1977
+              639,
+              1817
             ],
             [
-              694,
-              1977
+              433,
+              1820
             ]
           ]
         }
       ]
     },
     {
-      "text": "studends from for flung areas.",
+      "text": "dilemma.",
       "bbox": [
         [
-          716,
-          1993
+          443,
+          1827
+        ],
+        [
+          615,
+          1827
+        ],
+        [
+          615,
+          1862
+        ],
+        [
+          443,
+          1861
+        ]
+      ],
+      "words": [
+        {
+          "text": "dilemma.",
+          "bbox": [
+            [
+              451,
+              1828
+            ],
+            [
+              616,
+              1830
+            ],
+            [
+              615,
+              1861
+            ],
+            [
+              449,
+              1862
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Scanned with",
+      "bbox": [
+        [
+          1282,
+          2014
+        ],
+        [
+          1415,
+          2014
+        ],
+        [
+          1414,
+          2035
+        ],
+        [
+          1282,
+          2035
+        ]
+      ],
+      "words": [
+        {
+          "text": "Scanned",
+          "bbox": [
+            [
+              1283,
+              2014
+            ],
+            [
+              1364,
+              2014
+            ],
+            [
+              1364,
+              2036
+            ],
+            [
+              1284,
+              2035
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CS CamScanner\"",
+      "bbox": [
+        [
+          1258,
+          2040
+        ],
+        [
+          1442,
+          2041
+        ],
+        [
+          1442,
+          2072
         ],
         [
           1258,
-          1995
-        ],
-        [
-          1258,
-          2038
-        ],
-        [
-          716,
-          2036
+          2070
         ]
       ],
       "words": [
         {
-          "text": "studends",
+          "text": "CamScanner\"",
           "bbox": [
             [
-              716,
-              2000
+              1293,
+              2041
             ],
             [
-              893,
-              1994
+              1442,
+              2041
             ],
             [
-              894,
-              2037
+              1441,
+              2071
             ],
             [
-              718,
-              2037
+              1293,
+              2068
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "4. Education makes females immune to evil social customs and irrational stereotypes 5. Educated females ensure their political participation and protect other women from blind obedience. III. Impediments in the way of enlarging female mind with 1 education 1. Societal barriers and poverty Case in point: (1) Prioritizing boy's education over girl's (2) Not having the means to support education. 2. Females economic dependence on others to provide for their education. Case in point: Patriarch head of the family SYED TAIM decides and provides. 3. Child marriages and early marriages Case in point: (1) South Asian culture of\"Childbrides\" (2) In Pakistan 18% girls in age 12-16 get married 4. Insufficient provisions by government to enable education of females Case in point:(1) Appaling sanitation conditions in government schools (2) No safe transport for female studends from for flung areas.",
+  "ocr_full_text_page": "(C), Multipolarity promotes alliances and counter alliances and instigates bloc politics .. · US-led and China-led blocs (d). Multipolarity undermines consensus building promoting institutional paralysis. · UN paralysis over Syria and Yemen (e). Multipolarity exacerbates the return of hard power. · Russian invasion of Ukraine (f). Multipolarity accelerates proxy conflicts and indirect warfare, · Proxy warfare in the Middle East (9). Nationalist militarism surges due to the rise of middle powers .. · Middle pour powers asserting regional 2 influence . (h). Multipolarity escalates economic contestation disrupting global supply chains . US-China technological decoupling (i). Multipolarity fuels financial pluralism heightening financial security dilemma. Scanned with CS CamScanner\"",
   "attempt": {
     "scale": 1.0,
     "quality": 75

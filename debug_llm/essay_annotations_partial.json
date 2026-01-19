@@ -1,859 +1,1084 @@
 {
   "annotations": [
     {
-      "type": "outline_quality",
-      "rubric_point": "Logical Structure & Arrangement",
       "page": 1,
-      "target_word_or_sentence": "II. How strengthening the female mind by enlarging it with education Gods ends blind obedience:",
-      "context_before": "Hence, pragmatic policies and actions are needed to stream line women education ITUTE",
-      "context_after": "1. Only educated female breaks free from the shackles of patriarchal mindset that demands blind obedience.",
-      "correction": "",
-      "comment": "The heading under II shows a logical progression from the introduction but lacks precision in phrasing; revise to clearly outline step-by-step benefits of education, ensuring balanced coverage without grammatical inconsistencies."
-    },
-    {
-      "type": "introduction_quality",
-      "rubric_point": "Thesis must be explicit, nuanced, and analytical",
-      "page": 1,
-      "target_word_or_sentence": "It is an undeniable reality that by enlarging the female mind with education, there will be end to blind obedience, yet there are Various reasons which inhibit the process;",
-      "context_before": "I. Introduction",
-      "context_after": "consequently women across the globe suffer detrimental impacts. Hence, pragmatic policies and actions are needed to stream line women education ITUTE",
-      "correction": "",
-      "comment": "The introduction addresses key terms like 'enlarging the female mind' and 'blind obedience' but the thesis is somewhat vague; make it more analytical by explicitly stating how education empowers women and linking to impediments and solutions for comprehensive framing."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Sentences must be structured properly, spellings should be accurate",
-      "page": 1,
-      "target_word_or_sentence": "there will be end to blind obedience",
-      "context_before": "It is an undeniable reality that by enlarging the female mind with education,",
-      "context_after": "yet there are Various reasons which inhibit the process;",
-      "correction": "there will be an end to blind obedience",
-      "comment": "Insert article 'an' before 'end' for grammatical correctness; this improves sentence structure and maintains formal academic tone."
-    },
-    {
-      "type": "relevance_focus",
-      "rubric_point": "All headings/sub-headings directly address the proposition/question",
-      "page": 1,
-      "target_word_or_sentence": "3. Females strengthened by education sencew their rights and do not submit to injustice.",
-      "context_before": "2. Educated female secures economic independence which protects from obeying mindlessly",
-      "context_after": "...",
-      "correction": "",
-      "comment": "This subpoint directly ties education to awareness of rights and resistance to injustice, aligning with the topic; however, ensure all subpoints maintain this focus without tangential elements to avoid dilution of relevance."
-    },
-    {
-      "type": "outline_quality",
-      "rubric_point": "Outline Quality",
-      "page": 2,
-      "target_word_or_sentence": "III. Impediments in the way of enlarging female mind with education",
-      "context_before": "5. Educated females ensure their political participation and protect other women from blind obedience.",
-      "context_after": "1. Societal barriers and poverty",
-      "comment": "Strengthen logical structure by ensuring this section proportionally covers all major impediments without overlapping with prior benefits; allocate space for solutions preview to show maturity.",
-      "correction": ""
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 2,
-      "target_word_or_sentence": "Females economic dependence on others",
-      "context_before": "2.",
-      "context_after": "to provide for their education.",
-      "correction": "Females' economic dependence on others",
-      "comment": "Insert possessive apostrophe after 'Females' to correctly indicate ownership and maintain formal academic tone."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 2,
-      "target_word_or_sentence": "In Pakistan 18% girls in age 12-16 get married",
-      "context_before": "(1) South Asian culture of\"Childbrides\"",
-      "context_after": "4. Insufficient provisions by government to enable",
-      "comment": "Verify and update this statistic using recent UNICEF or Pakistan Bureau of Statistics data, as figures may vary; contextualize with exact age range (e.g., 15-19) for precision.",
-      "correction": ""
-    },
-    {
-      "type": "repetitiveness",
-      "rubric_point": "Repetitiveness",
-      "page": 2,
-      "target_word_or_sentence": "Case in point: Patriarch head of the family",
-      "context_before": "2. Females economic dependence on others to provide for their education.",
-      "context_after": "3. Child marriages and early marriages",
-      "comment": "Avoid redundancy by merging this with the prior poverty subpoint, as economic dependence overlaps; introduce a new angle like cultural reinforcement to add unique value.",
-      "correction": ""
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 3,
-      "target_word_or_sentence": "digital divide 68%, for women 51%",
-      "context_before": "Case in Point: patobul",
-      "context_after": "(3) Pakistan female digital divide 24% whereas mode's is 43%",
-      "correction": "",
-      "comment": "The global digital divide statistic of 68% overall and 51% for women requires verification against recent UN or World Bank data; ensure figures are current and contextualized to avoid outdated information."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 3,
-      "target_word_or_sentence": "Massive digital in present age of online learning.",
-      "context_before": "5.",
-      "context_after": "Case in Point: patobul digital divide 68%, for",
-      "correction": "Massive digital divide in the present age of online learning.",
-      "comment": "Complete the sentence structure for clarity and grammatical correctness; use formal academic phrasing to maintain suitability for essay writing."
-    },
-    {
-      "type": "outline_quality",
-      "rubric_point": "Outline Quality",
-      "page": 3,
-      "target_word_or_sentence": "IV. Measures required to eliminate these impediment in way of women education.",
-      "context_before": "and 6% from sexual violence",
-      "context_after": "1. Ensure \"altidunal\" change rather than",
-      "correction": "IV. Measures Required to Eliminate These Impediments in the Way of Women's Education.",
-      "comment": "Capitalize heading consistently and correct plural 'impediments' for precision; ensure subpoints reflect analytical depth by including forward-looking solutions."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 3,
-      "target_word_or_sentence": "SDG (5) Gender Equality (2) SDG (4) Equal Education Rights",
-      "context_before": "Case in Point: (1)",
-      "context_after": "3. In Pakistan, ensure implementation of Article 25, and Article 38",
-      "correction": "",
-      "comment": "Accurately reference SDG 5 (Gender Equality) and SDG 4 (Quality Education) with full titles; verify alignment with official UN descriptions to support claims on international policies."
-    },
-    {
-      "type": "outline_quality",
-      "rubric_point": "Outline Quality",
-      "page": 4,
-      "target_word_or_sentence": "5 3. In Pakistan, ensure implementation",
-      "context_before": "5. Enforce women protection laws completely. Case in Point: (1) SDG (5) Gender Equality (2) SDG (4) Equal Education Rights",
-      "context_after": "of Article 25, and Article 38",
-      "correction": "",
-      "comment": "The duplicated numbering '5 3.' disrupts the logical structure and hierarchy; renumber sequentially to maintain clear progression in the measures section."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 4,
-      "target_word_or_sentence": "Article 25, and Article 38",
-      "context_before": "In Pakistan, ensure implementation",
-      "context_after": "NV. Conclusion.",
-      "correction": "",
-      "comment": "References to Pakistan's Article 25 (equality) and Article 38 (social justice) are relevant but should specify Article 25A for free education to align precisely with female education rights."
-    },
-    {
-      "type": "organization_coherence",
-      "rubric_point": "Organization & Coherence",
-      "page": 4,
-      "target_word_or_sentence": "NV. Conclusion.",
-      "context_before": "of Article 25, and Article 38",
-      "context_after": "5000",
-      "correction": "IV. Conclusion.",
-      "comment": "The abrupt shift to 'NV. Conclusion.' lacks a smooth transition from measures; use a linking phrase to connect back to the outline's overall flow."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 4,
-      "target_word_or_sentence": "ensure implementation of Article 25, and Article 38",
-      "context_before": "3. In Pakistan,",
-      "context_after": "NV. Conclusion.",
-      "correction": "ensure the implementation of Articles 25 and 38",
-      "comment": "Add articles 'the' and plural 'Articles' for grammatical precision and formal tone in academic outlining."
-    },
-    {
       "type": "introduction_quality",
       "rubric_point": "Introduction Quality",
-      "page": 5,
-      "target_word_or_sentence": "It has, undeniably, wisely phrased that it needs education to break free females from blind obedience",
+      "anchor_quote": "By strengthening strategic uncertainty among great powers, intensifying security dilemma and promoting bloc politics, multipolarity is inadvertently fuelling war. Nevertheless, by empowering international institutions and prioritizing soft power, peace can be maintained.",
+      "correction": "",
+      "comment": "The thesis is present but underdeveloped; add a hook to contextualize the topic and a roadmap linking to the outline for better framing and logical setup.",
+      "target_word_or_sentence": "",
       "context_before": "",
-      "context_after": "Any one who is educated, questions, thinks, rationalizes and only then make an action.",
-      "correction": "",
-      "comment": "The opening attempts to frame the topic but lacks a clear thesis statement; explicitly state the nuanced stance on how education empowers women against blind obedience to better address the question's demands."
+      "context_after": ""
     },
     {
+      "page": 1,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 5,
-      "target_word_or_sentence": "Any one who is educated, questions, thinks, rationalizes and only then make an action",
-      "context_before": "It has, undeniably, wisely phrased that it needs education to break free females from blind obedience.",
-      "context_after": "Any task they perform is backed by rational calculation and estimation of the consequences of following that command Same is the case with Women.",
-      "correction": "Anyone who is educated questions, thinks, rationalizes, and only then makes an action.",
-      "comment": "Subject-verb agreement error in 'make'; use formal academic tone by avoiding contractions and ensuring parallel structure in the list of actions."
+      "anchor_quote": "PROMOTING PEACE OR FEULLING WARP",
+      "correction": "FUELLING WAR",
+      "comment": "Spelling errors in the topic title ('FEULLING' should be 'FUELLING', 'WARP' should be 'WAR') detract from professionalism; proofread for accuracy in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 5,
-      "target_word_or_sentence": "Same is the case with Women. When female are educated, they do not act blindly or follow mindlessly.",
-      "context_before": "Any task they perform is backed by rational calculation and estimation of the consequences of following that command",
-      "context_after": "They question and rationalize and only than decide on whether to comply or not.",
+      "page": 1,
+      "type": "outline_quality",
+      "rubric_point": "Outline Quality",
+      "anchor_quote": "H UNDERSTANDING THE TERM MULTIPOLARITY ₣ HOW MULTIPOLARITY FUELS WAR (a). Multipolarity strengthens strategic uncertainty among great powers.",
       "correction": "",
-      "comment": "Topic sentence is present but buried; start with a clear claim linking education to rational decision-making for women, followed by explanation and evidence for better progression."
+      "comment": "Headings use inconsistent symbols (e.g., 'H', '₣') and lack hierarchy; standardize formatting with clear, numbered subheadings for logical structure and readability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 1,
+      "type": "organization_coherence",
+      "rubric_point": "Organization & Coherence",
+      "anchor_quote": "(a). Multipolarity strengthens strategic uncertainty among great powers. · US-China- Russia competition. (b). Multipolarity sharpens the security dilemma and fuels arms race.",
+      "correction": "",
+      "comment": "Outline points are list-based and fragmented without transitions or balanced depth; connect ideas logically to show progression from definition to arguments.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 2,
+      "type": "outline_quality",
+      "rubric_point": "Outline Quality",
+      "anchor_quote": "(C), Multipolarity promotes alliances and counter alliances and instigates bloc politics .. · US-led and China-led blocs",
+      "correction": "Revise to: '(c) Multipolarity promotes alliances and counter-alliances, instigating bloc politics, e.g., US-led and China-led blocs.'",
+      "comment": "This point lacks analytical depth; add a sub-point on how bloc politics leads to escalation, ensuring balanced coverage of risks without generic listing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 2,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 5,
-      "target_word_or_sentence": "When female are educated, they do not act blindly or follow mindlessly.",
-      "context_before": "Same is the case with Women.",
-      "context_after": "They question and rationalize and only than decide on whether to comply or not.",
-      "correction": "When females are educated, they do not act blindly or follow mindlessly.",
-      "comment": "Subject-verb agreement issue with 'female are'; pluralize consistently as 'females' and ensure precise, formal language to maintain academic suitability."
+      "anchor_quote": "· Middle pour powers asserting regional 2 influence .",
+      "correction": "· Middle powers asserting regional influence.",
+      "comment": "Correct spelling of 'pour' to 'powers' and remove extraneous '2'; ensure precise terminology for formal academic tone.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 2,
+      "type": "organization_coherence",
+      "rubric_point": "Organization, Coherence & Transitions",
+      "anchor_quote": "(d). Multipolarity undermines consensus building promoting institutional paralysis. · UN paralysis over Syria and Yemen",
+      "correction": "Restructure to: '(d) Multipolarity undermines consensus-building, promoting institutional paralysis (e.g., UN paralysis over Syria and Yemen).'",
+      "comment": "Improve coherence by using consistent punctuation and linking examples directly to the main point; avoid abrupt shifts to maintain logical flow in the outline.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 2,
       "type": "relevance_focus",
       "rubric_point": "Relevance & Focus",
-      "page": 5,
-      "target_word_or_sentence": "By enlarging the femal mind is by virtue of educating them makes them better not only for their own good but also for the entire society.",
-      "context_before": "They question and rationalize and only than decide on whether to comply or not.",
-      "context_after": "Unfortunately, there are various social, economic, political and traditional hindrances in way of educating the females.",
-      "correction": "",
-      "comment": "The sentence drifts from direct focus on blind obedience; tie societal benefits explicitly back to how education prevents mindless compliance to maintain adherence to the topic."
+      "anchor_quote": "(e). Multipolarity exacerbates the return of hard power. · Russian invasion of Ukraine",
+      "correction": "No direct correction needed; tie example explicitly to multipolarity.",
+      "comment": "Ensure example directly addresses how multipolarity worsens hard power return; avoid superficial references that drift from the core topic of war risks.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 6,
-      "target_word_or_sentence": "However, hot all hope is lost",
-      "context_before": "generational cycles of women deprivation neras break.",
-      "context_after": "and as it is said, it is never too late to change the world.",
+      "page": 3,
+      "type": "outline_quality",
+      "rubric_point": "Logical Structure & Arrangement",
+      "anchor_quote": "(1) Multipolarity intensifies ideological and normative competition. · Liberalism Vs. Authoritarianism V conflict",
       "correction": "",
-      "comment": "The transition here feels abrupt; introduce a clearer connector to bridge the discussion of hindrances to potential solutions, ensuring the paragraph maintains unity by reinforcing the thesis on education's role."
+      "comment": "This sub-point disrupts logical flow with abrupt shift to ideological competition; integrate it more seamlessly under war-fueling section before transitioning to peace measures.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 3,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 6,
-      "target_word_or_sentence": "This mind set decides what women cando, or can not;",
-      "context_before": "of blind obedience.",
-      "context_after": "what women can wear or wear not;",
-      "correction": "This mindset decides what women can do or cannot do;",
-      "comment": "Correct spacing and punctuation for formal tone; use consistent contraction forms to improve readability and academic style."
+      "anchor_quote": "Promoting preventing diplomacy to resolve conflicts before they escalate into war.",
+      "correction": "Promoting preventive diplomacy to resolve conflicts before they escalate into war.",
+      "comment": "'Preventing' is a grammatical error; use 'preventive' for correct adjective form in formal academic context to maintain clarity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 6,
-      "target_word_or_sentence": "only educated females can break free from the shackles of patriarchal mindset",
-      "context_before": "Firstly, it is to be acknowledged that",
-      "context_after": "that exists on the very principle of blind obedience.",
-      "correction": "",
-      "comment": "Expand this claim with analysis of 'why' education breaks patriarchal shackles, such as discussing cognitive empowerment or historical examples, to add critical depth beyond description."
-    },
-    {
-      "type": "repetitiveness",
-      "rubric_point": "Repetitiveness",
-      "page": 6,
-      "target_word_or_sentence": "what women can feel or feel not.",
-      "context_before": "what women can wear or wear not;",
-      "context_after": "It also confuses and chains on the complexities of gender-",
-      "correction": "",
-      "comment": "Avoid repeating the 'what women can/cannot' structure across sentences; consolidate into one example to prevent redundancy and allow space for new insights on gender roles."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 7,
-      "target_word_or_sentence": "when female gets education, she secures economic, sustenance for herself.",
-      "context_before": "Secondly,",
-      "context_after": "In this way she does not depend on any one economically",
-      "correction": "when a female receives education, she secures economic sustenance for herself.",
-      "comment": "Insert article 'a' before 'female'; use 'receives' for formal tone; remove comma after 'economic' and combine into 'economic sustenance' for proper noun phrase."
-    },
-    {
+      "page": 3,
       "type": "factual_accuracy",
       "rubric_point": "Factual Accuracy",
-      "page": 7,
-      "target_word_or_sentence": "According to UNFB (United Nations Population Fund) there is only 28% female labour force",
-      "context_before": "This protects her from blindly following someone just because they materialy provide for them",
-      "context_after": "which means the other 72% women are economi- cally dependent on their male guardian.",
-      "correction": "According to UNFPA (United Nations Population Fund), the global female labor force participation rate is approximately 47% (as of recent data).",
-      "comment": "Update statistic to reflect accurate, current UNFPA figures; correct acronym to UNFPA and provide context for global applicability."
+      "anchor_quote": "The US-China hotline restored in 2024",
+      "correction": "",
+      "comment": "Verify the exact restoration date and context of the US-China military hotline; ensure it aligns with recent diplomatic developments for precision.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 7,
-      "target_word_or_sentence": "Thisidly, Females whenedu- cated, are fully aware of their rights.",
-      "context_before": "and makes decisions for herself just as she likes.",
-      "context_after": "In Pakistan, an educated female would know her constitutional",
-      "correction": "Thirdly, females, when educated, are fully aware of their rights.",
-      "comment": "Use proper transition 'Thirdly' at the start; ensure topic sentence is clear and positioned first; add comma after 'females' for appositive phrase."
+      "page": 3,
+      "type": "organization_coherence",
+      "rubric_point": "Organization, Coherence & Transitions",
+      "anchor_quote": "IV STRATEGIC MEASURES TO PROMOTE PEACE (a). Strengthening and empowering international institutions to mediate conflicts.",
+      "correction": "",
+      "comment": "The Roman numeral 'IV' and sub-point (a) start peace strategies abruptly after war risks; add a transitional phrase to connect sections for better coherence.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 7,
-      "target_word_or_sentence": "an educated female would know her constitutional rights.",
-      "context_before": "In Pakistan,",
-      "context_after": "She would legal facilitations to protect them such as Protection of Women Against Workplace Harassment, (2010), Acid Control and Acid Crime Prevention Act (2011) and Women Property Protection Right (2020).",
-      "correction": "an educated female would understand and assert her constitutional rights, analyzing how laws like the Protection Against Harassment of Women at the Workplace Act (2010) empower her against injustice.",
-      "comment": "Add critical analysis explaining 'why' and 'how' these rights reduce blind obedience, rather than listing laws descriptively; tie back to thesis with implications for societal change."
-    },
-    {
+      "page": 4,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 8,
-      "target_word_or_sentence": "unjustice",
-      "context_before": "she would not stand any",
-      "context_after": "against her personhood.",
-      "correction": "injustice",
-      "comment": "Correct the spelling error to maintain formal academic tone and clarity in discussing women's rights."
+      "anchor_quote": "as the world transitions towards multipolarit the risks of entanglements surge.",
+      "correction": "as the world transitions towards multipolarity, the risks of entanglements surge.",
+      "comment": "Spelling error in 'multipolarit' and missing comma after 'multipolarity' disrupt formal academic tone and readability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 8,
-      "target_word_or_sentence": "Fourthly, educated females become immune",
-      "context_before": "her personhood.",
-      "context_after": "to evil social customs and the absurd stereotypes.",
-      "correction": "",
-      "comment": "The topic sentence introduces a new point abruptly; add a transitional phrase like 'Furthermore' to connect from the previous discussion on legal rights for smoother progression."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 8,
-      "target_word_or_sentence": "She starts to believe that customs are only here to marginalize her",
-      "context_before": "She starts to think and live beyond",
-      "context_after": "and she, in result, does not give any importance",
-      "correction": "",
-      "comment": "The claim lacks critical analysis; expand with 'why' these customs persist and 'how' education challenges them specifically in a Pakistani context to add depth."
-    },
-    {
-      "type": "relevance_focus",
-      "rubric_point": "Relevance & Focus",
-      "page": 8,
-      "target_word_or_sentence": "their energies only need to be utilized in achieving their higher goals of life only",
-      "context_before": "to prove that they are above these things and",
-      "context_after": "",
-      "correction": "",
-      "comment": "This closing sentence drifts toward general empowerment; refocus by tying it directly back to ending blind obedience through education."
-    },
-    {
+      "page": 4,
       "type": "factual_accuracy",
       "rubric_point": "Factual Accuracy",
-      "page": 9,
-      "target_word_or_sentence": "women make 230% of world",
-      "context_before": "according to United Nations report",
-      "context_after": "parliaments. Yet, there are women,",
-      "correction": "women make up 23% of world",
-      "comment": "The statistic is incorrect and exaggerated; accurate UN data shows women hold about 26% of parliamentary seats globally as of recent reports, which undermines the argument's credibility."
+      "anchor_quote": "The US-Russia New Start Tred",
+      "correction": "The US-Russia New START Treaty",
+      "comment": "Incorrect spelling and abbreviation; the treaty is officially the New Strategic Arms Reduction Treaty (New START), requiring precise naming for verifiability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 9,
-      "target_word_or_sentence": "plass amendment",
-      "context_before": "make laws and",
-      "context_after": "to protect women",
-      "correction": "pass amendments",
-      "comment": "Incorrect spelling and phrasing; use 'pass amendments' for grammatical accuracy and formal tone in discussing legislative actions."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 9,
-      "target_word_or_sentence": "worven education",
-      "context_before": "povertythat hinders",
-      "context_after": ". Unfortunately there is a culture",
-      "correction": "women's education",
-      "comment": "Misspelling and awkward phrasing; correct to 'women's education' to maintain clarity and proper possessive form in formal writing."
-    },
-    {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 9,
-      "target_word_or_sentence": "participate in the political process",
-      "context_before": "that participate",
-      "context_after": "and become part of the decision making",
-      "correction": "",
-      "comment": "The phrase is repeated closely within the same point, disrupting flow; vary wording or consolidate to improve progression from claim to example."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 9,
-      "target_word_or_sentence": "there is a culture of \"boy's educa- tion over girl's be cause he",
-      "context_before": ". Unfortunately",
-      "context_after": "will be the provider of the household\"",
-      "correction": "",
-      "comment": "The point on prioritizing boys' education is stated but lacks analysis of why this perpetuates blind obedience or its societal implications; add explanation of cause-effect to deepen the argument."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 10,
-      "target_word_or_sentence": "the women who nurture and polishes",
-      "context_before": "This is an absolutely unjustifiable reason to keep females illiterate. It is",
-      "context_after": "the next generation. If she herself",
-      "correction": "the women who nurture and polish",
-      "comment": "Subject-verb agreement error; 'women' is plural, so the verb should be 'polish' instead of 'polishes' to maintain grammatical correctness in formal writing."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 10,
-      "target_word_or_sentence": "how will she will ensure good brought up",
-      "context_before": "If she herself is not educated,",
-      "context_after": "of her Children. As Napoleon Bonaparte",
-      "correction": "how will she ensure a good upbringing",
-      "comment": "Remove redundant 'will' and correct 'brought up' to 'upbringing' for idiomatic accuracy and to avoid awkward phrasing in academic style."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 10,
-      "target_word_or_sentence": "38% of women across the globe earn less than $ 1.9/day This figure is way below the current $4.0 poverty line",
-      "context_before": "Even those women who work, earn very meagerly. According to World Bank report,",
-      "context_after": "Here it is a big hurdle and women",
-      "correction": "Update to latest World Bank figures: approximately 9.2% of women in low-income countries live below $2.15/day (2022 extreme poverty line), contextualized against national poverty thresholds.",
-      "comment": "The $1.90 figure is outdated (revised to $2.15 in 2022); the $4.00 reference seems to misalign with standard global poverty lines—ensure verifiable, current data from credible sources like World Bank reports."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 10,
-      "target_word_or_sentence": "give me educated mothers and I will give your. excellent nation",
-      "context_before": "As Napoleon Bonaparte has said",
-      "context_after": "Hence, this remains an obstacle.",
-      "correction": "give me good mothers and I will give you a good nation",
-      "comment": "The quote is inaccurately paraphrased; deepen analysis by exploring how educated mothers foster critical thinking in children, linking to reduced blind obedience across generations with evidence from educational studies."
-    },
-    {
-      "type": "repetitiveness",
-      "rubric_point": "Repetitiveness",
-      "page": 10,
-      "target_word_or_sentence": "females are totally reliant on their patriarchs to provide them with education",
-      "context_before": "Secondly,",
-      "context_after": "Unfortunately, education is not free and requires",
-      "comment": "This idea of economic dependence repeats the prior point on poverty and societal barriers; consolidate into one focused discussion to avoid redundancy and improve progression.",
-      "correction": ""
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 11,
-      "target_word_or_sentence": "In Pakistan 18% of the girls of the age 13-17 are married",
-      "context_before": "very common practice in South Asian region.",
-      "context_after": "very young and become \"Child brides\".",
-      "correction": "",
-      "comment": "Cross-verify this statistic with recent UNICEF or national census data, as rates of child marriage in Pakistan for this age group are reported around 18-21%, but precision is essential for credibility; update if outdated."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 11,
-      "target_word_or_sentence": "there is a manace of child marriages",
-      "context_before": "Thirdly,",
-      "context_after": "and early marriages prevalent for females.",
-      "correction": "there is a menace of child marriages",
-      "comment": "Correct spelling of 'menace' to ensure formal academic tone; maintain consistent punctuation in listing impediments."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 11,
-      "target_word_or_sentence": "This is a great social customs that destroys, a female, socially, sexually and health wise",
-      "context_before": "\"Child brides\".",
-      "context_after": "Here, it is a big obst acl which needs to be eradicated",
-      "correction": "",
-      "comment": "Expand on the 'why' and 'how' child marriages lead to blind obedience by analyzing psychological and economic dependencies; avoid listing impacts without critical evaluation or counterarguments."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 11,
-      "target_word_or_sentence": "there are 132 million Out of School girls worldwide. In Pakistan, there 14 million girls out of 26 million total OOSC",
-      "context_before": "Owing to which",
-      "context_after": "The government does not provide for the sanitation",
-      "correction": "",
-      "comment": "Confirm figures with UNESCO reports; global out-of-school girls are approximately 129 million (2023 data), and Pakistan's total OOSC is around 22.8 million with about 12 million girls—use latest verifiable numbers and cite sources."
-    },
-    {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 11,
-      "target_word_or_sentence": "Fourthly, there is also lack of government provisions",
-      "context_before": "at all costs for the safety of women and their progress.",
-      "context_after": "to enable female education.",
-      "correction": "",
-      "comment": "Strengthen topic sentence by explicitly linking to the thesis on blind obedience; add a closing link to transition to next impediment, ensuring progression from social to institutional barriers."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 12,
-      "target_word_or_sentence": "Globally the digital divide is 60% out of which girls/females are 51%",
-      "context_before": "there is massive digital divide to which the greatest offertees are women",
-      "context_after": "In Pakistan, situation is even worse. The to digital divide is 58% whereas for girls it is 24%",
-      "correction": "",
-      "comment": "The cited global digital divide statistic of 60% with 51% affecting girls/females appears overstated or outdated; recent ITU reports indicate a gender gap of about 17% in internet usage, not a 60% divide. Update with verifiable sources like ITU or World Bank for precision."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 12,
-      "target_word_or_sentence": "the greatest offertees are women",
-      "context_before": "there is massive digital divide to which",
-      "context_after": "Globally the digital divide is 60% out of which girls/females are 51%",
-      "correction": "the greatest sufferers are women",
-      "comment": "Replace 'offertees' with 'sufferers' for formal academic tone and clarity; ensure consistent use of precise vocabulary to avoid informal or incorrect terms that distract from the argument."
-    },
-    {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 12,
-      "target_word_or_sentence": "Fifthly, there is massive digital divide",
-      "context_before": "which makes parents reluctant to support girls education",
-      "context_after": "to which the greatest offertees are women Globally",
-      "correction": "",
-      "comment": "The transition to 'Fifthly' feels abrupt after discussing transportation; add a connector like 'Additionally' or a brief linking sentence to maintain logical progression from physical access barriers to digital ones."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 12,
-      "target_word_or_sentence": "Globally 1/3 women have suffered physical or sexual violence",
-      "context_before": "Sixthly females lack the required security outside of their homes.",
-      "context_after": "which speaks volumes on how it is too difficult for women to get outside their",
-      "correction": "",
-      "comment": "The point on security lacks critical analysis; expand to explain how violence directly impedes education pursuit and perpetuates obedience, including implications or counterarguments for deeper insight."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 13,
-      "target_word_or_sentence": "therose hurdles",
-      "context_before": "pragmatic decisions that can eliminate",
-      "context_after": "in order to facilitate the famele education",
-      "correction": "those hurdles",
-      "comment": "Misspelling disrupts readability; use correct term to maintain formal academic tone."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 13,
-      "target_word_or_sentence": "\"women are the target untapped resource of the world\"",
-      "context_before": "As Hillary Clinton said,",
-      "context_after": "This absolutely true in its essence.",
-      "correction": "\"Women are the world's largest untapped resource\"",
-      "comment": "Quote is inaccurately paraphrased; use verified version from Clinton's speeches to ensure credibility and avoid misrepresentation."
-    },
-    {
-      "type": "repetitiveness",
-      "rubric_point": "Repetitiveness",
-      "page": 13,
-      "target_word_or_sentence": "There is a need to understand that",
-      "context_before": "Firstly, there is need to understand that women educational",
-      "context_after": "There is a need to understand that women, if let like this,",
-      "correction": "Remove second instance and integrate directly: 'Women, if left unempowered, will only burden the world...';",
-      "comment": "Repeated phrasing wastes space and weakens progression; consolidate to advance the argument efficiently."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 13,
-      "target_word_or_sentence": "\"attitudinal Change\", not more legislations void of enforcements.",
-      "context_before": "Here, for Women there is need of",
-      "context_after": "N/A",
-      "correction": "N/A",
-      "comment": "Mentions attitudinal change but lacks explanation of 'why' or 'how' it addresses blind obedience; add critical analysis with examples like community awareness programs to show cause-effect."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 14,
-      "target_word_or_sentence": "there is need to",
-      "context_before": "Secondly,",
-      "context_after": "make efforts for women education",
-      "correction": "there is a need to",
-      "comment": "Add the article 'a' for grammatical correctness in formal writing; this ensures proper noun phrase structure."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 14,
-      "target_word_or_sentence": "enought",
-      "context_before": "not just",
-      "context_after": "to educate them",
-      "correction": "enough",
-      "comment": "Correct the spelling to maintain clarity and professionalism in academic expression."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 14,
-      "target_word_or_sentence": "Women make up 57% of NEET",
-      "context_before": "Unfortunately",
-      "context_after": "(Not in Employment, Education",
-      "correction": "",
-      "comment": "Verify the statistic against recent UN or ILO reports, as global female NEET rates vary by region; ensure precision and cite the source for verifiability."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 14,
-      "target_word_or_sentence": "universal consensus on minimum 10years for marriage of girls",
-      "context_before": "Thirdly, there is need to have a",
-      "context_after": "This would not only arest many physical,",
-      "correction": "",
-      "comment": "Expand on the implications of this measure by discussing enforcement challenges or comparative global examples to demonstrate critical analysis beyond surface-level suggestion."
-    },
-    {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 14,
-      "target_word_or_sentence": "This protects the women as well as ensure her respect",
-      "context_before": "only tham sign into marital relation.",
-      "context_after": "equality in marital bond",
-      "correction": "This protects women as well as ensures their respect",
-      "comment": "Revise for subject-verb agreement and add a transition to link back to education's role, improving unity and progression within the paragraph."
-    },
-    {
-      "type": "grammar_language",
-      "rubric_point": "Grammar & Language",
-      "page": 15,
-      "target_word_or_sentence": "for flung areas",
-      "context_before": "provision of education in",
-      "context_after": "Government must launch such",
-      "correction": "far-flung areas",
-      "comment": "Use the correct term 'far-flung' to accurately describe remote locations, enhancing formal academic tone."
-    },
-    {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
-      "page": 15,
-      "target_word_or_sentence": "SOC: 4",
-      "context_before": "In",
-      "context_after": "there is goal to ensure free",
-      "correction": "SDG 4",
-      "comment": "Refer to the correct terminology as 'SDG 4' for the United Nations Sustainable Development Goal on quality education, ensuring precision in referencing international policies."
-    },
-    {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 15,
-      "target_word_or_sentence": "streamline the projey",
-      "context_before": "public-private partnership in order to",
-      "context_after": "Fifthly, there is dire need",
-      "correction": "streamline the project",
-      "comment": "Elaborate on how public-private partnerships specifically address the digital divide, adding analysis on potential outcomes or challenges for deeper critical engagement."
-    },
-    {
-      "type": "paragraph_flow",
-      "rubric_point": "Logical Flow of a Paragraph",
-      "page": 15,
-      "target_word_or_sentence": "presses on the issue",
-      "context_before": "female education.",
-      "context_after": "In SOC: 4 there is goal",
-      "correction": "emphasizes the importance of",
-      "comment": "Strengthen the topic sentence by using a more precise connector to link international goals to local implementation, improving logical progression."
-    },
-    {
-      "type": "relevance_focus",
-      "rubric_point": "Relevance & Focus",
-      "page": 15,
-      "target_word_or_sentence": "constitutional Safeguards that protect woman",
-      "context_before": "similarly in Pakistan, there are",
-      "context_after": "",
-      "correction": "constitutional safeguards that protect women",
-      "comment": "Tie this point back to ending blind obedience by explaining how these safeguards empower educated women against patriarchal constraints, maintaining focus on the thesis."
-    },
-    {
+      "page": 4,
       "type": "conclusion_quality",
-      "rubric_point": "Conclusion & Overall Impression",
-      "page": 16,
-      "target_word_or_sentence": "To conclude, it can be deduced",
-      "context_before": "Hence, by applying, rather enforcing these laws, much of the edu. cation provision problems for women will alleviate.",
-      "context_after": "that embellishing the female mind with education will protect her from blind compliance.",
-      "correction": "",
-      "comment": "The conclusion begins with a standard phrasing but fails to provide a nuanced synthesis of the essay's key points, resulting in a weak restatement of the thesis without fresh insight or comprehensive linkage to the topic's demands."
+      "rubric_point": "Conclusion Quality",
+      "anchor_quote": "In a nutshell, as the world transitions towards multipolarit the risks of entanglements surge. To address there challenges shared global cooperation remains imperative.",
+      "correction": "In a nutshell, as the world transitions towards multipolarity, the risks of entanglements surge. To address these challenges, shared global cooperation remains imperative.",
+      "comment": "Conclusion is brief and restates thesis without synthesizing arguments or providing forward-looking insights, lacking analytical depth and closure.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 4,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 16,
-      "target_word_or_sentence": "Article 25(A) dolares",
-      "context_before": "In Pakistan, ensure implementation of Article 25, and Article 38",
-      "context_after": "women deserve equal education rights.",
-      "correction": "Article 25(A) declares",
-      "comment": "The phrasing disrupts formal academic tone; revise for precise legal terminology and grammatical accuracy to maintain clarity and professionalism."
+      "anchor_quote": "To address there challenges shared global cooperation remains imperative.",
+      "correction": "To address these challenges, shared global cooperation remains imperative.",
+      "comment": "Spelling error in 'there' (should be 'these') and missing comma create grammatical inconsistency, affecting clarity in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 5,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "From Samuel P. Huntington's \"Clash of Civilization\" to Henry Kissinger's \"World Order\"",
+      "correction": "From Samuel P. Huntington's \"Clash of Civilizations\" to Henry Kissinger's \"World Order\"",
+      "comment": "Verify and correct book titles using reliable sources; 'Clash of Civilization' is inaccurate and should be 'Clash of Civilizations' to maintain factual integrity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 5,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "multipolarity fuels way by intensifying ideological confrontation restoring competitive great-power politics",
+      "correction": "multipolarity fuels war by intensifying ideological confrontation, restoring competitive great-power politics",
+      "comment": "Correct spelling of 'war' and add commas for clarity in compound structures to improve formal academic tone and readability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 5,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Multipolarity, by strengthening strategic uncertainty among great powers, intensifying security dilemma and promoting bloc politics",
+      "correction": "Multipolarity, by strengthening strategic uncertainty among great powers, intensifying the security dilemma, and promoting bloc politics",
+      "comment": "Add articles ('the') and 'and' for parallel structure in the list of gerunds to ensure grammatical correctness and logical flow.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 5,
       "type": "repetitiveness",
       "rubric_point": "Repetitiveness",
-      "page": 16,
-      "target_word_or_sentence": "There are grave impediments that stops women education process",
-      "context_before": "She will rationalize before she does anything which will not only make the better, but world better.",
-      "context_after": "but there is nothing that can not be changed",
-      "comment": "This sentence repeats ideas from earlier body sections on impediments without adding new depth, wasting space and reducing the conclusion's momentum.",
-      "correction": ""
+      "anchor_quote": "As the world is transitioning towards multipolarity, the risks of strategic miscalculation and great power contestation have surged",
+      "correction": "As the world transitions toward multipolarity, risks of strategic miscalculation and great power contestation have surged",
+      "comment": "Remove redundant phrasing like 'is' and 'the' in repeated transition descriptions across the page to avoid redundancy and improve conciseness.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
+      "page": 6,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "multipolarity samuel P. Huntington in his various essays on global order defines multipolarity ras",
+      "correction": "multipolarity. Samuel P. Huntington, in his various essays on global order, defines multipolarity as",
+      "comment": "Capitalize proper names, add commas for clarity, and correct 'ras' to 'as' to improve sentence structure and readability in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 6,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "with the emergence of China in 2008 and its accelerated growth in military economics and",
+      "correction": "with the emergence of China as a major power around the 2008 financial crisis and its accelerated growth in military, economic, and technological capabilities,",
+      "comment": "The 2008 date likely refers to the global financial crisis highlighting China's role, but China's rise began earlier (e.g., post-1978 reforms); specify 'economic' separately and add 'technological' for completeness and accuracy.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 6,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Before charting the path forward it is imperative to understand multipolarity samuel P. Huntington",
+      "correction": "Before charting the path forward, it is imperative to understand multipolarity. Samuel P. Huntington",
+      "comment": "Add a comma after 'forward' and break into sentences to clearly locate the topic sentence early, improving progression from introduction to definition.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 6,
       "type": "argumentation_depth",
       "rubric_point": "Overall Argumentation & Critical Depth",
-      "page": 16,
-      "target_word_or_sentence": "with attidumal change and policy implementation",
-      "context_before": "but there is nothing that can not be changed and",
-      "context_after": "educating women can be come much more convenient",
-      "correction": "",
-      "comment": "The mention of attitudinal change and policy lacks critical analysis of 'why' or 'how' these would effectively end blind obedience, presenting a superficial solution without evidence or evaluation."
+      "anchor_quote": "This highlights that multipolarity drags nations in a zero. sum game. Since the dissolution",
+      "correction": "This highlights that multipolarity often drags nations into a zero-sum game. Since the dissolution",
+      "comment": "Expand beyond description by analyzing how zero-sum dynamics lead to conflict, linking to thesis with critical evaluation rather than stating without 'why' or implications.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     },
     {
-      "type": "relevance_focus",
-      "rubric_point": "Relevance & Focus",
-      "page": 16,
-      "target_word_or_sentence": "for the progress of the world.",
-      "context_before": "not just for their own person hood but",
-      "context_after": "",
+      "page": 7,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "As Ronald Reagan notes in his book \"An American Life\" \"Multipolarity intensifies the Thucydides Trap because several rising powers challenge several established ones simultaneously:\"",
+      "correction": "The Thucydides Trap was popularized by Graham Allison in 'Destined for War' (2017); Ronald Reagan's 'An American Life' (1990) is an autobiography that does not discuss this concept.",
+      "comment": "Misattributing the Thucydides Trap to Reagan introduces a verifiable factual error, weakening the essay's credibility and requiring cross-verification with reliable sources.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 7,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Meanwhile, the emergence of Russia and its anti-western doctrine have instigated the return of hard power, escalating the risks of miscalculations and mistrust.",
+      "correction": "Change 'have instigated' to 'has instigated' to correct subject-verb agreement, as 'emergence' is singular.",
+      "comment": "Subject-verb disagreement disrupts formal academic tone and clarity; ensure consistent grammatical structure for professional expression.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 7,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "As the world transitions toward multipolarity, the rise of great powers a Thucydides Trap to already established powers.",
+      "correction": "Insert 'poses' or 'creates' after 'powers' to complete the sentence: e.g., 'the rise of great powers poses a Thucydides Trap to already established powers.'",
+      "comment": "Incomplete sentence fragments hinder readability and logical progression; revise for full, properly structured sentences in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 7,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "One of the most significant features of multipolarity is that it strengthens strategic uncertainty among great powers.",
+      "correction": "N/A",
+      "comment": "The claim on strategic uncertainty lacks explanation of 'why' or 'how' it leads to war, remaining descriptive; add critical analysis, such as cause-effect links or counterarguments, for deeper insight.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 8,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Russia as a counterweight to the established unipolar hegemony of the us have fuelled strategy uncertainty",
+      "correction": "Russia, as a counterweight to the established unipolar hegemony of the US, has fueled strategic uncertainty",
+      "comment": "Subject-verb agreement error ('Russia... have' should be 'has'); capitalize 'US' and correct 'strategy' to 'strategic'; use formal spelling 'fueled' consistently.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 8,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "This uncertainty has locked them in a zero-cum game, escalating the risks of full-scale war.",
+      "correction": "This uncertainty has locked them in a zero-sum game, escalating the risks of full-scale war.",
+      "comment": "Spelling error in 'zero-cum' (should be 'zero-sum'); ensure precise terminology for formal academic writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 8,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "The military buildup of one state creates a security dilemma in other states which contributes to an arms race.",
+      "correction": "The military buildup of one state creates a security dilemma in other states, which contributes to an arms race.",
+      "comment": "Add comma before 'which' for better sentence structure; improve transitions to link explanation to evidence more smoothly.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 8,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "The Indo-Pacific remains one of the most militarized and volatile region of the world.",
+      "correction": "The Indo-Pacific remains one of the most militarized and volatile regions in the world.",
+      "comment": "Pluralize 'region' to 'regions'; deepen analysis by including specific examples like AUKUS or Quad alliances to evaluate implications critically.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 8,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "The growing military and maritime competition of China and the US in the Indo-Pacific has escalated the risks of a full- fledged war.",
+      "correction": "The growing military and maritime competition between China and the US in the Indo-Pacific has escalated the risks of a full-fledged war.",
+      "comment": "Change 'of' to 'between' for accuracy; verify and cite recent data (e.g., SIPRI reports) on militarization to support the claim.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 9,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "The alliances system of Otto von Bismarck sowed the seeds of the World War II.",
+      "correction": "The alliance system of Otto von Bismarck sowed the seeds of World War I.",
+      "comment": "Bismarck's alliance system contributed to the tensions and alliances that led to World War I in 1914, not World War II; this misattribution undermines the historical example's validity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 9,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "economic, security and ideological quarantees have cartographed multipolarity",
+      "correction": "economic, security, and ideological guarantees have mapped multipolarity",
+      "comment": "Misspelling of 'guarantees'; missing Oxford comma; 'cartographed' is an awkward and imprecise verb choice—'mapped' or 'framed' would be clearer and more suitable for formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 9,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "US and Chinese- led blocs resisting on economic, security",
+      "correction": "US- and Chinese-led blocs relying on economic, security",
+      "comment": "Incorrect preposition 'resisting on'—should be 'relying on' or 'based on' for idiomatic accuracy; add hyphens for compound adjectives and ensure parallel structure.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 9,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "fuels war. Multipolarity undermines consensus- building thereby fuelling institutional paralysis.",
       "correction": "",
-      "comment": "The ending broadens to global progress but drifts from the core topic of female education ending blind obedience, diluting focus without tying back to specific essay arguments."
+      "comment": "Abrupt transition from alliances to institutional paralysis lacks a linking sentence or connector (e.g., 'Beyond alliances, multipolarity also...'); this disrupts the progression and unity of ideas.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 10,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "This undermines consensus-building in global institution. The monopoly of great veto powers",
+      "correction": "This undermines consensus-building in global institutions. The monopoly of great veto powers",
+      "comment": "'Institution' should be pluralized to 'institutions' for grammatical agreement with the context of multiple global bodies; ensures formal academic tone.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 10,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "The Russian invasion of Ukraine on February 24, 2022 marks the return of hard power.",
+      "correction": "The Russian invasion of Ukraine on February 24, 2022, marks the return of hard power.",
+      "comment": "Date is accurate and verifiable; add comma after '2022' for proper punctuation in formal writing, maintaining factual integrity without altering content.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 10,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Russia has initiated to invade eastern European territories to expand its sphere of influence",
+      "correction": "Russia has initiated an invasion of eastern European territories to expand its sphere of influence",
+      "comment": "Argument is descriptive; lacks critical evaluation of motivations or implications—add analysis of how this exemplifies multipolarity's risks beyond narration.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 10,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Hence, multipolarity is contributing to the emergence of minilateral and regional institutions Multipolarity exacerbates",
+      "correction": "Hence, multipolarity is contributing to the emergence of minilateral and regional institutions. Multipolarity exacerbates",
+      "comment": "Abrupt shift without transition; insert period and connector (e.g., 'Furthermore') to link institutional paralysis to hard power, improving idea progression.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 11,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Hence, a multipolar world is more prone to war as it accelerates balkanization : and institutionalizes the return of hard power.",
+      "correction": "Remove unnecessary colon after 'balkanization' and ensure consistent punctuation.",
+      "comment": "The sentence is grammatically awkward due to the misplaced colon and fragmented phrasing, which distracts from clarity in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 11,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Multipolarity accelerates and indirect . proxy conflicts . warfare. In a multipolar world, states use proxies and intelligence - - led operations",
+      "correction": "Rephrase for smooth progression: 'Multipolarity accelerates indirect proxy conflicts and warfare. In a multipolar world, states use proxies and intelligence-led operations.'",
+      "comment": "The topic sentence is fragmented with abrupt breaks and missing words, disrupting idea progression and lacking clear links to evidence.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 11,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Iran uses its \"Axis of Resistance\" (Houthis, Hamas and Hezbollah) to exert its influence in Yemen, Palestine and Lebanon and create a deterrence trap for Israel.",
+      "correction": "No correction needed, but expand with analysis.",
+      "comment": "The example is descriptively listed without critical analysis of 'why' or 'how' it ties to multipolarity fueling war, resulting in shallow argumentation.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 11,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "thereby igniting a way that will not only have regional repercussions but also global consequences.",
+      "correction": "Change 'igniting a way' to 'igniting a war'.",
+      "comment": "Typographical or phrasing error creates confusion; formal academic writing requires precise word choice to maintain clarity and professionalism.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 12,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "nationalist militarism emerges as such states contect for regional autonomy With the rise",
+      "correction": "nationalist militarism emerges as such states contest for regional autonomy. With the rise",
+      "comment": "Correct 'contect' to 'contest' and add period after 'autonomy' to fix spelling error and improve sentence structure for clarity in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 12,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "These nations Leverage their geostrategic locations and natural resource reserves to exert",
+      "correction": "These nations leverage their geostrategic locations and natural resource reserves to exert",
+      "comment": "Lowercase 'Leverage' as it is not starting a sentence; ensure consistent capitalization to maintain formal academic style.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 12,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg.",
+      "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era.",
+      "comment": "Correct 'erg.' to 'era' for historical accuracy; verify and expand on pre-WWII parallels with specific evidence to strengthen verifiability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 12,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Such economic ware using tools of tariffs and export controls disrupt global supply chains",
+      "correction": "Such economic war, using tools of tariffs and export controls, disrupts global supply chains",
+      "comment": "Correct 'ware' to 'war' and add commas for grammar; deepen analysis by explaining cause-effect links between tariffs, supply chains, and broader war risks in multipolarity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 12,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg. Multipolarity escalates",
+      "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era. Similarly, multipolarity escalates",
+      "comment": "Add a transition like 'Similarly' to connect nationalism to economic contestation; ensure logical progression from militarism to economic impacts for smoother idea flow.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 13,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "The multipolar world challenger the hegemony of the - US dollar",
+      "correction": "The multipolar world challenges the hegemony of the US dollar",
+      "comment": "Fix subject-verb agreement error ('challenger' to 'challenges') and remove unnecessary hyphenation for formal clarity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 13,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "The efforts of BRICS to develop alternative payment systems such as BRICS pay",
+      "correction": "The efforts of BRICS to develop alternative payment systems such as BRICS Bridge",
+      "comment": "Verify and update to accurate terminology; 'BRICS Pay' appears speculative—use verified sources like official BRICS reports for precise naming.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 13,
+      "type": "repetitiveness",
+      "rubric_point": "Repetitiveness",
+      "anchor_quote": "heighteningfinancial security - dilemma. The multipolar world challenger the hegemony",
+      "correction": "Combine into one instance: heightening the financial security dilemma by challenging the hegemony",
+      "comment": "Avoid repeating 'financial security dilemma' closely; consolidate to prevent redundancy and improve progression of ideas.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 13,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "As the emerging powers are dumping the US- Led SWIFT Payment system and cartographing alternatives",
+      "correction": "As the emerging powers are abandoning the US-led SWIFT payment system and charting alternatives",
+      "comment": "Correct spelling ('cartographing' to 'charting'), capitalization ('Led' to 'led'), and word choice ('dumping' to 'abandoning') for precise academic tone.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 14,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "The most destructive conflicte in history grose from ideological confrontations.",
+      "correction": "The most destructive conflict in history arose from ideological confrontations.",
+      "comment": "Spelling errors in 'conflicte' and 'grose' undermine formal academic tone; correct for clarity and precision.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 14,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "As it is remarked by Samuel P. Huntington. \"The most destructive conflicte in history grose from ideological confrontations.\"",
+      "correction": "",
+      "comment": "The attributed quote to Huntington appears misrepresented or fabricated; verify against original sources like 'Clash of Civilizations' for accurate attribution and wording.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 14,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "This demonstrates that the emergence of authoritarianism as a counterweight to liberalism has potentially intensified ideological competitive",
+      "correction": "",
+      "comment": "Statement is descriptive but lacks critical analysis of 'why' or 'how' this intensification leads to conflict; add evaluation of implications or counterarguments.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 14,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Liberalism led by the United States and authorianism propagated by China has initiated fragmentation and bifurcation of the world into two blues.",
+      "correction": "Liberalism led by the United States and authoritarianism propagated by China have initiated fragmentation and bifurcation of the world into two blocs.",
+      "comment": "Subject-verb agreement error ('has' should be 'have'); spelling issues in 'authorianism' and 'blues' (likely 'blocs'); correct for grammatical accuracy.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 15,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "now the task there les to chart a path forward that can ensure shared good.",
+      "correction": "now the task therefore is to chart a path forward that can ensure shared good.",
+      "comment": "Incomplete phrasing and spelling error in 'there les' disrupt sentence structure and clarity in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 15,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "To quote Henry Cobat, \"The primary the fundamental,the essential purpose of the United Nations is to promote peace.\"",
+      "correction": "To quote Henry Cabot Lodge, 'The primary, the fundamental, the essential purpose of the United Nations is to promote peace.'",
+      "comment": "Misspelled name 'Henry Cobat' (should be Henry Cabot Lodge) and punctuation errors in the quote; verify attribution for accuracy.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 15,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Secondly promoting preventive diplomar is crucial to resolve conflicts before they cascade into full-scale war",
+      "correction": "Secondly, promoting preventive diplomacy is crucial to resolve conflicts before they cascade into full-scale war.",
+      "comment": "Missing comma after 'Secondly' and spelling error in 'diplomar'; proper punctuation and spelling are essential for academic tone.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 15,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Preventive diplomacy uses early- warning systems shuttle diplomacy mediation and confidence-building",
+      "correction": "Preventive diplomacy uses early-warning systems, shuttle diplomacy, mediation, and confidence-building measures.",
+      "comment": "List lacks parallel structure and transitions; add commas and connectors for smoother progression and unity.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 16,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "through Track I and Track IL diplomacy reduce misperceptions",
+      "correction": "through Track I and Track II diplomacy reduces misperceptions",
+      "comment": "Misspelling of 'Track II' and subject-verb agreement error; formal writing requires precise terminology and grammatical accuracy.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 16,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "by institutionalizing backcharmel diplomacy in Oman. his helped both nations",
+      "correction": "by institutionalizing backchannel diplomacy in Oman. This helped both nations",
+      "comment": "Spelling error in 'backchannel' and capitalization error in 'his'; correct for formal academic tone and readability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 16,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Thirdly prioritizing soft Dower engagement to reduce hostility among rival powers",
+      "correction": "Thirdly, prioritizing soft power engagement to reduce hostility among rival powers",
+      "comment": "Spelling error in 'power' and missing comma after 'Thirdly'; punctuation and spelling must be consistent in formal essays.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 16,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Soft power remains the cornerstore of peaceful coexistence As quoted by Joseph Nye",
+      "correction": "Soft power remains the cornerstone of peaceful coexistence. As quoted by Joseph Nye",
+      "comment": "Spelling error in 'cornerstone' and missing period; proper punctuation prevents run-on sentences and improves structure.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 17,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "educational and technological exchanger builds trust among nations and decreases zero-sum thinking.",
+      "correction": "educational and technological exchanges build trust among nations and decrease zero-sum thinking.",
+      "comment": "Change to plural 'exchanges' for subject-verb agreement and consistency; use 'decrease' for parallel structure in formal writing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 17,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "When people to people ties remain open and stakes are shared, it becomes difficult for",
+      "correction": "When people-to-people ties remain open and stakes are shared, it becomes difficult for",
+      "comment": "Add hyphens to 'people-to-people' as a compound adjective; this improves readability and adheres to formal academic conventions.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 17,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Henceforth, by undertaking sovereignty and national interests of states, peaceful multipolar world can sustain: Next, managing great",
+      "correction": "Therefore, by upholding state sovereignty and national interests, a peaceful multipolar world can be sustained. Next, managing great",
+      "comment": "Revise awkward phrasing and abrupt transition; add article 'a' and rephrase for clearer closing link and smoother progression to the next idea.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 17,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Establishing crisis hotlines military- to-military communication, state- level diplomatic dialogues and rules-based negotiations can contain great power friction and Prevent escalation.",
+      "correction": "Establishing crisis hotlines, military-to-military communication, state-level diplomatic dialogues, and rules-based negotiations can contain great power friction and prevent escalation by reducing miscalculations in specific rivalries like US-China tensions.",
+      "comment": "Expand beyond description to include 'why' and 'how' these mechanisms work, with examples of implications, to demonstrate critical analysis rather than superficial listing.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 18,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "no-frist use pledges and de- escalation mechanisms. Nuclear",
+      "correction": "no-first use pledges and de-escalation mechanisms. Nuclear",
+      "comment": "Spelling errors in 'no-frist' and inconsistent hyphenation in 'de-escalation' detract from formal tone; correct for clarity and consistency.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 18,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "vodating Cold War arms control treaties, no-first use doctrines",
+      "correction": "updating Cold War arms control treaties, no-first use doctrines",
+      "comment": "Misspelling of 'vodating' as 'updating' is needed; sentence fragment lacks proper structure, leading to awkward readability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 18,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "The US - Russia New START Treaty (2010) extended till 2026 capped deployed nuclear warheads",
+      "correction": "The US-Russia New START Treaty (2010), extended until 2026, capped deployed nuclear warheads",
+      "comment": "Factual details are mostly accurate, but phrasing omits verification mechanisms; ensure precise attribution and context for verifiability.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 18,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "multipolarity has brought the world to the brink of catastrophic war. Consequently, vodating Cold War",
+      "correction": "multipolarity has brought the world to the brink of catastrophic war. Consequently, updating Cold War",
+      "comment": "Claim on nuclear risks is stated descriptively without analyzing 'why' multipolarity exacerbates this or evaluating treaty limitations in a multipolar era.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 19,
+      "type": "conclusion_quality",
+      "rubric_point": "Conclusion Quality",
+      "anchor_quote": "In a nutshell, multipolarin has strengthened strategic uncertainty among great powers which holds the potential to fuel war.",
+      "correction": "Revise to synthesize how strategic uncertainty interacts with other risks for a more analytical close.",
+      "comment": "The conclusion weakly restates the thesis without deeper synthesis or forward-looking insights, failing to provide impactful closure.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 19,
+      "type": "repetitiveness",
+      "rubric_point": "Repetitiveness",
+      "anchor_quote": "Furthermore, by intensifying security dilemma, multipolarty has intensified arms race contributing to regional and global instability.",
+      "correction": "Condense repetitive summaries of body points to avoid redundancy and focus on novel insights.",
+      "comment": "This restates earlier arguments on security dilemma and arms race without adding new depth, wasting space in the conclusion.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 19,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Additionally, multipolarity accelerates proxy conflicts indirect warfare and intelligence. led operations. This compell rival dates",
+      "correction": "Add missing articles and punctuation: 'proxy conflicts, indirect warfare, and intelligence-led operations. This compels rival states'",
+      "comment": "Grammatical errors, missing words, and awkward phrasing hinder clarity and formal academic tone.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 19,
+      "type": "organization_coherence",
+      "rubric_point": "Organization, Coherence & Transitions",
+      "anchor_quote": "Nonetheless, a peaceful multipolar world does Scanned with CS CamScanner",
+      "correction": "Complete the sentence and improve transition to tie back to solutions for smoother flow.",
+      "comment": "Abrupt ending and incomplete thought disrupt coherence, leaving the conclusion feeling disjointed.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 20,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "adopting preventing diplomacy and prioritizing soft power engagement,",
+      "correction": "adopting preventive diplomacy",
+      "comment": "Use 'preventive' as the correct adjective form to maintain formal academic precision and avoid grammatical inconsistency.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 20,
+      "type": "conclusion_quality",
+      "rubric_point": "Conclusion Quality",
+      "anchor_quote": "the world can peacefully transition toward multipolarity.",
+      "correction": "",
+      "comment": "Restate the thesis more analytically by linking back to specific essay arguments, rather than offering a vague optimistic close.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 20,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "By institutionalizing global cooperation through unbiased global institutions,",
+      "correction": "",
+      "comment": "Deepen the analysis by discussing potential challenges or counterarguments to institutional reforms, moving beyond surface-level suggestions.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
+    },
+    {
+      "page": 20,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "As Ronald Reagan remarked, \"Peace is not the absence of conflicts, but the ability to handle conflicts by peaceful means.\"",
+      "correction": "",
+      "comment": "Verify the attribution; if not verbatim from Reagan, paraphrase accurately or cite the exact source to ensure credibility.",
+      "target_word_or_sentence": "",
+      "context_before": "",
+      "context_after": ""
     }
   ],
   "page_suggestions": [
     {
       "page": 1,
       "suggestions": [
-        "Refine the introduction paragraph to explicitly state a nuanced thesis linking education to ending blind obedience while previewing key sections.",
-        "Ensure consistent formatting and numbering in outline headings for better visual clarity and logical progression.",
-        "Expand subpoints under II to include analytical depth, such as counterarguments or examples, to demonstrate originality.",
-        "Strengthen transitions between the introduction and outline sections to improve overall coherence."
+        "Strengthen the introduction with a compelling hook and a clear roadmap of the essay structure to better engage the reader and outline the discussion.",
+        "Refine the outline headings for logical progression and consistent formatting, ensuring balanced coverage of multipolarity's risks and benefits.",
+        "Correct spelling errors in the topic title and expand sub-points with brief descriptions to enhance clarity and depth.",
+        "Ensure the thesis statement explicitly addresses the topic's nuances, incorporating counterarguments for a more balanced approach."
       ]
     },
     {
       "page": 2,
       "suggestions": [
-        "Enhance originality in outline subpoints by integrating analytical depth, such as limitations of societal barriers.",
-        "Ensure logical progression between sections II and III by adding a transitional heading if needed.",
-        "Balance coverage of impediments by including at least one global example alongside national cases.",
-        "Refine case-in-point examples for precision to strengthen factual support in the outline."
+        "Expand outline points with brief explanations to show logical progression.",
+        "Balance coverage by linking each point to the thesis on multipolarity's risks.",
+        "Use consistent formatting for sub-bullets to improve visual clarity."
       ]
     },
     {
       "page": 3,
       "suggestions": [
-        "Refine statistical examples in section III to include precise sources for better credibility.",
-        "Strengthen the transition from impediments to measures by adding a linking sentence in the outline.",
-        "Ensure consistent formatting and numbering in section IV subpoints for improved outline balance.",
-        "Expand on analytical depth in measures by hinting at potential challenges or implementations."
+        "Refine outline numbering and lettering for logical progression, avoiding errors like '(0)' instead of sequential labels.",
+        "Correct spelling and phrasing in sub-points to enhance clarity, such as 'preventing' to 'preventive' diplomacy.",
+        "Expand brief examples in strategic measures to better illustrate relevance to multipolarity's peace potential.",
+        "Improve transitions between war-fueling risks and peace strategies for smoother outline flow."
       ]
     },
     {
       "page": 4,
       "suggestions": [
-        "Refine the numbering in the measures section to avoid duplication like '5 3.' for better logical structure.",
-        "Expand briefly on the conclusion heading to preview key takeaways from the essay.",
-        "Ensure consistent Roman numeral formatting, correcting 'NV.' to 'IV.' for clarity.",
-        "Balance the outline by allocating more subpoints to the conclusion if it summarizes major arguments."
+        "Expand the conclusion to synthesize key arguments from the body rather than just restating risks.",
+        "Correct spelling and factual inaccuracies in outline points and conclusion for clarity.",
+        "Improve transitions from outline to conclusion to enhance overall coherence.",
+        "Ensure balanced coverage by briefly addressing solutions in the conclusion."
       ]
     },
     {
       "page": 5,
       "suggestions": [
-        "Strengthen the thesis by making it more explicit and nuanced, directly linking education to ending blind obedience with a clear stance.",
-        "Improve sentence structure for clarity, ensuring each idea progresses logically from the topic sentence.",
-        "Add a brief definition or contextualization of key terms like 'blind obedience' to enhance depth in the opening.",
-        "Ensure smooth transitions between general statements and specific claims about women's education."
+        "Expand on expert quotes with specific analysis to deepen argumentation rather than listing them.",
+        "Correct factual inaccuracies in book titles and terms to ensure verifiable accuracy.",
+        "Improve sentence structure to avoid run-on sentences and enhance readability.",
+        "Eliminate repetitive phrases about world transitions to maintain conciseness."
       ]
     },
     {
       "page": 6,
       "suggestions": [
-        "Strengthen the topic sentence in the first paragraph to more clearly link education to ending blind obedience with a direct claim.",
-        "Incorporate specific evidence or examples earlier in the discussion of patriarchal mindset to support the main idea.",
-        "Improve transitions between sentences discussing mindset and gender roles to enhance logical progression.",
-        "Add critical analysis to explain the implications of economic independence on decision-making."
+        "Strengthen the transition from risks to solutions by briefly recapping key fault lines before defining multipolarity to improve logical flow.",
+        "Enhance factual precision in historical references, such as clarifying China's 'emergence' timeline beyond 2008 for better accuracy.",
+        "Deepen the definition of multipolarity by integrating analytical insights on its implications rather than relying solely on a quote.",
+        "Improve paragraph unity by ensuring the closing historical context directly links back to the essay's thesis on peace versus war."
       ]
     },
     {
       "page": 7,
       "suggestions": [
-        "Refine phrasing in the economic independence section to eliminate awkward commas and improve readability.",
-        "Strengthen the transition to the rights awareness point by using a clearer connector like 'Thirdly' instead of fragmented text.",
-        "Expand on the constitutional rights example with specific analysis to add depth to the argumentation.",
-        "Ensure the paragraph closing links back to the thesis on ending blind obedience more explicitly."
+        "Strengthen factual accuracy by verifying historical attributions and concepts like the Thucydides Trap.",
+        "Improve grammar and sentence structure to eliminate incomplete phrases and subject-verb errors.",
+        "Enhance argumentation depth by explaining key ideas like strategic uncertainty beyond surface-level mentions.",
+        "Refine paragraph flow with smoother transitions between historical context and main arguments."
       ]
     },
     {
       "page": 8,
       "suggestions": [
-        "Strengthen the explanation of legal rights by linking them more explicitly to breaking blind obedience.",
-        "Enhance paragraph flow by adding transitions between points on rights awareness and social customs.",
-        "Deepen argumentation by analyzing specific examples of social customs and their impact on women.",
-        "Refine language for precision, focusing on clear progression from awareness to empowerment."
+        "Improve subject-verb agreement and spelling for clarity in discussing strategic uncertainty.",
+        "Add specific evidence or sources to support claims about the Indo-Pacific militarization.",
+        "Enhance transitions between security dilemma, arms race, and regional examples for better flow.",
+        "Deepen analysis by explaining implications of miscalculations beyond general escalation."
       ]
     },
     {
       "page": 9,
       "suggestions": [
-        "Strengthen the fifth point on political participation by providing specific examples of educated women leaders who have influenced policy against blind obedience.",
-        "Improve the transition to impediments by clearly linking the benefits of education to the barriers that prevent it, ensuring smoother paragraph flow.",
-        "Enhance factual support in the impediments section with accurate statistics on poverty's impact on female education to add depth.",
-        "Refine the discussion on societal barriers to include critical analysis of cultural norms, avoiding superficial description."
+        "Strengthen factual accuracy by correcting historical misattributions, such as linking Bismarck's alliances to WWI rather than WWII.",
+        "Address spelling and grammatical errors (e.g., 'quarantees', 'resisting on') to improve clarity and professionalism.",
+        "Enhance argumentation depth by providing more analysis on how minilateralism challenges global institutions beyond mere statement.",
+        "Improve paragraph flow with better transitions between the alliances discussion and institutional paralysis section."
       ]
     },
     {
       "page": 10,
       "suggestions": [
-        "Strengthen the argument on economic dependence by adding specific examples of successful women-led initiatives that promote financial independence through education.",
-        "Improve factual precision by citing the most recent World Bank poverty statistics and explaining their direct impact on female education access.",
-        "Enhance paragraph flow by ensuring smoother transitions between societal barriers and economic reliance, using connectors like 'furthermore' to link ideas.",
-        "Deepen analysis of the Napoleon quote by connecting it to modern outcomes, such as educated mothers' role in breaking cycles of poverty and obedience."
+        "Enhance grammatical precision in discussions of institutional challenges to improve readability.",
+        "Deepen analysis of UNSC paralysis by including counterarguments or implications for global stability.",
+        "Improve transitions between sections on institutional paralysis and hard power return for better coherence.",
+        "Add specific evidence or recent developments to support claims about proxy conflicts and deterrence."
       ]
     },
     {
       "page": 11,
       "suggestions": [
-        "Enhance factual accuracy by verifying global and national statistics on out-of-school girls and child marriages with credible sources like UNESCO or UNICEF.",
-        "Deepen argumentation by explaining the long-term societal and economic impacts of child marriages and inadequate government provisions beyond surface-level description.",
-        "Improve paragraph flow by adding transitional phrases to connect the discussion of child marriages to government shortcomings, ensuring logical progression.",
-        "Strengthen relevance by linking these impediments directly back to how they perpetuate blind obedience in women."
+        "Strengthen paragraph flow by adding transitions between ideas on hard power and proxy conflicts.",
+        "Enhance argumentation depth with critical evaluation of how proxy wars escalate to global risks.",
+        "Correct grammatical errors and incomplete sentences to improve readability.",
+        "Ensure factual examples like Iran's Axis of Resistance are analyzed for implications rather than listed descriptively."
       ]
     },
     {
       "page": 12,
       "suggestions": [
-        "Verify and update statistics on the digital divide to ensure factual accuracy and relevance to global and Pakistani contexts.",
-        "Strengthen the explanation of security issues by including specific examples or implications for female education access.",
-        "Improve sentence structure and transitions to enhance paragraph flow between impediments like transportation, digital access, and security.",
-        "Add analytical depth to how these barriers perpetuate blind obedience, linking back to the thesis."
+        "Expand on specific examples of middle powers' rearmament to add depth to the nationalist militarism argument.",
+        "Improve transitions between sections on militarism and economic contestation for better coherence.",
+        "Correct spelling and grammatical errors to enhance professional tone.",
+        "Provide more analysis on how economic warfare links back to multipolarity's war-fueling risks."
       ]
     },
     {
       "page": 13,
       "suggestions": [
-        "Strengthen the transition from impediments to measures by clearly linking security concerns to the need for attitudinal change.",
-        "Provide specific examples of attitudinal change initiatives to enhance argumentation depth.",
-        "Ensure factual accuracy in quotations and eliminate repetitive phrasing around 'need to understand' for better flow.",
-        "Correct grammatical errors in terms like 'therose' and 'burdenize' to improve clarity and professionalism."
+        "Strengthen factual verification for BRICS initiatives to ensure accuracy in describing de-dollarization efforts.",
+        "Revise repetitive references to 'financial security dilemma' for more varied and concise expression.",
+        "Correct grammatical errors and awkward phrasing to enhance readability in economic contestation discussion."
       ]
     },
     {
       "page": 14,
       "suggestions": [
-        "Enhance the depth of analysis by explaining how skill development directly counters economic dependence.",
-        "Include specific examples or policies for achieving universal consensus on marriage age to bolster argumentation.",
-        "Improve sentence structure to ensure smoother flow between ideas on measures.",
-        "Verify and cite sources for statistics like the NEET percentage to improve factual credibility."
+        "Strengthen factual accuracy by verifying and accurately quoting sources like Huntington.",
+        "Improve grammar and spelling to enhance readability and professionalism.",
+        "Deepen argumentation by analyzing ideological competition's implications beyond description.",
+        "Ensure consistent terminology to avoid confusion in key concepts."
       ]
     },
     {
       "page": 15,
       "suggestions": [
-        "Expand on the role of NGOs like Teletaleem with specific examples of their impact to strengthen the measure's practicality.",
-        "Clarify the connection between SDG 4 and female education by briefly explaining how it addresses gender disparities.",
-        "Improve transitions between measures by adding linking phrases to show how they build on each other.",
-        "In the conclusion start, reinforce the thesis by summarizing key benefits of education more explicitly."
+        "Strengthen transitions between ideas to improve paragraph coherence.",
+        "Correct spelling and grammatical errors to enhance readability.",
+        "Verify factual accuracy of quotes and historical references.",
+        "Deepen analysis of preventive diplomacy with specific examples."
       ]
     },
     {
       "page": 16,
       "suggestions": [
-        "Strengthen the thesis restatement by linking it more explicitly to the essay's main arguments on impediments and measures.",
-        "Expand the closing insight on global progress to include a forward-looking call to action for policymakers.",
-        "Ensure the summary avoids abrupt shifts by smoothing transitions between legal references and broader implications.",
-        "Enhance analytical depth by briefly evaluating the potential societal impacts of overcoming blind obedience through education."
+        "Correct spelling errors in diplomatic terms and quotes to enhance clarity.",
+        "Break run-on sentences for better readability and logical progression.",
+        "Strengthen examples with deeper analysis of their implications for multipolarity.",
+        "Ensure consistent formatting for quotes and section transitions."
+      ]
+    },
+    {
+      "page": 17,
+      "suggestions": [
+        "Strengthen paragraph flow by improving awkward transitions and ensuring logical progression from soft power to crisis management.",
+        "Enhance argumentation depth with critical analysis of how preventive measures address multipolarity's risks, rather than mere description.",
+        "Correct grammatical errors and awkward phrasing to improve clarity and formal tone.",
+        "Add evidence or implications for examples like the US-China hotline to boost factual accuracy and relevance."
+      ]
+    },
+    {
+      "page": 18,
+      "suggestions": [
+        "Strengthen transitions between preventive diplomacy and nuclear risk reduction for smoother flow.",
+        "Add critical evaluation of treaty effectiveness in a multipolar context to enhance depth.",
+        "Correct spelling errors to improve readability and professionalism.",
+        "Expand on implications of nuclear escalation to tie back to thesis more explicitly."
+      ]
+    },
+    {
+      "page": 19,
+      "suggestions": [
+        "Synthesize key arguments more insightfully rather than merely restating them.",
+        "Incorporate forward-looking insights to provide stronger closure.",
+        "Eliminate spelling errors and incomplete sentences for better readability.",
+        "Balance restatement with nuanced evaluation of multipolarity's dual nature."
+      ]
+    },
+    {
+      "page": 20,
+      "suggestions": [
+        "Synthesize key risks and solutions from the body to reinforce the thesis.",
+        "Expand on practical steps for institutional reforms to add depth.",
+        "Conclude with forward-looking implications for global stability."
       ]
     }
   ],
@@ -874,6 +1099,10 @@
     13,
     14,
     15,
-    16
+    16,
+    17,
+    18,
+    19,
+    20
   ]
 }

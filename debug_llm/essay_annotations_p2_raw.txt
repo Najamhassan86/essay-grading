@@ -1,48 +1,42 @@
 {
   "page": 2,
   "page_suggestions": [
-    "Enhance originality in outline subpoints by integrating analytical depth, such as limitations of societal barriers.",
-    "Ensure logical progression between sections II and III by adding a transitional heading if needed.",
-    "Balance coverage of impediments by including at least one global example alongside national cases.",
-    "Refine case-in-point examples for precision to strengthen factual support in the outline."
+    "Expand outline points with brief explanations to show logical progression.",
+    "Balance coverage by linking each point to the thesis on multipolarity's risks.",
+    "Use consistent formatting for sub-bullets to improve visual clarity."
   ],
   "annotations": [
     {
+      "page": 2,
       "type": "outline_quality",
       "rubric_point": "Outline Quality",
-      "page": 2,
-      "target_word_or_sentence": "III. Impediments in the way of enlarging female mind with education",
-      "context_before": "5. Educated females ensure their political participation and protect other women from blind obedience.",
-      "context_after": "1. Societal barriers and poverty",
-      "comment": "Strengthen logical structure by ensuring this section proportionally covers all major impediments without overlapping with prior benefits; allocate space for solutions preview to show maturity."
+      "anchor_quote": "(C), Multipolarity promotes alliances and counter alliances and instigates bloc politics .. · US-led and China-led blocs",
+      "correction": "Revise to: '(c) Multipolarity promotes alliances and counter-alliances, instigating bloc politics, e.g., US-led and China-led blocs.'",
+      "comment": "This point lacks analytical depth; add a sub-point on how bloc politics leads to escalation, ensuring balanced coverage of risks without generic listing."
     },
     {
+      "page": 2,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 2,
-      "target_word_or_sentence": "Females economic dependence on others",
-      "context_before": "2.",
-      "context_after": "to provide for their education.",
-      "correction": "Females' economic dependence on others",
-      "comment": "Insert possessive apostrophe after 'Females' to correctly indicate ownership and maintain formal academic tone."
+      "anchor_quote": "· Middle pour powers asserting regional 2 influence .",
+      "correction": "· Middle powers asserting regional influence.",
+      "comment": "Correct spelling of 'pour' to 'powers' and remove extraneous '2'; ensure precise terminology for formal academic tone."
     },
     {
-      "type": "factual_accuracy",
-      "rubric_point": "Factual Accuracy",
       "page": 2,
-      "target_word_or_sentence": "In Pakistan 18% girls in age 12-16 get married",
-      "context_before": "(1) South Asian culture of\"Childbrides\"",
-      "context_after": "4. Insufficient provisions by government to enable",
-      "comment": "Verify and update this statistic using recent UNICEF or Pakistan Bureau of Statistics data, as figures may vary; contextualize with exact age range (e.g., 15-19) for precision."
+      "type": "organization_coherence",
+      "rubric_point": "Organization, Coherence & Transitions",
+      "anchor_quote": "(d). Multipolarity undermines consensus building promoting institutional paralysis. · UN paralysis over Syria and Yemen",
+      "correction": "Restructure to: '(d) Multipolarity undermines consensus-building, promoting institutional paralysis (e.g., UN paralysis over Syria and Yemen).'",
+      "comment": "Improve coherence by using consistent punctuation and linking examples directly to the main point; avoid abrupt shifts to maintain logical flow in the outline."
     },
     {
-      "type": "repetitiveness",
-      "rubric_point": "Repetitiveness",
       "page": 2,
-      "target_word_or_sentence": "Case in point: Patriarch head of the family",
-      "context_before": "2. Females economic dependence on others to provide for their education.",
-      "context_after": "3. Child marriages and early marriages",
-      "comment": "Avoid redundancy by merging this with the prior poverty subpoint, as economic dependence overlaps; introduce a new angle like cultural reinforcement to add unique value."
+      "type": "relevance_focus",
+      "rubric_point": "Relevance & Focus",
+      "anchor_quote": "(e). Multipolarity exacerbates the return of hard power. · Russian invasion of Ukraine",
+      "correction": "No direct correction needed; tie example explicitly to multipolarity.",
+      "comment": "Ensure example directly addresses how multipolarity worsens hard power return; avoid superficial references that drift from the core topic of war risks."
     }
   ]
 }

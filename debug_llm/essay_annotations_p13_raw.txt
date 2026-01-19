@@ -1,51 +1,42 @@
 {
   "page": 13,
   "page_suggestions": [
-    "Strengthen the transition from impediments to measures by clearly linking security concerns to the need for attitudinal change.",
-    "Provide specific examples of attitudinal change initiatives to enhance argumentation depth.",
-    "Ensure factual accuracy in quotations and eliminate repetitive phrasing around 'need to understand' for better flow.",
-    "Correct grammatical errors in terms like 'therose' and 'burdenize' to improve clarity and professionalism."
+    "Strengthen factual verification for BRICS initiatives to ensure accuracy in describing de-dollarization efforts.",
+    "Revise repetitive references to 'financial security dilemma' for more varied and concise expression.",
+    "Correct grammatical errors and awkward phrasing to enhance readability in economic contestation discussion."
   ],
   "annotations": [
     {
+      "page": 13,
       "type": "grammar_language",
       "rubric_point": "Grammar & Language",
-      "page": 13,
-      "target_word_or_sentence": "therose hurdles",
-      "context_before": "pragmatic decisions that can eliminate",
-      "context_after": "in order to facilitate the famele education",
-      "correction": "those hurdles",
-      "comment": "Misspelling disrupts readability; use correct term to maintain formal academic tone."
+      "anchor_quote": "The multipolar world challenger the hegemony of the - US dollar",
+      "correction": "The multipolar world challenges the hegemony of the US dollar",
+      "comment": "Fix subject-verb agreement error ('challenger' to 'challenges') and remove unnecessary hyphenation for formal clarity."
     },
     {
+      "page": 13,
       "type": "factual_accuracy",
       "rubric_point": "Factual Accuracy",
-      "page": 13,
-      "target_word_or_sentence": "\"women are the target untapped resource of the world\"",
-      "context_before": "As Hillary Clinton said,",
-      "context_after": "This absolutely true in its essence.",
-      "correction": "\"Women are the world's largest untapped resource\"",
-      "comment": "Quote is inaccurately paraphrased; use verified version from Clinton's speeches to ensure credibility and avoid misrepresentation."
+      "anchor_quote": "The efforts of BRICS to develop alternative payment systems such as BRICS pay",
+      "correction": "The efforts of BRICS to develop alternative payment systems such as BRICS Bridge",
+      "comment": "Verify and update to accurate terminology; 'BRICS Pay' appears speculative—use verified sources like official BRICS reports for precise naming."
     },
     {
+      "page": 13,
       "type": "repetitiveness",
       "rubric_point": "Repetitiveness",
-      "page": 13,
-      "target_word_or_sentence": "There is a need to understand that",
-      "context_before": "Firstly, there is need to understand that women educational",
-      "context_after": "There is a need to understand that women, if let like this,",
-      "correction": "Remove second instance and integrate directly: 'Women, if left unempowered, will only burden the world...';",
-      "comment": "Repeated phrasing wastes space and weakens progression; consolidate to advance the argument efficiently."
+      "anchor_quote": "heighteningfinancial security - dilemma. The multipolar world challenger the hegemony",
+      "correction": "Combine into one instance: heightening the financial security dilemma by challenging the hegemony",
+      "comment": "Avoid repeating 'financial security dilemma' closely; consolidate to prevent redundancy and improve progression of ideas."
     },
     {
-      "type": "argumentation_depth",
-      "rubric_point": "Overall Argumentation & Critical Depth",
       "page": 13,
-      "target_word_or_sentence": "\"attitudinal Change\", not more legislations void of enforcements.",
-      "context_before": "Here, for Women there is need of",
-      "context_after": "N/A",
-      "correction": "N/A",
-      "comment": "Mentions attitudinal change but lacks explanation of 'why' or 'how' it addresses blind obedience; add critical analysis with examples like community awareness programs to show cause-effect."
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "As the emerging powers are dumping the US- Led SWIFT Payment system and cartographing alternatives",
+      "correction": "As the emerging powers are abandoning the US-led SWIFT payment system and charting alternatives",
+      "comment": "Correct spelling ('cartographing' to 'charting'), capitalization ('Led' to 'led'), and word choice ('dumping' to 'abandoning') for precise academic tone."
     }
   ]
 }

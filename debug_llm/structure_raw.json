@@ -1,134 +1,153 @@
 {
-  "topic": "Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience",
+  "topic": "Multipolarity, Promoting Peace or Fueling War?",
   "outline": {
     "present": true,
     "pages": [
       1,
       2,
-      3,
-      4
+      3
     ],
     "quality": "Strong",
     "issues": [],
     "strengths": [
-      "Clear Roman numeral structure with subpoints",
-      "Logically progresses from introduction to impediments to measures",
-      "Each section has 4-6 detailed subpoints with examples"
+      "Well-organized with clear headings and subpoints",
+      "Logically progresses from problem (fueling war) to solution (promoting peace)",
+      "Balanced coverage of arguments"
     ]
   },
   "outline_span": {
     "start_page": 1,
-    "end_page": 4
+    "end_page": 3
   },
   "outline_sections": [
     {
-      "title": "I. Introduction",
+      "title": "INTRODUCTION",
       "page": 1,
-      "notes": "Sets the context and thesis on education ending blind obedience"
+      "notes": "Sets the stage with a quote from Kissinger on multipolarity's risks."
     },
     {
-      "title": "II. How strengthening the female mind by enlarging it with education ends blind obedience",
+      "title": "HOW MULTIPOLARITY FUELS WAR",
       "page": 1,
-      "notes": "Subpoints: 1. Breaks patriarchal shackles; 2. Secures economic independence; 3. Senses rights and avoids injustice; 4. Education makes females immune to evil social customs; 5. Educated females ensure political participation"
+      "notes": "Subpoints (a-f) on pages 1-2: strategic uncertainty, security dilemma, arms race, alliances, economic contestation, financial pluralism."
     },
     {
-      "title": "III. Impediments in the way of enlarging female mind with education",
+      "title": "HOW MULTIPOLARITY FUELS WAR (continued)",
       "page": 2,
-      "notes": "Subpoints: 1. Societal barriers and poverty; 2. Female economic dependence; 3. Child marriages; 4. Lack of government provisions; 5. Massive digital divide; 6. Formal lack of security"
+      "notes": "Subpoints (g-i): nationalist militarism, escalation of economic contestation, fueling financial pluralism."
     },
     {
-      "title": "IV. Measures required to eliminate these impediments in way of women education",
+      "title": "STRATEGIC MEASURES TO PROMOTE PEACE",
       "page": 3,
-      "notes": "Subpoints: 1. Ensure attitudinal change; 2. Women skill development; 3. Complete ban on marriage before 18; 4. Mitigate digital divide; 5. Enforce women protection laws"
+      "notes": "Subpoints (a-d): strengthening institutions, preventive diplomacy, soft power, managing competition."
     },
     {
-      "title": "V. Conclusion",
-      "page": 4,
-      "notes": "Summarizes the need for education and calls to action"
+      "title": "CONCLUSION",
+      "page": 3,
+      "notes": "Summarizes risks and calls for cooperative measures."
     }
   ],
-  "essay_start_page": 5,
+  "essay_start_page": 4,
   "paragraph_map": [
     {
       "page": 1,
       "role_guess": "outline",
-      "notes": "Title and start of outline structure"
+      "notes": "Full outline structure with headings and subpoints on multipolarity's impacts and peace strategies."
     },
     {
       "page": 2,
       "role_guess": "outline",
-      "notes": "Continuation of outline with section III"
+      "notes": "Continuation of outline, focusing on later subpoints under 'HOW MULTIPOLARITY FUELS WAR'."
     },
     {
       "page": 3,
       "role_guess": "outline",
-      "notes": "Section IV of outline"
+      "notes": "Completion of outline with peace measures and conclusion summary."
     },
     {
-      "page": 4,
-      "role_guess": "outline",
-      "notes": "End of outline with conclusion point"
+      "page": 5,
+      "role_guess": "intro",
+      "notes": "Introduces the topic with Kissinger quote and thesis on multipolarity's dual potential."
     },
     {
       "page": 5,
       "role_guess": "body",
-      "notes": "Begins main essay body, elaborating on introduction and point 1"
+      "notes": "Expands on outline point (a): strategic uncertainty among great powers."
     },
     {
       "page": 6,
       "role_guess": "body",
-      "notes": "Develops points on education's impact"
+      "notes": "Continues body: discusses historical context and current implications of multipolarity."
     },
     {
       "page": 7,
       "role_guess": "body",
-      "notes": "Continues body with examples of rights and independence"
+      "notes": "Addresses outline point (b): security dilemma and arms race."
     },
     {
       "page": 8,
       "role_guess": "body",
-      "notes": "Elaborates on social customs and stereotypes"
+      "notes": "Covers outline point (c): alliances and bloc politics."
     },
     {
       "page": 9,
       "role_guess": "body",
-      "notes": "Discusses impediments like societal barriers"
+      "notes": "Explores outline point (d): undermining consensus in institutions."
     },
     {
       "page": 10,
       "role_guess": "body",
-      "notes": "Continues impediments with poverty and dependence"
+      "notes": "Discusses outline point (e): exacerbating return of hard power."
     },
     {
       "page": 11,
       "role_guess": "body",
-      "notes": "Details child marriages and government issues"
+      "notes": "Continues body with examples of proxy conflicts and nationalism."
     },
     {
       "page": 12,
       "role_guess": "body",
-      "notes": "Covers digital divide and security lacks"
+      "notes": "Addresses outline point (g): nationalist militarism."
     },
     {
       "page": 13,
       "role_guess": "body",
-      "notes": "Transitions to measures for change"
+      "notes": "Covers outline point (h): economic contestation and disruption."
     },
     {
       "page": 14,
       "role_guess": "body",
-      "notes": "Elaborates on skill development and bans"
+      "notes": "Explores outline point (i): financial pluralism and ideological competition."
     },
     {
       "page": 15,
       "role_guess": "body",
-      "notes": "Continues measures and starts conclusion"
+      "notes": "Transitions to peace measures, starting with outline point (a): strengthening institutions."
     },
     {
       "page": 16,
+      "role_guess": "body",
+      "notes": "Continues peace strategies: preventive diplomacy and soft power."
+    },
+    {
+      "page": 17,
+      "role_guess": "body",
+      "notes": "Addresses outline point (d): managing great power competition."
+    },
+    {
+      "page": 18,
+      "role_guess": "body",
+      "notes": "Further elaboration on peace through cooperation and examples."
+    },
+    {
+      "page": 19,
       "role_guess": "conclusion",
-      "notes": "Summarizes and ends the essay"
+      "notes": "Summarizes key arguments, reiterating multipolarity's risks and the need for proactive measures."
+    },
+    {
+      "page": 20,
+      "role_guess": "conclusion",
+      "notes": "Final thoughts on balancing multipolarity for global stability."
     }
   ],
-  "overall_flow_comment": "The essay is well-structured, beginning with a clear outline on pages 1-4 that logically divides the topic into introduction, benefits of education, impediments, and measures. The main body from page 5 follows this outline sequentially, providing detailed arguments and examples for each section. The flow is coherent, with smooth transitions between ideas, building from problem identification to solutions, culminating in a reinforcing conclusion on page 16. The structure ensures comprehensive coverage without redundancy."
+  "overall_flow_comment": "The essay follows the outline sequentially, beginning with an engaging introduction, thoroughly exploring the negative impacts of multipolarity in the body with historical and contemporary examples, then shifting to constructive peace strategies, and concluding with a balanced call for cooperation. The structure is coherent, with smooth transitions between sections."
 }

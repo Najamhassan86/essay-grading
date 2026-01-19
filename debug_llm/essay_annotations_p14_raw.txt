@@ -1,1 +1,43 @@
-{"page":14,"page_suggestions":["Enhance the depth of analysis by explaining how skill development directly counters economic dependence.","Include specific examples or policies for achieving universal consensus on marriage age to bolster argumentation.","Improve sentence structure to ensure smoother flow between ideas on measures.","Verify and cite sources for statistics like the NEET percentage to improve factual credibility."],"annotations":[{"type":"grammar_language","rubric_point":"Grammar & Language","page":14,"target_word_or_sentence":"there is need to","context_before":"Secondly,","context_after":"make efforts for women education","correction":"there is a need to","comment":"Add the article 'a' for grammatical correctness in formal writing; this ensures proper noun phrase structure."},{"type":"grammar_language","rubric_point":"Grammar & Language","page":14,"target_word_or_sentence":"enought","context_before":"not just","context_after":"to educate them","correction":"enough","comment":"Correct the spelling to maintain clarity and professionalism in academic expression."},{"type":"factual_accuracy","rubric_point":"Factual Accuracy","page":14,"target_word_or_sentence":"Women make up 57% of NEET","context_before":"Unfortunately","context_after":"(Not in Employment, Education","correction":"","comment":"Verify the statistic against recent UN or ILO reports, as global female NEET rates vary by region; ensure precision and cite the source for verifiability."},{"type":"argumentation_depth","rubric_point":"Overall Argumentation & Critical Depth","page":14,"target_word_or_sentence":"universal consensus on minimum 10years for marriage of girls","context_before":"Thirdly, there is need to have a","context_after":"This would not only arest many physical,","correction":"","comment":"Expand on the implications of this measure by discussing enforcement challenges or comparative global examples to demonstrate critical analysis beyond surface-level suggestion."},{"type":"paragraph_flow","rubric_point":"Logical Flow of a Paragraph","page":14,"target_word_or_sentence":"This protects the women as well as ensure her respect","context_before":"only tham sign into marital relation.","context_after":"equality in marital bond","correction":"This protects women as well as ensures their respect","comment":"Revise for subject-verb agreement and add a transition to link back to education's role, improving unity and progression within the paragraph."}]}
+{
+  "page": 14,
+  "page_suggestions": [
+    "Strengthen factual accuracy by verifying and accurately quoting sources like Huntington.",
+    "Improve grammar and spelling to enhance readability and professionalism.",
+    "Deepen argumentation by analyzing ideological competition's implications beyond description.",
+    "Ensure consistent terminology to avoid confusion in key concepts."
+  ],
+  "annotations": [
+    {
+      "page": 14,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "The most destructive conflicte in history grose from ideological confrontations.",
+      "correction": "The most destructive conflict in history arose from ideological confrontations.",
+      "comment": "Spelling errors in 'conflicte' and 'grose' undermine formal academic tone; correct for clarity and precision."
+    },
+    {
+      "page": 14,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "As it is remarked by Samuel P. Huntington. \"The most destructive conflicte in history grose from ideological confrontations.\"",
+      "correction": "",
+      "comment": "The attributed quote to Huntington appears misrepresented or fabricated; verify against original sources like 'Clash of Civilizations' for accurate attribution and wording."
+    },
+    {
+      "page": 14,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "This demonstrates that the emergence of authoritarianism as a counterweight to liberalism has potentially intensified ideological competitive",
+      "correction": "",
+      "comment": "Statement is descriptive but lacks critical analysis of 'why' or 'how' this intensification leads to conflict; add evaluation of implications or counterarguments."
+    },
+    {
+      "page": 14,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "Liberalism led by the United States and authorianism propagated by China has initiated fragmentation and bifurcation of the world into two blues.",
+      "correction": "Liberalism led by the United States and authoritarianism propagated by China have initiated fragmentation and bifurcation of the world into two blocs.",
+      "comment": "Subject-verb agreement error ('has' should be 'have'); spelling issues in 'authorianism' and 'blues' (likely 'blocs'); correct for grammatical accuracy."
+    }
+  ]
+}

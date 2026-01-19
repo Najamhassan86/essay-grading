@@ -4,463 +4,67 @@
   "page_height": 2105.0,
   "lines": [
     {
-      "text": "education. Article 25(A) dolares",
-      "bbox": [
-        [
-          294,
-          165
-        ],
-        [
-          1183,
-          167
-        ],
-        [
-          1183,
-          228
-        ],
-        [
-          294,
-          225
-        ]
-      ],
-      "words": [
-        {
-          "text": "education.",
-          "bbox": [
-            [
-              296,
-              176
-            ],
-            [
-              559,
-              168
-            ],
-            [
-              559,
-              226
-            ],
-            [
-              296,
-              221
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "women deserve equal education",
-      "bbox": [
-        [
-          308,
-          235
-        ],
-        [
-          1255,
-          241
-        ],
-        [
-          1254,
-          300
-        ],
-        [
-          307,
-          288
-        ]
-      ],
-      "words": [
-        {
-          "text": "women",
-          "bbox": [
-            [
-              308,
-              238
-            ],
-            [
-              495,
-              236
-            ],
-            [
-              495,
-              289
-            ],
-            [
-              307,
-              284
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "rights. Hence, by applying, rather",
-      "bbox": [
-        [
-          308,
-          300
-        ],
-        [
-          1218,
-          316
-        ],
-        [
-          1217,
-          372
-        ],
-        [
-          307,
-          360
-        ]
-      ],
-      "words": [
-        {
-          "text": "rights.",
-          "bbox": [
-            [
-              332,
-              301
-            ],
-            [
-              533,
-              308
-            ],
-            [
-              532,
-              365
-            ],
-            [
-              331,
-              360
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "enforcing these laws, much of the edu.",
-      "bbox": [
-        [
-          299,
-          384
-        ],
-        [
-          1271,
-          389
-        ],
-        [
-          1271,
-          445
-        ],
-        [
-          299,
-          438
-        ]
-      ],
-      "words": [
-        {
-          "text": "enforcing",
-          "bbox": [
-            [
-              300,
-              385
-            ],
-            [
-              536,
-              385
-            ],
-            [
-              536,
-              440
-            ],
-            [
-              299,
-              437
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "cation provision problems for women",
+      "text": "measures CBMs to pacify tensions",
       "bbox": [
         [
           303,
-          454
+          233
         ],
         [
-          1261,
-          460
+          1201,
+          226
         ],
         [
-          1261,
-          516
-        ],
-        [
-          302,
-          507
-        ]
-      ],
-      "words": [
-        {
-          "text": "cation",
-          "bbox": [
-            [
-              303,
-              458
-            ],
-            [
-              461,
-              455
-            ],
-            [
-              461,
-              509
-            ],
-            [
-              302,
-              506
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "will alleviate.",
-      "bbox": [
-        [
-          300,
-          522
-        ],
-        [
-          716,
-          523
-        ],
-        [
-          716,
-          578
-        ],
-        [
-          300,
-          578
-        ]
-      ],
-      "words": [
-        {
-          "text": "will",
-          "bbox": [
-            [
-              301,
-              526
-            ],
-            [
-              412,
-              524
-            ],
-            [
-              412,
-              578
-            ],
-            [
-              301,
-              577
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "To conclude, it can be deduced",
-      "bbox": [
-        [
-          495,
-          593
-        ],
-        [
-          1282,
-          604
-        ],
-        [
-          1281,
-          664
-        ],
-        [
-          494,
-          653
-        ]
-      ],
-      "words": [
-        {
-          "text": "conclude,",
-          "bbox": [
-            [
-              601,
-              594
-            ],
-            [
-              850,
-              597
-            ],
-            [
-              849,
-              660
-            ],
-            [
-              599,
-              655
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "that embellishing the female mind",
-      "bbox": [
-        [
-          300,
-          668
-        ],
-        [
-          1203,
-          670
-        ],
-        [
-          1203,
-          727
-        ],
-        [
-          300,
-          724
-        ]
-      ],
-      "words": [
-        {
-          "text": "that",
-          "bbox": [
-            [
-              301,
-              672
-            ],
-            [
-              406,
-              671
-            ],
-            [
-              405,
-              724
-            ],
-            [
-              301,
-              722
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "with education will protect her from",
-      "bbox": [
-        [
-          310,
-          742
-        ],
-        [
-          1275,
-          747
-        ],
-        [
-          1274,
-          802
-        ],
-        [
-          310,
-          797
-        ]
-      ],
-      "words": [
-        {
-          "text": "with",
-          "bbox": [
-            [
-              310,
-              742
-            ],
-            [
-              430,
-              743
-            ],
-            [
-              430,
-              797
-            ],
-            [
-              310,
-              795
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "blind compliance. She will rationalize",
-      "bbox": [
-        [
-          304,
-          810
-        ],
-        [
-          1254,
-          819
-        ],
-        [
-          1253,
-          873
+          1202,
+          268
         ],
         [
           303,
-          867
+          280
         ]
       ],
       "words": [
         {
-          "text": "blind",
+          "text": "measures",
           "bbox": [
+            [
+              322,
+              244
+            ],
+            [
+              521,
+              234
+            ],
+            [
+              520,
+              277
+            ],
             [
               321,
-              811
-            ],
-            [
-              433,
-              813
-            ],
-            [
-              432,
-              867
-            ],
-            [
-              319,
-              864
+              280
             ]
           ]
         }
       ]
     },
     {
-      "text": "before she does anything which will",
+      "text": "before they escalate into widespread",
       "bbox": [
         [
-          306,
-          887
+          305,
+          284
         ],
         [
-          1226,
-          887
+          1203,
+          281
         ],
         [
-          1226,
-          945
+          1203,
+          320
         ],
         [
-          306,
-          944
+          305,
+          324
         ]
       ],
       "words": [
@@ -468,327 +72,987 @@
           "text": "before",
           "bbox": [
             [
-              316,
-              889
+              308,
+              285
             ],
             [
-              475,
-              890
+              428,
+              284
             ],
             [
-              474,
-              943
+              427,
+              324
             ],
             [
-              315,
-              940
+              307,
+              323
             ]
           ]
         }
       ]
     },
     {
-      "text": "not only make the better, but world",
+      "text": "conflicts. Strong diplomatic engagement",
       "bbox": [
         [
-          303,
-          961
-        ],
-        [
-          1232,
-          960
-        ],
-        [
-          1232,
-          1013
-        ],
-        [
-          303,
-          1014
-        ]
-      ],
-      "words": [
-        {
-          "text": "not",
-          "bbox": [
-            [
-              304,
-              966
-            ],
-            [
-              388,
-              965
-            ],
-            [
-              387,
-              1013
-            ],
-            [
-              303,
-              1012
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "better. There are grave impediments",
-      "bbox": [
-        [
-          317,
-          1028
-        ],
-        [
-          1237,
-          1034
+          316,
+          334
         ],
         [
           1236,
-          1088
+          332
         ],
         [
-          317,
-          1080
+          1237,
+          371
+        ],
+        [
+          316,
+          374
         ]
       ],
       "words": [
         {
-          "text": "better.",
+          "text": "conflicts.",
           "bbox": [
             [
-              333,
-              1029
+              318,
+              337
             ],
             [
-              529,
-              1030
+              501,
+              334
             ],
             [
-              529,
-              1082
-            ],
-            [
-              333,
-              1081
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "that stops women education process",
-      "bbox": [
-        [
-          323,
-          1101
-        ],
-        [
-          1251,
-          1101
-        ],
-        [
-          1251,
-          1155
-        ],
-        [
-          323,
-          1155
-        ]
-      ],
-      "words": [
-        {
-          "text": "that",
-          "bbox": [
-            [
-              325,
-              1107
-            ],
-            [
-              440,
-              1104
-            ],
-            [
-              440,
-              1153
-            ],
-            [
-              325,
-              1151
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "but there is nothing that can not",
-      "bbox": [
-        [
-          296,
-          1168
-        ],
-        [
-          1202,
-          1170
-        ],
-        [
-          1202,
-          1228
-        ],
-        [
-          295,
-          1223
-        ]
-      ],
-      "words": [
-        {
-          "text": "but",
-          "bbox": [
-            [
-              320,
-              1174
-            ],
-            [
-              410,
-              1172
-            ],
-            [
-              409,
-              1219
+              501,
+              374
             ],
             [
               318,
-              1218
+              373
             ]
           ]
         }
       ]
     },
     {
-      "text": "be changed and with attidumal",
+      "text": "through Track I and Track IL",
       "bbox": [
         [
-          305,
-          1241
+          316,
+          384
         ],
         [
-          1195,
-          1236
+          1101,
+          380
         ],
         [
-          1195,
-          1294
+          1101,
+          419
         ],
         [
-          305,
-          1298
+          316,
+          424
         ]
       ],
       "words": [
         {
-          "text": "changed",
+          "text": "through",
           "bbox": [
             [
-              401,
-              1246
+              324,
+              385
             ],
             [
-              604,
-              1240
+              458,
+              383
             ],
             [
-              604,
-              1295
+              457,
+              424
             ],
             [
-              401,
-              1297
+              323,
+              424
             ]
           ]
         }
       ]
     },
     {
-      "text": "change and policy implementation",
+      "text": "diplomacy reduce misperceptions",
       "bbox": [
         [
-          326,
-          1313
+          306,
+          432
         ],
         [
-          1241,
-          1308
+          1132,
+          432
         ],
         [
-          1242,
-          1365
+          1132,
+          474
         ],
         [
-          326,
-          1367
+          306,
+          475
         ]
       ],
       "words": [
         {
-          "text": "change",
+          "text": "diplomacy",
+          "bbox": [
+            [
+              315,
+              433
+            ],
+            [
+              531,
+              432
+            ],
+            [
+              530,
+              474
+            ],
+            [
+              313,
+              476
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and keep nations at talking",
+      "bbox": [
+        [
+          320,
+          481
+        ],
+        [
+          1160,
+          482
+        ],
+        [
+          1160,
+          522
+        ],
+        [
+          320,
+          521
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              322,
+              481
+            ],
+            [
+              405,
+              482
+            ],
+            [
+              405,
+              522
+            ],
+            [
+              322,
+              522
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "terms even during tense periods",
+      "bbox": [
+        [
+          326,
+          528
+        ],
+        [
+          1177,
+          532
+        ],
+        [
+          1176,
+          573
+        ],
+        [
+          326,
+          568
+        ]
+      ],
+      "words": [
+        {
+          "text": "terms",
           "bbox": [
             [
               329,
-              1316
+              529
             ],
             [
-              518,
-              1314
+              444,
+              531
             ],
             [
-              518,
-              1367
+              443,
+              569
             ],
             [
-              328,
-              1367
+              327,
+              569
             ]
           ]
         }
       ]
     },
     {
-      "text": "educating women can be come",
+      "text": "In 2015, the US and Iran",
+      "bbox": [
+        [
+          318,
+          572
+        ],
+        [
+          1075,
+          583
+        ],
+        [
+          1075,
+          622
+        ],
+        [
+          318,
+          613
+        ]
+      ],
+      "words": [
+        {
+          "text": "2015,",
+          "bbox": [
+            [
+              430,
+              576
+            ],
+            [
+              568,
+              579
+            ],
+            [
+              567,
+              618
+            ],
+            [
+              430,
+              615
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "paved the way for the JCPOA",
       "bbox": [
         [
           321,
-          1381
+          628
         ],
         [
-          1178,
-          1383
+          1154,
+          631
         ],
         [
-          1178,
-          1441
+          1154,
+          671
         ],
         [
           321,
+          667
+        ]
+      ],
+      "words": [
+        {
+          "text": "paved",
+          "bbox": [
+            [
+              324,
+              628
+            ],
+            [
+              429,
+              629
+            ],
+            [
+              429,
+              669
+            ],
+            [
+              323,
+              668
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "by institutionalizing backcharmel",
+      "bbox": [
+        [
+          314,
+          679
+        ],
+        [
+          1064,
+          680
+        ],
+        [
+          1064,
+          723
+        ],
+        [
+          313,
+          721
+        ]
+      ],
+      "words": [
+        {
+          "text": "institutionalizing",
+          "bbox": [
+            [
+              440,
+              682
+            ],
+            [
+              754,
+              684
+            ],
+            [
+              753,
+              723
+            ],
+            [
+              438,
+              721
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "diplomacy in Oman. his helped",
+      "bbox": [
+        [
+          309,
+          727
+        ],
+        [
+          1115,
+          730
+        ],
+        [
+          1114,
+          772
+        ],
+        [
+          309,
+          769
+        ]
+      ],
+      "words": [
+        {
+          "text": "diplomacy",
+          "bbox": [
+            [
+              312,
+              728
+            ],
+            [
+              514,
+              731
+            ],
+            [
+              513,
+              771
+            ],
+            [
+              311,
+              770
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "both nations to address their",
+      "bbox": [
+        [
+          305,
+          779
+        ],
+        [
+          1118,
+          785
+        ],
+        [
+          1118,
+          825
+        ],
+        [
+          305,
+          818
+        ]
+      ],
+      "words": [
+        {
+          "text": "both",
+          "bbox": [
+            [
+              308,
+              779
+            ],
+            [
+              399,
+              780
+            ],
+            [
+              398,
+              817
+            ],
+            [
+              307,
+              817
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "concerns on Iran's potential",
+      "bbox": [
+        [
+          333,
+          833
+        ],
+        [
+          1067,
+          833
+        ],
+        [
+          1067,
+          872
+        ],
+        [
+          333,
+          871
+        ]
+      ],
+      "words": [
+        {
+          "text": "concerns",
+          "bbox": [
+            [
+              335,
+              836
+            ],
+            [
+              497,
+              835
+            ],
+            [
+              496,
+              870
+            ],
+            [
+              334,
+              870
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "nuclear buildup and de-escalated",
+      "bbox": [
+        [
+          307,
+          883
+        ],
+        [
+          1155,
+          882
+        ],
+        [
+          1155,
+          921
+        ],
+        [
+          307,
+          922
+        ]
+      ],
+      "words": [
+        {
+          "text": "nuclear",
+          "bbox": [
+            [
+              309,
+              886
+            ],
+            [
+              467,
+              885
+            ],
+            [
+              466,
+              921
+            ],
+            [
+              308,
+              921
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "war-like situation. This illustrates",
+      "bbox": [
+        [
+          304,
+          934
+        ],
+        [
+          1161,
+          932
+        ],
+        [
+          1161,
+          970
+        ],
+        [
+          304,
+          972
+        ]
+      ],
+      "words": [
+        {
+          "text": "war-like",
+          "bbox": [
+            [
+              308,
+              936
+            ],
+            [
+              507,
+              935
+            ],
+            [
+              506,
+              972
+            ],
+            [
+              306,
+              972
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "how preventive diplomacy can",
+      "bbox": [
+        [
+          304,
+          984
+        ],
+        [
+          1129,
+          985
+        ],
+        [
+          1129,
+          1022
+        ],
+        [
+          304,
+          1020
+        ]
+      ],
+      "words": [
+        {
+          "text": "how",
+          "bbox": [
+            [
+              306,
+              986
+            ],
+            [
+              378,
+              985
+            ],
+            [
+              378,
+              1021
+            ],
+            [
+              305,
+              1021
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "pave a way towards peaceful",
+      "bbox": [
+        [
+          307,
+          1039
+        ],
+        [
+          1158,
+          1036
+        ],
+        [
+          1158,
+          1072
+        ],
+        [
+          307,
+          1075
+        ]
+      ],
+      "words": [
+        {
+          "text": "pave",
+          "bbox": [
+            [
+              309,
+              1042
+            ],
+            [
+              401,
+              1041
+            ],
+            [
+              401,
+              1074
+            ],
+            [
+              309,
+              1075
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "negotiations averting the risks of",
+      "bbox": [
+        [
+          308,
+          1088
+        ],
+        [
+          1157,
+          1084
+        ],
+        [
+          1157,
+          1121
+        ],
+        [
+          308,
+          1126
+        ]
+      ],
+      "words": [
+        {
+          "text": "negotiations",
+          "bbox": [
+            [
+              316,
+              1089
+            ],
+            [
+              568,
+              1090
+            ],
+            [
+              567,
+              1125
+            ],
+            [
+              314,
+              1126
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "war .",
+      "bbox": [
+        [
+          301,
+          1146
+        ],
+        [
+          395,
+          1147
+        ],
+        [
+          395,
+          1178
+        ],
+        [
+          300,
+          1178
+        ]
+      ],
+      "words": [
+        {
+          "text": "war",
+          "bbox": [
+            [
+              301,
+              1146
+            ],
+            [
+              371,
+              1146
+            ],
+            [
+              371,
+              1178
+            ],
+            [
+              301,
+              1177
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Thirdly prioritizing soft",
+      "bbox": [
+        [
+          590,
+          1232
+        ],
+        [
+          1150,
+          1232
+        ],
+        [
+          1150,
+          1280
+        ],
+        [
+          590,
+          1281
+        ]
+      ],
+      "words": [
+        {
+          "text": "Thirdly",
+          "bbox": [
+            [
+              600,
+              1233
+            ],
+            [
+              737,
+              1237
+            ],
+            [
+              735,
+              1281
+            ],
+            [
+              597,
+              1282
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dower engagement to reduce",
+      "bbox": [
+        [
+          305,
+          1296
+        ],
+        [
+          1094,
+          1293
+        ],
+        [
+          1095,
+          1331
+        ],
+        [
+          305,
+          1335
+        ]
+      ],
+      "words": [
+        {
+          "text": "Dower",
+          "bbox": [
+            [
+              305,
+              1301
+            ],
+            [
+              420,
+              1298
+            ],
+            [
+              420,
+              1335
+            ],
+            [
+              305,
+              1335
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "hostility",
+      "bbox": [
+        [
+          307,
+          1346
+        ],
+        [
+          607,
+          1347
+        ],
+        [
+          607,
+          1388
+        ],
+        [
+          307,
+          1387
+        ]
+      ],
+      "words": [
+        {
+          "text": "hostility",
+          "bbox": [
+            [
+              308,
+              1347
+            ],
+            [
+              496,
+              1347
+            ],
+            [
+              495,
+              1388
+            ],
+            [
+              308,
+              1388
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "among rival powers",
+      "bbox": [
+        [
+          613,
+          1349
+        ],
+        [
+          1092,
+          1349
+        ],
+        [
+          1092,
+          1384
+        ],
+        [
+          613,
+          1384
+        ]
+      ],
+      "words": [
+        {
+          "text": "among",
+          "bbox": [
+            [
+              619,
+              1354
+            ],
+            [
+              761,
+              1350
+            ],
+            [
+              761,
+              1384
+            ],
+            [
+              620,
+              1385
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Soft power remains the cornerstore",
+      "bbox": [
+        [
+          329,
+          1403
+        ],
+        [
+          1220,
+          1401
+        ],
+        [
+          1220,
+          1437
+        ],
+        [
+          329,
           1440
         ]
       ],
       "words": [
         {
-          "text": "educating",
+          "text": "Soft",
           "bbox": [
             [
-              323,
-              1382
+              331,
+              1403
             ],
             [
-              572,
-              1384
+              410,
+              1403
             ],
             [
-              572,
-              1439
+              409,
+              1441
             ],
             [
-              323,
+              331,
               1441
             ]
           ]
@@ -796,139 +1060,491 @@
       ]
     },
     {
-      "text": "much more convenient not just",
+      "text": "of peaceful coexistence As",
       "bbox": [
         [
-          311,
-          1451
+          317,
+          1453
         ],
         [
-          1196,
-          1451
+          1086,
+          1449
         ],
         [
-          1196,
-          1518
+          1086,
+          1489
         ],
         [
-          311,
-          1519
+          317,
+          1495
         ]
       ],
       "words": [
         {
-          "text": "much",
+          "text": "peaceful",
           "bbox": [
             [
-              312,
-              1468
+              449,
+              1453
             ],
             [
-              456,
-              1461
+              638,
+              1451
+            ],
+            [
+              637,
+              1493
+            ],
+            [
+              448,
+              1494
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "quoted by Joseph Nye in his",
+      "bbox": [
+        [
+          333,
+          1508
+        ],
+        [
+          1177,
+          1503
+        ],
+        [
+          1178,
+          1542
+        ],
+        [
+          333,
+          1550
+        ]
+      ],
+      "words": [
+        {
+          "text": "quoted",
+          "bbox": [
+            [
+              340,
+              1515
+            ],
+            [
+              478,
+              1510
+            ],
+            [
+              478,
+              1549
+            ],
+            [
+              340,
+              1551
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "seminal work \"Soft Power: The",
+      "bbox": [
+        [
+          321,
+          1562
+        ],
+        [
+          1128,
+          1559
+        ],
+        [
+          1128,
+          1597
+        ],
+        [
+          321,
+          1601
+        ]
+      ],
+      "words": [
+        {
+          "text": "seminal",
+          "bbox": [
+            [
+              323,
+              1565
+            ],
+            [
+              482,
+              1563
+            ],
+            [
+              482,
+              1600
+            ],
+            [
+              324,
+              1602
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Means to Success in World Politics",
+      "bbox": [
+        [
+          315,
+          1612
+        ],
+        [
+          1207,
+          1605
+        ],
+        [
+          1207,
+          1650
+        ],
+        [
+          315,
+          1654
+        ]
+      ],
+      "words": [
+        {
+          "text": "Means",
+          "bbox": [
+            [
+              318,
+              1614
+            ],
+            [
+              443,
+              1616
+            ],
+            [
+              442,
+              1654
+            ],
+            [
+              317,
+              1653
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In a world of multiple powers",
+      "bbox": [
+        [
+          332,
+          1667
+        ],
+        [
+          1178,
+          1665
+        ],
+        [
+          1178,
+          1705
+        ],
+        [
+          332,
+          1708
+        ]
+      ],
+      "words": [
+        {
+          "text": "world",
+          "bbox": [
+            [
+              604,
+              1670
+            ],
+            [
+              712,
+              1670
+            ],
+            [
+              712,
+              1708
+            ],
+            [
+              604,
+              1708
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "soft power becomes more",
+      "bbox": [
+        [
+          336,
+          1723
+        ],
+        [
+          1031,
+          1724
+        ],
+        [
+          1031,
+          1760
+        ],
+        [
+          336,
+          1760
+        ]
+      ],
+      "words": [
+        {
+          "text": "soft",
+          "bbox": [
+            [
+              339,
+              1723
+            ],
+            [
+              414,
+              1724
+            ],
+            [
+              413,
+              1761
+            ],
+            [
+              338,
+              1761
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "important",
+      "bbox": [
+        [
+          330,
+          1778
+        ],
+        [
+          529,
+          1777
+        ],
+        [
+          529,
+          1815
+        ],
+        [
+          330,
+          1816
+        ]
+      ],
+      "words": [
+        {
+          "text": "important",
+          "bbox": [
+            [
+              332,
+              1778
+            ],
+            [
+              530,
+              1777
+            ],
+            [
+              529,
+              1816
+            ],
+            [
+              331,
+              1816
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "than coercion\" Soft",
+      "bbox": [
+        [
+          541,
+          1776
+        ],
+        [
+          1108,
+          1767
+        ],
+        [
+          1109,
+          1808
+        ],
+        [
+          541,
+          1815
+        ]
+      ],
+      "words": [
+        {
+          "text": "than",
+          "bbox": [
+            [
+              636,
+              1782
+            ],
+            [
+              716,
+              1782
+            ],
+            [
+              715,
+              1815
+            ],
+            [
+              636,
+              1815
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "power encompassing cultural",
+      "bbox": [
+        [
+          329,
+          1830
+        ],
+        [
+          1079,
+          1825
+        ],
+        [
+          1079,
+          1864
+        ],
+        [
+          329,
+          1868
+        ]
+      ],
+      "words": [
+        {
+          "text": "power",
+          "bbox": [
+            [
+              332,
+              1831
             ],
             [
               455,
-              1507
+              1833
             ],
             [
-              311,
-              1510
+              454,
+              1868
+            ],
+            [
+              330,
+              1868
             ]
           ]
         }
       ]
     },
     {
-      "text": "for their own person hood but",
+      "text": "Scanned with",
       "bbox": [
         [
-          304,
-          1522
+          1282,
+          2014
         ],
         [
-          1219,
-          1524
+          1415,
+          2014
         ],
         [
-          1219,
-          1583
+          1414,
+          2035
         ],
         [
-          304,
-          1580
+          1282,
+          2035
         ]
       ],
       "words": [
         {
-          "text": "for",
+          "text": "Scanned",
           "bbox": [
             [
-              306,
-              1522
+              1283,
+              2015
             ],
             [
-              390,
-              1524
+              1364,
+              2014
             ],
             [
-              389,
-              1579
+              1365,
+              2036
             ],
             [
-              305,
-              1577
+              1284,
+              2035
             ]
           ]
         }
       ]
     },
     {
-      "text": "for the progress of the world.",
+      "text": "CS CamScanner",
       "bbox": [
         [
-          335,
-          1596
+          1258,
+          2042
         ],
         [
-          1260,
-          1596
+          1441,
+          2043
         ],
         [
-          1260,
-          1659
+          1440,
+          2068
         ],
         [
-          335,
-          1657
+          1258,
+          2066
         ]
       ],
       "words": [
         {
-          "text": "for",
+          "text": "CamScanner",
           "bbox": [
             [
-              338,
-              1597
+              1293,
+              2043
             ],
             [
-              421,
-              1599
+              1441,
+              2044
             ],
             [
-              421,
-              1653
+              1441,
+              2068
             ],
             [
-              337,
-              1650
+              1293,
+              2066
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "education. Article 25(A) dolares women deserve equal education rights. Hence, by applying, rather enforcing these laws, much of the edu. cation provision problems for women will alleviate. To conclude, it can be deduced that embellishing the female mind with education will protect her from blind compliance. She will rationalize before she does anything which will not only make the better, but world better. There are grave impediments that stops women education process but there is nothing that can not be changed and with attidumal change and policy implementation educating women can be come much more convenient not just for their own person hood but for the progress of the world.",
+  "ocr_full_text_page": "measures CBMs to pacify tensions before they escalate into widespread conflicts. Strong diplomatic engagement through Track I and Track IL diplomacy reduce misperceptions and keep nations at talking terms even during tense periods In 2015, the US and Iran paved the way for the JCPOA by institutionalizing backcharmel diplomacy in Oman. his helped both nations to address their concerns on Iran's potential nuclear buildup and de-escalated war-like situation. This illustrates how preventive diplomacy can pave a way towards peaceful negotiations averting the risks of war . Thirdly prioritizing soft Dower engagement to reduce hostility among rival powers Soft power remains the cornerstore of peaceful coexistence As quoted by Joseph Nye in his seminal work \"Soft Power: The Means to Success in World Politics \" In a world of multiple powers soft power becomes more important than coercion\" Soft power encompassing cultural Scanned with CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

@@ -1,1 +1,51 @@
-{"page":12,"page_suggestions":["Verify and update statistics on the digital divide to ensure factual accuracy and relevance to global and Pakistani contexts.","Strengthen the explanation of security issues by including specific examples or implications for female education access.","Improve sentence structure and transitions to enhance paragraph flow between impediments like transportation, digital access, and security.","Add analytical depth to how these barriers perpetuate blind obedience, linking back to the thesis."],"annotations":[{"type":"factual_accuracy","rubric_point":"Factual Accuracy","page":12,"target_word_or_sentence":"Globally the digital divide is 60% out of which girls/females are 51%","context_before":"there is massive digital divide to which the greatest offertees are women","context_after":"In Pakistan, situation is even worse. The to digital divide is 58% whereas for girls it is 24%","correction":"","comment":"The cited global digital divide statistic of 60% with 51% affecting girls/females appears overstated or outdated; recent ITU reports indicate a gender gap of about 17% in internet usage, not a 60% divide. Update with verifiable sources like ITU or World Bank for precision."},{"type":"grammar_language","rubric_point":"Grammar & Language","page":12,"target_word_or_sentence":"the greatest offertees are women","context_before":"there is massive digital divide to which","context_after":"Globally the digital divide is 60% out of which girls/females are 51%","correction":"the greatest sufferers are women","comment":"Replace 'offertees' with 'sufferers' for formal academic tone and clarity; ensure consistent use of precise vocabulary to avoid informal or incorrect terms that distract from the argument."},{"type":"paragraph_flow","rubric_point":"Logical Flow of a Paragraph","page":12,"target_word_or_sentence":"Fifthly, there is massive digital divide","context_before":"which makes parents reluctant to support girls education","context_after":"to which the greatest offertees are women Globally","correction":"","comment":"The transition to 'Fifthly' feels abrupt after discussing transportation; add a connector like 'Additionally' or a brief linking sentence to maintain logical progression from physical access barriers to digital ones."},{"type":"argumentation_depth","rubric_point":"Overall Argumentation & Critical Depth","page":12,"target_word_or_sentence":"Globally 1/3 women have suffered physical or sexual violence","context_before":"Sixthly females lack the required security outside of their homes.","context_after":"which speaks volumes on how it is too difficult for women to get outside their","correction":"","comment":"The point on security lacks critical analysis; expand to explain how violence directly impedes education pursuit and perpetuates obedience, including implications or counterarguments for deeper insight."}]}
+{
+  "page": 12,
+  "page_suggestions": [
+    "Expand on specific examples of middle powers' rearmament to add depth to the nationalist militarism argument.",
+    "Improve transitions between sections on militarism and economic contestation for better coherence.",
+    "Correct spelling and grammatical errors to enhance professional tone.",
+    "Provide more analysis on how economic warfare links back to multipolarity's war-fueling risks."
+  ],
+  "annotations": [
+    {
+      "page": 12,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "nationalist militarism emerges as such states contect for regional autonomy With the rise",
+      "correction": "nationalist militarism emerges as such states contest for regional autonomy. With the rise",
+      "comment": "Correct 'contect' to 'contest' and add period after 'autonomy' to fix spelling error and improve sentence structure for clarity in formal writing."
+    },
+    {
+      "page": 12,
+      "type": "grammar_language",
+      "rubric_point": "Grammar & Language",
+      "anchor_quote": "These nations Leverage their geostrategic locations and natural resource reserves to exert",
+      "correction": "These nations leverage their geostrategic locations and natural resource reserves to exert",
+      "comment": "Lowercase 'Leverage' as it is not starting a sentence; ensure consistent capitalization to maintain formal academic style."
+    },
+    {
+      "page": 12,
+      "type": "factual_accuracy",
+      "rubric_point": "Factual Accuracy",
+      "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg.",
+      "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era.",
+      "comment": "Correct 'erg.' to 'era' for historical accuracy; verify and expand on pre-WWII parallels with specific evidence to strengthen verifiability."
+    },
+    {
+      "page": 12,
+      "type": "argumentation_depth",
+      "rubric_point": "Overall Argumentation & Critical Depth",
+      "anchor_quote": "Such economic ware using tools of tariffs and export controls disrupt global supply chains",
+      "correction": "Such economic war, using tools of tariffs and export controls, disrupts global supply chains",
+      "comment": "Correct 'ware' to 'war' and add commas for grammar; deepen analysis by explaining cause-effect links between tariffs, supply chains, and broader war risks in multipolarity."
+    },
+    {
+      "page": 12,
+      "type": "paragraph_flow",
+      "rubric_point": "Logical Flow of a Paragraph",
+      "anchor_quote": "Therefore, multipolarity is fuelling nationalism as it did. in pre-WWII erg. Multipolarity escalates",
+      "correction": "Therefore, multipolarity is fuelling nationalism as it did in the pre-WWII era. Similarly, multipolarity escalates",
+      "comment": "Add a transition like 'Similarly' to connect nationalism to economic contestation; ensure logical progression from militarism to economic impacts for smoother idea flow."
+    }
+  ]
+}
