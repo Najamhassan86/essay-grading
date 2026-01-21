@@ -4,579 +4,315 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "(6), Reducing nuclear risks through",
+      "text": "3. In Pakistan, ensure implementation",
       "bbox": [
         [
-          346,
-          351
+          663,
+          225
         ],
         [
-          1403,
-          351
+          1557,
+          229
         ],
         [
-          1404,
-          413
+          1557,
+          287
         ],
         [
-          346,
-          419
+          663,
+          282
         ]
       ],
       "words": [
         {
-          "text": "(6),",
+          "text": "Pakistan,",
           "bbox": [
             [
-              347,
-              351
+              787,
+              225
             ],
             [
-              464,
-              353
+              1004,
+              226
             ],
             [
-              464,
-              418
+              1003,
+              285
             ],
             [
-              347,
-              420
+              786,
+              283
             ]
           ]
         }
       ]
     },
     {
-      "text": "updated treaties, no-first use",
+      "text": "of Article 25, and Article 38",
       "bbox": [
         [
-          511,
-          423
+          707,
+          311
         ],
         [
-          1363,
-          420
+          1430,
+          314
         ],
         [
-          1364,
-          474
+          1430,
+          368
         ],
         [
-          511,
-          480
+          707,
+          365
         ]
       ],
       "words": [
         {
-          "text": "updated",
+          "text": "Article",
           "bbox": [
             [
-              513,
-              425
+              783,
+              313
             ],
             [
-              716,
-              422
+              945,
+              314
             ],
             [
-              716,
-              477
+              946,
+              364
             ],
             [
-              513,
-              481
+              784,
+              365
             ]
           ]
         }
       ]
     },
     {
-      "text": "pledges and de-escalation mechanisms",
+      "text": "NV. Conclusion.",
       "bbox": [
         [
-          526,
-          493
+          367,
+          375
         ],
         [
-          1493,
-          489
+          900,
+          379
         ],
         [
-          1494,
-          537
+          899,
+          457
         ],
         [
-          526,
-          545
+          367,
+          456
         ]
       ],
       "words": [
         {
-          "text": "pledges",
+          "text": "NV.",
           "bbox": [
             [
-              529,
-              497
+              380,
+              377
             ],
             [
-              697,
-              493
+              484,
+              375
             ],
             [
-              696,
-              544
-            ],
-            [
-              528,
-              546
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "The US-Russia New Start Tred",
-      "bbox": [
-        [
-          635,
-          554
-        ],
-        [
-          1505,
-          550
-        ],
-        [
-          1505,
-          601
-        ],
-        [
-          635,
-          604
-        ]
-      ],
-      "words": [
-        {
-          "text": "The",
-          "bbox": [
-            [
-              683,
-              556
-            ],
-            [
-              750,
-              555
-            ],
-            [
-              750,
-              604
-            ],
-            [
-              683,
-              603
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "CONCLUSION",
-      "bbox": [
-        [
-          378,
-          674
-        ],
-        [
-          786,
-          674
-        ],
-        [
-          786,
-          742
-        ],
-        [
-          378,
-          741
-        ]
-      ],
-      "words": [
-        {
-          "text": "CONCLUSION",
-          "bbox": [
-            [
-              382,
-              675
-            ],
-            [
-              762,
-              675
-            ],
-            [
-              761,
-              743
+              484,
+              457
             ],
             [
               380,
-              739
+              457
             ]
           ]
         }
       ]
     },
     {
-      "text": "In a nutshell, as the",
+      "text": "0000",
       "bbox": [
         [
-          603,
-          812
+          835,
+          955
         ],
         [
-          1400,
-          816
+          829,
+          1224
         ],
         [
-          1400,
-          867
+          738,
+          1222
         ],
         [
-          603,
-          865
+          741,
+          954
         ]
       ],
       "words": [
         {
-          "text": "nutshell,",
+          "text": "0000",
           "bbox": [
             [
-              882,
-              816
+              834,
+              970
             ],
             [
-              1121,
-              818
+              824,
+              1210
             ],
             [
-              1121,
-              867
+              763,
+              1219
             ],
             [
-              882,
-              867
+              764,
+              957
             ]
           ]
         }
       ]
     },
     {
-      "text": "world transitions towards multipolarit",
+      "text": "READ RIGHT",
       "bbox": [
         [
-          349,
-          875
+          444,
+          1335
         ],
         [
-          1492,
-          881
+          1419,
+          1332
         ],
         [
-          1492,
-          937
+          1419,
+          1459
         ],
         [
-          349,
-          928
+          444,
+          1462
         ]
       ],
       "words": [
         {
-          "text": "world",
+          "text": "READ",
           "bbox": [
             [
-              352,
-              875
+              448,
+              1338
             ],
             [
-              492,
-              879
+              805,
+              1335
             ],
             [
-              491,
-              928
+              805,
+              1462
             ],
             [
-              351,
-              926
+              444,
+              1462
             ]
           ]
         }
       ]
     },
     {
-      "text": "the risks of entanglements surge. To",
+      "text": "INSTITUTE",
       "bbox": [
         [
-          361,
-          944
+          704,
+          1473
         ],
         [
-          1443,
-          952
+          1170,
+          1472
         ],
         [
-          1442,
-          1000
+          1170,
+          1549
         ],
         [
-          360,
-          994
+          704,
+          1550
         ]
       ],
       "words": [
         {
-          "text": "the",
+          "text": "INSTITUTE",
           "bbox": [
             [
-              363,
-              945
+              705,
+              1476
             ],
             [
-              425,
-              946
+              1169,
+              1473
             ],
             [
-              424,
-              992
+              1171,
+              1550
             ],
             [
-              362,
-              990
+              704,
+              1550
             ]
           ]
         }
       ]
     },
     {
-      "text": "address there challenges shared",
+      "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          357,
-          1007
+          642,
+          1589
         ],
         [
-          1349,
-          1017
+          1229,
+          1589
         ],
         [
-          1348,
-          1062
+          1229,
+          1635
         ],
         [
-          357,
-          1055
+          642,
+          1636
         ]
       ],
       "words": [
         {
-          "text": "address",
+          "text": "SYED",
           "bbox": [
             [
-              365,
-              1007
+              646,
+              1590
             ],
             [
-              532,
-              1012
+              748,
+              1590
             ],
             [
-              532,
-              1057
+              748,
+              1636
             ],
             [
-              364,
-              1053
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "global cooperation remains imperative.",
-      "bbox": [
-        [
-          365,
-          1076
-        ],
-        [
-          1467,
-          1086
-        ],
-        [
-          1467,
-          1132
-        ],
-        [
-          364,
-          1122
-        ]
-      ],
-      "words": [
-        {
-          "text": "global",
-          "bbox": [
-            [
-              374,
-              1077
-            ],
-            [
-              508,
-              1079
-            ],
-            [
-              506,
-              1124
-            ],
-            [
-              372,
-              1123
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "2100",
-      "bbox": [
-        [
-          973,
-          1532
-        ],
-        [
-          1098,
-          1532
-        ],
-        [
-          1097,
-          1579
-        ],
-        [
-          973,
-          1578
-        ]
-      ],
-      "words": [
-        {
-          "text": "2100",
-          "bbox": [
-            [
-              975,
-              1536
-            ],
-            [
-              1082,
-              1533
-            ],
-            [
-              1082,
-              1579
-            ],
-            [
-              976,
-              1575
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Scanned with",
-      "bbox": [
-        [
-          1565,
-          2461
-        ],
-        [
-          1729,
-          2461
-        ],
-        [
-          1728,
-          2488
-        ],
-        [
-          1565,
-          2487
-        ]
-      ],
-      "words": [
-        {
-          "text": "Scanned",
-          "bbox": [
-            [
-              1569,
-              2462
-            ],
-            [
-              1668,
-              2462
-            ],
-            [
-              1668,
-              2488
-            ],
-            [
-              1569,
-              2488
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "CS CamScanner",
-      "bbox": [
-        [
-          1538,
-          2496
-        ],
-        [
-          1762,
-          2497
-        ],
-        [
-          1762,
-          2529
-        ],
-        [
-          1538,
-          2525
-        ]
-      ],
-      "words": [
-        {
-          "text": "CamScanner",
-          "bbox": [
-            [
-              1580,
-              2497
-            ],
-            [
-              1762,
-              2498
-            ],
-            [
-              1762,
-              2529
-            ],
-            [
-              1581,
-              2525
+              645,
+              1637
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "(6), Reducing nuclear risks through updated treaties, no-first use pledges and de-escalation mechanisms The US-Russia New Start Tred V CONCLUSION In a nutshell, as the world transitions towards multipolarit the risks of entanglements surge. To address there challenges shared global cooperation remains imperative. 2100 1 Scanned with CS CamScanner",
+  "ocr_full_text_page": "6 3. In Pakistan, ensure implementation of Article 25, and Article 38 NV. Conclusion. 1 0000 7 7 READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI",
   "attempt": {
     "scale": 1.0,
     "quality": 75

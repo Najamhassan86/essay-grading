@@ -4,175 +4,87 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "can",
+      "text": "Secondly, there is need to",
       "bbox": [
         [
-          332,
-          249
+          617,
+          258
         ],
         [
-          437,
-          246
+          1472,
+          261
         ],
         [
-          437,
-          287
-        ],
-        [
-          332,
-          286
-        ]
-      ],
-      "words": [
-        {
-          "text": "can",
-          "bbox": [
-            [
-              338,
-              247
-            ],
-            [
-              411,
-              246
-            ],
-            [
-              411,
-              287
-            ],
-            [
-              339,
-              288
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "potentially fuel wat Consequently",
-      "bbox": [
-        [
-          503,
-          226
-        ],
-        [
-          1469,
-          219
-        ],
-        [
-          1470,
-          280
-        ],
-        [
-          503,
-          292
-        ]
-      ],
-      "words": [
-        {
-          "text": "potentially",
-          "bbox": [
-            [
-              542,
-              233
-            ],
-            [
-              805,
-              223
-            ],
-            [
-              806,
-              282
-            ],
-            [
-              543,
-              292
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "it can be remarked that multipolarity",
-      "bbox": [
-        [
-          365,
-          298
-        ],
-        [
-          1494,
-          288
-        ],
-        [
-          1494,
+          1471,
           334
         ],
         [
-          366,
-          347
+          616,
+          330
         ]
       ],
       "words": [
         {
-          "text": "can",
+          "text": "Secondly,",
           "bbox": [
             [
-              497,
-              299
+              620,
+              261
             ],
             [
-              573,
-              298
+              918,
+              258
             ],
             [
-              574,
-              344
+              916,
+              334
             ],
             [
-              498,
-              346
+              619,
+              331
             ]
           ]
         }
       ]
     },
     {
-      "text": "by fostering financial pluralism",
+      "text": "make efforts for women education",
       "bbox": [
         [
-          329,
-          357
+          382,
+          346
         ],
         [
-          1298,
-          348
+          1403,
+          351
         ],
         [
-          1299,
-          404
+          1402,
+          416
         ],
         [
-          329,
+          382,
           411
         ]
       ],
       "words": [
         {
-          "text": "fostering",
+          "text": "make",
           "bbox": [
             [
-              496,
-              356
+              386,
+              347
             ],
             [
-              669,
-              354
+              551,
+              347
             ],
             [
-              668,
-              411
+              550,
+              413
             ],
             [
-              495,
+              385,
               410
             ]
           ]
@@ -180,155 +92,23 @@
       ]
     },
     {
-      "text": "fuels financial security dilemma.",
+      "text": "and skill development. Unfortunately",
       "bbox": [
         [
-          339,
-          419
+          401,
+          428
         ],
         [
-          1286,
-          411
+          1532,
+          431
         ],
         [
-          1286,
-          468
+          1532,
+          500
         ],
         [
-          339,
-          475
-        ]
-      ],
-      "words": [
-        {
-          "text": "fuels",
-          "bbox": [
-            [
-              342,
-              420
-            ],
-            [
-              455,
-              421
-            ],
-            [
-              454,
-              474
-            ],
-            [
-              341,
-              472
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Multipolarity Intensifies",
-      "bbox": [
-        [
-          635,
-          540
-        ],
-        [
-          1281,
-          534
-        ],
-        [
-          1282,
-          591
-        ],
-        [
-          635,
-          597
-        ]
-      ],
-      "words": [
-        {
-          "text": "Multipolarity",
-          "bbox": [
-            [
-              638,
-              541
-            ],
-            [
-              957,
-              542
-            ],
-            [
-              957,
-              596
-            ],
-            [
-              637,
-              597
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "ideological",
-      "bbox": [
-        [
-          331,
-          609
-        ],
-        [
-          583,
-          609
-        ],
-        [
-          584,
-          664
-        ],
-        [
-          331,
-          664
-        ]
-      ],
-      "words": [
-        {
-          "text": "ideological",
-          "bbox": [
-            [
-              331,
-              610
-            ],
-            [
-              583,
-              613
-            ],
-            [
-              581,
-              662
-            ],
-            [
-              331,
-              665
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and normative competition.",
-      "bbox": [
-        [
-          583,
-          607
-        ],
-        [
-          1470,
-          601
-        ],
-        [
-          1471,
-          654
-        ],
-        [
-          584,
-          659
+          400,
+          492
         ]
       ],
       "words": [
@@ -336,1099 +116,1055 @@
           "text": "and",
           "bbox": [
             [
-              720,
-              610
+              402,
+              433
             ],
             [
-              812,
-              611
+              500,
+              431
             ],
             [
-              813,
-              659
+              499,
+              492
             ],
             [
-              721,
-              659
+              401,
+              491
             ]
           ]
         }
       ]
     },
     {
-      "text": "As witnessed in the Cold War,",
+      "text": "Women make up 57% of NEET",
       "bbox": [
         [
-          333,
-          669
+          402,
+          512
         ],
         [
-          1346,
-          667
+          1498,
+          507
         ],
         [
-          1347,
-          718
+          1499,
+          587
         ],
         [
-          333,
-          723
+          402,
+          588
         ]
       ],
       "words": [
         {
-          "text": "witnessed",
+          "text": "Women",
           "bbox": [
             [
-              521,
-              673
+              405,
+              526
             ],
             [
-              745,
+              612,
+              520
+            ],
+            [
+              611,
+              582
+            ],
+            [
+              403,
+              581
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(Not in Employment, Education",
+      "bbox": [
+        [
+          385,
+          602
+        ],
+        [
+          1506,
+          599
+        ],
+        [
+          1507,
+          670
+        ],
+        [
+          385,
+          676
+        ]
+      ],
+      "words": [
+        {
+          "text": "(Not",
+          "bbox": [
+            [
+              386,
+              606
+            ],
+            [
+              544,
+              604
+            ],
+            [
+              543,
               675
             ],
             [
-              745,
-              721
-            ],
-            [
-              520,
-              723
+              385,
+              676
             ]
           ]
         }
       ]
     },
     {
-      "text": "the United States and the USSR",
+      "text": "or training). Hence it is not",
       "bbox": [
         [
-          340,
-          738
+          426,
+          681
         ],
         [
-          1362,
-          733
+          1408,
+          680
         ],
         [
-          1362,
-          779
+          1408,
+          750
         ],
         [
-          340,
-          785
+          426,
+          752
         ]
       ],
       "words": [
         {
-          "text": "the",
+          "text": "training).",
           "bbox": [
             [
-              342,
-              738
+              535,
+              687
             ],
             [
-              417,
-              738
+              918,
+              681
             ],
             [
-              417,
-              785
+              918,
+              752
             ],
             [
-              342,
-              785
+              535,
+              752
             ]
           ]
         }
       ]
     },
     {
-      "text": "were largely dragged into war",
+      "text": "just enough to educate them",
       "bbox": [
         [
-          345,
-          805
+          418,
+          771
         ],
         [
-          1329,
-          795
+          1415,
+          767
         ],
         [
-          1329,
-          841
+          1415,
+          828
         ],
         [
-          345,
-          851
+          418,
+          836
         ]
       ],
       "words": [
         {
-          "text": "were",
+          "text": "just",
           "bbox": [
             [
-              347,
-              809
-            ],
-            [
-              460,
-              806
-            ],
-            [
-              459,
-              851
-            ],
-            [
-              345,
-              851
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "due to their ideological differences",
-      "bbox": [
-        [
-          333,
-          864
-        ],
-        [
-          1397,
-          859
-        ],
-        [
-          1397,
-          907
-        ],
-        [
-          333,
-          911
-        ]
-      ],
-      "words": [
-        {
-          "text": "due",
-          "bbox": [
-            [
-              341,
-              865
-            ],
-            [
-              420,
-              866
-            ],
-            [
-              420,
-              911
-            ],
-            [
-              341,
-              911
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "As it is remarked by Samuel P.",
-      "bbox": [
-        [
-          342,
-          924
-        ],
-        [
-          1383,
-          921
-        ],
-        [
-          1384,
-          972
-        ],
-        [
-          342,
-          975
-        ]
-      ],
-      "words": [
-        {
-          "text": "remarked",
-          "bbox": [
-            [
-              702,
-              929
-            ],
-            [
-              954,
-              928
-            ],
-            [
-              954,
-              975
-            ],
-            [
-              702,
-              975
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Huntington. \"The most destructive",
-      "bbox": [
-        [
-          341,
-          993
-        ],
-        [
-          1304,
-          985
-        ],
-        [
-          1305,
-          1035
-        ],
-        [
-          341,
-          1045
-        ]
-      ],
-      "words": [
-        {
-          "text": "Huntington.",
-          "bbox": [
-            [
-              344,
-              994
-            ],
-            [
-              646,
-              993
-            ],
-            [
-              645,
-              1040
-            ],
-            [
-              343,
-              1046
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "conflicte in history grose from",
-      "bbox": [
-        [
-          345,
-          1054
-        ],
-        [
-          1269,
-          1052
-        ],
-        [
-          1269,
-          1100
-        ],
-        [
-          345,
-          1102
-        ]
-      ],
-      "words": [
-        {
-          "text": "conflicte",
-          "bbox": [
-            [
-              347,
-              1056
+              422,
+              778
             ],
             [
               539,
-              1055
+              774
             ],
             [
-              540,
-              1101
+              538,
+              835
             ],
             [
-              347,
+              421,
+              836
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "but also equip them with the",
+      "bbox": [
+        [
+          386,
+          848
+        ],
+        [
+          1428,
+          844
+        ],
+        [
+          1428,
+          913
+        ],
+        [
+          386,
+          916
+        ]
+      ],
+      "words": [
+        {
+          "text": "but",
+          "bbox": [
+            [
+              406,
+              852
+            ],
+            [
+              521,
+              854
+            ],
+            [
+              520,
+              914
+            ],
+            [
+              405,
+              912
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "right skills (so that they",
+      "bbox": [
+        [
+          428,
+          931
+        ],
+        [
+          1389,
+          931
+        ],
+        [
+          1389,
+          995
+        ],
+        [
+          428,
+          994
+        ]
+      ],
+      "words": [
+        {
+          "text": "right",
+          "bbox": [
+            [
+              440,
+              931
+            ],
+            [
+              597,
+              933
+            ],
+            [
+              595,
+              995
+            ],
+            [
+              438,
+              994
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "can earn from it and secure",
+      "bbox": [
+        [
+          410,
+          1016
+        ],
+        [
+          1391,
+          1013
+        ],
+        [
+          1392,
+          1075
+        ],
+        [
+          410,
+          1079
+        ]
+      ],
+      "words": [
+        {
+          "text": "can",
+          "bbox": [
+            [
+              413,
+              1024
+            ],
+            [
+              511,
+              1021
+            ],
+            [
+              510,
+              1079
+            ],
+            [
+              412,
+              1078
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "their economic independence.",
+      "bbox": [
+        [
+          389,
+          1094
+        ],
+        [
+          1490,
+          1091
+        ],
+        [
+          1490,
+          1155
+        ],
+        [
+          389,
+          1159
+        ]
+      ],
+      "words": [
+        {
+          "text": "their",
+          "bbox": [
+            [
+              402,
               1102
+            ],
+            [
+              571,
+              1097
+            ],
+            [
+              570,
+              1159
+            ],
+            [
+              400,
+              1159
             ]
           ]
         }
       ]
     },
     {
-      "text": "ideological confrontations.\" This demonstrates",
+      "text": "Thirdly, there is need to",
       "bbox": [
         [
-          357,
-          1117
+          696,
+          1183
         ],
         [
-          1482,
-          1115
+          1483,
+          1180
         ],
         [
-          1482,
-          1166
+          1484,
+          1233
         ],
         [
-          357,
-          1169
+          696,
+          1238
         ]
       ],
       "words": [
         {
-          "text": "ideological",
+          "text": "Thirdly,",
           "bbox": [
             [
-              357,
-              1121
+              698,
+              1187
             ],
             [
-              594,
-              1118
-            ],
-            [
-              594,
-              1167
-            ],
-            [
-              357,
-              1169
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "that the emergence of",
-      "bbox": [
-        [
-          364,
-          1180
-        ],
-        [
-          1227,
-          1180
-        ],
-        [
-          1227,
-          1230
-        ],
-        [
-          364,
-          1232
-        ]
-      ],
-      "words": [
-        {
-          "text": "that",
-          "bbox": [
-            [
-              365,
-              1181
-            ],
-            [
-              474,
+              957,
               1182
             ],
             [
-              474,
-              1232
-            ],
-            [
-              364,
+              957,
               1233
+            ],
+            [
+              698,
+              1239
             ]
           ]
         }
       ]
     },
     {
-      "text": "authoritarianism",
+      "text": "have a universal consensus",
       "bbox": [
         [
-          378,
-          1246
+          399,
+          1251
         ],
         [
-          837,
-          1245
+          1489,
+          1253
         ],
         [
-          837,
-          1296
+          1488,
+          1325
         ],
         [
-          378,
-          1297
+          399,
+          1322
         ]
       ],
       "words": [
         {
-          "text": "authoritarianism",
+          "text": "have",
           "bbox": [
             [
-              380,
-              1250
+              422,
+              1256
             ],
             [
-              813,
-              1249
+              582,
+              1254
             ],
             [
-              813,
-              1296
+              579,
+              1318
             ],
             [
-              381,
-              1298
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "as a counterweight",
-      "bbox": [
-        [
-          842,
-          1249
-        ],
-        [
-          1430,
-          1252
-        ],
-        [
-          1430,
-          1296
-        ],
-        [
-          842,
-          1293
-        ]
-      ],
-      "words": [
-        {
-          "text": "counterweight",
-          "bbox": [
-            [
-              1157,
-              1252
-            ],
-            [
-              1430,
-              1252
-            ],
-            [
-              1429,
-              1297
-            ],
-            [
-              1157,
-              1294
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "to liberalism has potentially",
-      "bbox": [
-        [
-          348,
-          1310
-        ],
-        [
-          1295,
-          1310
-        ],
-        [
-          1295,
-          1361
-        ],
-        [
-          348,
-          1361
-        ]
-      ],
-      "words": [
-        {
-          "text": "liberalism",
-          "bbox": [
-            [
-              500,
-              1312
-            ],
-            [
-              739,
+              419,
               1311
-            ],
-            [
-              739,
-              1360
-            ],
-            [
-              500,
-              1362
             ]
           ]
         }
       ]
     },
     {
-      "text": "intensified ideological competitive",
+      "text": "on minimum 1years for",
       "bbox": [
         [
-          346,
-          1375
+          410,
+          1333
         ],
         [
-          1343,
-          1376
+          1407,
+          1333
         ],
         [
-          1343,
-          1431
+          1407,
+          1406
         ],
         [
-          346,
-          1431
+          410,
+          1406
         ]
       ],
       "words": [
         {
-          "text": "intensified",
+          "text": "minimum",
           "bbox": [
             [
-              347,
-              1377
+              560,
+              1336
             ],
             [
-              605,
-              1376
+              889,
+              1334
             ],
             [
-              605,
-              1427
+              888,
+              1407
             ],
             [
-              347,
-              1432
+              558,
+              1402
             ]
           ]
         }
       ]
     },
     {
-      "text": "Liberalism led by the United",
+      "text": "marriage of girls. This would",
       "bbox": [
         [
-          356,
-          1441
+          406,
+          1413
         ],
         [
-          1361,
-          1440
+          1462,
+          1416
         ],
         [
-          1361,
-          1488
+          1462,
+          1489
         ],
         [
-          356,
-          1491
+          406,
+          1485
         ]
       ],
       "words": [
         {
-          "text": "Liberalism",
+          "text": "marriage",
           "bbox": [
             [
-              358,
-              1441
+              407,
+              1418
             ],
             [
-              609,
-              1443
+              695,
+              1414
             ],
             [
-              609,
-              1490
+              694,
+              1488
             ],
             [
-              358,
-              1492
+              406,
+              1484
             ]
           ]
         }
       ]
     },
     {
-      "text": "States and authorianism",
+      "text": "not only arest many physical,",
       "bbox": [
         [
-          379,
-          1508
+          425,
+          1504
         ],
         [
-          1222,
-          1505
+          1509,
+          1500
         ],
         [
-          1222,
-          1555
-        ],
-        [
-          379,
-          1558
-        ]
-      ],
-      "words": [
-        {
-          "text": "States",
-          "bbox": [
-            [
-              388,
-              1509
-            ],
-            [
-              557,
-              1509
-            ],
-            [
-              557,
-              1557
-            ],
-            [
-              388,
-              1558
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "propagated by China has",
-      "bbox": [
-        [
-          339,
+          1509,
           1573
         ],
         [
-          1222,
-          1571
-        ],
-        [
-          1222,
-          1622
-        ],
-        [
-          339,
-          1627
+          425,
+          1574
         ]
       ],
       "words": [
         {
-          "text": "propagated",
+          "text": "not",
           "bbox": [
             [
-              360,
-              1577
+              425,
+              1518
             ],
             [
-              639,
-              1572
+              524,
+              1514
             ],
             [
-              639,
-              1621
+              524,
+              1571
             ],
             [
-              360,
-              1627
+              425,
+              1571
             ]
           ]
         }
       ]
     },
     {
-      "text": "initiated fragmentation and",
+      "text": "seval, and health issues from",
       "bbox": [
         [
-          336,
-          1637
+          409,
+          1587
         ],
         [
-          1269,
-          1633
+          1485,
+          1588
         ],
         [
-          1269,
-          1686
+          1485,
+          1654
         ],
         [
-          336,
-          1692
+          408,
+          1650
         ]
       ],
       "words": [
         {
-          "text": "initiated",
+          "text": "seval,",
           "bbox": [
             [
-              337,
-              1643
+              428,
+              1592
             ],
             [
-              558,
-              1638
+              651,
+              1589
             ],
             [
-              558,
-              1686
+              651,
+              1649
             ],
             [
-              337,
-              1692
+              427,
+              1644
             ]
           ]
         }
       ]
     },
     {
-      "text": "bifurcation of the world into",
+      "text": "the lives of women but would",
       "bbox": [
         [
-          338,
-          1702
+          389,
+          1665
         ],
         [
-          1333,
-          1702
+          1471,
+          1669
         ],
         [
-          1333,
-          1753
+          1470,
+          1736
         ],
         [
-          338,
-          1753
+          389,
+          1731
         ]
       ],
       "words": [
         {
-          "text": "bifurcation",
+          "text": "the",
           "bbox": [
             [
-              340,
-              1702
+              410,
+              1666
             ],
             [
-              623,
-              1704
+              524,
+              1669
             ],
             [
-              624,
-              1750
+              522,
+              1728
             ],
             [
-              341,
-              1754
+              407,
+              1724
             ]
           ]
         }
       ]
     },
     {
-      "text": "two blues. These states use",
+      "text": "also buy them time to complete",
       "bbox": [
         [
-          366,
-          1768
+          400,
+          1755
         ],
         [
-          1280,
-          1767
+          1503,
+          1755
         ],
         [
-          1280,
-          1818
-        ],
-        [
-          366,
+          1503,
           1821
+        ],
+        [
+          400,
+          1818
         ]
       ],
       "words": [
         {
-          "text": "two",
+          "text": "also",
           "bbox": [
             [
-              368,
-              1769
+              403,
+              1757
             ],
             [
-              450,
-              1769
+              536,
+              1757
             ],
             [
-              449,
-              1822
+              534,
+              1816
             ],
             [
-              367,
-              1822
+              401,
+              1815
             ]
           ]
         }
       ]
     },
     {
-      "text": "genstrategic",
+      "text": "their education and then gain",
       "bbox": [
         [
-          349,
-          1838
-        ],
-        [
-          684,
-          1838
-        ],
-        [
-          684,
-          1886
-        ],
-        [
-          349,
-          1887
-        ]
-      ],
-      "words": [
-        {
-          "text": "genstrategic",
-          "bbox": [
-            [
-              351,
-              1839
-            ],
-            [
-              680,
-              1840
-            ],
-            [
-              680,
-              1884
-            ],
-            [
-              353,
-              1888
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and geoeconomic",
-      "bbox": [
-        [
-          699,
+          390,
           1834
         ],
         [
-          1347,
+          1448,
           1838
         ],
         [
-          1347,
-          1884
+          1447,
+          1904
         ],
         [
-          699,
-          1883
+          389,
+          1898
         ]
       ],
       "words": [
         {
-          "text": "and",
+          "text": "their",
           "bbox": [
             [
-              842,
+              411,
+              1839
+            ],
+            [
+              555,
               1836
             ],
             [
-              922,
-              1837
+              553,
+              1900
             ],
             [
-              920,
-              1884
-            ],
-            [
-              840,
-              1884
+              409,
+              1898
             ]
           ]
         }
       ]
     },
     {
-      "text": "tools to expand their ideological",
+      "text": "economic independence and only",
       "bbox": [
         [
-          358,
-          1903
+          389,
+          1919
+        ],
+        [
+          1526,
+          1923
+        ],
+        [
+          1525,
+          1994
+        ],
+        [
+          388,
+          1985
+        ]
+      ],
+      "words": [
+        {
+          "text": "economic",
+          "bbox": [
+            [
+              390,
+              1926
+            ],
+            [
+              678,
+              1921
+            ],
+            [
+              677,
+              1984
+            ],
+            [
+              389,
+              1983
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "tham sign into marital relation.",
+      "bbox": [
+        [
+          406,
+          2005
+        ],
+        [
+          1503,
+          2006
+        ],
+        [
+          1503,
+          2070
+        ],
+        [
+          406,
+          2068
+        ]
+      ],
+      "words": [
+        {
+          "text": "tham",
+          "bbox": [
+            [
+              426,
+              2007
+            ],
+            [
+              569,
+              2006
+            ],
+            [
+              568,
+              2068
+            ],
+            [
+              425,
+              2066
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "This protects the women as well",
+      "bbox": [
+        [
+          419,
+          2091
         ],
         [
           1471,
-          1900
+          2091
         ],
         [
           1471,
-          1947
+          2154
         ],
         [
-          358,
-          1951
+          419,
+          2155
         ]
       ],
       "words": [
         {
-          "text": "tools",
+          "text": "This",
           "bbox": [
             [
-              360,
-              1903
+              440,
+              2092
             ],
             [
-              473,
-              1904
+              560,
+              2092
             ],
             [
-              475,
-              1951
+              558,
+              2156
             ],
             [
-              361,
-              1951
+              438,
+              2155
             ]
           ]
         }
       ]
     },
     {
-      "text": "sphere of Influence. Hence forth,",
+      "text": "as ensure her respect and",
       "bbox": [
         [
-          347,
-          1968
+          425,
+          2174
         ],
         [
-          1330,
-          1962
+          1370,
+          2175
         ],
         [
-          1331,
-          2013
+          1370,
+          2236
         ],
         [
-          347,
-          2019
+          425,
+          2234
         ]
       ],
       "words": [
         {
-          "text": "sphere",
+          "text": "ensure",
           "bbox": [
             [
-              350,
-              1970
+              522,
+              2177
             ],
             [
-              531,
-              1969
+              727,
+              2175
             ],
             [
-              531,
-              2018
+              727,
+              2235
             ],
             [
-              349,
-              2019
+              521,
+              2233
             ]
           ]
         }
       ]
     },
     {
-      "text": "ideological competition remains",
+      "text": "equality in marital bond",
       "bbox": [
         [
-          360,
-          2029
+          400,
+          2252
         ],
         [
-          1304,
-          2031
+          1437,
+          2254
         ],
         [
-          1304,
-          2084
+          1437,
+          2324
         ],
         [
-          360,
-          2083
+          400,
+          2321
         ]
       ],
       "words": [
         {
-          "text": "ideological",
+          "text": "equality",
           "bbox": [
             [
-              361,
-              2030
+              403,
+              2261
             ],
             [
-              648,
-              2034
+              749,
+              2253
             ],
             [
-              649,
-              2083
+              749,
+              2321
             ],
             [
-              361,
-              2084
+              403,
+              2322
             ]
           ]
         }
       ]
     },
     {
-      "text": "at the core of conflict in",
+      "text": "as well which is need of",
       "bbox": [
         [
-          383,
-          2101
+          449,
+          2334
         ],
         [
-          1331,
-          2097
+          1376,
+          2335
         ],
         [
-          1331,
-          2144
+          1376,
+          2406
         ],
         [
-          383,
-          2147
+          449,
+          2403
+        ]
+      ],
+      "words": [
+        {
+          "text": "well",
+          "bbox": [
+            [
+              584,
+              2340
+            ],
+            [
+              752,
+              2336
+            ],
+            [
+              753,
+              2405
+            ],
+            [
+              585,
+              2403
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the hour.",
+      "bbox": [
+        [
+          424,
+          2422
+        ],
+        [
+          751,
+          2423
+        ],
+        [
+          751,
+          2484
+        ],
+        [
+          424,
+          2483
         ]
       ],
       "words": [
@@ -1436,203 +1172,27 @@
           "text": "the",
           "bbox": [
             [
-              566,
-              2101
+              436,
+              2423
             ],
             [
-              652,
-              2100
+              526,
+              2423
             ],
             [
-              652,
-              2147
+              525,
+              2484
             ],
             [
-              566,
-              2147
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the multipolar world.",
-      "bbox": [
-        [
-          378,
-          2168
-        ],
-        [
-          1080,
-          2163
-        ],
-        [
-          1081,
-          2209
-        ],
-        [
-          378,
-          2214
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              380,
-              2172
-            ],
-            [
-              460,
-              2170
-            ],
-            [
-              459,
-              2213
-            ],
-            [
-              380,
-              2214
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "rovi",
-      "bbox": [
-        [
-          1077,
-          2230
-        ],
-        [
-          1163,
-          2229
-        ],
-        [
-          1165,
-          2268
-        ],
-        [
-          1078,
-          2271
-        ]
-      ],
-      "words": [
-        {
-          "text": "rovi",
-          "bbox": [
-            [
-              1077,
-              2230
-            ],
-            [
-              1163,
-              2229
-            ],
-            [
-              1164,
-              2269
-            ],
-            [
-              1077,
-              2271
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Scanned with",
-      "bbox": [
-        [
-          1567,
-          2461
-        ],
-        [
-          1729,
-          2461
-        ],
-        [
-          1728,
-          2488
-        ],
-        [
-          1567,
-          2488
-        ]
-      ],
-      "words": [
-        {
-          "text": "Scanned",
-          "bbox": [
-            [
-              1570,
-              2462
-            ],
-            [
-              1668,
-              2462
-            ],
-            [
-              1668,
-              2488
-            ],
-            [
-              1571,
-              2488
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "CS CamScanner\"",
-      "bbox": [
-        [
-          1539,
-          2496
-        ],
-        [
-          1765,
-          2498
-        ],
-        [
-          1764,
-          2529
-        ],
-        [
-          1538,
-          2525
-        ]
-      ],
-      "words": [
-        {
-          "text": "CamScanner\"",
-          "bbox": [
-            [
-              1581,
-              2497
-            ],
-            [
-              1764,
-              2498
-            ],
-            [
-              1765,
-              2529
-            ],
-            [
-              1581,
-              2525
+              435,
+              2482
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "can potentially fuel wat Consequently it can be remarked that multipolarity by fostering financial pluralism fuels financial security dilemma. Multipolarity Intensifies ideological and normative competition. As witnessed in the Cold War, the United States and the USSR were largely dragged into war due to their ideological differences As it is remarked by Samuel P. Huntington. \"The most destructive conflicte in history grose from ideological confrontations.\" This demonstrates that the emergence of authoritarianism as a counterweight to liberalism has potentially intensified ideological competitive Liberalism led by the United States and authorianism propagated by China has initiated fragmentation and bifurcation of the world into two blues. These states use genstrategic and geoeconomic tools to expand their ideological sphere of Influence. Hence forth, ideological competition remains at the core of conflict in the multipolar world. rovi Scanned with CS CamScanner\"",
+  "ocr_full_text_page": "= Secondly, there is need to - make efforts for women education and skill development. Unfortunately Women make up 57% of NEET (Not in Employment, Education or training). Hence it is not just enough to educate them but also equip them with the right skills (so that they can earn from it and secure their economic independence. Thirdly, there is need to have a universal consensus on minimum 1years for marriage of girls. This would not only arest many physical, seval, and health issues from the lives of women but would also buy them time to complete their education and then gain economic independence and only tham sign into marital relation. This protects the women as well as ensure her respect and equality in marital bond as well which is need of the hour.",
   "attempt": {
     "scale": 1.0,
     "quality": 75

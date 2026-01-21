@@ -924,7 +924,7 @@ def call_grok_for_essay_annotations(
                 "page": 1,
                 "type": "grammar_language",
                 "rubric_point": "Grammar & Language",
-                "anchor_quote": "EXACT substring from OCR_PAGE_TEXT (6-22 words)",
+                "anchor_quote": "EXACT substring from OCR_PAGE_TEXT (full relevant sentence/phrase)",
                 "correction": "string",
                 "comment": "string",
             }
@@ -940,8 +940,8 @@ def call_grok_for_essay_annotations(
         "ANCHOR RULE (CRITICAL):\n"
         "- You are given OCR_PAGE_TEXT below.\n"
         "- anchor_quote MUST be an EXACT contiguous substring copied from OCR_PAGE_TEXT.\n"
-        "- Use 6 to 22 words for anchor_quote.\n"
-        "- Do NOT paraphrase. Do NOT correct spelling inside anchor_quote.\n"
+        "- Use the full relevant sentence/phrase (no upper word cap); do NOT paraphrase.\n"
+        "- Do NOT correct spelling inside anchor_quote.\n"
         "- If you cannot find a suitable quote in OCR_PAGE_TEXT, set anchor_quote to empty and SKIP that annotation.\n"
         "\n"
         "- Use these types exactly:\n"
@@ -1434,7 +1434,7 @@ def main():
         page_images=page_images,
     )
     print("Grading done.")
-    '''
+    
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1444,9 +1444,8 @@ def main():
         grading=grading,
         page_images=page_images,
     )
-    '''
-    ann_pack = {"annotations": [], "page_suggestions": [], "errors": []}  # Skip annotations for now
     
+
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []
     ann_errors = ann_pack.get("errors") or []

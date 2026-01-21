@@ -4,111 +4,771 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "· BRICS de-dollarization efforts",
+      "text": "READ RIGHT",
       "bbox": [
         [
-          534,
-          379
+          402,
+          36
         ],
         [
-          1338,
-          380
+          858,
+          31
         ],
         [
-          1338,
-          445
+          859,
+          106
         ],
         [
-          534,
-          443
+          402,
+          111
         ]
       ],
       "words": [
         {
-          "text": "BRICS",
+          "text": "READ",
           "bbox": [
             [
-              577,
-              380
+              406,
+              36
             ],
             [
-              731,
-              379
-            ],
-            [
-              730,
-              443
+              574,
+              35
             ],
             [
               576,
-              437
+              111
+            ],
+            [
+              406,
+              112
             ]
           ]
         }
       ]
     },
     {
-      "text": "(j) Multipolarity intensifies ideological",
+      "text": "INSTITUTE",
       "bbox": [
         [
-          393,
-          512
+          522,
+          103
         ],
         [
-          1382,
-          512
+          748,
+          103
         ],
         [
-          1382,
-          581
+          749,
+          148
         ],
         [
-          393,
-          582
+          522,
+          149
         ]
       ],
       "words": [
         {
-          "text": "(j)",
+          "text": "INSTITUTE",
           "bbox": [
             [
-              394,
-              515
+              523,
+              103
             ],
             [
-              475,
-              515
+              748,
+              103
             ],
             [
-              476,
-              579
+              748,
+              148
             ],
             [
-              395,
-              582
+              523,
+              150
             ]
           ]
         }
       ]
     },
     {
-      "text": "and normative competition.",
+      "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          510,
-          581
+          456,
+          173
         ],
         [
-          1223,
-          581
+          813,
+          174
         ],
         [
-          1223,
-          636
+          813,
+          211
         ],
         [
-          510,
-          636
+          456,
+          210
+        ]
+      ],
+      "words": [
+        {
+          "text": "SYED",
+          "bbox": [
+            [
+              458,
+              175
+            ],
+            [
+              524,
+              174
+            ],
+            [
+              524,
+              211
+            ],
+            [
+              459,
+              211
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Date :................... /20 .....",
+      "bbox": [
+        [
+          1145,
+          107
+        ],
+        [
+          1472,
+          106
+        ],
+        [
+          1472,
+          146
+        ],
+        [
+          1146,
+          147
+        ]
+      ],
+      "words": [
+        {
+          "text": "Date",
+          "bbox": [
+            [
+              1148,
+              107
+            ],
+            [
+              1202,
+              108
+            ],
+            [
+              1203,
+              147
+            ],
+            [
+              1149,
+              148
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWOTOFOSI",
+      "bbox": [
+        [
+          1143,
+          160
+        ],
+        [
+          1474,
+          158
+        ],
+        [
+          1474,
+          200
+        ],
+        [
+          1143,
+          201
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWOTOFOSI",
+          "bbox": [
+            [
+              1145,
+              162
+            ],
+            [
+              1473,
+              159
+            ],
+            [
+              1473,
+              201
+            ],
+            [
+              1144,
+              201
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5. Massive digital in present age of online learning.",
+      "bbox": [
+        [
+          379,
+          236
+        ],
+        [
+          1527,
+          236
+        ],
+        [
+          1527,
+          307
+        ],
+        [
+          379,
+          306
+        ]
+      ],
+      "words": [
+        {
+          "text": "Massive",
+          "bbox": [
+            [
+              426,
+              243
+            ],
+            [
+              603,
+              240
+            ],
+            [
+              603,
+              304
+            ],
+            [
+              425,
+              304
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Case in Point: Global digital divide 68%, for",
+      "bbox": [
+        [
+          418,
+          315
+        ],
+        [
+          1495,
+          326
+        ],
+        [
+          1494,
+          393
+        ],
+        [
+          417,
+          386
+        ]
+      ],
+      "words": [
+        {
+          "text": "Case",
+          "bbox": [
+            [
+              421,
+              315
+            ],
+            [
+              532,
+              317
+            ],
+            [
+              530,
+              389
+            ],
+            [
+              419,
+              388
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "women 51%",
+      "bbox": [
+        [
+          816,
+          411
+        ],
+        [
+          1112,
+          411
+        ],
+        [
+          1112,
+          459
+        ],
+        [
+          816,
+          459
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              818,
+              413
+            ],
+            [
+              982,
+              412
+            ],
+            [
+              981,
+              460
+            ],
+            [
+              818,
+              459
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(3) Pakistan female digital divide",
+      "bbox": [
+        [
+          777,
+          495
+        ],
+        [
+          1513,
+          490
+        ],
+        [
+          1513,
+          558
+        ],
+        [
+          777,
+          560
+        ]
+      ],
+      "words": [
+        {
+          "text": "(3)",
+          "bbox": [
+            [
+              778,
+              501
+            ],
+            [
+              809,
+              500
+            ],
+            [
+              809,
+              560
+            ],
+            [
+              778,
+              560
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "24% whereas mode's is 48%",
+      "bbox": [
+        [
+          801,
+          582
+        ],
+        [
+          1520,
+          582
+        ],
+        [
+          1520,
+          649
+        ],
+        [
+          801,
+          650
+        ]
+      ],
+      "words": [
+        {
+          "text": "24%",
+          "bbox": [
+            [
+              802,
+              591
+            ],
+            [
+              901,
+              588
+            ],
+            [
+              901,
+              643
+            ],
+            [
+              802,
+              644
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "6. Formales lack of security outside the four",
+      "bbox": [
+        [
+          390,
+          673
+        ],
+        [
+          1479,
+          664
+        ],
+        [
+          1479,
+          730
+        ],
+        [
+          390,
+          736
+        ]
+      ],
+      "words": [
+        {
+          "text": "Formales",
+          "bbox": [
+            [
+              434,
+              676
+            ],
+            [
+              615,
+              677
+            ],
+            [
+              614,
+              736
+            ],
+            [
+              433,
+              736
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "walls of their home.",
+      "bbox": [
+        [
+          391,
+          760
+        ],
+        [
+          920,
+          756
+        ],
+        [
+          921,
+          815
+        ],
+        [
+          391,
+          821
+        ]
+      ],
+      "words": [
+        {
+          "text": "walls",
+          "bbox": [
+            [
+              392,
+              765
+            ],
+            [
+              534,
+              759
+            ],
+            [
+              533,
+              820
+            ],
+            [
+              391,
+              822
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Case in Point: (1) 1/3 women globally have",
+      "bbox": [
+        [
+          394,
+          838
+        ],
+        [
+          1443,
+          838
+        ],
+        [
+          1443,
+          907
+        ],
+        [
+          394,
+          907
+        ]
+      ],
+      "words": [
+        {
+          "text": "Case",
+          "bbox": [
+            [
+              398,
+              839
+            ],
+            [
+              512,
+              840
+            ],
+            [
+              511,
+              908
+            ],
+            [
+              397,
+              907
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "suffered sexual harassment (UN)",
+      "bbox": [
+        [
+          814,
+          929
+        ],
+        [
+          1542,
+          920
+        ],
+        [
+          1543,
+          979
+        ],
+        [
+          815,
+          990
+        ]
+      ],
+      "words": [
+        {
+          "text": "suffered",
+          "bbox": [
+            [
+              817,
+              929
+            ],
+            [
+              990,
+              928
+            ],
+            [
+              996,
+              988
+            ],
+            [
+              825,
+              991
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(2) In Pakistan, 28% femalesage(4-49)",
+      "bbox": [
+        [
+          765,
+          1015
+        ],
+        [
+          1609,
+          1010
+        ],
+        [
+          1610,
+          1070
+        ],
+        [
+          765,
+          1075
+        ]
+      ],
+      "words": [
+        {
+          "text": "(2)",
+          "bbox": [
+            [
+              765,
+              1015
+            ],
+            [
+              832,
+              1015
+            ],
+            [
+              836,
+              1075
+            ],
+            [
+              769,
+              1076
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "0000",
+      "bbox": [
+        [
+          792,
+          984
+        ],
+        [
+          788,
+          1233
+        ],
+        [
+          715,
+          1232
+        ],
+        [
+          717,
+          983
+        ]
+      ],
+      "words": [
+        {
+          "text": "0000",
+          "bbox": [
+            [
+              792,
+              1003
+            ],
+            [
+              783,
+              1222
+            ],
+            [
+              730,
+              1223
+            ],
+            [
+              737,
+              985
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "have suffered from physicalviolence",
+      "bbox": [
+        [
+          791,
+          1099
+        ],
+        [
+          1542,
+          1090
+        ],
+        [
+          1543,
+          1149
+        ],
+        [
+          791,
+          1156
+        ]
+      ],
+      "words": [
+        {
+          "text": "have",
+          "bbox": [
+            [
+              802,
+              1101
+            ],
+            [
+              904,
+              1100
+            ],
+            [
+              903,
+              1156
+            ],
+            [
+              801,
+              1155
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and 6% from sexual violence",
+      "bbox": [
+        [
+          783,
+          1180
+        ],
+        [
+          1501,
+          1179
+        ],
+        [
+          1501,
+          1232
+        ],
+        [
+          783,
+          1232
         ]
       ],
       "words": [
@@ -116,943 +776,547 @@
           "text": "and",
           "bbox": [
             [
-              513,
-              583
+              785,
+              1182
             ],
             [
-              599,
-              583
+              867,
+              1182
             ],
             [
-              598,
-              635
+              868,
+              1232
             ],
             [
-              512,
-              635
+              787,
+              1232
             ]
           ]
         }
       ]
     },
     {
-      "text": "· Liberalism Vs. Authoritarianism",
+      "text": "IV. Measures required to eliminate",
       "bbox": [
         [
-          551,
-          643
+          343,
+          1252
         ],
         [
-          1329,
-          649
+          1533,
+          1245
         ],
         [
-          1329,
-          704
+          1533,
+          1320
         ],
         [
-          550,
-          698
-        ]
-      ],
-      "words": [
-        {
-          "text": "Liberalism",
-          "bbox": [
-            [
-              609,
-              645
-            ],
-            [
-              804,
-              648
-            ],
-            [
-              803,
-              701
-            ],
-            [
-              608,
-              700
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "conflict",
-      "bbox": [
-        [
-          624,
-          711
-        ],
-        [
-          776,
-          711
-        ],
-        [
-          776,
-          762
-        ],
-        [
-          622,
-          763
-        ]
-      ],
-      "words": [
-        {
-          "text": "conflict",
-          "bbox": [
-            [
-              630,
-              711
-            ],
-            [
-              774,
-              711
-            ],
-            [
-              775,
-              763
-            ],
-            [
-              631,
-              763
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "STRATEGIC MEASURES TO PROMOTE",
-      "bbox": [
-        [
-          431,
-          816
-        ],
-        [
-          1425,
-          818
-        ],
-        [
-          1425,
-          890
-        ],
-        [
-          431,
-          888
-        ]
-      ],
-      "words": [
-        {
-          "text": "STRATEGIC",
-          "bbox": [
-            [
-              436,
-              816
-            ],
-            [
-              747,
-              818
-            ],
-            [
-              746,
-              890
-            ],
-            [
-              434,
-              884
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "PEACE",
-      "bbox": [
-        [
-          391,
-          882
-        ],
-        [
-          558,
-          882
-        ],
-        [
-          559,
-          946
-        ],
-        [
-          389,
-          945
-        ]
-      ],
-      "words": [
-        {
-          "text": "PEACE",
-          "bbox": [
-            [
-              391,
-              882
-            ],
-            [
-              551,
-              882
-            ],
-            [
-              551,
-              946
-            ],
-            [
-              391,
-              946
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(a). Strengthening and empowering",
-      "bbox": [
-        [
-          433,
-          1020
-        ],
-        [
-          1356,
-          1026
-        ],
-        [
-          1356,
-          1075
-        ],
-        [
-          433,
-          1072
-        ]
-      ],
-      "words": [
-        {
-          "text": "(a).",
-          "bbox": [
-            [
-              434,
-              1020
-            ],
-            [
-              540,
-              1021
-            ],
-            [
-              539,
-              1074
-            ],
-            [
-              433,
-              1073
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "international institutions to mediate",
-      "bbox": [
-        [
-          551,
-          1087
-        ],
-        [
-          1425,
-          1088
-        ],
-        [
-          1425,
-          1133
-        ],
-        [
-          551,
-          1132
-        ]
-      ],
-      "words": [
-        {
-          "text": "international",
-          "bbox": [
-            [
-              553,
-              1087
-            ],
-            [
-              840,
-              1089
-            ],
-            [
-              839,
-              1133
-            ],
-            [
-              552,
-              1133
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "conflicts.",
-      "bbox": [
-        [
-          560,
-          1150
-        ],
-        [
-          754,
-          1149
-        ],
-        [
-          754,
-          1193
-        ],
-        [
-          561,
-          1195
-        ]
-      ],
-      "words": [
-        {
-          "text": "conflicts.",
-          "bbox": [
-            [
-              568,
-              1155
-            ],
-            [
-              752,
-              1151
-            ],
-            [
-              753,
-              1194
-            ],
-            [
-              568,
-              1195
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": ". Role of the United Nations",
-      "bbox": [
-        [
-          569,
-          1203
-        ],
-        [
-          1344,
-          1211
-        ],
-        [
-          1343,
-          1257
-        ],
-        [
-          569,
-          1251
-        ]
-      ],
-      "words": [
-        {
-          "text": "Role",
-          "bbox": [
-            [
-              625,
-              1204
-            ],
-            [
-              716,
-              1205
-            ],
-            [
-              717,
-              1253
-            ],
-            [
-              626,
-              1253
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(0) Promoting preventing diplomacy",
-      "bbox": [
-        [
-          409,
-          1316
-        ],
-        [
-          1339,
+          343,
           1325
-        ],
-        [
-          1338,
-          1382
-        ],
-        [
-          409,
-          1381
         ]
       ],
       "words": [
         {
-          "text": "(0)",
+          "text": "IV.",
           "bbox": [
             [
-              410,
-              1317
+              357,
+              1253
             ],
             [
-              501,
-              1320
+              451,
+              1253
             ],
             [
-              500,
-              1380
+              450,
+              1321
             ],
             [
-              409,
-              1382
+              355,
+              1319
             ]
           ]
         }
       ]
     },
     {
-      "text": "to resolve conflicts before they",
+      "text": "these impediment in way of",
       "bbox": [
         [
-          548,
-          1390
+          416,
+          1332
         ],
         [
-          1396,
-          1390
+          1401,
+          1334
         ],
         [
-          1396,
-          1434
+          1401,
+          1407
         ],
         [
-          548,
-          1436
+          415,
+          1402
         ]
       ],
       "words": [
         {
-          "text": "resolve",
+          "text": "these",
           "bbox": [
             [
-              669,
-              1393
+              428,
+              1337
             ],
             [
-              806,
-              1391
+              607,
+              1334
             ],
             [
-              805,
-              1435
+              606,
+              1403
             ],
             [
-              668,
-              1436
+              428,
+              1400
             ]
           ]
         }
       ]
     },
     {
-      "text": "escalate into war.",
+      "text": "women education.",
       "bbox": [
         [
-          564,
-          1455
+          401,
+          1415
         ],
         [
-          1099,
-          1452
+          1056,
+          1412
         ],
         [
-          1100,
-          1495
+          1056,
+          1482
         ],
         [
-          564,
-          1499
+          401,
+          1484
         ]
       ],
       "words": [
         {
-          "text": "escalate",
+          "text": "women",
           "bbox": [
             [
-              571,
-              1457
+              404,
+              1424
             ],
             [
-              754,
-              1454
+              635,
+              1417
             ],
             [
-              754,
-              1498
+              634,
+              1483
             ],
             [
-              571,
-              1499
+              402,
+              1479
             ]
           ]
         }
       ]
     },
     {
-      "text": "· The 2015 Iran-US backchannel",
+      "text": "1. Ensure \"altidunal\" change rather than",
       "bbox": [
         [
-          595,
-          1511
+          416,
+          1507
         ],
         [
-          1406,
-          1512
+          1434,
+          1502
         ],
         [
-          1406,
-          1561
+          1434,
+          1563
         ],
         [
-          595,
-          1560
+          416,
+          1571
         ]
       ],
       "words": [
         {
-          "text": "The",
+          "text": "Ensure",
           "bbox": [
             [
-              633,
-              1512
-            ],
-            [
-              705,
-              1511
-            ],
-            [
-              705,
-              1559
-            ],
-            [
-              633,
-              1560
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "diplomacy in Oman",
-      "bbox": [
-        [
-          632,
-          1574
-        ],
-        [
-          1122,
-          1576
-        ],
-        [
-          1122,
-          1623
-        ],
-        [
-          631,
-          1622
-        ]
-      ],
-      "words": [
-        {
-          "text": "diplomacy",
-          "bbox": [
-            [
-              641,
-              1574
-            ],
-            [
-              843,
-              1576
-            ],
-            [
-              841,
-              1622
-            ],
-            [
-              639,
-              1623
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(C), Prioritizing soft power engagement",
-      "bbox": [
-        [
-          393,
-          1697
-        ],
-        [
-          1446,
-          1697
-        ],
-        [
-          1446,
-          1759
-        ],
-        [
-          393,
-          1758
-        ]
-      ],
-      "words": [
-        {
-          "text": "(C),",
-          "bbox": [
-            [
-              396,
-              1700
-            ],
-            [
-              494,
-              1699
-            ],
-            [
-              492,
-              1755
-            ],
-            [
-              394,
-              1759
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "to reduce hostility among",
-      "bbox": [
-        [
-          550,
-          1761
-        ],
-        [
-          1296,
-          1767
-        ],
-        [
-          1295,
-          1812
-        ],
-        [
-          550,
-          1804
-        ]
-      ],
-      "words": [
-        {
-          "text": "reduce",
-          "bbox": [
-            [
-              683,
-              1761
-            ],
-            [
-              808,
-              1762
-            ],
-            [
-              807,
-              1807
-            ],
-            [
-              681,
-              1806
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "rival powers.",
-      "bbox": [
-        [
-          553,
-          1830
-        ],
-        [
-          874,
-          1832
-        ],
-        [
-          874,
-          1871
-        ],
-        [
-          553,
-          1869
-        ]
-      ],
-      "words": [
-        {
-          "text": "rival",
-          "bbox": [
-            [
-              555,
-              1831
-            ],
-            [
-              668,
-              1831
-            ],
-            [
-              668,
-              1871
-            ],
-            [
-              555,
-              1870
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "· The Ping Pong Diplomacy (1971)",
-      "bbox": [
-        [
-          570,
-          1883
-        ],
-        [
-          1438,
-          1889
-        ],
-        [
-          1438,
-          1938
-        ],
-        [
-          569,
-          1930
-        ]
-      ],
-      "words": [
-        {
-          "text": "The",
-          "bbox": [
-            [
-              617,
-              1884
-            ],
-            [
-              694,
-              1884
-            ],
-            [
-              692,
-              1931
+              483,
+              1516
             ],
             [
               615,
-              1930
+              1511
+            ],
+            [
+              614,
+              1570
+            ],
+            [
+              482,
+              1571
             ]
           ]
         }
       ]
     },
     {
-      "text": "(d), Managing great power competition",
+      "text": "more LawsD TAIMOOR BUKHARI",
       "bbox": [
         [
-          393,
-          2000
+          428,
+          1598
         ],
         [
-          1442,
-          2004
+          1177,
+          1605
         ],
         [
-          1442,
-          2070
+          1176,
+          1654
         ],
         [
-          393,
-          2069
+          428,
+          1652
         ]
       ],
       "words": [
         {
-          "text": "(d),",
+          "text": "more",
           "bbox": [
             [
-              393,
-              2000
+              431,
+              1599
             ],
             [
-              496,
-              2005
+              546,
+              1601
             ],
             [
-              497,
-              2068
+              545,
+              1654
             ],
             [
-              394,
-              2070
+              430,
+              1653
             ]
           ]
         }
       ]
     },
     {
-      "text": "through controlled rivalry and",
+      "text": "2. Women skill development paired with formal",
       "bbox": [
         [
-          528,
-          2076
+          414,
+          1683
         ],
         [
-          1324,
-          2078
+          1502,
+          1678
         ],
         [
-          1324,
-          2124
+          1503,
+          1728
         ],
         [
-          528,
-          2123
+          414,
+          1734
         ]
       ],
       "words": [
         {
-          "text": "through",
+          "text": "Women",
           "bbox": [
             [
-              532,
-              2077
+              461,
+              1687
             ],
             [
-              688,
-              2079
+              611,
+              1684
             ],
             [
-              687,
-              2124
+              613,
+              1732
             ],
             [
-              530,
-              2124
+              463,
+              1734
             ]
           ]
         }
       ]
     },
     {
-      "text": "crisis management protocols",
+      "text": "education so they can sponsor their",
       "bbox": [
         [
-          554,
-          2148
+          449,
+          1762
         ],
         [
-          1276,
-          2142
+          1419,
+          1752
         ],
         [
-          1277,
-          2183
+          1420,
+          1809
         ],
         [
-          554,
-          2187
+          449,
+          1816
         ]
       ],
       "words": [
         {
-          "text": "crisis",
+          "text": "education",
           "bbox": [
             [
-              556,
-              2151
+              452,
+              1765
             ],
             [
-              650,
-              2150
+              691,
+              1762
             ],
             [
-              651,
-              2187
+              690,
+              1816
             ],
             [
-              556,
-              2187
+              451,
+              1815
             ]
           ]
         }
       ]
     },
     {
-      "text": "· The US-China hotline restored",
+      "text": "own education",
       "bbox": [
         [
-          588,
-          2201
+          449,
+          1847
         ],
         [
-          1381,
-          2201
+          813,
+          1841
         ],
         [
-          1381,
-          2248
+          814,
+          1895
         ],
         [
-          588,
+          450,
+          1897
+        ]
+      ],
+      "words": [
+        {
+          "text": "own",
+          "bbox": [
+            [
+              451,
+              1851
+            ],
+            [
+              547,
+              1848
+            ],
+            [
+              548,
+              1897
+            ],
+            [
+              452,
+              1897
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "3. Establish complete ban on marriage before",
+      "bbox": [
+        [
+          404,
+          1933
+        ],
+        [
+          1494,
+          1916
+        ],
+        [
+          1495,
+          1980
+        ],
+        [
+          405,
+          1994
+        ]
+      ],
+      "words": [
+        {
+          "text": "Establish",
+          "bbox": [
+            [
+              454,
+              1937
+            ],
+            [
+              661,
+              1931
+            ],
+            [
+              661,
+              1989
+            ],
+            [
+              455,
+              1994
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "18 for females.",
+      "bbox": [
+        [
+          444,
+          2017
+        ],
+        [
+          838,
+          2012
+        ],
+        [
+          839,
+          2072
+        ],
+        [
+          444,
+          2075
+        ]
+      ],
+      "words": [
+        {
+          "text": "for",
+          "bbox": [
+            [
+              522,
+              2019
+            ],
+            [
+              607,
+              2017
+            ],
+            [
+              608,
+              2075
+            ],
+            [
+              523,
+              2075
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "4. mitigate digital divide so that women",
+      "bbox": [
+        [
+          399,
+          2098
+        ],
+        [
+          1492,
+          2090
+        ],
+        [
+          1493,
+          2150
+        ],
+        [
+          400,
+          2161
+        ]
+      ],
+      "words": [
+        {
+          "text": "mitigate",
+          "bbox": [
+            [
+              451,
+              2105
+            ],
+            [
+              671,
+              2098
+            ],
+            [
+              670,
+              2160
+            ],
+            [
+              450,
+              2161
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "from for flung areas can educate",
+      "bbox": [
+        [
+          445,
+          2185
+        ],
+        [
+          1436,
+          2178
+        ],
+        [
+          1436,
+          2239
+        ],
+        [
+          445,
           2247
         ]
       ],
       "words": [
         {
-          "text": "The",
+          "text": "from",
           "bbox": [
             [
-              634,
-              2203
+              446,
+              2186
             ],
             [
-              702,
-              2203
+              599,
+              2186
             ],
             [
-              700,
+              598,
               2247
             ],
             [
-              632,
+              446,
               2247
             ]
           ]
@@ -1060,139 +1324,183 @@
       ]
     },
     {
-      "text": "in 2024",
+      "text": "themselves.",
       "bbox": [
         [
-          586,
-          2274
+          381,
+          2268
         ],
         [
-          838,
-          2270
+          686,
+          2268
         ],
         [
-          839,
-          2311
+          686,
+          2323
         ],
         [
-          586,
-          2314
+          381,
+          2323
         ]
       ],
       "words": [
         {
-          "text": "2024",
+          "text": "themselves.",
           "bbox": [
             [
-              736,
-              2272
+              391,
+              2269
             ],
             [
-              835,
-              2271
+              682,
+              2269
             ],
             [
-              835,
-              2312
+              681,
+              2324
             ],
             [
-              736,
-              2312
+              390,
+              2323
             ]
           ]
         }
       ]
     },
     {
-      "text": "Scanned with",
+      "text": "5. Enforce women protection laws completely.",
       "bbox": [
         [
-          1566,
-          2461
+          395,
+          2354
         ],
         [
-          1729,
-          2461
+          1499,
+          2352
         ],
         [
-          1728,
-          2488
+          1499,
+          2412
         ],
         [
-          1566,
-          2488
+          395,
+          2415
         ]
       ],
       "words": [
         {
-          "text": "Scanned",
+          "text": "Enforce",
           "bbox": [
             [
-              1569,
-              2462
+              462,
+              2359
             ],
             [
-              1667,
-              2462
+              635,
+              2356
             ],
             [
-              1667,
-              2488
+              633,
+              2415
             ],
             [
-              1570,
-              2488
+              460,
+              2415
             ]
           ]
         }
       ]
     },
     {
-      "text": "CS CamScanner",
+      "text": "Case in Point: (1) SDG (5) Gender Equality",
       "bbox": [
         [
-          1539,
+          430,
+          2424
+        ],
+        [
+          1480,
+          2425
+        ],
+        [
+          1480,
           2497
         ],
         [
-          1762,
-          2497
-        ],
-        [
-          1762,
-          2529
-        ],
-        [
-          1538,
-          2526
+          430,
+          2496
         ]
       ],
       "words": [
         {
-          "text": "CamScanner",
+          "text": "Case",
           "bbox": [
             [
-              1581,
+              434,
+              2424
+            ],
+            [
+              545,
+              2426
+            ],
+            [
+              543,
               2497
             ],
             [
-              1762,
-              2498
+              432,
+              2497
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(2) SDG (4) Equal Education Rights",
+      "bbox": [
+        [
+          818,
+          2498
+        ],
+        [
+          1584,
+          2501
+        ],
+        [
+          1584,
+          2561
+        ],
+        [
+          818,
+          2556
+        ]
+      ],
+      "words": [
+        {
+          "text": "(2)",
+          "bbox": [
+            [
+              818,
+              2505
             ],
             [
-              1762,
-              2529
+              882,
+              2503
             ],
             [
-              1582,
-              2525
+              882,
+              2555
+            ],
+            [
+              818,
+              2555
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "· BRICS de-dollarization efforts - (j) Multipolarity intensifies ideological and normative competition. · Liberalism Vs. Authoritarianism V 1 - conflict IV STRATEGIC MEASURES TO PROMOTE PEACE (a). Strengthening and empowering international institutions to mediate conflicts. . Role of the United Nations (0) Promoting preventing diplomacy to resolve conflicts before they escalate into war. · The 2015 Iran-US backchannel diplomacy in Oman (C), Prioritizing soft power engagement to reduce hostility among rival powers. · The Ping Pong Diplomacy (1971) (d), Managing great power competition through controlled rivalry and crisis management protocols · The US-China hotline restored in 2024 Scanned with CS CamScanner",
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :................... /20 ..... MOTOWOTOFOSI 5. Massive digital in present age of online learning. Case in Point: Global digital divide 68%, for women 51% 1 (3) Pakistan female digital divide 24% whereas mode's is 48% 6. Formales lack of security outside the four walls of their home. Case in Point: (1) 1/3 women globally have suffered sexual harassment (UN) (2) In Pakistan, 28% femalesage(4-49) 0000 have suffered from physicalviolence and 6% from sexual violence IV. Measures required to eliminate these impediment in way of women education. 1. Ensure \"altidunal\" change rather than BY more LawsD TAIMOOR BUKHARI 2. Women skill development paired with formal education so they can sponsor their own education 3. Establish complete ban on marriage before 18 for females. 4. mitigate digital divide so that women from for flung areas can educate themselves. 5. Enforce women protection laws completely. Case in Point: (1) SDG (5) Gender Equality (2) SDG (4) Equal Education Rights",
   "attempt": {
     "scale": 1.0,
     "quality": 75

@@ -4,683 +4,727 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "Jannat Nazir",
+      "text": "READ RIGHT",
       "bbox": [
         [
-          339,
-          16
+          433,
+          93
         ],
         [
-          698,
-          9
+          876,
+          88
         ],
         [
-          699,
-          68
+          877,
+          155
         ],
         [
-          339,
-          72
+          433,
+          161
         ]
       ],
       "words": [
         {
-          "text": "Jannat",
+          "text": "READ",
           "bbox": [
             [
-              342,
-              21
+              434,
+              94
             ],
             [
-              510,
-              17
+              598,
+              92
             ],
             [
-              511,
-              72
+              598,
+              161
             ],
             [
-              341,
-              72
+              433,
+              161
             ]
           ]
         }
       ]
     },
     {
-      "text": "12th Dec, 2015",
+      "text": "INSTITUTE",
       "bbox": [
         [
-          355,
-          74
+          545,
+          155
         ],
         [
-          675,
-          70
+          766,
+          154
         ],
         [
-          675,
-          119
+          766,
+          195
         ],
         [
-          356,
-          122
+          545,
+          197
         ]
       ],
       "words": [
         {
-          "text": "12th",
+          "text": "INSTITUTE",
           "bbox": [
             [
-              357,
-              76
+              549,
+              156
             ],
             [
-              440,
-              75
+              766,
+              155
             ],
             [
-              441,
-              122
+              766,
+              196
             ],
             [
-              359,
-              122
+              548,
+              197
             ]
           ]
         }
       ]
     },
     {
-      "text": "TOPIC",
+      "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          438,
-          356
+          484,
+          223
         ],
         [
-          576,
-          354
+          829,
+          223
         ],
         [
-          577,
-          423
+          829,
+          254
         ],
         [
-          436,
+          485,
+          256
+        ]
+      ],
+      "words": [
+        {
+          "text": "SYED",
+          "bbox": [
+            [
+              485,
+              225
+            ],
+            [
+              546,
+              224
+            ],
+            [
+              546,
+              257
+            ],
+            [
+              486,
+              257
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Date :......... / ......... /20 ...",
+      "bbox": [
+        [
+          1159,
+          159
+        ],
+        [
+          1463,
+          157
+        ],
+        [
+          1463,
+          192
+        ],
+        [
+          1160,
+          195
+        ]
+      ],
+      "words": [
+        {
+          "text": "Date",
+          "bbox": [
+            [
+              1162,
+              161
+            ],
+            [
+              1217,
+              160
+            ],
+            [
+              1218,
+              195
+            ],
+            [
+              1162,
+              196
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWI",
+      "bbox": [
+        [
+          1155,
+          211
+        ],
+        [
+          1327,
+          209
+        ],
+        [
+          1327,
+          245
+        ],
+        [
+          1155,
+          246
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWI",
+          "bbox": [
+            [
+              1157,
+              212
+            ],
+            [
+              1326,
+              210
+            ],
+            [
+              1327,
+              246
+            ],
+            [
+              1156,
+              247
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "OFOS",
+      "bbox": [
+        [
+          1376,
+          211
+        ],
+        [
+          1479,
+          211
+        ],
+        [
+          1478,
+          244
+        ],
+        [
+          1376,
+          242
+        ]
+      ],
+      "words": [
+        {
+          "text": "OFOS",
+          "bbox": [
+            [
+              1376,
+              211
+            ],
+            [
+              1473,
+              212
+            ],
+            [
+              1474,
+              244
+            ],
+            [
+              1377,
+              242
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Strengthen the Female Mind",
+      "bbox": [
+        [
+          433,
+          328
+        ],
+        [
+          1450,
+          322
+        ],
+        [
+          1451,
           424
+        ],
+        [
+          433,
+          434
         ]
       ],
       "words": [
         {
-          "text": "TOPIC",
-          "bbox": [
-            [
-              438,
-              355
-            ],
-            [
-              573,
-              354
-            ],
-            [
-              574,
-              423
-            ],
-            [
-              438,
-              424
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "MULTIPOLARITY,",
-      "bbox": [
-        [
-          652,
-          488
-        ],
-        [
-          1148,
-          488
-        ],
-        [
-          1148,
-          560
-        ],
-        [
-          652,
-          560
-        ]
-      ],
-      "words": [
-        {
-          "text": "MULTIPOLARITY,",
-          "bbox": [
-            [
-              656,
-              490
-            ],
-            [
-              1139,
-              490
-            ],
-            [
-              1141,
-              559
-            ],
-            [
-              655,
-              558
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "PROMOTING",
-      "bbox": [
-        [
-          590,
-          561
-        ],
-        [
-          926,
-          566
-        ],
-        [
-          925,
-          618
-        ],
-        [
-          590,
-          614
-        ]
-      ],
-      "words": [
-        {
-          "text": "PROMOTING",
-          "bbox": [
-            [
-              591,
-              562
-            ],
-            [
-              915,
-              566
-            ],
-            [
-              915,
-              619
-            ],
-            [
-              591,
-              615
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "PEACE",
-      "bbox": [
-        [
-          1017,
-          562
-        ],
-        [
-          1177,
-          562
-        ],
-        [
-          1177,
-          617
-        ],
-        [
-          1017,
-          616
-        ]
-      ],
-      "words": [
-        {
-          "text": "PEACE",
-          "bbox": [
-            [
-              1017,
-              565
-            ],
-            [
-              1174,
-              563
-            ],
-            [
-              1174,
-              618
-            ],
-            [
-              1017,
-              615
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "OR FEULLING WARP",
-      "bbox": [
-        [
-          608,
-          620
-        ],
-        [
-          1270,
-          617
-        ],
-        [
-          1270,
-          688
-        ],
-        [
-          608,
-          692
-        ]
-      ],
-      "words": [
-        {
-          "text": "FEULLING",
-          "bbox": [
-            [
-              764,
-              622
-            ],
-            [
-              1027,
-              621
-            ],
-            [
-              1028,
-              691
-            ],
-            [
-              764,
-              691
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "OUTLINE",
-      "bbox": [
-        [
-          798,
-          744
-        ],
-        [
-          1072,
-          745
-        ],
-        [
-          1072,
-          817
-        ],
-        [
-          798,
-          816
-        ]
-      ],
-      "words": [
-        {
-          "text": "OUTLINE",
-          "bbox": [
-            [
-              801,
-              744
-            ],
-            [
-              1068,
-              746
-            ],
-            [
-              1069,
-              817
-            ],
-            [
-              800,
-              817
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "INTRODUCTION",
-      "bbox": [
-        [
-          431,
-          866
-        ],
-        [
-          886,
-          872
-        ],
-        [
-          885,
-          938
-        ],
-        [
-          430,
-          932
-        ]
-      ],
-      "words": [
-        {
-          "text": "INTRODUCTION",
-          "bbox": [
-            [
-              436,
-              866
-            ],
-            [
-              857,
-              873
-            ],
-            [
-              858,
-              938
-            ],
-            [
-              433,
-              932
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "By strengthening strategic",
-      "bbox": [
-        [
-          714,
-          1005
-        ],
-        [
-          1382,
-          1008
-        ],
-        [
-          1381,
-          1058
-        ],
-        [
-          714,
-          1055
-        ]
-      ],
-      "words": [
-        {
-          "text": "strengthening",
-          "bbox": [
-            [
-              856,
-              1009
-            ],
-            [
-              1143,
-              1012
-            ],
-            [
-              1144,
-              1057
-            ],
-            [
-              856,
-              1056
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "uncertainty among great powers",
-      "bbox": [
-        [
-          438,
-          1069
-        ],
-        [
-          1255,
-          1070
-        ],
-        [
-          1255,
-          1113
-        ],
-        [
-          438,
-          1111
-        ]
-      ],
-      "words": [
-        {
-          "text": "uncertainty",
-          "bbox": [
-            [
-              441,
-              1069
-            ],
-            [
-              678,
-              1069
-            ],
-            [
-              677,
-              1112
-            ],
-            [
-              440,
-              1112
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "intensifying security dilemma and",
-      "bbox": [
-        [
-          426,
-          1127
-        ],
-        [
-          1270,
-          1126
-        ],
-        [
-          1270,
-          1167
-        ],
-        [
-          426,
-          1168
-        ]
-      ],
-      "words": [
-        {
-          "text": "intensifying",
-          "bbox": [
-            [
-              429,
-              1127
-            ],
-            [
-              639,
-              1128
-            ],
-            [
-              638,
-              1169
-            ],
-            [
-              427,
-              1168
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "promoting bloc politics, multipolarity is",
-      "bbox": [
-        [
-          431,
-          1187
-        ],
-        [
-          1356,
-          1182
-        ],
-        [
-          1356,
-          1226
-        ],
-        [
-          431,
-          1230
-        ]
-      ],
-      "words": [
-        {
-          "text": "promoting",
-          "bbox": [
-            [
-              435,
-              1189
-            ],
-            [
-              636,
-              1189
-            ],
-            [
-              635,
-              1230
-            ],
-            [
-              433,
-              1230
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "inadvertently fuelling war. Nevertheless,",
-      "bbox": [
-        [
-          434,
-          1242
-        ],
-        [
-          1385,
-          1242
-        ],
-        [
-          1385,
-          1283
-        ],
-        [
-          434,
-          1283
-        ]
-      ],
-      "words": [
-        {
-          "text": "inadvertently",
+          "text": "Strengthen",
           "bbox": [
             [
               437,
-              1243
+              338
             ],
             [
-              705,
-              1243
+              779,
+              325
             ],
             [
-              703,
-              1284
+              781,
+              433
             ],
             [
-              435,
-              1284
+              437,
+              434
             ]
           ]
         }
       ]
     },
     {
-      "text": "by empowering international institutions",
+      "text": "by Enlarging it and there will",
       "bbox": [
         [
-          428,
-          1302
+          365,
+          486
         ],
         [
-          1374,
-          1300
+          1479,
+          472
         ],
         [
-          1375,
-          1340
+          1481,
+          569
         ],
         [
-          428,
-          1342
+          365,
+          586
         ]
       ],
       "words": [
         {
-          "text": "empowering",
+          "text": "Enlarging",
           "bbox": [
             [
-              541,
-              1303
+              474,
+              485
             ],
             [
-              771,
-              1304
+              809,
+              477
             ],
             [
-              771,
-              1341
+              811,
+              584
             ],
             [
-              541,
-              1342
+              475,
+              586
             ]
           ]
         }
       ]
     },
     {
-      "text": "and prioritizing soft power, peace can",
+      "text": "be an End to Blind Obedience",
       "bbox": [
         [
-          444,
-          1355
+          394,
+          628
         ],
         [
-          1399,
-          1357
+          1502,
+          625
         ],
         [
-          1399,
-          1400
+          1502,
+          725
         ],
         [
-          444,
-          1398
+          394,
+          726
+        ]
+      ],
+      "words": [
+        {
+          "text": "End",
+          "bbox": [
+            [
+              660,
+              633
+            ],
+            [
+              788,
+              630
+            ],
+            [
+              788,
+              725
+            ],
+            [
+              660,
+              724
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "I. Introduction",
+      "bbox": [
+        [
+          366,
+          868
+        ],
+        [
+          829,
+          867
+        ],
+        [
+          830,
+          934
+        ],
+        [
+          366,
+          937
+        ]
+      ],
+      "words": [
+        {
+          "text": "Introduction",
+          "bbox": [
+            [
+              444,
+              868
+            ],
+            [
+              818,
+              868
+            ],
+            [
+              818,
+              934
+            ],
+            [
+              442,
+              938
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It is an undeniable reality that by",
+      "bbox": [
+        [
+          624,
+          949
+        ],
+        [
+          1453,
+          946
+        ],
+        [
+          1454,
+          1011
+        ],
+        [
+          624,
+          1014
+        ]
+      ],
+      "words": [
+        {
+          "text": "undeniable",
+          "bbox": [
+            [
+              821,
+              951
+            ],
+            [
+              1068,
+              947
+            ],
+            [
+              1068,
+              1010
+            ],
+            [
+              821,
+              1012
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "enlarging the female mind with education, there",
+      "bbox": [
+        [
+          385,
+          1031
+        ],
+        [
+          1488,
+          1030
+        ],
+        [
+          1489,
+          1092
+        ],
+        [
+          385,
+          1095
+        ]
+      ],
+      "words": [
+        {
+          "text": "enlarging",
+          "bbox": [
+            [
+              388,
+              1036
+            ],
+            [
+              613,
+              1033
+            ],
+            [
+              611,
+              1095
+            ],
+            [
+              386,
+              1096
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "will be end to blind obedience, yet there are",
+      "bbox": [
+        [
+          397,
+          1114
+        ],
+        [
+          1477,
+          1118
+        ],
+        [
+          1476,
+          1178
+        ],
+        [
+          396,
+          1172
+        ]
+      ],
+      "words": [
+        {
+          "text": "will",
+          "bbox": [
+            [
+              398,
+              1118
+            ],
+            [
+              493,
+              1117
+            ],
+            [
+              492,
+              1172
+            ],
+            [
+              397,
+              1170
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Various reasons which inhibit the process;",
+      "bbox": [
+        [
+          388,
+          1195
+        ],
+        [
+          1453,
+          1197
+        ],
+        [
+          1453,
+          1260
+        ],
+        [
+          388,
+          1256
+        ]
+      ],
+      "words": [
+        {
+          "text": "Various",
+          "bbox": [
+            [
+              392,
+              1206
+            ],
+            [
+              583,
+              1200
+            ],
+            [
+              581,
+              1251
+            ],
+            [
+              390,
+              1251
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "consequently women across the globe suffer",
+      "bbox": [
+        [
+          402,
+          1286
+        ],
+        [
+          1477,
+          1282
+        ],
+        [
+          1478,
+          1344
+        ],
+        [
+          402,
+          1346
+        ]
+      ],
+      "words": [
+        {
+          "text": "consequently",
+          "bbox": [
+            [
+              403,
+              1295
+            ],
+            [
+              715,
+              1287
+            ],
+            [
+              715,
+              1343
+            ],
+            [
+              403,
+              1346
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "detrimental impacts. Hence, pragmatic policies",
+      "bbox": [
+        [
+          403,
+          1363
+        ],
+        [
+          1505,
+          1364
+        ],
+        [
+          1505,
+          1424
+        ],
+        [
+          403,
+          1422
+        ]
+      ],
+      "words": [
+        {
+          "text": "detrimental",
+          "bbox": [
+            [
+              405,
+              1366
+            ],
+            [
+              667,
+              1364
+            ],
+            [
+              667,
+              1422
+            ],
+            [
+              405,
+              1417
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and actions are needed to stream line",
+      "bbox": [
+        [
+          415,
+          1442
+        ],
+        [
+          1405,
+          1439
+        ],
+        [
+          1405,
+          1494
+        ],
+        [
+          415,
+          1497
         ]
       ],
       "words": [
@@ -688,415 +732,371 @@
           "text": "and",
           "bbox": [
             [
-              446,
-              1356
+              418,
+              1444
             ],
             [
-              523,
-              1356
+              507,
+              1443
             ],
             [
-              523,
-              1398
-            ],
-            [
-              446,
-              1398
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "be maintained ..",
-      "bbox": [
-        [
-          431,
-          1412
-        ],
-        [
-          826,
-          1412
-        ],
-        [
-          826,
-          1454
-        ],
-        [
-          431,
-          1453
-        ]
-      ],
-      "words": [
-        {
-          "text": "maintained",
-          "bbox": [
-            [
-              540,
-              1413
-            ],
-            [
-              761,
-              1414
-            ],
-            [
-              761,
-              1455
-            ],
-            [
-              540,
-              1454
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "UNDERSTANDING THE TERM",
-      "bbox": [
-        [
-          429,
-          1511
-        ],
-        [
-          1282,
-          1511
-        ],
-        [
-          1282,
-          1569
-        ],
-        [
-          429,
-          1571
-        ]
-      ],
-      "words": [
-        {
-          "text": "UNDERSTANDING",
-          "bbox": [
-            [
-              433,
-              1514
-            ],
-            [
-              906,
-              1511
-            ],
-            [
-              905,
-              1571
-            ],
-            [
-              431,
-              1572
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "MULTIPOLARITY",
-      "bbox": [
-        [
-          431,
-          1571
-        ],
-        [
-          814,
-          1571
-        ],
-        [
-          814,
-          1627
-        ],
-        [
-          431,
-          1628
-        ]
-      ],
-      "words": [
-        {
-          "text": "MULTIPOLARITY",
-          "bbox": [
-            [
-              434,
-              1572
-            ],
-            [
-              808,
-              1571
-            ],
-            [
-              808,
-              1629
-            ],
-            [
-              433,
-              1629
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "HOW MULTIPOLARITY FUELS WAR",
-      "bbox": [
-        [
-          434,
-          1687
-        ],
-        [
-          1408,
-          1683
-        ],
-        [
-          1408,
-          1741
-        ],
-        [
-          434,
-          1745
-        ]
-      ],
-      "words": [
-        {
-          "text": "HOW",
-          "bbox": [
-            [
-              436,
-              1694
-            ],
-            [
-              544,
-              1691
-            ],
-            [
-              545,
-              1745
-            ],
-            [
-              437,
-              1744
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(a). Multipolarity strengthens strategic",
-      "bbox": [
-        [
-          439,
-          1815
-        ],
-        [
-          1429,
-          1815
-        ],
-        [
-          1429,
-          1867
-        ],
-        [
-          439,
-          1868
-        ]
-      ],
-      "words": [
-        {
-          "text": "(a).",
-          "bbox": [
-            [
-              439,
-              1815
-            ],
-            [
-              535,
-              1816
-            ],
-            [
-              535,
-              1867
-            ],
-            [
-              439,
-              1869
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "uncertainty among great powers.",
-      "bbox": [
-        [
-          544,
-          1877
-        ],
-        [
-          1388,
-          1877
-        ],
-        [
-          1388,
-          1920
-        ],
-        [
-          544,
-          1921
-        ]
-      ],
-      "words": [
-        {
-          "text": "uncertainty",
-          "bbox": [
-            [
-              545,
-              1878
-            ],
-            [
-              789,
-              1877
-            ],
-            [
-              788,
-              1920
-            ],
-            [
-              544,
-              1922
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "· US-China - Russia competition.",
-      "bbox": [
-        [
-          555,
-          1933
-        ],
-        [
-          1300,
-          1937
-        ],
-        [
-          1300,
-          1981
-        ],
-        [
-          555,
-          1979
-        ]
-      ],
-      "words": [
-        {
-          "text": "US-China",
-          "bbox": [
-            [
-              621,
-              1934
-            ],
-            [
-              841,
-              1935
-            ],
-            [
-              839,
-              1981
-            ],
-            [
-              620,
-              1980
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(b). Multipolarity sharpens the security",
-      "bbox": [
-        [
-          417,
-          2038
-        ],
-        [
-          1386,
-          2041
-        ],
-        [
-          1386,
-          2101
-        ],
-        [
-          417,
-          2100
-        ]
-      ],
-      "words": [
-        {
-          "text": "(b).",
-          "bbox": [
-            [
-              420,
-              2038
-            ],
-            [
-              504,
-              2043
-            ],
-            [
-              501,
-              2101
+              506,
+              1497
             ],
             [
               417,
-              2101
+              1496
             ]
           ]
         }
       ]
     },
     {
-      "text": "dilemma and fuels arms race.",
+      "text": "women education ITUTE",
       "bbox": [
         [
-          545,
-          2114
+          405,
+          1520
         ],
         [
-          1366,
+          1138,
+          1514
+        ],
+        [
+          1138,
+          1587
+        ],
+        [
+          406,
+          1587
+        ]
+      ],
+      "words": [
+        {
+          "text": "women",
+          "bbox": [
+            [
+              406,
+              1536
+            ],
+            [
+              566,
+              1529
+            ],
+            [
+              568,
+              1581
+            ],
+            [
+              408,
+              1579
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "II. How strengthening the female",
+      "bbox": [
+        [
+          392,
+          1600
+        ],
+        [
+          1441,
+          1593
+        ],
+        [
+          1442,
+          1665
+        ],
+        [
+          392,
+          1671
+        ]
+      ],
+      "words": [
+        {
+          "text": "II.",
+          "bbox": [
+            [
+              396,
+              1606
+            ],
+            [
+              479,
+              1604
+            ],
+            [
+              477,
+              1670
+            ],
+            [
+              394,
+              1671
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "mind by enlarging it with education",
+      "bbox": [
+        [
+          417,
+          1684
+        ],
+        [
+          1495,
+          1682
+        ],
+        [
+          1496,
+          1750
+        ],
+        [
+          417,
+          1753
+        ]
+      ],
+      "words": [
+        {
+          "text": "mind",
+          "bbox": [
+            [
+              419,
+              1688
+            ],
+            [
+              566,
+              1686
+            ],
+            [
+              564,
+              1753
+            ],
+            [
+              418,
+              1753
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Godsends blind obedience:",
+      "bbox": [
+        [
+          417,
+          1758
+        ],
+        [
+          1318,
+          1762
+        ],
+        [
+          1318,
+          1830
+        ],
+        [
+          417,
+          1827
+        ]
+      ],
+      "words": [
+        {
+          "text": "Godsends",
+          "bbox": [
+            [
+              421,
+              1759
+            ],
+            [
+              742,
+              1762
+            ],
+            [
+              741,
+              1830
+            ],
+            [
+              420,
+              1828
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "1. Only educated female breaks free from",
+      "bbox": [
+        [
+          415,
+          1857
+        ],
+        [
+          1438,
+          1854
+        ],
+        [
+          1438,
+          1914
+        ],
+        [
+          415,
+          1919
+        ]
+      ],
+      "words": [
+        {
+          "text": "Only",
+          "bbox": [
+            [
+              486,
+              1862
+            ],
+            [
+              586,
+              1859
+            ],
+            [
+              586,
+              1919
+            ],
+            [
+              486,
+              1920
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the shackles of patriarchal mind set that",
+      "bbox": [
+        [
+          449,
+          1939
+        ],
+        [
+          1473,
+          1936
+        ],
+        [
+          1473,
+          1991
+        ],
+        [
+          449,
+          1995
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              459,
+              1945
+            ],
+            [
+              547,
+              1943
+            ],
+            [
+              546,
+              1993
+            ],
+            [
+              458,
+              1993
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "demands blind obedience.",
+      "bbox": [
+        [
+          446,
+          2026
+        ],
+        [
+          1091,
+          2028
+        ],
+        [
+          1091,
+          2079
+        ],
+        [
+          446,
+          2075
+        ]
+      ],
+      "words": [
+        {
+          "text": "demands",
+          "bbox": [
+            [
+              448,
+              2026
+            ],
+            [
+              658,
+              2027
+            ],
+            [
+              657,
+              2075
+            ],
+            [
+              448,
+              2074
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "2. Educated female secures economic",
+      "bbox": [
+        [
+          415,
           2113
         ],
         [
-          1366,
-          2161
+          1351,
+          2108
         ],
         [
-          545,
+          1351,
+          2155
+        ],
+        [
+          415,
           2162
         ]
       ],
       "words": [
         {
-          "text": "dilemma",
+          "text": "Educated",
           "bbox": [
             [
-              548,
-              2118
+              481,
+              2113
             ],
             [
-              734,
-              2115
+              669,
+              2112
             ],
             [
-              734,
-              2160
+              671,
+              2161
             ],
             [
-              547,
+              483,
               2163
             ]
           ]
@@ -1104,139 +1104,227 @@
       ]
     },
     {
-      "text": "· Indo-Pacific militarization",
+      "text": "independence which protects from obeying",
       "bbox": [
         [
-          560,
-          2172
+          441,
+          2189
         ],
         [
-          1195,
-          2176
+          1493,
+          2191
         ],
         [
-          1194,
-          2221
+          1493,
+          2249
         ],
         [
-          560,
-          2215
+          441,
+          2245
         ]
       ],
       "words": [
         {
-          "text": "Indo-Pacific",
+          "text": "independence",
           "bbox": [
             [
-              614,
-              2172
+              442,
+              2190
             ],
             [
-              866,
-              2174
+              787,
+              2190
             ],
             [
-              866,
-              2219
+              787,
+              2245
             ],
             [
-              614,
-              2217
+              441,
+              2243
             ]
           ]
         }
       ]
     },
     {
-      "text": "Scanned with",
+      "text": "mindlessly",
       "bbox": [
         [
-          1566,
-          2461
+          440,
+          2281
         ],
         [
-          1729,
-          2461
+          705,
+          2288
         ],
         [
-          1729,
-          2488
+          703,
+          2337
         ],
         [
-          1566,
-          2487
+          440,
+          2328
         ]
       ],
       "words": [
         {
-          "text": "Scanned",
+          "text": "mindlessly",
           "bbox": [
             [
-              1569,
-              2462
+              455,
+              2282
             ],
             [
-              1669,
-              2462
+              694,
+              2289
             ],
             [
-              1670,
-              2488
+              693,
+              2337
             ],
             [
-              1571,
-              2488
+              455,
+              2328
             ]
           ]
         }
       ]
     },
     {
-      "text": "CS CamScanner",
+      "text": "3. Females strengthened by education lencew",
       "bbox": [
         [
-          1539,
-          2496
+          410,
+          2357
         ],
         [
-          1762,
-          2497
+          1445,
+          2354
         ],
         [
-          1762,
-          2529
+          1445,
+          2413
         ],
         [
-          1538,
-          2525
+          410,
+          2415
         ]
       ],
       "words": [
         {
-          "text": "CamScanner",
+          "text": "Females",
           "bbox": [
             [
-              1581,
+              457,
+              2361
+            ],
+            [
+              637,
+              2359
+            ],
+            [
+              637,
+              2414
+            ],
+            [
+              457,
+              2413
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "their rights and do not submit to injustice.",
+      "bbox": [
+        [
+          427,
+          2437
+        ],
+        [
+          1475,
+          2438
+        ],
+        [
+          1475,
+          2501
+        ],
+        [
+          427,
+          2499
+        ]
+      ],
+      "words": [
+        {
+          "text": "their",
+          "bbox": [
+            [
+              446,
+              2439
+            ],
+            [
+              563,
+              2438
+            ],
+            [
+              562,
+              2495
+            ],
+            [
+              445,
               2497
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "...",
+      "bbox": [
+        [
+          1482,
+          160
+        ],
+        [
+          1502,
+          161
+        ],
+        [
+          1502,
+          195
+        ],
+        [
+          1482,
+          195
+        ]
+      ],
+      "words": [
+        {
+          "text": "...",
+          "bbox": [
+            [
+              1482,
+              160
             ],
             [
-              1762,
-              2498
+              1501,
+              160
             ],
             [
-              1762,
-              2529
+              1500,
+              195
             ],
             [
-              1582,
-              2525
+              1482,
+              194
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "Jannat Nazir 12th Dec, 2015 TOPIC MULTIPOLARITY, PROMOTING PEACE OR FEULLING WARP OUTLINE I INTRODUCTION By strengthening strategic uncertainty among great powers intensifying security dilemma and promoting bloc politics, multipolarity is inadvertently fuelling war. Nevertheless, by empowering international institutions and prioritizing soft power, peace can be maintained .. H UNDERSTANDING THE TERM MULTIPOLARITY ₣ HOW MULTIPOLARITY FUELS WAR (a). Multipolarity strengthens strategic uncertainty among great powers. · US-China - Russia competition. (b). Multipolarity sharpens the security dilemma and fuels arms race. · Indo-Pacific militarization Scanned with CS CamScanner",
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ... MOTOWI IT OFOS 1 Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience I. Introduction It is an undeniable reality that by enlarging the female mind with education, there will be end to blind obedience, yet there are Various reasons which inhibit the process; consequently women across the globe suffer detrimental impacts. Hence, pragmatic policies and actions are needed to stream line women education ITUTE II. How strengthening the female mind by enlarging it with education Godsends blind obedience: 1. Only educated female breaks free from the shackles of patriarchal mind set that demands blind obedience. 2. Educated female secures economic independence which protects from obeying mindlessly 3. Females strengthened by education lencew their rights and do not submit to injustice. ...",
   "attempt": {
     "scale": 1.0,
     "quality": 75
