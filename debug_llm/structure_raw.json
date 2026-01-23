@@ -11,7 +11,8 @@
     "quality": "Strong",
     "issues": [],
     "strengths": [
-      "Clear Roman numeral structure with subpoints and case examples"
+      "Detailed Roman numeral structure with subpoints spanning multiple pages",
+      "Covers introduction, main arguments, impediments, measures, and conclusion"
     ]
   },
   "outline_span": {
@@ -27,27 +28,32 @@
     {
       "title": "II. How strengthening the female mind by enlarging it with education Godsends blind obedience:",
       "page": 1,
-      "notes": "Points 1-3"
+      "notes": "Subpoints 1-3 on breaking patriarchal mindset, economic independence, knowing rights"
+    },
+    {
+      "title": "II. (continued)",
+      "page": 2,
+      "notes": "Subpoints 4-5 on immunity to customs and political participation"
     },
     {
       "title": "III. Impediments in the way of enlarging female mind with education",
       "page": 2,
-      "notes": "Points 1-4 with case points"
+      "notes": "Subpoints 1-4 on societal barriers, economic dependence, child marriages, government provisions"
     },
     {
-      "title": "III. Impediments in the way of enlarging female mind with education",
+      "title": "III. (continued)",
       "page": 3,
-      "notes": "Points 5-6 with case points"
+      "notes": "Subpoints 5-6 on digital divide, lack of security"
     },
     {
       "title": "IV. Measures required to eliminate these impediment in way of women education.",
       "page": 3,
-      "notes": "Points 1-5 with case points"
+      "notes": "Subpoints 1-5 on attitudinal change, skill development, ban on early marriage, digital divide mitigation, enforce laws"
     },
     {
-      "title": "IV. Measures required to eliminate these impediment in way of women education.",
+      "title": "IV. (continued)",
       "page": 4,
-      "notes": "Point 3 continued"
+      "notes": "Continued subpoint 3 on Pakistan articles"
     },
     {
       "title": "NV. Conclusion.",
@@ -59,68 +65,84 @@
   "paragraph_map": [
     {
       "page": 1,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "Title, I. Introduction (brief), II. start with subpoints 1-3"
     },
     {
       "page": 2,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "II. continued 4-5, III. subpoints 1-4"
     },
     {
       "page": 3,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "III. continued 5-6, IV. subpoints 1-5"
     },
     {
       "page": 4,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "IV. continued, NV. Conclusion marker"
     },
     {
       "page": 5,
-      "role_guess": "intro"
+      "role_guess": "intro",
+      "notes": "Expands introduction thesis on education ending blind obedience"
     },
     {
       "page": 6,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands II.1 on patriarchal mindset"
     },
     {
       "page": 7,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands II.2-3 on economic independence, rights"
     },
     {
       "page": 8,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands II.4 on social customs"
     },
     {
       "page": 9,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands II.5 on political participation, transitions to III."
     },
     {
       "page": 10,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands III.1-2 on societal barriers, poverty, dependence"
     },
     {
       "page": 11,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands III.3-4 on child marriages, government provisions"
     },
     {
       "page": 12,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands III.5-6 on digital divide, security"
     },
     {
       "page": 13,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Transitions to IV., expands IV.1 on attitudinal change"
     },
     {
       "page": 14,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands IV.2-3 on skills, marriage ban"
     },
     {
       "page": 15,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Expands IV.4-5 on digital divide, laws/SDGs"
     },
     {
       "page": 16,
-      "role_guess": "conclusion"
+      "role_guess": "conclusion",
+      "notes": "Summarizes thesis, impediments, measures"
     }
   ],
-  "overall_flow_comment": "Outline spans pages 1-4 with clear structure; essay begins page 5 as expanded intro, proceeds through body arguments matching outline points, ends with explicit conclusion on page 16."
+  "overall_flow_comment": "Clear progression from outline to expanded essay; follows outline structure logically through intro, body arguments/impediments/measures, to conclusion."
 }

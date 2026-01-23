@@ -768,12 +768,16 @@ def call_grok_for_essay_grading_strict_range(
         "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
         "Rules:\n"
         "- Output only mark ranges per criterion (e.g., \"6-8\"); width ≤ 3 points.\n"
+        "- Hard cap: the total_awarded_range upper bound MUST NOT exceed 45; scale ranges down to stay under this cap.\n"
         "- Keep totals conservative; strong essays rarely exceed ~38-40/100.\n"
         "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
         "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
         "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
         "- Do not mention OCR/scan/legibility/handwriting; critique clarity/relevance/logic instead.\n"
         "- Headings/section markers may exist; judge what is visible, do not invent.\n"
+        "- Key comments and all free-text fields must be specific: cite the exact weakness/strength (e.g., 'thesis absent', 'claims unsupported by evidence', 'repetitive examples', 'grammar errors in intro'). Avoid generic statements.\n"
+        "- Reasons for low score: provide concrete issues drawn from the essay (structure, argument gaps, evidence, relevance, language); avoid generic advice.\n"
+        "- Suggested improvements for higher score (70+): give targeted, actionable steps tied to observed issues (e.g., 'add data to support claim X', 'state a clear thesis in introduction', 'remove repetition on page 3').\n"
         "- If unsure, choose the lower bound and never leave fields blank.\n"
         "- Return JSON only matching the provided schema."
     )
@@ -821,9 +825,46 @@ def call_grok_for_essay_grading_strict_range(
             lo, hi = _parse_range(rng)
             if hi - lo > 3:
                 hi = lo + 3
+            lo = max(0, lo)
+            hi = max(lo, hi)
             c["marks_awarded_range"] = f"{lo}-{hi}"
             sum_lo += lo
             sum_hi += hi
+
+        # Hard cap: total upper bound should not exceed 45 (strict marking)
+        target_hi_total = 45
+        if sum_hi > target_hi_total and crit_list:
+            scale = target_hi_total / float(sum_hi)
+            new_sum_lo = 0
+            new_sum_hi = 0
+            scaled_ranges: List[Tuple[int, int]] = []
+
+            for c in crit_list:
+                lo, hi = _parse_range(c.get("marks_awarded_range", "0-0"))
+                slo = max(0, int(round(lo * scale)))
+                shi = max(slo, min(int(round(hi * scale)), slo + 3))
+                scaled_ranges.append((slo, shi))
+                new_sum_lo += slo
+                new_sum_hi += shi
+
+            # If rounding still leaves us above the cap, reduce greedily
+            if new_sum_hi > target_hi_total:
+                excess = new_sum_hi - target_hi_total
+                idx = 0
+                while excess > 0 and scaled_ranges:
+                    i = idx % len(scaled_ranges)
+                    lo, hi = scaled_ranges[i]
+                    if hi > lo:
+                        scaled_ranges[i] = (lo, hi - 1)
+                        excess -= 1
+                    idx += 1
+                new_sum_hi = target_hi_total
+                new_sum_lo = sum(r[0] for r in scaled_ranges)
+
+            for c, (slo, shi) in zip(crit_list, scaled_ranges):
+                c["marks_awarded_range"] = f"{slo}-{shi}"
+            sum_lo, sum_hi = new_sum_lo, new_sum_hi
+
         parsed["total_awarded_range"] = f"{sum_lo}-{sum_hi}"
         return parsed
 
@@ -936,6 +977,7 @@ def call_grok_for_essay_annotations(
         "Rules (MUST FOLLOW):\n"
         "- Prefer 2-5 annotations per page.\n"
         "- Every annotation MUST be LOCATABLE on the page.\n"
+        "- You may use type outline_quality ONLY on outline pages listed in allowed_outline_pages; for other pages use other types.\n"
         "\n"
         "ANCHOR RULE (CRITICAL):\n"
         "- You are given OCR_PAGE_TEXT below.\n"
@@ -975,6 +1017,16 @@ def call_grok_for_essay_annotations(
         "paragraph_map": structure.get("paragraph_map", []),
     }
 
+    outline_span = structure.get("outline_span") or {}
+    outline_pages_set = set()
+    try:
+        start_p = int(outline_span.get("start_page")) if outline_span.get("start_page") else None
+        end_p = int(outline_span.get("end_page")) if outline_span.get("end_page") else None
+        if start_p and end_p and end_p >= start_p:
+            outline_pages_set = set(range(start_p, end_p + 1))
+    except Exception:
+        outline_pages_set = set()
+
     for page in ocr_pages:
         page_num = page.get("page_number")
         if not isinstance(page_num, int):
@@ -989,6 +1041,7 @@ def call_grok_for_essay_annotations(
             "ocr_page": _compact_ocr_page(page),
             "ocr_full_text": (ocr_data.get("full_text") or ""),
             "page_image": image_by_page.get(page_num),
+            "allowed_outline_pages": sorted(outline_pages_set),
             "output_schema": schema_hint,
         }
 
@@ -1034,6 +1087,11 @@ def call_grok_for_essay_annotations(
                     if not isinstance(a, dict):
                         continue
                     aq = a.get("anchor_quote", "")
+                    atype = (a.get("type") or "").strip()
+                    # Enforce outline_quality only on outline pages
+                    if atype == "outline_quality" and outline_pages_set and page_num not in outline_pages_set:
+                        invalid_count += 1
+                        continue
                     
                     # If anchor_quote is empty, keep annotation anyway (just note it)
                     if not aq or not _anchor_is_valid(aq, ocr_page_text):
@@ -1164,11 +1222,10 @@ def render_essay_report_pages_range(
         cell_font = _scaled_font(base_sizes["cell"], scale)
         small_font = _scaled_font(base_sizes["small"], scale)
 
-        col_criterion = int(W * 0.33)
-        col_alloc = int(W * 0.12)
-        col_award = int(W * 0.14)
-        col_rating = int(W * 0.12)
-        col_comments = W - margin * 2 - (col_criterion + col_alloc + col_award + col_rating)
+        col_criterion = int(W * 0.34)
+        col_alloc = int(W * 0.10)
+        col_award = int(W * 0.12)
+        col_comments = W - margin * 2 - (col_criterion + col_alloc + col_award)
 
         img = Image.new("RGB", (W, H), "white")
         draw = ImageDraw.Draw(img)
@@ -1200,14 +1257,16 @@ def render_essay_report_pages_range(
         table_x = margin
         table_w = W - 2 * margin
         row_h_base = max(40, int(72 * scale))
+        header_fill = (100, 100, 100)
+        alt_fill = (200, 200, 200)
 
-        headers = ["Criterion", "Total Marks", "Marks Range", "Rating", "Key Comments"]
+        headers = ["Criterion", "Total Marks", "Marks Range", "Key Comments"]
         if not ensure_space(row_h_base + int(20 * scale)):
             return False, None
-        draw.rectangle([table_x, y, table_x + table_w, y + row_h_base], outline=(0, 0, 0), width=3)
+        draw.rectangle([table_x, y, table_x + table_w, y + row_h_base], fill=header_fill, outline=(0, 0, 0), width=3)
 
         x = table_x
-        splits = [col_criterion, col_alloc, col_award, col_rating, col_comments]
+        splits = [col_criterion, col_alloc, col_award, col_comments]
         for i, htxt in enumerate(headers):
             wcol = splits[i]
             draw.text((x + int(10 * scale), y + int(12 * scale)), htxt, font=header_font, fill=(0, 0, 0))
@@ -1217,7 +1276,7 @@ def render_essay_report_pages_range(
         y += row_h_base
 
         crit_list = grading.get("criteria") or []
-        for c in crit_list:
+        for idx_row, c in enumerate(crit_list):
             crit = c.get("criterion", "")
             alloc = str(c.get("marks_allocated", ""))
             award_range = str(c.get("marks_awarded_range", "0-0"))
@@ -1233,7 +1292,8 @@ def render_essay_report_pages_range(
 
             if not ensure_space(row_h + int(10 * scale)):
                 return False, None
-            draw.rectangle([table_x, y, table_x + table_w, y + row_h], outline=(0, 0, 0), width=2)
+            fill_color = alt_fill if idx_row % 2 == 0 else None
+            draw.rectangle([table_x, y, table_x + table_w, y + row_h], fill=fill_color, outline=(0, 0, 0), width=2)
 
             x = table_x
             yy = y + int(12 * scale)
@@ -1251,10 +1311,6 @@ def render_essay_report_pages_range(
             x += col_award
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
-            draw.text((x + int(10 * scale), y + int(12 * scale)), rating, font=header_font, fill=(0, 0, 0))
-            x += col_rating
-            draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
-
             yy = y + int(12 * scale)
             for ln in comment_lines:
                 draw.text((x + int(10 * scale), yy), ln, font=header_font, fill=(0, 0, 0))
@@ -1262,11 +1318,8 @@ def render_essay_report_pages_range(
 
             y += row_h
 
-        if not ensure_space(int(140 * scale)):
-            return False, None
+        # Spacer between table and bullet sections
         y += int(40 * scale)
-        draw.text((margin, y), f"Overall Rating: {grading.get('overall_rating','')}", font=title_font, fill=(0, 0, 0))
-        y += int(120 * scale)
 
         def draw_bullets(title: str, bullets: List[str]) -> bool:
             nonlocal y
@@ -1435,6 +1488,7 @@ def main():
     )
     print("Grading done.")
     
+    '''
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1444,7 +1498,8 @@ def main():
         grading=grading,
         page_images=page_images,
     )
-    
+    '''
+    ann_pack = {"annotations": [], "page_suggestions": [], "errors": []}
 
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []

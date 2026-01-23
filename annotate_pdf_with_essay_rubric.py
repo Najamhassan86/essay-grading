@@ -939,15 +939,11 @@ def annotate_pdf_essay_pages(
             last_bottom_y = by2
 
             # highlight + connector only if rect exists
-            if rect:
-                cv2.rectangle(canvas, (rect[0], rect[1]), (rect[2], rect[3]), (0, 0, 255), 2)
-
             cv2.rectangle(canvas, (bx1, by1), (bx2, by2), (0, 0, 255), 2)
             _draw_wrapped_text(canvas, bx1 + 12, by1 + 24, header, header_scale, 2, box_w - 24, (0, 0, 255), line_gap=l_gap)
             _draw_wrapped_text(canvas, bx1 + 12, by1 + 30 + h_h, body, body_scale, 2, box_w - 24, (0, 0, 0), line_gap=l_gap)
 
-            if rect:
-                _draw_connector(canvas, rect, (bx1, by1, bx2, by2), (0, 0, 255))
+            # Intentionally omit on-page highlights/connectors to avoid overlaying essay content.
 
         annotated_pages.append(Image.fromarray(canvas[:, :, ::-1]))
 
