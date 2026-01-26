@@ -1,5 +1,5 @@
 {
-  "topic": "Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience",
+  "topic": "DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREAM",
   "outline": {
     "present": true,
     "pages": [
@@ -8,11 +8,16 @@
       3,
       4
     ],
-    "quality": "Strong",
-    "issues": [],
+    "quality": "Weak",
+    "issues": [
+      "Inconsistent Roman numeral sequencing (I, II, then restarts at I for factors, skips III, jumps to IV)",
+      "Factors section mislabeled as I after II",
+      "Short bullet points with case examples rather than detailed plan"
+    ],
     "strengths": [
-      "Detailed Roman numeral structure with subpoints spanning multiple pages",
-      "Covers introduction, main arguments, impediments, measures, and conclusion"
+      "Roman numeral main sections visible",
+      "Numbered subpoints under factors and suggestions",
+      "Includes introduction, factors, suggestions, conclusion structure"
     ]
   },
   "outline_span": {
@@ -21,44 +26,39 @@
   },
   "outline_sections": [
     {
-      "title": "I. Introduction",
+      "title": "I. INTRODUCTION",
       "page": 1,
-      "notes": "Short paragraph on reality of female education ending blind obedience and need for policies"
+      "notes": "Short paragraph on proverb importance"
     },
     {
-      "title": "II. How strengthening the female mind by enlarging it with education Godsends blind obedience:",
+      "title": "II. DECODING THE PROVERB: DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREM",
       "page": 1,
-      "notes": "Subpoints 1-3 on breaking patriarchal mindset, economic independence, knowing rights"
+      "notes": "Short phrase"
     },
     {
-      "title": "II. (continued)",
+      "title": "I. FACTORS WHICH MAKES WATER An FINITE SOURCE DESPITE ITS APPARENT ABUNDANCE",
       "page": 2,
-      "notes": "Subpoints 4-5 on immunity to customs and political participation"
+      "notes": "Points 1-3 with CASE IN POINT"
     },
     {
-      "title": "III. Impediments in the way of enlarging female mind with education",
-      "page": 2,
-      "notes": "Subpoints 1-4 on societal barriers, economic dependence, child marriages, government provisions"
-    },
-    {
-      "title": "III. (continued)",
+      "title": "FACTORS continuation",
       "page": 3,
-      "notes": "Subpoints 5-6 on digital divide, lack of security"
+      "notes": "Points 4-7 with CASE IN POINT"
     },
     {
-      "title": "IV. Measures required to eliminate these impediment in way of women education.",
+      "title": "IV. SUGGESTIONS TO CONSERVE FINITE WATER RESOURE EFFICIENTLY",
       "page": 3,
-      "notes": "Subpoints 1-5 on attitudinal change, skill development, ban on early marriage, digital divide mitigation, enforce laws"
+      "notes": "Point 1"
     },
     {
-      "title": "IV. (continued)",
+      "title": "SUGGESTIONS continuation",
       "page": 4,
-      "notes": "Continued subpoint 3 on Pakistan articles"
+      "notes": "Points 3-5 with CASE IN POINT"
     },
     {
-      "title": "NV. Conclusion.",
+      "title": "V. CONCLUSION",
       "page": 4,
-      "notes": "Marker only"
+      "notes": "Short marker"
     }
   ],
   "essay_start_page": 5,
@@ -66,83 +66,93 @@
     {
       "page": 1,
       "role_guess": "outline",
-      "notes": "Title, I. Introduction (brief), II. start with subpoints 1-3"
+      "notes": "Title, I. INTRODUCTION, II. DECODING"
     },
     {
       "page": 2,
       "role_guess": "outline",
-      "notes": "II. continued 4-5, III. subpoints 1-4"
+      "notes": "I. FACTORS 1-3"
     },
     {
       "page": 3,
       "role_guess": "outline",
-      "notes": "III. continued 5-6, IV. subpoints 1-5"
+      "notes": "FACTORS 4-7, IV. SUGGESTIONS 1"
     },
     {
       "page": 4,
       "role_guess": "outline",
-      "notes": "IV. continued, NV. Conclusion marker"
+      "notes": "SUGGESTIONS 3-5, V. CONCLUSION"
     },
     {
       "page": 5,
       "role_guess": "intro",
-      "notes": "Expands introduction thesis on education ending blind obedience"
+      "notes": "Proverb explanation, importance"
     },
     {
       "page": 6,
       "role_guess": "body",
-      "notes": "Expands II.1 on patriarchal mindset"
+      "notes": "Factors discussion"
     },
     {
       "page": 7,
       "role_guess": "body",
-      "notes": "Expands II.2-3 on economic independence, rights"
+      "notes": "Climate change, glaciers"
     },
     {
       "page": 8,
       "role_guess": "body",
-      "notes": "Expands II.4 on social customs"
+      "notes": "Overconsumption"
     },
     {
       "page": 9,
       "role_guess": "body",
-      "notes": "Expands II.5 on political participation, transitions to III."
+      "notes": "Wastage statistics"
     },
     {
       "page": 10,
       "role_guess": "body",
-      "notes": "Expands III.1-2 on societal barriers, poverty, dependence"
+      "notes": "Water pollution"
     },
     {
       "page": 11,
       "role_guess": "body",
-      "notes": "Expands III.3-4 on child marriages, government provisions"
+      "notes": "Lack of reservoirs"
     },
     {
       "page": 12,
       "role_guess": "body",
-      "notes": "Expands III.5-6 on digital divide, security"
+      "notes": "Irresponsible attitudes"
     },
     {
       "page": 13,
       "role_guess": "body",
-      "notes": "Transitions to IV., expands IV.1 on attitudinal change"
+      "notes": "Inconsistent policies"
     },
     {
       "page": 14,
       "role_guess": "body",
-      "notes": "Expands IV.2-3 on skills, marriage ban"
+      "notes": "Suggestions: ethical duty"
     },
     {
       "page": 15,
       "role_guess": "body",
-      "notes": "Expands IV.4-5 on digital divide, laws/SDGs"
+      "notes": "Agriculture techniques, industry"
     },
     {
       "page": 16,
+      "role_guess": "body",
+      "notes": "Dams, rainwater harvest"
+    },
+    {
+      "page": 17,
       "role_guess": "conclusion",
-      "notes": "Summarizes thesis, impediments, measures"
+      "notes": "To conclude summary"
+    },
+    {
+      "page": 18,
+      "role_guess": "conclusion",
+      "notes": "Final remarks"
     }
   ],
-  "overall_flow_comment": "Clear progression from outline to expanded essay; follows outline structure logically through intro, body arguments/impediments/measures, to conclusion."
+  "overall_flow_comment": "Weak outline (1-4) transitions to prose expansion of points (5-16 body), ends with conclusion (17-18)."
 }

@@ -303,7 +303,7 @@ def get_report_page_size(
 ) -> Tuple[int, int]:
     """
     Match report page size to the annotated canvas:
-    annotated pages use left=50% and right=40% of the PDF width, at 220 DPI.
+    annotated pages use left=60% and right=40% of the PDF width (total = 2x PDF width) at 220 DPI.
     """
     doc = fitz.open(pdf_path)
     try:
@@ -312,8 +312,8 @@ def get_report_page_size(
         pix = doc[0].get_pixmap(dpi=dpi)
         orig_w, orig_h = pix.width, pix.height
 
-        # Match annotate_pdf_essay_pages canvas: total width = orig_w * 1.9, height = orig_h
-        report_w = int(orig_w * 1.9)
+        # Match annotate_pdf_essay_pages canvas: total width = orig_w * 2.0, height = orig_h
+        report_w = int(orig_w * 2.0)
         report_h = max(orig_h, min_height)
         return (report_w, report_h)
     except Exception:
@@ -869,14 +869,14 @@ def call_grok_for_essay_grading_strict_range(
         return parsed
 
     last_err: Optional[Exception] = None
-    for _ in range(2):
+    for _ in range(4):
         data = _grok_chat(
             grok_api_key,
             messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
             temperature=0.12,
         )
         content = data["choices"][0]["message"]["content"]
-        parsed = parse_json_with_repair(grok_api_key, content, debug_tag="essay_grading")
+        parsed = parse_json_with_repair(grok_api_key, content, debug_tag="essay_grading", max_fix_attempts=3)
         parsed = _enforce_range_rules(parsed)
         if _is_valid_grading(parsed):
             return parsed
@@ -991,7 +991,7 @@ def call_grok_for_essay_annotations(
         "  grammar_language, repetitiveness, argumentation_depth,\n"
         "  organization_coherence, conclusion_quality, relevance_focus.\n"
         "\n"
-        "- page_suggestions: 2-4 short bullets for this page only.\n"
+        "- page_suggestions: 2-4 short bullets for this page only; make them specific and actionable (e.g., 'state thesis in first paragraph', 'replace repeated phrase X', 'add evidence for claim Y'), not generic.\n"
         "- Never mention OCR/scan/handwriting/legibility.\n"
         "Return JSON only matching schema."
     )
@@ -1336,7 +1336,7 @@ def render_essay_report_pages_range(
                 for j, ln in enumerate(wrapped):
                     if not ensure_space(int(75 * scale)):
                         return False
-                    prefix = "• " if j == 0 else "  "
+                    prefix = "- " if j == 0 else "  "
                     draw.text((margin + int(35 * scale), y), prefix + ln, font=header_font, fill=(0, 0, 0))
                     y += int(70 * scale)
                 if not ensure_space(int(25 * scale)):
@@ -1488,7 +1488,7 @@ def main():
     )
     print("Grading done.")
     
-    '''
+    
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1498,8 +1498,8 @@ def main():
         grading=grading,
         page_images=page_images,
     )
-    '''
-    ann_pack = {"annotations": [], "page_suggestions": [], "errors": []}
+    
+    
 
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []

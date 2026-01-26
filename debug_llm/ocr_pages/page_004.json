@@ -4,315 +4,1151 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "3. In Pakistan, ensure implementation",
+      "text": "as moral and ethical duty at",
       "bbox": [
         [
-          663,
-          225
+          432,
+          280
         ],
         [
-          1557,
-          229
+          1383,
+          275
         ],
         [
-          1557,
-          287
+          1384,
+          340
         ],
         [
-          663,
-          282
+          432,
+          341
         ]
       ],
       "words": [
         {
-          "text": "Pakistan,",
+          "text": "moral",
           "bbox": [
             [
-              787,
-              225
+              526,
+              287
             ],
             [
-              1004,
-              226
+              696,
+              282
             ],
             [
-              1003,
-              285
+              697,
+              337
             ],
             [
-              786,
-              283
+              527,
+              339
             ]
           ]
         }
       ]
     },
     {
-      "text": "of Article 25, and Article 38",
+      "text": "international as well as national",
       "bbox": [
         [
-          707,
-          311
+          416,
+          354
         ],
         [
-          1430,
-          314
+          1480,
+          354
         ],
         [
-          1430,
-          368
+          1480,
+          421
         ],
         [
-          707,
-          365
+          416,
+          422
         ]
       ],
       "words": [
         {
-          "text": "Article",
+          "text": "international",
           "bbox": [
             [
-              783,
-              313
-            ],
-            [
-              945,
-              314
-            ],
-            [
-              946,
-              364
-            ],
-            [
-              784,
+              420,
               365
+            ],
+            [
+              774,
+              356
+            ],
+            [
+              774,
+              412
+            ],
+            [
+              419,
+              419
             ]
           ]
         }
       ]
     },
     {
-      "text": "NV. Conclusion.",
+      "text": "level.",
       "bbox": [
         [
-          367,
-          375
+          437,
+          448
         ],
         [
-          900,
-          379
+          612,
+          443
         ],
         [
-          899,
-          457
+          614,
+          493
         ],
         [
-          367,
-          456
+          437,
+          498
         ]
       ],
       "words": [
         {
-          "text": "NV.",
+          "text": "level.",
           "bbox": [
             [
-              380,
-              377
+              459,
+              448
             ],
             [
-              484,
-              375
+              614,
+              444
             ],
             [
-              484,
-              457
+              614,
+              494
             ],
             [
-              380,
-              457
+              459,
+              498
             ]
           ]
         }
       ]
     },
     {
-      "text": "0000",
+      "text": "CASE IN POINT: () Celebration of Water",
       "bbox": [
         [
-          835,
-          955
+          400,
+          507
         ],
         [
-          829,
-          1224
+          1451,
+          509
         ],
         [
-          738,
-          1222
+          1451,
+          576
         ],
         [
-          741,
-          954
+          400,
+          575
         ]
       ],
       "words": [
         {
-          "text": "0000",
+          "text": "CASE",
           "bbox": [
             [
-              834,
-              970
+              404,
+              515
             ],
             [
-              824,
-              1210
+              546,
+              511
             ],
             [
-              763,
-              1219
+              545,
+              576
             ],
             [
-              764,
-              957
+              402,
+              576
             ]
           ]
         }
       ]
     },
     {
-      "text": "READ RIGHT",
+      "text": "Conservation day, begining at school",
       "bbox": [
         [
-          444,
-          1335
+          407,
+          596
         ],
         [
-          1419,
+          1423,
+          600
+        ],
+        [
+          1423,
+          660
+        ],
+        [
+          406,
+          655
+        ]
+      ],
+      "words": [
+        {
+          "text": "Conservation",
+          "bbox": [
+            [
+              408,
+              597
+            ],
+            [
+              746,
+              598
+            ],
+            [
+              745,
+              658
+            ],
+            [
+              407,
+              651
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "level. (ii) Nationally set water",
+      "bbox": [
+        [
+          410,
+          673
+        ],
+        [
+          1353,
+          684
+        ],
+        [
+          1352,
+          742
+        ],
+        [
+          409,
+          736
+        ]
+      ],
+      "words": [
+        {
+          "text": "level.",
+          "bbox": [
+            [
+              414,
+              674
+            ],
+            [
+              573,
+              676
+            ],
+            [
+              571,
+              738
+            ],
+            [
+              412,
+              733
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "conservation goals, and awarners.",
+      "bbox": [
+        [
+          427,
+          768
+        ],
+        [
+          1394,
+          769
+        ],
+        [
+          1394,
+          819
+        ],
+        [
+          426,
+          816
+        ]
+      ],
+      "words": [
+        {
+          "text": "conservation",
+          "bbox": [
+            [
+              429,
+              768
+            ],
+            [
+              745,
+              768
+            ],
+            [
+              745,
+              818
+            ],
+            [
+              429,
+              811
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "3. Use of water",
+      "bbox": [
+        [
+          384,
+          932
+        ],
+        [
+          896,
+          925
+        ],
+        [
+          897,
+          975
+        ],
+        [
+          385,
+          985
+        ]
+      ],
+      "words": [
+        {
+          "text": "Use",
+          "bbox": [
+            [
+              478,
+              933
+            ],
+            [
+              559,
+              929
+            ],
+            [
+              560,
+              981
+            ],
+            [
+              480,
+              983
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "conservation",
+      "bbox": [
+        [
+          903,
+          931
+        ],
+        [
+          1338,
+          928
+        ],
+        [
+          1339,
+          977
+        ],
+        [
+          903,
+          982
+        ]
+      ],
+      "words": [
+        {
+          "text": "conservation",
+          "bbox": [
+            [
+              957,
+              932
+            ],
+            [
+              1325,
+              929
+            ],
+            [
+              1326,
+              977
+            ],
+            [
+              957,
+              982
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "techniques in agriculture.",
+      "bbox": [
+        [
+          447,
+          1003
+        ],
+        [
+          1272,
+          1011
+        ],
+        [
+          1272,
+          1073
+        ],
+        [
+          446,
+          1068
+        ]
+      ],
+      "words": [
+        {
+          "text": "techniques",
+          "bbox": [
+            [
+              459,
+              1004
+            ],
+            [
+              760,
+              1006
+            ],
+            [
+              759,
+              1072
+            ],
+            [
+              457,
+              1068
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CASE IN POINT: \"Crop per drop\"",
+      "bbox": [
+        [
+          415,
+          1086
+        ],
+        [
+          1392,
+          1091
+        ],
+        [
+          1391,
+          1156
+        ],
+        [
+          414,
+          1151
+        ]
+      ],
+      "words": [
+        {
+          "text": "CASE",
+          "bbox": [
+            [
+              426,
+              1086
+            ],
+            [
+              574,
+              1086
+            ],
+            [
+              574,
+              1154
+            ],
+            [
+              425,
+              1152
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "techniques",
+      "bbox": [
+        [
+          442,
+          1173
+        ],
+        [
+          758,
+          1186
+        ],
+        [
+          756,
+          1235
+        ],
+        [
+          441,
+          1223
+        ]
+      ],
+      "words": [
+        {
+          "text": "techniques",
+          "bbox": [
+            [
+              463,
+              1175
+            ],
+            [
+              757,
+              1187
+            ],
+            [
+              757,
+              1235
+            ],
+            [
+              462,
+              1223
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "4. Regulate industrial sector",
+      "bbox": [
+        [
+          395,
+          1333
+        ],
+        [
+          1352,
           1332
         ],
         [
-          1419,
-          1459
+          1352,
+          1391
         ],
         [
-          444,
-          1462
+          395,
+          1394
         ]
       ],
       "words": [
         {
-          "text": "READ",
+          "text": "Regulate",
           "bbox": [
             [
-              448,
-              1338
+              503,
+              1337
             ],
             [
-              805,
-              1335
+              765,
+              1333
             ],
             [
-              805,
-              1462
+              764,
+              1394
             ],
             [
-              444,
-              1462
+              502,
+              1393
             ]
           ]
         }
       ]
     },
     {
-      "text": "INSTITUTE",
+      "text": "and penalize those contributing",
       "bbox": [
         [
-          704,
+          425,
+          1412
+        ],
+        [
+          1430,
+          1410
+        ],
+        [
+          1430,
           1473
         ],
         [
-          1170,
-          1472
-        ],
-        [
-          1170,
-          1549
-        ],
-        [
-          704,
-          1550
+          425,
+          1477
         ]
       ],
       "words": [
         {
-          "text": "INSTITUTE",
+          "text": "and",
           "bbox": [
             [
-              705,
-              1476
+              428,
+              1423
             ],
             [
-              1169,
-              1473
+              526,
+              1419
             ],
             [
-              1171,
-              1550
+              525,
+              1478
             ],
             [
-              704,
-              1550
+              427,
+              1478
             ]
           ]
         }
       ]
     },
     {
-      "text": "SYED TAIMOOR BUKHARI",
+      "text": "to water pollution",
       "bbox": [
         [
-          642,
-          1589
+          422,
+          1498
         ],
         [
-          1229,
-          1589
+          1044,
+          1496
         ],
         [
-          1229,
-          1635
+          1044,
+          1558
         ],
         [
-          642,
-          1636
+          422,
+          1561
         ]
       ],
       "words": [
         {
-          "text": "SYED",
+          "text": "water",
           "bbox": [
             [
-              646,
-              1590
+              563,
+              1499
+            ],
+            [
+              751,
+              1497
             ],
             [
               748,
-              1590
+              1560
             ],
             [
-              748,
-              1636
+              561,
+              1561
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ARI",
+      "bbox": [
+        [
+          1164,
+          1509
+        ],
+        [
+          1250,
+          1511
+        ],
+        [
+          1249,
+          1559
+        ],
+        [
+          1163,
+          1557
+        ]
+      ],
+      "words": [
+        {
+          "text": "ARI",
+          "bbox": [
+            [
+              1173,
+              1509
             ],
             [
-              645,
-              1637
+              1247,
+              1511
+            ],
+            [
+              1246,
+              1559
+            ],
+            [
+              1172,
+              1557
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CASE IN POINT: Make waste filteration",
+      "bbox": [
+        [
+          406,
+          1582
+        ],
+        [
+          1491,
+          1566
+        ],
+        [
+          1492,
+          1630
+        ],
+        [
+          407,
+          1647
+        ]
+      ],
+      "words": [
+        {
+          "text": "CASE",
+          "bbox": [
+            [
+              410,
+              1582
+            ],
+            [
+              553,
+              1581
+            ],
+            [
+              552,
+              1645
+            ],
+            [
+              409,
+              1647
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "plant on site mandatory before",
+      "bbox": [
+        [
+          422,
+          1668
+        ],
+        [
+          1414,
+          1656
+        ],
+        [
+          1415,
+          1718
+        ],
+        [
+          422,
+          1731
+        ]
+      ],
+      "words": [
+        {
+          "text": "plant",
+          "bbox": [
+            [
+              433,
+              1672
+            ],
+            [
+              569,
+              1668
+            ],
+            [
+              570,
+              1728
+            ],
+            [
+              433,
+              1731
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "letting into water streams.",
+      "bbox": [
+        [
+          418,
+          1746
+        ],
+        [
+          1232,
+          1741
+        ],
+        [
+          1233,
+          1800
+        ],
+        [
+          418,
+          1808
+        ]
+      ],
+      "words": [
+        {
+          "text": "letting",
+          "bbox": [
+            [
+              424,
+              1750
+            ],
+            [
+              599,
+              1746
+            ],
+            [
+              596,
+              1806
+            ],
+            [
+              420,
+              1809
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5. Increase number of water",
+      "bbox": [
+        [
+          389,
+          1914
+        ],
+        [
+          1361,
+          1904
+        ],
+        [
+          1362,
+          1964
+        ],
+        [
+          389,
+          1975
+        ]
+      ],
+      "words": [
+        {
+          "text": "Increase",
+          "bbox": [
+            [
+              472,
+              1914
+            ],
+            [
+              753,
+              1911
+            ],
+            [
+              753,
+              1973
+            ],
+            [
+              471,
+              1975
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "reservoirs such as dams.",
+      "bbox": [
+        [
+          426,
+          2000
+        ],
+        [
+          1274,
+          1990
+        ],
+        [
+          1275,
+          2047
+        ],
+        [
+          426,
+          2055
+        ]
+      ],
+      "words": [
+        {
+          "text": "reservoirs",
+          "bbox": [
+            [
+              452,
+              2002
+            ],
+            [
+              729,
+              1997
+            ],
+            [
+              728,
+              2055
+            ],
+            [
+              451,
+              2055
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CASE IN POINT: () Build more dams",
+      "bbox": [
+        [
+          403,
+          2076
+        ],
+        [
+          1455,
+          2074
+        ],
+        [
+          1455,
+          2139
+        ],
+        [
+          403,
+          2144
+        ]
+      ],
+      "words": [
+        {
+          "text": "CASE",
+          "bbox": [
+            [
+              407,
+              2076
+            ],
+            [
+              554,
+              2079
+            ],
+            [
+              554,
+              2144
+            ],
+            [
+              406,
+              2142
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "(ii) Promote \"rain water harvest\"",
+      "bbox": [
+        [
+          401,
+          2159
+        ],
+        [
+          1377,
+          2158
+        ],
+        [
+          1377,
+          2222
+        ],
+        [
+          401,
+          2226
+        ]
+      ],
+      "words": [
+        {
+          "text": "(ii)",
+          "bbox": [
+            [
+              402,
+              2159
+            ],
+            [
+              481,
+              2160
+            ],
+            [
+              481,
+              2227
+            ],
+            [
+              402,
+              2227
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Set ups in urban setups.",
+      "bbox": [
+        [
+          418,
+          2243
+        ],
+        [
+          1263,
+          2243
+        ],
+        [
+          1263,
+          2305
+        ],
+        [
+          418,
+          2306
+        ]
+      ],
+      "words": [
+        {
+          "text": "Set",
+          "bbox": [
+            [
+              421,
+              2243
+            ],
+            [
+              510,
+              2243
+            ],
+            [
+              509,
+              2306
+            ],
+            [
+              420,
+              2307
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "V. CONCLUSION",
+      "bbox": [
+        [
+          308,
+          2328
+        ],
+        [
+          864,
+          2339
+        ],
+        [
+          862,
+          2435
+        ],
+        [
+          308,
+          2434
+        ]
+      ],
+      "words": [
+        {
+          "text": "CONCLUSION",
+          "bbox": [
+            [
+              422,
+              2329
+            ],
+            [
+              851,
+              2360
+            ],
+            [
+              851,
+              2433
+            ],
+            [
+              422,
+              2434
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1553,
+          2492
+        ],
+        [
+          1765,
+          2495
+        ],
+        [
+          1765,
+          2534
+        ],
+        [
+          1552,
+          2532
+        ]
+      ],
+      "words": [
+        {
+          "text": "CamScanner",
+          "bbox": [
+            [
+              1556,
+              2492
+            ],
+            [
+              1763,
+              2496
+            ],
+            [
+              1763,
+              2534
+            ],
+            [
+              1555,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "6 3. In Pakistan, ensure implementation of Article 25, and Article 38 NV. Conclusion. 1 0000 7 7 READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI",
+  "ocr_full_text_page": "as moral and ethical duty at international as well as national level. CASE IN POINT: () Celebration of Water Conservation day, begining at school level. (ii) Nationally set water conservation goals, and awarners. 3. Use of water conservation 1 techniques in agriculture. CASE IN POINT: \"Crop per drop\" techniques 4. Regulate industrial sector and penalize those contributing to water pollution ARI CASE IN POINT: Make waste filteration plant on site mandatory before letting into water streams. 5. Increase number of water reservoirs such as dams. CASE IN POINT: () Build more dams (ii) Promote \"rain water harvest\" Set ups in urban setups. V. CONCLUSION CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

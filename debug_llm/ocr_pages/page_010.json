@@ -4,243 +4,67 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "will be the provider of the household\"",
+      "text": "condition of water wastage",
       "bbox": [
         [
-          394,
-          224
+          496,
+          212
         ],
         [
-          1659,
-          219
+          1444,
+          207
         ],
         [
-          1660,
-          298
+          1444,
+          273
         ],
         [
-          394,
-          302
+          496,
+          282
         ]
       ],
       "words": [
         {
-          "text": "will",
+          "text": "condition",
           "bbox": [
             [
-              397,
-              224
-            ],
-            [
-              550,
+              498,
               225
             ],
             [
-              548,
-              300
+              757,
+              213
             ],
             [
-              395,
-              296
+              756,
+              275
+            ],
+            [
+              497,
+              282
             ]
           ]
         }
       ]
     },
     {
-      "text": "This is an absolutely unjustifiable reason",
+      "text": "is not just endangering",
       "bbox": [
         [
-          353,
-          318
+          479,
+          292
         ],
         [
-          1540,
-          322
+          1315,
+          287
         ],
         [
-          1540,
-          390
+          1316,
+          352
         ],
         [
-          352,
-          384
-        ]
-      ],
-      "words": [
-        {
-          "text": "This",
-          "bbox": [
-            [
-              366,
-              321
-            ],
-            [
-              466,
-              320
-            ],
-            [
-              464,
-              383
-            ],
-            [
-              364,
-              381
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "to keep females illiterate. It is",
-      "bbox": [
-        [
-          361,
-          404
-        ],
-        [
-          1444,
-          404
-        ],
-        [
-          1444,
-          477
-        ],
-        [
-          361,
-          475
-        ]
-      ],
-      "words": [
-        {
-          "text": "keep",
-          "bbox": [
-            [
-              476,
-              407
-            ],
-            [
-              636,
-              405
-            ],
-            [
-              635,
-              475
-            ],
-            [
-              475,
-              475
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the women who nurture and polishes",
-      "bbox": [
-        [
-          363,
-          497
-        ],
-        [
-          1555,
-          495
-        ],
-        [
-          1556,
-          566
-        ],
-        [
-          363,
-          567
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              393,
-              506
-            ],
-            [
-              489,
-              504
-            ],
-            [
-              488,
-              563
-            ],
-            [
-              391,
-              564
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the next generation. If she herself",
-      "bbox": [
-        [
-          377,
-          582
-        ],
-        [
-          1464,
-          583
-        ],
-        [
-          1464,
-          656
-        ],
-        [
-          376,
-          652
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              378,
-              590
-            ],
-            [
-              477,
-              588
-            ],
-            [
-              476,
-              645
-            ],
-            [
-              377,
-              644
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "is not educated, how will sche will",
-      "bbox": [
-        [
-          396,
-          671
-        ],
-        [
-          1484,
-          673
-        ],
-        [
-          1483,
-          743
-        ],
-        [
-          395,
-          739
+          479,
+          356
         ]
       ],
       "words": [
@@ -248,951 +72,1171 @@
           "text": "not",
           "bbox": [
             [
-              460,
-              673
+              576,
+              299
             ],
             [
-              559,
-              673
+              680,
+              295
             ],
             [
-              558,
-              738
+              680,
+              354
             ],
             [
-              459,
-              735
+              576,
+              355
             ]
           ]
         }
       ]
     },
     {
-      "text": "ensure good brought up of her",
+      "text": "humans but also",
       "bbox": [
         [
-          397,
-          758
+          481,
+          371
         ],
         [
-          1430,
-          764
+          1167,
+          367
         ],
         [
-          1429,
-          833
+          1168,
+          424
         ],
         [
-          397,
-          824
+          481,
+          427
         ]
       ],
       "words": [
         {
-          "text": "ensure",
+          "text": "humans",
           "bbox": [
             [
-              401,
-              758
+              496,
+              382
             ],
             [
-              611,
-              760
+              726,
+              371
             ],
             [
-              610,
-              824
+              726,
+              420
             ],
             [
-              399,
-              816
+              496,
+              427
             ]
           ]
         }
       ]
     },
     {
-      "text": "Children. As Napoleon Bonaparte",
+      "text": "the",
       "bbox": [
         [
-          427,
-          842
+          1229,
+          373
         ],
         [
-          1549,
-          841
+          1384,
+          370
         ],
         [
-          1549,
-          913
+          1385,
+          427
         ],
         [
-          427,
-          914
+          1229,
+          429
         ]
       ],
       "words": [
         {
-          "text": "Children.",
+          "text": "the",
           "bbox": [
             [
-              428,
-              850
+              1253,
+              372
             ],
             [
-              721,
-              845
+              1380,
+              370
             ],
             [
-              721,
-              913
+              1381,
+              427
             ],
             [
-              427,
-              908
+              1254,
+              429
             ]
           ]
         }
       ]
     },
     {
-      "text": "has said \"give me educated",
+      "text": "other living organisms which",
       "bbox": [
         [
-          381,
-          926
-        ],
-        [
-          1440,
-          930
-        ],
-        [
-          1439,
-          1005
-        ],
-        [
-          381,
-          999
-        ]
-      ],
-      "words": [
-        {
-          "text": "has",
-          "bbox": [
-            [
-              405,
-              927
-            ],
-            [
-              530,
-              928
-            ],
-            [
-              529,
-              997
-            ],
-            [
-              403,
-              992
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "mothers and I will give your.",
-      "bbox": [
-        [
-          411,
-          1015
-        ],
-        [
-          1558,
-          1015
-        ],
-        [
-          1558,
-          1092
-        ],
-        [
-          411,
-          1092
-        ]
-      ],
-      "words": [
-        {
-          "text": "mothers",
-          "bbox": [
-            [
-              416,
-              1017
-            ],
-            [
-              736,
-              1018
-            ],
-            [
-              734,
-              1092
-            ],
-            [
-              414,
-              1084
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "excellent nation\". Hence, this",
-      "bbox": [
-        [
-          426,
-          1099
+          500,
+          445
         ],
         [
           1483,
-          1103
+          451
         ],
         [
           1482,
-          1173
+          516
         ],
         [
-          425,
-          1171
+          500,
+          505
         ]
       ],
       "words": [
         {
-          "text": "excellent",
+          "text": "other",
           "bbox": [
             [
-              430,
-              1107
+              502,
+              445
             ],
             [
-              759,
-              1100
+              669,
+              445
             ],
             [
-              757,
-              1173
+              670,
+              506
             ],
             [
-              428,
-              1173
+              503,
+              502
             ]
           ]
         }
       ]
     },
     {
-      "text": "remains an obstacle.",
+      "text": "are being deprived of",
       "bbox": [
         [
-          380,
-          1192
+          489,
+          526
         ],
         [
-          1020,
-          1192
+          1388,
+          533
         ],
         [
-          1020,
-          1257
+          1387,
+          608
         ],
         [
-          379,
-          1254
+          489,
+          594
         ]
       ],
       "words": [
         {
-          "text": "remains",
+          "text": "are",
           "bbox": [
             [
-              407,
-              1195
+              492,
+              531
             ],
             [
-              627,
-              1194
+              600,
+              529
             ],
             [
-              627,
-              1255
+              601,
+              592
             ],
             [
-              406,
-              1251
+              493,
+              590
             ]
           ]
         }
       ]
     },
     {
-      "text": "Secondly, females are totally",
+      "text": "vital component of existence",
       "bbox": [
         [
-          706,
-          1286
+          483,
+          615
         ],
         [
-          1508,
-          1284
+          1463,
+          619
         ],
         [
-          1509,
-          1337
+          1463,
+          680
         ],
         [
-          706,
-          1340
+          483,
+          675
         ]
       ],
       "words": [
         {
-          "text": "Secondly,",
+          "text": "vital",
           "bbox": [
             [
-              715,
-              1286
+              483,
+              617
             ],
             [
-              1010,
-              1287
+              631,
+              616
             ],
             [
-              1010,
-              1340
+              631,
+              676
             ],
             [
-              715,
-              1341
+              483,
+              673
             ]
           ]
         }
       ]
     },
     {
-      "text": "reliant on their patriarchs to",
+      "text": "owing to human follies.",
       "bbox": [
         [
-          381,
-          1362
+          470,
+          699
         ],
         [
-          1434,
-          1362
+          1404,
+          697
         ],
         [
-          1434,
-          1428
+          1404,
+          764
         ],
         [
-          381,
-          1428
+          470,
+          765
         ]
       ],
       "words": [
         {
-          "text": "reliant",
+          "text": "owing",
           "bbox": [
             [
-              384,
-              1366
+              471,
+              704
             ],
             [
-              590,
-              1364
+              669,
+              701
             ],
             [
-              589,
-              1428
+              668,
+              763
             ],
             [
-              384,
-              1427
+              470,
+              763
             ]
           ]
         }
       ]
     },
     {
-      "text": "provide them with education. Unfortunately",
+      "text": "Like wise, increasing",
       "bbox": [
         [
-          379,
-          1445
+          805,
+          782
         ],
         [
-          1578,
-          1447
+          1460,
+          783
         ],
         [
-          1578,
-          1517
+          1460,
+          851
         ],
         [
-          379,
-          1513
+          805,
+          849
         ]
       ],
       "words": [
         {
-          "text": "provide",
+          "text": "Like",
           "bbox": [
             [
-              380,
-              1451
+              808,
+              787
             ],
             [
-              590,
-              1448
+              934,
+              784
             ],
             [
-              590,
-              1511
+              933,
+              851
             ],
             [
-              381,
-              1511
+              807,
+              850
             ]
           ]
         }
       ]
     },
     {
-      "text": "education is not free and requires",
+      "text": "water pollution is also one",
       "bbox": [
         [
-          391,
-          1532
+          492,
+          871
         ],
         [
-          1500,
-          1530
+          1452,
+          870
         ],
         [
-          1500,
-          1601
+          1452,
+          934
         ],
         [
-          391,
-          1604
+          492,
+          936
         ]
       ],
       "words": [
         {
-          "text": "education",
+          "text": "water",
           "bbox": [
             [
-              394,
-              1543
+              493,
+              875
+            ],
+            [
+              691,
+              873
+            ],
+            [
+              691,
+              934
+            ],
+            [
+              492,
+              930
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of the important and key",
+      "bbox": [
+        [
+          469,
+          952
+        ],
+        [
+          1401,
+          952
+        ],
+        [
+          1400,
+          1021
+        ],
+        [
+          469,
+          1017
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              575,
+              953
             ],
             [
               688,
-              1534
-            ],
-            [
-              687,
-              1600
-            ],
-            [
-              393,
-              1604
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "resources to sponsers it. Even those",
-      "bbox": [
-        [
-          405,
-          1625
-        ],
-        [
-          1515,
-          1619
-        ],
-        [
-          1516,
-          1681
-        ],
-        [
-          405,
-          1685
-        ]
-      ],
-      "words": [
-        {
-          "text": "resources",
-          "bbox": [
-            [
-              424,
-              1633
-            ],
-            [
-              684,
-              1627
-            ],
-            [
-              683,
-              1685
-            ],
-            [
-              423,
-              1683
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "women who work, earn very meagerly.",
-      "bbox": [
-        [
-          392,
-          1707
-        ],
-        [
-          1520,
-          1704
-        ],
-        [
-          1520,
-          1772
-        ],
-        [
-          392,
-          1774
-        ]
-      ],
-      "words": [
-        {
-          "text": "women",
-          "bbox": [
-            [
-              394,
-              1715
-            ],
-            [
-              586,
-              1713
-            ],
-            [
-              585,
-              1771
-            ],
-            [
-              393,
-              1768
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "According to World Bank report,",
-      "bbox": [
-        [
-          393,
-          1799
-        ],
-        [
-          1541,
-          1781
-        ],
-        [
-          1542,
-          1858
-        ],
-        [
-          393,
-          1868
-        ]
-      ],
-      "words": [
-        {
-          "text": "According",
-          "bbox": [
-            [
-              393,
-              1807
-            ],
-            [
-              689,
-              1800
+              953
             ],
             [
               688,
-              1868
+              1016
             ],
             [
-              393,
-              1868
+              574,
+              1013
             ]
           ]
         }
       ]
     },
     {
-      "text": "38% of women across the",
+      "text": "contributor. Water pollution",
       "bbox": [
         [
-          413,
-          1886
+          489,
+          1039
         ],
         [
-          1434,
-          1877
+          1446,
+          1040
         ],
         [
-          1435,
-          1950
+          1446,
+          1105
         ],
         [
-          413,
-          1962
+          488,
+          1103
         ]
       ],
       "words": [
         {
-          "text": "38%",
+          "text": "contributor.",
           "bbox": [
             [
-              417,
-              1886
+              493,
+              1043
             ],
             [
-              562,
-              1886
+              886,
+              1040
             ],
             [
-              561,
-              1961
+              885,
+              1103
             ],
             [
-              416,
-              1963
+              491,
+              1101
             ]
           ]
         }
       ]
     },
     {
-      "text": "globe earn less than $ 1.9/day",
+      "text": "is mainly being done by",
       "bbox": [
         [
-          390,
-          1974
+          473,
+          1123
         ],
         [
-          1573,
-          1959
+          1403,
+          1127
         ],
         [
-          1574,
-          2037
+          1403,
+          1192
         ],
         [
-          390,
-          2051
+          473,
+          1188
         ]
       ],
       "words": [
         {
-          "text": "globe",
+          "text": "mainly",
           "bbox": [
             [
-              394,
-              1977
+              577,
+              1124
             ],
             [
-              609,
-              1976
+              798,
+              1124
             ],
             [
-              608,
-              2048
+              798,
+              1191
             ],
             [
-              393,
-              2051
+              576,
+              1188
             ]
           ]
         }
       ]
     },
     {
-      "text": "This figure is way below the",
+      "text": "Organic particulate matter",
       "bbox": [
         [
-          396,
-          2055
+          485,
+          1209
         ],
         [
-          1432,
-          2055
-        ],
-        [
-          1432,
-          2127
-        ],
-        [
-          396,
-          2128
-        ]
-      ],
-      "words": [
-        {
-          "text": "This",
-          "bbox": [
-            [
-              409,
-              2056
-            ],
-            [
-              545,
-              2057
-            ],
-            [
-              545,
-              2129
-            ],
-            [
-              408,
-              2128
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "current $4.0 poverty line. Here",
-      "bbox": [
-        [
-          400,
-          2147
-        ],
-        [
-          1544,
-          2140
-        ],
-        [
-          1545,
-          2211
-        ],
-        [
-          400,
-          2219
-        ]
-      ],
-      "words": [
-        {
-          "text": "current",
-          "bbox": [
-            [
-              404,
-              2152
-            ],
-            [
-              649,
-              2147
-            ],
-            [
-              648,
-              2219
-            ],
-            [
-              403,
-              2217
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "it is a big hurdle and women",
-      "bbox": [
-        [
-          398,
-          2236
-        ],
-        [
-          1497,
-          2228
-        ],
-        [
-          1497,
-          2297
-        ],
-        [
-          398,
-          2304
-        ]
-      ],
-      "words": [
-        {
-          "text": "big",
-          "bbox": [
-            [
-              684,
-              2236
-            ],
-            [
-              793,
-              2235
-            ],
-            [
-              794,
-              2304
-            ],
-            [
-              685,
-              2304
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "become unable to support their",
-      "bbox": [
-        [
-          393,
-          2332
-        ],
-        [
-          1490,
-          2311
-        ],
-        [
-          1492,
-          2375
-        ],
-        [
-          394,
-          2396
-        ]
-      ],
-      "words": [
-        {
-          "text": "become",
-          "bbox": [
-            [
-              398,
-              2342
-            ],
-            [
-              626,
-              2331
-            ],
-            [
-              625,
-              2392
-            ],
-            [
-              396,
-              2396
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "or their daughters' education in",
-      "bbox": [
-        [
-          389,
-          2412
+          1426,
+          1202
         ],
         [
           1427,
-          2395
+          1269
         ],
         [
-          1428,
-          2463
-        ],
-        [
-          389,
-          2476
+          485,
+          1275
         ]
       ],
       "words": [
         {
-          "text": "their",
+          "text": "Organic",
           "bbox": [
             [
-              497,
-              2416
+              489,
+              1210
             ],
             [
-              639,
-              2411
+              735,
+              1208
             ],
             [
-              639,
-              2476
+              735,
+              1275
             ],
             [
-              497,
-              2476
+              488,
+              1273
             ]
           ]
         }
       ]
     },
     {
-      "text": "such low means and eventually",
+      "text": "(OBM) as well as the",
       "bbox": [
         [
-          422,
-          2499
+          472,
+          1291
         ],
         [
-          1511,
-          2473
+          1369,
+          1289
         ],
         [
-          1513,
-          2543
+          1370,
+          1359
         ],
         [
-          422,
-          2563
+          472,
+          1368
         ]
       ],
       "words": [
         {
-          "text": "such",
+          "text": "(OBM)",
           "bbox": [
             [
-              423,
-              2506
+              474,
+              1292
             ],
             [
-              554,
-              2503
+              715,
+              1289
             ],
             [
-              554,
-              2562
+              714,
+              1362
             ],
             [
-              422,
-              2563
+              473,
+              1369
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "industrial chemical based",
+      "bbox": [
+        [
+          512,
+          1376
+        ],
+        [
+          1459,
+          1367
+        ],
+        [
+          1460,
+          1439
+        ],
+        [
+          512,
+          1451
+        ]
+      ],
+      "words": [
+        {
+          "text": "industrial",
+          "bbox": [
+            [
+              513,
+              1383
+            ],
+            [
+              876,
+              1372
+            ],
+            [
+              876,
+              1445
+            ],
+            [
+              512,
+              1451
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "wastes such as compounds",
+      "bbox": [
+        [
+          489,
+          1465
+        ],
+        [
+          1480,
+          1462
+        ],
+        [
+          1480,
+          1526
+        ],
+        [
+          489,
+          1529
+        ]
+      ],
+      "words": [
+        {
+          "text": "wastes",
+          "bbox": [
+            [
+              490,
+              1471
+            ],
+            [
+              732,
+              1466
+            ],
+            [
+              731,
+              1528
+            ],
+            [
+              489,
+              1529
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of Sulphur, nitrogen as well",
+      "bbox": [
+        [
+          496,
+          1544
+        ],
+        [
+          1511,
+          1545
+        ],
+        [
+          1511,
+          1618
+        ],
+        [
+          496,
+          1615
+        ]
+      ],
+      "words": [
+        {
+          "text": "Sulphur,",
+          "bbox": [
+            [
+              631,
+              1550
+            ],
+            [
+              940,
+              1544
+            ],
+            [
+              940,
+              1616
+            ],
+            [
+              630,
+              1616
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "as phosphates. These pollutants",
+      "bbox": [
+        [
+          478,
+          1637
+        ],
+        [
+          1528,
+          1630
+        ],
+        [
+          1529,
+          1694
+        ],
+        [
+          478,
+          1705
+        ]
+      ],
+      "words": [
+        {
+          "text": "phosphates.",
+          "bbox": [
+            [
+              593,
+              1642
+            ],
+            [
+              1024,
+              1631
+            ],
+            [
+              1023,
+              1700
+            ],
+            [
+              592,
+              1705
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "on entering the water bodies",
+      "bbox": [
+        [
+          471,
+          1725
+        ],
+        [
+          1479,
+          1719
+        ],
+        [
+          1480,
+          1780
+        ],
+        [
+          472,
+          1788
+        ]
+      ],
+      "words": [
+        {
+          "text": "entering",
+          "bbox": [
+            [
+              596,
+              1729
+            ],
+            [
+              863,
+              1722
+            ],
+            [
+              863,
+              1787
+            ],
+            [
+              595,
+              1788
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "pollute the water and make",
+      "bbox": [
+        [
+          454,
+          1809
+        ],
+        [
+          1457,
+          1808
+        ],
+        [
+          1457,
+          1870
+        ],
+        [
+          454,
+          1871
+        ]
+      ],
+      "words": [
+        {
+          "text": "pollute",
+          "bbox": [
+            [
+              466,
+              1813
+            ],
+            [
+              685,
+              1810
+            ],
+            [
+              685,
+              1872
+            ],
+            [
+              465,
+              1872
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "it unconsumable. Similarly?",
+      "bbox": [
+        [
+          502,
+          1893
+        ],
+        [
+          1461,
+          1897
+        ],
+        [
+          1460,
+          1967
+        ],
+        [
+          502,
+          1959
+        ]
+      ],
+      "words": [
+        {
+          "text": "unconsumable.",
+          "bbox": [
+            [
+              604,
+              1895
+            ],
+            [
+              1086,
+              1894
+            ],
+            [
+              1085,
+              1958
+            ],
+            [
+              603,
+              1954
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "it also endangers the life",
+      "bbox": [
+        [
+          457,
+          1976
+        ],
+        [
+          1427,
+          1976
+        ],
+        [
+          1427,
+          2044
+        ],
+        [
+          457,
+          2043
+        ]
+      ],
+      "words": [
+        {
+          "text": "also",
+          "bbox": [
+            [
+              560,
+              1982
+            ],
+            [
+              693,
+              1982
+            ],
+            [
+              693,
+              2042
+            ],
+            [
+              559,
+              2039
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "forms beneath the water",
+      "bbox": [
+        [
+          468,
+          2056
+        ],
+        [
+          1446,
+          2062
+        ],
+        [
+          1446,
+          2133
+        ],
+        [
+          468,
+          2129
+        ]
+      ],
+      "words": [
+        {
+          "text": "forms",
+          "bbox": [
+            [
+              472,
+              2056
+            ],
+            [
+              667,
+              2064
+            ],
+            [
+              666,
+              2129
+            ],
+            [
+              471,
+              2122
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Surface by disrupting the",
+      "bbox": [
+        [
+          481,
+          2148
+        ],
+        [
+          1493,
+          2148
+        ],
+        [
+          1494,
+          2215
+        ],
+        [
+          481,
+          2216
+        ]
+      ],
+      "words": [
+        {
+          "text": "Surface",
+          "bbox": [
+            [
+              484,
+              2155
+            ],
+            [
+              723,
+              2151
+            ],
+            [
+              723,
+              2214
+            ],
+            [
+              484,
+              2215
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the levels of oxygen in",
+      "bbox": [
+        [
+          488,
+          2234
+        ],
+        [
+          1427,
+          2241
+        ],
+        [
+          1426,
+          2307
+        ],
+        [
+          487,
+          2295
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              490,
+              2239
+            ],
+            [
+              611,
+              2237
+            ],
+            [
+              610,
+              2294
+            ],
+            [
+              489,
+              2293
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the natural water which",
+      "bbox": [
+        [
+          469,
+          2323
+        ],
+        [
+          1348,
+          2326
+        ],
+        [
+          1348,
+          2390
+        ],
+        [
+          469,
+          2385
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              479,
+              2328
+            ],
+            [
+              581,
+              2326
+            ],
+            [
+              581,
+              2383
+            ],
+            [
+              479,
+              2385
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1552,
+          2492
+        ],
+        [
+          1765,
+          2495
+        ],
+        [
+          1765,
+          2534
+        ],
+        [
+          1551,
+          2531
+        ]
+      ],
+      "words": [
+        {
+          "text": "CamScanner",
+          "bbox": [
+            [
+              1557,
+              2492
+            ],
+            [
+              1766,
+              2497
+            ],
+            [
+              1766,
+              2534
+            ],
+            [
+              1556,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "will be the provider of the household\" This is an absolutely unjustifiable reason to keep females illiterate. It is the women who nurture and polishes the next generation. If she herself is not educated, how will sche will ensure good brought up of her Children. As Napoleon Bonaparte has said \"give me educated mothers and I will give your. excellent nation\". Hence, this remains an obstacle. Secondly, females are totally reliant on their patriarchs to provide them with education. Unfortunately education is not free and requires resources to sponsers it. Even those women who work, earn very meagerly. According to World Bank report, 38% of women across the globe earn less than $ 1.9/day This figure is way below the current $4.0 poverty line. Here it is a big hurdle and women become unable to support their or their daughters' education in such low means and eventually",
+  "ocr_full_text_page": "condition of water wastage - is not just endangering humans but also the other living organisms which are being deprived of vital component of existence owing to human follies. Like wise, increasing water pollution is also one of the important and key contributor. Water pollution is mainly being done by Organic particulate matter (OBM) as well as the industrial chemical based wastes such as compounds of Sulphur, nitrogen as well as phosphates. These pollutants on entering the water bodies pollute the water and make it unconsumable. Similarly? it also endangers the life forms beneath the water Surface by disrupting the the levels of oxygen in the natural water which CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

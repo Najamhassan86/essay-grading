@@ -4,439 +4,615 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "rights. She would legal facilitations",
+      "text": "are primary source of fresh",
       "bbox": [
         [
-          378,
-          248
+          444,
+          163
         ],
         [
-          1518,
-          245
+          1463,
+          148
         ],
         [
-          1518,
-          313
+          1464,
+          212
         ],
         [
-          378,
-          315
+          445,
+          230
         ]
       ],
       "words": [
         {
-          "text": "rights.",
+          "text": "are",
           "bbox": [
             [
-              382,
-              255
+              448,
+              172
             ],
             [
-              577,
-              251
+              540,
+              167
             ],
             [
-              575,
-              315
+              540,
+              227
             ],
             [
-              380,
-              315
+              447,
+              230
             ]
           ]
         }
       ]
     },
     {
-      "text": "to protect them such as Protection",
+      "text": "water for the living beings.",
       "bbox": [
         [
-          383,
-          332
+          443,
+          231
         ],
         [
-          1432,
-          327
+          1489,
+          231
         ],
         [
-          1432,
-          395
+          1489,
+          308
         ],
         [
-          383,
-          399
+          443,
+          309
         ]
       ],
       "words": [
         {
-          "text": "protect",
+          "text": "water",
           "bbox": [
             [
-              491,
-              333
-            ],
-            [
-              676,
-              333
-            ],
-            [
-              676,
-              399
-            ],
-            [
-              490,
-              398
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "of Women Against Workplace",
-      "bbox": [
-        [
-          394,
-          412
-        ],
-        [
-          1402,
-          408
-        ],
-        [
-          1403,
-          479
-        ],
-        [
-          394,
-          484
-        ]
-      ],
-      "words": [
-        {
-          "text": "Women",
-          "bbox": [
-            [
-              491,
-              418
-            ],
-            [
-              690,
-              412
-            ],
-            [
-              690,
-              484
-            ],
-            [
-              491,
-              484
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Harassment, (2010), Acid Control",
-      "bbox": [
-        [
-          384,
-          500
-        ],
-        [
-          1508,
-          493
-        ],
-        [
-          1509,
-          566
-        ],
-        [
-          384,
-          574
-        ]
-      ],
-      "words": [
-        {
-          "text": "Harassment,",
-          "bbox": [
-            [
-              384,
-              513
-            ],
-            [
-              789,
-              498
-            ],
-            [
-              789,
-              574
-            ],
-            [
-              384,
-              574
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and Acid Crime Prevention Act (2011)",
-      "bbox": [
-        [
-          389,
-          578
-        ],
-        [
-          1572,
-          577
-        ],
-        [
-          1572,
-          654
-        ],
-        [
-          389,
-          656
-        ]
-      ],
-      "words": [
-        {
-          "text": "and",
-          "bbox": [
-            [
-              393,
-              585
-            ],
-            [
-              524,
-              582
-            ],
-            [
-              524,
-              656
-            ],
-            [
-              392,
-              656
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and Women Property Protection",
-      "bbox": [
-        [
-          434,
-          673
-        ],
-        [
-          1550,
-          667
-        ],
-        [
-          1550,
-          741
-        ],
-        [
-          434,
-          745
-        ]
-      ],
-      "words": [
-        {
-          "text": "and",
-          "bbox": [
-            [
-              439,
-              675
-            ],
-            [
-              547,
-              674
-            ],
-            [
-              545,
-              745
-            ],
-            [
-              437,
-              745
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Right (2020). And uneducated",
-      "bbox": [
-        [
-          403,
-          754
-        ],
-        [
-          1486,
-          754
-        ],
-        [
-          1486,
-          830
-        ],
-        [
-          403,
-          832
-        ]
-      ],
-      "words": [
-        {
-          "text": "Right",
-          "bbox": [
-            [
-              406,
-              754
-            ],
-            [
-              593,
-              759
-            ],
-            [
-              593,
-              831
-            ],
-            [
-              406,
-              827
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "female can not be expected of",
-      "bbox": [
-        [
-          416,
-          847
-        ],
-        [
-          1460,
-          845
-        ],
-        [
-          1460,
-          912
-        ],
-        [
-          416,
-          914
-        ]
-      ],
-      "words": [
-        {
-          "text": "female",
-          "bbox": [
-            [
-              420,
-              851
-            ],
-            [
-              629,
-              850
-            ],
-            [
-              628,
-              913
-            ],
-            [
-              419,
-              912
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "knowing these rights but on",
-      "bbox": [
-        [
-          372,
-          927
-        ],
-        [
-          1466,
-          932
-        ],
-        [
-          1466,
-          997
-        ],
-        [
-          372,
-          992
-        ]
-      ],
-      "words": [
-        {
-          "text": "knowing",
-          "bbox": [
-            [
-              385,
-              927
+              444,
+              252
             ],
             [
               637,
-              928
+              241
             ],
             [
-              636,
-              993
+              637,
+              298
             ],
             [
-              383,
-              985
+              444,
+              301
             ]
           ]
         }
       ]
     },
     {
-      "text": "educated female in Pakistan would",
+      "text": "Countries lying on the equator",
       "bbox": [
         [
-          400,
-          1021
+          465,
+          319
         ],
         [
-          1515,
-          1012
+          1527,
+          324
         ],
         [
-          1516,
-          1080
+          1526,
+          392
         ],
         [
-          400,
-          1086
+          464,
+          383
         ]
       ],
       "words": [
         {
-          "text": "educated",
+          "text": "Countries",
           "bbox": [
             [
-              405,
-              1023
+              468,
+              328
             ],
             [
-              664,
-              1022
+              740,
+              321
             ],
             [
-              662,
-              1085
+              739,
+              382
             ],
             [
-              403,
+              467,
+              382
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "belt are drastically being",
+      "bbox": [
+        [
+          449,
+          398
+        ],
+        [
+          1461,
+          406
+        ],
+        [
+          1460,
+          479
+        ],
+        [
+          449,
+          464
+        ]
+      ],
+      "words": [
+        {
+          "text": "belt",
+          "bbox": [
+            [
+              467,
+              409
+            ],
+            [
+              597,
+              403
+            ],
+            [
+              597,
+              460
+            ],
+            [
+              467,
+              460
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "affected the most. One of",
+      "bbox": [
+        [
+          446,
+          487
+        ],
+        [
+          1447,
+          488
+        ],
+        [
+          1447,
+          560
+        ],
+        [
+          446,
+          558
+        ]
+      ],
+      "words": [
+        {
+          "text": "affected",
+          "bbox": [
+            [
+              448,
+              492
+            ],
+            [
+              692,
+              489
+            ],
+            [
+              693,
+              553
+            ],
+            [
+              449,
+              558
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the stark examples is that",
+      "bbox": [
+        [
+          429,
+          572
+        ],
+        [
+          1485,
+          577
+        ],
+        [
+          1484,
+          640
+        ],
+        [
+          429,
+          631
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              440,
+              573
+            ],
+            [
+              539,
+              573
+            ],
+            [
+              539,
+              629
+            ],
+            [
+              440,
+              627
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of Pakistan which has lost",
+      "bbox": [
+        [
+          416,
+          644
+        ],
+        [
+          1424,
+          655
+        ],
+        [
+          1423,
+          726
+        ],
+        [
+          416,
+          720
+        ]
+      ],
+      "words": [
+        {
+          "text": "Pakistan",
+          "bbox": [
+            [
+              521,
+              647
+            ],
+            [
+              801,
+              653
+            ],
+            [
+              801,
+              725
+            ],
+            [
+              521,
+              720
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "1/3rd of its glacial resource",
+      "bbox": [
+        [
+          417,
+          742
+        ],
+        [
+          1487,
+          745
+        ],
+        [
+          1486,
+          816
+        ],
+        [
+          417,
+          814
+        ]
+      ],
+      "words": [
+        {
+          "text": "1/3rd",
+          "bbox": [
+            [
+              419,
+              743
+            ],
+            [
+              570,
+              743
+            ],
+            [
+              568,
+              815
+            ],
+            [
+              418,
+              812
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "since 1960s",
+      "bbox": [
+        [
+          438,
+          847
+        ],
+        [
+          820,
+          846
+        ],
+        [
+          820,
+          896
+        ],
+        [
+          439,
+          897
+        ]
+      ],
+      "words": [
+        {
+          "text": "since",
+          "bbox": [
+            [
+              441,
+              849
+            ],
+            [
+              585,
+              847
+            ],
+            [
+              586,
+              897
+            ],
+            [
+              441,
+              897
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "- 2025. Similarly,",
+      "bbox": [
+        [
+          826,
+          836
+        ],
+        [
+          1513,
+          835
+        ],
+        [
+          1513,
+          901
+        ],
+        [
+          826,
+          902
+        ]
+      ],
+      "words": [
+        {
+          "text": "2025.",
+          "bbox": [
+            [
+              941,
+              838
+            ],
+            [
+              1142,
+              838
+            ],
+            [
+              1142,
+              903
+            ],
+            [
+              941,
+              903
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "many other",
+      "bbox": [
+        [
+          427,
+          933
+        ],
+        [
+          813,
+          934
+        ],
+        [
+          812,
+          992
+        ],
+        [
+          427,
+          990
+        ]
+      ],
+      "words": [
+        {
+          "text": "many",
+          "bbox": [
+            [
+              446,
+              934
+            ],
+            [
+              590,
+              933
+            ],
+            [
+              589,
+              991
+            ],
+            [
+              444,
+              991
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "countries are facing",
+      "bbox": [
+        [
+          857,
+          926
+        ],
+        [
+          1501,
+          922
+        ],
+        [
+          1501,
+          990
+        ],
+        [
+          857,
+          991
+        ]
+      ],
+      "words": [
+        {
+          "text": "countries",
+          "bbox": [
+            [
+              857,
+              935
+            ],
+            [
+              1131,
+              925
+            ],
+            [
+              1131,
+              990
+            ],
+            [
+              857,
+              991
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the some",
+      "bbox": [
+        [
+          410,
+          1015
+        ],
+        [
+          830,
+          1017
+        ],
+        [
+          830,
+          1075
+        ],
+        [
+          410,
+          1072
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              430,
+              1016
+            ],
+            [
+              536,
+              1016
+            ],
+            [
+              534,
+              1073
+            ],
+            [
+              427,
+              1069
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "consequences, making",
+      "bbox": [
+        [
+          848,
+          1018
+        ],
+        [
+          1521,
+          1013
+        ],
+        [
+          1521,
+          1081
+        ],
+        [
+          848,
+          1082
+        ]
+      ],
+      "words": [
+        {
+          "text": "consequences,",
+          "bbox": [
+            [
+              860,
+              1026
+            ],
+            [
+              1292,
+              1015
+            ],
+            [
+              1292,
+              1080
+            ],
+            [
+              859,
               1081
             ]
           ]
@@ -444,199 +620,595 @@
       ]
     },
     {
-      "text": "know and she would not stand",
+      "text": "climate change, an essential",
       "bbox": [
         [
-          385,
-          1098
+          416,
+          1099
         ],
         [
-          1427,
-          1091
+          1411,
+          1099
         ],
         [
-          1428,
-          1161
+          1411,
+          1164
         ],
         [
-          386,
-          1165
+          416,
+          1164
         ]
       ],
       "words": [
         {
-          "text": "know",
+          "text": "climate",
           "bbox": [
             [
-              388,
-              1106
+              420,
+              1101
             ],
             [
-              527,
-              1107
+              662,
+              1103
             ],
             [
-              526,
-              1161
+              661,
+              1164
             ],
             [
-              386,
-              1158
+              419,
+              1159
             ]
           ]
         }
       ]
     },
     {
-      "text": "any unjustice against her personhood.",
+      "text": "factor contributing to water",
       "bbox": [
         [
-          395,
-          1188
-        ],
-        [
-          1525,
+          416,
           1186
         ],
         [
-          1525,
-          1248
+          1447,
+          1186
         ],
         [
-          395,
-          1250
+          1447,
+          1252
+        ],
+        [
+          416,
+          1252
         ]
       ],
       "words": [
         {
-          "text": "any",
+          "text": "factor",
           "bbox": [
             [
-              397,
-              1196
+              420,
+              1187
             ],
             [
-              492,
-              1194
+              607,
+              1189
             ],
             [
-              492,
-              1245
+              607,
+              1253
             ],
             [
-              396,
-              1243
+              419,
+              1253
             ]
           ]
         }
       ]
     },
     {
-      "text": "Fourthly, educated females",
+      "text": "depletion",
       "bbox": [
         [
-          664,
-          1273
+          470,
+          1278
         ],
         [
-          1447,
-          1275
+          782,
+          1271
         ],
         [
-          1447,
-          1338
+          783,
+          1336
         ],
         [
-          664,
-          1337
+          470,
+          1343
         ]
       ],
       "words": [
         {
-          "text": "Fourthly,",
+          "text": "depletion",
           "bbox": [
             [
-              667,
-              1274
+              472,
+              1280
             ],
             [
-              919,
-              1276
+              772,
+              1272
             ],
             [
-              918,
+              773,
               1338
             ],
             [
-              666,
-              1334
+              472,
+              1343
             ]
           ]
         }
       ]
     },
     {
-      "text": "become immune to evil social customs",
+      "text": "Similarly, over consumption",
       "bbox": [
         [
-          400,
-          1353
+          726,
+          1358
         ],
         [
-          1514,
-          1361
+          1566,
+          1360
         ],
         [
-          1513,
-          1420
+          1566,
+          1429
         ],
         [
-          399,
-          1408
+          726,
+          1427
         ]
       ],
       "words": [
         {
-          "text": "become",
+          "text": "Similarly,",
           "bbox": [
             [
-              409,
-              1355
+              738,
+              1358
             ],
             [
-              607,
-              1354
+              1048,
+              1361
             ],
             [
-              607,
-              1411
+              1048,
+              1429
             ],
             [
-              409,
-              1409
+              737,
+              1426
             ]
           ]
         }
       ]
     },
     {
-      "text": "and the absurd stereotypes. She",
+      "text": "of the surface water is also",
       "bbox": [
         [
-          392,
-          1429
+          427,
+          1446
+        ],
+        [
+          1488,
+          1446
+        ],
+        [
+          1488,
+          1514
+        ],
+        [
+          427,
+          1513
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              533,
+              1451
+            ],
+            [
+              645,
+              1449
+            ],
+            [
+              643,
+              1512
+            ],
+            [
+              531,
+              1511
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "one of the prime factors",
+      "bbox": [
+        [
+          429,
+          1535
         ],
         [
           1417,
-          1435
+          1536
         ],
         [
-          1416,
-          1502
+          1417,
+          1604
         ],
         [
-          392,
-          1491
+          429,
+          1602
+        ]
+      ],
+      "words": [
+        {
+          "text": "one",
+          "bbox": [
+            [
+              432,
+              1542
+            ],
+            [
+              537,
+              1540
+            ],
+            [
+              536,
+              1600
+            ],
+            [
+              431,
+              1598
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "which are contributing towards",
+      "bbox": [
+        [
+          422,
+          1627
+        ],
+        [
+          1560,
+          1621
+        ],
+        [
+          1560,
+          1689
+        ],
+        [
+          422,
+          1693
+        ]
+      ],
+      "words": [
+        {
+          "text": "which",
+          "bbox": [
+            [
+              422,
+              1630
+            ],
+            [
+              608,
+              1629
+            ],
+            [
+              608,
+              1690
+            ],
+            [
+              422,
+              1686
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "loss of water. This is mostly",
+      "bbox": [
+        [
+          451,
+          1709
+        ],
+        [
+          1520,
+          1711
+        ],
+        [
+          1520,
+          1779
+        ],
+        [
+          451,
+          1776
+        ]
+      ],
+      "words": [
+        {
+          "text": "loss",
+          "bbox": [
+            [
+              463,
+              1716
+            ],
+            [
+              584,
+              1713
+            ],
+            [
+              583,
+              1775
+            ],
+            [
+              462,
+              1775
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "done to meet domestic,",
+      "bbox": [
+        [
+          435,
+          1799
+        ],
+        [
+          1451,
+          1800
+        ],
+        [
+          1451,
+          1868
+        ],
+        [
+          435,
+          1864
+        ]
+      ],
+      "words": [
+        {
+          "text": "done",
+          "bbox": [
+            [
+              438,
+              1805
+            ],
+            [
+              599,
+              1802
+            ],
+            [
+              598,
+              1862
+            ],
+            [
+              437,
+              1860
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "agricultural and industrial",
+      "bbox": [
+        [
+          427,
+          1892
+        ],
+        [
+          1476,
+          1881
+        ],
+        [
+          1477,
+          1950
+        ],
+        [
+          427,
+          1966
+        ]
+      ],
+      "words": [
+        {
+          "text": "agricultural",
+          "bbox": [
+            [
+              429,
+              1896
+            ],
+            [
+              881,
+              1885
+            ],
+            [
+              881,
+              1955
+            ],
+            [
+              429,
+              1967
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "demands. It is leading towards",
+      "bbox": [
+        [
+          416,
+          1969
+        ],
+        [
+          1548,
+          1973
+        ],
+        [
+          1548,
+          2042
+        ],
+        [
+          416,
+          2039
+        ]
+      ],
+      "words": [
+        {
+          "text": "demands.",
+          "bbox": [
+            [
+              420,
+              1969
+            ],
+            [
+              760,
+              1974
+            ],
+            [
+              758,
+              2042
+            ],
+            [
+              418,
+              2041
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "lack of water as most of",
+      "bbox": [
+        [
+          447,
+          2067
+        ],
+        [
+          1394,
+          2063
+        ],
+        [
+          1395,
+          2127
+        ],
+        [
+          447,
+          2131
+        ]
+      ],
+      "words": [
+        {
+          "text": "lack",
+          "bbox": [
+            [
+              459,
+              2067
+            ],
+            [
+              584,
+              2068
+            ],
+            [
+              583,
+              2131
+            ],
+            [
+              458,
+              2131
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the water is being wasted",
+      "bbox": [
+        [
+          438,
+          2149
+        ],
+        [
+          1458,
+          2148
+        ],
+        [
+          1458,
+          2213
+        ],
+        [
+          438,
+          2214
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              458,
+              2152
+            ],
+            [
+              569,
+              2151
+            ],
+            [
+              568,
+              2212
+            ],
+            [
+              457,
+              2211
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and irresponsibly used after",
+      "bbox": [
+        [
+          445,
+          2236
+        ],
+        [
+          1506,
+          2234
+        ],
+        [
+          1506,
+          2305
+        ],
+        [
+          445,
+          2309
         ]
       ],
       "words": [
@@ -644,511 +1216,115 @@
           "text": "and",
           "bbox": [
             [
-              392,
-              1436
+              447,
+              2244
             ],
             [
-              484,
-              1434
+              559,
+              2241
             ],
             [
-              484,
-              1488
+              559,
+              2309
             ],
             [
-              392,
-              1486
+              446,
+              2310
             ]
           ]
         }
       ]
     },
     {
-      "text": "starts to think and live bey and",
+      "text": "extraction. This is also",
       "bbox": [
         [
-          380,
-          1512
+          463,
+          2321
         ],
         [
-          1464,
-          1514
+          1425,
+          2322
         ],
         [
-          1464,
-          1586
+          1424,
+          2397
         ],
         [
-          380,
-          1583
+          463,
+          2394
         ]
       ],
       "words": [
         {
-          "text": "starts",
+          "text": "extraction.",
           "bbox": [
             [
-              381,
-              1524
+              467,
+              2326
             ],
             [
-              545,
-              1519
+              826,
+              2321
             ],
             [
-              545,
-              1578
+              825,
+              2388
             ],
             [
-              381,
-              1579
+              466,
+              2392
             ]
           ]
         }
       ]
     },
     {
-      "text": "them. She starts to believe that",
+      "text": "CamScanner",
       "bbox": [
         [
-          374,
-          1600
+          1552,
+          2492
         ],
         [
-          1493,
-          1606
+          1766,
+          2494
         ],
         [
-          1493,
-          1670
+          1765,
+          2534
         ],
         [
-          374,
-          1659
+          1552,
+          2532
         ]
       ],
       "words": [
         {
-          "text": "them.",
+          "text": "CamScanner",
           "bbox": [
             [
-              393,
-              1600
+              1557,
+              2493
             ],
             [
-              591,
-              1601
+              1764,
+              2496
             ],
             [
-              590,
-              1660
+              1764,
+              2534
             ],
             [
-              392,
-              1657
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "customs are only here to margin-",
-      "bbox": [
-        [
-          412,
-          1688
-        ],
-        [
-          1515,
-          1691
-        ],
-        [
-          1514,
-          1754
-        ],
-        [
-          412,
-          1747
-        ]
-      ],
-      "words": [
-        {
-          "text": "customs",
-          "bbox": [
-            [
-              415,
-              1694
-            ],
-            [
-              639,
-              1690
-            ],
-            [
-              638,
-              1747
-            ],
-            [
-              414,
-              1745
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "alize cher and she, in result,",
-      "bbox": [
-        [
-          392,
-          1770
-        ],
-        [
-          1400,
-          1773
-        ],
-        [
-          1400,
-          1840
-        ],
-        [
-          391,
-          1834
-        ]
-      ],
-      "words": [
-        {
-          "text": "alize",
-          "bbox": [
-            [
-              395,
-              1774
-            ],
-            [
-              564,
-              1771
-            ],
-            [
-              563,
-              1834
-            ],
-            [
-              394,
-              1834
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "does not give any importance",
-      "bbox": [
-        [
-          406,
-          1853
-        ],
-        [
-          1460,
-          1862
-        ],
-        [
-          1460,
-          1928
-        ],
-        [
-          405,
-          1918
-        ]
-      ],
-      "words": [
-        {
-          "text": "does",
-          "bbox": [
-            [
-              407,
-              1854
-            ],
-            [
-              566,
-              1855
-            ],
-            [
-              564,
-              1921
-            ],
-            [
-              405,
-              1920
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "or signifonce to them in order",
-      "bbox": [
-        [
-          411,
-          1937
-        ],
-        [
-          1477,
-          1951
-        ],
-        [
-          1476,
-          2017
-        ],
-        [
-          410,
-          2008
-        ]
-      ],
-      "words": [
-        {
-          "text": "signifonce",
-          "bbox": [
-            [
-              510,
-              1940
-            ],
-            [
-              829,
-              1946
-            ],
-            [
-              829,
-              2015
-            ],
-            [
-              510,
-              2010
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "to prove that they are above",
-      "bbox": [
-        [
-          399,
-          2023
-        ],
-        [
-          1432,
-          2034
-        ],
-        [
-          1431,
-          2097
-        ],
-        [
-          398,
-          2089
-        ]
-      ],
-      "words": [
-        {
-          "text": "prove",
-          "bbox": [
-            [
-              504,
-              2024
-            ],
-            [
-              668,
-              2026
-            ],
-            [
-              667,
-              2094
-            ],
-            [
-              503,
-              2092
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "these things and their energies",
-      "bbox": [
-        [
-          408,
-          2116
-        ],
-        [
-          1538,
-          2121
-        ],
-        [
-          1537,
-          2186
-        ],
-        [
-          408,
-          2178
-        ]
-      ],
-      "words": [
-        {
-          "text": "these",
-          "bbox": [
-            [
-              419,
-              2119
-            ],
-            [
-              596,
-              2117
-            ],
-            [
-              596,
-              2178
-            ],
-            [
-              419,
-              2174
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "only need to be utilized",
-      "bbox": [
-        [
-          438,
-          2202
-        ],
-        [
-          1444,
-          2201
-        ],
-        [
-          1444,
-          2270
-        ],
-        [
-          438,
-          2271
-        ]
-      ],
-      "words": [
-        {
-          "text": "only",
-          "bbox": [
-            [
-              441,
-              2207
-            ],
-            [
-              585,
-              2205
-            ],
-            [
-              586,
-              2271
-            ],
-            [
-              441,
-              2271
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "in achieving their higher",
-      "bbox": [
-        [
-          406,
-          2284
-        ],
-        [
-          1455,
-          2292
-        ],
-        [
-          1454,
-          2356
-        ],
-        [
-          406,
-          2350
-        ]
-      ],
-      "words": [
-        {
-          "text": "achieving",
-          "bbox": [
-            [
-              546,
-              2285
-            ],
-            [
-              881,
-              2288
-            ],
-            [
-              880,
-              2355
-            ],
-            [
-              545,
-              2351
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "goals of life only.",
-      "bbox": [
-        [
-          392,
-          2370
-        ],
-        [
-          1205,
-          2369
-        ],
-        [
-          1205,
-          2441
-        ],
-        [
-          392,
-          2442
-        ]
-      ],
-      "words": [
-        {
-          "text": "goals",
-          "bbox": [
-            [
-              393,
-              2389
-            ],
-            [
-              593,
-              2375
-            ],
-            [
-              592,
-              2442
-            ],
-            [
-              392,
-              2442
+              1557,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "rights. She would legal facilitations to protect them such as Protection of Women Against Workplace Harassment, (2010), Acid Control and Acid Crime Prevention Act (2011) and Women Property Protection Right (2020). And uneducated female can not be expected of knowing these rights but on educated female in Pakistan would know and she would not stand any unjustice against her personhood. Fourthly, educated females become immune to evil social customs and the absurd stereotypes. She starts to think and live bey and them. She starts to believe that customs are only here to margin- alize cher and she, in result, does not give any importance or signifonce to them in order to prove that they are above these things and their energies only need to be utilized in achieving their higher goals of life only.",
+  "ocr_full_text_page": "are primary source of fresh water for the living beings. Countries lying on the equator belt are drastically being affected the most. One of the stark examples is that of Pakistan which has lost 1/3rd of its glacial resource since 1960s - 2025. Similarly, many other countries are facing the some consequences, making climate change, an essential factor contributing to water depletion Similarly, over consumption of the surface water is also one of the prime factors which are contributing towards loss of water. This is mostly done to meet domestic, agricultural and industrial demands. It is leading towards lack of water as most of the water is being wasted and irresponsibly used after extraction. This is also CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

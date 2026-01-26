@@ -4,287 +4,287 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "confrontations in South China Sea",
+      "text": "Scarce and rightly curated",
       "bbox": [
         [
-          388,
-          178
-        ],
-        [
-          1393,
-          173
-        ],
-        [
-          1394,
-          228
-        ],
-        [
-          388,
-          243
-        ]
-      ],
-      "words": [
-        {
-          "text": "confrontations",
-          "bbox": [
-            [
-              397,
-              179
-            ],
-            [
-              736,
-              181
-            ],
-            [
-              736,
-              238
-            ],
-            [
-              397,
-              243
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "from spiralling into major power",
-      "bbox": [
-        [
-          416,
+          345,
           254
         ],
         [
-          1413,
-          240
+          1405,
+          259
         ],
         [
-          1414,
-          297
+          1404,
+          337
         ],
         [
-          416,
-          309
+          344,
+          328
         ]
       ],
       "words": [
         {
-          "text": "from",
+          "text": "Scarce",
           "bbox": [
             [
-              419,
-              255
+              348,
+              274
             ],
             [
-              525,
-              255
+              558,
+              262
             ],
             [
-              526,
-              309
+              557,
+              323
             ],
             [
-              419,
-              309
+              347,
+              323
             ]
           ]
         }
       ]
     },
     {
-      "text": "conflict By institutionalizing dialogue",
+      "text": "policies and change in",
       "bbox": [
         [
-          403,
-          317
+          356,
+          345
         ],
         [
-          1489,
-          309
+          1331,
+          353
         ],
         [
-          1490,
-          366
+          1330,
+          424
         ],
         [
-          403,
-          374
+          355,
+          410
         ]
       ],
       "words": [
         {
-          "text": "conflict",
+          "text": "policies",
           "bbox": [
             [
-              406,
-              317
+              376,
+              350
             ],
             [
-              581,
-              318
+              640,
+              346
             ],
             [
-              581,
-              374
+              639,
+              412
             ],
             [
-              405,
-              374
+              375,
+              411
             ]
           ]
         }
       ]
     },
     {
-      "text": "between the great powers and",
+      "text": "human attitudes as well as",
       "bbox": [
         [
-          381,
-          390
+          348,
+          432
         ],
         [
-          1337,
-          384
+          1441,
+          444
         ],
         [
-          1338,
-          433
-        ],
-        [
-          381,
-          442
-        ]
-      ],
-      "words": [
-        {
-          "text": "between",
-          "bbox": [
-            [
-              383,
-              390
-            ],
-            [
-              578,
-              389
-            ],
-            [
-              577,
-              441
-            ],
-            [
-              382,
-              443
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "highlighting the results of rivalry",
-      "bbox": [
-        [
-          383,
-          457
-        ],
-        [
-          1431,
-          447
-        ],
-        [
-          1431,
-          503
-        ],
-        [
-          383,
-          516
-        ]
-      ],
-      "words": [
-        {
-          "text": "highlighting",
-          "bbox": [
-            [
-              388,
-              458
-            ],
-            [
-              678,
-              454
-            ],
-            [
-              676,
-              506
-            ],
-            [
-              385,
-              517
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "tensions can be de-escalated",
-      "bbox": [
-        [
-          386,
-          522
-        ],
-        [
-          1407,
+          1440,
           515
         ],
         [
-          1407,
-          564
-        ],
-        [
-          386,
-          570
+          346,
+          492
         ]
       ],
       "words": [
         {
-          "text": "tensions",
+          "text": "human",
           "bbox": [
             [
-              390,
-              523
+              358,
+              442
             ],
             [
-              611,
+              566,
+              434
+            ],
+            [
+              565,
+              495
+            ],
+            [
+              357,
+              492
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "actions germane to water",
+      "bbox": [
+        [
+          363,
+          522
+        ],
+        [
+          1433,
+          529
+        ],
+        [
+          1432,
+          599
+        ],
+        [
+          363,
+          586
+        ]
+      ],
+      "words": [
+        {
+          "text": "actions",
+          "bbox": [
+            [
+              366,
+              527
+            ],
+            [
+              610,
               523
             ],
             [
               609,
-              570
+              588
             ],
             [
-              388,
-              570
+              365,
+              581
             ]
           ]
         }
       ]
     },
     {
-      "text": "and the threats of zero-sum",
+      "text": "conservation are inevitable",
       "bbox": [
         [
-          412,
-          581
+          371,
+          614
+        ],
+        [
+          1400,
+          623
+        ],
+        [
+          1399,
+          694
+        ],
+        [
+          370,
+          677
+        ]
+      ],
+      "words": [
+        {
+          "text": "conservation",
+          "bbox": [
+            [
+              373,
+              615
+            ],
+            [
+              831,
+              615
+            ],
+            [
+              830,
+              684
+            ],
+            [
+              372,
+              672
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "to protect water for ourselves",
+      "bbox": [
+        [
+          335,
+          694
+        ],
+        [
+          1499,
+          716
+        ],
+        [
+          1498,
+          782
+        ],
+        [
+          334,
+          762
+        ]
+      ],
+      "words": [
+        {
+          "text": "protect",
+          "bbox": [
+            [
+              474,
+              697
+            ],
+            [
+              708,
+              701
+            ],
+            [
+              706,
+              771
+            ],
+            [
+              471,
+              766
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and our future generations.",
+      "bbox": [
+        [
+          320,
+          788
+        ],
+        [
+          1442,
+          796
         ],
         [
           1441,
-          582
+          868
         ],
         [
-          1441,
-          635
-        ],
-        [
-          412,
-          633
+          320,
+          854
         ]
       ],
       "words": [
@@ -292,1275 +292,175 @@
           "text": "and",
           "bbox": [
             [
-              415,
-              587
+              323,
+              792
             ],
             [
-              505,
-              585
+              451,
+              790
             ],
             [
-              504,
-              633
+              450,
+              853
             ],
             [
-              414,
-              634
+              322,
+              850
             ]
           ]
         }
       ]
     },
     {
-      "text": "rivalry can be prevented in the",
+      "text": "READ RIGHT",
       "bbox": [
         [
-          386,
-          651
+          362,
+          1339
+        ],
+        [
+          1455,
+          1336
         ],
         [
           1456,
-          649
+          1482
         ],
         [
-          1456,
-          698
-        ],
-        [
-          386,
-          701
+          362,
+          1483
         ]
       ],
       "words": [
         {
-          "text": "rivalry",
+          "text": "READ",
           "bbox": [
             [
-              389,
-              654
+              369,
+              1350
             ],
             [
-              546,
-              652
+              763,
+              1344
             ],
             [
-              546,
-              701
-            ],
-            [
-              389,
-              701
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "multipolar world.",
-      "bbox": [
-        [
-          389,
-          717
-        ],
-        [
-          974,
-          715
-        ],
-        [
-          974,
-          766
-        ],
-        [
-          389,
-          770
-        ]
-      ],
-      "words": [
-        {
-          "text": "multipolar",
-          "bbox": [
-            [
-              424,
-              720
-            ],
-            [
-              666,
-              716
-            ],
-            [
-              665,
-              766
-            ],
-            [
-              423,
-              771
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Lastly reducing nuclear",
-      "bbox": [
-        [
-          670,
-          842
-        ],
-        [
-          1386,
-          851
-        ],
-        [
-          1385,
-          903
-        ],
-        [
-          669,
-          893
-        ]
-      ],
-      "words": [
-        {
-          "text": "Lastly",
-          "bbox": [
-            [
-              678,
-              843
-            ],
-            [
-              840,
-              843
-            ],
-            [
-              839,
-              894
-            ],
-            [
-              677,
-              895
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "risks through updated treaties,",
-      "bbox": [
-        [
-          378,
-          908
-        ],
-        [
-          1393,
-          912
-        ],
-        [
-          1393,
-          963
-        ],
-        [
-          378,
-          958
-        ]
-      ],
-      "words": [
-        {
-          "text": "risks",
-          "bbox": [
-            [
-              380,
-              908
-            ],
-            [
-              495,
-              908
-            ],
-            [
-              495,
-              958
-            ],
-            [
-              380,
-              959
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "no-frist use pledges and de-",
-      "bbox": [
-        [
-          389,
-          963
-        ],
-        [
-          1431,
-          972
-        ],
-        [
-          1431,
-          1027
-        ],
-        [
-          389,
-          1022
-        ]
-      ],
-      "words": [
-        {
-          "text": "no-frist",
-          "bbox": [
-            [
-              392,
-              964
-            ],
-            [
-              612,
-              972
-            ],
-            [
-              612,
-              1023
-            ],
-            [
-              391,
-              1023
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "escalation mechanisms. Nuclear",
-      "bbox": [
-        [
-          398,
-          1039
-        ],
-        [
-          1380,
-          1040
-        ],
-        [
-          1380,
-          1088
-        ],
-        [
-          398,
-          1087
-        ]
-      ],
-      "words": [
-        {
-          "text": "escalation",
-          "bbox": [
-            [
-              406,
-              1040
-            ],
-            [
-              670,
-              1043
-            ],
-            [
-              670,
-              1087
-            ],
-            [
-              406,
-              1088
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "weapons remain the greatest",
-      "bbox": [
-        [
-          389,
-          1108
-        ],
-        [
-          1337,
-          1106
-        ],
-        [
-          1337,
-          1152
-        ],
-        [
-          389,
-          1156
-        ]
-      ],
-      "words": [
-        {
-          "text": "weapons",
-          "bbox": [
-            [
-              391,
-              1112
-            ],
-            [
-              614,
-              1109
-            ],
-            [
-              613,
-              1152
-            ],
-            [
-              390,
-              1156
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "existential",
-      "bbox": [
-        [
-          400,
-          1176
-        ],
-        [
-          735,
-          1170
-        ],
-        [
-          735,
-          1213
-        ],
-        [
-          400,
-          1218
-        ]
-      ],
-      "words": [
-        {
-          "text": "existential",
-          "bbox": [
-            [
-              418,
-              1180
-            ],
-            [
-              734,
-              1170
-            ],
-            [
-              735,
-              1214
-            ],
-            [
-              418,
-              1217
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "threats. As the",
-      "bbox": [
-        [
-          744,
-          1165
-        ],
-        [
-          1359,
-          1161
-        ],
-        [
-          1359,
-          1213
-        ],
-        [
-          744,
-          1214
-        ]
-      ],
-      "words": [
-        {
-          "text": "threats.",
-          "bbox": [
-            [
-              855,
-              1170
-            ],
-            [
-              1070,
-              1167
-            ],
-            [
-              1069,
-              1214
-            ],
-            [
-              855,
-              1213
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "great powers and middle powers",
-      "bbox": [
-        [
-          435,
-          1235
-        ],
-        [
-          1495,
-          1234
-        ],
-        [
-          1495,
-          1283
-        ],
-        [
-          435,
-          1284
-        ]
-      ],
-      "words": [
-        {
-          "text": "great",
-          "bbox": [
-            [
-              456,
-              1241
-            ],
-            [
-              607,
-              1238
-            ],
-            [
-              606,
-              1283
-            ],
-            [
-              455,
-              1284
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "are contesting to increase their",
-      "bbox": [
-        [
-          388,
-          1303
-        ],
-        [
-          1433,
-          1298
-        ],
-        [
-          1434,
-          1343
-        ],
-        [
-          388,
-          1348
-        ]
-      ],
-      "words": [
-        {
-          "text": "are",
-          "bbox": [
-            [
-              390,
-              1307
-            ],
-            [
-              472,
-              1306
-            ],
-            [
-              472,
-              1348
-            ],
-            [
-              390,
-              1348
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "nuclear warheads and achieve",
-      "bbox": [
-        [
-          370,
-          1367
-        ],
-        [
-          1374,
-          1360
-        ],
-        [
-          1374,
-          1410
-        ],
-        [
-          370,
-          1415
-        ]
-      ],
-      "words": [
-        {
-          "text": "nuclear",
-          "bbox": [
-            [
-              370,
-              1369
-            ],
-            [
-              573,
-              1368
-            ],
-            [
-              573,
-              1413
-            ],
-            [
-              370,
-              1415
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "nuclear weapons, multipolarity",
-      "bbox": [
-        [
-          382,
-          1434
-        ],
-        [
-          1340,
-          1426
-        ],
-        [
-          1340,
-          1474
-        ],
-        [
-          382,
-          1481
-        ]
-      ],
-      "words": [
-        {
-          "text": "nuclear",
-          "bbox": [
-            [
-              390,
-              1435
-            ],
-            [
-              586,
-              1433
-            ],
-            [
-              586,
-              1479
-            ],
-            [
-              390,
+              765,
               1482
+            ],
+            [
+              369,
+              1478
             ]
           ]
         }
       ]
     },
     {
-      "text": "has brought the world to",
+      "text": "INSTITUTE",
       "bbox": [
         [
-          370,
-          1494
+          653,
+          1496
         ],
         [
-          1355,
-          1489
+          1168,
+          1496
         ],
         [
-          1356,
-          1539
+          1168,
+          1580
         ],
         [
-          370,
-          1545
+          653,
+          1578
         ]
       ],
       "words": [
         {
-          "text": "has",
+          "text": "INSTITUTE",
           "bbox": [
             [
-              373,
-              1494
+              653,
+              1499
             ],
             [
-              463,
-              1494
+              1166,
+              1499
             ],
             [
-              462,
-              1545
+              1164,
+              1580
             ],
             [
-              372,
-              1546
+              653,
+              1577
             ]
           ]
         }
       ]
     },
     {
-      "text": "the brink of catastrophic war.",
+      "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          390,
-          1555
-        ],
-        [
-          1483,
-          1555
-        ],
-        [
-          1483,
-          1606
-        ],
-        [
-          390,
-          1607
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              393,
-              1560
-            ],
-            [
-              490,
-              1558
-            ],
-            [
-              489,
-              1607
-            ],
-            [
-              392,
-              1608
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Consequently, vodating Cold War",
-      "bbox": [
-        [
-          391,
-          1623
-        ],
-        [
-          1411,
+          583,
           1618
         ],
         [
-          1411,
-          1669
+          1234,
+          1618
         ],
         [
-          391,
-          1673
+          1234,
+          1668
+        ],
+        [
+          583,
+          1668
         ]
       ],
       "words": [
         {
-          "text": "Consequently,",
+          "text": "SYED",
           "bbox": [
             [
-              394,
-              1623
+              586,
+              1620
             ],
             [
-              797,
-              1625
+              699,
+              1619
             ],
             [
-              796,
-              1673
+              697,
+              1669
             ],
             [
-              393,
-              1673
+              584,
+              1669
             ]
           ]
         }
       ]
     },
     {
-      "text": "arms control treaties, no-first use",
+      "text": "CamScanner",
       "bbox": [
         [
-          387,
-          1690
+          1553,
+          2492
         ],
         [
-          1490,
-          1680
+          1766,
+          2495
         ],
         [
-          1491,
-          1733
+          1766,
+          2534
         ],
         [
-          387,
-          1739
-        ]
-      ],
-      "words": [
-        {
-          "text": "arms",
-          "bbox": [
-            [
-              390,
-              1695
-            ],
-            [
-              505,
-              1695
-            ],
-            [
-              504,
-              1739
-            ],
-            [
-              389,
-              1739
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "doctrines increasing transparency",
-      "bbox": [
-        [
-          381,
-          1750
-        ],
-        [
-          1403,
-          1752
-        ],
-        [
-          1403,
-          1806
-        ],
-        [
-          381,
-          1805
-        ]
-      ],
-      "words": [
-        {
-          "text": "doctrines",
-          "bbox": [
-            [
-              389,
-              1751
-            ],
-            [
-              620,
-              1756
-            ],
-            [
-              620,
-              1805
-            ],
-            [
-              389,
-              1806
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "in nuclear deployments and",
-      "bbox": [
-        [
-          384,
-          1826
-        ],
-        [
-          1408,
-          1826
-        ],
-        [
-          1408,
-          1873
-        ],
-        [
-          384,
-          1872
-        ]
-      ],
-      "words": [
-        {
-          "text": "nuclear",
-          "bbox": [
-            [
-              517,
-              1827
-            ],
-            [
-              713,
-              1826
-            ],
-            [
-              713,
-              1870
-            ],
-            [
-              518,
-              1872
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "modernizing nuclear risk hotlines",
-      "bbox": [
-        [
-          374,
-          1883
-        ],
-        [
-          1442,
-          1888
-        ],
-        [
-          1442,
-          1940
-        ],
-        [
-          374,
-          1939
-        ]
-      ],
-      "words": [
-        {
-          "text": "modernizing",
-          "bbox": [
-            [
-              395,
-              1884
-            ],
-            [
-              727,
-              1890
-            ],
-            [
-              727,
-              1938
-            ],
-            [
-              395,
-              1940
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "can reduce",
-      "bbox": [
-        [
-          390,
-          1958
-        ],
-        [
-          751,
-          1954
-        ],
-        [
-          752,
-          2002
-        ],
-        [
-          390,
-          2009
-        ]
-      ],
-      "words": [
-        {
-          "text": "can",
-          "bbox": [
-            [
-              392,
-              1962
-            ],
-            [
-              478,
-              1958
-            ],
-            [
-              478,
-              2008
-            ],
-            [
-              392,
-              2009
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the probability of",
-      "bbox": [
-        [
-          865,
-          1949
-        ],
-        [
-          1438,
-          1948
-        ],
-        [
-          1438,
-          2004
-        ],
-        [
-          865,
-          2004
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              868,
-              1954
-            ],
-            [
-              962,
-              1958
-            ],
-            [
-              961,
-              2001
-            ],
-            [
-              867,
-              1998
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "nuclear. triggered world war. The",
-      "bbox": [
-        [
-          368,
-          2021
-        ],
-        [
-          1403,
-          2020
-        ],
-        [
-          1403,
-          2070
-        ],
-        [
-          368,
-          2071
-        ]
-      ],
-      "words": [
-        {
-          "text": "nuclear.",
-          "bbox": [
-            [
-              371,
-              2023
-            ],
-            [
-              590,
-              2022
-            ],
-            [
-              590,
-              2072
-            ],
-            [
-              370,
-              2072
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "US - Russia",
-      "bbox": [
-        [
-          377,
-          2086
-        ],
-        [
-          644,
-          2086
-        ],
-        [
-          643,
-          2137
-        ],
-        [
-          377,
-          2136
-        ]
-      ],
-      "words": [
-        {
-          "text": "Russia",
-          "bbox": [
-            [
-              496,
-              2087
-            ],
-            [
-              632,
-              2091
-            ],
-            [
-              632,
-              2136
-            ],
-            [
-              497,
-              2134
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "New START Treaty (2010)",
-      "bbox": [
-        [
-          663,
-          2086
-        ],
-        [
-          1498,
-          2086
-        ],
-        [
-          1498,
-          2136
-        ],
-        [
-          662,
-          2135
-        ]
-      ],
-      "words": [
-        {
-          "text": "New",
-          "bbox": [
-            [
-              792,
-              2086
-            ],
-            [
-              902,
-              2086
-            ],
-            [
-              901,
-              2136
-            ],
-            [
-              792,
-              2136
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "extended till 2026 capped deployed",
-      "bbox": [
-        [
-          384,
-          2152
-        ],
-        [
-          1507,
-          2154
-        ],
-        [
-          1507,
-          2206
-        ],
-        [
-          384,
-          2202
-        ]
-      ],
-      "words": [
-        {
-          "text": "extended",
-          "bbox": [
-            [
-              387,
-              2155
-            ],
-            [
-              615,
-              2153
-            ],
-            [
-              615,
-              2202
-            ],
-            [
-              386,
-              2203
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "nuclear warheads and included",
-      "bbox": [
-        [
-          377,
-          2221
-        ],
-        [
-          1340,
-          2219
-        ],
-        [
-          1340,
-          2268
-        ],
-        [
-          377,
-          2270
-        ]
-      ],
-      "words": [
-        {
-          "text": "nuclear",
-          "bbox": [
-            [
-              379,
-              2227
-            ],
-            [
-              555,
-              2223
-            ],
-            [
-              554,
-              2269
-            ],
-            [
-              378,
-              2270
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Scanned with",
-      "bbox": [
-        [
-          1566,
-          2461
-        ],
-        [
-          1728,
-          2462
-        ],
-        [
-          1728,
-          2488
-        ],
-        [
-          1566,
-          2488
-        ]
-      ],
-      "words": [
-        {
-          "text": "Scanned",
-          "bbox": [
-            [
-              1569,
-              2463
-            ],
-            [
-              1668,
-              2462
-            ],
-            [
-              1668,
-              2488
-            ],
-            [
-              1571,
-              2488
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "CS CamScanner",
-      "bbox": [
-        [
-          1539,
-          2496
-        ],
-        [
-          1762,
-          2497
-        ],
-        [
-          1762,
-          2529
-        ],
-        [
-          1538,
-          2525
+          1553,
+          2531
         ]
       ],
       "words": [
@@ -1568,27 +468,27 @@
           "text": "CamScanner",
           "bbox": [
             [
-              1581,
-              2497
+              1556,
+              2492
             ],
             [
-              1762,
-              2498
+              1764,
+              2496
             ],
             [
-              1762,
-              2529
+              1764,
+              2534
             ],
             [
-              1581,
-              2525
+              1556,
+              2532
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "confrontations in South China Sea from spiralling into major power conflict By institutionalizing dialogue between the great powers and highlighting the results of rivalry tensions can be de-escalated and the threats of zero-sum rivalry can be prevented in the multipolar world. Lastly reducing nuclear risks through updated treaties, no-frist use pledges and de- escalation mechanisms. Nuclear weapons remain the greatest existential threats. As the great powers and middle powers are contesting to increase their nuclear warheads and achieve nuclear weapons, multipolarity has brought the world to the brink of catastrophic war. Consequently, vodating Cold War arms control treaties, no-first use doctrines increasing transparency in nuclear deployments and modernizing nuclear risk hotlines can reduce the probability of nuclear. triggered world war. The US - Russia New START Treaty (2010) extended till 2026 capped deployed nuclear warheads and included Scanned with CS CamScanner",
+  "ocr_full_text_page": "12 Scarce and rightly curated T policies and change in human attitudes as well as actions germane to water conservation are inevitable to protect water for ourselves and our future generations. 1 READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI 1 CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

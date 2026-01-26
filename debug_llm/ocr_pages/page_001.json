@@ -7,20 +7,20 @@
       "text": "READ RIGHT",
       "bbox": [
         [
-          433,
-          93
+          434,
+          2
         ],
         [
-          876,
-          88
+          900,
+          2
         ],
         [
-          877,
-          155
+          902,
+          58
         ],
         [
-          433,
-          161
+          435,
+          69
         ]
       ],
       "words": [
@@ -29,19 +29,19 @@
           "bbox": [
             [
               434,
-              94
+              2
             ],
             [
-              598,
-              92
+              600,
+              3
             ],
             [
-              598,
-              161
+              607,
+              65
             ],
             [
-              433,
-              161
+              438,
+              70
             ]
           ]
         }
@@ -51,20 +51,20 @@
       "text": "INSTITUTE",
       "bbox": [
         [
-          545,
-          155
+          556,
+          63
         ],
         [
-          766,
-          154
+          780,
+          51
         ],
         [
-          766,
-          195
+          782,
+          92
         ],
         [
-          545,
-          197
+          559,
+          105
         ]
       ],
       "words": [
@@ -72,20 +72,20 @@
           "text": "INSTITUTE",
           "bbox": [
             [
-              549,
-              156
+              557,
+              65
             ],
             [
-              766,
-              155
+              778,
+              52
             ],
             [
-              766,
-              196
+              780,
+              94
             ],
             [
-              548,
-              197
+              560,
+              105
             ]
           ]
         }
@@ -96,19 +96,19 @@
       "bbox": [
         [
           484,
-          223
+          127
         ],
         [
-          829,
-          223
+          854,
+          123
         ],
         [
-          829,
-          254
+          854,
+          154
         ],
         [
-          485,
-          256
+          484,
+          159
         ]
       ],
       "words": [
@@ -116,43 +116,43 @@
           "text": "SYED",
           "bbox": [
             [
-              485,
-              225
+              487,
+              128
             ],
             [
-              546,
-              224
+              552,
+              128
             ],
             [
-              546,
-              257
+              552,
+              159
             ],
             [
               486,
-              257
+              158
             ]
           ]
         }
       ]
     },
     {
-      "text": "Date :......... / ......... /20 ...",
+      "text": "Date :......... / ......... /20 .......",
       "bbox": [
         [
-          1159,
-          159
+          1203,
+          63
         ],
         [
-          1463,
-          157
+          1572,
+          66
         ],
         [
-          1463,
-          192
+          1572,
+          100
         ],
         [
-          1160,
-          195
+          1203,
+          96
         ]
       ],
       "words": [
@@ -160,835 +160,439 @@
           "text": "Date",
           "bbox": [
             [
-              1162,
-              161
+              1208,
+              64
             ],
             [
-              1217,
-              160
+              1269,
+              64
             ],
             [
-              1218,
-              195
+              1269,
+              97
             ],
             [
-              1162,
-              196
+              1208,
+              97
             ]
           ]
         }
       ]
     },
     {
-      "text": "MOTOWI",
+      "text": "JTOWI",
       "bbox": [
         [
-          1155,
-          211
+          1257,
+          106
         ],
         [
-          1327,
-          209
+          1382,
+          115
         ],
         [
-          1327,
-          245
+          1382,
+          144
         ],
         [
-          1155,
-          246
+          1256,
+          148
         ]
       ],
       "words": [
         {
-          "text": "MOTOWI",
+          "text": "JTOWI",
           "bbox": [
             [
-              1157,
-              212
+              1256,
+              106
             ],
             [
-              1326,
-              210
+              1382,
+              108
             ],
             [
-              1327,
-              246
+              1381,
+              149
             ],
             [
-              1156,
-              247
+              1256,
+              147
             ]
           ]
         }
       ]
     },
     {
-      "text": "OFOS",
+      "text": "DO NOT WASTE WATER",
       "bbox": [
         [
-          1376,
-          211
+          434,
+          294
         ],
         [
-          1479,
-          211
+          1394,
+          294
         ],
         [
-          1478,
-          244
+          1394,
+          410
         ],
         [
-          1376,
-          242
+          434,
+          408
         ]
       ],
       "words": [
         {
-          "text": "OFOS",
+          "text": "NOT",
           "bbox": [
             [
-              1376,
-              211
+              604,
+              299
             ],
             [
-              1473,
-              212
+              760,
+              296
             ],
             [
-              1474,
-              244
+              762,
+              409
             ],
             [
-              1377,
-              242
+              605,
+              403
             ]
           ]
         }
       ]
     },
     {
-      "text": "Strengthen the Female Mind",
+      "text": "EVEN IF YOU ARE",
       "bbox": [
         [
-          433,
-          328
+          379,
+          441
         ],
         [
-          1450,
-          322
+          1235,
+          452
         ],
         [
-          1451,
-          424
+          1234,
+          576
         ],
         [
-          433,
-          434
+          379,
+          557
         ]
       ],
       "words": [
         {
-          "text": "Strengthen",
+          "text": "EVEN",
           "bbox": [
             [
-              437,
-              338
+              380,
+              445
             ],
             [
-              779,
-              325
+              559,
+              442
             ],
             [
-              781,
-              433
+              563,
+              559
             ],
             [
-              437,
-              434
+              383,
+              557
             ]
           ]
         }
       ]
     },
     {
-      "text": "by Enlarging it and there will",
+      "text": "STANDING AT A RUNNING",
       "bbox": [
         [
-          365,
-          486
+          380,
+          602
         ],
         [
-          1479,
-          472
+          1434,
+          629
         ],
         [
-          1481,
-          569
+          1433,
+          738
         ],
         [
-          365,
-          586
+          376,
+          715
         ]
       ],
       "words": [
         {
-          "text": "Enlarging",
+          "text": "STANDING",
           "bbox": [
             [
-              474,
-              485
+              384,
+              602
             ],
             [
-              809,
-              477
-            ],
-            [
-              811,
-              584
-            ],
-            [
-              475,
-              586
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "be an End to Blind Obedience",
-      "bbox": [
-        [
-          394,
-          628
-        ],
-        [
-          1502,
-          625
-        ],
-        [
-          1502,
-          725
-        ],
-        [
-          394,
-          726
-        ]
-      ],
-      "words": [
-        {
-          "text": "End",
-          "bbox": [
-            [
-              660,
-              633
+              789,
+              610
             ],
             [
               788,
-              630
+              729
             ],
             [
-              788,
-              725
-            ],
-            [
-              660,
-              724
+              381,
+              717
             ]
           ]
         }
       ]
     },
     {
-      "text": "I. Introduction",
+      "text": "STREAM",
       "bbox": [
         [
-          366,
-          868
+          386,
+          767
         ],
         [
-          829,
-          867
+          724,
+          774
         ],
         [
-          830,
-          934
+          728,
+          893
         ],
         [
-          366,
-          937
+          386,
+          887
         ]
       ],
       "words": [
         {
-          "text": "Introduction",
-          "bbox": [
-            [
-              444,
-              868
-            ],
-            [
-              818,
-              868
-            ],
-            [
-              818,
-              934
-            ],
-            [
-              442,
-              938
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "It is an undeniable reality that by",
-      "bbox": [
-        [
-          624,
-          949
-        ],
-        [
-          1453,
-          946
-        ],
-        [
-          1454,
-          1011
-        ],
-        [
-          624,
-          1014
-        ]
-      ],
-      "words": [
-        {
-          "text": "undeniable",
-          "bbox": [
-            [
-              821,
-              951
-            ],
-            [
-              1068,
-              947
-            ],
-            [
-              1068,
-              1010
-            ],
-            [
-              821,
-              1012
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "enlarging the female mind with education, there",
-      "bbox": [
-        [
-          385,
-          1031
-        ],
-        [
-          1488,
-          1030
-        ],
-        [
-          1489,
-          1092
-        ],
-        [
-          385,
-          1095
-        ]
-      ],
-      "words": [
-        {
-          "text": "enlarging",
-          "bbox": [
-            [
-              388,
-              1036
-            ],
-            [
-              613,
-              1033
-            ],
-            [
-              611,
-              1095
-            ],
-            [
-              386,
-              1096
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "will be end to blind obedience, yet there are",
-      "bbox": [
-        [
-          397,
-          1114
-        ],
-        [
-          1477,
-          1118
-        ],
-        [
-          1476,
-          1178
-        ],
-        [
-          396,
-          1172
-        ]
-      ],
-      "words": [
-        {
-          "text": "will",
-          "bbox": [
-            [
-              398,
-              1118
-            ],
-            [
-              493,
-              1117
-            ],
-            [
-              492,
-              1172
-            ],
-            [
-              397,
-              1170
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Various reasons which inhibit the process;",
-      "bbox": [
-        [
-          388,
-          1195
-        ],
-        [
-          1453,
-          1197
-        ],
-        [
-          1453,
-          1260
-        ],
-        [
-          388,
-          1256
-        ]
-      ],
-      "words": [
-        {
-          "text": "Various",
-          "bbox": [
-            [
-              392,
-              1206
-            ],
-            [
-              583,
-              1200
-            ],
-            [
-              581,
-              1251
-            ],
-            [
-              390,
-              1251
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "consequently women across the globe suffer",
-      "bbox": [
-        [
-          402,
-          1286
-        ],
-        [
-          1477,
-          1282
-        ],
-        [
-          1478,
-          1344
-        ],
-        [
-          402,
-          1346
-        ]
-      ],
-      "words": [
-        {
-          "text": "consequently",
-          "bbox": [
-            [
-              403,
-              1295
-            ],
-            [
-              715,
-              1287
-            ],
-            [
-              715,
-              1343
-            ],
-            [
-              403,
-              1346
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "detrimental impacts. Hence, pragmatic policies",
-      "bbox": [
-        [
-          403,
-          1363
-        ],
-        [
-          1505,
-          1364
-        ],
-        [
-          1505,
-          1424
-        ],
-        [
-          403,
-          1422
-        ]
-      ],
-      "words": [
-        {
-          "text": "detrimental",
-          "bbox": [
-            [
-              405,
-              1366
-            ],
-            [
-              667,
-              1364
-            ],
-            [
-              667,
-              1422
-            ],
-            [
-              405,
-              1417
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and actions are needed to stream line",
-      "bbox": [
-        [
-          415,
-          1442
-        ],
-        [
-          1405,
-          1439
-        ],
-        [
-          1405,
-          1494
-        ],
-        [
-          415,
-          1497
-        ]
-      ],
-      "words": [
-        {
-          "text": "and",
-          "bbox": [
-            [
-              418,
-              1444
-            ],
-            [
-              507,
-              1443
-            ],
-            [
-              506,
-              1497
-            ],
-            [
-              417,
-              1496
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "women education ITUTE",
-      "bbox": [
-        [
-          405,
-          1520
-        ],
-        [
-          1138,
-          1514
-        ],
-        [
-          1138,
-          1587
-        ],
-        [
-          406,
-          1587
-        ]
-      ],
-      "words": [
-        {
-          "text": "women",
+          "text": "STREAM",
           "bbox": [
             [
               406,
-              1536
+              767
             ],
             [
-              566,
-              1529
+              714,
+              773
             ],
             [
-              568,
-              1581
+              712,
+              893
             ],
             [
-              408,
-              1579
+              404,
+              887
             ]
           ]
         }
       ]
     },
     {
-      "text": "II. How strengthening the female",
+      "text": "I. INTRODUCTION",
       "bbox": [
         [
-          392,
-          1600
+          359,
+          1041
         ],
         [
-          1441,
-          1593
+          963,
+          1065
         ],
         [
-          1442,
-          1665
+          962,
+          1145
         ],
         [
-          392,
-          1671
+          358,
+          1132
         ]
       ],
       "words": [
         {
-          "text": "II.",
-          "bbox": [
-            [
-              396,
-              1606
-            ],
-            [
-              479,
-              1604
-            ],
-            [
-              477,
-              1670
-            ],
-            [
-              394,
-              1671
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "mind by enlarging it with education",
-      "bbox": [
-        [
-          417,
-          1684
-        ],
-        [
-          1495,
-          1682
-        ],
-        [
-          1496,
-          1750
-        ],
-        [
-          417,
-          1753
-        ]
-      ],
-      "words": [
-        {
-          "text": "mind",
-          "bbox": [
-            [
-              419,
-              1688
-            ],
-            [
-              566,
-              1686
-            ],
-            [
-              564,
-              1753
-            ],
-            [
-              418,
-              1753
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Godsends blind obedience:",
-      "bbox": [
-        [
-          417,
-          1758
-        ],
-        [
-          1318,
-          1762
-        ],
-        [
-          1318,
-          1830
-        ],
-        [
-          417,
-          1827
-        ]
-      ],
-      "words": [
-        {
-          "text": "Godsends",
-          "bbox": [
-            [
-              421,
-              1759
-            ],
-            [
-              742,
-              1762
-            ],
-            [
-              741,
-              1830
-            ],
-            [
-              420,
-              1828
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "1. Only educated female breaks free from",
-      "bbox": [
-        [
-          415,
-          1857
-        ],
-        [
-          1438,
-          1854
-        ],
-        [
-          1438,
-          1914
-        ],
-        [
-          415,
-          1919
-        ]
-      ],
-      "words": [
-        {
-          "text": "Only",
+          "text": "INTRODUCTION",
           "bbox": [
             [
               486,
-              1862
+              1053
             ],
             [
-              586,
-              1859
+              944,
+              1075
             ],
             [
-              586,
-              1919
+              945,
+              1145
             ],
             [
-              486,
-              1920
+              485,
+              1138
             ]
           ]
         }
       ]
     },
     {
-      "text": "the shackles of patriarchal mind set that",
+      "text": "The proverb, \"do not waste",
       "bbox": [
         [
-          449,
-          1939
+          612,
+          1241
         ],
         [
-          1473,
-          1936
+          1302,
+          1249
         ],
         [
-          1473,
-          1991
+          1301,
+          1310
         ],
         [
-          449,
-          1995
+          611,
+          1304
+        ]
+      ],
+      "words": [
+        {
+          "text": "The",
+          "bbox": [
+            [
+              624,
+              1242
+            ],
+            [
+              704,
+              1242
+            ],
+            [
+              703,
+              1303
+            ],
+            [
+              622,
+              1300
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "water, even if you are standing",
+      "bbox": [
+        [
+          381,
+          1329
+        ],
+        [
+          1349,
+          1334
+        ],
+        [
+          1349,
+          1392
+        ],
+        [
+          381,
+          1383
+        ]
+      ],
+      "words": [
+        {
+          "text": "water,",
+          "bbox": [
+            [
+              382,
+              1331
+            ],
+            [
+              573,
+              1330
+            ],
+            [
+              572,
+              1385
+            ],
+            [
+              381,
+              1382
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "at a running stream\", signals",
+      "bbox": [
+        [
+          395,
+          1408
+        ],
+        [
+          1273,
+          1414
+        ],
+        [
+          1273,
+          1474
+        ],
+        [
+          395,
+          1464
+        ]
+      ],
+      "words": [
+        {
+          "text": "running",
+          "bbox": [
+            [
+              562,
+              1410
+            ],
+            [
+              743,
+              1409
+            ],
+            [
+              743,
+              1468
+            ],
+            [
+              561,
+              1465
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "at the critical importance of",
+      "bbox": [
+        [
+          398,
+          1488
+        ],
+        [
+          1284,
+          1490
+        ],
+        [
+          1284,
+          1551
+        ],
+        [
+          398,
+          1548
         ]
       ],
       "words": [
@@ -996,335 +600,467 @@
           "text": "the",
           "bbox": [
             [
-              459,
-              1945
+              508,
+              1492
             ],
             [
-              547,
-              1943
+              593,
+              1491
             ],
             [
-              546,
-              1993
+              592,
+              1547
             ],
             [
-              458,
-              1993
+              507,
+              1545
             ]
           ]
         }
       ]
     },
     {
-      "text": "demands blind obedience.",
+      "text": "water conservation. Despite its",
       "bbox": [
         [
-          446,
-          2026
+          414,
+          1578
         ],
         [
-          1091,
-          2028
+          1283,
+          1585
         ],
         [
-          1091,
-          2079
+          1282,
+          1635
         ],
         [
-          446,
-          2075
+          414,
+          1624
         ]
       ],
       "words": [
         {
-          "text": "demands",
+          "text": "water",
           "bbox": [
             [
-              448,
-              2026
+              414,
+              1579
             ],
             [
-              658,
-              2027
+              581,
+              1579
             ],
             [
-              657,
-              2075
+              582,
+              1626
             ],
             [
-              448,
-              2074
+              415,
+              1623
             ]
           ]
         }
       ]
     },
     {
-      "text": "2. Educated female secures economic",
+      "text": "apparent abundance, various",
       "bbox": [
         [
-          415,
-          2113
+          396,
+          1659
         ],
         [
-          1351,
-          2108
+          1242,
+          1664
         ],
         [
-          1351,
-          2155
+          1242,
+          1722
         ],
         [
-          415,
-          2162
+          396,
+          1715
         ]
       ],
       "words": [
         {
-          "text": "Educated",
+          "text": "apparent",
           "bbox": [
             [
-              481,
-              2113
+              396,
+              1660
             ],
             [
-              669,
-              2112
+              624,
+              1660
             ],
             [
-              671,
-              2161
+              624,
+              1717
             ],
             [
-              483,
-              2163
+              396,
+              1716
             ]
           ]
         }
       ]
     },
     {
-      "text": "independence which protects from obeying",
+      "text": "factors make it a finite resource;",
       "bbox": [
         [
-          441,
-          2189
+          397,
+          1739
         ],
         [
-          1493,
-          2191
+          1426,
+          1740
         ],
         [
-          1493,
-          2249
+          1426,
+          1805
         ],
         [
-          441,
-          2245
+          396,
+          1802
         ]
       ],
       "words": [
         {
-          "text": "independence",
+          "text": "factors",
           "bbox": [
             [
-              442,
-              2190
+              401,
+              1750
             ],
             [
-              787,
-              2190
+              598,
+              1743
             ],
             [
-              787,
-              2245
+              596,
+              1799
             ],
             [
-              441,
-              2243
+              399,
+              1800
             ]
           ]
         }
       ]
     },
     {
-      "text": "mindlessly",
+      "text": "hence, a responsible policy pivot",
       "bbox": [
         [
-          440,
-          2281
+          360,
+          1823
         ],
         [
-          705,
-          2288
+          1296,
+          1827
         ],
         [
-          703,
-          2337
+          1295,
+          1885
         ],
         [
-          440,
-          2328
+          359,
+          1881
         ]
       ],
       "words": [
         {
-          "text": "mindlessly",
+          "text": "hence,",
           "bbox": [
             [
-              455,
-              2282
+              365,
+              1823
             ],
             [
-              694,
-              2289
+              534,
+              1825
             ],
             [
-              693,
-              2337
+              532,
+              1880
             ],
             [
-              455,
-              2328
+              362,
+              1874
             ]
           ]
         }
       ]
     },
     {
-      "text": "3. Females strengthened by education lencew",
+      "text": "and ethical practices are needed.",
       "bbox": [
         [
-          410,
-          2357
+          401,
+          1905
         ],
         [
-          1445,
-          2354
+          1362,
+          1918
         ],
         [
-          1445,
-          2413
+          1361,
+          1969
         ],
         [
-          410,
-          2415
+          400,
+          1959
         ]
       ],
       "words": [
         {
-          "text": "Females",
+          "text": "and",
           "bbox": [
             [
-              457,
-              2361
+              403,
+              1905
             ],
             [
-              637,
-              2359
+              496,
+              1907
             ],
             [
-              637,
-              2414
+              494,
+              1959
             ],
             [
-              457,
-              2413
+              401,
+              1956
             ]
           ]
         }
       ]
     },
     {
-      "text": "their rights and do not submit to injustice.",
+      "text": "II. DECODING THE PROVERB:",
       "bbox": [
         [
-          427,
-          2437
+          360,
+          2047
         ],
         [
-          1475,
-          2438
+          1313,
+          2057
         ],
         [
-          1475,
-          2501
+          1312,
+          2137
         ],
         [
-          427,
-          2499
+          359,
+          2131
         ]
       ],
       "words": [
         {
-          "text": "their",
+          "text": "II.",
           "bbox": [
             [
-              446,
-              2439
+              365,
+              2047
             ],
             [
-              563,
-              2438
+              475,
+              2053
             ],
             [
-              562,
+              473,
+              2133
+            ],
+            [
+              362,
+              2131
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "DO NOT WASTE WATER EVEN IF",
+      "bbox": [
+        [
+          369,
+          2153
+        ],
+        [
+          1292,
+          2153
+        ],
+        [
+          1292,
+          2212
+        ],
+        [
+          369,
+          2211
+        ]
+      ],
+      "words": [
+        {
+          "text": "NOT",
+          "bbox": [
+            [
+              464,
+              2153
+            ],
+            [
+              566,
+              2153
+            ],
+            [
+              565,
+              2211
+            ],
+            [
+              464,
+              2210
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "YOU ARE STANDING AT A RUNNING",
+      "bbox": [
+        [
+          386,
+          2228
+        ],
+        [
+          1454,
+          2228
+        ],
+        [
+          1454,
+          2293
+        ],
+        [
+          386,
+          2292
+        ]
+      ],
+      "words": [
+        {
+          "text": "YOU",
+          "bbox": [
+            [
+              391,
+              2231
+            ],
+            [
+              490,
+              2231
+            ],
+            [
+              488,
+              2291
+            ],
+            [
+              389,
+              2291
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "STREM .",
+      "bbox": [
+        [
+          429,
+          2304
+        ],
+        [
+          686,
+          2310
+        ],
+        [
+          685,
+          2372
+        ],
+        [
+          428,
+          2366
+        ]
+      ],
+      "words": [
+        {
+          "text": "STREM",
+          "bbox": [
+            [
+              440,
+              2305
+            ],
+            [
+              643,
+              2311
+            ],
+            [
+              641,
+              2371
+            ],
+            [
+              438,
+              2368
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1552,
+          2491
+        ],
+        [
+          1765,
+          2494
+        ],
+        [
+          1765,
+          2535
+        ],
+        [
+          1552,
+          2532
+        ]
+      ],
+      "words": [
+        {
+          "text": "CamScanner",
+          "bbox": [
+            [
+              1557,
+              2492
+            ],
+            [
+              1766,
               2495
             ],
             [
-              445,
-              2497
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "...",
-      "bbox": [
-        [
-          1482,
-          160
-        ],
-        [
-          1502,
-          161
-        ],
-        [
-          1502,
-          195
-        ],
-        [
-          1482,
-          195
-        ]
-      ],
-      "words": [
-        {
-          "text": "...",
-          "bbox": [
-            [
-              1482,
-              160
+              1765,
+              2535
             ],
             [
-              1501,
-              160
-            ],
-            [
-              1500,
-              195
-            ],
-            [
-              1482,
-              194
+              1557,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ... MOTOWI IT OFOS 1 Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience I. Introduction It is an undeniable reality that by enlarging the female mind with education, there will be end to blind obedience, yet there are Various reasons which inhibit the process; consequently women across the globe suffer detrimental impacts. Hence, pragmatic policies and actions are needed to stream line women education ITUTE II. How strengthening the female mind by enlarging it with education Godsends blind obedience: 1. Only educated female breaks free from the shackles of patriarchal mind set that demands blind obedience. 2. Educated female secures economic independence which protects from obeying mindlessly 3. Females strengthened by education lencew their rights and do not submit to injustice. ...",
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ....... M JTOWI T F S DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREAM 20 I. INTRODUCTION The proverb, \"do not waste water, even if you are standing at a running stream\", signals at the critical importance of water conservation. Despite its apparent abundance, various factors make it a finite resource; . hence, a responsible policy pivot and ethical practices are needed. II. DECODING THE PROVERB: DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREM . A CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

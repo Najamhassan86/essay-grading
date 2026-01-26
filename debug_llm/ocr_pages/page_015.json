@@ -4,67 +4,23 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "READ RIGHT",
-      "bbox": [
-        [
-          440,
-          59
-        ],
-        [
-          891,
-          55
-        ],
-        [
-          892,
-          122
-        ],
-        [
-          440,
-          125
-        ]
-      ],
-      "words": [
-        {
-          "text": "READ",
-          "bbox": [
-            [
-              442,
-              60
-            ],
-            [
-              612,
-              58
-            ],
-            [
-              612,
-              125
-            ],
-            [
-              440,
-              125
-            ]
-          ]
-        }
-      ]
-    },
-    {
       "text": "INSTITUTE",
       "bbox": [
         [
-          559,
-          122
+          515,
+          34
         ],
         [
-          781,
-          120
+          736,
+          21
         ],
         [
-          781,
-          161
+          739,
+          63
         ],
         [
-          559,
-          163
+          516,
+          77
         ]
       ],
       "words": [
@@ -72,20 +28,20 @@
           "text": "INSTITUTE",
           "bbox": [
             [
-              559,
-              122
+              515,
+              35
             ],
             [
-              780,
-              121
+              736,
+              22
             ],
             [
-              780,
-              162
+              738,
+              64
             ],
             [
-              560,
-              164
+              516,
+              78
             ]
           ]
         }
@@ -95,20 +51,20 @@
       "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          491,
-          191
+          441,
+          98
         ],
         [
-          846,
-          190
+          806,
+          94
         ],
         [
-          846,
-          220
+          806,
+          127
         ],
         [
-          492,
-          223
+          441,
+          130
         ]
       ],
       "words": [
@@ -116,43 +72,43 @@
           "text": "SYED",
           "bbox": [
             [
-              493,
-              192
+              443,
+              99
             ],
             [
-              557,
-              191
+              508,
+              99
             ],
             [
-              558,
-              224
+              509,
+              130
             ],
             [
-              494,
-              224
+              443,
+              129
             ]
           ]
         }
       ]
     },
     {
-      "text": "Date :......... / ......... /20 .......",
+      "text": "Date :......... / ......... /20 ....... 15",
       "bbox": [
         [
-          1172,
-          128
+          1153,
+          41
         ],
         [
-          1517,
-          126
+          1576,
+          42
         ],
         [
-          1517,
-          158
+          1576,
+          80
         ],
         [
-          1172,
-          162
+          1153,
+          78
         ]
       ],
       "words": [
@@ -160,395 +116,1055 @@
           "text": "Date",
           "bbox": [
             [
-              1176,
-              128
+              1159,
+              42
             ],
             [
-              1232,
-              127
+              1212,
+              45
             ],
             [
-              1232,
-              162
+              1212,
+              76
             ],
             [
-              1176,
-              163
+              1159,
+              73
             ]
           ]
         }
       ]
     },
     {
-      "text": "MOTOWOTOFOSI",
+      "text": "MOT",
       "bbox": [
         [
-          1170,
-          178
+          1153,
+          92
         ],
         [
-          1502,
-          176
+          1250,
+          93
         ],
         [
-          1503,
-          208
+          1249,
+          121
         ],
         [
-          1171,
-          212
+          1153,
+          119
         ]
       ],
       "words": [
         {
-          "text": "MOTOWOTOFOSI",
+          "text": "MOT",
           "bbox": [
             [
-              1171,
-              179
+              1154,
+              92
             ],
             [
-              1499,
-              176
+              1242,
+              93
             ],
             [
-              1503,
-              206
+              1242,
+              122
             ],
             [
-              1172,
-              212
+              1154,
+              119
             ]
           ]
         }
       ]
     },
     {
-      "text": "Fourthly, tangible measures",
+      "text": "level. It is the abandonment",
       "bbox": [
         [
-          609,
-          246
+          369,
+          227
         ],
         [
-          1454,
-          247
+          1330,
+          233
         ],
         [
-          1454,
-          316
+          1329,
+          298
         ],
         [
-          609,
-          315
+          369,
+          293
         ]
       ],
       "words": [
         {
-          "text": "Fourthly,",
+          "text": "level.",
           "bbox": [
             [
-              610,
-              250
+              388,
+              228
             ],
             [
-              888,
-              246
+              561,
+              233
             ],
             [
-              888,
-              315
+              561,
+              291
             ],
             [
-              610,
-              316
+              387,
+              284
             ]
           ]
         }
       ]
     },
     {
-      "text": "need to be made to meet the",
+      "text": "of all traditional, water draining",
       "bbox": [
         [
-          387,
-          336
+          353,
+          307
         ],
         [
-          1389,
-          334
+          1353,
+          312
         ],
         [
-          1390,
+          1352,
+          379
+        ],
+        [
+          352,
+          367
+        ]
+      ],
+      "words": [
+        {
+          "text": "all",
+          "bbox": [
+            [
+              433,
+              309
+            ],
+            [
+              520,
+              311
+            ],
+            [
+              520,
+              365
+            ],
+            [
+              432,
+              362
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "techniques that are widely",
+      "bbox": [
+        [
+          358,
+          389
+        ],
+        [
+          1353,
           397
         ],
         [
-          387,
-          401
+          1352,
+          468
+        ],
+        [
+          357,
+          451
         ]
       ],
       "words": [
         {
-          "text": "need",
+          "text": "techniques",
           "bbox": [
             [
-              389,
-              342
+              377,
+              389
             ],
             [
-              516,
-              339
+              699,
+              392
             ],
             [
-              515,
-              401
+              699,
+              453
             ],
             [
-              388,
-              401
+              376,
+              444
             ]
           ]
         }
       ]
     },
     {
-      "text": "digital divide. Education is universal",
+      "text": "used in agriculture sector",
       "bbox": [
         [
-          406,
-          415
+          358,
+          468
         ],
         [
-          1516,
-          415
+          1269,
+          481
         ],
         [
-          1516,
-          485
+          1268,
+          550
         ],
         [
-          406,
-          486
+          357,
+          527
         ]
       ],
       "words": [
         {
-          "text": "digital",
+          "text": "used",
           "bbox": [
             [
-              407,
-              423
+              358,
+              475
             ],
             [
-              613,
-              418
+              473,
+              471
             ],
             [
-              613,
-              485
+              473,
+              526
             ],
             [
-              406,
-              487
+              358,
+              524
             ]
           ]
         }
       ]
     },
     {
-      "text": "today and accessible online for",
+      "text": "across the world, especially",
       "bbox": [
         [
-          398,
-          502
+          353,
+          549
         ],
         [
-          1408,
-          497
+          1337,
+          562
         ],
         [
-          1409,
-          568
+          1336,
+          639
         ],
         [
-          398,
-          574
+          351,
+          614
         ]
       ],
       "words": [
         {
-          "text": "today",
+          "text": "across",
           "bbox": [
             [
-              402,
-              514
+              355,
+              555
             ],
             [
-              586,
-              506
+              550,
+              550
             ],
             [
-              584,
-              571
+              549,
+              610
             ],
             [
-              400,
-              574
+              354,
+              609
             ]
           ]
         }
       ]
     },
     {
-      "text": "free. Governments must take actions",
+      "text": "in the global south. It is",
       "bbox": [
         [
-          428,
-          584
+          320,
+          629
         ],
         [
-          1500,
-          583
+          1341,
+          648
         ],
         [
-          1500,
-          654
+          1339,
+          715
         ],
         [
-          428,
-          655
+          319,
+          688
         ]
       ],
       "words": [
         {
-          "text": "free.",
+          "text": "the",
           "bbox": [
             [
-              429,
-              597
+              432,
+              630
             ],
             [
-              598,
-              590
+              534,
+              630
             ],
             [
-              598,
-              654
+              533,
+              694
             ],
             [
-              429,
-              655
+              431,
+              691
             ]
           ]
         }
       ]
     },
     {
-      "text": "to curb this divide. In Pakistan,",
+      "text": "important to adopt the",
       "bbox": [
         [
-          407,
-          664
+          357,
+          716
         ],
         [
-          1491,
-          665
+          1270,
+          727
         ],
         [
-          1491,
-          745
+          1269,
+          796
         ],
         [
-          407,
-          742
+          356,
+          780
         ]
       ],
       "words": [
         {
-          "text": "curb",
+          "text": "important",
           "bbox": [
             [
-              511,
-              676
+              357,
+              717
+            ],
+            [
+              682,
+              718
+            ],
+            [
+              680,
+              781
+            ],
+            [
+              356,
+              780
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "water efficient \"Crop per",
+      "bbox": [
+        [
+          352,
+          789
+        ],
+        [
+          1282,
+          805
+        ],
+        [
+          1280,
+          879
+        ],
+        [
+          352,
+          859
+        ]
+      ],
+      "words": [
+        {
+          "text": "water",
+          "bbox": [
+            [
+              353,
+              790
+            ],
+            [
+              589,
+              790
+            ],
+            [
+              589,
+              866
+            ],
+            [
+              353,
+              857
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Drop\" techniques that",
+      "bbox": [
+        [
+          349,
+          874
+        ],
+        [
+          1265,
+          893
+        ],
+        [
+          1264,
+          960
+        ],
+        [
+          349,
+          943
+        ]
+      ],
+      "words": [
+        {
+          "text": "Drop\"",
+          "bbox": [
+            [
+              352,
+              875
+            ],
+            [
+              563,
+              876
+            ],
+            [
+              564,
+              950
+            ],
+            [
+              352,
+              942
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ensures most agricultural",
+      "bbox": [
+        [
+          371,
+          971
+        ],
+        [
+          1297,
+          976
+        ],
+        [
+          1296,
+          1043
+        ],
+        [
+          370,
+          1031
+        ]
+      ],
+      "words": [
+        {
+          "text": "ensures",
+          "bbox": [
+            [
+              373,
+              975
+            ],
+            [
+              595,
+              973
+            ],
+            [
+              594,
+              1031
+            ],
+            [
+              371,
+              1024
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "activities under least",
+      "bbox": [
+        [
+          368,
+          1048
+        ],
+        [
+          1167,
+          1062
+        ],
+        [
+          1166,
+          1127
+        ],
+        [
+          367,
+          1108
+        ]
+      ],
+      "words": [
+        {
+          "text": "activities",
+          "bbox": [
+            [
+              371,
+              1049
             ],
             [
               649,
-              671
+              1052
             ],
             [
-              647,
-              734
+              649,
+              1113
             ],
             [
-              509,
-              733
+              370,
+              1105
             ]
           ]
         }
       ]
     },
     {
-      "text": "there are NGOS like \"Teletaleem\"",
+      "text": "consumption of water.",
       "bbox": [
         [
-          404,
-          756
+          363,
+          1139
         ],
         [
-          1550,
-          748
+          1092,
+          1150
         ],
         [
-          1550,
-          820
+          1091,
+          1203
         ],
         [
-          404,
-          824
+          363,
+          1189
         ]
       ],
       "words": [
         {
-          "text": "there",
+          "text": "consumption",
           "bbox": [
             [
-              417,
-              768
+              365,
+              1139
             ],
             [
-              577,
-              763
+              732,
+              1145
             ],
             [
-              576,
-              821
+              731,
+              1197
             ],
             [
-              416,
-              819
+              365,
+              1187
             ]
           ]
         }
       ]
     },
     {
-      "text": "which is working for the provision",
+      "text": "includes techniques such",
       "bbox": [
         [
-          405,
-          834
+          344,
+          1216
         ],
         [
-          1479,
-          841
+          1291,
+          1233
         ],
         [
-          1478,
-          909
+          1290,
+          1301
         ],
         [
-          404,
-          904
+          342,
+          1276
+        ]
+      ],
+      "words": [
+        {
+          "text": "includes",
+          "bbox": [
+            [
+              346,
+              1217
+            ],
+            [
+              640,
+              1217
+            ],
+            [
+              639,
+              1286
+            ],
+            [
+              344,
+              1276
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "as \"drip irrigation as wellas.",
+      "bbox": [
+        [
+          336,
+          1300
+        ],
+        [
+          1342,
+          1312
+        ],
+        [
+          1341,
+          1378
+        ],
+        [
+          335,
+          1367
+        ]
+      ],
+      "words": [
+        {
+          "text": "\"drip",
+          "bbox": [
+            [
+              417,
+              1301
+            ],
+            [
+              601,
+              1301
+            ],
+            [
+              600,
+              1372
+            ],
+            [
+              416,
+              1370
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "water sprinkler. This can",
+      "bbox": [
+        [
+          375,
+          1389
+        ],
+        [
+          1255,
+          1392
+        ],
+        [
+          1254,
+          1459
+        ],
+        [
+          374,
+          1454
+        ]
+      ],
+      "words": [
+        {
+          "text": "water",
+          "bbox": [
+            [
+              376,
+              1394
+            ],
+            [
+              573,
+              1390
+            ],
+            [
+              572,
+              1456
+            ],
+            [
+              375,
+              1452
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "efficiently, infact drastically",
+      "bbox": [
+        [
+          341,
+          1477
+        ],
+        [
+          1311,
+          1476
+        ],
+        [
+          1311,
+          1544
+        ],
+        [
+          341,
+          1545
+        ]
+      ],
+      "words": [
+        {
+          "text": "efficiently,",
+          "bbox": [
+            [
+              341,
+              1479
+            ],
+            [
+              671,
+              1478
+            ],
+            [
+              671,
+              1541
+            ],
+            [
+              341,
+              1545
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "pull down the ascending",
+      "bbox": [
+        [
+          343,
+          1559
+        ],
+        [
+          1310,
+          1561
+        ],
+        [
+          1310,
+          1630
+        ],
+        [
+          343,
+          1627
+        ]
+      ],
+      "words": [
+        {
+          "text": "pull",
+          "bbox": [
+            [
+              354,
+              1562
+            ],
+            [
+              496,
+              1561
+            ],
+            [
+              495,
+              1626
+            ],
+            [
+              354,
+              1627
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "statistics of water wastes",
+      "bbox": [
+        [
+          380,
+          1639
+        ],
+        [
+          1312,
+          1639
+        ],
+        [
+          1312,
+          1709
+        ],
+        [
+          380,
+          1705
+        ]
+      ],
+      "words": [
+        {
+          "text": "statistics",
+          "bbox": [
+            [
+              380,
+              1641
+            ],
+            [
+              661,
+              1641
+            ],
+            [
+              663,
+              1704
+            ],
+            [
+              382,
+              1702
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "pertaining to agriculture.",
+      "bbox": [
+        [
+          354,
+          1722
+        ],
+        [
+          1326,
+          1729
+        ],
+        [
+          1325,
+          1798
+        ],
+        [
+          354,
+          1792
+        ]
+      ],
+      "words": [
+        {
+          "text": "pertaining",
+          "bbox": [
+            [
+              358,
+              1722
+            ],
+            [
+              707,
+              1726
+            ],
+            [
+              706,
+              1796
+            ],
+            [
+              357,
+              1793
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Another important",
+      "bbox": [
+        [
+          646,
+          1813
+        ],
+        [
+          1280,
+          1807
+        ],
+        [
+          1281,
+          1877
+        ],
+        [
+          646,
+          1882
+        ]
+      ],
+      "words": [
+        {
+          "text": "Another",
+          "bbox": [
+            [
+              647,
+              1826
+            ],
+            [
+              855,
+              1813
+            ],
+            [
+              855,
+              1882
+            ],
+            [
+              646,
+              1882
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "suggestion is pertaining to",
+      "bbox": [
+        [
+          336,
+          1903
+        ],
+        [
+          1290,
+          1893
+        ],
+        [
+          1291,
+          1963
+        ],
+        [
+          336,
+          1968
+        ]
+      ],
+      "words": [
+        {
+          "text": "suggestion",
+          "bbox": [
+            [
+              336,
+              1908
+            ],
+            [
+              625,
+              1904
+            ],
+            [
+              624,
+              1968
+            ],
+            [
+              336,
+              1966
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "the industrial sector.",
+      "bbox": [
+        [
+          356,
+          1984
+        ],
+        [
+          1218,
+          1991
+        ],
+        [
+          1217,
+          2053
+        ],
+        [
+          356,
+          2047
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              367,
+              1985
+            ],
+            [
+              473,
+              1985
+            ],
+            [
+              473,
+              2046
+            ],
+            [
+              366,
+              2041
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "which results in water",
+      "bbox": [
+        [
+          338,
+          2073
+        ],
+        [
+          1202,
+          2070
+        ],
+        [
+          1202,
+          2132
+        ],
+        [
+          339,
+          2137
         ]
       ],
       "words": [
@@ -556,863 +1172,203 @@
           "text": "which",
           "bbox": [
             [
-              406,
-              835
+              341,
+              2076
             ],
             [
-              583,
-              837
+              525,
+              2073
             ],
             [
-              582,
-              904
+              526,
+              2137
             ],
             [
-              405,
-              899
+              342,
+              2137
             ]
           ]
         }
       ]
     },
     {
-      "text": "of education in for flung areas.",
+      "text": "wastage as well as water",
       "bbox": [
         [
-          413,
-          925
+          355,
+          2167
         ],
         [
-          1423,
-          928
+          1273,
+          2155
         ],
         [
-          1423,
-          989
+          1274,
+          2216
         ],
         [
-          413,
-          986
+          355,
+          2227
         ]
       ],
       "words": [
         {
-          "text": "education",
+          "text": "wastage",
           "bbox": [
             [
-              502,
-              927
+              358,
+              2167
             ],
             [
-              762,
-              926
+              629,
+              2163
             ],
             [
-              762,
-              989
+              626,
+              2226
             ],
             [
-              501,
-              987
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Government must launch such",
-      "bbox": [
-        [
-          420,
-          1009
-        ],
-        [
-          1371,
-          1012
-        ],
-        [
-          1370,
-          1073
-        ],
-        [
-          420,
-          1069
-        ]
-      ],
-      "words": [
-        {
-          "text": "Government",
-          "bbox": [
-            [
-              422,
-              1010
-            ],
-            [
-              758,
-              1010
-            ],
-            [
-              758,
-              1072
-            ],
-            [
-              422,
-              1064
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "initiatives as well as build the",
-      "bbox": [
-        [
-          407,
-          1090
-        ],
-        [
-          1434,
-          1086
-        ],
-        [
-          1434,
-          1151
-        ],
-        [
-          407,
-          1154
-        ]
-      ],
-      "words": [
-        {
-          "text": "initiatives",
-          "bbox": [
-            [
-              408,
-              1095
-            ],
-            [
-              695,
-              1090
-            ],
-            [
-              694,
-              1154
-            ],
-            [
-              407,
-              1151
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "public-private partnership",
-      "bbox": [
-        [
-          407,
-          1167
-        ],
-        [
-          1405,
-          1163
-        ],
-        [
-          1405,
-          1230
-        ],
-        [
-          407,
-          1236
-        ]
-      ],
-      "words": [
-        {
-          "text": "public-private",
-          "bbox": [
-            [
-              420,
-              1169
-            ],
-            [
-              965,
-              1164
-            ],
-            [
-              964,
-              1234
-            ],
-            [
-              419,
-              1236
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "in order to streamline the process",
-      "bbox": [
-        [
-          398,
-          1249
-        ],
-        [
-          1491,
-          1246
-        ],
-        [
-          1491,
-          1311
-        ],
-        [
-          398,
-          1314
-        ]
-      ],
-      "words": [
-        {
-          "text": "order",
-          "bbox": [
-            [
-              475,
-              1253
-            ],
-            [
-              655,
-              1253
-            ],
-            [
-              654,
-              1313
-            ],
-            [
-              473,
-              1312
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Fifthly, there is dire need",
-      "bbox": [
-        [
-          670,
-          1331
-        ],
-        [
-          1479,
-          1328
-        ],
-        [
-          1480,
-          1389
-        ],
-        [
-          670,
-          1396
-        ]
-      ],
-      "words": [
-        {
-          "text": "Fifthly,",
-          "bbox": [
-            [
-              671,
-              1339
-            ],
-            [
-              887,
-              1331
-            ],
-            [
-              887,
-              1393
-            ],
-            [
-              671,
-              1397
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "to enforce the protection laws and",
-      "bbox": [
-        [
-          413,
-          1416
-        ],
-        [
-          1455,
-          1414
-        ],
-        [
-          1455,
-          1469
-        ],
-        [
-          413,
-          1472
-        ]
-      ],
-      "words": [
-        {
-          "text": "enforce",
-          "bbox": [
-            [
-              513,
-              1418
-            ],
-            [
-              693,
-              1420
-            ],
-            [
-              692,
-              1472
-            ],
-            [
-              512,
-              1471
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "International goals that ensure",
-      "bbox": [
-        [
-          398,
-          1499
-        ],
-        [
-          1402,
-          1491
-        ],
-        [
-          1402,
-          1552
-        ],
-        [
-          398,
-          1559
-        ]
-      ],
-      "words": [
-        {
-          "text": "International",
-          "bbox": [
-            [
-              400,
-              1503
-            ],
-            [
-              789,
-              1496
-            ],
-            [
-              788,
-              1559
-            ],
-            [
-              398,
-              1559
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "woman protection and education.",
-      "bbox": [
-        [
-          399,
-          1577
-        ],
-        [
-          1424,
-          1572
-        ],
-        [
-          1425,
-          1637
-        ],
-        [
-          399,
-          1641
-        ]
-      ],
-      "words": [
-        {
-          "text": "woman",
-          "bbox": [
-            [
-              400,
-              1586
-            ],
-            [
-              580,
-              1581
-            ],
-            [
-              579,
-              1641
-            ],
-            [
-              399,
-              1641
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "The United Nations- Sustainable",
-      "bbox": [
-        [
-          407,
-          1652
-        ],
-        [
-          1532,
-          1642
-        ],
-        [
-          1533,
-          1717
-        ],
-        [
-          408,
-          1724
-        ]
-      ],
-      "words": [
-        {
-          "text": "The",
-          "bbox": [
-            [
-              412,
-              1658
-            ],
-            [
-              517,
-              1656
-            ],
-            [
-              516,
-              1720
-            ],
-            [
-              410,
-              1718
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Development Goals (SDGS)",
-      "bbox": [
-        [
-          399,
-          1734
-        ],
-        [
-          1432,
-          1729
-        ],
-        [
-          1432,
-          1805
-        ],
-        [
-          399,
-          1809
-        ]
-      ],
-      "words": [
-        {
-          "text": "Development",
-          "bbox": [
-            [
-              402,
-              1739
-            ],
-            [
-              832,
-              1733
-            ],
-            [
-              832,
-              1809
-            ],
-            [
-              402,
-              1809
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "for 2030 preses on the issue",
-      "bbox": [
-        [
-          424,
-          1823
-        ],
-        [
-          1438,
-          1823
-        ],
-        [
-          1438,
-          1892
-        ],
-        [
-          424,
-          1895
-        ]
-      ],
-      "words": [
-        {
-          "text": "for",
-          "bbox": [
-            [
-              426,
-              1824
-            ],
-            [
-              534,
-              1825
-            ],
-            [
-              534,
-              1895
-            ],
-            [
-              426,
-              1895
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "of female education. In SDC: 4",
-      "bbox": [
-        [
-          435,
-          1910
-        ],
-        [
-          1527,
-          1902
-        ],
-        [
-          1528,
-          1977
-        ],
-        [
-          435,
-          1981
-        ]
-      ],
-      "words": [
-        {
-          "text": "female",
-          "bbox": [
-            [
-              538,
-              1915
-            ],
-            [
-              738,
-              1913
-            ],
-            [
-              737,
-              1978
-            ],
-            [
-              537,
-              1980
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "there is goal to ensure free",
-      "bbox": [
-        [
-          424,
-          1994
-        ],
-        [
-          1376,
-          1992
-        ],
-        [
-          1376,
-          2059
-        ],
-        [
-          424,
-          2061
-        ]
-      ],
-      "words": [
-        {
-          "text": "there",
-          "bbox": [
-            [
-              427,
-              1997
-            ],
-            [
-              575,
-              1997
-            ],
-            [
-              574,
-              2061
-            ],
-            [
-              426,
-              2061
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "education and education rights",
-      "bbox": [
-        [
-          401,
-          2076
-        ],
-        [
-          1474,
-          2067
-        ],
-        [
-          1475,
-          2143
-        ],
-        [
-          401,
-          2148
-        ]
-      ],
-      "words": [
-        {
-          "text": "education",
-          "bbox": [
-            [
-              402,
-              2083
-            ],
-            [
-              708,
-              2077
-            ],
-            [
-              708,
-              2148
-            ],
-            [
-              402,
-              2142
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "for all genders without",
-      "bbox": [
-        [
-          414,
-          2154
-        ],
-        [
-          1364,
-          2151
-        ],
-        [
-          1364,
-          2228
-        ],
-        [
-          414,
-          2231
-        ]
-      ],
-      "words": [
-        {
-          "text": "for",
-          "bbox": [
-            [
-              418,
-              2156
-            ],
-            [
-              535,
-              2157
-            ],
-            [
-              534,
+              355,
               2227
-            ],
-            [
-              417,
-              2224
             ]
           ]
         }
       ]
     },
     {
-      "text": "any discrimination . similarly",
+      "text": "pollution. It must be",
       "bbox": [
         [
-          435,
-          2235
+          365,
+          2250
         ],
         [
-          1516,
-          2234
+          1203,
+          2240
         ],
         [
-          1516,
-          2311
+          1204,
+          2300
         ],
         [
-          435,
-          2313
+          365,
+          2312
         ]
       ],
       "words": [
         {
-          "text": "any",
+          "text": "pollution.",
           "bbox": [
             [
-              438,
-              2251
+              377,
+              2252
             ],
             [
-              570,
+              732,
               2244
             ],
             [
-              570,
-              2314
+              732,
+              2310
             ],
             [
-              438,
-              2314
+              376,
+              2312
             ]
           ]
         }
       ]
     },
     {
-      "text": "in Pakistan, there are constitutional",
+      "text": "made mandatory to",
       "bbox": [
         [
-          428,
-          2328
+          363,
+          2337
         ],
         [
-          1519,
-          2323
+          1194,
+          2318
         ],
         [
-          1519,
-          2391
+          1195,
+          2382
         ],
         [
-          428,
-          2395
+          363,
+          2400
         ]
       ],
       "words": [
         {
-          "text": "Pakistan,",
+          "text": "made",
           "bbox": [
             [
-              541,
-              2333
+              364,
+              2348
             ],
             [
-              811,
-              2332
+              547,
+              2336
             ],
             [
-              809,
-              2395
+              545,
+              2400
             ],
             [
-              539,
-              2393
+              363,
+              2400
             ]
           ]
         }
       ]
     },
     {
-      "text": "safeguards that protect woman",
+      "text": "CamScanner",
       "bbox": [
         [
-          417,
-          2423
+          1552,
+          2492
         ],
         [
-          1424,
-          2409
+          1765,
+          2495
         ],
         [
-          1425,
-          2471
+          1765,
+          2534
         ],
         [
-          417,
-          2483
+          1551,
+          2532
         ]
       ],
       "words": [
         {
-          "text": "safeguards",
+          "text": "CamScanner",
           "bbox": [
             [
-              419,
-              2428
+              1557,
+              2492
             ],
             [
-              797,
-              2418
+              1764,
+              2496
             ],
             [
-              797,
-              2482
+              1764,
+              2534
             ],
             [
-              419,
-              2483
+              1556,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ....... MOTOWOTOFOSI Fourthly, tangible measures need to be made to meet the digital divide. Education is universal today and accessible online for free. Governments must take actions to curb this divide. In Pakistan, there are NGOS like \"Teletaleem\" which is working for the provision of education in for flung areas. Government must launch such initiatives as well as build the public-private partnership in order to streamline the process Fifthly, there is dire need to enforce the protection laws and International goals that ensure woman protection and education. The United Nations- Sustainable Development Goals (SDGS) for 2030 preses on the issue of female education. In SDC: 4 there is goal to ensure free education and education rights for all genders without any discrimination . similarly in Pakistan, there are constitutional safeguards that protect woman",
+  "ocr_full_text_page": "20 INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ......... /20 ....... 15 MOT WI IT IF S level. It is the abandonment of all traditional, water draining techniques that are widely used in agriculture sector across the world, especially in the global south. It is important to adopt the water efficient \"Crop per Drop\" techniques that ensures most agricultural activities under least consumption of water. It includes techniques such as \"drip irrigation as wellas. water sprinkler. This can efficiently, infact drastically pull down the ascending statistics of water wastes pertaining to agriculture. Another important suggestion is pertaining to the industrial sector. which results in water wastage as well as water pollution. It must be made mandatory to CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

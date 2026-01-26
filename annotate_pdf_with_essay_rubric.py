@@ -541,18 +541,6 @@ def _draw_wrapped_text(
         used += th + line_gap
     return used
 
-def _draw_connector(
-    img: np.ndarray,
-    text_rect: Tuple[int, int, int, int],
-    callout_box: Tuple[int, int, int, int],
-    color=(0, 0, 255),
-):
-    tx1, ty1, tx2, ty2 = text_rect
-    bx1, by1, bx2, by2 = callout_box
-    start_pt = (int(bx1), int((by1 + by2) // 2))
-    end_pt = (int(tx2), int((ty1 + ty2) // 2))
-    cv2.arrowedLine(img, start_pt, end_pt, color, thickness=2, line_type=cv2.LINE_8, tipLength=0.03)
-
 
 # --- DYNAMIC LEFT BOX HELPERS ---
 def _box_height_for_wrapped_lines(num_lines: int, font_scale: float, thickness: int, line_gap: int, top_pad: int, bottom_pad: int) -> int:
@@ -661,8 +649,8 @@ def annotate_pdf_essay_pages(
         print(f"  Page extent: {extent}")
 
         # Canvas with margins
-        left_width = int(0.50 * orig_w)
-        right_width = int(0.40 * orig_w)
+        left_width = int(0.65 * orig_w)
+        right_width = int(0.35 * orig_w)
         new_w = left_width + orig_w + right_width
         y_offset = 0
         margin_px = int(0.03 * orig_w)
@@ -697,9 +685,9 @@ def annotate_pdf_essay_pages(
             bullet_full = "- " + bullet_text
 
             thick = 2
-            line_g = 16
-            top_pad = 18
-            bottom_pad = 18
+            line_g = 18
+            top_pad = 20
+            bottom_pad = 20
 
             remaining_h = (orig_h - margin_px) - y_cur
             if remaining_h < 160:
@@ -713,12 +701,12 @@ def annotate_pdf_essay_pages(
                 bullet_full,
                 max_width_px=col_w - 2 * left_pad,
                 max_height_px=min((orig_h - margin_px) - y_cur, 1200),
-                start_scale=1.30,
+                start_scale=1.55,
                 thickness=thick,
                 line_gap=line_g,
                 top_pad=top_pad,
                 bottom_pad=bottom_pad,
-                min_scale=0.80,
+                min_scale=1.00,
             )
 
             if y_cur + box_h > (orig_h - margin_px):
@@ -771,6 +759,8 @@ def annotate_pdf_essay_pages(
         callout_items: List[Dict[str, Any]] = []
 
         for idx, a in enumerate(anns):
+            # Matching/anchors disabled: skip detailed processing
+            continue
             a_type = (a.get("type") or "").strip()
             rubric_point = (a.get("rubric_point") or "").strip()
             comment = (a.get("comment") or "").strip()
@@ -886,11 +876,25 @@ def annotate_pdf_essay_pages(
                 print(f"     has_anchor={item['has_anchor']}")
                 print(f"     candidate_preview={item['primary_candidate_preview'][:120]}")
 
-        matched_count = sum(1 for x in resolved_callouts if x["rect"] is not None)
-        print(f"  Successfully matched: {matched_count}/{len(resolved_callouts)}")
-
-        # RIGHT MARGIN LAYOUT (no overlap)
+        # RIGHT MARGIN LAYOUT (no overlap). Matching/anchors removed; all callouts are page-level in input order.
         box_w = int(right_width - 2 * margin_px)
+        resolved_callouts: List[Dict[str, Any]] = []
+        for idx, a in enumerate(anns):
+            a_type = (a.get("type") or "").strip()
+            rubric_point = (a.get("rubric_point") or "").strip()
+            comment = (a.get("comment") or "").strip()
+            correction = (a.get("correction") or "").strip()
+            header = f"[{a_type}] {rubric_point}".strip()
+            body = (comment + (f"  Fix: {correction}" if correction else "")).strip()
+            if a_type != "grammar_language" and correction:
+                body = (comment + ("  Suggestion: " + correction)).strip()
+            resolved_callouts.append({
+                "rect": None,
+                "header": header,
+                "body": body,
+                "y_sort": idx,
+                "page_level": True,
+            })
         resolved_callouts.sort(key=lambda x: x["y_sort"])
 
         last_bottom_y = margin_px
@@ -901,9 +905,9 @@ def annotate_pdf_essay_pages(
             header = item["header"]
             body = item["body"]
 
-            header_scale = 0.95
-            body_scale = 0.90
-            l_gap = 14
+            header_scale = 1.05
+            body_scale = 1.00
+            l_gap = 16
 
             h_h = _estimate_text_height(header, header_scale, 2, box_w - 24, line_gap=l_gap)
             b_h = _estimate_text_height(body, body_scale, 2, box_w - 24, line_gap=l_gap)
@@ -912,15 +916,9 @@ def annotate_pdf_essay_pages(
             bx1 = left_width + orig_w + margin_px
             bx2 = bx1 + box_w
 
-            # For page-level items, stack below previous
-            if rect:
-                desired_y = rect[1] - 20
-            else:
-                desired_y = last_bottom_y + gap
-
-            start_y = max(margin_px, desired_y)
-            if start_y < last_bottom_y + gap:
-                start_y = last_bottom_y + gap
+            # Stack top-to-bottom without collisions; anchor near rect if present
+            desired_y = rect[1] - 20 if rect else last_bottom_y + gap
+            start_y = max(margin_px, last_bottom_y + gap, desired_y)
 
             by1 = int(start_y)
             by2 = int(by1 + box_h)

@@ -4,67 +4,551 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "deprivation neves break. However, hot",
+      "text": "to cap all the factors which",
       "bbox": [
         [
-          391,
-          331
+          427,
+          196
         ],
         [
-          1553,
-          330
+          1375,
+          185
         ],
         [
-          1553,
-          395
+          1376,
+          243
         ],
         [
-          391,
-          397
+          427,
+          256
         ]
       ],
       "words": [
         {
-          "text": "deprivation",
+          "text": "cap",
           "bbox": [
             [
-              392,
-              336
+              540,
+              196
             ],
             [
-              706,
-              332
+              635,
+              194
             ],
             [
-              706,
-              397
+              633,
+              253
             ],
             [
-              391,
-              394
+              538,
+              254
             ]
           ]
         }
       ]
     },
     {
-      "text": "all hope is lost and as it is said,",
+      "text": "are contributing towards water",
       "bbox": [
         [
-          404,
-          420
+          427,
+          272
         ],
         [
-          1479,
-          420
+          1441,
+          268
         ],
         [
-          1479,
-          487
+          1441,
+          331
         ],
         [
-          404,
-          485
+          427,
+          332
+        ]
+      ],
+      "words": [
+        {
+          "text": "are",
+          "bbox": [
+            [
+              430,
+              286
+            ],
+            [
+              526,
+              281
+            ],
+            [
+              526,
+              331
+            ],
+            [
+              429,
+              332
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "depletion such as water",
+      "bbox": [
+        [
+          436,
+          354
+        ],
+        [
+          1327,
+          350
+        ],
+        [
+          1327,
+          411
+        ],
+        [
+          436,
+          416
+        ]
+      ],
+      "words": [
+        {
+          "text": "depletion",
+          "bbox": [
+            [
+              439,
+              368
+            ],
+            [
+              717,
+              355
+            ],
+            [
+              716,
+              409
+            ],
+            [
+              438,
+              416
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "wastage, overconsumption and",
+      "bbox": [
+        [
+          428,
+          435
+        ],
+        [
+          1400,
+          436
+        ],
+        [
+          1400,
+          493
+        ],
+        [
+          427,
+          492
+        ]
+      ],
+      "words": [
+        {
+          "text": "wastage,",
+          "bbox": [
+            [
+              430,
+              439
+            ],
+            [
+              711,
+              437
+            ],
+            [
+              710,
+              492
+            ],
+            [
+              428,
+              490
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "increasing water pollution.",
+      "bbox": [
+        [
+          413,
+          515
+        ],
+        [
+          1408,
+          516
+        ],
+        [
+          1408,
+          577
+        ],
+        [
+          413,
+          577
+        ]
+      ],
+      "words": [
+        {
+          "text": "increasing",
+          "bbox": [
+            [
+              415,
+              521
+            ],
+            [
+              733,
+              517
+            ],
+            [
+              731,
+              577
+            ],
+            [
+              413,
+              576
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Instrumental steps such",
+      "bbox": [
+        [
+          423,
+          599
+        ],
+        [
+          1332,
+          606
+        ],
+        [
+          1332,
+          665
+        ],
+        [
+          422,
+          660
+        ]
+      ],
+      "words": [
+        {
+          "text": "Instrumental",
+          "bbox": [
+            [
+              442,
+              600
+            ],
+            [
+              874,
+              603
+            ],
+            [
+              874,
+              665
+            ],
+            [
+              440,
+              656
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "as implementation of water",
+      "bbox": [
+        [
+          403,
+          690
+        ],
+        [
+          1359,
+          687
+        ],
+        [
+          1359,
+          750
+        ],
+        [
+          403,
+          753
+        ]
+      ],
+      "words": [
+        {
+          "text": "implementation",
+          "bbox": [
+            [
+              528,
+              692
+            ],
+            [
+              948,
+              692
+            ],
+            [
+              949,
+              753
+            ],
+            [
+              527,
+              749
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "conservation techniques and",
+      "bbox": [
+        [
+          421,
+          773
+        ],
+        [
+          1392,
+          773
+        ],
+        [
+          1391,
+          840
+        ],
+        [
+          421,
+          835
+        ]
+      ],
+      "words": [
+        {
+          "text": "conservation",
+          "bbox": [
+            [
+              424,
+              779
+            ],
+            [
+              766,
+              777
+            ],
+            [
+              765,
+              834
+            ],
+            [
+              423,
+              827
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "multiplication of water dams",
+      "bbox": [
+        [
+          429,
+          866
+        ],
+        [
+          1407,
+          857
+        ],
+        [
+          1408,
+          917
+        ],
+        [
+          429,
+          926
+        ]
+      ],
+      "words": [
+        {
+          "text": "multiplication",
+          "bbox": [
+            [
+              430,
+              867
+            ],
+            [
+              833,
+              864
+            ],
+            [
+              832,
+              924
+            ],
+            [
+              429,
+              926
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "number are needed more",
+      "bbox": [
+        [
+          432,
+          946
+        ],
+        [
+          1334,
+          944
+        ],
+        [
+          1334,
+          1009
+        ],
+        [
+          432,
+          1011
+        ]
+      ],
+      "words": [
+        {
+          "text": "number",
+          "bbox": [
+            [
+              436,
+              948
+            ],
+            [
+              652,
+              952
+            ],
+            [
+              650,
+              1008
+            ],
+            [
+              434,
+              999
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "than ever to ensure that",
+      "bbox": [
+        [
+          419,
+          1034
+        ],
+        [
+          1348,
+          1031
+        ],
+        [
+          1349,
+          1089
+        ],
+        [
+          419,
+          1091
+        ]
+      ],
+      "words": [
+        {
+          "text": "than",
+          "bbox": [
+            [
+              429,
+              1038
+            ],
+            [
+              553,
+              1038
+            ],
+            [
+              552,
+              1091
+            ],
+            [
+              428,
+              1090
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "present and the future generations",
+      "bbox": [
+        [
+          419,
+          1115
+        ],
+        [
+          1491,
+          1116
+        ],
+        [
+          1491,
+          1183
+        ],
+        [
+          419,
+          1182
+        ]
+      ],
+      "words": [
+        {
+          "text": "present",
+          "bbox": [
+            [
+              422,
+              1122
+            ],
+            [
+              618,
+              1118
+            ],
+            [
+              617,
+              1180
+            ],
+            [
+              421,
+              1183
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of all life forms are not",
+      "bbox": [
+        [
+          435,
+          1200
+        ],
+        [
+          1330,
+          1203
+        ],
+        [
+          1330,
+          1268
+        ],
+        [
+          435,
+          1265
         ]
       ],
       "words": [
@@ -72,351 +556,439 @@
           "text": "all",
           "bbox": [
             [
-              404,
-              423
+              536,
+              1201
             ],
             [
-              493,
-              423
+              628,
+              1200
             ],
             [
-              493,
-              483
+              627,
+              1266
             ],
             [
-              404,
-              482
+              536,
+              1263
             ]
           ]
         }
       ]
     },
     {
-      "text": "it is never too late to change",
+      "text": "deprived of the core resource",
       "bbox": [
         [
           424,
-          497
+          1290
         ],
         [
-          1462,
-          501
+          1397,
+          1289
         ],
         [
-          1461,
-          572
+          1397,
+          1349
         ],
         [
-          423,
-          565
+          424,
+          1351
         ]
       ],
       "words": [
         {
-          "text": "never",
+          "text": "deprived",
           "bbox": [
             [
-              587,
-              498
+              429,
+              1293
             ],
             [
-              767,
-              497
+              685,
+              1290
             ],
             [
-              765,
-              566
+              684,
+              1350
             ],
             [
-              586,
-              565
+              427,
+              1352
             ]
           ]
         }
       ]
     },
     {
-      "text": "the world. There are many rational",
+      "text": "that sustains their existence.",
       "bbox": [
         [
-          385,
-          573
+          417,
+          1373
         ],
         [
-          1487,
-          595
+          1439,
+          1370
         ],
         [
-          1486,
-          655
+          1439,
+          1432
         ],
         [
-          383,
-          641
+          417,
+          1433
         ]
       ],
       "words": [
         {
-          "text": "the",
-          "bbox": [
-            [
-              396,
-              574
-            ],
-            [
-              511,
-              578
-            ],
-            [
-              510,
-              644
-            ],
-            [
-              394,
-              641
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and pragmatic ways through which",
-      "bbox": [
-        [
-          415,
-          672
-        ],
-        [
-          1452,
-          675
-        ],
-        [
-          1451,
-          743
-        ],
-        [
-          414,
-          737
-        ]
-      ],
-      "words": [
-        {
-          "text": "and",
-          "bbox": [
-            [
-              416,
-              673
-            ],
-            [
-              520,
-              675
-            ],
-            [
-              519,
-              735
-            ],
-            [
-              415,
-              732
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the hindrances in educating females",
-      "bbox": [
-        [
-          428,
-          755
-        ],
-        [
-          1469,
-          760
-        ],
-        [
-          1468,
-          827
-        ],
-        [
-          427,
-          820
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              432,
-              756
-            ],
-            [
-              518,
-              757
-            ],
-            [
-              516,
-              816
-            ],
-            [
-              430,
-              814
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "can be eliminated and their cause",
-      "bbox": [
-        [
-          415,
-          844
-        ],
-        [
-          1485,
-          851
-        ],
-        [
-          1484,
-          913
-        ],
-        [
-          415,
-          904
-        ]
-      ],
-      "words": [
-        {
-          "text": "can",
-          "bbox": [
-            [
-              416,
-              846
-            ],
-            [
-              501,
-              845
-            ],
-            [
-              500,
-              903
-            ],
-            [
-              415,
-              901
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "for no more blind obedience can",
-      "bbox": [
-        [
-          421,
-          926
-        ],
-        [
-          1448,
-          940
-        ],
-        [
-          1447,
-          999
-        ],
-        [
-          420,
-          986
-        ]
-      ],
-      "words": [
-        {
-          "text": "for",
-          "bbox": [
-            [
-              423,
-              927
-            ],
-            [
-              505,
-              927
-            ],
-            [
-              503,
-              987
-            ],
-            [
-              421,
-              985
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "take up momentum.",
-      "bbox": [
-        [
-          421,
-          1017
-        ],
-        [
-          1072,
-          1020
-        ],
-        [
-          1072,
-          1074
-        ],
-        [
-          421,
-          1070
-        ]
-      ],
-      "words": [
-        {
-          "text": "take",
+          "text": "that",
           "bbox": [
             [
               436,
-              1018
+              1380
             ],
             [
-              577,
-              1022
+              561,
+              1377
             ],
             [
-              578,
-              1071
+              560,
+              1433
             ],
             [
-              437,
-              1069
+              435,
+              1433
             ]
           ]
         }
       ]
     },
     {
-      "text": "There are many ways to",
+      "text": "The proverb, \" Do not",
       "bbox": [
         [
-          699,
-          1099
+          666,
+          1452
         ],
         [
-          1456,
-          1099
+          1438,
+          1448
         ],
         [
-          1456,
-          1165
+          1439,
+          1517
         ],
         [
-          699,
-          1164
+          666,
+          1521
+        ]
+      ],
+      "words": [
+        {
+          "text": "The",
+          "bbox": [
+            [
+              738,
+              1459
+            ],
+            [
+              836,
+              1456
+            ],
+            [
+              837,
+              1520
+            ],
+            [
+              738,
+              1518
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "waste water even if you",
+      "bbox": [
+        [
+          411,
+          1535
+        ],
+        [
+          1349,
+          1531
+        ],
+        [
+          1349,
+          1603
+        ],
+        [
+          411,
+          1605
+        ]
+      ],
+      "words": [
+        {
+          "text": "waste",
+          "bbox": [
+            [
+              411,
+              1543
+            ],
+            [
+              584,
+              1538
+            ],
+            [
+              584,
+              1603
+            ],
+            [
+              411,
+              1605
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "are standing at a running",
+      "bbox": [
+        [
+          426,
+          1620
+        ],
+        [
+          1449,
+          1626
+        ],
+        [
+          1449,
+          1694
+        ],
+        [
+          425,
+          1684
+        ]
+      ],
+      "words": [
+        {
+          "text": "are",
+          "bbox": [
+            [
+              427,
+              1621
+            ],
+            [
+              536,
+              1620
+            ],
+            [
+              536,
+              1683
+            ],
+            [
+              426,
+              1681
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Stream\" is an iconic lesson",
+      "bbox": [
+        [
+          445,
+          1708
+        ],
+        [
+          1466,
+          1708
+        ],
+        [
+          1466,
+          1774
+        ],
+        [
+          445,
+          1776
+        ]
+      ],
+      "words": [
+        {
+          "text": "Stream\"",
+          "bbox": [
+            [
+              449,
+              1709
+            ],
+            [
+              754,
+              1711
+            ],
+            [
+              753,
+              1776
+            ],
+            [
+              448,
+              1773
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "from the history. Since the",
+      "bbox": [
+        [
+          446,
+          1786
+        ],
+        [
+          1411,
+          1797
+        ],
+        [
+          1410,
+          1864
+        ],
+        [
+          445,
+          1857
+        ]
+      ],
+      "words": [
+        {
+          "text": "from",
+          "bbox": [
+            [
+              451,
+              1787
+            ],
+            [
+              580,
+              1792
+            ],
+            [
+              578,
+              1858
+            ],
+            [
+              448,
+              1856
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ancient times, water has",
+      "bbox": [
+        [
+          435,
+          1885
+        ],
+        [
+          1344,
+          1885
+        ],
+        [
+          1344,
+          1947
+        ],
+        [
+          435,
+          1947
+        ]
+      ],
+      "words": [
+        {
+          "text": "ancient",
+          "bbox": [
+            [
+              436,
+              1886
+            ],
+            [
+              653,
+              1886
+            ],
+            [
+              653,
+              1948
+            ],
+            [
+              435,
+              1948
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "always been considered \"sacred\"",
+      "bbox": [
+        [
+          440,
+          1974
+        ],
+        [
+          1517,
+          1970
+        ],
+        [
+          1517,
+          2036
+        ],
+        [
+          440,
+          2040
+        ]
+      ],
+      "words": [
+        {
+          "text": "always",
+          "bbox": [
+            [
+              442,
+              1976
+            ],
+            [
+              658,
+              1976
+            ],
+            [
+              656,
+              2039
+            ],
+            [
+              440,
+              2040
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "There used to be oldest",
+      "bbox": [
+        [
+          420,
+          2050
+        ],
+        [
+          1369,
+          2056
+        ],
+        [
+          1368,
+          2123
+        ],
+        [
+          420,
+          2119
         ]
       ],
       "words": [
@@ -424,591 +996,19 @@
           "text": "There",
           "bbox": [
             [
-              700,
-              1105
+              432,
+              2050
             ],
             [
-              839,
-              1105
+              596,
+              2056
             ],
             [
-              839,
-              1162
+              594,
+              2119
             ],
-            [
-              700,
-              1160
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "prove that when female mind is enlarged",
-      "bbox": [
-        [
-          401,
-          1180
-        ],
-        [
-          1559,
-          1185
-        ],
-        [
-          1558,
-          1252
-        ],
-        [
-          400,
-          1244
-        ]
-      ],
-      "words": [
-        {
-          "text": "prove",
-          "bbox": [
-            [
-              404,
-              1181
-            ],
-            [
-              545,
-              1182
-            ],
-            [
-              544,
-              1243
-            ],
-            [
-              403,
-              1242
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "by education, the blind obedience ends.",
-      "bbox": [
-        [
-          404,
-          1269
-        ],
-        [
-          1503,
-          1269
-        ],
-        [
-          1503,
-          1335
-        ],
-        [
-          404,
-          1335
-        ]
-      ],
-      "words": [
-        {
-          "text": "education,",
-          "bbox": [
-            [
-              523,
-              1271
-            ],
-            [
-              808,
-              1269
-            ],
-            [
-              807,
-              1333
-            ],
-            [
-              522,
-              1335
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Firstly, it is to be acknowledged that",
-      "bbox": [
-        [
-          401,
-          1353
-        ],
-        [
-          1481,
-          1353
-        ],
-        [
-          1481,
-          1419
-        ],
-        [
-          401,
-          1419
-        ]
-      ],
-      "words": [
-        {
-          "text": "Firstly,",
-          "bbox": [
-            [
-              401,
-              1354
-            ],
-            [
-              586,
-              1354
-            ],
-            [
-              587,
-              1417
-            ],
-            [
-              402,
-              1420
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "only educated females can break",
-      "bbox": [
-        [
-          412,
-          1438
-        ],
-        [
-          1453,
-          1438
-        ],
-        [
-          1453,
-          1490
-        ],
-        [
-          412,
-          1491
-        ]
-      ],
-      "words": [
-        {
-          "text": "only",
-          "bbox": [
-            [
-              415,
-              1439
-            ],
-            [
-              544,
-              1439
-            ],
-            [
-              546,
-              1492
-            ],
-            [
-              416,
-              1492
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "free from the shackles of patriarchal",
-      "bbox": [
-        [
-          410,
-          1514
-        ],
-        [
-          1453,
-          1515
-        ],
-        [
-          1453,
-          1579
-        ],
-        [
-          410,
-          1577
-        ]
-      ],
-      "words": [
-        {
-          "text": "free",
-          "bbox": [
-            [
-              413,
-              1519
-            ],
-            [
-              525,
-              1518
-            ],
-            [
-              526,
-              1575
-            ],
-            [
-              414,
-              1575
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "mindset that exists on the very principle",
-      "bbox": [
-        [
-          400,
-          1595
-        ],
-        [
-          1513,
-          1599
-        ],
-        [
-          1513,
-          1665
-        ],
-        [
-          399,
-          1658
-        ]
-      ],
-      "words": [
-        {
-          "text": "mindset",
-          "bbox": [
-            [
-              401,
-              1598
-            ],
-            [
-              598,
-              1596
-            ],
-            [
-              597,
-              1657
-            ],
-            [
-              400,
-              1658
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "of blind obedience. This mind set decides",
-      "bbox": [
-        [
-          409,
-          1683
-        ],
-        [
-          1529,
-          1682
-        ],
-        [
-          1529,
-          1750
-        ],
-        [
-          409,
-          1751
-        ]
-      ],
-      "words": [
-        {
-          "text": "blind",
-          "bbox": [
-            [
-              485,
-              1684
-            ],
-            [
-              617,
-              1683
-            ],
-            [
-              618,
-              1747
-            ],
-            [
-              486,
-              1750
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "what women cando, or can not;",
-      "bbox": [
-        [
-          408,
-          1763
-        ],
-        [
-          1486,
-          1761
-        ],
-        [
-          1486,
-          1833
-        ],
-        [
-          408,
-          1834
-        ]
-      ],
-      "words": [
-        {
-          "text": "what",
-          "bbox": [
-            [
-              409,
-              1769
-            ],
-            [
-              584,
-              1769
-            ],
-            [
-              584,
-              1830
-            ],
-            [
-              409,
-              1831
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "what women can wear or wear",
-      "bbox": [
-        [
-          411,
-          1851
-        ],
-        [
-          1513,
-          1850
-        ],
-        [
-          1514,
-          1912
-        ],
-        [
-          411,
-          1915
-        ]
-      ],
-      "words": [
-        {
-          "text": "what",
-          "bbox": [
-            [
-              411,
-              1852
-            ],
-            [
-              601,
-              1851
-            ],
-            [
-              602,
-              1915
-            ],
-            [
-              412,
-              1916
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "not; what women can feel or",
-      "bbox": [
-        [
-          425,
-          1928
-        ],
-        [
-          1500,
-          1922
-        ],
-        [
-          1501,
-          1988
-        ],
-        [
-          425,
-          1999
-        ]
-      ],
-      "words": [
-        {
-          "text": "not;",
-          "bbox": [
             [
               430,
-              1929
-            ],
-            [
-              598,
-              1928
-            ],
-            [
-              596,
-              1997
-            ],
-            [
-              428,
-              2000
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "feel not. It also confuses and",
-      "bbox": [
-        [
-          412,
-          2004
-        ],
-        [
-          1424,
-          2015
-        ],
-        [
-          1424,
-          2080
-        ],
-        [
-          411,
-          2073
-        ]
-      ],
-      "words": [
-        {
-          "text": "feel",
-          "bbox": [
-            [
-              415,
-              2004
-            ],
-            [
-              568,
-              2009
-            ],
-            [
-              568,
-              2076
-            ],
-            [
-              414,
-              2074
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "chains on the complexities of gender-",
-      "bbox": [
-        [
-          423,
-          2096
-        ],
-        [
-          1555,
-          2096
-        ],
-        [
-          1555,
-          2166
-        ],
-        [
-          423,
-          2166
-        ]
-      ],
-      "words": [
-        {
-          "text": "chains",
-          "bbox": [
-            [
-              424,
-              2102
-            ],
-            [
-              600,
-              2105
-            ],
-            [
-              599,
-              2163
-            ],
-            [
-              423,
-              2162
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "women",
-      "bbox": [
-        [
-          594,
-          2082
-        ],
-        [
-          742,
-          2074
-        ],
-        [
-          744,
-          2108
-        ],
-        [
-          596,
-          2114
-        ]
-      ],
-      "words": [
-        {
-          "text": "women",
-          "bbox": [
-            [
-              596,
-              2086
-            ],
-            [
-              725,
-              2076
-            ],
-            [
-              727,
-              2110
-            ],
-            [
-              598,
               2114
             ]
           ]
@@ -1016,183 +1016,183 @@
       ]
     },
     {
-      "text": "ed roles and nurturing roles as",
+      "text": "civilizations that only thrived",
       "bbox": [
         [
-          401,
-          2184
+          440,
+          2142
         ],
         [
-          1496,
-          2184
+          1484,
+          2141
         ],
         [
-          1496,
-          2248
+          1484,
+          2207
         ],
         [
-          401,
-          2249
+          440,
+          2208
         ]
       ],
       "words": [
         {
-          "text": "roles",
+          "text": "civilizations",
           "bbox": [
             [
-              534,
-              2185
+              445,
+              2146
             ],
             [
-              707,
-              2185
+              822,
+              2144
             ],
             [
-              706,
-              2250
+              821,
+              2206
             ],
             [
-              532,
-              2250
+              443,
+              2207
             ]
           ]
         }
       ]
     },
     {
-      "text": "daughters, mothers, wives and",
+      "text": "because of their proximity",
       "bbox": [
         [
-          414,
-          2266
+          433,
+          2228
         ],
         [
-          1498,
-          2263
+          1465,
+          2234
         ],
         [
-          1499,
-          2331
+          1464,
+          2302
         ],
         [
-          414,
-          2337
+          433,
+          2291
         ]
       ],
       "words": [
         {
-          "text": "daughters,",
+          "text": "because",
           "bbox": [
             [
-              417,
-              2266
+              455,
+              2231
             ],
             [
-              803,
-              2264
+              723,
+              2228
             ],
             [
-              803,
-              2332
+              720,
+              2293
             ],
             [
-              417,
-              2338
+              452,
+              2292
             ]
           ]
         }
       ]
     },
     {
-      "text": "sisters. They do not let women",
+      "text": "to the water source.",
       "bbox": [
         [
-          457,
-          2351
+          451,
+          2305
         ],
         [
-          1487,
-          2347
+          1347,
+          2327
         ],
         [
-          1488,
-          2413
+          1345,
+          2388
         ],
         [
-          457,
-          2421
+          449,
+          2369
         ]
       ],
       "words": [
         {
-          "text": "sisters.",
+          "text": "the",
           "bbox": [
             [
-              459,
-              2355
+              595,
+              2312
             ],
             [
-              740,
-              2350
+              691,
+              2315
             ],
             [
-              740,
-              2415
+              688,
+              2376
             ],
             [
-              459,
-              2422
+              592,
+              2374
             ]
           ]
         }
       ]
     },
     {
-      "text": "think once for her own self and",
+      "text": "CamScanner",
       "bbox": [
         [
-          407,
-          2435
+          1552,
+          2491
         ],
         [
-          1448,
-          2434
+          1766,
+          2494
         ],
         [
-          1448,
-          2496
+          1765,
+          2534
         ],
         [
-          407,
-          2497
+          1552,
+          2532
         ]
       ],
       "words": [
         {
-          "text": "think",
+          "text": "CamScanner",
           "bbox": [
             [
-              418,
-              2439
+              1557,
+              2491
             ],
             [
-              568,
-              2437
+              1766,
+              2496
             ],
             [
-              567,
-              2495
+              1766,
+              2534
             ],
             [
-              417,
-              2495
+              1557,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "deprivation neves break. However, hot all hope is lost and as it is said, it is never too late to change the world. There are many rational and pragmatic ways through which the hindrances in educating females can be eliminated and their cause for no more blind obedience can take up momentum. There are many ways to prove that when female mind is enlarged by education, the blind obedience ends. Firstly, it is to be acknowledged that only educated females can break free from the shackles of patriarchal mindset that exists on the very principle of blind obedience. This mind set decides what women cando, or can not; what women can wear or wear not; what women can feel or feel not. It also confuses and chains on the complexities of gender- women ed roles and nurturing roles as daughters, mothers, wives and sisters. They do not let women think once for her own self and",
+  "ocr_full_text_page": "to cap all the factors which are contributing towards water depletion such as water wastage, overconsumption and increasing water pollution. Instrumental steps such as implementation of water conservation techniques and multiplication of water dams - number are needed more than ever to ensure that present and the future generations of all life forms are not deprived of the core resource that sustains their existence. - The proverb, \" Do not waste water even if you are standing at a running Stream\" is an iconic lesson from the history. Since the ancient times, water has always been considered \"sacred\" There used to be oldest civilizations that only thrived because of their proximity to the water source. CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

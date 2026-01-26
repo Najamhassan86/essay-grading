@@ -4,111 +4,331 @@
   "page_height": 2573.0,
   "lines": [
     {
-      "text": "Secondly, there is need to",
+      "text": "be taken to pacify the",
       "bbox": [
         [
-          617,
-          258
+          414,
+          174
         ],
         [
-          1472,
-          261
+          1391,
+          161
         ],
         [
-          1471,
-          334
+          1392,
+          230
         ],
         [
-          616,
-          330
+          415,
+          235
         ]
       ],
       "words": [
         {
-          "text": "Secondly,",
+          "text": "taken",
           "bbox": [
             [
-              620,
-              261
+              596,
+              178
             ],
             [
-              918,
-              258
+              760,
+              174
             ],
             [
-              916,
-              334
+              761,
+              234
             ],
             [
-              619,
+              596,
+              234
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Situation to much extent.",
+      "bbox": [
+        [
+          485,
+          253
+        ],
+        [
+          1439,
+          247
+        ],
+        [
+          1440,
+          306
+        ],
+        [
+          485,
+          314
+        ]
+      ],
+      "words": [
+        {
+          "text": "Situation",
+          "bbox": [
+            [
+              488,
+              259
+            ],
+            [
+              767,
+              252
+            ],
+            [
+              767,
+              310
+            ],
+            [
+              488,
+              314
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "First and foremost is",
+      "bbox": [
+        [
+          646,
+          327
+        ],
+        [
+          1350,
+          327
+        ],
+        [
+          1350,
+          392
+        ],
+        [
+          646,
+          393
+        ]
+      ],
+      "words": [
+        {
+          "text": "First",
+          "bbox": [
+            [
+              648,
+              336
+            ],
+            [
+              768,
               331
+            ],
+            [
+              769,
+              393
+            ],
+            [
+              649,
+              394
             ]
           ]
         }
       ]
     },
     {
-      "text": "make efforts for women education",
+      "text": "the suggestion based on",
       "bbox": [
         [
-          382,
-          346
+          432,
+          414
         ],
         [
-          1403,
-          351
+          1352,
+          410
         ],
         [
-          1402,
-          416
+          1352,
+          469
         ],
         [
-          382,
-          411
+          432,
+          477
         ]
       ],
       "words": [
         {
-          "text": "make",
+          "text": "the",
           "bbox": [
             [
-              386,
-              347
+              450,
+              424
             ],
             [
-              551,
-              347
+              543,
+              419
             ],
             [
-              550,
-              413
+              543,
+              477
             ],
             [
-              385,
-              410
+              450,
+              477
             ]
           ]
         }
       ]
     },
     {
-      "text": "and skill development. Unfortunately",
+      "text": "ethical grounds. It must",
       "bbox": [
         [
-          401,
-          428
+          427,
+          507
         ],
         [
-          1532,
-          431
+          1327,
+          489
         ],
         [
-          1532,
-          500
+          1328,
+          551
         ],
         [
-          400,
-          492
+          427,
+          566
+        ]
+      ],
+      "words": [
+        {
+          "text": "ethical",
+          "bbox": [
+            [
+              428,
+              509
+            ],
+            [
+              625,
+              503
+            ],
+            [
+              625,
+              566
+            ],
+            [
+              428,
+              566
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "be reinstated that water",
+      "bbox": [
+        [
+          431,
+          584
+        ],
+        [
+          1393,
+          567
+        ],
+        [
+          1394,
+          628
+        ],
+        [
+          431,
+          645
+        ]
+      ],
+      "words": [
+        {
+          "text": "reinstated",
+          "bbox": [
+            [
+              578,
+              584
+            ],
+            [
+              891,
+              576
+            ],
+            [
+              891,
+              638
+            ],
+            [
+              578,
+              643
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "conservation is a ethical",
+      "bbox": [
+        [
+          438,
+          666
+        ],
+        [
+          1377,
+          658
+        ],
+        [
+          1378,
+          721
+        ],
+        [
+          438,
+          726
+        ]
+      ],
+      "words": [
+        {
+          "text": "conservation",
+          "bbox": [
+            [
+              441,
+              677
+            ],
+            [
+              835,
+              663
+            ],
+            [
+              836,
+              726
+            ],
+            [
+              441,
+              726
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and moral duty of all",
+      "bbox": [
+        [
+          425,
+          750
+        ],
+        [
+          1366,
+          743
+        ],
+        [
+          1367,
+          806
+        ],
+        [
+          425,
+          811
         ]
       ],
       "words": [
@@ -116,1083 +336,863 @@
           "text": "and",
           "bbox": [
             [
-              402,
-              433
-            ],
-            [
-              500,
-              431
-            ],
-            [
-              499,
-              492
-            ],
-            [
-              401,
-              491
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Women make up 57% of NEET",
-      "bbox": [
-        [
-          402,
-          512
-        ],
-        [
-          1498,
-          507
-        ],
-        [
-          1499,
-          587
-        ],
-        [
-          402,
-          588
-        ]
-      ],
-      "words": [
-        {
-          "text": "Women",
-          "bbox": [
-            [
-              405,
-              526
-            ],
-            [
-              612,
-              520
-            ],
-            [
-              611,
-              582
-            ],
-            [
-              403,
-              581
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(Not in Employment, Education",
-      "bbox": [
-        [
-          385,
-          602
-        ],
-        [
-          1506,
-          599
-        ],
-        [
-          1507,
-          670
-        ],
-        [
-          385,
-          676
-        ]
-      ],
-      "words": [
-        {
-          "text": "(Not",
-          "bbox": [
-            [
-              386,
-              606
-            ],
-            [
-              544,
-              604
-            ],
-            [
-              543,
-              675
-            ],
-            [
-              385,
-              676
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "or training). Hence it is not",
-      "bbox": [
-        [
-          426,
-          681
-        ],
-        [
-          1408,
-          680
-        ],
-        [
-          1408,
-          750
-        ],
-        [
-          426,
-          752
-        ]
-      ],
-      "words": [
-        {
-          "text": "training).",
-          "bbox": [
-            [
-              535,
-              687
-            ],
-            [
-              918,
-              681
-            ],
-            [
-              918,
-              752
-            ],
-            [
-              535,
-              752
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "just enough to educate them",
-      "bbox": [
-        [
-          418,
-          771
-        ],
-        [
-          1415,
-          767
-        ],
-        [
-          1415,
-          828
-        ],
-        [
-          418,
-          836
-        ]
-      ],
-      "words": [
-        {
-          "text": "just",
-          "bbox": [
-            [
-              422,
-              778
-            ],
-            [
-              539,
-              774
-            ],
-            [
-              538,
-              835
-            ],
-            [
-              421,
-              836
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "but also equip them with the",
-      "bbox": [
-        [
-          386,
-          848
-        ],
-        [
-          1428,
-          844
-        ],
-        [
-          1428,
-          913
-        ],
-        [
-          386,
-          916
-        ]
-      ],
-      "words": [
-        {
-          "text": "but",
-          "bbox": [
-            [
-              406,
-              852
-            ],
-            [
-              521,
-              854
-            ],
-            [
-              520,
-              914
-            ],
-            [
-              405,
-              912
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "right skills (so that they",
-      "bbox": [
-        [
-          428,
-          931
-        ],
-        [
-          1389,
-          931
-        ],
-        [
-          1389,
-          995
-        ],
-        [
-          428,
-          994
-        ]
-      ],
-      "words": [
-        {
-          "text": "right",
-          "bbox": [
-            [
-              440,
-              931
-            ],
-            [
-              597,
-              933
-            ],
-            [
-              595,
-              995
-            ],
-            [
-              438,
-              994
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "can earn from it and secure",
-      "bbox": [
-        [
-          410,
-          1016
-        ],
-        [
-          1391,
-          1013
-        ],
-        [
-          1392,
-          1075
-        ],
-        [
-          410,
-          1079
-        ]
-      ],
-      "words": [
-        {
-          "text": "can",
-          "bbox": [
-            [
-              413,
-              1024
-            ],
-            [
-              511,
-              1021
-            ],
-            [
-              510,
-              1079
-            ],
-            [
-              412,
-              1078
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "their economic independence.",
-      "bbox": [
-        [
-          389,
-          1094
-        ],
-        [
-          1490,
-          1091
-        ],
-        [
-          1490,
-          1155
-        ],
-        [
-          389,
-          1159
-        ]
-      ],
-      "words": [
-        {
-          "text": "their",
-          "bbox": [
-            [
-              402,
-              1102
-            ],
-            [
-              571,
-              1097
-            ],
-            [
-              570,
-              1159
-            ],
-            [
-              400,
-              1159
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Thirdly, there is need to",
-      "bbox": [
-        [
-          696,
-          1183
-        ],
-        [
-          1483,
-          1180
-        ],
-        [
-          1484,
-          1233
-        ],
-        [
-          696,
-          1238
-        ]
-      ],
-      "words": [
-        {
-          "text": "Thirdly,",
-          "bbox": [
-            [
-              698,
-              1187
-            ],
-            [
-              957,
-              1182
-            ],
-            [
-              957,
-              1233
-            ],
-            [
-              698,
-              1239
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "have a universal consensus",
-      "bbox": [
-        [
-          399,
-          1251
-        ],
-        [
-          1489,
-          1253
-        ],
-        [
-          1488,
-          1325
-        ],
-        [
-          399,
-          1322
-        ]
-      ],
-      "words": [
-        {
-          "text": "have",
-          "bbox": [
-            [
-              422,
-              1256
-            ],
-            [
-              582,
-              1254
-            ],
-            [
-              579,
-              1318
-            ],
-            [
-              419,
-              1311
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "on minimum 1years for",
-      "bbox": [
-        [
-          410,
-          1333
-        ],
-        [
-          1407,
-          1333
-        ],
-        [
-          1407,
-          1406
-        ],
-        [
-          410,
-          1406
-        ]
-      ],
-      "words": [
-        {
-          "text": "minimum",
-          "bbox": [
-            [
-              560,
-              1336
-            ],
-            [
-              889,
-              1334
-            ],
-            [
-              888,
-              1407
-            ],
-            [
-              558,
-              1402
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "marriage of girls. This would",
-      "bbox": [
-        [
-          406,
-          1413
-        ],
-        [
-          1462,
-          1416
-        ],
-        [
-          1462,
-          1489
-        ],
-        [
-          406,
-          1485
-        ]
-      ],
-      "words": [
-        {
-          "text": "marriage",
-          "bbox": [
-            [
-              407,
-              1418
-            ],
-            [
-              695,
-              1414
-            ],
-            [
-              694,
-              1488
-            ],
-            [
-              406,
-              1484
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "not only arest many physical,",
-      "bbox": [
-        [
-          425,
-          1504
-        ],
-        [
-          1509,
-          1500
-        ],
-        [
-          1509,
-          1573
-        ],
-        [
-          425,
-          1574
-        ]
-      ],
-      "words": [
-        {
-          "text": "not",
-          "bbox": [
-            [
-              425,
-              1518
-            ],
-            [
-              524,
-              1514
-            ],
-            [
-              524,
-              1571
-            ],
-            [
-              425,
-              1571
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "seval, and health issues from",
-      "bbox": [
-        [
-          409,
-          1587
-        ],
-        [
-          1485,
-          1588
-        ],
-        [
-          1485,
-          1654
-        ],
-        [
-          408,
-          1650
-        ]
-      ],
-      "words": [
-        {
-          "text": "seval,",
-          "bbox": [
-            [
               428,
-              1592
+              761
             ],
             [
-              651,
-              1589
+              542,
+              756
             ],
             [
-              651,
-              1649
+              541,
+              809
             ],
-            [
-              427,
-              1644
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the lives of women but would",
-      "bbox": [
-        [
-          389,
-          1665
-        ],
-        [
-          1471,
-          1669
-        ],
-        [
-          1470,
-          1736
-        ],
-        [
-          389,
-          1731
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              410,
-              1666
-            ],
-            [
-              524,
-              1669
-            ],
-            [
-              522,
-              1728
-            ],
-            [
-              407,
-              1724
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "also buy them time to complete",
-      "bbox": [
-        [
-          400,
-          1755
-        ],
-        [
-          1503,
-          1755
-        ],
-        [
-          1503,
-          1821
-        ],
-        [
-          400,
-          1818
-        ]
-      ],
-      "words": [
-        {
-          "text": "also",
-          "bbox": [
-            [
-              403,
-              1757
-            ],
-            [
-              536,
-              1757
-            ],
-            [
-              534,
-              1816
-            ],
-            [
-              401,
-              1815
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "their education and then gain",
-      "bbox": [
-        [
-          390,
-          1834
-        ],
-        [
-          1448,
-          1838
-        ],
-        [
-          1447,
-          1904
-        ],
-        [
-          389,
-          1898
-        ]
-      ],
-      "words": [
-        {
-          "text": "their",
-          "bbox": [
-            [
-              411,
-              1839
-            ],
-            [
-              555,
-              1836
-            ],
-            [
-              553,
-              1900
-            ],
-            [
-              409,
-              1898
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "economic independence and only",
-      "bbox": [
-        [
-          389,
-          1919
-        ],
-        [
-          1526,
-          1923
-        ],
-        [
-          1525,
-          1994
-        ],
-        [
-          388,
-          1985
-        ]
-      ],
-      "words": [
-        {
-          "text": "economic",
-          "bbox": [
-            [
-              390,
-              1926
-            ],
-            [
-              678,
-              1921
-            ],
-            [
-              677,
-              1984
-            ],
-            [
-              389,
-              1983
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "tham sign into marital relation.",
-      "bbox": [
-        [
-          406,
-          2005
-        ],
-        [
-          1503,
-          2006
-        ],
-        [
-          1503,
-          2070
-        ],
-        [
-          406,
-          2068
-        ]
-      ],
-      "words": [
-        {
-          "text": "tham",
-          "bbox": [
             [
               426,
-              2007
-            ],
-            [
-              569,
-              2006
-            ],
-            [
-              568,
-              2068
-            ],
-            [
-              425,
-              2066
+              808
             ]
           ]
         }
       ]
     },
     {
-      "text": "This protects the women as well",
+      "text": "human beings, that are",
       "bbox": [
         [
-          419,
-          2091
+          416,
+          834
         ],
         [
-          1471,
-          2091
+          1417,
+          825
         ],
         [
-          1471,
-          2154
+          1418,
+          890
         ],
         [
-          419,
-          2155
+          416,
+          898
         ]
       ],
       "words": [
         {
-          "text": "This",
+          "text": "human",
           "bbox": [
             [
-              440,
-              2092
+              437,
+              844
             ],
             [
-              560,
-              2092
+              642,
+              836
             ],
             [
-              558,
-              2156
-            ],
-            [
-              438,
-              2155
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "as ensure her respect and",
-      "bbox": [
-        [
-          425,
-          2174
-        ],
-        [
-          1370,
-          2175
-        ],
-        [
-          1370,
-          2236
-        ],
-        [
-          425,
-          2234
-        ]
-      ],
-      "words": [
-        {
-          "text": "ensure",
-          "bbox": [
-            [
-              522,
-              2177
-            ],
-            [
-              727,
-              2175
-            ],
-            [
-              727,
-              2235
-            ],
-            [
-              521,
-              2233
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "equality in marital bond",
-      "bbox": [
-        [
-          400,
-          2252
-        ],
-        [
-          1437,
-          2254
-        ],
-        [
-          1437,
-          2324
-        ],
-        [
-          400,
-          2321
-        ]
-      ],
-      "words": [
-        {
-          "text": "equality",
-          "bbox": [
-            [
-              403,
-              2261
-            ],
-            [
-              749,
-              2253
-            ],
-            [
-              749,
-              2321
-            ],
-            [
-              403,
-              2322
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "as well which is need of",
-      "bbox": [
-        [
-          449,
-          2334
-        ],
-        [
-          1376,
-          2335
-        ],
-        [
-          1376,
-          2406
-        ],
-        [
-          449,
-          2403
-        ]
-      ],
-      "words": [
-        {
-          "text": "well",
-          "bbox": [
-            [
-              584,
-              2340
-            ],
-            [
-              752,
-              2336
-            ],
-            [
-              753,
-              2405
-            ],
-            [
-              585,
-              2403
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the hour.",
-      "bbox": [
-        [
-          424,
-          2422
-        ],
-        [
-          751,
-          2423
-        ],
-        [
-          751,
-          2484
-        ],
-        [
-          424,
-          2483
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              436,
-              2423
-            ],
-            [
-              526,
-              2423
-            ],
-            [
-              525,
-              2484
+              641,
+              897
             ],
             [
               435,
-              2482
+              892
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "civilized and care for the",
+      "bbox": [
+        [
+          443,
+          920
+        ],
+        [
+          1442,
+          907
+        ],
+        [
+          1443,
+          978
+        ],
+        [
+          444,
+          986
+        ]
+      ],
+      "words": [
+        {
+          "text": "civilized",
+          "bbox": [
+            [
+              447,
+              922
+            ],
+            [
+              697,
+              921
+            ],
+            [
+              696,
+              986
+            ],
+            [
+              446,
+              982
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "future. This duty must be",
+      "bbox": [
+        [
+          445,
+          991
+        ],
+        [
+          1384,
+          988
+        ],
+        [
+          1384,
+          1062
+        ],
+        [
+          445,
+          1068
+        ]
+      ],
+      "words": [
+        {
+          "text": "future.",
+          "bbox": [
+            [
+              448,
+              992
+            ],
+            [
+              686,
+              999
+            ],
+            [
+              686,
+              1068
+            ],
+            [
+              448,
+              1063
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "ingrained in the minds from",
+      "bbox": [
+        [
+          429,
+          1084
+        ],
+        [
+          1472,
+          1068
+        ],
+        [
+          1474,
+          1144
+        ],
+        [
+          429,
+          1156
+        ]
+      ],
+      "words": [
+        {
+          "text": "ingrained",
+          "bbox": [
+            [
+              431,
+              1084
+            ],
+            [
+              741,
+              1088
+            ],
+            [
+              741,
+              1156
+            ],
+            [
+              430,
+              1155
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "early years and so there",
+      "bbox": [
+        [
+          420,
+          1174
+        ],
+        [
+          1376,
+          1174
+        ],
+        [
+          1376,
+          1239
+        ],
+        [
+          421,
+          1242
+        ]
+      ],
+      "words": [
+        {
+          "text": "early",
+          "bbox": [
+            [
+              425,
+              1174
+            ],
+            [
+              593,
+              1175
+            ],
+            [
+              592,
+              1242
+            ],
+            [
+              423,
+              1238
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "must be prominent celebration",
+      "bbox": [
+        [
+          436,
+          1256
+        ],
+        [
+          1494,
+          1242
+        ],
+        [
+          1494,
+          1317
+        ],
+        [
+          436,
+          1326
+        ]
+      ],
+      "words": [
+        {
+          "text": "must",
+          "bbox": [
+            [
+              439,
+              1258
+            ],
+            [
+              596,
+              1258
+            ],
+            [
+              596,
+              1325
+            ],
+            [
+              439,
+              1323
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "of water conservation day",
+      "bbox": [
+        [
+          412,
+          1335
+        ],
+        [
+          1409,
+          1336
+        ],
+        [
+          1409,
+          1411
+        ],
+        [
+          412,
+          1410
+        ]
+      ],
+      "words": [
+        {
+          "text": "water",
+          "bbox": [
+            [
+              536,
+              1338
+            ],
+            [
+              752,
+              1336
+            ],
+            [
+              751,
+              1406
+            ],
+            [
+              535,
+              1406
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "at schools, college and",
+      "bbox": [
+        [
+          433,
+          1429
+        ],
+        [
+          1264,
+          1427
+        ],
+        [
+          1264,
+          1495
+        ],
+        [
+          433,
+          1497
+        ]
+      ],
+      "words": [
+        {
+          "text": "schools,",
+          "bbox": [
+            [
+              552,
+              1433
+            ],
+            [
+              817,
+              1436
+            ],
+            [
+              817,
+              1497
+            ],
+            [
+              551,
+              1496
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "university levels. There",
+      "bbox": [
+        [
+          433,
+          1518
+        ],
+        [
+          1362,
+          1518
+        ],
+        [
+          1362,
+          1583
+        ],
+        [
+          433,
+          1584
+        ]
+      ],
+      "words": [
+        {
+          "text": "university",
+          "bbox": [
+            [
+              433,
+              1520
+            ],
+            [
+              758,
+              1518
+            ],
+            [
+              758,
+              1584
+            ],
+            [
+              433,
+              1582
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "must be augmented awarness",
+      "bbox": [
+        [
+          413,
+          1601
+        ],
+        [
+          1449,
+          1601
+        ],
+        [
+          1449,
+          1673
+        ],
+        [
+          413,
+          1673
+        ]
+      ],
+      "words": [
+        {
+          "text": "must",
+          "bbox": [
+            [
+              433,
+              1617
+            ],
+            [
+              589,
+              1610
+            ],
+            [
+              588,
+              1671
+            ],
+            [
+              432,
+              1669
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "via media, and advertisements",
+      "bbox": [
+        [
+          401,
+          1695
+        ],
+        [
+          1491,
+          1688
+        ],
+        [
+          1491,
+          1756
+        ],
+        [
+          401,
+          1762
+        ]
+      ],
+      "words": [
+        {
+          "text": "via",
+          "bbox": [
+            [
+              401,
+              1695
+            ],
+            [
+              503,
+              1695
+            ],
+            [
+              503,
+              1763
+            ],
+            [
+              401,
+              1763
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "and billboards reminding",
+      "bbox": [
+        [
+          420,
+          1781
+        ],
+        [
+          1407,
+          1775
+        ],
+        [
+          1407,
+          1845
+        ],
+        [
+          420,
+          1848
+        ]
+      ],
+      "words": [
+        {
+          "text": "and",
+          "bbox": [
+            [
+              423,
+              1784
+            ],
+            [
+              538,
+              1783
+            ],
+            [
+              537,
+              1847
+            ],
+            [
+              422,
+              1848
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "everyone of their essential",
+      "bbox": [
+        [
+          442,
+          1868
+        ],
+        [
+          1314,
+          1868
+        ],
+        [
+          1314,
+          1938
+        ],
+        [
+          442,
+          1938
+        ]
+      ],
+      "words": [
+        {
+          "text": "everyone",
+          "bbox": [
+            [
+              445,
+              1879
+            ],
+            [
+              711,
+              1871
+            ],
+            [
+              711,
+              1938
+            ],
+            [
+              444,
+              1931
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "moral duty of water conservation",
+      "bbox": [
+        [
+          407,
+          1961
+        ],
+        [
+          1546,
+          1952
+        ],
+        [
+          1546,
+          2020
+        ],
+        [
+          407,
+          2028
+        ]
+      ],
+      "words": [
+        {
+          "text": "moral",
+          "bbox": [
+            [
+              411,
+              1968
+            ],
+            [
+              620,
+              1962
+            ],
+            [
+              619,
+              2028
+            ],
+            [
+              410,
+              2028
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The second suggestion",
+      "bbox": [
+        [
+          724,
+          2047
+        ],
+        [
+          1477,
+          2052
+        ],
+        [
+          1476,
+          2119
+        ],
+        [
+          724,
+          2111
+        ]
+      ],
+      "words": [
+        {
+          "text": "The",
+          "bbox": [
+            [
+              736,
+              2047
+            ],
+            [
+              847,
+              2048
+            ],
+            [
+              846,
+              2111
+            ],
+            [
+              735,
+              2110
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "relates to the tangible techniques",
+      "bbox": [
+        [
+          398,
+          2137
+        ],
+        [
+          1540,
+          2139
+        ],
+        [
+          1539,
+          2208
+        ],
+        [
+          397,
+          2204
+        ]
+      ],
+      "words": [
+        {
+          "text": "relates",
+          "bbox": [
+            [
+              401,
+              2145
+            ],
+            [
+              639,
+              2140
+            ],
+            [
+              638,
+              2202
+            ],
+            [
+              400,
+              2201
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "that can help avert the",
+      "bbox": [
+        [
+          390,
+          2227
+        ],
+        [
+          1367,
+          2225
+        ],
+        [
+          1368,
+          2289
+        ],
+        [
+          390,
+          2290
+        ]
+      ],
+      "words": [
+        {
+          "text": "that",
+          "bbox": [
+            [
+              409,
+              2232
+            ],
+            [
+              568,
+              2229
+            ],
+            [
+              568,
+              2290
+            ],
+            [
+              409,
+              2290
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "water scarcity to an impressive",
+      "bbox": [
+        [
+          416,
+          2318
+        ],
+        [
+          1479,
+          2319
+        ],
+        [
+          1479,
+          2388
+        ],
+        [
+          416,
+          2386
+        ]
+      ],
+      "words": [
+        {
+          "text": "water",
+          "bbox": [
+            [
+              417,
+              2323
+            ],
+            [
+              624,
+              2320
+            ],
+            [
+              624,
+              2384
+            ],
+            [
+              417,
+              2386
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1552,
+          2492
+        ],
+        [
+          1765,
+          2494
+        ],
+        [
+          1765,
+          2534
+        ],
+        [
+          1551,
+          2532
+        ]
+      ],
+      "words": [
+        {
+          "text": "CamScanner",
+          "bbox": [
+            [
+              1557,
+              2493
+            ],
+            [
+              1764,
+              2496
+            ],
+            [
+              1764,
+              2534
+            ],
+            [
+              1556,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "= Secondly, there is need to - make efforts for women education and skill development. Unfortunately Women make up 57% of NEET (Not in Employment, Education or training). Hence it is not just enough to educate them but also equip them with the right skills (so that they can earn from it and secure their economic independence. Thirdly, there is need to have a universal consensus on minimum 1years for marriage of girls. This would not only arest many physical, seval, and health issues from the lives of women but would also buy them time to complete their education and then gain economic independence and only tham sign into marital relation. This protects the women as well as ensure her respect and equality in marital bond as well which is need of the hour.",
+  "ocr_full_text_page": "be taken to pacify the Situation to much extent. First and foremost is the suggestion based on ethical grounds. It must be reinstated that water 1. conservation is a ethical and moral duty of all human beings, that are civilized and care for the future. This duty must be ingrained in the minds from early years and so there must be prominent celebration of water conservation day at schools, college and university levels. There must be augmented awarness via media, and advertisements and billboards reminding everyone of their essential moral duty of water conservation The second suggestion relates to the tangible techniques that can help avert the water scarcity to an impressive CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

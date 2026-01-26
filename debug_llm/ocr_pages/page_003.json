@@ -7,20 +7,20 @@
       "text": "READ RIGHT",
       "bbox": [
         [
-          402,
-          36
+          431,
+          11
         ],
         [
-          858,
-          31
+          863,
+          0
         ],
         [
-          859,
-          106
+          867,
+          61
         ],
         [
-          402,
-          111
+          434,
+          84
         ]
       ],
       "words": [
@@ -28,20 +28,20 @@
           "text": "READ",
           "bbox": [
             [
-              406,
-              36
+              432,
+              16
             ],
             [
-              574,
-              35
+              596,
+              3
             ],
             [
-              576,
-              111
+              601,
+              74
             ],
             [
-              406,
-              112
+              435,
+              85
             ]
           ]
         }
@@ -51,20 +51,20 @@
       "text": "INSTITUTE",
       "bbox": [
         [
-          522,
-          103
+          549,
+          75
         ],
         [
-          748,
-          103
+          758,
+          57
         ],
         [
-          749,
-          148
+          761,
+          98
         ],
         [
-          522,
-          149
+          553,
+          116
         ]
       ],
       "words": [
@@ -72,20 +72,20 @@
           "text": "INSTITUTE",
           "bbox": [
             [
-              523,
-              103
+              550,
+              75
             ],
             [
-              748,
-              103
+              756,
+              58
             ],
             [
-              748,
-              148
+              760,
+              98
             ],
             [
-              523,
-              150
+              554,
+              117
             ]
           ]
         }
@@ -95,20 +95,20 @@
       "text": "SYED TAIMOOR BUKHARI",
       "bbox": [
         [
-          456,
-          173
+          481,
+          136
         ],
         [
-          813,
-          174
+          826,
+          129
         ],
         [
-          813,
-          211
+          827,
+          161
         ],
         [
-          456,
-          210
+          482,
+          168
         ]
       ],
       "words": [
@@ -116,43 +116,43 @@
           "text": "SYED",
           "bbox": [
             [
-              458,
-              175
+              483,
+              136
             ],
             [
-              524,
-              174
+              546,
+              136
             ],
             [
-              524,
-              211
+              547,
+              168
             ],
             [
-              459,
-              211
+              484,
+              167
             ]
           ]
         }
       ]
     },
     {
-      "text": "Date :................... /20 .....",
+      "text": "Date :......... / ........",
       "bbox": [
         [
-          1145,
-          107
+          1156,
+          57
         ],
         [
-          1472,
-          106
+          1386,
+          56
         ],
         [
-          1472,
-          146
+          1386,
+          93
         ],
         [
-          1146,
-          147
+          1156,
+          94
         ]
       ],
       "words": [
@@ -160,659 +160,879 @@
           "text": "Date",
           "bbox": [
             [
-              1148,
-              107
+              1157,
+              58
             ],
             [
-              1202,
-              108
+              1213,
+              58
             ],
             [
-              1203,
-              147
+              1212,
+              93
             ],
             [
-              1149,
-              148
+              1156,
+              94
             ]
           ]
         }
       ]
     },
     {
-      "text": "MOTOWOTOFOSI",
+      "text": "./20",
       "bbox": [
         [
-          1143,
-          160
+          1386,
+          58
         ],
         [
-          1474,
-          158
+          1446,
+          58
         ],
         [
-          1474,
-          200
+          1446,
+          90
         ],
         [
-          1143,
-          201
+          1385,
+          90
         ]
       ],
       "words": [
         {
-          "text": "MOTOWOTOFOSI",
+          "text": "./20",
           "bbox": [
             [
-              1145,
-              162
+              1385,
+              58
             ],
             [
-              1473,
-              159
+              1444,
+              58
             ],
             [
-              1473,
-              201
+              1444,
+              90
             ],
             [
-              1144,
-              201
+              1385,
+              90
             ]
           ]
         }
       ]
     },
     {
-      "text": "5. Massive digital in present age of online learning.",
+      "text": ".....",
+      "bbox": [
+        [
+          1463,
+          61
+        ],
+        [
+          1504,
+          64
+        ],
+        [
+          1503,
+          93
+        ],
+        [
+          1463,
+          92
+        ]
+      ],
+      "words": [
+        {
+          "text": ".....",
+          "bbox": [
+            [
+              1463,
+              61
+            ],
+            [
+              1502,
+              63
+            ],
+            [
+              1501,
+              94
+            ],
+            [
+              1463,
+              92
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "MOTOWI",
+      "bbox": [
+        [
+          1153,
+          109
+        ],
+        [
+          1326,
+          110
+        ],
+        [
+          1326,
+          141
+        ],
+        [
+          1153,
+          140
+        ]
+      ],
+      "words": [
+        {
+          "text": "MOTOWI",
+          "bbox": [
+            [
+              1154,
+              111
+            ],
+            [
+              1326,
+              113
+            ],
+            [
+              1326,
+              141
+            ],
+            [
+              1154,
+              141
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "as well as organic waste into",
+      "bbox": [
+        [
+          389,
+          275
+        ],
+        [
+          1233,
+          255
+        ],
+        [
+          1234,
+          322
+        ],
+        [
+          389,
+          333
+        ]
+      ],
+      "words": [
+        {
+          "text": "well",
+          "bbox": [
+            [
+              469,
+              282
+            ],
+            [
+              587,
+              278
+            ],
+            [
+              586,
+              332
+            ],
+            [
+              468,
+              329
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "water bodies.",
+      "bbox": [
+        [
+          400,
+          349
+        ],
+        [
+          780,
+          351
+        ],
+        [
+          779,
+          408
+        ],
+        [
+          399,
+          403
+        ]
+      ],
+      "words": [
+        {
+          "text": "water",
+          "bbox": [
+            [
+              401,
+              351
+            ],
+            [
+              541,
+              349
+            ],
+            [
+              540,
+              405
+            ],
+            [
+              400,
+              402
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "5. Lack of water storage reservoirs",
       "bbox": [
         [
           379,
-          236
+          511
         ],
         [
-          1527,
-          236
+          1349,
+          512
         ],
         [
-          1527,
-          307
+          1349,
+          574
         ],
         [
-          379,
-          306
+          378,
+          573
         ]
       ],
       "words": [
         {
-          "text": "Massive",
+          "text": "Lack",
           "bbox": [
             [
-              426,
-              243
+              469,
+              514
             ],
             [
-              603,
-              240
+              582,
+              513
             ],
             [
-              603,
-              304
+              580,
+              572
             ],
             [
-              425,
-              304
+              468,
+              571
             ]
           ]
         }
       ]
     },
     {
-      "text": "Case in Point: Global digital divide 68%, for",
+      "text": "CASE IN POINT: In Pakistan only",
       "bbox": [
         [
-          418,
-          315
+          386,
+          593
         ],
         [
-          1495,
-          326
+          1278,
+          600
         ],
         [
-          1494,
-          393
+          1277,
+          666
         ],
         [
-          417,
-          386
+          385,
+          655
         ]
       ],
       "words": [
         {
-          "text": "Case",
+          "text": "CASE",
           "bbox": [
             [
-              421,
-              315
+              389,
+              600
             ],
             [
-              532,
-              317
+              514,
+              596
             ],
             [
-              530,
-              389
+              513,
+              656
             ],
             [
-              419,
-              388
+              388,
+              657
             ]
           ]
         }
       ]
     },
     {
-      "text": "women 51%",
+      "text": "13 major dams and water reservoirs",
       "bbox": [
         [
-          816,
-          411
+          389,
+          682
         ],
         [
-          1112,
-          411
+          1305,
+          683
         ],
         [
-          1112,
-          459
+          1305,
+          735
         ],
         [
-          816,
-          459
+          389,
+          732
         ]
       ],
       "words": [
         {
-          "text": "women",
+          "text": "major",
           "bbox": [
             [
-              818,
-              413
+              454,
+              686
             ],
             [
-              982,
-              412
+              585,
+              684
             ],
             [
-              981,
-              460
+              586,
+              732
             ],
             [
-              818,
-              459
+              454,
+              733
             ]
           ]
         }
       ]
     },
     {
-      "text": "(3) Pakistan female digital divide",
+      "text": "available with 13.7 MAF live Storage",
       "bbox": [
         [
-          777,
-          495
+          399,
+          763
         ],
         [
-          1513,
-          490
-        ],
-        [
-          1513,
-          558
-        ],
-        [
-          777,
-          560
-        ]
-      ],
-      "words": [
-        {
-          "text": "(3)",
-          "bbox": [
-            [
-              778,
-              501
-            ],
-            [
-              809,
-              500
-            ],
-            [
-              809,
-              560
-            ],
-            [
-              778,
-              560
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "24% whereas mode's is 48%",
-      "bbox": [
-        [
-          801,
-          582
-        ],
-        [
-          1520,
-          582
-        ],
-        [
-          1520,
-          649
-        ],
-        [
-          801,
-          650
-        ]
-      ],
-      "words": [
-        {
-          "text": "24%",
-          "bbox": [
-            [
-              802,
-              591
-            ],
-            [
-              901,
-              588
-            ],
-            [
-              901,
-              643
-            ],
-            [
-              802,
-              644
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "6. Formales lack of security outside the four",
-      "bbox": [
-        [
-          390,
-          673
-        ],
-        [
-          1479,
-          664
-        ],
-        [
-          1479,
-          730
-        ],
-        [
-          390,
-          736
-        ]
-      ],
-      "words": [
-        {
-          "text": "Formales",
-          "bbox": [
-            [
-              434,
-              676
-            ],
-            [
-              615,
-              677
-            ],
-            [
-              614,
-              736
-            ],
-            [
-              433,
-              736
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "walls of their home.",
-      "bbox": [
-        [
-          391,
+          1298,
           760
         ],
         [
-          920,
-          756
+          1298,
+          814
         ],
         [
-          921,
-          815
-        ],
-        [
-          391,
-          821
+          399,
+          816
         ]
       ],
       "words": [
         {
-          "text": "walls",
+          "text": "available",
           "bbox": [
             [
-              392,
-              765
+              402,
+              767
             ],
             [
-              534,
-              759
+              628,
+              764
             ],
             [
-              533,
-              820
+              627,
+              816
             ],
             [
-              391,
-              822
+              401,
+              816
             ]
           ]
         }
       ]
     },
     {
-      "text": "Case in Point: (1) 1/3 women globally have",
+      "text": "only.",
       "bbox": [
         [
-          394,
-          838
+          387,
+          848
         ],
         [
-          1443,
-          838
+          516,
+          848
         ],
         [
-          1443,
-          907
+          515,
+          892
         ],
         [
-          394,
-          907
+          387,
+          891
         ]
       ],
       "words": [
         {
-          "text": "Case",
+          "text": "only.",
           "bbox": [
             [
-              398,
-              839
+              389,
+              849
             ],
             [
               512,
-              840
+              850
             ],
             [
-              511,
-              908
+              512,
+              892
             ],
             [
-              397,
-              907
+              389,
+              892
             ]
           ]
         }
       ]
     },
     {
-      "text": "suffered sexual harassment (UN)",
+      "text": "6. Irresponsible attitudes and",
       "bbox": [
         [
-          814,
-          929
+          361,
+          1003
         ],
         [
-          1542,
-          920
+          1232,
+          1005
         ],
         [
-          1543,
-          979
+          1232,
+          1068
         ],
         [
-          815,
-          990
+          361,
+          1067
         ]
       ],
       "words": [
         {
-          "text": "suffered",
+          "text": "Irresponsible",
           "bbox": [
             [
-              817,
-              929
+              451,
+              1005
             ],
             [
-              990,
-              928
+              797,
+              1008
             ],
             [
-              996,
-              988
+              798,
+              1067
             ],
             [
-              825,
-              991
+              450,
+              1068
             ]
           ]
         }
       ]
     },
     {
-      "text": "(2) In Pakistan, 28% femalesage(4-49)",
+      "text": "practices pertaining to water",
       "bbox": [
         [
-          765,
-          1015
+          383,
+          1097
         ],
         [
-          1609,
-          1010
+          1261,
+          1087
         ],
         [
-          1610,
-          1070
+          1261,
+          1148
         ],
         [
-          765,
-          1075
+          383,
+          1154
         ]
       ],
       "words": [
         {
-          "text": "(2)",
+          "text": "practices",
           "bbox": [
             [
-              765,
-              1015
+              387,
+              1098
             ],
             [
-              832,
-              1015
+              620,
+              1097
             ],
             [
-              836,
-              1075
+              619,
+              1154
             ],
             [
-              769,
-              1076
+              385,
+              1151
             ]
           ]
         }
       ]
     },
     {
-      "text": "0000",
+      "text": "consumption",
       "bbox": [
         [
-          792,
-          984
-        ],
-        [
-          788,
-          1233
-        ],
-        [
-          715,
-          1232
-        ],
-        [
-          717,
-          983
-        ]
-      ],
-      "words": [
-        {
-          "text": "0000",
-          "bbox": [
-            [
-              792,
-              1003
-            ],
-            [
-              783,
-              1222
-            ],
-            [
-              730,
-              1223
-            ],
-            [
-              737,
-              985
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "have suffered from physicalviolence",
-      "bbox": [
-        [
-          791,
-          1099
-        ],
-        [
-          1542,
-          1090
-        ],
-        [
-          1543,
-          1149
-        ],
-        [
-          791,
-          1156
-        ]
-      ],
-      "words": [
-        {
-          "text": "have",
-          "bbox": [
-            [
-              802,
-              1101
-            ],
-            [
-              904,
-              1100
-            ],
-            [
-              903,
-              1156
-            ],
-            [
-              801,
-              1155
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "and 6% from sexual violence",
-      "bbox": [
-        [
-          783,
+          415,
           1180
         ],
         [
-          1501,
-          1179
+          735,
+          1180
         ],
         [
-          1501,
-          1232
+          735,
+          1230
         ],
         [
-          783,
-          1232
+          415,
+          1230
         ]
       ],
       "words": [
         {
-          "text": "and",
+          "text": "consumption",
           "bbox": [
             [
-              785,
+              417,
               1182
             ],
             [
-              867,
-              1182
+              721,
+              1181
             ],
             [
-              868,
-              1232
+              720,
+              1230
             ],
             [
-              787,
-              1232
+              418,
+              1228
             ]
           ]
         }
       ]
     },
     {
-      "text": "IV. Measures required to eliminate",
+      "text": "CASE IN POINT: Tragedy of the",
       "bbox": [
         [
-          343,
-          1252
+          371,
+          1259
         ],
         [
-          1533,
-          1245
+          1264,
+          1246
         ],
         [
-          1533,
+          1264,
+          1310
+        ],
+        [
+          371,
           1320
+        ]
+      ],
+      "words": [
+        {
+          "text": "CASE",
+          "bbox": [
+            [
+              375,
+              1260
+            ],
+            [
+              501,
+              1258
+            ],
+            [
+              499,
+              1320
+            ],
+            [
+              373,
+              1320
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Common",
+      "bbox": [
+        [
+          389,
+          1322
         ],
         [
-          343,
-          1325
+          842,
+          1308
+        ],
+        [
+          845,
+          1395
+        ],
+        [
+          390,
+          1398
+        ]
+      ],
+      "words": [
+        {
+          "text": "Common",
+          "bbox": [
+            [
+              391,
+              1341
+            ],
+            [
+              597,
+              1330
+            ],
+            [
+              600,
+              1398
+            ],
+            [
+              390,
+              1392
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "7. Inconsistent policies and their",
+      "bbox": [
+        [
+          371,
+          1502
+        ],
+        [
+          1317,
+          1500
+        ],
+        [
+          1317,
+          1558
+        ],
+        [
+          371,
+          1564
+        ]
+      ],
+      "words": [
+        {
+          "text": "Inconsistent",
+          "bbox": [
+            [
+              460,
+              1502
+            ],
+            [
+              770,
+              1501
+            ],
+            [
+              770,
+              1563
+            ],
+            [
+              460,
+              1565
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "limited enforcement :",
+      "bbox": [
+        [
+          410,
+          1584
+        ],
+        [
+          1006,
+          1586
+        ],
+        [
+          1006,
+          1646
+        ],
+        [
+          409,
+          1643
+        ]
+      ],
+      "words": [
+        {
+          "text": "limited",
+          "bbox": [
+            [
+              420,
+              1584
+            ],
+            [
+              599,
+              1585
+            ],
+            [
+              598,
+              1645
+            ],
+            [
+              419,
+              1640
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "CASE INPOINT: Lack of stringent",
+      "bbox": [
+        [
+          392,
+          1667
+        ],
+        [
+          1308,
+          1663
+        ],
+        [
+          1308,
+          1725
+        ],
+        [
+          392,
+          1732
+        ]
+      ],
+      "words": [
+        {
+          "text": "CASE",
+          "bbox": [
+            [
+              396,
+              1674
+            ],
+            [
+              529,
+              1670
+            ],
+            [
+              528,
+              1731
+            ],
+            [
+              395,
+              1732
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "penalties on water exploitation",
+      "bbox": [
+        [
+          387,
+          1754
+        ],
+        [
+          1238,
+          1752
+        ],
+        [
+          1239,
+          1813
+        ],
+        [
+          387,
+          1816
+        ]
+      ],
+      "words": [
+        {
+          "text": "penalties",
+          "bbox": [
+            [
+              399,
+              1764
+            ],
+            [
+              622,
+              1756
+            ],
+            [
+              621,
+              1814
+            ],
+            [
+              397,
+              1816
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "text": "IV. SUGGESTIONS TO CONSERVE",
+      "bbox": [
+        [
+          380,
+          1972
+        ],
+        [
+          1355,
+          1978
+        ],
+        [
+          1354,
+          2063
+        ],
+        [
+          379,
+          2059
         ]
       ],
       "words": [
@@ -820,687 +1040,203 @@
           "text": "IV.",
           "bbox": [
             [
-              357,
-              1253
+              394,
+              1973
             ],
             [
-              451,
-              1253
+              491,
+              1977
             ],
             [
-              450,
-              1321
+              490,
+              2061
             ],
             [
-              355,
-              1319
+              393,
+              2060
             ]
           ]
         }
       ]
     },
     {
-      "text": "these impediment in way of",
+      "text": "FINITE WATER RESOURE",
       "bbox": [
         [
-          416,
-          1332
+          407,
+          2073
         ],
         [
-          1401,
-          1334
+          1159,
+          2071
         ],
         [
-          1401,
-          1407
+          1159,
+          2145
         ],
         [
-          415,
-          1402
+          407,
+          2147
         ]
       ],
       "words": [
         {
-          "text": "these",
+          "text": "FINITE",
           "bbox": [
             [
-              428,
-              1337
+              409,
+              2080
             ],
             [
-              607,
-              1334
+              586,
+              2075
             ],
             [
-              606,
-              1403
+              585,
+              2147
             ],
             [
-              428,
-              1400
+              408,
+              2146
             ]
           ]
         }
       ]
     },
     {
-      "text": "women education.",
+      "text": "EFFICIENTLY :",
       "bbox": [
         [
-          401,
-          1415
+          441,
+          2156
         ],
         [
-          1056,
-          1412
+          847,
+          2159
         ],
         [
-          1056,
-          1482
+          846,
+          2228
         ],
         [
-          401,
-          1484
+          441,
+          2225
         ]
       ],
       "words": [
         {
-          "text": "women",
+          "text": "EFFICIENTLY",
           "bbox": [
             [
-              404,
-              1424
+              445,
+              2157
             ],
             [
-              635,
-              1417
+              803,
+              2159
             ],
             [
-              634,
-              1483
+              803,
+              2228
             ],
             [
-              402,
-              1479
+              444,
+              2225
             ]
           ]
         }
       ]
     },
     {
-      "text": "1. Ensure \"altidunal\" change rather than",
+      "text": "1. Reinstate water conservation",
       "bbox": [
         [
-          416,
-          1507
+          414,
+          2324
         ],
         [
-          1434,
-          1502
+          1309,
+          2329
         ],
         [
-          1434,
-          1563
+          1309,
+          2387
         ],
         [
-          416,
-          1571
+          413,
+          2383
         ]
       ],
       "words": [
         {
-          "text": "Ensure",
+          "text": "Reinstate",
           "bbox": [
             [
               483,
-              1516
+              2325
             ],
             [
-              615,
-              1511
+              720,
+              2327
             ],
             [
-              614,
-              1570
+              718,
+              2386
             ],
             [
               482,
-              1571
+              2381
             ]
           ]
         }
       ]
     },
     {
-      "text": "more LawsD TAIMOOR BUKHARI",
+      "text": "CamScanner",
       "bbox": [
         [
-          428,
-          1598
+          1553,
+          2492
         ],
         [
-          1177,
-          1605
+          1766,
+          2495
         ],
         [
-          1176,
-          1654
+          1766,
+          2534
         ],
         [
-          428,
-          1652
+          1552,
+          2532
         ]
       ],
       "words": [
         {
-          "text": "more",
+          "text": "CamScanner",
           "bbox": [
             [
-              431,
-              1599
+              1558,
+              2492
             ],
             [
-              546,
-              1601
+              1766,
+              2496
             ],
             [
-              545,
-              1654
+              1766,
+              2534
             ],
             [
-              430,
-              1653
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "2. Women skill development paired with formal",
-      "bbox": [
-        [
-          414,
-          1683
-        ],
-        [
-          1502,
-          1678
-        ],
-        [
-          1503,
-          1728
-        ],
-        [
-          414,
-          1734
-        ]
-      ],
-      "words": [
-        {
-          "text": "Women",
-          "bbox": [
-            [
-              461,
-              1687
-            ],
-            [
-              611,
-              1684
-            ],
-            [
-              613,
-              1732
-            ],
-            [
-              463,
-              1734
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "education so they can sponsor their",
-      "bbox": [
-        [
-          449,
-          1762
-        ],
-        [
-          1419,
-          1752
-        ],
-        [
-          1420,
-          1809
-        ],
-        [
-          449,
-          1816
-        ]
-      ],
-      "words": [
-        {
-          "text": "education",
-          "bbox": [
-            [
-              452,
-              1765
-            ],
-            [
-              691,
-              1762
-            ],
-            [
-              690,
-              1816
-            ],
-            [
-              451,
-              1815
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "own education",
-      "bbox": [
-        [
-          449,
-          1847
-        ],
-        [
-          813,
-          1841
-        ],
-        [
-          814,
-          1895
-        ],
-        [
-          450,
-          1897
-        ]
-      ],
-      "words": [
-        {
-          "text": "own",
-          "bbox": [
-            [
-              451,
-              1851
-            ],
-            [
-              547,
-              1848
-            ],
-            [
-              548,
-              1897
-            ],
-            [
-              452,
-              1897
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "3. Establish complete ban on marriage before",
-      "bbox": [
-        [
-          404,
-          1933
-        ],
-        [
-          1494,
-          1916
-        ],
-        [
-          1495,
-          1980
-        ],
-        [
-          405,
-          1994
-        ]
-      ],
-      "words": [
-        {
-          "text": "Establish",
-          "bbox": [
-            [
-              454,
-              1937
-            ],
-            [
-              661,
-              1931
-            ],
-            [
-              661,
-              1989
-            ],
-            [
-              455,
-              1994
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "18 for females.",
-      "bbox": [
-        [
-          444,
-          2017
-        ],
-        [
-          838,
-          2012
-        ],
-        [
-          839,
-          2072
-        ],
-        [
-          444,
-          2075
-        ]
-      ],
-      "words": [
-        {
-          "text": "for",
-          "bbox": [
-            [
-              522,
-              2019
-            ],
-            [
-              607,
-              2017
-            ],
-            [
-              608,
-              2075
-            ],
-            [
-              523,
-              2075
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "4. mitigate digital divide so that women",
-      "bbox": [
-        [
-          399,
-          2098
-        ],
-        [
-          1492,
-          2090
-        ],
-        [
-          1493,
-          2150
-        ],
-        [
-          400,
-          2161
-        ]
-      ],
-      "words": [
-        {
-          "text": "mitigate",
-          "bbox": [
-            [
-              451,
-              2105
-            ],
-            [
-              671,
-              2098
-            ],
-            [
-              670,
-              2160
-            ],
-            [
-              450,
-              2161
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "from for flung areas can educate",
-      "bbox": [
-        [
-          445,
-          2185
-        ],
-        [
-          1436,
-          2178
-        ],
-        [
-          1436,
-          2239
-        ],
-        [
-          445,
-          2247
-        ]
-      ],
-      "words": [
-        {
-          "text": "from",
-          "bbox": [
-            [
-              446,
-              2186
-            ],
-            [
-              599,
-              2186
-            ],
-            [
-              598,
-              2247
-            ],
-            [
-              446,
-              2247
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "themselves.",
-      "bbox": [
-        [
-          381,
-          2268
-        ],
-        [
-          686,
-          2268
-        ],
-        [
-          686,
-          2323
-        ],
-        [
-          381,
-          2323
-        ]
-      ],
-      "words": [
-        {
-          "text": "themselves.",
-          "bbox": [
-            [
-              391,
-              2269
-            ],
-            [
-              682,
-              2269
-            ],
-            [
-              681,
-              2324
-            ],
-            [
-              390,
-              2323
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "5. Enforce women protection laws completely.",
-      "bbox": [
-        [
-          395,
-          2354
-        ],
-        [
-          1499,
-          2352
-        ],
-        [
-          1499,
-          2412
-        ],
-        [
-          395,
-          2415
-        ]
-      ],
-      "words": [
-        {
-          "text": "Enforce",
-          "bbox": [
-            [
-              462,
-              2359
-            ],
-            [
-              635,
-              2356
-            ],
-            [
-              633,
-              2415
-            ],
-            [
-              460,
-              2415
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Case in Point: (1) SDG (5) Gender Equality",
-      "bbox": [
-        [
-          430,
-          2424
-        ],
-        [
-          1480,
-          2425
-        ],
-        [
-          1480,
-          2497
-        ],
-        [
-          430,
-          2496
-        ]
-      ],
-      "words": [
-        {
-          "text": "Case",
-          "bbox": [
-            [
-              434,
-              2424
-            ],
-            [
-              545,
-              2426
-            ],
-            [
-              543,
-              2497
-            ],
-            [
-              432,
-              2497
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "(2) SDG (4) Equal Education Rights",
-      "bbox": [
-        [
-          818,
-          2498
-        ],
-        [
-          1584,
-          2501
-        ],
-        [
-          1584,
-          2561
-        ],
-        [
-          818,
-          2556
-        ]
-      ],
-      "words": [
-        {
-          "text": "(2)",
-          "bbox": [
-            [
-              818,
-              2505
-            ],
-            [
-              882,
-              2503
-            ],
-            [
-              882,
-              2555
-            ],
-            [
-              818,
-              2555
+              1557,
+              2533
             ]
           ]
         }
       ]
     }
   ],
-  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :................... /20 ..... MOTOWOTOFOSI 5. Massive digital in present age of online learning. Case in Point: Global digital divide 68%, for women 51% 1 (3) Pakistan female digital divide 24% whereas mode's is 48% 6. Formales lack of security outside the four walls of their home. Case in Point: (1) 1/3 women globally have suffered sexual harassment (UN) (2) In Pakistan, 28% femalesage(4-49) 0000 have suffered from physicalviolence and 6% from sexual violence IV. Measures required to eliminate these impediment in way of women education. 1. Ensure \"altidunal\" change rather than BY more LawsD TAIMOOR BUKHARI 2. Women skill development paired with formal education so they can sponsor their own education 3. Establish complete ban on marriage before 18 for females. 4. mitigate digital divide so that women from for flung areas can educate themselves. 5. Enforce women protection laws completely. Case in Point: (1) SDG (5) Gender Equality (2) SDG (4) Equal Education Rights",
+  "ocr_full_text_page": "READ RIGHT INSTITUTE BY SYED TAIMOOR BUKHARI Date :......... / ........ ./20 ..... MOTOWI F 3 as well as organic waste into water bodies. 5. Lack of water storage reservoirs CASE IN POINT: In Pakistan only 13 major dams and water reservoirs available with 13.7 MAF live Storage only. 6. Irresponsible attitudes and practices pertaining to water consumption CASE IN POINT: Tragedy of the Common 7. Inconsistent policies and their limited enforcement : CASE INPOINT: Lack of stringent penalties on water exploitation IV. SUGGESTIONS TO CONSERVE FINITE WATER RESOURE EFFICIENTLY : 1. Reinstate water conservation CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75
