@@ -1,158 +1,173 @@
 {
-  "topic": "DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREAM",
+  "topic": "* Pakistan's longstanding 'Strategic depth' doctrine has effectively transformed into a 'Strategic dilemma' following Taliban's return to power. Critically analyse the shift in the Taliban's posture from a 'Dependant Proxy' to a Sovereign Nationalist' entity, and evaluate the implications of the TTP-Taliban nexus for Pakistan's internal security and regional standing in the face of a rising Indian footprint in Kabul.",
   "outline": {
     "present": true,
     "pages": [
       1,
       2,
       3,
-      4
+      4,
+      5,
+      6,
+      7,
+      8
     ],
-    "quality": "Weak",
+    "quality": "Strong",
     "issues": [
-      "Inconsistent Roman numeral sequencing (I, II, then restarts at I for factors, skips III, jumps to IV)",
-      "Factors section mislabeled as I after II",
-      "Short bullet points with case examples rather than detailed plan"
+      "No transition to full paragraph-based essay body; entire submission is outline structure."
     ],
     "strengths": [
-      "Roman numeral main sections visible",
-      "Numbered subpoints under factors and suggestions",
-      "Includes introduction, factors, suggestions, conclusion structure"
+      "Comprehensive numbered sections with subsections and bullet points covering topic fully; logical progression from intro to conclusion."
     ]
   },
   "outline_span": {
     "start_page": 1,
-    "end_page": 4
+    "end_page": 8
   },
   "outline_sections": [
     {
-      "title": "I. INTRODUCTION",
+      "title": "1) Introduction",
       "page": 1,
-      "notes": "Short paragraph on proverb importance"
+      "notes": "Listed but no subpoints visible."
     },
     {
-      "title": "II. DECODING THE PROVERB: DO NOT WASTE WATER EVEN IF YOU ARE STANDING AT A RUNNING STREM",
+      "title": "2) Shift in Taliban's posture: From a 'Dependent Proxy' to a 'Sovereign Nationalist' entity",
       "page": 1,
-      "notes": "Short phrase"
+      "notes": "Main section with subpoints."
     },
     {
-      "title": "I. FACTORS WHICH MAKES WATER An FINITE SOURCE DESPITE ITS APPARENT ABUNDANCE",
+      "title": "2.1) Taliban's assertion of strategic autonomy over dependence ended Pakistan's exclusive influence",
+      "page": 1,
+      "notes": "Bullet points under subsection."
+    },
+    {
+      "title": "2.2) Talibans aspirations for an Islamic Emirate",
       "page": 2,
-      "notes": "Points 1-3 with CASE IN POINT"
+      "notes": "Continues with bullets."
     },
     {
-      "title": "FACTORS continuation",
+      "title": "2.3) Backfiring of Pakistan's border closure: Kabul's enhanced pursuit of economic independence through alternative trade routes",
+      "page": 2,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "2.4) The Nationalist Narrative: Weaponizing anti-Pakistan",
+      "page": 2,
+      "notes": "Subsection continues to page 3."
+    },
+    {
+      "title": "3) Implications of TTP. Taliban nezus for Pakistan's Internal security",
       "page": 3,
-      "notes": "Points 4-7 with CASE IN POINT"
+      "notes": "New main section."
     },
     {
-      "title": "IV. SUGGESTIONS TO CONSERVE FINITE WATER RESOURE EFFICIENTLY",
+      "title": "3.1) TTP's strategic depth in Taliban led Kabul: Taliban's non cooperation in decapitating a hostile terrorist outfit perpetuates a cycle of insurgency in Pakistan",
       "page": 3,
-      "notes": "Point 1"
+      "notes": "Subsection with bullets."
     },
     {
-      "title": "SUGGESTIONS continuation",
+      "title": "3.2) Sophisticated Weaponry left behind in the wake of US withdrawal is wreaking havoc in Pakistan's internal Security architecture through insurgency",
       "page": 4,
-      "notes": "Points 3-5 with CASE IN POINT"
+      "notes": "Subsection with bullets and lists."
     },
     {
-      "title": "V. CONCLUSION",
+      "title": "3.3) Pakistan's geo economic Strangulations at hands of TIP: increased violence in Chaman- Torkham sabotages trade supply",
       "page": 4,
-      "notes": "Short marker"
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "3.4) TTP's 'Emirate' and Expansionist Aspirations: Pursuance of Shadows Governance In Kabul and Territorial fragmentation In Islamabad",
+      "page": 5,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "3.5) Pakistan's reactive hard stance: Bleak future of Pakistan's negotiating power in securing counter. terrorism efforts",
+      "page": 5,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4) Pakistan's eroding Regional standing amidst rising Indian footprint in Kabul",
+      "page": 6,
+      "notes": "New main section."
+    },
+    {
+      "title": "4.11 Pakistan's \"Strategis Encliclement\" nightmare has materialized in a new Two-front Dilemma",
+      "page": 6,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4.2) India's pragmatic and opportunistic engagement with Taliban: a direct challenge to Pakistan's core regional interests",
+      "page": 6,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4.3) Backlash for triggering a refugee crisis: Pak's diplomatic erosion in multilateral forums like SCO/UN",
+      "page": 7,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4.4) Crisis of Credibility with China amidst CPEC and BRI sabotage",
+      "page": 7,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4.5) Death of Islamabad's geoeconomic vision; Pakistan loses its leverage as gateway to CARS",
+      "page": 8,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "4.6) Rise of Chabahar as a strategic bypass erodes Pakistan's regional strakais relevance",
+      "page": 8,
+      "notes": "Subsection with bullets."
+    },
+    {
+      "title": "5) Conclusion",
+      "page": 8,
+      "notes": "Final section listed."
     }
   ],
-  "essay_start_page": 5,
+  "essay_start_page": null,
   "paragraph_map": [
     {
       "page": 1,
       "role_guess": "outline",
-      "notes": "Title, I. INTRODUCTION, II. DECODING"
+      "notes": "Topic, 1) Introduction, start of 2) and 2.1 with bullets."
     },
     {
       "page": 2,
       "role_guess": "outline",
-      "notes": "I. FACTORS 1-3"
+      "notes": "Continuation of 2.1-2.4 with bullets."
     },
     {
       "page": 3,
       "role_guess": "outline",
-      "notes": "FACTORS 4-7, IV. SUGGESTIONS 1"
+      "notes": "3) and 3.1 with bullets."
     },
     {
       "page": 4,
       "role_guess": "outline",
-      "notes": "SUGGESTIONS 3-5, V. CONCLUSION"
+      "notes": "3.2 and 3.3 with bullets and lists."
     },
     {
       "page": 5,
-      "role_guess": "intro",
-      "notes": "Proverb explanation, importance"
+      "role_guess": "outline",
+      "notes": "3.4 and 3.5 with bullets."
     },
     {
       "page": 6,
-      "role_guess": "body",
-      "notes": "Factors discussion"
+      "role_guess": "outline",
+      "notes": "4), 4.1, 4.2 with bullets."
     },
     {
       "page": 7,
-      "role_guess": "body",
-      "notes": "Climate change, glaciers"
+      "role_guess": "outline",
+      "notes": "4.3 and 4.4 with bullets."
     },
     {
       "page": 8,
-      "role_guess": "body",
-      "notes": "Overconsumption"
-    },
-    {
-      "page": 9,
-      "role_guess": "body",
-      "notes": "Wastage statistics"
-    },
-    {
-      "page": 10,
-      "role_guess": "body",
-      "notes": "Water pollution"
-    },
-    {
-      "page": 11,
-      "role_guess": "body",
-      "notes": "Lack of reservoirs"
-    },
-    {
-      "page": 12,
-      "role_guess": "body",
-      "notes": "Irresponsible attitudes"
-    },
-    {
-      "page": 13,
-      "role_guess": "body",
-      "notes": "Inconsistent policies"
-    },
-    {
-      "page": 14,
-      "role_guess": "body",
-      "notes": "Suggestions: ethical duty"
-    },
-    {
-      "page": 15,
-      "role_guess": "body",
-      "notes": "Agriculture techniques, industry"
-    },
-    {
-      "page": 16,
-      "role_guess": "body",
-      "notes": "Dams, rainwater harvest"
-    },
-    {
-      "page": 17,
-      "role_guess": "conclusion",
-      "notes": "To conclude summary"
-    },
-    {
-      "page": 18,
-      "role_guess": "conclusion",
-      "notes": "Final remarks"
+      "role_guess": "outline",
+      "notes": "4.5, 4.6, 5) Conclusion."
     }
   ],
-  "overall_flow_comment": "Weak outline (1-4) transitions to prose expansion of points (5-16 body), ends with conclusion (17-18)."
+  "overall_flow_comment": "Detailed outline follows topic logically from introduction through analysis sections to conclusion; no prose essay body present."
 }

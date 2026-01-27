@@ -147,6 +147,134 @@ def _points_to_rect(pts: List[Tuple[float, float]]) -> Optional[Tuple[float, flo
     ys = [p[1] for p in pts]
     return (min(xs), min(ys), max(xs), max(ys))
 
+def _points_to_rect(pts: List[Tuple[float, float]]) -> Optional[Tuple[float, float, float, float]]:
+    if not pts:
+        return None
+    xs = [p[0] for p in pts]
+    ys = [p[1] for p in pts]
+    return (min(xs), min(ys), max(xs), max(ys))
+
+
+def _find_error_in_context_ocr(
+    page_ocr: Dict[str, Any], 
+    error_text: str, 
+    anchor_quote: str,
+    page_extent: Optional[Tuple[float, float]], 
+    orig_w: int, 
+    orig_h: int
+) -> Optional[Tuple[int, int, int, int]]:
+    """Find error within its context (anchor_quote) for more accurate positioning."""
+    if not page_ocr or not error_text or not anchor_quote or not page_extent:
+        return None
+    
+    # First, find lines that contain part of the anchor quote
+    error_lower = error_text.lower()
+    anchor_lower = anchor_quote.lower()
+    
+    # Get all OCR text as a continuous string with line info
+    for ln in page_ocr.get("lines", []) or []:
+        line_text = _line_text(ln).lower()
+        
+        # Check if this line contains the anchor quote (or part of it)
+        if any(word in line_text for word in anchor_lower.split() if len(word) > 3):
+            # Now check if error is in this line
+            if error_lower in line_text:
+                # Found the right line, now find the specific word
+                line_words = ln.get("words", [])
+                if not line_words:
+                    # Use line bbox as fallback
+                    poly = _line_polygon_any(ln)
+                    if poly:
+                        pts = _poly_to_points_generic(poly)
+                        rect = _points_to_rect(pts)
+                        if rect:
+                            return _scale_rect_by_extent(rect, page_extent, orig_w, orig_h)
+                else:
+                    # Search words for the error
+                    for w in line_words:
+                        w_text = w.get("text", "").strip().lower()
+                        if error_lower in w_text or w_text in error_lower:
+                            w_poly = w.get("bbox") or w.get("boundingPolygon") or []
+                            if w_poly:
+                                pts = _poly_to_points_generic(w_poly)
+                                rect = _points_to_rect(pts)
+                                if rect:
+                                    return _scale_rect_by_extent(rect, page_extent, orig_w, orig_h)
+    
+    return None
+
+def _find_error_word_span_ocr(page_ocr: Dict[str, Any], error_text: str, page_extent: Optional[Tuple[float, float]], orig_w: int, orig_h: int) -> Optional[Tuple[int, int, int, int]]:
+    """Find the bounding box for error_text by matching in OCR words."""
+    if not page_ocr or not error_text or not page_extent:
+        return None
+    
+    target = _norm_token_for_spelling(error_text)
+    if not target:
+        return None
+    
+    words = []
+    for ln in page_ocr.get("lines", []) or []:
+        line_words = ln.get("words", [])
+        if line_words:
+            words.extend(line_words)
+        else:
+            # Fallback: treat line as single word
+            text = _line_text(ln)
+            poly = _line_polygon_any(ln)
+            if text and poly:
+                words.append({"text": text, "bbox": poly})
+    
+    # Build tokens with rects
+    tokens = []
+    for w in words:
+        w_text = w.get("text", "").strip()
+        w_poly = w.get("bbox") or w.get("boundingPolygon") or []
+        if not w_text or not w_poly:
+            continue
+        pts = _poly_to_points_generic(w_poly)
+        rect = _points_to_rect(pts)
+        if rect:
+            scaled = _scale_rect_by_extent(rect, page_extent, orig_w, orig_h)
+            tokens.append((_norm_token_for_spelling(w_text), scaled, w_text))
+    
+    # Try exact match first
+    for t, r, original_text in tokens:
+        if t == target:
+            return r
+    
+    # Try case-insensitive substring match (for partial words)
+    error_lower = error_text.lower()
+    for t, r, original_text in tokens:
+        if error_lower in original_text.lower() or original_text.lower() in error_lower:
+            # Close enough match
+            return r
+    
+    # Multi-word span (join consecutive) - more flexible
+    for i in range(len(tokens)):
+        for j in range(i, min(i + 8, len(tokens))):
+            # Build accumulated text
+            acc = ""
+            acc_with_spaces = ""
+            x0, y0, x1, y1 = tokens[i][1]
+            for k in range(i, j + 1):
+                acc += tokens[k][0]
+                acc_with_spaces += tokens[k][2] + " "
+                rk = tokens[k][1]
+                x0 = min(x0, rk[0])
+                y0 = min(y0, rk[1])
+                x1 = max(x1, rk[2])
+                y1 = max(y1, rk[3])
+            
+            # Check if matches
+            if acc == target:
+                return (x0, y0, x1, y1)
+            
+            # Check if error is contained in this span (fuzzy match)
+            if error_lower in acc_with_spaces.lower():
+                return (x0, y0, x1, y1)
+    
+    return None
+
 def _compute_page_extent(page_ocr: Dict[str, Any]) -> Optional[Tuple[float, float]]:
     w = page_ocr.get("page_width") or page_ocr.get("width") or page_ocr.get("pageWidth") or page_ocr.get("page_width_px")
     h = page_ocr.get("page_height") or page_ocr.get("height") or page_ocr.get("pageHeight") or page_ocr.get("page_height_px")
@@ -573,6 +701,163 @@ def _fit_text_box(
 
 
 # ============================================================
+# PYMUPDF SPELLING ANNOTATION HELPERS
+# ============================================================
+
+def _norm_token_for_spelling(t: str) -> str:
+    """Normalize a token for spelling error matching."""
+    return re.sub(r"[^a-z0-9]", "", t.lower())
+
+def _bbox_to_rect_float(bbox: List) -> Optional[Tuple[float, float, float, float]]:
+    """Convert polygon bbox to (x0,y0,x1,y1) with float precision."""
+    if not bbox:
+        return None
+    xs = [p[0] for p in bbox]
+    ys = [p[1] for p in bbox]
+    return float(min(xs)), float(min(ys)), float(max(xs)), float(max(ys))
+
+def _unit_scale_to_points(unit: str) -> float:
+    """Convert Azure coordinate units to PyMuPDF points (1 inch = 72 points)."""
+    u = (unit or "").lower()
+    if u == "inch":
+        return 72.0
+    # pixel or other: assume already aligned
+    return 1.0
+
+def _word_rects_in_page_coords_fitz(page_info: Dict[str, Any]) -> List[Tuple[fitz.Rect, float, str]]:
+    """Return list of (rect_in_points, confidence, text) for all words in page."""
+    scale = _unit_scale_to_points(page_info.get("unit", "pixel"))
+    out = []
+    for w in page_info.get("words", []) or []:
+        poly = w.get("bbox") or []
+        r = _bbox_to_rect_float(poly)
+        if not r:
+            continue
+        x0, y0, x1, y1 = r
+        rect_pts = fitz.Rect(x0 * scale, y0 * scale, x1 * scale, y1 * scale)
+        out.append((rect_pts, float(w.get("confidence", 1.0) or 1.0), w.get("text", "")))
+    return out
+
+def _find_error_word_span_fitz(
+    wordrects: List[Tuple[fitz.Rect, float, str]],
+    error_text: str,
+    anchor_quote: Optional[str] = None
+) -> Optional[fitz.Rect]:
+    """Find the bounding box for error_text by matching normalized word sequences."""
+    target = _norm_token_for_spelling(error_text)
+    if not target:
+        return None
+
+    tokens = [(_norm_token_for_spelling(w), r, c) for (r, c, w) in wordrects]
+    
+    # Single word match
+    for t, r, _ in tokens:
+        if t == target:
+            return r
+
+    # Multi-word span (join consecutive)
+    for i in range(len(tokens)):
+        acc = ""
+        r_union = None
+        for j in range(i, min(i + 6, len(tokens))):
+            acc += tokens[j][0]
+            r_union = tokens[j][1] if r_union is None else (r_union | tokens[j][1])
+            if acc == target:
+                return r_union
+            if len(acc) > len(target):
+                break
+    
+    return None
+
+def _add_spelling_annotations_to_pdf(
+    pil_images: List[Image.Image],
+    ocr_data: Dict[str, Any],
+    spelling_errors: List[Dict[str, Any]],
+    output_path: str
+) -> None:
+    """
+    Take PIL images (already annotated with essay feedback) and add PyMuPDF-based
+    spelling annotations directly on the PDF. Saves result to output_path.
+    """
+    if not pil_images or not spelling_errors:
+        # Just save PIL images as PDF
+        if pil_images:
+            pil_images[0].save(output_path, save_all=True, append_images=pil_images[1:])
+        return
+    
+    # Create PDF from PIL images
+    pdf_doc = fitz.open()
+    for img in pil_images:
+        # Convert PIL to bytes
+        img_bytes = io.BytesIO()
+        img.save(img_bytes, format='PNG')
+        img_bytes.seek(0)
+        
+        # Create page from image
+        img_doc = fitz.open(stream=img_bytes, filetype="png")
+        pdf_doc.insert_pdf(img_doc)
+        img_doc.close()
+    
+    # Now add spelling annotations using PyMuPDF
+    pages_data = ocr_data.get("pages", [])
+    
+    for error in spelling_errors:
+        page_num = error.get("page", 1) - 1  # Convert to 0-indexed
+        if page_num < 0 or page_num >= len(pdf_doc):
+            continue
+        
+        page = pdf_doc[page_num]
+        page_info = pages_data[page_num] if page_num < len(pages_data) else {}
+        
+        error_text = error.get("error_text", "")
+        correction = error.get("correction", "")
+        anchor_quote = error.get("anchor_quote")
+        
+        if not error_text or not correction:
+            continue
+        
+        # Get word rectangles from OCR
+        wordrects = _word_rects_in_page_coords_fitz(page_info)
+        if not wordrects:
+            continue
+        
+        # Find the error location
+        rect = _find_error_word_span_fitz(wordrects, error_text, anchor_quote)
+        if not rect:
+            continue
+        
+        # Draw red rectangle around error
+        page.draw_rect(rect, color=(0.8, 0, 0), width=2.0)
+        
+        # Draw correction text above the error
+        correction_text = f"→ {correction}"
+        text_width = fitz.get_text_length(correction_text, fontname="hebo", fontsize=10)
+        
+        # White background for correction text
+        bg_rect = fitz.Rect(
+            rect.x0 - 2,
+            rect.y0 - 16,
+            rect.x0 + text_width + 4,
+            rect.y0 - 2
+        )
+        page.draw_rect(bg_rect, color=(0.8, 0, 0), fill=(1, 1, 1), width=1.0)
+        
+        # Insert correction text
+        text_point = fitz.Point(rect.x0, rect.y0 - 4)
+        page.insert_text(
+            text_point,
+            correction_text,
+            fontsize=10,
+            color=(0.8, 0, 0),
+            fontname="hebo"
+        )
+    
+    # Save the annotated PDF
+    pdf_doc.save(output_path)
+    pdf_doc.close()
+
+
+# ============================================================
 # MAIN FUNCTION
 # ============================================================
 def annotate_pdf_essay_pages(
@@ -582,6 +867,7 @@ def annotate_pdf_essay_pages(
     grading: Dict[str, Any],
     annotations: List[Dict[str, Any]],
     page_suggestions: Optional[List[Dict[str, Any]]] = None,
+    spelling_errors: Optional[List[Dict[str, Any]]] = None,
     *,
     dpi: int = 220,
     debug_draw_ocr_boxes: bool = False,
@@ -599,8 +885,10 @@ def annotate_pdf_essay_pages(
         - prefer anchor_quote candidates (if present)
         - else legacy candidates
     - If no rect found -> page-level box only (no arrow/highlight)
+    - Spelling errors are annotated inline directly on the page with red boxes and corrections
     """
     page_suggestions = page_suggestions or []
+    spelling_errors = spelling_errors or []
     doc = fitz.open(pdf_path)
 
     # Render pages
@@ -751,6 +1039,9 @@ def annotate_pdf_essay_pages(
                     rr = _scale_rect_by_extent(r, extent, orig_w, orig_h)
                     rr = _shift_rect(rr, left_width, y_offset)
                     cv2.rectangle(canvas, (rr[0], rr[1]), (rr[2], rr[3]), (190, 190, 190), 1)
+
+        # NOTE: Spelling/grammar errors are added using PyMuPDF after PIL images are created
+        # See _add_spelling_annotations_to_pdf_pages() function called at the end
 
         # Build callouts for this page
         anns = [a for a in annotations if a.get("page") == page_number][:max_callouts_per_page]

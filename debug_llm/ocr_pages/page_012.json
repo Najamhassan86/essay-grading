@@ -2,1148 +2,1580 @@
   "page_number": 12,
   "page_width": 1819.0,
   "page_height": 2573.0,
+  "unit": "pixel",
   "lines": [
     {
-      "text": "finite resources that is",
+      "text": "nationalist militarism emerges as",
       "bbox": [
         [
-          457,
-          279
+          379,
+          296
         ],
         [
-          1355,
-          265
+          1336,
+          296
         ],
         [
-          1356,
-          327
+          1337,
+          352
         ],
         [
-          457,
-          338
+          379,
+          352
         ]
       ],
       "words": [
         {
-          "text": "finite",
+          "text": "nationalist",
           "bbox": [
             [
-              459,
-              280
+              382,
+              296
             ],
             [
-              605,
-              280
+              635,
+              296
             ],
             [
-              604,
-              337
+              635,
+              352
             ],
             [
-              457,
-              335
+              381,
+              353
             ]
-          ]
+          ],
+          "confidence": 0.922
         }
       ]
     },
     {
-      "text": "constantly depliting.",
+      "text": "such states contect for regional",
       "bbox": [
         [
-          466,
-          354
+          384,
+          363
         ],
         [
-          1176,
-          350
+          1357,
+          360
         ],
         [
-          1176,
-          411
+          1358,
+          410
         ],
         [
-          466,
-          413
+          384,
+          417
         ]
       ],
       "words": [
         {
-          "text": "constantly",
+          "text": "such",
           "bbox": [
             [
-              467,
-              357
+              387,
+              365
             ],
             [
-              761,
-              356
+              481,
+              364
             ],
             [
-              760,
-              413
+              481,
+              417
             ],
             [
-              467,
-              413
+              386,
+              418
             ]
-          ]
+          ],
+          "confidence": 0.987
         }
       ]
     },
     {
-      "text": "Similarly, the",
+      "text": "autonomy With the rise of",
       "bbox": [
         [
-          752,
-          438
+          397,
+          426
         ],
         [
-          1297,
-          432
+          1260,
+          423
         ],
         [
-          1298,
-          482
+          1260,
+          473
         ],
         [
-          752,
-          488
+          397,
+          480
         ]
       ],
       "words": [
         {
-          "text": "Similarly,",
+          "text": "autonomy",
           "bbox": [
             [
-              768,
-              438
+              407,
+              428
             ],
             [
-              1050,
-              439
+              652,
+              425
             ],
             [
-              1049,
-              487
+              651,
+              478
             ],
             [
-              766,
-              487
+              406,
+              481
             ]
-          ]
+          ],
+          "confidence": 0.84
         }
       ]
     },
     {
-      "text": "irresponsible attitudes and",
+      "text": "middle powers such as India,",
       "bbox": [
         [
-          464,
-          515
+          379,
+          483
         ],
         [
-          1415,
-          491
+          1305,
+          478
         ],
         [
-          1417,
-          551
+          1305,
+          537
         ],
         [
-          465,
-          575
+          379,
+          542
         ]
       ],
       "words": [
         {
-          "text": "irresponsible",
+          "text": "middle",
           "bbox": [
             [
-              477,
-              519
+              388,
+              483
             ],
             [
-              860,
-              505
+              556,
+              489
             ],
             [
-              860,
-              568
+              555,
+              542
             ],
             [
-              475,
-              575
+              388,
+              543
             ]
-          ]
+          ],
+          "confidence": 0.933
         }
       ]
     },
     {
-      "text": "malpractices pertaining to",
+      "text": "Brazil, Turkey, South Africa and",
       "bbox": [
         [
-          463,
-          595
+          387,
+          546
         ],
         [
-          1418,
-          573
+          1392,
+          544
         ],
         [
-          1419,
-          636
+          1392,
+          599
         ],
         [
-          463,
-          653
+          387,
+          605
         ]
       ],
       "words": [
         {
-          "text": "malpractices",
+          "text": "Brazil,",
           "bbox": [
             [
-              465,
-              600
+              391,
+              547
             ],
             [
-              846,
-              588
+              607,
+              549
             ],
             [
-              846,
-              649
+              606,
+              604
             ],
             [
-              464,
-              653
+              390,
+              606
             ]
-          ]
+          ],
+          "confidence": 0.936
         }
       ]
     },
     {
-      "text": "water use are also-contributing",
+      "text": "Saudi Arabia the world order has",
       "bbox": [
         [
-          463,
-          671
-        ],
-        [
-          1497,
-          654
-        ],
-        [
-          1498,
-          710
-        ],
-        [
-          463,
-          727
-        ]
-      ],
-      "words": [
-        {
-          "text": "water",
-          "bbox": [
-            [
-              465,
-              671
-            ],
-            [
-              639,
-              669
-            ],
-            [
-              638,
-              725
-            ],
-            [
-              464,
-              727
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "factors. People usually take",
-      "bbox": [
-        [
-          452,
-          736
+          386,
+          613
         ],
         [
           1416,
-          729
+          608
         ],
         [
           1417,
-          799
+          661
         ],
         [
-          452,
-          807
+          386,
+          668
         ]
       ],
       "words": [
         {
-          "text": "factors.",
+          "text": "Saudi",
           "bbox": [
             [
-              464,
-              737
+              397,
+              613
             ],
             [
-              716,
-              745
+              543,
+              614
             ],
             [
-              715,
-              807
+              541,
+              668
             ],
             [
-              463,
-              803
+              396,
+              669
             ]
-          ]
+          ],
+          "confidence": 0.859
         }
       ]
     },
     {
-      "text": "water as a forgranted resource",
+      "text": "become more complex. These nations",
       "bbox": [
         [
-          476,
-          832
+          379,
+          681
         ],
         [
-          1496,
-          809
+          1335,
+          673
         ],
         [
-          1498,
-          868
+          1335,
+          724
         ],
         [
-          476,
-          887
+          379,
+          730
         ]
       ],
       "words": [
         {
-          "text": "water",
+          "text": "become",
           "bbox": [
             [
-              476,
-              839
+              381,
+              682
             ],
             [
-              641,
-              832
+              552,
+              683
             ],
             [
-              641,
-              887
+              550,
+              730
             ],
             [
-              476,
-              887
+              380,
+              729
             ]
-          ]
+          ],
+          "confidence": 0.982
         }
       ]
     },
     {
-      "text": "that they believe would",
+      "text": "Leverage",
       "bbox": [
         [
-          468,
-          908
+          386,
+          743
         ],
         [
-          1437,
-          896
+          598,
+          741
         ],
         [
-          1438,
-          954
+          599,
+          791
         ],
         [
-          468,
-          968
+          386,
+          793
         ]
       ],
       "words": [
         {
-          "text": "that",
+          "text": "Leverage",
           "bbox": [
             [
-              495,
-              913
+              389,
+              743
             ],
             [
-              638,
-              909
+              598,
+              742
             ],
             [
-              637,
-              967
+              597,
+              792
             ],
             [
-              494,
-              968
+              387,
+              794
             ]
-          ]
+          ],
+          "confidence": 0.978
         }
       ]
     },
     {
-      "text": "never extinguish. This is",
+      "text": "their geostrategic",
       "bbox": [
         [
-          463,
-          992
+          721,
+          741
         ],
         [
-          1380,
-          974
+          1218,
+          742
         ],
         [
-          1381,
-          1037
+          1218,
+          791
         ],
         [
-          464,
-          1048
+          720,
+          789
         ]
       ],
       "words": [
         {
-          "text": "never",
+          "text": "their",
           "bbox": [
             [
-              466,
-              1001
+              730,
+              741
             ],
             [
-              658,
-              993
+              837,
+              743
             ],
             [
-              658,
-              1048
+              836,
+              790
             ],
             [
-              466,
-              1044
+              729,
+              788
             ]
-          ]
+          ],
+          "confidence": 0.93
         }
       ]
     },
     {
-      "text": "a completely false belief",
+      "text": "locations and natural resource",
       "bbox": [
         [
-          460,
-          1070
+          406,
+          808
         ],
         [
-          1379,
-          1048
+          1266,
+          806
         ],
         [
-          1380,
-          1114
+          1267,
+          851
         ],
         [
-          460,
-          1127
+          406,
+          854
         ]
       ],
       "words": [
         {
-          "text": "completely",
+          "text": "locations",
           "bbox": [
             [
-              521,
-              1074
+              408,
+              809
             ],
             [
-              845,
-              1063
+              601,
+              808
             ],
             [
-              844,
-              1127
+              600,
+              854
             ],
             [
-              519,
-              1127
+              407,
+              854
             ]
-          ]
+          ],
+          "confidence": 0.885
         }
       ]
     },
     {
-      "text": "which realizes into the",
+      "text": "reserves to exert great influence",
       "bbox": [
         [
-          458,
-          1147
+          390,
+          872
         ],
         [
-          1374,
-          1133
+          1406,
+          866
         ],
         [
-          1376,
-          1194
+          1407,
+          910
         ],
         [
-          459,
-          1207
+          390,
+          916
         ]
       ],
       "words": [
         {
-          "text": "which",
+          "text": "reserves",
           "bbox": [
             [
-              460,
-              1151
+              392,
+              880
             ],
             [
-              642,
-              1146
+              584,
+              875
             ],
             [
-              641,
-              1207
+              585,
+              916
             ],
             [
-              459,
-              1207
+              393,
+              916
             ]
-          ]
+          ],
+          "confidence": 0.936
         }
       ]
     },
     {
-      "text": "\" tragedy of the common\"",
+      "text": "in multilateral and minilateral",
       "bbox": [
         [
-          458,
-          1223
+          394,
+          930
         ],
         [
-          1410,
-          1214
+          1300,
+          926
         ],
         [
-          1411,
-          1276
+          1300,
+          979
         ],
         [
-          458,
-          1288
+          394,
+          982
         ]
       ],
       "words": [
         {
-          "text": "tragedy",
+          "text": "multilateral",
           "bbox": [
             [
-              529,
-              1225
+              515,
+              932
             ],
             [
-              801,
-              1219
+              817,
+              932
             ],
             [
-              801,
-              1286
+              816,
+              982
             ],
             [
-              528,
-              1288
+              514,
+              981
             ]
-          ]
+          ],
+          "confidence": 0.881
         }
       ]
     },
     {
-      "text": "pertaining to water. This",
+      "text": "institutions. To quote Raja C. Mohan,",
       "bbox": [
         [
-          456,
-          1313
+          379,
+          995
         ],
         [
-          1372,
+          1412,
+          993
+        ],
+        [
+          1412,
+          1043
+        ],
+        [
+          379,
+          1045
+        ]
+      ],
+      "words": [
+        {
+          "text": "institutions.",
+          "bbox": [
+            [
+              381,
+              997
+            ],
+            [
+              665,
+              996
+            ],
+            [
+              665,
+              1045
+            ],
+            [
+              380,
+              1045
+            ]
+          ],
+          "confidence": 0.897
+        }
+      ]
+    },
+    {
+      "text": "\"Middle powers survive by leveraging",
+      "bbox": [
+        [
+          377,
+          1057
+        ],
+        [
+          1401,
+          1057
+        ],
+        [
+          1401,
+          1108
+        ],
+        [
+          377,
+          1108
+        ]
+      ],
+      "words": [
+        {
+          "text": "\"Middle",
+          "bbox": [
+            [
+              379,
+              1057
+            ],
+            [
+              563,
+              1061
+            ],
+            [
+              561,
+              1109
+            ],
+            [
+              377,
+              1108
+            ]
+          ],
+          "confidence": 0.841
+        }
+      ]
+    },
+    {
+      "text": "their geostrategic locations: These",
+      "bbox": [
+        [
+          380,
+          1116
+        ],
+        [
+          1303,
+          1116
+        ],
+        [
+          1303,
+          1172
+        ],
+        [
+          380,
+          1172
+        ]
+      ],
+      "words": [
+        {
+          "text": "their",
+          "bbox": [
+            [
+              389,
+              1121
+            ],
+            [
+              503,
+              1126
+            ],
+            [
+              502,
+              1169
+            ],
+            [
+              388,
+              1167
+            ]
+          ],
+          "confidence": 0.987
+        }
+      ]
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          388,
+          1196
+        ],
+        [
+          553,
+          1197
+        ],
+        [
+          553,
+          1233
+        ],
+        [
+          388,
+          1233
+        ]
+      ],
+      "words": [
+        {
+          "text": "powers",
+          "bbox": [
+            [
+              394,
+              1196
+            ],
+            [
+              554,
+              1198
+            ],
+            [
+              554,
+              1233
+            ],
+            [
+              395,
+              1234
+            ]
+          ],
+          "confidence": 0.973
+        }
+      ]
+    },
+    {
+      "text": "are now focusing on",
+      "bbox": [
+        [
+          682,
+          1191
+        ],
+        [
+          1313,
+          1185
+        ],
+        [
+          1313,
+          1234
+        ],
+        [
+          682,
+          1235
+        ]
+      ],
+      "words": [
+        {
+          "text": "are",
+          "bbox": [
+            [
+              691,
+              1201
+            ],
+            [
+              768,
+              1197
+            ],
+            [
+              767,
+              1234
+            ],
+            [
+              689,
+              1234
+            ]
+          ],
+          "confidence": 0.985
+        }
+      ]
+    },
+    {
+      "text": "their rearmament and technological",
+      "bbox": [
+        [
+          393,
+          1250
+        ],
+        [
+          1471,
+          1251
+        ],
+        [
+          1471,
+          1297
+        ],
+        [
+          393,
           1295
-        ],
-        [
-          1373,
-          1355
-        ],
-        [
-          456,
-          1377
         ]
       ],
       "words": [
         {
-          "text": "pertaining",
+          "text": "their",
           "bbox": [
             [
-              476,
-              1315
+              395,
+              1251
             ],
             [
-              771,
-              1306
+              514,
+              1252
             ],
             [
-              770,
+              515,
+              1294
+            ],
+            [
+              395,
+              1293
+            ]
+          ],
+          "confidence": 0.98
+        }
+      ]
+    },
+    {
+      "text": "advancements to enhance their",
+      "bbox": [
+        [
+          402,
+          1308
+        ],
+        [
+          1367,
+          1310
+        ],
+        [
+          1367,
+          1359
+        ],
+        [
+          402,
+          1358
+        ]
+      ],
+      "words": [
+        {
+          "text": "advancements",
+          "bbox": [
+            [
+              410,
+              1309
+            ],
+            [
+              781,
+              1314
+            ],
+            [
+              781,
+              1358
+            ],
+            [
+              410,
+              1359
+            ]
+          ],
+          "confidence": 0.928
+        }
+      ]
+    },
+    {
+      "text": "bargaining power. Therefore, multipolarity",
+      "bbox": [
+        [
+          378,
+          1369
+        ],
+        [
+          1491,
+          1373
+        ],
+        [
+          1491,
+          1421
+        ],
+        [
+          378,
+          1419
+        ]
+      ],
+      "words": [
+        {
+          "text": "bargaining",
+          "bbox": [
+            [
+              381,
               1370
             ],
             [
-              474,
-              1378
+              642,
+              1373
+            ],
+            [
+              642,
+              1420
+            ],
+            [
+              381,
+              1420
             ]
-          ]
+          ],
+          "confidence": 0.668
         }
       ]
     },
     {
-      "text": "Concept explains how water",
+      "text": "is fuelling nationalism as it",
       "bbox": [
         [
-          443,
-          1395
+          398,
+          1436
         ],
         [
-          1419,
-          1384
+          1297,
+          1440
         ],
         [
-          1420,
-          1448
+          1297,
+          1484
         ],
         [
-          444,
-          1460
+          398,
+          1482
         ]
       ],
       "words": [
         {
-          "text": "Concept",
+          "text": "fuelling",
           "bbox": [
             [
-              447,
-              1410
-            ],
-            [
-              660,
-              1398
-            ],
-            [
-              660,
-              1455
-            ],
-            [
-              446,
-              1460
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "being a resource of common",
-      "bbox": [
-        [
-          425,
-          1480
-        ],
-        [
-          1414,
-          1462
-        ],
-        [
-          1415,
-          1519
-        ],
-        [
-          425,
-          1542
-        ]
-      ],
-      "words": [
-        {
-          "text": "being",
-          "bbox": [
-            [
-              454,
-              1483
-            ],
-            [
-              613,
-              1477
-            ],
-            [
-              611,
-              1538
-            ],
-            [
-              451,
-              1543
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "use by all is being irrespon-",
-      "bbox": [
-        [
-          442,
-          1556
-        ],
-        [
-          1478,
-          1546
-        ],
-        [
-          1479,
-          1613
-        ],
-        [
-          442,
-          1627
-        ]
-      ],
-      "words": [
-        {
-          "text": "use",
-          "bbox": [
-            [
-              443,
-              1574
-            ],
-            [
-              545,
-              1566
-            ],
-            [
-              544,
-              1624
-            ],
-            [
-              442,
-              1627
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "sibly utilized and no single",
-      "bbox": [
-        [
-          417,
-          1638
-        ],
-        [
-          1420,
-          1638
-        ],
-        [
-          1420,
-          1705
-        ],
-        [
-          417,
-          1707
-        ]
-      ],
-      "words": [
-        {
-          "text": "sibly",
-          "bbox": [
-            [
-              419,
-              1639
-            ],
-            [
-              573,
-              1638
-            ],
-            [
-              573,
-              1707
-            ],
-            [
-              419,
-              1708
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "individual take its responsib-",
-      "bbox": [
-        [
-          459,
-          1721
-        ],
-        [
-          1513,
-          1719
-        ],
-        [
-          1514,
-          1783
-        ],
-        [
-          459,
-          1790
-        ]
-      ],
-      "words": [
-        {
-          "text": "individual",
-          "bbox": [
-            [
-              460,
-              1722
-            ],
-            [
-              836,
-              1721
-            ],
-            [
-              836,
-              1787
-            ],
-            [
-              459,
-              1791
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "ility on himself and expecting",
-      "bbox": [
-        [
-          411,
-          1802
-        ],
-        [
-          1428,
-          1802
-        ],
-        [
-          1428,
-          1870
-        ],
-        [
-          411,
-          1873
-        ]
-      ],
-      "words": [
-        {
-          "text": "ility",
-          "bbox": [
-            [
-              413,
-              1803
-            ],
-            [
-              531,
-              1803
-            ],
-            [
-              530,
-              1874
-            ],
-            [
-              411,
-              1874
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "others to take care. This may",
-      "bbox": [
-        [
-          430,
-          1893
-        ],
-        [
-          1508,
-          1891
-        ],
-        [
-          1508,
-          1956
-        ],
-        [
-          430,
-          1959
-        ]
-      ],
-      "words": [
-        {
-          "text": "others",
-          "bbox": [
-            [
-              431,
-              1896
-            ],
-            [
-              618,
-              1894
-            ],
-            [
-              618,
-              1957
-            ],
-            [
-              431,
-              1959
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "results in over consumption,",
-      "bbox": [
-        [
-          462,
-          1980
-        ],
-        [
-          1498,
-          1978
-        ],
-        [
-          1499,
-          2039
-        ],
-        [
-          462,
-          2041
-        ]
-      ],
-      "words": [
-        {
-          "text": "results",
-          "bbox": [
-            [
-              473,
-              1981
-            ],
-            [
-              700,
-              1981
+              534,
+              1438
             ],
             [
               699,
-              2042
+              1440
             ],
             [
-              472,
-              2042
+              699,
+              1484
+            ],
+            [
+              535,
+              1483
             ]
-          ]
+          ],
+          "confidence": 0.905
         }
       ]
     },
     {
-      "text": "wastage and exhaustion",
+      "text": "did.",
       "bbox": [
         [
-          448,
-          2068
+          409,
+          1500
         ],
         [
-          1383,
-          2056
+          504,
+          1498
         ],
         [
-          1384,
-          2118
+          504,
+          1544
         ],
         [
-          448,
-          2128
+          409,
+          1546
         ]
       ],
       "words": [
         {
-          "text": "wastage",
+          "text": "did.",
           "bbox": [
             [
-              448,
+              410,
+              1500
+            ],
+            [
+              504,
+              1498
+            ],
+            [
+              505,
+              1543
+            ],
+            [
+              410,
+              1545
+            ]
+          ],
+          "confidence": 0.671
+        }
+      ]
+    },
+    {
+      "text": "in pre- WWII erg.",
+      "bbox": [
+        [
+          511,
+          1503
+        ],
+        [
+          1180,
+          1504
+        ],
+        [
+          1180,
+          1546
+        ],
+        [
+          511,
+          1544
+        ]
+      ],
+      "words": [
+        {
+          "text": "pre-",
+          "bbox": [
+            [
+              753,
+              1504
+            ],
+            [
+              859,
+              1504
+            ],
+            [
+              857,
+              1546
+            ],
+            [
+              751,
+              1546
+            ]
+          ],
+          "confidence": 0.771
+        }
+      ]
+    },
+    {
+      "text": "Multipolarity escalates",
+      "bbox": [
+        [
+          770,
+          1621
+        ],
+        [
+          1367,
+          1626
+        ],
+        [
+          1366,
+          1672
+        ],
+        [
+          770,
+          1668
+        ]
+      ],
+      "words": [
+        {
+          "text": "Multipolarity",
+          "bbox": [
+            [
+              774,
+              1621
+            ],
+            [
+              1068,
+              1625
+            ],
+            [
+              1068,
+              1671
+            ],
+            [
+              772,
+              1669
+            ]
+          ],
+          "confidence": 0.838
+        }
+      ]
+    },
+    {
+      "text": "economic contestation thereby",
+      "bbox": [
+        [
+          399,
+          1689
+        ],
+        [
+          1354,
+          1686
+        ],
+        [
+          1354,
+          1735
+        ],
+        [
+          399,
+          1740
+        ]
+      ],
+      "words": [
+        {
+          "text": "economic",
+          "bbox": [
+            [
+              407,
+              1697
+            ],
+            [
+              643,
+              1690
+            ],
+            [
+              643,
+              1736
+            ],
+            [
+              407,
+              1740
+            ]
+          ],
+          "confidence": 0.951
+        }
+      ]
+    },
+    {
+      "text": "disrupting global supply chains",
+      "bbox": [
+        [
+          393,
+          1749
+        ],
+        [
+          1353,
+          1752
+        ],
+        [
+          1353,
+          1798
+        ],
+        [
+          393,
+          1797
+        ]
+      ],
+      "words": [
+        {
+          "text": "disrupting",
+          "bbox": [
+            [
+              400,
+              1750
+            ],
+            [
+              633,
+              1754
+            ],
+            [
+              634,
+              1798
+            ],
+            [
+              401,
+              1798
+            ]
+          ],
+          "confidence": 0.841
+        }
+      ]
+    },
+    {
+      "text": "As the great powers prioritize",
+      "bbox": [
+        [
+          393,
+          1806
+        ],
+        [
+          1397,
+          1811
+        ],
+        [
+          1397,
+          1860
+        ],
+        [
+          393,
+          1858
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              575,
+              1811
+            ],
+            [
+              654,
+              1812
+            ],
+            [
+              653,
+              1859
+            ],
+            [
+              574,
+              1859
+            ]
+          ],
+          "confidence": 0.994
+        }
+      ]
+    },
+    {
+      "text": "national interests over global.",
+      "bbox": [
+        [
+          375,
+          1873
+        ],
+        [
+          1387,
+          1875
+        ],
+        [
+          1387,
+          1924
+        ],
+        [
+          375,
+          1923
+        ]
+      ],
+      "words": [
+        {
+          "text": "national",
+          "bbox": [
+            [
+              377,
+              1874
+            ],
+            [
+              584,
+              1874
+            ],
+            [
+              584,
+              1921
+            ],
+            [
+              377,
+              1924
+            ]
+          ],
+          "confidence": 0.915
+        }
+      ]
+    },
+    {
+      "text": "they tend to instigate",
+      "bbox": [
+        [
+          413,
+          1939
+        ],
+        [
+          1235,
+          1939
+        ],
+        [
+          1235,
+          1987
+        ],
+        [
+          413,
+          1988
+        ]
+      ],
+      "words": [
+        {
+          "text": "they",
+          "bbox": [
+            [
+              415,
+              1942
+            ],
+            [
+              526,
+              1940
+            ],
+            [
+              526,
+              1987
+            ],
+            [
+              415,
+              1989
+            ]
+          ],
+          "confidence": 0.983
+        }
+      ]
+    },
+    {
+      "text": "economic warfare. Such economic",
+      "bbox": [
+        [
+          382,
+          2001
+        ],
+        [
+          1386,
+          2000
+        ],
+        [
+          1386,
+          2052
+        ],
+        [
+          382,
+          2053
+        ]
+      ],
+      "words": [
+        {
+          "text": "economic",
+          "bbox": [
+            [
+              392,
+              2010
+            ],
+            [
+              608,
+              2004
+            ],
+            [
+              606,
+              2049
+            ],
+            [
+              390,
+              2052
+            ]
+          ],
+          "confidence": 0.945
+        }
+      ]
+    },
+    {
+      "text": "wars using tools of tariffs and",
+      "bbox": [
+        [
+          403,
+          2066
+        ],
+        [
+          1374,
+          2063
+        ],
+        [
+          1374,
+          2110
+        ],
+        [
+          403,
+          2113
+        ]
+      ],
+      "words": [
+        {
+          "text": "wars",
+          "bbox": [
+            [
+              407,
               2074
             ],
             [
-              736,
-              2065
+              518,
+              2070
             ],
             [
-              736,
-              2128
+              516,
+              2112
             ],
             [
-              448,
-              2127
+              405,
+              2113
             ]
-          ]
+          ],
+          "confidence": 0.686
         }
       ]
     },
     {
-      "text": "of water. Hence it is an",
+      "text": "export controls disrupt global",
       "bbox": [
         [
-          437,
-          2145
+          403,
+          2131
         ],
         [
-          1373,
-          2141
+          1300,
+          2124
         ],
         [
-          1373,
-          2205
+          1301,
+          2167
         ],
         [
-          437,
-          2208
+          403,
+          2176
         ]
       ],
       "words": [
         {
-          "text": "water.",
+          "text": "export",
           "bbox": [
             [
-              574,
-              2145
+              412,
+              2135
             ],
             [
-              834,
-              2143
+              572,
+              2131
             ],
             [
-              833,
-              2208
+              571,
+              2175
             ],
             [
-              573,
-              2208
+              411,
+              2176
             ]
-          ]
+          ],
+          "confidence": 0.995
         }
       ]
     },
     {
-      "text": "important factor making water",
+      "text": "supply chains thereupon heralding",
       "bbox": [
         [
-          424,
-          2228
+          408,
+          2195
         ],
         [
-          1489,
-          2227
+          1435,
+          2182
         ],
         [
-          1489,
-          2294
+          1436,
+          2229
         ],
         [
-          424,
-          2299
+          408,
+          2239
         ]
       ],
       "words": [
         {
-          "text": "important",
+          "text": "supply",
           "bbox": [
             [
-              425,
-              2229
+              410,
+              2198
             ],
             [
-              738,
-              2228
+              566,
+              2197
             ],
             [
-              738,
+              566,
+              2239
+            ],
+            [
+              410,
+              2239
+            ]
+          ],
+          "confidence": 0.965
+        }
+      ]
+    },
+    {
+      "text": "economic shocks and inflation",
+      "bbox": [
+        [
+          409,
+          2259
+        ],
+        [
+          1427,
+          2244
+        ],
+        [
+          1427,
+          2288
+        ],
+        [
+          409,
+          2302
+        ]
+      ],
+      "words": [
+        {
+          "text": "economic",
+          "bbox": [
+            [
+              416,
+              2264
+            ],
+            [
+              647,
+              2258
+            ],
+            [
+              647,
               2299
             ],
             [
-              424,
-              2300
+              416,
+              2302
             ]
-          ]
+          ],
+          "confidence": 0.806
         }
       ]
     },
     {
-      "text": "a finite resources for all.",
+      "text": "Scanned with",
       "bbox": [
         [
-          440,
-          2309
+          1566,
+          2461
         ],
         [
-          1452,
-          2302
+          1729,
+          2461
         ],
         [
-          1452,
-          2378
+          1729,
+          2488
         ],
         [
-          440,
-          2382
+          1566,
+          2487
         ]
       ],
       "words": [
         {
-          "text": "finite",
+          "text": "Scanned",
           "bbox": [
             [
-              541,
-              2318
+              1569,
+              2462
             ],
             [
-              722,
-              2318
+              1669,
+              2462
             ],
             [
-              721,
-              2382
+              1670,
+              2489
             ],
             [
-              541,
-              2381
+              1571,
+              2488
             ]
-          ]
+          ],
+          "confidence": 0.995
         }
       ]
     },
@@ -1151,19 +1583,19 @@
       "text": "CamScanner",
       "bbox": [
         [
-          1553,
-          2492
+          1571,
+          2494
         ],
         [
-          1766,
-          2495
+          1763,
+          2494
         ],
         [
-          1766,
-          2534
+          1763,
+          2532
         ],
         [
-          1552,
+          1571,
           2532
         ]
       ],
@@ -1172,27 +1604,3110 @@
           "text": "CamScanner",
           "bbox": [
             [
-              1558,
-              2493
+              1580,
+              2494
             ],
             [
-              1766,
-              2496
+              1764,
+              2495
             ],
             [
-              1766,
-              2534
-            ],
-            [
-              1557,
+              1763,
               2533
+            ],
+            [
+              1579,
+              2532
             ]
-          ]
+          ],
+          "confidence": 0.992
         }
       ]
     }
   ],
-  "ocr_full_text_page": "finite resources that is constantly depliting. Similarly, the irresponsible attitudes and malpractices pertaining to water use are also-contributing factors. People usually take water as a forgranted resource - that they believe would - never extinguish. This is a completely false belief which realizes into the \" tragedy of the common\" pertaining to water. This Concept explains how water being a resource of common use by all is being irrespon- sibly utilized and no single individual take its responsib- - - ility on himself and expecting others to take care. This may results in over consumption, wastage and exhaustion of water. Hence it is an important factor making water a finite resources for all. CS CamScanner",
+  "words": [
+    {
+      "text": "nationalist",
+      "bbox": [
+        [
+          382,
+          296
+        ],
+        [
+          635,
+          296
+        ],
+        [
+          635,
+          352
+        ],
+        [
+          381,
+          353
+        ]
+      ],
+      "confidence": 0.922
+    },
+    {
+      "text": "militarism",
+      "bbox": [
+        [
+          742,
+          297
+        ],
+        [
+          961,
+          298
+        ],
+        [
+          961,
+          350
+        ],
+        [
+          742,
+          351
+        ]
+      ],
+      "confidence": 0.851
+    },
+    {
+      "text": "emerges",
+      "bbox": [
+        [
+          1034,
+          299
+        ],
+        [
+          1213,
+          301
+        ],
+        [
+          1213,
+          347
+        ],
+        [
+          1034,
+          349
+        ]
+      ],
+      "confidence": 0.841
+    },
+    {
+      "text": "as",
+      "bbox": [
+        [
+          1279,
+          302
+        ],
+        [
+          1332,
+          303
+        ],
+        [
+          1332,
+          346
+        ],
+        [
+          1279,
+          347
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "such",
+      "bbox": [
+        [
+          387,
+          365
+        ],
+        [
+          481,
+          364
+        ],
+        [
+          481,
+          417
+        ],
+        [
+          386,
+          418
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "states",
+      "bbox": [
+        [
+          572,
+          363
+        ],
+        [
+          719,
+          362
+        ],
+        [
+          719,
+          413
+        ],
+        [
+          572,
+          415
+        ]
+      ],
+      "confidence": 0.953
+    },
+    {
+      "text": "contect",
+      "bbox": [
+        [
+          817,
+          361
+        ],
+        [
+          977,
+          360
+        ],
+        [
+          977,
+          410
+        ],
+        [
+          816,
+          412
+        ]
+      ],
+      "confidence": 0.304
+    },
+    {
+      "text": "for",
+      "bbox": [
+        [
+          1068,
+          360
+        ],
+        [
+          1136,
+          361
+        ],
+        [
+          1135,
+          409
+        ],
+        [
+          1068,
+          410
+        ]
+      ],
+      "confidence": 0.984
+    },
+    {
+      "text": "regional",
+      "bbox": [
+        [
+          1187,
+          361
+        ],
+        [
+          1357,
+          362
+        ],
+        [
+          1357,
+          409
+        ],
+        [
+          1187,
+          409
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "autonomy",
+      "bbox": [
+        [
+          407,
+          428
+        ],
+        [
+          652,
+          425
+        ],
+        [
+          651,
+          478
+        ],
+        [
+          406,
+          481
+        ]
+      ],
+      "confidence": 0.84
+    },
+    {
+      "text": "With",
+      "bbox": [
+        [
+          724,
+          424
+        ],
+        [
+          834,
+          423
+        ],
+        [
+          833,
+          476
+        ],
+        [
+          724,
+          477
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          913,
+          423
+        ],
+        [
+          996,
+          423
+        ],
+        [
+          996,
+          474
+        ],
+        [
+          913,
+          475
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "rise",
+      "bbox": [
+        [
+          1048,
+          423
+        ],
+        [
+          1124,
+          424
+        ],
+        [
+          1124,
+          473
+        ],
+        [
+          1048,
+          474
+        ]
+      ],
+      "confidence": 0.919
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          1183,
+          424
+        ],
+        [
+          1232,
+          425
+        ],
+        [
+          1232,
+          472
+        ],
+        [
+          1183,
+          473
+        ]
+      ],
+      "confidence": 0.981
+    },
+    {
+      "text": "middle",
+      "bbox": [
+        [
+          388,
+          483
+        ],
+        [
+          556,
+          489
+        ],
+        [
+          555,
+          542
+        ],
+        [
+          388,
+          543
+        ]
+      ],
+      "confidence": 0.933
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          671,
+          492
+        ],
+        [
+          818,
+          492
+        ],
+        [
+          818,
+          540
+        ],
+        [
+          671,
+          541
+        ]
+      ],
+      "confidence": 0.901
+    },
+    {
+      "text": "such",
+      "bbox": [
+        [
+          886,
+          492
+        ],
+        [
+          977,
+          491
+        ],
+        [
+          977,
+          539
+        ],
+        [
+          885,
+          539
+        ]
+      ],
+      "confidence": 0.844
+    },
+    {
+      "text": "as",
+      "bbox": [
+        [
+          1045,
+          489
+        ],
+        [
+          1095,
+          487
+        ],
+        [
+          1094,
+          538
+        ],
+        [
+          1044,
+          539
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "India,",
+      "bbox": [
+        [
+          1155,
+          485
+        ],
+        [
+          1306,
+          478
+        ],
+        [
+          1305,
+          538
+        ],
+        [
+          1155,
+          538
+        ]
+      ],
+      "confidence": 0.873
+    },
+    {
+      "text": "Brazil,",
+      "bbox": [
+        [
+          391,
+          547
+        ],
+        [
+          607,
+          549
+        ],
+        [
+          606,
+          604
+        ],
+        [
+          390,
+          606
+        ]
+      ],
+      "confidence": 0.936
+    },
+    {
+      "text": "Turkey,",
+      "bbox": [
+        [
+          681,
+          550
+        ],
+        [
+          870,
+          550
+        ],
+        [
+          870,
+          601
+        ],
+        [
+          681,
+          603
+        ]
+      ],
+      "confidence": 0.917
+    },
+    {
+      "text": "South",
+      "bbox": [
+        [
+          924,
+          550
+        ],
+        [
+          1050,
+          549
+        ],
+        [
+          1050,
+          599
+        ],
+        [
+          923,
+          600
+        ]
+      ],
+      "confidence": 0.974
+    },
+    {
+      "text": "Africa",
+      "bbox": [
+        [
+          1111,
+          549
+        ],
+        [
+          1244,
+          547
+        ],
+        [
+          1244,
+          598
+        ],
+        [
+          1111,
+          599
+        ]
+      ],
+      "confidence": 0.918
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          1305,
+          546
+        ],
+        [
+          1393,
+          545
+        ],
+        [
+          1393,
+          597
+        ],
+        [
+          1305,
+          597
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "Saudi",
+      "bbox": [
+        [
+          397,
+          613
+        ],
+        [
+          543,
+          614
+        ],
+        [
+          541,
+          668
+        ],
+        [
+          396,
+          669
+        ]
+      ],
+      "confidence": 0.859
+    },
+    {
+      "text": "Arabia",
+      "bbox": [
+        [
+          623,
+          614
+        ],
+        [
+          769,
+          614
+        ],
+        [
+          768,
+          666
+        ],
+        [
+          622,
+          668
+        ]
+      ],
+      "confidence": 0.895
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          856,
+          614
+        ],
+        [
+          940,
+          614
+        ],
+        [
+          940,
+          664
+        ],
+        [
+          856,
+          665
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "world",
+      "bbox": [
+        [
+          1000,
+          613
+        ],
+        [
+          1118,
+          612
+        ],
+        [
+          1118,
+          663
+        ],
+        [
+          1000,
+          664
+        ]
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "order",
+      "bbox": [
+        [
+          1178,
+          612
+        ],
+        [
+          1310,
+          610
+        ],
+        [
+          1310,
+          661
+        ],
+        [
+          1178,
+          662
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "has",
+      "bbox": [
+        [
+          1342,
+          610
+        ],
+        [
+          1416,
+          608
+        ],
+        [
+          1417,
+          660
+        ],
+        [
+          1343,
+          660
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "become",
+      "bbox": [
+        [
+          381,
+          682
+        ],
+        [
+          552,
+          683
+        ],
+        [
+          550,
+          730
+        ],
+        [
+          380,
+          729
+        ]
+      ],
+      "confidence": 0.982
+    },
+    {
+      "text": "more",
+      "bbox": [
+        [
+          625,
+          683
+        ],
+        [
+          738,
+          683
+        ],
+        [
+          737,
+          730
+        ],
+        [
+          623,
+          730
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "complex.",
+      "bbox": [
+        [
+          805,
+          683
+        ],
+        [
+          993,
+          681
+        ],
+        [
+          991,
+          728
+        ],
+        [
+          804,
+          730
+        ]
+      ],
+      "confidence": 0.715
+    },
+    {
+      "text": "These",
+      "bbox": [
+        [
+          1035,
+          680
+        ],
+        [
+          1148,
+          678
+        ],
+        [
+          1147,
+          725
+        ],
+        [
+          1033,
+          727
+        ]
+      ],
+      "confidence": 0.936
+    },
+    {
+      "text": "nations",
+      "bbox": [
+        [
+          1190,
+          677
+        ],
+        [
+          1331,
+          673
+        ],
+        [
+          1330,
+          721
+        ],
+        [
+          1189,
+          725
+        ]
+      ],
+      "confidence": 0.952
+    },
+    {
+      "text": "Leverage",
+      "bbox": [
+        [
+          389,
+          743
+        ],
+        [
+          598,
+          742
+        ],
+        [
+          597,
+          792
+        ],
+        [
+          387,
+          794
+        ]
+      ],
+      "confidence": 0.978
+    },
+    {
+      "text": "their",
+      "bbox": [
+        [
+          730,
+          741
+        ],
+        [
+          837,
+          743
+        ],
+        [
+          836,
+          790
+        ],
+        [
+          729,
+          788
+        ]
+      ],
+      "confidence": 0.93
+    },
+    {
+      "text": "geostrategic",
+      "bbox": [
+        [
+          928,
+          744
+        ],
+        [
+          1216,
+          743
+        ],
+        [
+          1215,
+          790
+        ],
+        [
+          927,
+          791
+        ]
+      ],
+      "confidence": 0.922
+    },
+    {
+      "text": "locations",
+      "bbox": [
+        [
+          408,
+          809
+        ],
+        [
+          601,
+          808
+        ],
+        [
+          600,
+          854
+        ],
+        [
+          407,
+          854
+        ]
+      ],
+      "confidence": 0.885
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          701,
+          808
+        ],
+        [
+          786,
+          807
+        ],
+        [
+          785,
+          854
+        ],
+        [
+          700,
+          854
+        ]
+      ],
+      "confidence": 0.977
+    },
+    {
+      "text": "natural",
+      "bbox": [
+        [
+          868,
+          807
+        ],
+        [
+          1037,
+          807
+        ],
+        [
+          1036,
+          852
+        ],
+        [
+          867,
+          853
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "resource",
+      "bbox": [
+        [
+          1083,
+          807
+        ],
+        [
+          1266,
+          806
+        ],
+        [
+          1265,
+          851
+        ],
+        [
+          1082,
+          852
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "reserves",
+      "bbox": [
+        [
+          392,
+          880
+        ],
+        [
+          584,
+          875
+        ],
+        [
+          585,
+          916
+        ],
+        [
+          393,
+          916
+        ]
+      ],
+      "confidence": 0.936
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          698,
+          872
+        ],
+        [
+          740,
+          871
+        ],
+        [
+          741,
+          916
+        ],
+        [
+          699,
+          916
+        ]
+      ],
+      "confidence": 0.998
+    },
+    {
+      "text": "exert",
+      "bbox": [
+        [
+          837,
+          869
+        ],
+        [
+          965,
+          868
+        ],
+        [
+          966,
+          915
+        ],
+        [
+          838,
+          915
+        ]
+      ],
+      "confidence": 0.906
+    },
+    {
+      "text": "great",
+      "bbox": [
+        [
+          1033,
+          867
+        ],
+        [
+          1162,
+          866
+        ],
+        [
+          1162,
+          914
+        ],
+        [
+          1034,
+          914
+        ]
+      ],
+      "confidence": 0.905
+    },
+    {
+      "text": "influence",
+      "bbox": [
+        [
+          1207,
+          866
+        ],
+        [
+          1402,
+          867
+        ],
+        [
+          1402,
+          912
+        ],
+        [
+          1207,
+          913
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          395,
+          931
+        ],
+        [
+          431,
+          931
+        ],
+        [
+          430,
+          980
+        ],
+        [
+          394,
+          980
+        ]
+      ],
+      "confidence": 0.653
+    },
+    {
+      "text": "multilateral",
+      "bbox": [
+        [
+          515,
+          932
+        ],
+        [
+          817,
+          932
+        ],
+        [
+          816,
+          982
+        ],
+        [
+          514,
+          981
+        ]
+      ],
+      "confidence": 0.881
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          900,
+          932
+        ],
+        [
+          980,
+          931
+        ],
+        [
+          980,
+          981
+        ],
+        [
+          900,
+          982
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "minilateral",
+      "bbox": [
+        [
+          1070,
+          930
+        ],
+        [
+          1298,
+          927
+        ],
+        [
+          1298,
+          978
+        ],
+        [
+          1070,
+          981
+        ]
+      ],
+      "confidence": 0.905
+    },
+    {
+      "text": "institutions.",
+      "bbox": [
+        [
+          381,
+          997
+        ],
+        [
+          665,
+          996
+        ],
+        [
+          665,
+          1045
+        ],
+        [
+          380,
+          1045
+        ]
+      ],
+      "confidence": 0.897
+    },
+    {
+      "text": "To",
+      "bbox": [
+        [
+          710,
+          995
+        ],
+        [
+          757,
+          995
+        ],
+        [
+          756,
+          1045
+        ],
+        [
+          709,
+          1045
+        ]
+      ],
+      "confidence": 0.988
+    },
+    {
+      "text": "quote",
+      "bbox": [
+        [
+          821,
+          995
+        ],
+        [
+          947,
+          994
+        ],
+        [
+          946,
+          1045
+        ],
+        [
+          820,
+          1045
+        ]
+      ],
+      "confidence": 0.889
+    },
+    {
+      "text": "Raja",
+      "bbox": [
+        [
+          1030,
+          994
+        ],
+        [
+          1130,
+          994
+        ],
+        [
+          1130,
+          1045
+        ],
+        [
+          1030,
+          1045
+        ]
+      ],
+      "confidence": 0.955
+    },
+    {
+      "text": "C.",
+      "bbox": [
+        [
+          1174,
+          994
+        ],
+        [
+          1228,
+          994
+        ],
+        [
+          1228,
+          1044
+        ],
+        [
+          1174,
+          1044
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "Mohan,",
+      "bbox": [
+        [
+          1253,
+          994
+        ],
+        [
+          1408,
+          994
+        ],
+        [
+          1408,
+          1043
+        ],
+        [
+          1253,
+          1044
+        ]
+      ],
+      "confidence": 0.937
+    },
+    {
+      "text": "\"Middle",
+      "bbox": [
+        [
+          379,
+          1057
+        ],
+        [
+          563,
+          1061
+        ],
+        [
+          561,
+          1109
+        ],
+        [
+          377,
+          1108
+        ]
+      ],
+      "confidence": 0.841
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          649,
+          1063
+        ],
+        [
+          788,
+          1064
+        ],
+        [
+          786,
+          1109
+        ],
+        [
+          647,
+          1109
+        ]
+      ],
+      "confidence": 0.753
+    },
+    {
+      "text": "survive",
+      "bbox": [
+        [
+          873,
+          1064
+        ],
+        [
+          1012,
+          1064
+        ],
+        [
+          1011,
+          1109
+        ],
+        [
+          872,
+          1109
+        ]
+      ],
+      "confidence": 0.937
+    },
+    {
+      "text": "by",
+      "bbox": [
+        [
+          1079,
+          1064
+        ],
+        [
+          1137,
+          1063
+        ],
+        [
+          1136,
+          1109
+        ],
+        [
+          1078,
+          1109
+        ]
+      ],
+      "confidence": 0.923
+    },
+    {
+      "text": "leveraging",
+      "bbox": [
+        [
+          1191,
+          1062
+        ],
+        [
+          1402,
+          1058
+        ],
+        [
+          1401,
+          1109
+        ],
+        [
+          1190,
+          1109
+        ]
+      ],
+      "confidence": 0.958
+    },
+    {
+      "text": "their",
+      "bbox": [
+        [
+          389,
+          1121
+        ],
+        [
+          503,
+          1126
+        ],
+        [
+          502,
+          1169
+        ],
+        [
+          388,
+          1167
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "geostrategic",
+      "bbox": [
+        [
+          590,
+          1128
+        ],
+        [
+          847,
+          1131
+        ],
+        [
+          847,
+          1173
+        ],
+        [
+          590,
+          1170
+        ]
+      ],
+      "confidence": 0.92
+    },
+    {
+      "text": "locations:",
+      "bbox": [
+        [
+          923,
+          1130
+        ],
+        [
+          1132,
+          1125
+        ],
+        [
+          1133,
+          1173
+        ],
+        [
+          923,
+          1173
+        ]
+      ],
+      "confidence": 0.627
+    },
+    {
+      "text": "These",
+      "bbox": [
+        [
+          1178,
+          1123
+        ],
+        [
+          1298,
+          1117
+        ],
+        [
+          1299,
+          1171
+        ],
+        [
+          1179,
+          1173
+        ]
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          394,
+          1196
+        ],
+        [
+          554,
+          1198
+        ],
+        [
+          554,
+          1233
+        ],
+        [
+          395,
+          1234
+        ]
+      ],
+      "confidence": 0.973
+    },
+    {
+      "text": "are",
+      "bbox": [
+        [
+          691,
+          1201
+        ],
+        [
+          768,
+          1197
+        ],
+        [
+          767,
+          1234
+        ],
+        [
+          689,
+          1234
+        ]
+      ],
+      "confidence": 0.985
+    },
+    {
+      "text": "now",
+      "bbox": [
+        [
+          872,
+          1192
+        ],
+        [
+          955,
+          1189
+        ],
+        [
+          954,
+          1235
+        ],
+        [
+          871,
+          1235
+        ]
+      ],
+      "confidence": 0.988
+    },
+    {
+      "text": "focusing",
+      "bbox": [
+        [
+          1046,
+          1187
+        ],
+        [
+          1205,
+          1185
+        ],
+        [
+          1205,
+          1235
+        ],
+        [
+          1046,
+          1235
+        ]
+      ],
+      "confidence": 0.883
+    },
+    {
+      "text": "on",
+      "bbox": [
+        [
+          1256,
+          1185
+        ],
+        [
+          1304,
+          1185
+        ],
+        [
+          1305,
+          1235
+        ],
+        [
+          1257,
+          1235
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "their",
+      "bbox": [
+        [
+          395,
+          1251
+        ],
+        [
+          514,
+          1252
+        ],
+        [
+          515,
+          1294
+        ],
+        [
+          395,
+          1293
+        ]
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "rearmament",
+      "bbox": [
+        [
+          608,
+          1253
+        ],
+        [
+          913,
+          1255
+        ],
+        [
+          913,
+          1297
+        ],
+        [
+          609,
+          1295
+        ]
+      ],
+      "confidence": 0.912
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          1007,
+          1255
+        ],
+        [
+          1093,
+          1254
+        ],
+        [
+          1093,
+          1297
+        ],
+        [
+          1008,
+          1297
+        ]
+      ],
+      "confidence": 0.978
+    },
+    {
+      "text": "technological",
+      "bbox": [
+        [
+          1175,
+          1254
+        ],
+        [
+          1466,
+          1251
+        ],
+        [
+          1467,
+          1296
+        ],
+        [
+          1176,
+          1297
+        ]
+      ],
+      "confidence": 0.889
+    },
+    {
+      "text": "advancements",
+      "bbox": [
+        [
+          410,
+          1309
+        ],
+        [
+          781,
+          1314
+        ],
+        [
+          781,
+          1358
+        ],
+        [
+          410,
+          1359
+        ]
+      ],
+      "confidence": 0.928
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          887,
+          1315
+        ],
+        [
+          930,
+          1315
+        ],
+        [
+          929,
+          1358
+        ],
+        [
+          886,
+          1358
+        ]
+      ],
+      "confidence": 0.961
+    },
+    {
+      "text": "enhance",
+      "bbox": [
+        [
+          1012,
+          1315
+        ],
+        [
+          1210,
+          1315
+        ],
+        [
+          1209,
+          1358
+        ],
+        [
+          1011,
+          1358
+        ]
+      ],
+      "confidence": 0.737
+    },
+    {
+      "text": "their",
+      "bbox": [
+        [
+          1268,
+          1314
+        ],
+        [
+          1367,
+          1314
+        ],
+        [
+          1366,
+          1359
+        ],
+        [
+          1267,
+          1358
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "bargaining",
+      "bbox": [
+        [
+          381,
+          1370
+        ],
+        [
+          642,
+          1373
+        ],
+        [
+          642,
+          1420
+        ],
+        [
+          381,
+          1420
+        ]
+      ],
+      "confidence": 0.668
+    },
+    {
+      "text": "power.",
+      "bbox": [
+        [
+          714,
+          1374
+        ],
+        [
+          873,
+          1375
+        ],
+        [
+          873,
+          1420
+        ],
+        [
+          714,
+          1420
+        ]
+      ],
+      "confidence": 0.906
+    },
+    {
+      "text": "Therefore,",
+      "bbox": [
+        [
+          938,
+          1376
+        ],
+        [
+          1187,
+          1376
+        ],
+        [
+          1187,
+          1421
+        ],
+        [
+          938,
+          1421
+        ]
+      ],
+      "confidence": 0.901
+    },
+    {
+      "text": "multipolarity",
+      "bbox": [
+        [
+          1222,
+          1376
+        ],
+        [
+          1487,
+          1376
+        ],
+        [
+          1487,
+          1421
+        ],
+        [
+          1222,
+          1421
+        ]
+      ],
+      "confidence": 0.599
+    },
+    {
+      "text": "is",
+      "bbox": [
+        [
+          398,
+          1437
+        ],
+        [
+          435,
+          1437
+        ],
+        [
+          436,
+          1482
+        ],
+        [
+          399,
+          1482
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "fuelling",
+      "bbox": [
+        [
+          534,
+          1438
+        ],
+        [
+          699,
+          1440
+        ],
+        [
+          699,
+          1484
+        ],
+        [
+          535,
+          1483
+        ]
+      ],
+      "confidence": 0.905
+    },
+    {
+      "text": "nationalism",
+      "bbox": [
+        [
+          793,
+          1441
+        ],
+        [
+          1058,
+          1443
+        ],
+        [
+          1058,
+          1484
+        ],
+        [
+          793,
+          1484
+        ]
+      ],
+      "confidence": 0.854
+    },
+    {
+      "text": "as",
+      "bbox": [
+        [
+          1158,
+          1443
+        ],
+        [
+          1210,
+          1443
+        ],
+        [
+          1209,
+          1483
+        ],
+        [
+          1157,
+          1484
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "it",
+      "bbox": [
+        [
+          1254,
+          1443
+        ],
+        [
+          1297,
+          1444
+        ],
+        [
+          1296,
+          1482
+        ],
+        [
+          1252,
+          1483
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "did.",
+      "bbox": [
+        [
+          410,
+          1500
+        ],
+        [
+          504,
+          1498
+        ],
+        [
+          505,
+          1543
+        ],
+        [
+          410,
+          1545
+        ]
+      ],
+      "confidence": 0.671
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          626,
+          1504
+        ],
+        [
+          666,
+          1504
+        ],
+        [
+          664,
+          1546
+        ],
+        [
+          623,
+          1545
+        ]
+      ],
+      "confidence": 0.188
+    },
+    {
+      "text": "pre-",
+      "bbox": [
+        [
+          753,
+          1504
+        ],
+        [
+          859,
+          1504
+        ],
+        [
+          857,
+          1546
+        ],
+        [
+          751,
+          1546
+        ]
+      ],
+      "confidence": 0.771
+    },
+    {
+      "text": "WWII",
+      "bbox": [
+        [
+          874,
+          1504
+        ],
+        [
+          1018,
+          1505
+        ],
+        [
+          1018,
+          1547
+        ],
+        [
+          872,
+          1546
+        ]
+      ],
+      "confidence": 0.749
+    },
+    {
+      "text": "erg.",
+      "bbox": [
+        [
+          1078,
+          1505
+        ],
+        [
+          1175,
+          1505
+        ],
+        [
+          1175,
+          1547
+        ],
+        [
+          1077,
+          1547
+        ]
+      ],
+      "confidence": 0.748
+    },
+    {
+      "text": "Multipolarity",
+      "bbox": [
+        [
+          774,
+          1621
+        ],
+        [
+          1068,
+          1625
+        ],
+        [
+          1068,
+          1671
+        ],
+        [
+          772,
+          1669
+        ]
+      ],
+      "confidence": 0.838
+    },
+    {
+      "text": "escalates",
+      "bbox": [
+        [
+          1156,
+          1626
+        ],
+        [
+          1364,
+          1630
+        ],
+        [
+          1365,
+          1672
+        ],
+        [
+          1156,
+          1671
+        ]
+      ],
+      "confidence": 0.981
+    },
+    {
+      "text": "economic",
+      "bbox": [
+        [
+          407,
+          1697
+        ],
+        [
+          643,
+          1690
+        ],
+        [
+          643,
+          1736
+        ],
+        [
+          407,
+          1740
+        ]
+      ],
+      "confidence": 0.951
+    },
+    {
+      "text": "contestation",
+      "bbox": [
+        [
+          786,
+          1688
+        ],
+        [
+          1070,
+          1687
+        ],
+        [
+          1070,
+          1734
+        ],
+        [
+          786,
+          1735
+        ]
+      ],
+      "confidence": 0.846
+    },
+    {
+      "text": "thereby",
+      "bbox": [
+        [
+          1158,
+          1688
+        ],
+        [
+          1355,
+          1691
+        ],
+        [
+          1355,
+          1737
+        ],
+        [
+          1158,
+          1735
+        ]
+      ],
+      "confidence": 0.724
+    },
+    {
+      "text": "disrupting",
+      "bbox": [
+        [
+          400,
+          1750
+        ],
+        [
+          633,
+          1754
+        ],
+        [
+          634,
+          1798
+        ],
+        [
+          401,
+          1798
+        ]
+      ],
+      "confidence": 0.841
+    },
+    {
+      "text": "global",
+      "bbox": [
+        [
+          753,
+          1755
+        ],
+        [
+          898,
+          1756
+        ],
+        [
+          898,
+          1797
+        ],
+        [
+          754,
+          1797
+        ]
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "supply",
+      "bbox": [
+        [
+          963,
+          1757
+        ],
+        [
+          1102,
+          1757
+        ],
+        [
+          1102,
+          1796
+        ],
+        [
+          963,
+          1797
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "chains",
+      "bbox": [
+        [
+          1183,
+          1757
+        ],
+        [
+          1323,
+          1757
+        ],
+        [
+          1323,
+          1796
+        ],
+        [
+          1184,
+          1796
+        ]
+      ],
+      "confidence": 0.603
+    },
+    {
+      "text": "As",
+      "bbox": [
+        [
+          401,
+          1807
+        ],
+        [
+          451,
+          1808
+        ],
+        [
+          451,
+          1859
+        ],
+        [
+          401,
+          1859
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          575,
+          1811
+        ],
+        [
+          654,
+          1812
+        ],
+        [
+          653,
+          1859
+        ],
+        [
+          574,
+          1859
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "great",
+      "bbox": [
+        [
+          760,
+          1814
+        ],
+        [
+          887,
+          1815
+        ],
+        [
+          886,
+          1859
+        ],
+        [
+          759,
+          1859
+        ]
+      ],
+      "confidence": 0.977
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          969,
+          1816
+        ],
+        [
+          1132,
+          1816
+        ],
+        [
+          1131,
+          1859
+        ],
+        [
+          968,
+          1859
+        ]
+      ],
+      "confidence": 0.981
+    },
+    {
+      "text": "prioritize",
+      "bbox": [
+        [
+          1202,
+          1816
+        ],
+        [
+          1398,
+          1815
+        ],
+        [
+          1396,
+          1860
+        ],
+        [
+          1201,
+          1859
+        ]
+      ],
+      "confidence": 0.869
+    },
+    {
+      "text": "national",
+      "bbox": [
+        [
+          377,
+          1874
+        ],
+        [
+          584,
+          1874
+        ],
+        [
+          584,
+          1921
+        ],
+        [
+          377,
+          1924
+        ]
+      ],
+      "confidence": 0.915
+    },
+    {
+      "text": "interests",
+      "bbox": [
+        [
+          716,
+          1874
+        ],
+        [
+          947,
+          1875
+        ],
+        [
+          947,
+          1919
+        ],
+        [
+          715,
+          1920
+        ]
+      ],
+      "confidence": 0.924
+    },
+    {
+      "text": "over",
+      "bbox": [
+        [
+          1042,
+          1875
+        ],
+        [
+          1147,
+          1876
+        ],
+        [
+          1146,
+          1921
+        ],
+        [
+          1042,
+          1920
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "global.",
+      "bbox": [
+        [
+          1218,
+          1876
+        ],
+        [
+          1386,
+          1878
+        ],
+        [
+          1385,
+          1924
+        ],
+        [
+          1217,
+          1921
+        ]
+      ],
+      "confidence": 0.78
+    },
+    {
+      "text": "they",
+      "bbox": [
+        [
+          415,
+          1942
+        ],
+        [
+          526,
+          1940
+        ],
+        [
+          526,
+          1987
+        ],
+        [
+          415,
+          1989
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "tend",
+      "bbox": [
+        [
+          641,
+          1939
+        ],
+        [
+          758,
+          1939
+        ],
+        [
+          758,
+          1984
+        ],
+        [
+          641,
+          1985
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          860,
+          1939
+        ],
+        [
+          908,
+          1940
+        ],
+        [
+          908,
+          1983
+        ],
+        [
+          860,
+          1983
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "instigate",
+      "bbox": [
+        [
+          1011,
+          1941
+        ],
+        [
+          1235,
+          1944
+        ],
+        [
+          1235,
+          1985
+        ],
+        [
+          1011,
+          1983
+        ]
+      ],
+      "confidence": 0.771
+    },
+    {
+      "text": "economic",
+      "bbox": [
+        [
+          392,
+          2010
+        ],
+        [
+          608,
+          2004
+        ],
+        [
+          606,
+          2049
+        ],
+        [
+          390,
+          2052
+        ]
+      ],
+      "confidence": 0.945
+    },
+    {
+      "text": "warfare.",
+      "bbox": [
+        [
+          719,
+          2002
+        ],
+        [
+          929,
+          2001
+        ],
+        [
+          928,
+          2048
+        ],
+        [
+          718,
+          2048
+        ]
+      ],
+      "confidence": 0.731
+    },
+    {
+      "text": "Such",
+      "bbox": [
+        [
+          976,
+          2001
+        ],
+        [
+          1078,
+          2002
+        ],
+        [
+          1077,
+          2049
+        ],
+        [
+          974,
+          2048
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "economic",
+      "bbox": [
+        [
+          1178,
+          2003
+        ],
+        [
+          1385,
+          2008
+        ],
+        [
+          1384,
+          2053
+        ],
+        [
+          1177,
+          2050
+        ]
+      ],
+      "confidence": 0.721
+    },
+    {
+      "text": "wars",
+      "bbox": [
+        [
+          407,
+          2074
+        ],
+        [
+          518,
+          2070
+        ],
+        [
+          516,
+          2112
+        ],
+        [
+          405,
+          2113
+        ]
+      ],
+      "confidence": 0.686
+    },
+    {
+      "text": "using",
+      "bbox": [
+        [
+          597,
+          2068
+        ],
+        [
+          719,
+          2066
+        ],
+        [
+          718,
+          2110
+        ],
+        [
+          595,
+          2111
+        ]
+      ],
+      "confidence": 0.924
+    },
+    {
+      "text": "tools",
+      "bbox": [
+        [
+          815,
+          2064
+        ],
+        [
+          914,
+          2063
+        ],
+        [
+          913,
+          2109
+        ],
+        [
+          814,
+          2109
+        ]
+      ],
+      "confidence": 0.876
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          988,
+          2063
+        ],
+        [
+          1035,
+          2063
+        ],
+        [
+          1035,
+          2109
+        ],
+        [
+          987,
+          2109
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "tariffs",
+      "bbox": [
+        [
+          1097,
+          2063
+        ],
+        [
+          1242,
+          2064
+        ],
+        [
+          1242,
+          2110
+        ],
+        [
+          1097,
+          2109
+        ]
+      ],
+      "confidence": 0.927
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          1293,
+          2065
+        ],
+        [
+          1372,
+          2066
+        ],
+        [
+          1372,
+          2111
+        ],
+        [
+          1292,
+          2110
+        ]
+      ],
+      "confidence": 0.998
+    },
+    {
+      "text": "export",
+      "bbox": [
+        [
+          412,
+          2135
+        ],
+        [
+          572,
+          2131
+        ],
+        [
+          571,
+          2175
+        ],
+        [
+          411,
+          2176
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "controls",
+      "bbox": [
+        [
+          647,
+          2130
+        ],
+        [
+          831,
+          2127
+        ],
+        [
+          831,
+          2173
+        ],
+        [
+          647,
+          2175
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "disrupt",
+      "bbox": [
+        [
+          906,
+          2126
+        ],
+        [
+          1067,
+          2124
+        ],
+        [
+          1067,
+          2171
+        ],
+        [
+          906,
+          2172
+        ]
+      ],
+      "confidence": 0.94
+    },
+    {
+      "text": "global",
+      "bbox": [
+        [
+          1165,
+          2124
+        ],
+        [
+          1299,
+          2124
+        ],
+        [
+          1299,
+          2168
+        ],
+        [
+          1165,
+          2170
+        ]
+      ],
+      "confidence": 0.809
+    },
+    {
+      "text": "supply",
+      "bbox": [
+        [
+          410,
+          2198
+        ],
+        [
+          566,
+          2197
+        ],
+        [
+          566,
+          2239
+        ],
+        [
+          410,
+          2239
+        ]
+      ],
+      "confidence": 0.965
+    },
+    {
+      "text": "chains",
+      "bbox": [
+        [
+          651,
+          2196
+        ],
+        [
+          807,
+          2194
+        ],
+        [
+          807,
+          2237
+        ],
+        [
+          650,
+          2238
+        ]
+      ],
+      "confidence": 0.777
+    },
+    {
+      "text": "thereupon",
+      "bbox": [
+        [
+          897,
+          2193
+        ],
+        [
+          1134,
+          2189
+        ],
+        [
+          1133,
+          2234
+        ],
+        [
+          897,
+          2237
+        ]
+      ],
+      "confidence": 0.883
+    },
+    {
+      "text": "heralding",
+      "bbox": [
+        [
+          1224,
+          2187
+        ],
+        [
+          1435,
+          2182
+        ],
+        [
+          1434,
+          2229
+        ],
+        [
+          1223,
+          2232
+        ]
+      ],
+      "confidence": 0.901
+    },
+    {
+      "text": "economic",
+      "bbox": [
+        [
+          416,
+          2264
+        ],
+        [
+          647,
+          2258
+        ],
+        [
+          647,
+          2299
+        ],
+        [
+          416,
+          2302
+        ]
+      ],
+      "confidence": 0.806
+    },
+    {
+      "text": "shocks",
+      "bbox": [
+        [
+          780,
+          2254
+        ],
+        [
+          944,
+          2251
+        ],
+        [
+          944,
+          2295
+        ],
+        [
+          780,
+          2297
+        ]
+      ],
+      "confidence": 0.944
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          1043,
+          2249
+        ],
+        [
+          1129,
+          2248
+        ],
+        [
+          1129,
+          2293
+        ],
+        [
+          1043,
+          2294
+        ]
+      ],
+      "confidence": 0.989
+    },
+    {
+      "text": "inflation",
+      "bbox": [
+        [
+          1217,
+          2247
+        ],
+        [
+          1403,
+          2245
+        ],
+        [
+          1403,
+          2289
+        ],
+        [
+          1217,
+          2292
+        ]
+      ],
+      "confidence": 0.89
+    },
+    {
+      "text": "Scanned",
+      "bbox": [
+        [
+          1569,
+          2462
+        ],
+        [
+          1669,
+          2462
+        ],
+        [
+          1670,
+          2489
+        ],
+        [
+          1571,
+          2488
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "with",
+      "bbox": [
+        [
+          1678,
+          2462
+        ],
+        [
+          1725,
+          2462
+        ],
+        [
+          1726,
+          2489
+        ],
+        [
+          1679,
+          2489
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1580,
+          2494
+        ],
+        [
+          1764,
+          2495
+        ],
+        [
+          1763,
+          2533
+        ],
+        [
+          1579,
+          2532
+        ]
+      ],
+      "confidence": 0.992
+    }
+  ],
+  "ocr_full_text_page": "nationalist militarism emerges as such states contect for regional autonomy With the rise of middle powers such as India, Brazil, Turkey, South Africa and Saudi Arabia the world order has become more complex. These nations Leverage their geostrategic locations and natural resource reserves to exert great influence in multilateral and minilateral institutions. To quote Raja C. Mohan, \"Middle powers survive by leveraging their geostrategic locations: These powers are now focusing on their rearmament and technological advancements to enhance their bargaining power. Therefore, multipolarity is fuelling nationalism as it did. in pre- WWII erg. Multipolarity escalates economic contestation thereby disrupting global supply chains As the great powers prioritize national interests over global. they tend to instigate economic warfare. Such economic wars using tools of tariffs and export controls disrupt global supply chains thereupon heralding economic shocks and inflation Scanned with CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75

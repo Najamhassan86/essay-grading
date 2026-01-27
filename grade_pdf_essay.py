@@ -50,6 +50,29 @@ except (ImportError, ModuleNotFoundError):
             "Ensure 'annotate_pdf_with_essay_rubric.py' exists in the project or in backend/ocr/ directory."
         )
 
+# Import spell correction function from ocr-spell-correction.py
+try:
+    import sys
+    import importlib.util
+    spec = importlib.util.spec_from_file_location("ocr_spell_correction", "ocr-spell-correction.py")
+    if spec and spec.loader:
+        ocr_spell_module = importlib.util.module_from_spec(spec)
+        sys.modules["ocr_spell_correction"] = ocr_spell_module
+        spec.loader.exec_module(ocr_spell_module)
+        detect_spelling_grammar_errors = ocr_spell_module.detect_spelling_grammar_errors
+        _filter_errors = ocr_spell_module._filter_errors
+    else:
+        def detect_spelling_grammar_errors(grok_key, ocr_data):
+            return []
+        def _filter_errors(errors):
+            return errors
+except Exception as e:
+    print(f"Warning: Could not import spell correction module: {e}")
+    def detect_spelling_grammar_errors(grok_key, ocr_data):
+        return []
+    def _filter_errors(errors):
+        return errors
+
 
 # -----------------------------
 # Helpers
@@ -415,8 +438,23 @@ def run_ocr_on_pdf(
         page_h = float(getattr(first_page, "height", 0.0) or 0.0) if first_page else float(pil_img.height)
         page_lines: List[Dict[str, Any]] = []
         page_text_parts: List[str] = []
+        page_words_flat = []  # Extract ALL words for spelling annotation
 
         for p in result.pages:
+            # Extract ALL words directly from Azure API (before any filtering)
+            for w in (p.words or []):
+                txt = (w.content or "").strip()
+                if not txt:
+                    continue
+                poly = []
+                if w.polygon:
+                    poly = [(int(pt.x), int(pt.y)) for pt in w.polygon]
+                page_words_flat.append({
+                    "text": txt,
+                    "bbox": poly,
+                    "confidence": float(getattr(w, "confidence", 1.0) or 1.0),
+                })
+            
             page_words = list(p.words or [])
             for line in p.lines or []:
                 text = (line.content or "").strip()
@@ -446,7 +484,11 @@ def run_ocr_on_pdf(
                                 w_bbox = [(int(pt.x), int(pt.y)) for pt in word.polygon]
                             if _is_noise_text(word.content, w_bbox, page_w, page_h):
                                 continue
-                            matched_words.append({"text": word.content, "bbox": w_bbox})
+                            matched_words.append({
+                                "text": word.content,
+                                "bbox": w_bbox,
+                                "confidence": float(getattr(word, "confidence", 1.0) or 1.0)
+                            })
                             break
                     else:
                         continue
@@ -456,7 +498,11 @@ def run_ocr_on_pdf(
                         w_bbox = [(int(pt.x), int(pt.y)) for pt in word.polygon] if word.polygon else []
                         if _is_noise_text(word.content, w_bbox, page_w, page_h):
                             continue
-                        matched_words.append({"text": word.content, "bbox": w_bbox})
+                        matched_words.append({
+                            "text": word.content,
+                            "bbox": w_bbox,
+                            "confidence": float(getattr(word, "confidence", 1.0) or 1.0)
+                        })
 
                 if matched_words:
                     page_lines.append({"text": text, "bbox": line_bbox, "words": matched_words})
@@ -468,11 +514,14 @@ def run_ocr_on_pdf(
                     page_text_parts.append(t)
 
         page_text = " ".join(page_text_parts)
+        
         debug_payload = {
             "page_number": page_number,
             "page_width": page_w,
             "page_height": page_h,
+            "unit": "pixel",
             "lines": page_lines,
+            "words": page_words_flat,  # Use the flat array extracted from Azure API
             "ocr_full_text_page": page_text,
             "attempt": used if result else {},
         }
@@ -492,8 +541,10 @@ def run_ocr_on_pdf(
                 "page_number": data["page_number"],
                 "page_width": data.get("page_width"),
                 "page_height": data.get("page_height"),
+                "unit": data.get("unit", "pixel"),
                 "ocr_page_text": data.get("ocr_full_text_page", ""),
                 "lines": data["lines"],
+                "words": data.get("words", []),
             })
             full_text_parts.append(data.get("ocr_full_text_page", ""))
             if debug_pages_dir:
@@ -794,12 +845,17 @@ def call_grok_for_essay_grading_strict_range(
     def _is_valid_grading(data: Dict[str, Any]) -> bool:
         criteria = data.get("criteria")
         if not isinstance(criteria, list) or len(criteria) < 6:
+            print(f"  Validation failed: criteria count = {len(criteria) if isinstance(criteria, list) else 'not a list'}")
             return False
         if not isinstance(data.get("total_awarded_range"), str):
+            print(f"  Validation failed: total_awarded_range = {data.get('total_awarded_range')} (type: {type(data.get('total_awarded_range'))})")
             return False
         if data.get("topic") is None:
+            print(f"  Validation failed: topic is None")
             return False
-        if data.get("overall_rating") not in ("Excellent", "Good", "Average", "Weak"):
+        rating = data.get("overall_rating")
+        if rating not in ("Excellent", "Good", "Average", "Weak"):
+            print(f"  Validation failed: overall_rating = '{rating}' (not in valid list)")
             return False
         return True
 
@@ -869,7 +925,8 @@ def call_grok_for_essay_grading_strict_range(
         return parsed
 
     last_err: Optional[Exception] = None
-    for _ in range(4):
+    for attempt in range(4):
+        print(f"  Grading attempt {attempt + 1}/4...")
         data = _grok_chat(
             grok_api_key,
             messages=[system, {"role": "user", "content": instructions + "\n\nDATA:\n" + json.dumps(payload, ensure_ascii=False)}],
@@ -877,11 +934,17 @@ def call_grok_for_essay_grading_strict_range(
         )
         content = data["choices"][0]["message"]["content"]
         parsed = parse_json_with_repair(grok_api_key, content, debug_tag="essay_grading", max_fix_attempts=3)
+        if parsed is None:
+            print(f"  Parse failed on attempt {attempt + 1}")
+            last_err = ValueError("JSON parsing failed")
+            continue
         parsed = _enforce_range_rules(parsed)
         if _is_valid_grading(parsed):
+            print(f"  Grading validated successfully on attempt {attempt + 1}")
             return parsed
         last_err = ValueError("Invalid grading JSON: missing required fields")
 
+    print(f"  All grading attempts failed. Last parsed data: {json.dumps(parsed, indent=2) if parsed else 'None'}")
     raise ValueError(f"Grok grading output invalid after retries: {last_err}")
 
 
@@ -1391,11 +1454,173 @@ def pil_images_to_pdf_bytes(pages: List[Image.Image]) -> bytes:
     return out.getvalue()
 
 
+def add_spelling_annotations_to_pdf(
+    input_pdf_path: str,
+    output_pdf_path: str,
+    ocr_data: Dict[str, Any],
+    spelling_errors: List[Dict[str, Any]],
+) -> None:
+    """
+    Add PyMuPDF-based spelling annotations to the original PDF.
+    This should be called BEFORE essay grading annotations.
+    """
+    from annotate_pdf_with_essay_rubric import (
+        _word_rects_in_page_coords_fitz,
+        _find_error_word_span_fitz,
+    )
+    
+    src_doc = fitz.open(input_pdf_path)
+    pages_data = ocr_data.get("pages", [])
+    matched_count = 0
+    total_count = len(spelling_errors)
+    
+    for error in spelling_errors:
+        page_num = error.get("page", 1) - 1  # Convert to 0-indexed
+        
+        if page_num < 0 or page_num >= len(src_doc):
+            continue
+        
+        page = src_doc[page_num]
+        page_info = pages_data[page_num] if page_num < len(pages_data) else {}
+        
+        error_text = error.get("error_text", "")
+        correction = error.get("correction", "")
+        anchor_quote = error.get("anchor_quote")
+        
+        if not error_text or not correction:
+            continue
+        
+        # Get word rectangles from OCR
+        wordrects = _word_rects_in_page_coords_fitz(page_info)
+        if not wordrects:
+            print(f"⚠ No wordrects for page {page_num + 1}")
+            continue
+        
+        # Find the error location
+        rect = _find_error_word_span_fitz(wordrects, error_text, anchor_quote)
+        if not rect:
+            # Debug: show first 5 words to help diagnose
+            sample_words = [w[2] for w in wordrects[:5]]
+            print(f"⚠ Could not locate error '{error_text}' on page {page_num + 1} (sample words: {sample_words})")
+            continue
+        
+        # Scale from Azure OCR coordinates to actual PDF page coordinates
+        page_w = float(page_info.get("page_width") or page.rect.width)
+        page_h = float(page_info.get("page_height") or page.rect.height)
+        unit = page_info.get("unit", "pixel")
+        azure_scale = 72.0 if unit.lower() == "inch" else 1.0
+        
+        if page_w > 0 and page_h > 0:
+            sx = page.rect.width / (page_w * azure_scale)
+            sy = page.rect.height / (page_h * azure_scale)
+            rect = rect * fitz.Matrix(sx, sy)
+        
+        matched_count += 1
+        
+        # Draw red rectangle around error with thicker border
+        page.draw_rect(rect, color=(0.8, 0, 0), width=2.5)
+        
+        # Prepare correction text without prefix
+        correction_text = correction
+        
+        # Use fixed font size for consistency
+        font_size = 11
+        text_width = fitz.get_text_length(correction_text, fontname="hebo", fontsize=font_size)
+        
+        text_height = 14  # Approximate height for this font size
+        padding_x = 8  # Increased horizontal padding
+        padding_y = 4  # Vertical padding
+        margin_from_edge = 8
+        
+        # Calculate required box width with extra padding
+        box_width = text_width + padding_x * 2 + 4
+        box_height = text_height + padding_y * 2
+        
+        # Determine best position: try above, below, left, right
+        positions = []
+        
+        # Try above
+        if rect.y0 >= box_height + 8:
+            positions.append({
+                'x': rect.x0,
+                'y': rect.y0 - box_height - 5,
+                'width': box_width,
+                'height': box_height,
+                'priority': 1  # Best option
+            })
+        
+        # Try below
+        if rect.y1 + box_height + 8 < page.rect.height:
+            positions.append({
+                'x': rect.x0,
+                'y': rect.y1 + 5,
+                'width': box_width,
+                'height': box_height,
+                'priority': 2
+            })
+        
+        if not positions:
+            # Fallback: place above with clipping
+            text_x = max(margin_from_edge, min(rect.x0, page.rect.width - box_width - margin_from_edge))
+            text_y = max(box_height + padding_y, rect.y0 - box_height - 5)
+        else:
+            # Use highest priority position
+            positions.sort(key=lambda p: p['priority'])
+            best_pos = positions[0]
+            text_x = best_pos['x']
+            text_y = best_pos['y']
+        
+        # Constrain to page bounds - shift box if it goes off right edge
+        if text_x + box_width > page.rect.width - margin_from_edge:
+            text_x = page.rect.width - box_width - margin_from_edge
+        
+        # Ensure not off left edge
+        text_x = max(margin_from_edge, text_x)
+        
+        # Constrain vertically
+        text_y = max(padding_y, min(text_y, page.rect.height - box_height - padding_y))
+        
+        # Draw white background with red border for correction text - make it wider
+        bg_rect = fitz.Rect(
+            text_x - padding_x,
+            text_y - padding_y,
+            text_x + text_width + padding_x + 2,
+            text_y + text_height + padding_y
+        )
+        
+        # Ensure bg_rect stays in bounds
+        if bg_rect.x1 > page.rect.width:
+            bg_rect = fitz.Rect(page.rect.width - box_width, bg_rect.y0, page.rect.width - margin_from_edge, bg_rect.y1)
+        if bg_rect.x0 < 0:
+            bg_rect = fitz.Rect(margin_from_edge, bg_rect.y0, margin_from_edge + box_width, bg_rect.y1)
+        
+        page.draw_rect(bg_rect, color=(0.8, 0, 0), fill=(1, 1, 1), width=1.5)
+        
+        # Insert correction text in bold dark red
+        text_point = fitz.Point(text_x, text_y + text_height - 3)
+        page.insert_text(
+            text_point,
+            correction_text,
+            fontsize=font_size,
+            color=(0.8, 0, 0),
+            fontname="hebo"
+        )
+    
+    src_doc.save(output_pdf_path)
+    src_doc.close()
+    
+    if spelling_errors:
+        print(f"✓ Rendered {matched_count}/{total_count} spelling/grammar annotations using PyMuPDF")
+
+
 def merge_report_and_annotated_answer(
     report_pages: List[Image.Image],
     annotated_pages: List[Image.Image],
     output_pdf_path: str,
 ) -> None:
+    """
+    Merge report pages and annotated answer pages into a final PDF.
+    """
     report_pdf = pil_images_to_pdf_bytes(report_pages)
     answer_pdf = pil_images_to_pdf_bytes(annotated_pages)
 
@@ -1404,7 +1629,7 @@ def merge_report_and_annotated_answer(
         rdoc = fitz.open("pdf", report_pdf)
         out_doc.insert_pdf(rdoc)
         rdoc.close()
-
+    
     if answer_pdf:
         adoc = fitz.open("pdf", answer_pdf)
         out_doc.insert_pdf(adoc)
@@ -1443,6 +1668,9 @@ def main():
         help="Optional path to save full OCR output for debugging",
     )
     args = parser.parse_args()
+    
+    import os
+    import tempfile
 
     validate_input_paths(args.pdf, args.output_json, args.output_pdf)
 
@@ -1489,6 +1717,11 @@ def main():
     print("Grading done.")
     
     
+    print("Detecting spelling and grammar errors...")
+    spelling_errors = detect_spelling_grammar_errors(grok_key, ocr_data)
+    spelling_errors = _filter_errors(spelling_errors)
+    print(f"Found {len(spelling_errors)} spelling/grammar errors.")
+    
     print("Calling Grok for annotations...")
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
@@ -1505,6 +1738,7 @@ def main():
     page_suggestions = ann_pack.get("page_suggestions") or []
     ann_errors = ann_pack.get("errors") or []
     print(f"Annotations: {len(annotations)}")
+    print(f"Spelling/Grammar errors: {len(spelling_errors)}")
 
     output = {
         "structure": structure,
@@ -1512,24 +1746,55 @@ def main():
         "annotations": annotations,
         "page_suggestions": page_suggestions,
         "annotation_errors": ann_errors,
+        "spelling_grammar_errors": spelling_errors,
     }
     with open(args.output_json, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Saved JSON  {args.output_json}")
     
-    page_size = get_report_page_size(args.pdf)
+    # STEP 1: Add spelling annotations to original PDF first
+    temp_spelling_pdf = None
+    pdf_for_grading = args.pdf
+    
+    if spelling_errors:
+        temp_spelling_pdf = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf").name
+        add_spelling_annotations_to_pdf(
+            input_pdf_path=args.pdf,
+            output_pdf_path=temp_spelling_pdf,
+            ocr_data=ocr_data,
+            spelling_errors=spelling_errors,
+        )
+        pdf_for_grading = temp_spelling_pdf
+    
+    # STEP 2: Run essay grading annotations on the spelling-annotated PDF
+    page_size = get_report_page_size(pdf_for_grading)
     report_pages = render_essay_report_pages_range(grading, page_size=page_size)
 
     annotated_pages = annotate_pdf_essay_pages(
-        pdf_path=args.pdf,
+        pdf_path=pdf_for_grading,
         ocr_data=ocr_data,
         structure=structure,
         grading=grading,
         annotations=annotations,
         page_suggestions=page_suggestions,
+        spelling_errors=None,  # Already added in step 1
     )
 
-    merge_report_and_annotated_answer(report_pages, annotated_pages, args.output_pdf)
+    # STEP 3: Merge report and annotated pages
+    merge_report_and_annotated_answer(
+        report_pages,
+        annotated_pages,
+        args.output_pdf,
+    )
+    
+    # Clean up temporary file
+    if temp_spelling_pdf:
+        import os
+        try:
+            os.unlink(temp_spelling_pdf)
+        except:
+            pass
+    
     print(f"Saved annotated PDF  {args.output_pdf}")
 
 

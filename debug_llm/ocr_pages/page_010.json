@@ -2,465 +2,521 @@
   "page_number": 10,
   "page_width": 1819.0,
   "page_height": 2573.0,
+  "unit": "pixel",
   "lines": [
     {
-      "text": "condition of water wastage",
+      "text": "This undermines",
       "bbox": [
         [
-          496,
-          212
+          357,
+          237
         ],
         [
-          1444,
-          207
+          841,
+          234
         ],
         [
-          1444,
-          273
+          841,
+          293
         ],
         [
-          496,
-          282
+          357,
+          295
         ]
       ],
       "words": [
         {
-          "text": "condition",
+          "text": "This",
           "bbox": [
             [
-              498,
-              225
+              357,
+              238
             ],
             [
-              757,
-              213
+              445,
+              238
             ],
             [
-              756,
-              275
-            ],
-            [
-              497,
-              282
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "is not just endangering",
-      "bbox": [
-        [
-          479,
-          292
-        ],
-        [
-          1315,
-          287
-        ],
-        [
-          1316,
-          352
-        ],
-        [
-          479,
-          356
-        ]
-      ],
-      "words": [
-        {
-          "text": "not",
-          "bbox": [
-            [
-              576,
-              299
-            ],
-            [
-              680,
+              444,
               295
             ],
             [
-              680,
-              354
-            ],
-            [
-              576,
-              355
+              357,
+              293
             ]
-          ]
+          ],
+          "confidence": 0.959
         }
       ]
     },
     {
-      "text": "humans but also",
+      "text": "consensus-building",
       "bbox": [
         [
-          481,
-          371
+          877,
+          240
         ],
         [
-          1167,
+          1464,
+          235
+        ],
+        [
+          1465,
+          288
+        ],
+        [
+          877,
+          296
+        ]
+      ],
+      "words": [
+        {
+          "text": "consensus-building",
+          "bbox": [
+            [
+              963,
+              241
+            ],
+            [
+              1460,
+              237
+            ],
+            [
+              1461,
+              289
+            ],
+            [
+              963,
+              294
+            ]
+          ],
+          "confidence": 0.764
+        }
+      ]
+    },
+    {
+      "text": "in global institution. The monopoly",
+      "bbox": [
+        [
+          347,
+          307
+        ],
+        [
+          1492,
+          301
+        ],
+        [
+          1492,
+          355
+        ],
+        [
+          347,
+          361
+        ]
+      ],
+      "words": [
+        {
+          "text": "global",
+          "bbox": [
+            [
+              483,
+              310
+            ],
+            [
+              646,
+              307
+            ],
+            [
+              646,
+              360
+            ],
+            [
+              483,
+              361
+            ]
+          ],
+          "confidence": 0.972
+        }
+      ]
+    },
+    {
+      "text": "of great veto powers in the United",
+      "bbox": [
+        [
+          381,
+          374
+        ],
+        [
+          1497,
           367
         ],
         [
-          1168,
-          424
+          1497,
+          421
         ],
         [
-          481,
+          381,
           427
         ]
       ],
       "words": [
         {
-          "text": "humans",
+          "text": "great",
           "bbox": [
             [
-              496,
-              382
-            ],
-            [
-              726,
-              371
-            ],
-            [
-              726,
-              420
-            ],
-            [
-              496,
-              427
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "the",
-      "bbox": [
-        [
-          1229,
-          373
-        ],
-        [
-          1384,
-          370
-        ],
-        [
-          1385,
-          427
-        ],
-        [
-          1229,
-          429
-        ]
-      ],
-      "words": [
-        {
-          "text": "the",
-          "bbox": [
-            [
-              1253,
-              372
-            ],
-            [
-              1380,
-              370
-            ],
-            [
-              1381,
-              427
-            ],
-            [
-              1254,
-              429
-            ]
-          ]
-        }
-      ]
-    },
-    {
-      "text": "other living organisms which",
-      "bbox": [
-        [
-          500,
-          445
-        ],
-        [
-          1483,
-          451
-        ],
-        [
-          1482,
-          516
-        ],
-        [
-          500,
-          505
-        ]
-      ],
-      "words": [
-        {
-          "text": "other",
-          "bbox": [
-            [
-              502,
-              445
-            ],
-            [
-              669,
-              445
+              533,
+              375
             ],
             [
               670,
-              506
+              375
             ],
             [
-              503,
+              670,
+              427
+            ],
+            [
+              532,
+              427
+            ]
+          ],
+          "confidence": 0.963
+        }
+      ]
+    },
+    {
+      "text": "Nations has significantly lowered",
+      "bbox": [
+        [
+          355,
+          440
+        ],
+        [
+          1472,
+          434
+        ],
+        [
+          1472,
+          485
+        ],
+        [
+          355,
+          489
+        ]
+      ],
+      "words": [
+        {
+          "text": "Nations",
+          "bbox": [
+            [
+              359,
+              442
+            ],
+            [
+              552,
+              441
+            ],
+            [
+              551,
+              489
+            ],
+            [
+              357,
+              489
+            ]
+          ],
+          "confidence": 0.979
+        }
+      ]
+    },
+    {
+      "text": "its integrity and credibility. The",
+      "bbox": [
+        [
+          359,
+          500
+        ],
+        [
+          1503,
+          499
+        ],
+        [
+          1503,
+          553
+        ],
+        [
+          359,
+          554
+        ]
+      ],
+      "words": [
+        {
+          "text": "its",
+          "bbox": [
+            [
+              360,
               502
+            ],
+            [
+              429,
+              503
+            ],
+            [
+              428,
+              552
+            ],
+            [
+              360,
+              552
             ]
-          ]
+          ],
+          "confidence": 0.978
         }
       ]
     },
     {
-      "text": "are being deprived of",
+      "text": "paralysis of the UNSC over",
       "bbox": [
         [
-          489,
-          526
+          387,
+          574
         ],
         [
-          1388,
-          533
+          1354,
+          571
         ],
         [
-          1387,
-          608
+          1354,
+          622
         ],
         [
-          489,
-          594
+          387,
+          627
         ]
       ],
       "words": [
         {
-          "text": "are",
+          "text": "paralysis",
           "bbox": [
             [
-              492,
-              531
+              397,
+              579
             ],
             [
-              600,
-              529
+              618,
+              575
             ],
             [
-              601,
-              592
+              616,
+              622
             ],
             [
-              493,
-              590
+              395,
+              627
             ]
-          ]
+          ],
+          "confidence": 0.844
         }
       ]
     },
     {
-      "text": "vital component of existence",
+      "text": "Syria, Yemen and Palestine has",
       "bbox": [
         [
-          483,
-          615
+          381,
+          637
         ],
         [
-          1463,
-          619
+          1409,
+          637
         ],
         [
-          1463,
-          680
+          1409,
+          685
         ],
         [
-          483,
-          675
+          381,
+          685
         ]
       ],
       "words": [
         {
-          "text": "vital",
+          "text": "Syria,",
           "bbox": [
             [
-              483,
-              617
+              383,
+              640
             ],
             [
-              631,
-              616
+              552,
+              639
             ],
             [
-              631,
-              676
+              552,
+              686
             ],
             [
-              483,
-              673
+              383,
+              686
             ]
-          ]
+          ],
+          "confidence": 0.84
         }
       ]
     },
     {
-      "text": "owing to human follies.",
+      "text": "exposed the strategic loopholes",
       "bbox": [
         [
-          470,
+          386,
           699
         ],
         [
-          1404,
-          697
+          1448,
+          701
         ],
         [
-          1404,
-          764
+          1448,
+          752
         ],
         [
-          470,
-          765
+          386,
+          748
         ]
       ],
       "words": [
         {
-          "text": "owing",
+          "text": "exposed",
           "bbox": [
             [
-              471,
-              704
-            ],
-            [
-              669,
+              396,
               701
             ],
             [
-              668,
-              763
+              590,
+              700
             ],
             [
-              470,
-              763
+              589,
+              749
+            ],
+            [
+              395,
+              748
             ]
-          ]
+          ],
+          "confidence": 0.992
         }
       ]
     },
     {
-      "text": "Like wise, increasing",
+      "text": "of this global institution. Hence,",
       "bbox": [
         [
-          805,
-          782
+          365,
+          761
         ],
         [
-          1460,
-          783
+          1456,
+          768
         ],
         [
-          1460,
-          851
+          1456,
+          819
         ],
         [
-          805,
-          849
+          364,
+          812
         ]
       ],
       "words": [
         {
-          "text": "Like",
+          "text": "this",
           "bbox": [
             [
-              808,
-              787
+              510,
+              764
             ],
             [
-              934,
-              784
+              601,
+              765
             ],
             [
-              933,
-              851
+              599,
+              813
             ],
             [
-              807,
-              850
+              508,
+              812
             ]
-          ]
+          ],
+          "confidence": 0.993
         }
       ]
     },
     {
-      "text": "water pollution is also one",
+      "text": "multipolarity is contributing to",
       "bbox": [
         [
-          492,
-          871
+          351,
+          829
         ],
         [
-          1452,
-          870
+          1350,
+          830
         ],
         [
-          1452,
-          934
+          1350,
+          882
         ],
         [
-          492,
-          936
+          350,
+          881
         ]
       ],
       "words": [
         {
-          "text": "water",
+          "text": "multipolarity",
           "bbox": [
             [
-              493,
-              875
+              373,
+              830
             ],
             [
-              691,
-              873
+              689,
+              833
             ],
             [
-              691,
-              934
+              688,
+              881
             ],
             [
-              492,
-              930
+              372,
+              882
             ]
-          ]
+          ],
+          "confidence": 0.942
         }
       ]
     },
     {
-      "text": "of the important and key",
+      "text": "the emergence of minilateral",
       "bbox": [
         [
-          469,
-          952
+          389,
+          897
         ],
         [
-          1401,
-          952
+          1462,
+          896
         ],
         [
-          1400,
-          1021
+          1462,
+          944
         ],
         [
-          469,
-          1017
+          389,
+          946
         ]
       ],
       "words": [
@@ -468,747 +524,1079 @@
           "text": "the",
           "bbox": [
             [
-              575,
-              953
+              393,
+              899
             ],
             [
-              688,
-              953
+              484,
+              899
             ],
             [
-              688,
-              1016
+              482,
+              945
             ],
             [
-              574,
-              1013
+              391,
+              944
             ]
-          ]
+          ],
+          "confidence": 0.994
         }
       ]
     },
     {
-      "text": "contributor. Water pollution",
+      "text": "and regional institutions.",
       "bbox": [
         [
-          489,
-          1039
+          395,
+          963
         ],
         [
-          1446,
-          1040
+          1207,
+          959
         ],
         [
-          1446,
-          1105
+          1207,
+          1008
         ],
         [
-          488,
-          1103
+          396,
+          1011
         ]
       ],
       "words": [
         {
-          "text": "contributor.",
+          "text": "and",
           "bbox": [
             [
-              493,
-              1043
+              397,
+              965
             ],
             [
-              886,
-              1040
+              489,
+              967
             ],
             [
-              885,
-              1103
+              489,
+              1009
             ],
             [
-              491,
-              1101
+              398,
+              1007
             ]
-          ]
+          ],
+          "confidence": 0.991
         }
       ]
     },
     {
-      "text": "is mainly being done by",
+      "text": "Multipolarity exacerbates",
       "bbox": [
         [
-          473,
-          1123
+          763,
+          1088
         ],
         [
-          1403,
-          1127
+          1467,
+          1091
         ],
         [
-          1403,
-          1192
+          1467,
+          1139
         ],
         [
-          473,
-          1188
+          763,
+          1137
         ]
       ],
       "words": [
         {
-          "text": "mainly",
+          "text": "Multipolarity",
           "bbox": [
             [
-              577,
-              1124
+              765,
+              1089
             ],
             [
-              798,
-              1124
+              1088,
+              1093
             ],
             [
-              798,
-              1191
+              1088,
+              1139
             ],
             [
-              576,
-              1188
+              765,
+              1138
             ]
-          ]
+          ],
+          "confidence": 0.964
         }
       ]
     },
     {
-      "text": "Organic particulate matter",
+      "text": "the return of hard power. Great",
       "bbox": [
         [
-          485,
-          1209
+          383,
+          1151
         ],
         [
-          1426,
+          1516,
+          1154
+        ],
+        [
+          1516,
           1202
         ],
         [
+          383,
+          1200
+        ]
+      ],
+      "words": [
+        {
+          "text": "the",
+          "bbox": [
+            [
+              386,
+              1152
+            ],
+            [
+              467,
+              1152
+            ],
+            [
+              467,
+              1202
+            ],
+            [
+              385,
+              1201
+            ]
+          ],
+          "confidence": 0.993
+        }
+      ]
+    },
+    {
+      "text": "powers showcase their military",
+      "bbox": [
+        [
+          398,
+          1217
+        ],
+        [
+          1426,
+          1217
+        ],
+        [
+          1426,
+          1265
+        ],
+        [
+          398,
+          1265
+        ]
+      ],
+      "words": [
+        {
+          "text": "powers",
+          "bbox": [
+            [
+              402,
+              1223
+            ],
+            [
+              558,
+              1220
+            ],
+            [
+              556,
+              1265
+            ],
+            [
+              400,
+              1265
+            ]
+          ],
+          "confidence": 0.835
+        }
+      ]
+    },
+    {
+      "text": "and technological might by",
+      "bbox": [
+        [
+          416,
+          1280
+        ],
+        [
+          1428,
+          1283
+        ],
+        [
           1427,
-          1269
+          1330
         ],
         [
-          485,
-          1275
+          416,
+          1326
         ]
       ],
       "words": [
         {
-          "text": "Organic",
+          "text": "and",
           "bbox": [
             [
-              489,
-              1210
+              424,
+              1282
             ],
             [
-              735,
-              1208
+              521,
+              1281
             ],
             [
-              735,
-              1275
+              521,
+              1327
             ],
             [
-              488,
-              1273
+              424,
+              1327
             ]
-          ]
+          ],
+          "confidence": 0.953
         }
       ]
     },
     {
-      "text": "(OBM) as well as the",
+      "text": "waging wars on vulnerable states",
       "bbox": [
         [
-          472,
-          1291
+          365,
+          1350
         ],
         [
-          1369,
-          1289
+          1497,
+          1348
         ],
         [
-          1370,
-          1359
+          1497,
+          1393
         ],
         [
-          472,
-          1368
+          365,
+          1394
         ]
       ],
       "words": [
         {
-          "text": "(OBM)",
+          "text": "waging",
           "bbox": [
             [
-              474,
-              1292
+              366,
+              1354
             ],
             [
-              715,
-              1289
+              550,
+              1352
             ],
             [
-              714,
-              1362
+              549,
+              1393
             ],
             [
-              473,
-              1369
+              365,
+              1394
             ]
-          ]
+          ],
+          "confidence": 0.96
         }
       ]
     },
     {
-      "text": "industrial chemical based",
+      "text": "to create deterrence in the",
       "bbox": [
         [
-          512,
-          1376
+          392,
+          1409
         ],
         [
-          1459,
-          1367
+          1383,
+          1411
         ],
         [
-          1460,
-          1439
+          1383,
+          1457
         ],
         [
-          512,
-          1451
+          392,
+          1454
         ]
       ],
       "words": [
         {
-          "text": "industrial",
+          "text": "create",
           "bbox": [
             [
-              513,
-              1383
+              532,
+              1410
             ],
             [
-              876,
-              1372
+              694,
+              1410
             ],
             [
-              876,
-              1445
+              693,
+              1456
             ],
             [
-              512,
-              1451
+              531,
+              1454
             ]
-          ]
+          ],
+          "confidence": 0.957
         }
       ]
     },
     {
-      "text": "wastes such as compounds",
+      "text": "multipolar world. The Russian invasion",
       "bbox": [
         [
-          489,
-          1465
+          364,
+          1470
         ],
         [
-          1480,
-          1462
+          1503,
+          1471
         ],
         [
-          1480,
-          1526
+          1503,
+          1522
         ],
         [
-          489,
-          1529
+          364,
+          1519
         ]
       ],
       "words": [
         {
-          "text": "wastes",
+          "text": "multipolar",
           "bbox": [
             [
-              490,
+              366,
+              1475
+            ],
+            [
+              635,
               1471
             ],
             [
-              732,
-              1466
+              635,
+              1520
             ],
             [
-              731,
-              1528
-            ],
-            [
-              489,
-              1529
+              366,
+              1520
             ]
-          ]
+          ],
+          "confidence": 0.964
         }
       ]
     },
     {
-      "text": "of Sulphur, nitrogen as well",
+      "text": "of Ukraine on February 24, 2022",
       "bbox": [
         [
-          496,
-          1544
+          409,
+          1527
         ],
         [
-          1511,
-          1545
+          1453,
+          1535
         ],
         [
-          1511,
-          1618
+          1453,
+          1588
         ],
         [
-          496,
-          1615
+          408,
+          1580
         ]
       ],
       "words": [
         {
-          "text": "Sulphur,",
+          "text": "Ukraine",
           "bbox": [
             [
-              631,
-              1550
+              544,
+              1531
             ],
             [
-              940,
-              1544
+              737,
+              1535
             ],
             [
-              940,
-              1616
+              736,
+              1583
             ],
             [
-              630,
-              1616
+              543,
+              1582
             ]
-          ]
+          ],
+          "confidence": 0.799
         }
       ]
     },
     {
-      "text": "as phosphates. These pollutants",
+      "text": "marks the return of hard power.",
       "bbox": [
         [
-          478,
-          1637
+          364,
+          1598
         ],
         [
-          1528,
-          1630
+          1469,
+          1604
         ],
         [
-          1529,
-          1694
+          1469,
+          1653
         ],
         [
-          478,
-          1705
+          364,
+          1644
         ]
       ],
       "words": [
         {
-          "text": "phosphates.",
+          "text": "marks",
           "bbox": [
             [
-              593,
-              1642
+              396,
+              1598
             ],
             [
-              1024,
-              1631
+              537,
+              1599
             ],
             [
-              1023,
-              1700
+              537,
+              1644
             ],
             [
-              592,
+              396,
+              1644
+            ]
+          ],
+          "confidence": 0.977
+        }
+      ]
+    },
+    {
+      "text": "Russia has initiated to invade",
+      "bbox": [
+        [
+          365,
+          1652
+        ],
+        [
+          1434,
+          1664
+        ],
+        [
+          1434,
+          1713
+        ],
+        [
+          365,
+          1703
+        ]
+      ],
+      "words": [
+        {
+          "text": "Russia",
+          "bbox": [
+            [
+              367,
+              1653
+            ],
+            [
+              516,
+              1656
+            ],
+            [
+              516,
+              1705
+            ],
+            [
+              367,
               1705
             ]
-          ]
+          ],
+          "confidence": 0.72
         }
       ]
     },
     {
-      "text": "on entering the water bodies",
+      "text": "eastern European territories to",
       "bbox": [
         [
-          471,
+          375,
+          1723
+        ],
+        [
+          1372,
           1725
         ],
         [
-          1479,
-          1719
+          1372,
+          1775
         ],
         [
-          1480,
-          1780
-        ],
-        [
-          472,
-          1788
+          375,
+          1772
         ]
       ],
       "words": [
         {
-          "text": "entering",
+          "text": "eastern",
           "bbox": [
             [
-              596,
-              1729
+              385,
+              1725
             ],
             [
-              863,
-              1722
+              569,
+              1724
             ],
             [
-              863,
+              568,
+              1771
+            ],
+            [
+              384,
+              1771
+            ]
+          ],
+          "confidence": 0.948
+        }
+      ]
+    },
+    {
+      "text": "expand its sphere of influence",
+      "bbox": [
+        [
+          391,
+          1785
+        ],
+        [
+          1491,
+          1788
+        ],
+        [
+          1491,
+          1839
+        ],
+        [
+          391,
+          1834
+        ]
+      ],
+      "words": [
+        {
+          "text": "expand",
+          "bbox": [
+            [
+              394,
+              1786
+            ],
+            [
+              591,
               1787
             ],
             [
-              595,
-              1788
+              590,
+              1834
+            ],
+            [
+              393,
+              1833
             ]
-          ]
+          ],
+          "confidence": 0.977
         }
       ]
     },
     {
-      "text": "pollute the water and make",
+      "text": "and reassert",
       "bbox": [
         [
-          454,
-          1809
+          390,
+          1853
         ],
         [
-          1457,
-          1808
+          800,
+          1848
         ],
         [
-          1457,
-          1870
+          801,
+          1896
         ],
         [
-          454,
-          1871
+          390,
+          1902
         ]
       ],
       "words": [
         {
-          "text": "pollute",
+          "text": "and",
           "bbox": [
             [
-              466,
-              1813
+              392,
+              1855
             ],
             [
-              685,
-              1810
+              501,
+              1852
             ],
             [
-              685,
-              1872
+              501,
+              1900
             ],
             [
-              465,
-              1872
+              392,
+              1902
             ]
-          ]
+          ],
+          "confidence": 0.991
         }
       ]
     },
     {
-      "text": "it unconsumable. Similarly?",
+      "text": "its dominance in",
       "bbox": [
         [
-          502,
-          1893
+          814,
+          1852
         ],
         [
-          1461,
+          1471,
+          1860
+        ],
+        [
+          1470,
+          1907
+        ],
+        [
+          813,
           1897
-        ],
-        [
-          1460,
-          1967
-        ],
-        [
-          502,
-          1959
         ]
       ],
       "words": [
         {
-          "text": "unconsumable.",
+          "text": "its",
           "bbox": [
             [
-              604,
-              1895
+              916,
+              1855
             ],
             [
-              1086,
-              1894
+              982,
+              1856
             ],
             [
-              1085,
-              1958
+              981,
+              1899
             ],
             [
-              603,
-              1954
+              915,
+              1898
             ]
-          ]
+          ],
+          "confidence": 0.844
         }
       ]
     },
     {
-      "text": "it also endangers the life",
+      "text": "the world. This encourages other",
       "bbox": [
         [
-          457,
-          1976
+          379,
+          1911
         ],
         [
-          1427,
-          1976
+          1491,
+          1920
         ],
         [
-          1427,
-          2044
+          1490,
+          1968
         ],
         [
-          457,
-          2043
+          378,
+          1960
         ]
       ],
       "words": [
         {
-          "text": "also",
+          "text": "the",
           "bbox": [
             [
-              560,
-              1982
+              380,
+              1911
             ],
             [
-              693,
-              1982
+              469,
+              1912
             ],
             [
-              693,
-              2042
+              469,
+              1961
             ],
             [
-              559,
-              2039
+              379,
+              1961
             ]
-          ]
+          ],
+          "confidence": 0.994
         }
       ]
     },
     {
-      "text": "forms beneath the water",
+      "text": "states to use similar tactics",
       "bbox": [
         [
-          468,
-          2056
+          379,
+          1974
         ],
         [
-          1446,
-          2062
+          1447,
+          1979
         ],
         [
-          1446,
-          2133
+          1447,
+          2029
         ],
         [
-          468,
-          2129
+          379,
+          2025
         ]
       ],
       "words": [
         {
-          "text": "forms",
+          "text": "states",
           "bbox": [
             [
-              472,
-              2056
+              382,
+              1975
             ],
             [
-              667,
-              2064
+              539,
+              1980
             ],
             [
-              666,
-              2129
+              538,
+              2026
             ],
             [
-              471,
-              2122
+              381,
+              2024
             ]
-          ]
+          ],
+          "confidence": 0.951
         }
       ]
     },
     {
-      "text": "Surface by disrupting the",
+      "text": "to emerge as recognizable",
       "bbox": [
         [
-          481,
-          2148
+          380,
+          2045
         ],
         [
-          1493,
-          2148
+          1347,
+          2047
         ],
         [
-          1494,
-          2215
+          1347,
+          2094
         ],
         [
-          481,
+          380,
+          2090
+        ]
+      ],
+      "words": [
+        {
+          "text": "emerge",
+          "bbox": [
+            [
+              563,
+              2047
+            ],
+            [
+              768,
+              2048
+            ],
+            [
+              768,
+              2091
+            ],
+            [
+              563,
+              2090
+            ]
+          ],
+          "confidence": 0.932
+        }
+      ]
+    },
+    {
+      "text": "powers. The transformation of",
+      "bbox": [
+        [
+          391,
+          2106
+        ],
+        [
+          1347,
+          2107
+        ],
+        [
+          1347,
+          2159
+        ],
+        [
+          391,
+          2157
+        ]
+      ],
+      "words": [
+        {
+          "text": "powers.",
+          "bbox": [
+            [
+              394,
+              2110
+            ],
+            [
+              597,
+              2107
+            ],
+            [
+              596,
+              2156
+            ],
+            [
+              393,
+              2158
+            ]
+          ],
+          "confidence": 0.808
+        }
+      ]
+    },
+    {
+      "text": "Iran- Israel conflict from covert",
+      "bbox": [
+        [
+          418,
+          2169
+        ],
+        [
+          1447,
+          2173
+        ],
+        [
+          1447,
+          2221
+        ],
+        [
+          418,
           2216
         ]
       ],
       "words": [
         {
-          "text": "Surface",
+          "text": "Iran-",
           "bbox": [
             [
-              484,
-              2155
+              432,
+              2169
             ],
             [
-              723,
-              2151
+              577,
+              2170
             ],
             [
-              723,
-              2214
+              577,
+              2218
             ],
             [
-              484,
-              2215
+              432,
+              2218
             ]
-          ]
+          ],
+          "confidence": 0.797
         }
       ]
     },
     {
-      "text": "the levels of oxygen in",
+      "text": "operations",
       "bbox": [
         [
-          488,
-          2234
+          407,
+          2238
         ],
         [
-          1427,
-          2241
+          637,
+          2237
         ],
         [
-          1426,
-          2307
+          638,
+          2284
         ],
         [
-          487,
-          2295
+          407,
+          2285
         ]
       ],
       "words": [
         {
-          "text": "the",
+          "text": "operations",
           "bbox": [
             [
-              490,
-              2239
+              409,
+              2241
             ],
             [
-              611,
+              636,
               2237
             ],
             [
-              610,
-              2294
+              635,
+              2285
             ],
             [
-              489,
-              2293
+              409,
+              2285
             ]
-          ]
+          ],
+          "confidence": 0.982
         }
       ]
     },
     {
-      "text": "the natural water which",
+      "text": "to full- scale confrontation",
       "bbox": [
         [
-          469,
-          2323
+          648,
+          2234
         ],
         [
-          1348,
-          2326
+          1494,
+          2232
         ],
         [
-          1348,
-          2390
+          1494,
+          2278
         ],
         [
-          469,
-          2385
+          648,
+          2280
         ]
       ],
       "words": [
         {
-          "text": "the",
+          "text": "full-",
           "bbox": [
             [
-              479,
-              2328
+              914,
+              2236
             ],
             [
-              581,
-              2326
+              1021,
+              2235
             ],
             [
-              581,
-              2383
+              1021,
+              2280
             ],
             [
-              479,
-              2385
+              914,
+              2280
             ]
-          ]
+          ],
+          "confidence": 0.843
         }
       ]
     },
     {
-      "text": "CamScanner",
+      "text": "Scanned with",
       "bbox": [
         [
-          1552,
-          2492
+          1567,
+          2461
         ],
         [
-          1765,
-          2495
+          1729,
+          2461
         ],
         [
-          1765,
-          2534
+          1728,
+          2488
         ],
         [
-          1551,
-          2531
+          1567,
+          2488
+        ]
+      ],
+      "words": [
+        {
+          "text": "Scanned",
+          "bbox": [
+            [
+              1570,
+              2463
+            ],
+            [
+              1667,
+              2462
+            ],
+            [
+              1668,
+              2488
+            ],
+            [
+              1571,
+              2488
+            ]
+          ],
+          "confidence": 0.995
+        }
+      ]
+    },
+    {
+      "text": "CS CamScanner",
+      "bbox": [
+        [
+          1538,
+          2496
+        ],
+        [
+          1762,
+          2497
+        ],
+        [
+          1761,
+          2529
+        ],
+        [
+          1538,
+          2526
         ]
       ],
       "words": [
@@ -1216,27 +1604,3286 @@
           "text": "CamScanner",
           "bbox": [
             [
-              1557,
-              2492
-            ],
-            [
-              1766,
+              1579,
               2497
             ],
             [
-              1766,
-              2534
+              1761,
+              2498
             ],
             [
-              1556,
-              2533
+              1760,
+              2529
+            ],
+            [
+              1580,
+              2525
             ]
-          ]
+          ],
+          "confidence": 0.992
         }
       ]
     }
   ],
-  "ocr_full_text_page": "condition of water wastage - is not just endangering humans but also the other living organisms which are being deprived of vital component of existence owing to human follies. Like wise, increasing water pollution is also one of the important and key contributor. Water pollution is mainly being done by Organic particulate matter (OBM) as well as the industrial chemical based wastes such as compounds of Sulphur, nitrogen as well as phosphates. These pollutants on entering the water bodies pollute the water and make it unconsumable. Similarly? it also endangers the life forms beneath the water Surface by disrupting the the levels of oxygen in the natural water which CS CamScanner",
+  "words": [
+    {
+      "text": "This",
+      "bbox": [
+        [
+          357,
+          238
+        ],
+        [
+          445,
+          238
+        ],
+        [
+          444,
+          295
+        ],
+        [
+          357,
+          293
+        ]
+      ],
+      "confidence": 0.959
+    },
+    {
+      "text": "undermines",
+      "bbox": [
+        [
+          519,
+          237
+        ],
+        [
+          836,
+          234
+        ],
+        [
+          835,
+          292
+        ],
+        [
+          518,
+          295
+        ]
+      ],
+      "confidence": 0.96
+    },
+    {
+      "text": "consensus-building",
+      "bbox": [
+        [
+          963,
+          241
+        ],
+        [
+          1460,
+          237
+        ],
+        [
+          1461,
+          289
+        ],
+        [
+          963,
+          294
+        ]
+      ],
+      "confidence": 0.764
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          350,
+          313
+        ],
+        [
+          393,
+          312
+        ],
+        [
+          393,
+          361
+        ],
+        [
+          350,
+          361
+        ]
+      ],
+      "confidence": 0.989
+    },
+    {
+      "text": "global",
+      "bbox": [
+        [
+          483,
+          310
+        ],
+        [
+          646,
+          307
+        ],
+        [
+          646,
+          360
+        ],
+        [
+          483,
+          361
+        ]
+      ],
+      "confidence": 0.972
+    },
+    {
+      "text": "institution.",
+      "bbox": [
+        [
+          749,
+          306
+        ],
+        [
+          1067,
+          303
+        ],
+        [
+          1067,
+          358
+        ],
+        [
+          750,
+          360
+        ]
+      ],
+      "confidence": 0.851
+    },
+    {
+      "text": "The",
+      "bbox": [
+        [
+          1107,
+          303
+        ],
+        [
+          1200,
+          302
+        ],
+        [
+          1201,
+          358
+        ],
+        [
+          1108,
+          358
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "monopoly",
+      "bbox": [
+        [
+          1261,
+          302
+        ],
+        [
+          1491,
+          302
+        ],
+        [
+          1492,
+          357
+        ],
+        [
+          1262,
+          358
+        ]
+      ],
+      "confidence": 0.978
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          384,
+          374
+        ],
+        [
+          433,
+          375
+        ],
+        [
+          432,
+          427
+        ],
+        [
+          383,
+          427
+        ]
+      ],
+      "confidence": 0.988
+    },
+    {
+      "text": "great",
+      "bbox": [
+        [
+          533,
+          375
+        ],
+        [
+          670,
+          375
+        ],
+        [
+          670,
+          427
+        ],
+        [
+          532,
+          427
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "veto",
+      "bbox": [
+        [
+          723,
+          375
+        ],
+        [
+          819,
+          375
+        ],
+        [
+          819,
+          426
+        ],
+        [
+          722,
+          427
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          899,
+          374
+        ],
+        [
+          1056,
+          373
+        ],
+        [
+          1057,
+          425
+        ],
+        [
+          899,
+          426
+        ]
+      ],
+      "confidence": 0.837
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          1102,
+          373
+        ],
+        [
+          1144,
+          372
+        ],
+        [
+          1145,
+          424
+        ],
+        [
+          1102,
+          424
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          1211,
+          372
+        ],
+        [
+          1294,
+          371
+        ],
+        [
+          1294,
+          422
+        ],
+        [
+          1211,
+          423
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "United",
+      "bbox": [
+        [
+          1346,
+          370
+        ],
+        [
+          1490,
+          367
+        ],
+        [
+          1491,
+          420
+        ],
+        [
+          1347,
+          422
+        ]
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "Nations",
+      "bbox": [
+        [
+          359,
+          442
+        ],
+        [
+          552,
+          441
+        ],
+        [
+          551,
+          489
+        ],
+        [
+          357,
+          489
+        ]
+      ],
+      "confidence": 0.979
+    },
+    {
+      "text": "has",
+      "bbox": [
+        [
+          675,
+          440
+        ],
+        [
+          769,
+          439
+        ],
+        [
+          768,
+          489
+        ],
+        [
+          674,
+          489
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "significantly",
+      "bbox": [
+        [
+          893,
+          438
+        ],
+        [
+          1230,
+          436
+        ],
+        [
+          1231,
+          487
+        ],
+        [
+          892,
+          488
+        ]
+      ],
+      "confidence": 0.921
+    },
+    {
+      "text": "lowered",
+      "bbox": [
+        [
+          1288,
+          435
+        ],
+        [
+          1471,
+          434
+        ],
+        [
+          1472,
+          486
+        ],
+        [
+          1289,
+          487
+        ]
+      ],
+      "confidence": 0.955
+    },
+    {
+      "text": "its",
+      "bbox": [
+        [
+          360,
+          502
+        ],
+        [
+          429,
+          503
+        ],
+        [
+          428,
+          552
+        ],
+        [
+          360,
+          552
+        ]
+      ],
+      "confidence": 0.978
+    },
+    {
+      "text": "integrity",
+      "bbox": [
+        [
+          518,
+          504
+        ],
+        [
+          741,
+          506
+        ],
+        [
+          741,
+          555
+        ],
+        [
+          517,
+          553
+        ]
+      ],
+      "confidence": 0.827
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          843,
+          507
+        ],
+        [
+          936,
+          507
+        ],
+        [
+          936,
+          555
+        ],
+        [
+          843,
+          555
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "credibility.",
+      "bbox": [
+        [
+          1051,
+          506
+        ],
+        [
+          1378,
+          502
+        ],
+        [
+          1379,
+          553
+        ],
+        [
+          1052,
+          555
+        ]
+      ],
+      "confidence": 0.857
+    },
+    {
+      "text": "The",
+      "bbox": [
+        [
+          1429,
+          501
+        ],
+        [
+          1499,
+          499
+        ],
+        [
+          1500,
+          552
+        ],
+        [
+          1430,
+          552
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "paralysis",
+      "bbox": [
+        [
+          397,
+          579
+        ],
+        [
+          618,
+          575
+        ],
+        [
+          616,
+          622
+        ],
+        [
+          395,
+          627
+        ]
+      ],
+      "confidence": 0.844
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          716,
+          574
+        ],
+        [
+          767,
+          573
+        ],
+        [
+          767,
+          620
+        ],
+        [
+          715,
+          621
+        ]
+      ],
+      "confidence": 0.986
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          841,
+          573
+        ],
+        [
+          924,
+          572
+        ],
+        [
+          923,
+          619
+        ],
+        [
+          840,
+          619
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "UNSC",
+      "bbox": [
+        [
+          1022,
+          572
+        ],
+        [
+          1161,
+          572
+        ],
+        [
+          1161,
+          621
+        ],
+        [
+          1022,
+          619
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "over",
+      "bbox": [
+        [
+          1247,
+          573
+        ],
+        [
+          1349,
+          574
+        ],
+        [
+          1349,
+          624
+        ],
+        [
+          1248,
+          622
+        ]
+      ],
+      "confidence": 0.984
+    },
+    {
+      "text": "Syria,",
+      "bbox": [
+        [
+          383,
+          640
+        ],
+        [
+          552,
+          639
+        ],
+        [
+          552,
+          686
+        ],
+        [
+          383,
+          686
+        ]
+      ],
+      "confidence": 0.84
+    },
+    {
+      "text": "Yemen",
+      "bbox": [
+        [
+          594,
+          639
+        ],
+        [
+          744,
+          638
+        ],
+        [
+          744,
+          686
+        ],
+        [
+          594,
+          686
+        ]
+      ],
+      "confidence": 0.82
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          841,
+          638
+        ],
+        [
+          935,
+          638
+        ],
+        [
+          936,
+          686
+        ],
+        [
+          842,
+          686
+        ]
+      ],
+      "confidence": 0.937
+    },
+    {
+      "text": "Palestine",
+      "bbox": [
+        [
+          1021,
+          638
+        ],
+        [
+          1208,
+          639
+        ],
+        [
+          1209,
+          686
+        ],
+        [
+          1021,
+          686
+        ]
+      ],
+      "confidence": 0.826
+    },
+    {
+      "text": "has",
+      "bbox": [
+        [
+          1318,
+          640
+        ],
+        [
+          1409,
+          641
+        ],
+        [
+          1410,
+          686
+        ],
+        [
+          1318,
+          686
+        ]
+      ],
+      "confidence": 0.975
+    },
+    {
+      "text": "exposed",
+      "bbox": [
+        [
+          396,
+          701
+        ],
+        [
+          590,
+          700
+        ],
+        [
+          589,
+          749
+        ],
+        [
+          395,
+          748
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          717,
+          700
+        ],
+        [
+          815,
+          700
+        ],
+        [
+          815,
+          750
+        ],
+        [
+          717,
+          749
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "strategic",
+      "bbox": [
+        [
+          910,
+          700
+        ],
+        [
+          1163,
+          701
+        ],
+        [
+          1162,
+          751
+        ],
+        [
+          910,
+          750
+        ]
+      ],
+      "confidence": 0.9
+    },
+    {
+      "text": "loopholes",
+      "bbox": [
+        [
+          1245,
+          702
+        ],
+        [
+          1449,
+          704
+        ],
+        [
+          1449,
+          753
+        ],
+        [
+          1244,
+          752
+        ]
+      ],
+      "confidence": 0.787
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          367,
+          762
+        ],
+        [
+          421,
+          763
+        ],
+        [
+          419,
+          812
+        ],
+        [
+          365,
+          812
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "this",
+      "bbox": [
+        [
+          510,
+          764
+        ],
+        [
+          601,
+          765
+        ],
+        [
+          599,
+          813
+        ],
+        [
+          508,
+          812
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "global",
+      "bbox": [
+        [
+          689,
+          766
+        ],
+        [
+          845,
+          767
+        ],
+        [
+          843,
+          814
+        ],
+        [
+          687,
+          813
+        ]
+      ],
+      "confidence": 0.765
+    },
+    {
+      "text": "institution.",
+      "bbox": [
+        [
+          920,
+          767
+        ],
+        [
+          1216,
+          768
+        ],
+        [
+          1215,
+          818
+        ],
+        [
+          918,
+          815
+        ]
+      ],
+      "confidence": 0.837
+    },
+    {
+      "text": "Hence,",
+      "bbox": [
+        [
+          1272,
+          768
+        ],
+        [
+          1457,
+          768
+        ],
+        [
+          1456,
+          820
+        ],
+        [
+          1271,
+          818
+        ]
+      ],
+      "confidence": 0.913
+    },
+    {
+      "text": "multipolarity",
+      "bbox": [
+        [
+          373,
+          830
+        ],
+        [
+          689,
+          833
+        ],
+        [
+          688,
+          881
+        ],
+        [
+          372,
+          882
+        ]
+      ],
+      "confidence": 0.942
+    },
+    {
+      "text": "is",
+      "bbox": [
+        [
+          803,
+          833
+        ],
+        [
+          843,
+          834
+        ],
+        [
+          842,
+          881
+        ],
+        [
+          802,
+          881
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "contributing",
+      "bbox": [
+        [
+          918,
+          834
+        ],
+        [
+          1228,
+          833
+        ],
+        [
+          1227,
+          881
+        ],
+        [
+          917,
+          881
+        ]
+      ],
+      "confidence": 0.944
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          1297,
+          833
+        ],
+        [
+          1347,
+          832
+        ],
+        [
+          1346,
+          882
+        ],
+        [
+          1296,
+          882
+        ]
+      ],
+      "confidence": 0.997
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          393,
+          899
+        ],
+        [
+          484,
+          899
+        ],
+        [
+          482,
+          945
+        ],
+        [
+          391,
+          944
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "emergence",
+      "bbox": [
+        [
+          633,
+          900
+        ],
+        [
+          935,
+          900
+        ],
+        [
+          934,
+          946
+        ],
+        [
+          631,
+          945
+        ]
+      ],
+      "confidence": 0.946
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          1030,
+          900
+        ],
+        [
+          1080,
+          900
+        ],
+        [
+          1079,
+          945
+        ],
+        [
+          1029,
+          946
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "minilateral",
+      "bbox": [
+        [
+          1187,
+          899
+        ],
+        [
+          1462,
+          896
+        ],
+        [
+          1461,
+          943
+        ],
+        [
+          1185,
+          945
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          397,
+          965
+        ],
+        [
+          489,
+          967
+        ],
+        [
+          489,
+          1009
+        ],
+        [
+          398,
+          1007
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "regional",
+      "bbox": [
+        [
+          589,
+          968
+        ],
+        [
+          800,
+          968
+        ],
+        [
+          800,
+          1011
+        ],
+        [
+          590,
+          1010
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "institutions.",
+      "bbox": [
+        [
+          900,
+          967
+        ],
+        [
+          1203,
+          960
+        ],
+        [
+          1203,
+          1004
+        ],
+        [
+          900,
+          1010
+        ]
+      ],
+      "confidence": 0.463
+    },
+    {
+      "text": "Multipolarity",
+      "bbox": [
+        [
+          765,
+          1089
+        ],
+        [
+          1088,
+          1093
+        ],
+        [
+          1088,
+          1139
+        ],
+        [
+          765,
+          1138
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "exacerbates",
+      "bbox": [
+        [
+          1178,
+          1094
+        ],
+        [
+          1468,
+          1094
+        ],
+        [
+          1468,
+          1139
+        ],
+        [
+          1178,
+          1139
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          386,
+          1152
+        ],
+        [
+          467,
+          1152
+        ],
+        [
+          467,
+          1202
+        ],
+        [
+          385,
+          1201
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "return",
+      "bbox": [
+        [
+          564,
+          1153
+        ],
+        [
+          720,
+          1154
+        ],
+        [
+          719,
+          1202
+        ],
+        [
+          564,
+          1202
+        ]
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          817,
+          1154
+        ],
+        [
+          867,
+          1154
+        ],
+        [
+          867,
+          1202
+        ],
+        [
+          816,
+          1202
+        ]
+      ],
+      "confidence": 0.996
+    },
+    {
+      "text": "hard",
+      "bbox": [
+        [
+          952,
+          1155
+        ],
+        [
+          1064,
+          1156
+        ],
+        [
+          1064,
+          1202
+        ],
+        [
+          952,
+          1202
+        ]
+      ],
+      "confidence": 0.99
+    },
+    {
+      "text": "power.",
+      "bbox": [
+        [
+          1167,
+          1156
+        ],
+        [
+          1329,
+          1157
+        ],
+        [
+          1329,
+          1201
+        ],
+        [
+          1167,
+          1202
+        ]
+      ],
+      "confidence": 0.912
+    },
+    {
+      "text": "Great",
+      "bbox": [
+        [
+          1370,
+          1157
+        ],
+        [
+          1517,
+          1158
+        ],
+        [
+          1517,
+          1200
+        ],
+        [
+          1370,
+          1201
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "powers",
+      "bbox": [
+        [
+          402,
+          1223
+        ],
+        [
+          558,
+          1220
+        ],
+        [
+          556,
+          1265
+        ],
+        [
+          400,
+          1265
+        ]
+      ],
+      "confidence": 0.835
+    },
+    {
+      "text": "showcase",
+      "bbox": [
+        [
+          681,
+          1219
+        ],
+        [
+          903,
+          1218
+        ],
+        [
+          902,
+          1265
+        ],
+        [
+          680,
+          1265
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "their",
+      "bbox": [
+        [
+          1020,
+          1218
+        ],
+        [
+          1140,
+          1219
+        ],
+        [
+          1140,
+          1265
+        ],
+        [
+          1019,
+          1265
+        ]
+      ],
+      "confidence": 0.967
+    },
+    {
+      "text": "military",
+      "bbox": [
+        [
+          1222,
+          1219
+        ],
+        [
+          1422,
+          1222
+        ],
+        [
+          1422,
+          1266
+        ],
+        [
+          1222,
+          1265
+        ]
+      ],
+      "confidence": 0.958
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          424,
+          1282
+        ],
+        [
+          521,
+          1281
+        ],
+        [
+          521,
+          1327
+        ],
+        [
+          424,
+          1327
+        ]
+      ],
+      "confidence": 0.953
+    },
+    {
+      "text": "technological",
+      "bbox": [
+        [
+          640,
+          1281
+        ],
+        [
+          982,
+          1282
+        ],
+        [
+          982,
+          1329
+        ],
+        [
+          639,
+          1328
+        ]
+      ],
+      "confidence": 0.841
+    },
+    {
+      "text": "might",
+      "bbox": [
+        [
+          1113,
+          1283
+        ],
+        [
+          1264,
+          1286
+        ],
+        [
+          1263,
+          1330
+        ],
+        [
+          1112,
+          1330
+        ]
+      ],
+      "confidence": 0.945
+    },
+    {
+      "text": "by",
+      "bbox": [
+        [
+          1346,
+          1287
+        ],
+        [
+          1413,
+          1288
+        ],
+        [
+          1412,
+          1330
+        ],
+        [
+          1345,
+          1330
+        ]
+      ],
+      "confidence": 0.887
+    },
+    {
+      "text": "waging",
+      "bbox": [
+        [
+          366,
+          1354
+        ],
+        [
+          550,
+          1352
+        ],
+        [
+          549,
+          1393
+        ],
+        [
+          365,
+          1394
+        ]
+      ],
+      "confidence": 0.96
+    },
+    {
+      "text": "wars",
+      "bbox": [
+        [
+          639,
+          1351
+        ],
+        [
+          754,
+          1350
+        ],
+        [
+          752,
+          1393
+        ],
+        [
+          638,
+          1393
+        ]
+      ],
+      "confidence": 0.962
+    },
+    {
+      "text": "on",
+      "bbox": [
+        [
+          854,
+          1350
+        ],
+        [
+          901,
+          1349
+        ],
+        [
+          899,
+          1393
+        ],
+        [
+          853,
+          1393
+        ]
+      ],
+      "confidence": 0.978
+    },
+    {
+      "text": "vulnerable",
+      "bbox": [
+        [
+          990,
+          1349
+        ],
+        [
+          1268,
+          1349
+        ],
+        [
+          1266,
+          1394
+        ],
+        [
+          988,
+          1393
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "states",
+      "bbox": [
+        [
+          1352,
+          1349
+        ],
+        [
+          1497,
+          1350
+        ],
+        [
+          1495,
+          1394
+        ],
+        [
+          1350,
+          1394
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          395,
+          1410
+        ],
+        [
+          444,
+          1410
+        ],
+        [
+          443,
+          1453
+        ],
+        [
+          394,
+          1453
+        ]
+      ],
+      "confidence": 0.988
+    },
+    {
+      "text": "create",
+      "bbox": [
+        [
+          532,
+          1410
+        ],
+        [
+          694,
+          1410
+        ],
+        [
+          693,
+          1456
+        ],
+        [
+          531,
+          1454
+        ]
+      ],
+      "confidence": 0.957
+    },
+    {
+      "text": "deterrence",
+      "bbox": [
+        [
+          787,
+          1410
+        ],
+        [
+          1057,
+          1411
+        ],
+        [
+          1056,
+          1457
+        ],
+        [
+          786,
+          1456
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          1168,
+          1411
+        ],
+        [
+          1211,
+          1411
+        ],
+        [
+          1210,
+          1457
+        ],
+        [
+          1167,
+          1457
+        ]
+      ],
+      "confidence": 0.926
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          1299,
+          1412
+        ],
+        [
+          1381,
+          1412
+        ],
+        [
+          1380,
+          1457
+        ],
+        [
+          1298,
+          1457
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "multipolar",
+      "bbox": [
+        [
+          366,
+          1475
+        ],
+        [
+          635,
+          1471
+        ],
+        [
+          635,
+          1520
+        ],
+        [
+          366,
+          1520
+        ]
+      ],
+      "confidence": 0.964
+    },
+    {
+      "text": "world.",
+      "bbox": [
+        [
+          716,
+          1471
+        ],
+        [
+          902,
+          1470
+        ],
+        [
+          902,
+          1521
+        ],
+        [
+          716,
+          1521
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "The",
+      "bbox": [
+        [
+          933,
+          1470
+        ],
+        [
+          1004,
+          1470
+        ],
+        [
+          1004,
+          1522
+        ],
+        [
+          932,
+          1521
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "Russian",
+      "bbox": [
+        [
+          1098,
+          1471
+        ],
+        [
+          1259,
+          1473
+        ],
+        [
+          1258,
+          1523
+        ],
+        [
+          1097,
+          1522
+        ]
+      ],
+      "confidence": 0.92
+    },
+    {
+      "text": "invasion",
+      "bbox": [
+        [
+          1315,
+          1474
+        ],
+        [
+          1504,
+          1478
+        ],
+        [
+          1503,
+          1523
+        ],
+        [
+          1314,
+          1523
+        ]
+      ],
+      "confidence": 0.971
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          411,
+          1528
+        ],
+        [
+          467,
+          1529
+        ],
+        [
+          465,
+          1582
+        ],
+        [
+          409,
+          1581
+        ]
+      ],
+      "confidence": 0.989
+    },
+    {
+      "text": "Ukraine",
+      "bbox": [
+        [
+          544,
+          1531
+        ],
+        [
+          737,
+          1535
+        ],
+        [
+          736,
+          1583
+        ],
+        [
+          543,
+          1582
+        ]
+      ],
+      "confidence": 0.799
+    },
+    {
+      "text": "on",
+      "bbox": [
+        [
+          835,
+          1536
+        ],
+        [
+          883,
+          1536
+        ],
+        [
+          882,
+          1584
+        ],
+        [
+          834,
+          1584
+        ]
+      ],
+      "confidence": 0.906
+    },
+    {
+      "text": "February",
+      "bbox": [
+        [
+          960,
+          1537
+        ],
+        [
+          1160,
+          1537
+        ],
+        [
+          1159,
+          1587
+        ],
+        [
+          959,
+          1585
+        ]
+      ],
+      "confidence": 0.868
+    },
+    {
+      "text": "24,",
+      "bbox": [
+        [
+          1218,
+          1537
+        ],
+        [
+          1305,
+          1537
+        ],
+        [
+          1305,
+          1588
+        ],
+        [
+          1217,
+          1587
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "2022",
+      "bbox": [
+        [
+          1323,
+          1537
+        ],
+        [
+          1450,
+          1536
+        ],
+        [
+          1450,
+          1588
+        ],
+        [
+          1323,
+          1588
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "marks",
+      "bbox": [
+        [
+          396,
+          1598
+        ],
+        [
+          537,
+          1599
+        ],
+        [
+          537,
+          1644
+        ],
+        [
+          396,
+          1644
+        ]
+      ],
+      "confidence": 0.977
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          615,
+          1599
+        ],
+        [
+          707,
+          1599
+        ],
+        [
+          707,
+          1645
+        ],
+        [
+          614,
+          1644
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "return",
+      "bbox": [
+        [
+          778,
+          1600
+        ],
+        [
+          913,
+          1600
+        ],
+        [
+          913,
+          1646
+        ],
+        [
+          778,
+          1645
+        ]
+      ],
+      "confidence": 0.884
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          1003,
+          1601
+        ],
+        [
+          1047,
+          1602
+        ],
+        [
+          1046,
+          1648
+        ],
+        [
+          1002,
+          1647
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "hard",
+      "bbox": [
+        [
+          1166,
+          1603
+        ],
+        [
+          1277,
+          1604
+        ],
+        [
+          1276,
+          1651
+        ],
+        [
+          1166,
+          1649
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "power.",
+      "bbox": [
+        [
+          1342,
+          1605
+        ],
+        [
+          1468,
+          1606
+        ],
+        [
+          1467,
+          1654
+        ],
+        [
+          1341,
+          1652
+        ]
+      ],
+      "confidence": 0.941
+    },
+    {
+      "text": "Russia",
+      "bbox": [
+        [
+          367,
+          1653
+        ],
+        [
+          516,
+          1656
+        ],
+        [
+          516,
+          1705
+        ],
+        [
+          367,
+          1705
+        ]
+      ],
+      "confidence": 0.72
+    },
+    {
+      "text": "has",
+      "bbox": [
+        [
+          631,
+          1658
+        ],
+        [
+          718,
+          1660
+        ],
+        [
+          718,
+          1707
+        ],
+        [
+          631,
+          1706
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "initiated",
+      "bbox": [
+        [
+          803,
+          1661
+        ],
+        [
+          1037,
+          1665
+        ],
+        [
+          1037,
+          1709
+        ],
+        [
+          802,
+          1707
+        ]
+      ],
+      "confidence": 0.931
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          1146,
+          1666
+        ],
+        [
+          1190,
+          1666
+        ],
+        [
+          1190,
+          1711
+        ],
+        [
+          1145,
+          1710
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "invade",
+      "bbox": [
+        [
+          1262,
+          1667
+        ],
+        [
+          1429,
+          1668
+        ],
+        [
+          1429,
+          1713
+        ],
+        [
+          1262,
+          1712
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "eastern",
+      "bbox": [
+        [
+          385,
+          1725
+        ],
+        [
+          569,
+          1724
+        ],
+        [
+          568,
+          1771
+        ],
+        [
+          384,
+          1771
+        ]
+      ],
+      "confidence": 0.948
+    },
+    {
+      "text": "European",
+      "bbox": [
+        [
+          687,
+          1724
+        ],
+        [
+          889,
+          1724
+        ],
+        [
+          888,
+          1772
+        ],
+        [
+          686,
+          1771
+        ]
+      ],
+      "confidence": 0.705
+    },
+    {
+      "text": "territories",
+      "bbox": [
+        [
+          1007,
+          1724
+        ],
+        [
+          1254,
+          1725
+        ],
+        [
+          1253,
+          1775
+        ],
+        [
+          1006,
+          1772
+        ]
+      ],
+      "confidence": 0.936
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          1328,
+          1726
+        ],
+        [
+          1371,
+          1726
+        ],
+        [
+          1370,
+          1776
+        ],
+        [
+          1327,
+          1776
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "expand",
+      "bbox": [
+        [
+          394,
+          1786
+        ],
+        [
+          591,
+          1787
+        ],
+        [
+          590,
+          1834
+        ],
+        [
+          393,
+          1833
+        ]
+      ],
+      "confidence": 0.977
+    },
+    {
+      "text": "its",
+      "bbox": [
+        [
+          716,
+          1788
+        ],
+        [
+          787,
+          1788
+        ],
+        [
+          786,
+          1835
+        ],
+        [
+          715,
+          1835
+        ]
+      ],
+      "confidence": 0.969
+    },
+    {
+      "text": "sphere",
+      "bbox": [
+        [
+          893,
+          1789
+        ],
+        [
+          1059,
+          1789
+        ],
+        [
+          1058,
+          1837
+        ],
+        [
+          892,
+          1836
+        ]
+      ],
+      "confidence": 0.98
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          1153,
+          1789
+        ],
+        [
+          1205,
+          1789
+        ],
+        [
+          1204,
+          1838
+        ],
+        [
+          1152,
+          1838
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "influence",
+      "bbox": [
+        [
+          1260,
+          1789
+        ],
+        [
+          1487,
+          1788
+        ],
+        [
+          1486,
+          1840
+        ],
+        [
+          1259,
+          1839
+        ]
+      ],
+      "confidence": 0.986
+    },
+    {
+      "text": "and",
+      "bbox": [
+        [
+          392,
+          1855
+        ],
+        [
+          501,
+          1852
+        ],
+        [
+          501,
+          1900
+        ],
+        [
+          392,
+          1902
+        ]
+      ],
+      "confidence": 0.991
+    },
+    {
+      "text": "reassert",
+      "bbox": [
+        [
+          594,
+          1850
+        ],
+        [
+          797,
+          1849
+        ],
+        [
+          798,
+          1897
+        ],
+        [
+          594,
+          1899
+        ]
+      ],
+      "confidence": 0.903
+    },
+    {
+      "text": "its",
+      "bbox": [
+        [
+          916,
+          1855
+        ],
+        [
+          982,
+          1856
+        ],
+        [
+          981,
+          1899
+        ],
+        [
+          915,
+          1898
+        ]
+      ],
+      "confidence": 0.844
+    },
+    {
+      "text": "dominance",
+      "bbox": [
+        [
+          1103,
+          1857
+        ],
+        [
+          1368,
+          1860
+        ],
+        [
+          1368,
+          1906
+        ],
+        [
+          1102,
+          1901
+        ]
+      ],
+      "confidence": 0.903
+    },
+    {
+      "text": "in",
+      "bbox": [
+        [
+          1431,
+          1860
+        ],
+        [
+          1471,
+          1860
+        ],
+        [
+          1471,
+          1908
+        ],
+        [
+          1431,
+          1907
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "the",
+      "bbox": [
+        [
+          380,
+          1911
+        ],
+        [
+          469,
+          1912
+        ],
+        [
+          469,
+          1961
+        ],
+        [
+          379,
+          1961
+        ]
+      ],
+      "confidence": 0.994
+    },
+    {
+      "text": "world.",
+      "bbox": [
+        [
+          554,
+          1913
+        ],
+        [
+          735,
+          1915
+        ],
+        [
+          734,
+          1962
+        ],
+        [
+          553,
+          1962
+        ]
+      ],
+      "confidence": 0.925
+    },
+    {
+      "text": "This",
+      "bbox": [
+        [
+          801,
+          1916
+        ],
+        [
+          901,
+          1917
+        ],
+        [
+          901,
+          1963
+        ],
+        [
+          801,
+          1963
+        ]
+      ],
+      "confidence": 0.297
+    },
+    {
+      "text": "encourages",
+      "bbox": [
+        [
+          999,
+          1918
+        ],
+        [
+          1296,
+          1920
+        ],
+        [
+          1296,
+          1966
+        ],
+        [
+          998,
+          1964
+        ]
+      ],
+      "confidence": 0.943
+    },
+    {
+      "text": "other",
+      "bbox": [
+        [
+          1369,
+          1921
+        ],
+        [
+          1491,
+          1922
+        ],
+        [
+          1491,
+          1968
+        ],
+        [
+          1369,
+          1967
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "states",
+      "bbox": [
+        [
+          382,
+          1975
+        ],
+        [
+          539,
+          1980
+        ],
+        [
+          538,
+          2026
+        ],
+        [
+          381,
+          2024
+        ]
+      ],
+      "confidence": 0.951
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          651,
+          1983
+        ],
+        [
+          700,
+          1984
+        ],
+        [
+          699,
+          2028
+        ],
+        [
+          650,
+          2027
+        ]
+      ],
+      "confidence": 0.983
+    },
+    {
+      "text": "use",
+      "bbox": [
+        [
+          812,
+          1985
+        ],
+        [
+          891,
+          1986
+        ],
+        [
+          891,
+          2029
+        ],
+        [
+          811,
+          2028
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "similar",
+      "bbox": [
+        [
+          991,
+          1986
+        ],
+        [
+          1190,
+          1985
+        ],
+        [
+          1190,
+          2029
+        ],
+        [
+          991,
+          2029
+        ]
+      ],
+      "confidence": 0.944
+    },
+    {
+      "text": "tactics",
+      "bbox": [
+        [
+          1284,
+          1984
+        ],
+        [
+          1444,
+          1980
+        ],
+        [
+          1444,
+          2029
+        ],
+        [
+          1284,
+          2029
+        ]
+      ],
+      "confidence": 0.732
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          381,
+          2045
+        ],
+        [
+          424,
+          2046
+        ],
+        [
+          424,
+          2089
+        ],
+        [
+          381,
+          2089
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "emerge",
+      "bbox": [
+        [
+          563,
+          2047
+        ],
+        [
+          768,
+          2048
+        ],
+        [
+          768,
+          2091
+        ],
+        [
+          563,
+          2090
+        ]
+      ],
+      "confidence": 0.932
+    },
+    {
+      "text": "as",
+      "bbox": [
+        [
+          877,
+          2048
+        ],
+        [
+          925,
+          2048
+        ],
+        [
+          926,
+          2092
+        ],
+        [
+          878,
+          2092
+        ]
+      ],
+      "confidence": 0.963
+    },
+    {
+      "text": "recognizable",
+      "bbox": [
+        [
+          1011,
+          2048
+        ],
+        [
+          1342,
+          2047
+        ],
+        [
+          1343,
+          2095
+        ],
+        [
+          1012,
+          2093
+        ]
+      ],
+      "confidence": 0.871
+    },
+    {
+      "text": "powers.",
+      "bbox": [
+        [
+          394,
+          2110
+        ],
+        [
+          597,
+          2107
+        ],
+        [
+          596,
+          2156
+        ],
+        [
+          393,
+          2158
+        ]
+      ],
+      "confidence": 0.808
+    },
+    {
+      "text": "The",
+      "bbox": [
+        [
+          640,
+          2107
+        ],
+        [
+          723,
+          2107
+        ],
+        [
+          722,
+          2156
+        ],
+        [
+          639,
+          2156
+        ]
+      ],
+      "confidence": 0.987
+    },
+    {
+      "text": "transformation",
+      "bbox": [
+        [
+          835,
+          2107
+        ],
+        [
+          1183,
+          2110
+        ],
+        [
+          1182,
+          2157
+        ],
+        [
+          834,
+          2156
+        ]
+      ],
+      "confidence": 0.858
+    },
+    {
+      "text": "of",
+      "bbox": [
+        [
+          1295,
+          2112
+        ],
+        [
+          1344,
+          2114
+        ],
+        [
+          1343,
+          2159
+        ],
+        [
+          1294,
+          2158
+        ]
+      ],
+      "confidence": 0.992
+    },
+    {
+      "text": "Iran-",
+      "bbox": [
+        [
+          432,
+          2169
+        ],
+        [
+          577,
+          2170
+        ],
+        [
+          577,
+          2218
+        ],
+        [
+          432,
+          2218
+        ]
+      ],
+      "confidence": 0.797
+    },
+    {
+      "text": "Israel",
+      "bbox": [
+        [
+          613,
+          2170
+        ],
+        [
+          758,
+          2171
+        ],
+        [
+          758,
+          2218
+        ],
+        [
+          613,
+          2218
+        ]
+      ],
+      "confidence": 0.838
+    },
+    {
+      "text": "conflict",
+      "bbox": [
+        [
+          869,
+          2171
+        ],
+        [
+          1045,
+          2172
+        ],
+        [
+          1044,
+          2219
+        ],
+        [
+          868,
+          2219
+        ]
+      ],
+      "confidence": 0.94
+    },
+    {
+      "text": "from",
+      "bbox": [
+        [
+          1156,
+          2173
+        ],
+        [
+          1245,
+          2173
+        ],
+        [
+          1244,
+          2220
+        ],
+        [
+          1155,
+          2220
+        ]
+      ],
+      "confidence": 0.988
+    },
+    {
+      "text": "covert",
+      "bbox": [
+        [
+          1330,
+          2174
+        ],
+        [
+          1447,
+          2175
+        ],
+        [
+          1446,
+          2221
+        ],
+        [
+          1329,
+          2221
+        ]
+      ],
+      "confidence": 0.956
+    },
+    {
+      "text": "operations",
+      "bbox": [
+        [
+          409,
+          2241
+        ],
+        [
+          636,
+          2237
+        ],
+        [
+          635,
+          2285
+        ],
+        [
+          409,
+          2285
+        ]
+      ],
+      "confidence": 0.982
+    },
+    {
+      "text": "to",
+      "bbox": [
+        [
+          779,
+          2237
+        ],
+        [
+          821,
+          2236
+        ],
+        [
+          821,
+          2280
+        ],
+        [
+          779,
+          2280
+        ]
+      ],
+      "confidence": 0.835
+    },
+    {
+      "text": "full-",
+      "bbox": [
+        [
+          914,
+          2236
+        ],
+        [
+          1021,
+          2235
+        ],
+        [
+          1021,
+          2280
+        ],
+        [
+          914,
+          2280
+        ]
+      ],
+      "confidence": 0.843
+    },
+    {
+      "text": "scale",
+      "bbox": [
+        [
+          1049,
+          2235
+        ],
+        [
+          1150,
+          2234
+        ],
+        [
+          1150,
+          2280
+        ],
+        [
+          1049,
+          2280
+        ]
+      ],
+      "confidence": 0.92
+    },
+    {
+      "text": "confrontation",
+      "bbox": [
+        [
+          1237,
+          2234
+        ],
+        [
+          1494,
+          2233
+        ],
+        [
+          1494,
+          2279
+        ],
+        [
+          1237,
+          2280
+        ]
+      ],
+      "confidence": 0.878
+    },
+    {
+      "text": "Scanned",
+      "bbox": [
+        [
+          1570,
+          2463
+        ],
+        [
+          1667,
+          2462
+        ],
+        [
+          1668,
+          2488
+        ],
+        [
+          1571,
+          2488
+        ]
+      ],
+      "confidence": 0.995
+    },
+    {
+      "text": "with",
+      "bbox": [
+        [
+          1676,
+          2462
+        ],
+        [
+          1724,
+          2462
+        ],
+        [
+          1725,
+          2489
+        ],
+        [
+          1677,
+          2488
+        ]
+      ],
+      "confidence": 0.993
+    },
+    {
+      "text": "CS",
+      "bbox": [
+        [
+          1540,
+          2496
+        ],
+        [
+          1572,
+          2497
+        ],
+        [
+          1572,
+          2525
+        ],
+        [
+          1541,
+          2523
+        ]
+      ],
+      "confidence": 0.961
+    },
+    {
+      "text": "CamScanner",
+      "bbox": [
+        [
+          1579,
+          2497
+        ],
+        [
+          1761,
+          2498
+        ],
+        [
+          1760,
+          2529
+        ],
+        [
+          1580,
+          2525
+        ]
+      ],
+      "confidence": 0.992
+    }
+  ],
+  "ocr_full_text_page": "This undermines consensus-building in global institution. The monopoly of great veto powers in the United Nations has significantly lowered its integrity and credibility. The paralysis of the UNSC over Syria, Yemen and Palestine has exposed the strategic loopholes of this global institution. Hence, multipolarity is contributing to the emergence of minilateral and regional institutions. Multipolarity exacerbates the return of hard power. Great powers showcase their military and technological might by waging wars on vulnerable states to create deterrence in the multipolar world. The Russian invasion of Ukraine on February 24, 2022 marks the return of hard power. Russia has initiated to invade eastern European territories to expand its sphere of influence and reassert its dominance in the world. This encourages other states to use similar tactics to emerge as recognizable powers. The transformation of Iran- Israel conflict from covert operations to full- scale confrontation Scanned with CS CamScanner",
   "attempt": {
     "scale": 1.0,
     "quality": 75
