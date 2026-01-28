@@ -670,6 +670,33 @@ def _draw_wrapped_text(
     return used
 
 
+def _draw_red_tick(
+    img: np.ndarray,
+    *,
+    x: int,
+    y: int,
+    size: int,
+    color: Tuple[int, int, int] = (0, 0, 255),
+    thickness: int = 5,
+) -> None:
+    """
+    Draw a simple red "tick/checkmark" on an OpenCV BGR image.
+
+    Coordinate meaning:
+    - (x, y) is the lower-left start of the tick.
+    - `size` controls overall tick width/height.
+    """
+    s = max(10, int(size))
+    t = max(1, int(thickness))
+
+    p1 = (int(x), int(y))
+    p2 = (int(x + 0.35 * s), int(y + 0.35 * s))
+    p3 = (int(x + 1.10 * s), int(y - 0.45 * s))
+
+    cv2.line(img, p1, p2, color, t, cv2.LINE_AA)
+    cv2.line(img, p2, p3, color, t, cv2.LINE_AA)
+
+
 # --- DYNAMIC LEFT BOX HELPERS ---
 def _box_height_for_wrapped_lines(num_lines: int, font_scale: float, thickness: int, line_gap: int, top_pad: int, bottom_pad: int) -> int:
     if num_lines <= 0:
@@ -936,15 +963,30 @@ def annotate_pdf_essay_pages(
         extent = _compute_page_extent(page_ocr) if page_ocr else None
         print(f"  Page extent: {extent}")
 
-        # Canvas with margins
-        left_width = int(0.65 * orig_w)
-        right_width = int(0.35 * orig_w)
+        # Canvas with margins (equal spacing on both sides of the essay body)
+        # Previously: left=65% and right=35% of essay width, which left a visibly larger gap on the left.
+        side_margin_ratio = 0.35
+        left_width = int(side_margin_ratio * orig_w)
+        right_width = int(side_margin_ratio * orig_w)
         new_w = left_width + orig_w + right_width
         y_offset = 0
         margin_px = int(0.03 * orig_w)
 
         canvas = np.full((orig_h, new_w, 3), 255, dtype=np.uint8)
         canvas[y_offset:y_offset + orig_h, left_width:left_width + orig_w] = orig_cv
+
+        # ------------------------------------------------------------
+        # RED TICK MARK (on essay body) - one per page, near lower area
+        # ------------------------------------------------------------
+        tick_size = max(26, int(orig_w * 0.05))
+        tick_thickness = max(3, int(orig_w * 0.004))
+        # Place slightly above bottom (not too low) and inside the essay body region
+        tick_x = left_width + int(orig_w * 0.08)
+        tick_y = y_offset + int(orig_h * 0.82)
+        # Constrain inside visible page bounds
+        tick_x = max(left_width + 5, min(tick_x, left_width + orig_w - tick_size - 5))
+        tick_y = max(5 + tick_size, min(tick_y, orig_h - margin_px - 5))
+        _draw_red_tick(canvas, x=tick_x, y=tick_y, size=tick_size, thickness=tick_thickness)
 
         # LEFT MARGIN: Improvements
         cv2.putText(
@@ -960,7 +1002,10 @@ def annotate_pdf_essay_pages(
 
         left_pad = 10
         col_gap = 14
-        max_cols = 2
+        # When the left margin is narrower (after making margins equal),
+        # using 2 columns makes boxes too skinny and causes excessive wrapping.
+        # Use 1 column for narrow margins; keep 2 columns for wide margins.
+        max_cols = 1 if left_width < int(0.50 * orig_w) else 2
         col_w = (left_width - 2 * margin_px - (max_cols - 1) * col_gap) // max_cols
         col_x = margin_px
         col_idx = 0

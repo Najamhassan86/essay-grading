@@ -1,173 +1,132 @@
 {
-  "topic": "* Pakistan's longstanding 'Strategic depth' doctrine has effectively transformed into a 'Strategic dilemma' following Taliban's return to power. Critically analyse the shift in the Taliban's posture from a 'Dependant Proxy' to a Sovereign Nationalist' entity, and evaluate the implications of the TTP-Taliban nexus for Pakistan's internal security and regional standing in the face of a rising Indian footprint in Kabul.",
+  "topic": "Strengthen the Female Mind by Enlarging it and there will be an End to Blind Obedience",
   "outline": {
     "present": true,
     "pages": [
       1,
       2,
       3,
-      4,
-      5,
-      6,
-      7,
-      8
+      4
     ],
     "quality": "Strong",
-    "issues": [
-      "No transition to full paragraph-based essay body; entire submission is outline structure."
-    ],
+    "issues": [],
     "strengths": [
-      "Comprehensive numbered sections with subsections and bullet points covering topic fully; logical progression from intro to conclusion."
+      "Clear Roman numeral structure with subpoints spanning multiple pages",
+      "Includes introduction, main arguments, impediments, measures, and conclusion"
     ]
   },
   "outline_span": {
     "start_page": 1,
-    "end_page": 8
+    "end_page": 4
   },
   "outline_sections": [
     {
-      "title": "1) Introduction",
+      "title": "I. Introduction",
       "page": 1,
-      "notes": "Listed but no subpoints visible."
+      "notes": "Short paragraph on reality of female education ending blind obedience and need for policies"
     },
     {
-      "title": "2) Shift in Taliban's posture: From a 'Dependent Proxy' to a 'Sovereign Nationalist' entity",
+      "title": "II. How strengthening the female mind by enlarging it with education Godsends blind obedience:",
       "page": 1,
-      "notes": "Main section with subpoints."
+      "notes": "Subpoints 1-3 on breaking patriarchal shackles, economic independence, knowing rights"
     },
     {
-      "title": "2.1) Taliban's assertion of strategic autonomy over dependence ended Pakistan's exclusive influence",
-      "page": 1,
-      "notes": "Bullet points under subsection."
-    },
-    {
-      "title": "2.2) Talibans aspirations for an Islamic Emirate",
+      "title": "II. (continued)",
       "page": 2,
-      "notes": "Continues with bullets."
+      "notes": "Subpoints 4-5 on immunity to customs and political participation"
     },
     {
-      "title": "2.3) Backfiring of Pakistan's border closure: Kabul's enhanced pursuit of economic independence through alternative trade routes",
+      "title": "III. Impediments in the way of enlarging female mind with education",
       "page": 2,
-      "notes": "Subsection with bullets."
+      "notes": "Subpoints 1-4 on societal barriers, economic dependence, child marriages, government provisions"
     },
     {
-      "title": "2.4) The Nationalist Narrative: Weaponizing anti-Pakistan",
-      "page": 2,
-      "notes": "Subsection continues to page 3."
-    },
-    {
-      "title": "3) Implications of TTP. Taliban nezus for Pakistan's Internal security",
+      "title": "III. (continued)",
       "page": 3,
-      "notes": "New main section."
+      "notes": "Subpoints 5-6 on digital divide and lack of security"
     },
     {
-      "title": "3.1) TTP's strategic depth in Taliban led Kabul: Taliban's non cooperation in decapitating a hostile terrorist outfit perpetuates a cycle of insurgency in Pakistan",
+      "title": "IV. Measures required to eliminate these impediment in way of women education.",
       "page": 3,
-      "notes": "Subsection with bullets."
+      "notes": "Subpoints 1-5 on attitudinal change, skill development, ban on early marriage, digital divide mitigation, enforce laws"
     },
     {
-      "title": "3.2) Sophisticated Weaponry left behind in the wake of US withdrawal is wreaking havoc in Pakistan's internal Security architecture through insurgency",
+      "title": "3. In Pakistan, ensure implementation of Article 25, and Article 38",
       "page": 4,
-      "notes": "Subsection with bullets and lists."
+      "notes": "Continuation of measures"
     },
     {
-      "title": "3.3) Pakistan's geo economic Strangulations at hands of TIP: increased violence in Chaman- Torkham sabotages trade supply",
+      "title": "NV. Conclusion.",
       "page": 4,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "3.4) TTP's 'Emirate' and Expansionist Aspirations: Pursuance of Shadows Governance In Kabul and Territorial fragmentation In Islamabad",
-      "page": 5,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "3.5) Pakistan's reactive hard stance: Bleak future of Pakistan's negotiating power in securing counter. terrorism efforts",
-      "page": 5,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4) Pakistan's eroding Regional standing amidst rising Indian footprint in Kabul",
-      "page": 6,
-      "notes": "New main section."
-    },
-    {
-      "title": "4.11 Pakistan's \"Strategis Encliclement\" nightmare has materialized in a new Two-front Dilemma",
-      "page": 6,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4.2) India's pragmatic and opportunistic engagement with Taliban: a direct challenge to Pakistan's core regional interests",
-      "page": 6,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4.3) Backlash for triggering a refugee crisis: Pak's diplomatic erosion in multilateral forums like SCO/UN",
-      "page": 7,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4.4) Crisis of Credibility with China amidst CPEC and BRI sabotage",
-      "page": 7,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4.5) Death of Islamabad's geoeconomic vision; Pakistan loses its leverage as gateway to CARS",
-      "page": 8,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "4.6) Rise of Chabahar as a strategic bypass erodes Pakistan's regional strakais relevance",
-      "page": 8,
-      "notes": "Subsection with bullets."
-    },
-    {
-      "title": "5) Conclusion",
-      "page": 8,
-      "notes": "Final section listed."
+      "notes": "Marker only"
     }
   ],
-  "essay_start_page": null,
+  "essay_start_page": 5,
   "paragraph_map": [
     {
       "page": 1,
-      "role_guess": "outline",
-      "notes": "Topic, 1) Introduction, start of 2) and 2.1 with bullets."
+      "role_guess": "outline"
     },
     {
       "page": 2,
-      "role_guess": "outline",
-      "notes": "Continuation of 2.1-2.4 with bullets."
+      "role_guess": "outline"
     },
     {
       "page": 3,
-      "role_guess": "outline",
-      "notes": "3) and 3.1 with bullets."
+      "role_guess": "outline"
     },
     {
       "page": 4,
-      "role_guess": "outline",
-      "notes": "3.2 and 3.3 with bullets and lists."
+      "role_guess": "outline"
     },
     {
       "page": 5,
-      "role_guess": "outline",
-      "notes": "3.4 and 3.5 with bullets."
+      "role_guess": "intro"
     },
     {
       "page": 6,
-      "role_guess": "outline",
-      "notes": "4), 4.1, 4.2 with bullets."
+      "role_guess": "body"
     },
     {
       "page": 7,
-      "role_guess": "outline",
-      "notes": "4.3 and 4.4 with bullets."
+      "role_guess": "body"
     },
     {
       "page": 8,
-      "role_guess": "outline",
-      "notes": "4.5, 4.6, 5) Conclusion."
+      "role_guess": "body"
+    },
+    {
+      "page": 9,
+      "role_guess": "body"
+    },
+    {
+      "page": 10,
+      "role_guess": "body"
+    },
+    {
+      "page": 11,
+      "role_guess": "body"
+    },
+    {
+      "page": 12,
+      "role_guess": "body"
+    },
+    {
+      "page": 13,
+      "role_guess": "body"
+    },
+    {
+      "page": 14,
+      "role_guess": "body"
+    },
+    {
+      "page": 15,
+      "role_guess": "body"
+    },
+    {
+      "page": 16,
+      "role_guess": "conclusion"
     }
   ],
-  "overall_flow_comment": "Detailed outline follows topic logically from introduction through analysis sections to conclusion; no prose essay body present."
+  "overall_flow_comment": "Essay closely follows outline structure from intro through body arguments, impediments, measures, to conclusion."
 }

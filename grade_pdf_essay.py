@@ -22,6 +22,7 @@
 
 import argparse
 import base64
+import gc
 import io
 import json
 import os
@@ -320,26 +321,102 @@ def pdf_to_page_images_for_grok(
 def get_report_page_size(
     pdf_path: str,
     dpi: int = 220,
-    margin_ratio: float = 0.40,
+    margin_ratio: float = 0.35,
     min_height: int = 3500,
+    max_width: int = 9000,
+    max_height: int = 12000,
+    max_pixels: int = 50000000,  # ~50MP limit (e.g., 5000x10000)
     fallback: Tuple[int, int] = (2977, 4211),
 ) -> Tuple[int, int]:
     """
-    Match report page size to the annotated canvas:
-    annotated pages use left=60% and right=40% of the PDF width (total = 2x PDF width) at 220 DPI.
+    Match report page size to the annotated canvas.
+
+    This project uses equal side margins around the essay body, so annotated width is:
+      total_width = orig_w * (1 + 2 * margin_ratio)
+
+    This implementation is adapted from `grade_pdf_answer.py`:
+    - Uses progressive DPI reduction for very large PDFs (prevents MemoryError)
+    - Caps max width/height and total pixel count
+    - Keeps THIS project's report width aligned to `annotate_pdf_essay_pages` canvas
+      (width multiplier = 2.0 of the rendered PDF page width at the chosen DPI)
     """
     doc = fitz.open(pdf_path)
     try:
         if doc.page_count == 0:
             return fallback
-        pix = doc[0].get_pixmap(dpi=dpi)
-        orig_w, orig_h = pix.width, pix.height
 
-        # Match annotate_pdf_essay_pages canvas: total width = orig_w * 2.0, height = orig_h
-        report_w = int(orig_w * 2.0)
-        report_h = max(orig_h, min_height)
-        return (report_w, report_h)
-    except Exception:
+        # Check page size first to estimate memory requirements
+        page = doc[0]
+        page_rect = page.rect
+        page_width_pts = page_rect.width
+        page_height_pts = page_rect.height
+
+        # Calculate expected pixmap size at target DPI (1 point = 1/72 inch)
+        expected_width = int(page_width_pts * (dpi / 72))
+        expected_height = int(page_height_pts * (dpi / 72))
+        expected_pixels = expected_width * expected_height
+        expected_mb = (expected_pixels * 4) / (1024 * 1024)  # RGBA = 4 bytes per pixel
+
+        # Progressive DPI reduction if page is too large
+        target_dpi = dpi
+        max_safe_mb = 50  # ~50MB per pixmap is reasonable
+        if expected_mb > max_safe_mb:
+            safe_dpi = int(dpi * (max_safe_mb / expected_mb) ** 0.5)
+            target_dpi = max(100, safe_dpi)  # don't go too low
+            print(
+                f"WARNING: First page is very large ({expected_width}x{expected_height} at {dpi} DPI, "
+                f"~{expected_mb:.1f}MB). Using {target_dpi} DPI instead to prevent MemoryError."
+            )
+
+        # Try to get pixmap with progressive DPI reduction
+        dpi_options = [target_dpi, 150, 100, 75] if target_dpi < dpi else [dpi, 150, 100, 75]
+        pix = None
+        last_error = None
+        for attempt_dpi in dpi_options:
+            try:
+                pix = page.get_pixmap(dpi=attempt_dpi)
+                if attempt_dpi < dpi:
+                    print(f"Successfully created pixmap at {attempt_dpi} DPI (reduced from {dpi} DPI)")
+                break
+            except Exception as e:
+                last_error = e
+                if attempt_dpi == dpi_options[-1]:
+                    print(f"WARNING: Failed to create pixmap even at {attempt_dpi} DPI. Using fallback size. Error: {e}")
+                    return fallback
+                continue
+
+        if pix is None:
+            print(f"WARNING: Failed to create pixmap. Using fallback size. Error: {last_error}")
+            return fallback
+
+        orig_w, orig_h = pix.width, pix.height
+        del pix
+        gc.collect()
+
+        # Match annotate_pdf_essay_pages canvas width: orig_w + left + right
+        total_width = int(orig_w * (1.0 + 2.0 * margin_ratio))
+        total_height = max(orig_h, min_height)
+
+        # Cap width/height to prevent extremely large images
+        if total_width > max_width:
+            total_width = max_width
+        if total_height > max_height:
+            total_height = max_height
+
+        # Check total pixel count (RGB images ~3 bytes per pixel)
+        total_pixels = total_width * total_height
+        if total_pixels > max_pixels:
+            scale = (max_pixels / float(total_pixels)) ** 0.5
+            total_width = int(total_width * scale)
+            total_height = int(total_height * scale)
+            print(
+                f"WARNING: Calculated page size exceeds pixel limit. "
+                f"Scaled down to ({total_width}x{total_height}) to prevent MemoryError."
+            )
+
+        return (total_width, total_height)
+    except Exception as e:
+        print(f"WARNING: Error calculating report page size: {e}. Using fallback size.")
         return fallback
     finally:
         doc.close()
@@ -816,21 +893,38 @@ def call_grok_for_essay_grading_strict_range(
     }
 
     instructions = (
-        "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
-        "Rules:\n"
-        "- Output only mark ranges per criterion (e.g., \"6-8\"); width ≤ 3 points.\n"
-        "- Hard cap: the total_awarded_range upper bound MUST NOT exceed 45; scale ranges down to stay under this cap.\n"
-        "- Keep totals conservative; strong essays rarely exceed ~38-40/100.\n"
-        "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
-        "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
-        "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
-        "- Do not mention OCR/scan/legibility/handwriting; critique clarity/relevance/logic instead.\n"
-        "- Headings/section markers may exist; judge what is visible, do not invent.\n"
-        "- Key comments and all free-text fields must be specific: cite the exact weakness/strength (e.g., 'thesis absent', 'claims unsupported by evidence', 'repetitive examples', 'grammar errors in intro'). Avoid generic statements.\n"
-        "- Reasons for low score: provide concrete issues drawn from the essay (structure, argument gaps, evidence, relevance, language); avoid generic advice.\n"
-        "- Suggested improvements for higher score (70+): give targeted, actionable steps tied to observed issues (e.g., 'add data to support claim X', 'state a clear thesis in introduction', 'remove repetition on page 3').\n"
-        "- If unsure, choose the lower bound and never leave fields blank.\n"
-        "- Return JSON only matching the provided schema."
+    "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
+    "Objective:\n"
+    "- Identify ONLY the specific issues that caused loss of marks under each rubric criterion.\n"
+    "- Do NOT praise, summarize, reinterpret, or rewrite any part of the essay.\n"
+    "Rules:\n"
+    "- Output only mark ranges per criterion (e.g., \"6–8\"); width ≤ 3 points.\n"
+    "- Hard cap: the total_awarded_range upper bound MUST NOT exceed 45; scale ranges down to stay under this cap.\n"
+    "- Keep totals conservative; strong essays rarely exceed ~38–40/100.\n"
+    "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
+    "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
+    "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
+    "- Judge only what is written; do not assume intent or missing content.\n"
+    "- Do not mention OCR/scan/legibility/handwriting; critique clarity, relevance, logic, and language only.\n"
+    "- Headings/section markers may exist; evaluate only what is visible; do not invent content.\n"
+    "Issue Identification Rules (Strict):\n"
+    "- For EACH criterion, list ONLY concrete deficiencies observed in the essay.\n"
+    "- Each issue must clearly explain why marks were lost.\n"
+    "- Use simple, direct language so the student understands exactly what went wrong.\n"
+    "- Avoid vague or generic phrases (e.g., 'needs improvement', 'lacks depth', 'weak analysis').\n"
+    "- State precise problems (e.g., 'no clear thesis in introduction', 'arguments listed without explanation', "
+    "'claims unsupported by evidence', 'irrelevant paragraphs', 'repetition of same example', "
+    "'frequent grammar errors in introduction and conclusion').\n"
+    "- Reasons for low score must be directly drawn from the essay (structure, argument gaps, evidence, relevance, language).\n"
+    "Suggested Improvements (if required by schema):\n"
+    "- Provide ONLY targeted, actionable fixes directly linked to the identified issues.\n"
+    "- Keep suggestions specific and exam-oriented (e.g., 'state a one-sentence thesis in the introduction', "
+    "'add factual evidence to support claim X', 'remove repeated example in body paragraph 3').\n"
+    "- Do NOT give general writing advice or motivational comments.\n"
+    "Other Constraints:\n"
+    "- Never leave any field blank.\n"
+    "- If unsure, choose the lower bound.\n"
+    "- Return JSON only, strictly matching the provided schema."
     )
 
     payload = {
@@ -860,7 +954,30 @@ def call_grok_for_essay_grading_strict_range(
         return True
 
     def _parse_range(rng: str) -> Tuple[int, int]:
-        parts = str(rng).split("-")
+        """
+        Parse a mark range string into (lo, hi).
+
+        Accepts:
+        - ASCII hyphen:        '6-8'
+        - En dash / em dash:   '6–8', '6—8'
+        - With spaces:         '6 – 8'
+        - 'to' as separator:   '6 to 8', '6   TO   8'
+
+        On any parse failure, returns (0, 0).
+        """
+        s = str(rng or "").strip()
+        if not s:
+            return 0, 0
+
+        # Normalise common separators to a simple hyphen
+        # U+2013 (EN DASH), U+2014 (EM DASH)
+        s = s.replace("–", "-").replace("—", "-")
+        # Replace textual 'to' with hyphen
+        s = re.sub(r"\bto\b", "-", s, flags=re.IGNORECASE)
+        # Collapse whitespace
+        s = re.sub(r"\s+", "", s)
+
+        parts = s.split("-")
         if len(parts) != 2:
             return 0, 0
         try:
@@ -1285,9 +1402,9 @@ def render_essay_report_pages_range(
         cell_font = _scaled_font(base_sizes["cell"], scale)
         small_font = _scaled_font(base_sizes["small"], scale)
 
-        col_criterion = int(W * 0.34)
-        col_alloc = int(W * 0.10)
-        col_award = int(W * 0.12)
+        col_criterion = int(W * 0.25)
+        col_alloc = int(W * 0.09)
+        col_award = int(W * 0.10)
         col_comments = W - margin * 2 - (col_criterion + col_alloc + col_award)
 
         img = Image.new("RGB", (W, H), "white")
@@ -1319,7 +1436,9 @@ def render_essay_report_pages_range(
         y += int(15 * scale)
         table_x = margin
         table_w = W - 2 * margin
-        row_h_base = max(40, int(72 * scale))
+        # Slightly taller table rows for readability
+        row_pad_y = max(2, int(8 * scale))
+        row_h_base = max(40, int(72 * scale) + row_pad_y)
         header_fill = (100, 100, 100)
         alt_fill = (200, 200, 200)
 
@@ -1349,9 +1468,51 @@ def render_essay_report_pages_range(
             tmp_img = Image.new("RGB", (10, 10), "white")
             tmp_draw = ImageDraw.Draw(tmp_img)
             comment_lines = _wrap_text(tmp_draw, comments, header_font, col_comments - int(20 * scale))
-            crit_lines = _wrap_text(tmp_draw, crit, header_font, col_criterion - int(20 * scale))
+
+            def _force_two_lines_for_first_cell(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> List[str]:
+                """
+                Force the FIRST criterion cell (row 1, col 1) into exactly 2 lines,
+                even when it fits on one line (e.g., "Essay Outline & Topic Interpretation/Clarity").
+                """
+                s = (text or "").strip()
+                if not s:
+                    return ["", ""]
+                words = s.split()
+                if len(words) < 2:
+                    # Can't split meaningfully
+                    return [s, ""]
+
+                # Find the best split point at a space that keeps both lines within max_width
+                best: Optional[Tuple[float, List[str]]] = None
+                for split_i in range(1, len(words)):
+                    a = " ".join(words[:split_i]).strip()
+                    b = " ".join(words[split_i:]).strip()
+                    if not a or not b:
+                        continue
+                    wa = tmp_draw.textlength(a, font=font)
+                    wb = tmp_draw.textlength(b, font=font)
+                    if wa <= max_width and wb <= max_width:
+                        # Prefer balanced width lines (minimize max width)
+                        score = max(wa, wb)
+                        if best is None or score < best[0]:
+                            best = (score, [a, b])
+
+                if best is not None:
+                    return best[1]
+
+                # If no clean split fits, fall back to normal wrapping (keeps behavior safe)
+                wrapped = _wrap_text(tmp_draw, s, font, max_width)
+                if len(wrapped) >= 2:
+                    return [wrapped[0], " ".join(wrapped[1:])]
+                return [wrapped[0] if wrapped else s, ""]
+
+            crit_max_w = col_criterion - int(20 * scale)
+            if idx_row == 0:
+                crit_lines = _force_two_lines_for_first_cell(crit, header_font, crit_max_w)
+            else:
+                crit_lines = _wrap_text(tmp_draw, crit, header_font, crit_max_w)
             lines_needed = max(len(comment_lines), len(crit_lines), 1)
-            row_h = max(row_h_base, int(lines_needed * 64 * scale))
+            row_h = max(row_h_base, int(lines_needed * 64 * scale) + row_pad_y)
 
             if not ensure_space(row_h + int(10 * scale)):
                 return False, None
@@ -1410,22 +1571,8 @@ def render_essay_report_pages_range(
 
         if not draw_bullets("Reasons for Low Score", grading.get("reasons_for_low_score") or []):
             return False, None
-        if not draw_bullets("Suggested Improvements for Higher Score (70+)", grading.get("suggested_improvements_for_higher_score_70_plus") or []):
+        if not draw_bullets("Suggested Improvements for Higher Score", grading.get("suggested_improvements_for_higher_score_70_plus") or []):
             return False, None
-
-        if not ensure_space(int(160 * scale)):
-            return False, None
-        draw.text((margin, y), "Overall Remarks:", font=title_font, fill=(0, 0, 0))
-        y += int(90 * scale)
-        remarks = str(grading.get("overall_remarks", "") or "")
-        tmp_img = Image.new("RGB", (10, 10), "white")
-        tmp_draw = ImageDraw.Draw(tmp_img)
-        rlines = _wrap_text(tmp_draw, remarks, header_font, W - 2 * margin)
-        for ln in rlines:
-            if not ensure_space(int(75 * scale)):
-                return False, None
-            draw.text((margin, y), ln, font=header_font, fill=(0, 0, 0))
-            y += int(70 * scale)
 
         return True, img
 
