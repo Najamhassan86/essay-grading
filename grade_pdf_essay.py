@@ -1281,6 +1281,8 @@ def call_grok_for_essay_annotations(
         "- Prefer 2-5 annotations per page.\n"
         "- Every annotation MUST be LOCATABLE on the page.\n"
         "- You may use type outline_quality ONLY on outline pages listed in allowed_outline_pages; for other pages use other types.\n"
+        "- Annotations = rubric-point issues; keep each comment to ONE concise line that states the problem and fix (no multi-line paragraphs).\n"
+        "- Page suggestions are a separate list of quick fixes for the same page.\n"
         "\n"
         "ANCHOR RULE (CRITICAL):\n"
         "- You are given OCR_PAGE_TEXT below.\n"

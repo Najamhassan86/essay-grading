@@ -11,8 +11,8 @@
     "quality": "Strong",
     "issues": [],
     "strengths": [
-      "Clear Roman numeral structure with subpoints spanning multiple pages",
-      "Includes introduction, main arguments, impediments, measures, and conclusion"
+      "Detailed numbered structure with subpoints and cases",
+      "Spans multiple pages with clear Roman numeral headings"
     ]
   },
   "outline_span": {
@@ -23,110 +23,111 @@
     {
       "title": "I. Introduction",
       "page": 1,
-      "notes": "Short paragraph on reality of female education ending blind obedience and need for policies"
+      "notes": "Short paragraph outlining thesis"
     },
     {
       "title": "II. How strengthening the female mind by enlarging it with education Godsends blind obedience:",
       "page": 1,
-      "notes": "Subpoints 1-3 on breaking patriarchal shackles, economic independence, knowing rights"
-    },
-    {
-      "title": "II. (continued)",
-      "page": 2,
-      "notes": "Subpoints 4-5 on immunity to customs and political participation"
+      "notes": "Points 1-3"
     },
     {
       "title": "III. Impediments in the way of enlarging female mind with education",
       "page": 2,
-      "notes": "Subpoints 1-4 on societal barriers, economic dependence, child marriages, government provisions"
-    },
-    {
-      "title": "III. (continued)",
-      "page": 3,
-      "notes": "Subpoints 5-6 on digital divide and lack of security"
+      "notes": "Points 1-4 with cases"
     },
     {
       "title": "IV. Measures required to eliminate these impediment in way of women education.",
       "page": 3,
-      "notes": "Subpoints 1-5 on attitudinal change, skill development, ban on early marriage, digital divide mitigation, enforce laws"
+      "notes": "Points 1-5 with cases"
     },
     {
-      "title": "3. In Pakistan, ensure implementation of Article 25, and Article 38",
+      "title": "V. Conclusion.",
       "page": 4,
-      "notes": "Continuation of measures"
-    },
-    {
-      "title": "NV. Conclusion.",
-      "page": 4,
-      "notes": "Marker only"
+      "notes": "Minimal content"
     }
   ],
   "essay_start_page": 5,
   "paragraph_map": [
     {
       "page": 1,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "Title, intro para, II start"
     },
     {
       "page": 2,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "II continuation, III"
     },
     {
       "page": 3,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "III continuation, IV"
     },
     {
       "page": 4,
-      "role_guess": "outline"
+      "role_guess": "outline",
+      "notes": "IV end, V marker"
     },
     {
       "page": 5,
-      "role_guess": "intro"
+      "role_guess": "intro",
+      "notes": "Expanded thesis restatement"
     },
     {
       "page": 6,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Transitions from intro; starts II.1 on patriarchal mindset"
     },
     {
       "page": 7,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "II.2 economic independence; II.3 rights awareness"
     },
     {
       "page": 8,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "II.4 immune to customs; partial II.5 political participation"
     },
     {
       "page": 9,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "II.5 end; starts III.1 societal barriers/poverty"
     },
     {
       "page": 10,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "III.1 cont.; III.2 economic dependence"
     },
     {
       "page": 11,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Impediments: economic dependence (conclusion), child marriages, government provisions (sanitation)"
     },
     {
       "page": 12,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Impediments: transport, digital divide, security outside home"
     },
     {
       "page": 13,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Transition to measures: attitudinal change"
     },
     {
       "page": 14,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Measures: skill development, ban marriage before 18"
     },
     {
       "page": 15,
-      "role_guess": "body"
+      "role_guess": "body",
+      "notes": "Measures: mitigate digital divide, enforce protection laws (SDGs, Articles)"
     },
     {
       "page": 16,
-      "role_guess": "conclusion"
+      "role_guess": "conclusion",
+      "notes": "Summarizes benefits of education, impediments, and solutions; ends essay"
     }
   ],
-  "overall_flow_comment": "Essay closely follows outline structure from intro through body arguments, impediments, measures, to conclusion."
+  "overall_flow_comment": "Concludes by restating thesis, recapping structure, and emphasizing policy changes for global progress."
 }

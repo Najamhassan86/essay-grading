@@ -1223,7 +1223,7 @@ def annotate_pdf_essay_pages(
             header = f"[{a_type}] {rubric_point}".strip()
             body = (comment + (f"  Fix: {correction}" if correction else "")).strip()
             if a_type != "grammar_language" and correction:
-                body = (comment + ("  Suggestion: " + correction)).strip()
+                body = (comment ).strip()
             resolved_callouts.append({
                 "rect": None,
                 "header": header,
