@@ -22,6 +22,7 @@
 
 import argparse
 import base64
+import gc
 import io
 import json
 import os
@@ -77,6 +78,15 @@ except Exception as e:
 # -----------------------------
 # Helpers
 # -----------------------------
+
+def _format_duration(seconds: float) -> str:
+    """Format elapsed time as 'Xs' or 'Xm Y.Ys' for display."""
+    if seconds < 60:
+        return f"{seconds:.2f}s"
+    m = int(seconds // 60)
+    s = seconds - m * 60
+    return f"{m}m {s:.2f}s"
+
 
 def clean_json_from_llm(text: str) -> str:
     text = (text or "").strip()
@@ -320,26 +330,102 @@ def pdf_to_page_images_for_grok(
 def get_report_page_size(
     pdf_path: str,
     dpi: int = 220,
-    margin_ratio: float = 0.40,
+    margin_ratio: float = 0.35,
     min_height: int = 3500,
+    max_width: int = 9000,
+    max_height: int = 12000,
+    max_pixels: int = 50000000,  # ~50MP limit (e.g., 5000x10000)
     fallback: Tuple[int, int] = (2977, 4211),
 ) -> Tuple[int, int]:
     """
-    Match report page size to the annotated canvas:
-    annotated pages use left=60% and right=40% of the PDF width (total = 2x PDF width) at 220 DPI.
+    Match report page size to the annotated canvas.
+
+    This project uses equal side margins around the essay body, so annotated width is:
+      total_width = orig_w * (1 + 2 * margin_ratio)
+
+    This implementation is adapted from `grade_pdf_answer.py`:
+    - Uses progressive DPI reduction for very large PDFs (prevents MemoryError)
+    - Caps max width/height and total pixel count
+    - Keeps THIS project's report width aligned to `annotate_pdf_essay_pages` canvas
+      (width multiplier = 2.0 of the rendered PDF page width at the chosen DPI)
     """
     doc = fitz.open(pdf_path)
     try:
         if doc.page_count == 0:
             return fallback
-        pix = doc[0].get_pixmap(dpi=dpi)
-        orig_w, orig_h = pix.width, pix.height
 
-        # Match annotate_pdf_essay_pages canvas: total width = orig_w * 2.0, height = orig_h
-        report_w = int(orig_w * 2.0)
-        report_h = max(orig_h, min_height)
-        return (report_w, report_h)
-    except Exception:
+        # Check page size first to estimate memory requirements
+        page = doc[0]
+        page_rect = page.rect
+        page_width_pts = page_rect.width
+        page_height_pts = page_rect.height
+
+        # Calculate expected pixmap size at target DPI (1 point = 1/72 inch)
+        expected_width = int(page_width_pts * (dpi / 72))
+        expected_height = int(page_height_pts * (dpi / 72))
+        expected_pixels = expected_width * expected_height
+        expected_mb = (expected_pixels * 4) / (1024 * 1024)  # RGBA = 4 bytes per pixel
+
+        # Progressive DPI reduction if page is too large
+        target_dpi = dpi
+        max_safe_mb = 50  # ~50MB per pixmap is reasonable
+        if expected_mb > max_safe_mb:
+            safe_dpi = int(dpi * (max_safe_mb / expected_mb) ** 0.5)
+            target_dpi = max(100, safe_dpi)  # don't go too low
+            print(
+                f"WARNING: First page is very large ({expected_width}x{expected_height} at {dpi} DPI, "
+                f"~{expected_mb:.1f}MB). Using {target_dpi} DPI instead to prevent MemoryError."
+            )
+
+        # Try to get pixmap with progressive DPI reduction
+        dpi_options = [target_dpi, 150, 100, 75] if target_dpi < dpi else [dpi, 150, 100, 75]
+        pix = None
+        last_error = None
+        for attempt_dpi in dpi_options:
+            try:
+                pix = page.get_pixmap(dpi=attempt_dpi)
+                if attempt_dpi < dpi:
+                    print(f"Successfully created pixmap at {attempt_dpi} DPI (reduced from {dpi} DPI)")
+                break
+            except Exception as e:
+                last_error = e
+                if attempt_dpi == dpi_options[-1]:
+                    print(f"WARNING: Failed to create pixmap even at {attempt_dpi} DPI. Using fallback size. Error: {e}")
+                    return fallback
+                continue
+
+        if pix is None:
+            print(f"WARNING: Failed to create pixmap. Using fallback size. Error: {last_error}")
+            return fallback
+
+        orig_w, orig_h = pix.width, pix.height
+        del pix
+        gc.collect()
+
+        # Match annotate_pdf_essay_pages canvas width: orig_w + left + right
+        total_width = int(orig_w * (1.0 + 2.0 * margin_ratio))
+        total_height = max(orig_h, min_height)
+
+        # Cap width/height to prevent extremely large images
+        if total_width > max_width:
+            total_width = max_width
+        if total_height > max_height:
+            total_height = max_height
+
+        # Check total pixel count (RGB images ~3 bytes per pixel)
+        total_pixels = total_width * total_height
+        if total_pixels > max_pixels:
+            scale = (max_pixels / float(total_pixels)) ** 0.5
+            total_width = int(total_width * scale)
+            total_height = int(total_height * scale)
+            print(
+                f"WARNING: Calculated page size exceeds pixel limit. "
+                f"Scaled down to ({total_width}x{total_height}) to prevent MemoryError."
+            )
+
+        return (total_width, total_height)
+    except Exception as e:
+        print(f"WARNING: Error calculating report page size: {e}. Using fallback size.")
         return fallback
     finally:
         doc.close()
@@ -573,8 +659,62 @@ def load_report_format_text(path: str) -> str:
 
 
 # -----------------------------
-# Grok Calls
+# Grok Calls (chunked payloads to avoid 503 / size limits)
 # -----------------------------
+
+# Max page images per structure request; grading uses at most MAX_PAGES_FOR_GRADING when doc is longer.
+STRUCTURE_CHUNK_PAGES = 5
+MAX_PAGES_FOR_GRADING = 20
+
+
+def _chunk_page_images(
+    page_images: List[Dict[str, Any]],
+    chunk_size: int,
+) -> List[Tuple[List[Dict[str, Any]], List[int]]]:
+    """
+    Split page_images into chunks by page number. Returns list of (chunk_pages, page_numbers).
+    Preserves order; every page appears in exactly one chunk.
+    """
+    if not page_images:
+        return []
+    by_page = sorted(page_images, key=lambda p: p.get("page", 0))
+    chunks: List[Tuple[List[Dict[str, Any]], List[int]]] = []
+    for i in range(0, len(by_page), chunk_size):
+        chunk = by_page[i : i + chunk_size]
+        pages = [p.get("page") for p in chunk if p.get("page") is not None]
+        chunks.append((chunk, pages))
+    return chunks
+
+
+def _subset_page_images_for_grading(
+    page_images: List[Dict[str, Any]],
+    max_pages: int,
+) -> List[Dict[str, Any]]:
+    """
+    When there are many pages, return a representative subset (first, last, middle)
+    so the grading payload stays small. Nothing is lost: full OCR and structure are still sent.
+    """
+    if len(page_images) <= max_pages:
+        return page_images
+    by_page = sorted(page_images, key=lambda p: p.get("page", 0))
+    n = len(by_page)
+    # first 3, last 3, and evenly spaced from middle
+    head = 3
+    tail = 3
+    mid_count = max_pages - head - tail
+    if mid_count <= 0:
+        return by_page[:max_pages]
+    indices = list(range(head))
+    # middle indices evenly spaced
+    step = (n - head - tail) / (mid_count + 1)
+    for i in range(mid_count):
+        idx = head + int((i + 1) * step)
+        if idx < n - tail:
+            indices.append(idx)
+    indices.extend(range(n - tail, n))
+    indices = sorted(set(indices))[:max_pages]
+    return [by_page[i] for i in indices]
+
 
 def _grok_chat(
     grok_api_key: str,
@@ -605,7 +745,9 @@ def _grok_chat(
                 err = RuntimeError(f"Grok API error {resp.status_code}: {resp.text}")
                 if resp.status_code in (429, 500, 502, 503, 504) and attempt < max_retries:
                     last_err = err
-                    time.sleep(min(backoff_max, backoff_base ** attempt))
+                    delay = min(backoff_max, backoff_base ** attempt)
+                    print(f"  Grok API {resp.status_code} (attempt {attempt + 1}/{max_retries + 1}). Retrying in {delay:.0f}s...")
+                    time.sleep(delay)
                     continue
                 raise err
             return resp.json()
@@ -669,50 +811,104 @@ def call_grok_for_essay_structure_paragraphs_only(
             lines.append((line.get("text") or ""))
         sanitized_pages.append({"page_number": p.get("page_number"), "lines_preview": lines})
 
-    user_payload = {
-        "task": (
-            "Detect topic/title, identify outline pages first, and map each page's role "
-            "(outline/intro/body/conclusion/mixed) for the essay."
-        ),
-        "rules": [
-            "Do NOT invent headings or sections; only report if visible.",
-            "Outline is typically a numbered/roman list or bullet plan early (often page 1) spanning ~3-4 pages; may include headings and short paragraphs.",
-            "If outline is missing or weak, say so strongly.",
-            "role_guess is best-effort: outline, intro, body, conclusion, mixed.",
-            "Ignore OCR errors; do not mention OCR quality, legibility, scanning, handwriting, blurring, or smudging anywhere.",
-            "Topic must be verbatim as written in the essay; never expand or paraphrase.",
-            "After the outline, the main essay continues for ~10-12 pages as paragraphs; identify the page where the outline ends and essay begins.",
-            "List each outline section with its page number; use the visible heading/phrase as the title (do not invent).",
-            "If parts are unreadable, say 'content unclear' without blaming OCR/scan/handwriting.",
-        ],
-        "ocr_pages_preview": sanitized_pages,
-        "ocr_full_text": (ocr_data.get("full_text") or ""),
-        "page_images": page_images,
-        "output_schema": {
-            "topic": "string",
-            "outline": {
-                "present": True,
-                "pages": [1],
-                "quality": "Weak",
-                "issues": ["..."],
-                "strengths": ["..."],
-            },
-            "outline_span": {"start_page": 1, "end_page": 3},
-            "outline_sections": [{"title": "Section title", "page": 1, "notes": "short"}],
-            "essay_start_page": 4,
-            "paragraph_map": [{"page": 1, "role_guess": "outline", "notes": "short"}],
-            "overall_flow_comment": "short",
-        },
-    }
+    chunks = _chunk_page_images(page_images, STRUCTURE_CHUNK_PAGES)
+    if not chunks:
+        return {
+            "topic": "",
+            "outline": {"present": False, "pages": [], "quality": "Weak", "issues": [], "strengths": []},
+            "outline_span": {},
+            "outline_sections": [],
+            "essay_start_page": 1,
+            "paragraph_map": [],
+            "overall_flow_comment": "",
+        }
 
-    data = _grok_chat(
-        grok_api_key,
-        messages=[system, {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}],
-        temperature=0.1,
-    )
-    content = data["choices"][0]["message"]["content"]
-    parsed = json.loads(clean_json_from_llm(content))
-    return parsed
+    merged: Dict[str, Any] = {
+        "topic": "",
+        "outline": {"present": False, "pages": [], "quality": "Weak", "issues": [], "strengths": []},
+        "outline_span": {},
+        "outline_sections": [],
+        "essay_start_page": 1,
+        "paragraph_map": [],
+        "overall_flow_comment": "",
+    }
+    all_pages = sorted({p.get("page") for p in page_images if p.get("page") is not None})
+    last_page_set = {max(all_pages)} if all_pages else set()
+
+    for idx, (chunk_pages, chunk_page_nums) in enumerate(chunks):
+        chunk_has_page_one = 1 in chunk_page_nums or (chunk_page_nums and min(chunk_page_nums) == 1)
+        chunk_has_last_page = bool(chunk_page_nums and max(chunk_page_nums) in last_page_set)
+
+        user_payload = {
+            "task": (
+                "Detect topic/title, identify outline pages first, and map each page's role "
+                "(outline/intro/body/conclusion/mixed) for the essay. "
+                "You are given ONLY page images for pages " + str(chunk_page_nums) + ". "
+                "Return paragraph_map entries ONLY for these page numbers. "
+                + ("This chunk includes page 1: also return topic, outline, outline_span, outline_sections, essay_start_page." if chunk_has_page_one else "")
+                + (" This chunk includes the last page: also return overall_flow_comment." if chunk_has_last_page else "")
+            ),
+            "rules": [
+                "Do NOT invent headings or sections; only report if visible.",
+                "Outline is typically a numbered/roman list or bullet plan early (often page 1) spanning ~3-4 pages; may include headings and short paragraphs.",
+                "If outline is missing or weak, say so strongly.",
+                "role_guess is best-effort: outline, intro, body, conclusion, mixed.",
+                "Ignore OCR errors; do not mention OCR quality, legibility, scanning, handwriting, blurring, or smudging anywhere.",
+                "Topic must be verbatim as written in the essay; never expand or paraphrase.",
+                "After the outline, the main essay continues for ~10-12 pages as paragraphs; identify the page where the outline ends and essay begins.",
+                "List each outline section with its page number; use the visible heading/phrase as the title (do not invent).",
+                "If parts are unreadable, say 'content unclear' without blaming OCR/scan/handwriting.",
+            ],
+            "ocr_pages_preview": sanitized_pages,
+            "ocr_full_text": (ocr_data.get("full_text") or ""),
+            "page_images": chunk_pages,
+            "output_schema": {
+                "topic": "string",
+                "outline": {
+                    "present": True,
+                    "pages": [1],
+                    "quality": "Weak",
+                    "issues": ["..."],
+                    "strengths": ["..."],
+                },
+                "outline_span": {"start_page": 1, "end_page": 3},
+                "outline_sections": [{"title": "Section title", "page": 1, "notes": "short"}],
+                "essay_start_page": 4,
+                "paragraph_map": [{"page": 1, "role_guess": "outline", "notes": "short"}],
+                "overall_flow_comment": "short",
+            },
+        }
+
+        print(f"  Structure chunk {idx + 1}/{len(chunks)} (pages {chunk_page_nums})...")
+        data = _grok_chat(
+            grok_api_key,
+            messages=[system, {"role": "user", "content": json.dumps(user_payload, ensure_ascii=False)}],
+            temperature=0.1,
+        )
+        content = data["choices"][0]["message"]["content"]
+        parsed = json.loads(clean_json_from_llm(content))
+
+        pm = parsed.get("paragraph_map") or []
+        for e in pm:
+            if isinstance(e, dict) and e.get("page") is not None:
+                merged["paragraph_map"].append(e)
+        merged["paragraph_map"].sort(key=lambda x: (x.get("page") or 0))
+
+        if chunk_has_page_one:
+            if (parsed.get("topic") or "").strip():
+                merged["topic"] = (parsed.get("topic") or "").strip()
+            if parsed.get("outline") and isinstance(parsed["outline"], dict):
+                merged["outline"] = parsed["outline"]
+            if parsed.get("outline_span") and isinstance(parsed["outline_span"], dict):
+                merged["outline_span"] = parsed["outline_span"]
+            if isinstance(parsed.get("outline_sections"), list):
+                merged["outline_sections"] = parsed["outline_sections"]
+            if isinstance(parsed.get("essay_start_page"), int):
+                merged["essay_start_page"] = parsed["essay_start_page"]
+        if chunk_has_last_page and (parsed.get("overall_flow_comment") or "").strip():
+            merged["overall_flow_comment"] = (parsed.get("overall_flow_comment") or "").strip()
+
+    return merged
 
 
 def call_grok_for_essay_grading_strict_range(
@@ -816,29 +1012,50 @@ def call_grok_for_essay_grading_strict_range(
     }
 
     instructions = (
-        "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
-        "Rules:\n"
-        "- Output only mark ranges per criterion (e.g., \"6-8\"); width ≤ 3 points.\n"
-        "- Hard cap: the total_awarded_range upper bound MUST NOT exceed 45; scale ranges down to stay under this cap.\n"
-        "- Keep totals conservative; strong essays rarely exceed ~38-40/100.\n"
-        "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
-        "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
-        "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
-        "- Do not mention OCR/scan/legibility/handwriting; critique clarity/relevance/logic instead.\n"
-        "- Headings/section markers may exist; judge what is visible, do not invent.\n"
-        "- Key comments and all free-text fields must be specific: cite the exact weakness/strength (e.g., 'thesis absent', 'claims unsupported by evidence', 'repetitive examples', 'grammar errors in intro'). Avoid generic statements.\n"
-        "- Reasons for low score: provide concrete issues drawn from the essay (structure, argument gaps, evidence, relevance, language); avoid generic advice.\n"
-        "- Suggested improvements for higher score (70+): give targeted, actionable steps tied to observed issues (e.g., 'add data to support claim X', 'state a clear thesis in introduction', 'remove repetition on page 3').\n"
-        "- If unsure, choose the lower bound and never leave fields blank.\n"
-        "- Return JSON only matching the provided schema."
+    "Grade strictly using the provided CSS English Essay rubric (weights are in the rubric/schema).\n"
+    "Objective:\n"
+    "- Identify ONLY the specific issues that caused loss of marks under each rubric criterion.\n"
+    "- Do NOT praise, summarize, reinterpret, or rewrite any part of the essay.\n"
+    "Rules:\n"
+    "- Output only mark ranges per criterion (e.g., \"6–8\"); width ≤ 3 points.\n"
+    "- Hard cap: the total_awarded_range upper bound MUST NOT exceed 45; scale ranges down to stay under this cap.\n"
+    "- Keep totals conservative; strong essays rarely exceed ~38–40/100.\n"
+    "- Overall rating must be one of: Excellent, Good, Average, Weak.\n"
+    "- total_awarded_range = sum of all low bounds and high bounds across criteria.\n"
+    "- Topic must be verbatim from the essay; do not rephrase or shorten.\n"
+    "- Judge only what is written; do not assume intent or missing content.\n"
+    "- Do not mention OCR/scan/legibility/handwriting; critique clarity, relevance, logic, and language only.\n"
+    "- Headings/section markers may exist; evaluate only what is visible; do not invent content.\n"
+    "Issue Identification Rules (Strict):\n"
+    "- For EACH criterion, list ONLY concrete deficiencies observed in the essay.\n"
+    "- Each issue must clearly explain why marks were lost.\n"
+    "- Use simple, direct language so the student understands exactly what went wrong.\n"
+    "- Avoid vague or generic phrases (e.g., 'needs improvement', 'lacks depth', 'weak analysis').\n"
+    "- State precise problems (e.g., 'no clear thesis in introduction', 'arguments listed without explanation', "
+    "'claims unsupported by evidence', 'irrelevant paragraphs', 'repetition of same example', "
+    "'frequent grammar errors in introduction and conclusion').\n"
+    "- Reasons for low score must be directly drawn from the essay (structure, argument gaps, evidence, relevance, language).\n"
+    "Suggested Improvements (if required by schema):\n"
+    "- Provide ONLY targeted, actionable fixes directly linked to the identified issues.\n"
+    "- Keep suggestions specific and exam-oriented (e.g., 'state a one-sentence thesis in the introduction', "
+    "'add factual evidence to support claim X', 'remove repeated example in body paragraph 3').\n"
+    "- Do NOT give general writing advice or motivational comments.\n"
+    "Other Constraints:\n"
+    "- Never leave any field blank.\n"
+    "- If unsure, choose the lower bound.\n"
+    "- Return JSON only, strictly matching the provided schema."
     )
 
+    # Use subset of page images when many pages to keep payload under API limits; full OCR + structure still sent
+    grading_images = _subset_page_images_for_grading(page_images, MAX_PAGES_FOR_GRADING)
+    if len(grading_images) < len(page_images):
+        print(f"  Grading: using {len(grading_images)} representative pages (of {len(page_images)}) to reduce payload size.")
     payload = {
         "essay_rubric_text": (essay_rubric_text or ""),
         "report_format_text": (report_format_text or ""),
         "structure_detected": structure,
         "ocr_full_text": (ocr_data.get("full_text") or ""),
-        "page_images": page_images,
+        "page_images": grading_images,
         "output_schema": schema_hint,
     }
 
@@ -860,7 +1077,30 @@ def call_grok_for_essay_grading_strict_range(
         return True
 
     def _parse_range(rng: str) -> Tuple[int, int]:
-        parts = str(rng).split("-")
+        """
+        Parse a mark range string into (lo, hi).
+
+        Accepts:
+        - ASCII hyphen:        '6-8'
+        - En dash / em dash:   '6–8', '6—8'
+        - With spaces:         '6 – 8'
+        - 'to' as separator:   '6 to 8', '6   TO   8'
+
+        On any parse failure, returns (0, 0).
+        """
+        s = str(rng or "").strip()
+        if not s:
+            return 0, 0
+
+        # Normalise common separators to a simple hyphen
+        # U+2013 (EN DASH), U+2014 (EM DASH)
+        s = s.replace("–", "-").replace("—", "-")
+        # Replace textual 'to' with hyphen
+        s = re.sub(r"\bto\b", "-", s, flags=re.IGNORECASE)
+        # Collapse whitespace
+        s = re.sub(r"\s+", "", s)
+
+        parts = s.split("-")
         if len(parts) != 2:
             return 0, 0
         try:
@@ -1285,9 +1525,9 @@ def render_essay_report_pages_range(
         cell_font = _scaled_font(base_sizes["cell"], scale)
         small_font = _scaled_font(base_sizes["small"], scale)
 
-        col_criterion = int(W * 0.34)
-        col_alloc = int(W * 0.10)
-        col_award = int(W * 0.12)
+        col_criterion = int(W * 0.25)
+        col_alloc = int(W * 0.09)
+        col_award = int(W * 0.10)
         col_comments = W - margin * 2 - (col_criterion + col_alloc + col_award)
 
         img = Image.new("RGB", (W, H), "white")
@@ -1319,7 +1559,9 @@ def render_essay_report_pages_range(
         y += int(15 * scale)
         table_x = margin
         table_w = W - 2 * margin
-        row_h_base = max(40, int(72 * scale))
+        # Slightly taller table rows for readability
+        row_pad_y = max(2, int(8 * scale))
+        row_h_base = max(40, int(72 * scale) + row_pad_y)
         header_fill = (100, 100, 100)
         alt_fill = (200, 200, 200)
 
@@ -1349,9 +1591,51 @@ def render_essay_report_pages_range(
             tmp_img = Image.new("RGB", (10, 10), "white")
             tmp_draw = ImageDraw.Draw(tmp_img)
             comment_lines = _wrap_text(tmp_draw, comments, header_font, col_comments - int(20 * scale))
-            crit_lines = _wrap_text(tmp_draw, crit, header_font, col_criterion - int(20 * scale))
+
+            def _force_two_lines_for_first_cell(text: str, font: ImageFont.FreeTypeFont, max_width: int) -> List[str]:
+                """
+                Force the FIRST criterion cell (row 1, col 1) into exactly 2 lines,
+                even when it fits on one line (e.g., "Essay Outline & Topic Interpretation/Clarity").
+                """
+                s = (text or "").strip()
+                if not s:
+                    return ["", ""]
+                words = s.split()
+                if len(words) < 2:
+                    # Can't split meaningfully
+                    return [s, ""]
+
+                # Find the best split point at a space that keeps both lines within max_width
+                best: Optional[Tuple[float, List[str]]] = None
+                for split_i in range(1, len(words)):
+                    a = " ".join(words[:split_i]).strip()
+                    b = " ".join(words[split_i:]).strip()
+                    if not a or not b:
+                        continue
+                    wa = tmp_draw.textlength(a, font=font)
+                    wb = tmp_draw.textlength(b, font=font)
+                    if wa <= max_width and wb <= max_width:
+                        # Prefer balanced width lines (minimize max width)
+                        score = max(wa, wb)
+                        if best is None or score < best[0]:
+                            best = (score, [a, b])
+
+                if best is not None:
+                    return best[1]
+
+                # If no clean split fits, fall back to normal wrapping (keeps behavior safe)
+                wrapped = _wrap_text(tmp_draw, s, font, max_width)
+                if len(wrapped) >= 2:
+                    return [wrapped[0], " ".join(wrapped[1:])]
+                return [wrapped[0] if wrapped else s, ""]
+
+            crit_max_w = col_criterion - int(20 * scale)
+            if idx_row == 0:
+                crit_lines = _force_two_lines_for_first_cell(crit, header_font, crit_max_w)
+            else:
+                crit_lines = _wrap_text(tmp_draw, crit, header_font, crit_max_w)
             lines_needed = max(len(comment_lines), len(crit_lines), 1)
-            row_h = max(row_h_base, int(lines_needed * 64 * scale))
+            row_h = max(row_h_base, int(lines_needed * 64 * scale) + row_pad_y)
 
             if not ensure_space(row_h + int(10 * scale)):
                 return False, None
@@ -1410,22 +1694,8 @@ def render_essay_report_pages_range(
 
         if not draw_bullets("Reasons for Low Score", grading.get("reasons_for_low_score") or []):
             return False, None
-        if not draw_bullets("Suggested Improvements for Higher Score (70+)", grading.get("suggested_improvements_for_higher_score_70_plus") or []):
+        if not draw_bullets("Suggested Improvements for Higher Score", grading.get("suggested_improvements_for_higher_score_70_plus") or []):
             return False, None
-
-        if not ensure_space(int(160 * scale)):
-            return False, None
-        draw.text((margin, y), "Overall Remarks:", font=title_font, fill=(0, 0, 0))
-        y += int(90 * scale)
-        remarks = str(grading.get("overall_remarks", "") or "")
-        tmp_img = Image.new("RGB", (10, 10), "white")
-        tmp_draw = ImageDraw.Draw(tmp_img)
-        rlines = _wrap_text(tmp_draw, remarks, header_font, W - 2 * margin)
-        for ln in rlines:
-            if not ensure_space(int(75 * scale)):
-                return False, None
-            draw.text((margin, y), ln, font=header_font, fill=(0, 0, 0))
-            y += int(70 * scale)
 
         return True, img
 
@@ -1680,14 +1950,19 @@ def main():
     annotations_rubric_text = load_annotations_rubric_text(args.annotations_rubric_docx)
     report_format_text = load_report_format_text(args.report_format_docx)
 
+    total_start = time.perf_counter()
+    timings: Dict[str, float] = {}
+
     print("Running OCR (Azure Document Intelligence)...")
+    t0 = time.perf_counter()
     ocr_data = run_ocr_on_pdf(
         doc_client,
         args.pdf,
         workers=args.ocr_workers,
         debug_pages_dir=args.debug_ocr_pages_dir or None,
     )
-    print("OCR done.")
+    timings["OCR extraction"] = time.perf_counter() - t0
+    print(f"OCR done. Time: {_format_duration(timings['OCR extraction'])}")
     if args.debug_ocr_json:
         os.makedirs(os.path.dirname(args.debug_ocr_json), exist_ok=True)
         with open(args.debug_ocr_json, "w", encoding="utf-8") as f:
@@ -1697,8 +1972,10 @@ def main():
     page_images = pdf_to_page_images_for_grok(args.pdf)
 
     print("Calling Grok for structure detection (outline first)...")
+    t0 = time.perf_counter()
     structure = call_grok_for_essay_structure_paragraphs_only(grok_key, ocr_data, page_images)
-    print("Structure detected.")
+    timings["Grok structure detection"] = time.perf_counter() - t0
+    print(f"Structure detected. Time: {_format_duration(timings['Grok structure detection'])}")
     if args.debug_structure_json:
         os.makedirs(os.path.dirname(args.debug_structure_json), exist_ok=True)
         with open(args.debug_structure_json, "w", encoding="utf-8") as f:
@@ -1706,6 +1983,7 @@ def main():
         print(f"Structure saved to {args.debug_structure_json}")
 
     print("Calling Grok for STRICT range grading...")
+    t0 = time.perf_counter()
     grading = call_grok_for_essay_grading_strict_range(
         grok_key,
         essay_rubric_text=essay_rubric_text,
@@ -1714,15 +1992,19 @@ def main():
         structure=structure,
         page_images=page_images,
     )
-    print("Grading done.")
+    timings["Strict range grading"] = time.perf_counter() - t0
+    print(f"Grading done. Time: {_format_duration(timings['Strict range grading'])}")
     
     
     print("Detecting spelling and grammar errors...")
+    t0 = time.perf_counter()
     spelling_errors = detect_spelling_grammar_errors(grok_key, ocr_data)
     spelling_errors = _filter_errors(spelling_errors)
-    print(f"Found {len(spelling_errors)} spelling/grammar errors.")
+    timings["Spelling and grammar detection"] = time.perf_counter() - t0
+    print(f"Found {len(spelling_errors)} spelling/grammar errors. Time: {_format_duration(timings['Spelling and grammar detection'])}")
     
     print("Calling Grok for annotations...")
+    t0 = time.perf_counter()
     ann_pack = call_grok_for_essay_annotations(
         grok_key,
         annotations_rubric_text=annotations_rubric_text,
@@ -1731,8 +2013,8 @@ def main():
         grading=grading,
         page_images=page_images,
     )
-    
-    
+    timings["Annotations"] = time.perf_counter() - t0
+    print(f"Annotations done. Time: {_format_duration(timings['Annotations'])}")
 
     annotations = ann_pack.get("annotations") or []
     page_suggestions = ann_pack.get("page_suggestions") or []
@@ -1752,10 +2034,12 @@ def main():
         json.dump(output, f, ensure_ascii=False, indent=2)
     print(f"Saved JSON  {args.output_json}")
     
-    # STEP 1: Add spelling annotations to original PDF first
+    # STEP 1–3: Rendering (spelling annotations, report + annotated pages, merge)
+    print("Rendering report and annotated PDF...")
+    t0 = time.perf_counter()
     temp_spelling_pdf = None
     pdf_for_grading = args.pdf
-    
+
     if spelling_errors:
         temp_spelling_pdf = tempfile.NamedTemporaryFile(delete=False, suffix=".pdf").name
         add_spelling_annotations_to_pdf(
@@ -1765,8 +2049,7 @@ def main():
             spelling_errors=spelling_errors,
         )
         pdf_for_grading = temp_spelling_pdf
-    
-    # STEP 2: Run essay grading annotations on the spelling-annotated PDF
+
     page_size = get_report_page_size(pdf_for_grading)
     report_pages = render_essay_report_pages_range(grading, page_size=page_size)
 
@@ -1780,22 +2063,32 @@ def main():
         spelling_errors=None,  # Already added in step 1
     )
 
-    # STEP 3: Merge report and annotated pages
     merge_report_and_annotated_answer(
         report_pages,
         annotated_pages,
         args.output_pdf,
     )
-    
-    # Clean up temporary file
+
     if temp_spelling_pdf:
-        import os
         try:
             os.unlink(temp_spelling_pdf)
-        except:
+        except Exception:
             pass
-    
+
+    timings["Rendering"] = time.perf_counter() - t0
+    print(f"Rendering done. Time: {_format_duration(timings['Rendering'])}")
     print(f"Saved annotated PDF  {args.output_pdf}")
+
+    total_elapsed = time.perf_counter() - total_start
+    print("")
+    print("=" * 60)
+    print("ESSAY GRADING TIMING SUMMARY")
+    print("=" * 60)
+    for phase, elapsed in timings.items():
+        print(f"  {phase}: {_format_duration(elapsed)}")
+    print("-" * 60)
+    print(f"  Total essay grading time: {_format_duration(total_elapsed)}")
+    print("=" * 60)
 
 
 if __name__ == "__main__":
