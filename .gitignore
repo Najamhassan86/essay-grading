@@ -41,6 +41,10 @@ htmlcov/
 debug_llm/
 grok_images_essay/
 tmp_grok_images/
+.json
+*.json
+
+*.jpg
 
 *.pdf
 # Environment variables
