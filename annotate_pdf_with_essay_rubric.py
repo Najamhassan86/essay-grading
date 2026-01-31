@@ -24,6 +24,7 @@ IMPORTANT (upstream requirement):
 import io
 import re
 import difflib
+import unicodedata
 from typing import Any, Dict, List, Tuple, Optional
 
 import fitz  # PyMuPDF
@@ -623,9 +624,41 @@ def _shift_rect(rect: Tuple[int, int, int, int], x_shift: int, y_shift: int) -> 
 # ============================================================
 # DRAWING HELPERS
 # ============================================================
+_UNICODE_REPLACEMENTS = {
+    "“": '"',
+    "”": '"',
+    "‘": "'",
+    "’": "'",
+    "–": "-",
+    "—": "-",
+    "…": "...",
+    "→": "->",
+    "←": "<-",
+    "↔": "<->",
+    "•": "*",
+    "·": "-",
+}
+
+
+def _sanitize_text_for_render(text: str) -> str:
+    """
+    Make text safe for rendering when fonts lack certain Unicode glyphs.
+    - Replaces common curly quotes/dashes/arrows/bullets with ASCII.
+    - Normalizes and strips characters that can't be encoded to ASCII.
+    """
+    if not text:
+        return ""
+    s = text
+    for k, v in _UNICODE_REPLACEMENTS.items():
+        s = s.replace(k, v)
+    s = unicodedata.normalize("NFKD", s)
+    s = s.encode("ascii", "ignore").decode("ascii")
+    return s
+
+
 def _wrap_text_lines(text: str, font_scale: float, thickness: int, max_width_px: int) -> List[str]:
     font_face = cv2.FONT_HERSHEY_SIMPLEX
-    words = (text or "").split()
+    words = (_sanitize_text_for_render(text) or "").split()
     if not words:
         return []
     lines: List[str] = []
@@ -857,7 +890,9 @@ def _add_spelling_annotations_to_pdf(
         page.draw_rect(rect, color=(0.8, 0, 0), width=2.0)
         
         # Draw correction text above the error
-        correction_text = f"→ {correction}"
+        correction_text = _sanitize_text_for_render(f"→ {correction}")
+        if not correction_text:
+            continue
         text_width = fitz.get_text_length(correction_text, fontname="hebo", fontsize=10)
         
         # White background for correction text
@@ -991,7 +1026,7 @@ def annotate_pdf_essay_pages(
         # LEFT MARGIN: Improvements
         cv2.putText(
             canvas,
-            f"Page {page_number} - Improvements",
+            _sanitize_text_for_render(f"Page {page_number} - Improvements"),
             (margin_px, y_offset + 60),
             cv2.FONT_HERSHEY_SIMPLEX,
             1.0,
