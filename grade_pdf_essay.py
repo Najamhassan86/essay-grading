@@ -74,6 +74,29 @@ except Exception as e:
     def _filter_errors(errors):
         return errors
 
+# Import PDF compression function from compressPdf.py
+try:
+    from compressPdf import compress_pdf_if_needed
+except (ImportError, ModuleNotFoundError):
+    try:
+        import sys
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("compressPdf", "compressPdf.py")
+        if spec and spec.loader:
+            compress_module = importlib.util.module_from_spec(spec)
+            sys.modules["compressPdf"] = compress_module
+            spec.loader.exec_module(compress_module)
+            compress_pdf_if_needed = compress_module.compress_pdf_if_needed
+        else:
+            def compress_pdf_if_needed(pdf_path, target_size_mb=10.0, **kwargs):
+                print(f"Warning: PDF compression module not available, skipping compression.")
+                return False
+    except Exception as e:
+        print(f"Warning: Could not import PDF compression module: {e}")
+        def compress_pdf_if_needed(pdf_path, target_size_mb=10.0, **kwargs):
+            print(f"Warning: PDF compression not available, skipping compression.")
+            return False
+
 
 # -----------------------------
 # Helpers
@@ -911,6 +934,43 @@ def call_grok_for_essay_structure_paragraphs_only(
     return merged
 
 
+def _parse_range(rng: str) -> Tuple[int, int]:
+    """
+    Parse a mark range string into (lo, hi).
+
+    Accepts:
+    - ASCII hyphen:        '6-8'
+    - En dash / em dash:   '6–8', '6—8'
+    - With spaces:         '6 – 8'
+    - 'to' as separator:   '6 to 8', '6   TO   8'
+
+    On any parse failure, returns (0, 0).
+    """
+    s = str(rng or "").strip()
+    if not s:
+        return 0, 0
+
+    # Normalise common separators to a simple hyphen
+    # U+2013 (EN DASH), U+2014 (EM DASH)
+    s = s.replace("–", "-").replace("—", "-")
+    # Replace textual 'to' with hyphen
+    s = re.sub(r"\bto\b", "-", s, flags=re.IGNORECASE)
+    # Collapse whitespace
+    s = re.sub(r"\s+", "", s)
+
+    parts = s.split("-")
+    if len(parts) != 2:
+        return 0, 0
+    try:
+        lo = int(parts[0])
+        hi = int(parts[1])
+    except Exception:
+        return 0, 0
+    if hi < lo:
+        lo, hi = hi, lo
+    return lo, hi
+
+
 def call_grok_for_essay_grading_strict_range(
     grok_api_key: str,
     essay_rubric_text: str,
@@ -1076,46 +1136,16 @@ def call_grok_for_essay_grading_strict_range(
             return False
         return True
 
-    def _parse_range(rng: str) -> Tuple[int, int]:
-        """
-        Parse a mark range string into (lo, hi).
-
-        Accepts:
-        - ASCII hyphen:        '6-8'
-        - En dash / em dash:   '6–8', '6—8'
-        - With spaces:         '6 – 8'
-        - 'to' as separator:   '6 to 8', '6   TO   8'
-
-        On any parse failure, returns (0, 0).
-        """
-        s = str(rng or "").strip()
-        if not s:
-            return 0, 0
-
-        # Normalise common separators to a simple hyphen
-        # U+2013 (EN DASH), U+2014 (EM DASH)
-        s = s.replace("–", "-").replace("—", "-")
-        # Replace textual 'to' with hyphen
-        s = re.sub(r"\bto\b", "-", s, flags=re.IGNORECASE)
-        # Collapse whitespace
-        s = re.sub(r"\s+", "", s)
-
-        parts = s.split("-")
-        if len(parts) != 2:
-            return 0, 0
-        try:
-            lo = int(parts[0])
-            hi = int(parts[1])
-        except Exception:
-            return 0, 0
-        if hi < lo:
-            lo, hi = hi, lo
-        return lo, hi
-
     def _enforce_range_rules(parsed: Dict[str, Any]) -> Dict[str, Any]:
+        """
+        Extract single values from ranges (prefer minimum, randomly mix min/max).
+        Calculate total from single values and create 4-point range: (total-2) to (total+2).
+        """
+        import random
+        
         crit_list = parsed.get("criteria") or []
-        sum_lo = 0
-        sum_hi = 0
+        single_values: List[int] = []
+        
         for c in crit_list:
             rng = c.get("marks_awarded_range", "0-0")
             lo, hi = _parse_range(rng)
@@ -1123,45 +1153,48 @@ def call_grok_for_essay_grading_strict_range(
                 hi = lo + 3
             lo = max(0, lo)
             hi = max(lo, hi)
+            
+            # Store the range for reference
             c["marks_awarded_range"] = f"{lo}-{hi}"
-            sum_lo += lo
-            sum_hi += hi
+            
+            # Extract single value: prefer minimum, but randomly choose max for some (30% chance)
+            # This avoids decimal points and adds some variation
+            use_max = random.random() < 0.5  # 50% chance to use maximum
+            single_value = hi if use_max else lo
+            single_values.append(single_value)
+            
+            # Store the single awarded mark
+            c["marks_awarded"] = single_value
 
-        # Hard cap: total upper bound should not exceed 45 (strict marking)
-        target_hi_total = 45
-        if sum_hi > target_hi_total and crit_list:
-            scale = target_hi_total / float(sum_hi)
-            new_sum_lo = 0
-            new_sum_hi = 0
-            scaled_ranges: List[Tuple[int, int]] = []
-
-            for c in crit_list:
+        # Calculate total from single values
+        total_points = sum(single_values)
+        
+        # Hard cap: total should not exceed 45 (strict marking)
+        # If total exceeds cap, scale down proportionally
+        target_max_total = 45
+        if total_points > target_max_total and crit_list:
+            scale = target_max_total / float(total_points)
+            scaled_values = []
+            for val in single_values:
+                scaled_val = max(0, int(round(val * scale)))
+                scaled_values.append(scaled_val)
+            total_points = sum(scaled_values)
+            
+            # Update criteria with scaled values
+            for c, scaled_val in zip(crit_list, scaled_values):
+                c["marks_awarded"] = scaled_val
+                # Also update the range to reflect the scaled value
                 lo, hi = _parse_range(c.get("marks_awarded_range", "0-0"))
-                slo = max(0, int(round(lo * scale)))
-                shi = max(slo, min(int(round(hi * scale)), slo + 3))
-                scaled_ranges.append((slo, shi))
-                new_sum_lo += slo
-                new_sum_hi += shi
+                if scaled_val == lo:
+                    c["marks_awarded_range"] = f"{scaled_val}-{min(scaled_val + 3, hi)}"
+                else:
+                    c["marks_awarded_range"] = f"{max(0, scaled_val - 3)}-{scaled_val}"
 
-            # If rounding still leaves us above the cap, reduce greedily
-            if new_sum_hi > target_hi_total:
-                excess = new_sum_hi - target_hi_total
-                idx = 0
-                while excess > 0 and scaled_ranges:
-                    i = idx % len(scaled_ranges)
-                    lo, hi = scaled_ranges[i]
-                    if hi > lo:
-                        scaled_ranges[i] = (lo, hi - 1)
-                        excess -= 1
-                    idx += 1
-                new_sum_hi = target_hi_total
-                new_sum_lo = sum(r[0] for r in scaled_ranges)
-
-            for c, (slo, shi) in zip(crit_list, scaled_ranges):
-                c["marks_awarded_range"] = f"{slo}-{shi}"
-            sum_lo, sum_hi = new_sum_lo, new_sum_hi
-
-        parsed["total_awarded_range"] = f"{sum_lo}-{sum_hi}"
+        # Create total range: (total - 2) to (total + 2) = 4 point range
+        total_lo = max(0, total_points - 2)
+        total_hi = min(100, total_points + 2)  # Cap at 100
+        parsed["total_awarded_range"] = f"{total_lo}-{total_hi}"
+        
         return parsed
 
     last_err: Optional[Exception] = None
@@ -1567,7 +1600,7 @@ def render_essay_report_pages_range(
         header_fill = (100, 100, 100)
         alt_fill = (200, 200, 200)
 
-        headers = ["Criterion", "Total Marks", "Marks Range", "Key Comments"]
+        headers = ["Criterion", "Total Marks", "Marks Awarded", "Key Comments"]
         if not ensure_space(row_h_base + int(20 * scale)):
             return False, None
         draw.rectangle([table_x, y, table_x + table_w, y + row_h_base], fill=header_fill, outline=(0, 0, 0), width=3)
@@ -1586,7 +1619,14 @@ def render_essay_report_pages_range(
         for idx_row, c in enumerate(crit_list):
             crit = c.get("criterion", "")
             alloc = str(c.get("marks_allocated", ""))
-            award_range = str(c.get("marks_awarded_range", "0-0"))
+            # Use single awarded mark instead of range
+            marks_awarded = c.get("marks_awarded")
+            if marks_awarded is None:
+                # Fallback: extract from range if marks_awarded not set
+                rng = c.get("marks_awarded_range", "0-0")
+                lo, hi = _parse_range(rng)
+                marks_awarded = lo  # Use minimum as fallback
+            award_display = str(marks_awarded)
             rating = str(c.get("rating", ""))
             comments = str(c.get("key_comments", ""))
 
@@ -1656,7 +1696,7 @@ def render_essay_report_pages_range(
             x += col_alloc
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
-            draw.text((x + int(10 * scale), y + int(12 * scale)), award_range, font=header_font, fill=(0, 0, 0))
+            draw.text((x + int(10 * scale), y + int(12 * scale)), award_display, font=header_font, fill=(0, 0, 0))
             x += col_award
             draw.line([x, y, x, y + row_h], fill=(0, 0, 0), width=2)
 
@@ -2080,6 +2120,21 @@ def main():
     timings["Rendering"] = time.perf_counter() - t0
     print(f"Rendering done. Time: {_format_duration(timings['Rendering'])}")
     print(f"Saved annotated PDF  {args.output_pdf}")
+
+    # Post-process: Compress PDF if file size >= 10MB
+    print("\nChecking PDF file size for compression...")
+    t_compress = time.perf_counter()
+    compression_performed = compress_pdf_if_needed(
+        pdf_path=args.output_pdf,
+        target_size_mb=10.0,
+        max_quality=75,
+        max_dimension=2000,
+    )
+    timings["PDF Compression"] = time.perf_counter() - t_compress
+    if compression_performed:
+        print(f"PDF compression completed. Time: {_format_duration(timings['PDF Compression'])}")
+    else:
+        print(f"PDF compression not needed or skipped. Time: {_format_duration(timings['PDF Compression'])}")
 
     total_elapsed = time.perf_counter() - total_start
     print("")
